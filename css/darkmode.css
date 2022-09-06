@@ -1,0 +1,162 @@
+:root{
+	--text: #cbcbcb;
+	--textDark: #424242;
+	--bgLight: #5c5c5c;
+	--bgDark: #404040;
+	--mostDark: #1a1a1a;
+}
+
+body {
+	background-color: black;
+}
+
+
+#main {
+	background-image: url("../images/bg3.png");
+}
+
+
+#leftSide {
+	background-image: url(../images/bg4.png);
+}
+
+#leftSide::-webkit-scrollbar-track {
+  background: var(--mostDark);
+}
+ 
+#leftSide::-webkit-scrollbar-thumb {
+  background: var(--bgDark);
+}
+
+#leftSide::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}
+
+#exportImportZone {
+	background-color: var(--bgDark);
+	color: var(--text);
+}
+
+
+#news li:not(#news li:first-child) {
+	color : var(--textDark);
+}
+
+
+#search {
+	color: var(--text);
+	background-color: var(--bgDark);
+}
+
+#search::placeholder {
+	color: var(--text);
+}
+
+
+.buttonGroupTitle,
+.buttonGroupTitle::before,
+.buttonGroupTitle::after {
+	background-color: #364656;
+}
+
+#filters .btn,
+#options .btn {
+	border-color: #585858;
+	background: linear-gradient(#4c4c4c, var(--bgDark));
+	color: var(--text);
+	box-shadow: 1px 1px 3px #000000;;
+}
+
+#filters .btn:active,
+#options .btn:active {
+	color: var(--bgDark);
+}
+
+.selectedFilter,
+.selectedOption {
+	color: var(--bgDark) !important;
+}
+
+
+#linkTool {
+	color: var(--text);
+}
+
+#credits {
+	color: var(--text);
+}
+
+#credits a {
+	color: #48899A;
+}
+
+
+#btnDarkMode {
+	background-image: url("../images/darkmode.png");
+}
+#btnDarkMode:hover {
+	background-image: url("../images/darkmode2.png");
+}
+
+
+#rightSide {
+	background-image: url(../images/bg3.png);
+}
+
+#counter,
+#counter::before,
+#counter::after {
+	background-color: var(--mostDark);
+}
+
+#filtersUsed {
+	color: var(--text);
+}
+
+#filtersUsed span {
+	background-color: rgb(12 12 12 / 42%);
+}
+
+
+#syncPairs {
+	background-color: rgb(12 12 12 / 42%);
+}
+
+.syncPair {
+	opacity: 0.1;
+}
+.selected {
+    opacity: 1;
+}
+
+.syncInfos {
+	color: #bfbfbf;
+	border-color: var(--bgLight);
+	background-color: var(--bgLight);
+	background-image: url(../images/bg3.png);
+}
+
+.infoDexNum {
+	color: white;
+	border-color: var(--bgLight);
+	background-color: var(--bgLight);
+}
+
+.infoPokemonNum {
+	border-color: var(--bgLight);
+}
+
+
+#screenshot {
+	color: var(--text);
+}
+
+#screenshot canvas,
+#screenshot img {
+	border-color: var(--text);
+}
+
+@media only screen and (max-width: 1024px) {
+
+	body { background-image: url(../images/bg3.png); }
+}
