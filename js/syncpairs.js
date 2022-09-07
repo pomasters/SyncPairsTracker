@@ -17,7 +17,11 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-02b-02_Venasaur.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0A-02a-02_Venasaur.png"
+			"Sync Pairs/4Star/00_PASIO_0A-02b-02_Venasaur_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-02b-02_Venasaur_5Star.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0A-02a-02_Venasaur.png",
+			"Sync Pairs/4Star/00_PASIO_0A-02a-02_Venasaur_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-02a-02_Venasaur_5Star.png"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -40,7 +44,11 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-03b-02_Charizard.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0A-03a-02_Charizard.png"
+			"Sync Pairs/4Star/00_PASIO_0A-03b-02_Charizard_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-03b-02_Charizard_5Star.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0A-03a-02_Charizard.png",
+			"Sync Pairs/4Star/00_PASIO_0A-03a-02_Charizard_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-03a-02_Charizard_5Star.png",
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -63,7 +71,11 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-04b-02_Blastoise.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0A-04a-02_Blastoise.png"
+			"Sync Pairs/4Star/00_PASIO_0A-04b-02_Blastoise_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-04b-02_Blastoise_5Star.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0A-04a-02_Blastoise.png",
+			"Sync Pairs/4Star/00_PASIO_0A-04a-02_Blastoise_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-04a-02_Blastoise_5Star.png"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -86,7 +98,11 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-01a_Pikachu.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0A-01b_Pikachu.png"
+			"Sync Pairs/4Star/00_PASIO_0A-01a_Pikachu_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-01a_Pikachu_5Star.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0A-01b_Pikachu.png",
+			"Sync Pairs/4Star/00_PASIO_0A-01b_Pikachu_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0A-01b_Pikachu_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -109,7 +125,11 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0B-01b_Torchic.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0B-01a_Torchic.png"
+			"Sync Pairs/4Star/00_PASIO_0B-01b_Torchic_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0B-01b_Torchic_5Star.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0B-01a_Torchic.png",
+			"Sync Pairs/4Star/00_PASIO_0B-01a_Torchic_4Star.png",
+			"Sync Pairs/5Star/00_PASIO_0B-01a_Torchic_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -223,7 +243,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_Brock.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_Brock.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-01_Brock_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-01_Brock_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -247,6 +269,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_SSBrock.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-01_SSBrock_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-01_SSBrock_5Star.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_SSBrock_EX.png"
 		],
 		"tags": [
@@ -270,7 +294,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_Misty.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_Misty.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-02_Misty_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-02_Misty_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -294,6 +320,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02b_SwimsuitMisty.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-02b_SwimsuitMisty_5Star.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02b_SwimsuitMisty_EX.png"
 		],
 		"tags": [
@@ -341,7 +368,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-03a_LtSurge_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-03a_LtSurge_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -364,7 +393,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/05/27",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-03b_LtSurge_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -388,6 +418,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04a_Erika.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-04a_Erika_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-04a_Erika_5Star.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04a_Erika_EX.png"
 		],
 		"tags": [
@@ -436,7 +468,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/05/27",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-04b_Erika_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -484,7 +517,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-07_Blaine.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-07_Blaine.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-07_Blaine_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -507,7 +541,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png",
+			"Sync Pairs/5Star/0A_KANTO_0C-01_Lorelei_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -529,7 +564,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png",
+			"Sync Pairs/5Star/0A_KANTO_0C-02_Bruno_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -551,7 +587,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png",
+			"Sync Pairs/5Star/0A_KANTO_0C-03_Agatha_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -623,7 +660,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png",
+			"Sync Pairs/4Star/0B_JOHTO_0B-02_Bugsy_4Star.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-02_Bugsy_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -646,7 +685,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/07/22",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-02-EP_Bugsy_5Star.png"
 		],
 		"tags": [
 			"Limited Event",
@@ -669,7 +709,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-03_Whitney.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-03_Whitney.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-03_Whitney_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout First-time Scout (Until 2.21.0 update)",
@@ -692,6 +733,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-07_Pryce.png",
+			"Sync Pairs/4Star/0B_JOHTO_0B-07_Pryce_4Star.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-07_Pryce_5Star.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-07_Pryce_EX.png"
 		],
 		"tags": [
@@ -714,7 +757,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-08_Clair.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-08_Clair.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-08_Clair_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -736,7 +780,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Janine.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Janine.png",
+			"Sync Pairs/4Star/0A_KANTO_0B-05_Janine_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-05_Janine_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -759,7 +805,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/28",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-05_BP_Janine_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -782,7 +829,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-01_Will.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-01_Will.png",
+			"Sync Pairs/5Star/0B_JOHTO_0C-01_Will_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -828,7 +876,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/05/27",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png",
+			"Sync Pairs/5Star/0B_JOHTO_0C-04-BP_Karen_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -900,7 +949,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-01_Roxanne_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-01_Roxanne_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -922,7 +973,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-02_Brawly.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-02_Brawly.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-02_Brawly_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-02_Brawly_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -944,7 +997,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-04_Flannery.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-04_Flannery.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-04_Flannery_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-04_Flannery_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -966,7 +1021,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-05_Norman.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-05_Norman.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-05_Norman_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-05_Norman_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -988,7 +1045,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-06_Winona.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-06_Winona.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-06_Winona_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-06_Winona_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1011,7 +1070,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-1_Tate.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-1_Tate.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-07-1_Tate_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-07-1_Tate_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1033,7 +1094,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-2_Liza.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-2_Liza.png",
+			"Sync Pairs/4Star/0C_HOENN_0B-07-2_Liza_4Star.png",
+			"Sync Pairs/5Star/0C_HOENN_0B-07-2_Liza_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1079,6 +1142,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake.png",
+			"Sync Pairs/5Star/0C_HOENN_0C-04_Drake_5Star.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake_EX.png"
 		],
 		"tags": [
@@ -1101,7 +1165,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png",
+			"Sync Pairs/5Star/0C_HOENN_0E-01_Noland_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1125,6 +1190,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03_Barry.png",
+			"Sync Pairs/4Star/0D_SINNOH_0A-03_Barry_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0A-03_Barry_5Star.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03_Barry_EX.png"
 		],
 		"tags": [
@@ -1147,7 +1214,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png",
+			"Sync Pairs/4Star/0D_SINNOH_0B-01_Roark_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-01_Roark_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1169,7 +1238,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-02_Gardenia_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1192,7 +1262,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-03_Maylene.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-03_Maylene.png",
+			"Sync Pairs/4Star/0D_SINNOH_0B-03_Maylene_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-03_Maylene_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1214,7 +1286,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-04_CrasherWake.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-04_CrasherWake.png",
+			"Sync Pairs/4Star/0D_SINNOH_0B-04_CrasherWake_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-04_CrasherWake_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1237,6 +1311,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice.png",
+			"Sync Pairs/4Star/0D_SINNOH_0B-07_Candice_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-07_Candice_5Star.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice_EX.png"
 		],
 		"tags": [
@@ -1261,7 +1337,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/28",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png",
+			"Sync Pairs/5Star/0D_SINNOH_0B-07_BP_Candice_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -1285,7 +1362,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png",
+			"Sync Pairs/5Star/0D_SINNOH_0C-03_Flint_5Star.png",
 		],
 		"tags": [
 			"Story",
@@ -1308,6 +1386,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton.png",
+			"Sync Pairs/5Star/0D_SINNOH_0E-01_Thorton_5Star.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton_EX.png"
 		],
 		"tags": [
@@ -1330,7 +1409,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-02_Cheryl.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-02_Cheryl.png",
+			"Sync Pairs/4Star/0D_SINNOH_0E-02_Cheryl_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0E-02_Cheryl_5Star.png",
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1352,7 +1433,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png",
+			"Sync Pairs/4Star/0D_SINNOH_0E-03_Marley_4Star.png",
+			"Sync Pairs/5Star/0D_SINNOH_0E-03_Marley_5Star.png",
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1424,7 +1507,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_BP_Rosa.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_BP_Rosa.png",
+			"Sync Pairs/5Star/0E_UNOVA_0A-06_BP_Rosa_5Star.png",
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -1472,7 +1556,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-05_Clay.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-05_Clay.png",
+			"Sync Pairs/4Star/0E_UNOVA_0B-05_Clay_4Star.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-05_Clay_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1495,6 +1581,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-06_Skyla.png",
+			"Sync Pairs/4Star/0E_UNOVA_0B-06_Skyla_4Star.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-06_Skyla_5Star.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-06_Skyla_EX.png"
 		],
 		"tags": [
@@ -1570,7 +1658,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-07_Brycen.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-07_Brycen.png",
+			"Sync Pairs/4Star/0E_UNOVA_0B-07_Brycen_4Star.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-07_Brycen_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1593,6 +1683,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01_Iris.png",
+			"Sync Pairs/4Star/0E_UNOVA_0C-01_Iris_4Star.png",
+			"Sync Pairs/5Star/0E_UNOVA_0C-01_Iris_5Star.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01_Iris_EX.png"
 		],
 		"tags": [
@@ -1641,7 +1733,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-09_Roxie_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1664,7 +1757,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-10_Marlon.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-10_Marlon.png",
+			"Sync Pairs/4Star/0E_UNOVA_0B-10_Marlon_4Star.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-10_Marlon_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1686,7 +1781,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
+			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1708,7 +1804,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-03_Marshal.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-03_Marshal.png",
+			"Sync Pairs/5Star/0E_UNOVA_0C-03_Marshal_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1731,7 +1828,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-02_Grant.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-02_Grant.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-02_Grant_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1754,6 +1852,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_Korrina.png",
+			"Sync Pairs/4Star/0F_KALOS_0B-03_Korrina_4Star.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-03_Korrina_5Star.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_Korrina_EX.png"
 		],
 		"tags": [
@@ -1802,7 +1902,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-04_Ramos.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-04_Ramos.png",
+			"Sync Pairs/4Star/0F_KALOS_0B-04_Ramos_4Star.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-04_Ramos_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1824,7 +1926,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-08_Wulfric.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-08_Wulfric.png",
+			"Sync Pairs/4Star/0F_KALOS_0B-08_Wulfric_4Star.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-08_Wulfric_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1847,6 +1951,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold.png",
+			"Sync Pairs/5Star/0F_KALOS_0C-02_Siebold_5Star.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold_EX.png"
 		],
 		"tags": [
@@ -1896,7 +2001,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0C-03_Wikstrom.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0C-03_Wikstrom.png",
+			"Sync Pairs/5Star/0F_KALOS_0C-03_Wikstrom_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1919,6 +2025,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_Hau.png",
+			"Sync Pairs/5Star/0G_ALOLA_0A-03_Hau_5Star.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_Hau_EX.png"
 		],
 		"tags": [
@@ -1941,7 +2048,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png",
+			"Sync Pairs/5Star/0G_ALOLA_0B-05_Sophocles_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -1964,7 +2072,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/28",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png",
+			"Sync Pairs/5Star/0G_ALOLA_0B-05_BP_Sophocles_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -1987,7 +2096,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png",
+			"Sync Pairs/4Star/0G_ALOLA_0B-07_Mina_4Star.png",
+			"Sync Pairs/5Star/0G_ALOLA_0B-07_Mina_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -2033,6 +2144,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-11_Hapu.png",
+			"Sync Pairs/4Star/0G_ALOLA_0B-11_Hapu_4Star.png",
+			"Sync Pairs/5Star/0G_ALOLA_0B-11_Hapu_5Star.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-11_Hapu_EX.png"
 		],
 		"tags": [
@@ -2055,7 +2168,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_Kahili.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_Kahili.png",
+			"Sync Pairs/5Star/0G_ALOLA_0C-04_Kahili_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -2077,7 +2191,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-01_Viola_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -2099,7 +2214,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-10_Nanu.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-10_Nanu.png",
+			"Sync Pairs/5Star/0G_ALOLA_0B-10_Nanu_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -2121,7 +2237,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/08/29",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Koga.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Koga.png",
+			"Sync Pairs/5Star/0A_KANTO_0B-05_Koga_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -2290,6 +2407,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02-EP_Blue.png",
+			"Sync Pairs/5Star/0A_KANTO_0A-02-EP_Blue_5Star.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02-EP_Blue_EX.png"
 		],
 		"tags": [
@@ -2313,7 +2431,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BP_Blue.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BP_Blue.png",
+			"Sync Pairs/5Star/0A_KANTO_0A-02_BP_Blue_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -2825,6 +2944,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01-EP_Giovanni.png",
+			"Sync Pairs/5Star/0A_KANTO_0D-01-EP_Giovanni_5Star.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01-EP_Giovanni_EX.png"
 		],
 		"tags": [
@@ -3073,7 +3193,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_BP_Cynthia.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_BP_Cynthia.png",
+			"Sync Pairs/5Star/0D_SINNOH_0C-05_BP_Cynthia_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -3170,7 +3291,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/05/27",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png",
+			"Sync Pairs/5Star/0C_HOENN_0E-04-BP_Zinnia_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -3302,7 +3424,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/02/14",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png",
+			"Sync Pairs/4Star/0A_KANTO_0E-01_ProfOak_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0E-01_ProfOak_5Star.png"
 		],
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
@@ -3324,7 +3448,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/02/25",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-06_Valerie_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -3591,7 +3716,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/28",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png",
+			"Sync Pairs/5Star/0F_KALOS_0B-05_BP_Clemont_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -3662,7 +3788,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_BP_Silver.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_BP_Silver.png",
+			"Sync Pairs/5Star/0B_JOHTO_0A-04_BP_Silver_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -3954,7 +4081,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/07/09",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0D-02_Jessie.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0D-02_Jessie.png",
+			"Sync Pairs/4Star/0A_KANTO_0D-02_Jessie_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0D-02_Jessie_5Star.png"
 		],
 		"tags": [
 			"Limited Event",
@@ -3976,7 +4105,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/07/10",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0E-02_Lucy.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0E-02_Lucy.png",
+			"Sync Pairs/5Star/0C_HOENN_0E-02_Lucy_5Star.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -4022,7 +4152,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/05/27",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-04-BP_Morty_5Star.png"
 		],
 		"tags": [
 			"Battle Points",
@@ -4319,7 +4450,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_BP_Lillie.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_BP_Lillie.png",
+			"Sync Pairs/5Star/0G_ALOLA_0A-04_BP_Lillie_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -4342,7 +4474,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/09/17",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0D-03_James.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0D-03_James.png",
+			"Sync Pairs/4Star/0A_KANTO_0D-03_James_4Star.png",
+			"Sync Pairs/5Star/0A_KANTO_0D-03_James_5Star.png"
 		],
 		"tags": [
 			"Limited Event",
@@ -4415,7 +4549,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020/10/08",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-05_Molayne.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-05_Molayne.png",
+			"Sync Pairs/5Star/0G_ALOLA_0C-05_Molayne_5Star.png"
 		],
 		"tags": [
 			"Story",
@@ -4682,7 +4817,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_BP_N.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_BP_N.png",
+			"Sync Pairs/5Star/0E_UNOVA_0E-03_BP_N_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -4808,7 +4944,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_BP_May.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_BP_May.png",
+			"Sync Pairs/5Star/0C_HOENN_0A-02_BP_May_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -4901,7 +5038,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_BP_ProfSycamore.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_BP_ProfSycamore.png",
+			"Sync Pairs/5Star/0F_KALOS_0F-01_BP_ProfSycamore_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -5098,7 +5236,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/08/25",
 		"syncPairRegion": "8Galar",
 		"images": [
-			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_BP_Marnie.png"
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_BP_Marnie.png",
+			"Sync Pairs/5Star/0H_GALAR_0A-04_BP_Marnie_5Star.png"
 		],
 		"tags": [
 			"Trainer Lodge",
@@ -5684,7 +5823,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/07/30",
 		"syncPairRegion": "0Pasio",
 		"images": [
-			"Sync Pairs/00_PASIO/00_PASIO_0E-02_Rachel.png"
+			"Sync Pairs/00_PASIO/00_PASIO_0E-02_Rachel.png",
+			"Sync Pairs/5Star/00_PASIO_0E-02_Rachel_5Star.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -5707,7 +5847,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021/07/30",
 		"syncPairRegion": "0Pasio",
 		"images": [
-			"Sync Pairs/00_PASIO/00_PASIO_0E-03_Sawyer.png"
+			"Sync Pairs/00_PASIO/00_PASIO_0E-03_Sawyer.png",
+			"Sync Pairs/5Star/00_PASIO_0E-03_Sawyer_5Star.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout PML Arc Conclusion Special Missions",
@@ -6108,7 +6249,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022/09/15",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0X-01_Naomi.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0X-01_Naomi.png",
+			"Sync Pairs/4Star/0G_ALOLA_0X-01_Naomi_4Star.png",
+			"Sync Pairs/5Star/0G_ALOLA_0X-01_Naomi_5Star.png"
 		],
 		"tags": [
 			"Limited Event",
