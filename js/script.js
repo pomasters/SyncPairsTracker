@@ -349,7 +349,6 @@ function takeScreenshot() {
 	if(document.getElementsByClassName("selectedFilter").length > 0) {
 		document.getElementById("counterSelected").classList.add("hide");
 	}
-	
 
 	html2canvas(document.getElementById('rightSide'),{
 			backgroundColor:null,

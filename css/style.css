@@ -556,11 +556,23 @@ input:focus { outline: 0; }
 #linkTool {
 	color: var(--blue2);
 	margin: 0;
-	text-align: end;
 	font-family: monospace;
 	font-size: 12px;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+}
+
+#linkTool span:first-child {
+	position: relative;
+	left: 0;
+	margin-right: auto;
+}
+
+#linkTool span:last-child {
+	position: relative;
+	right: 0;
+	margin-left: auto;
 }
 
 
