@@ -155,6 +155,15 @@ function select(syncpair) {
 function unselect(syncpair) {
 	syncpair.classList.remove("selected");
 
+	Array.from(syncpair.querySelector(".syncLevel").children).forEach(c => c.classList.remove("currentImage"));
+	Array.from(syncpair.querySelector(".syncImages").children).forEach(c => c.classList.remove("currentImage"));
+
+	syncpair.querySelector(".syncLevel").children[0].classList.add("currentImage");
+	syncpair.querySelector(".syncImages").children[0].classList.add("currentImage");
+
+	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
+	syncpair.querySelector(".syncImages").dataset.currentimage = "0";
+
 	var keySyncPairStorage = syncpair.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + syncpair.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 
 	localStorage.removeItem(keySyncPairStorage);
