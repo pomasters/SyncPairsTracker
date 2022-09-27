@@ -1795,6 +1795,34 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "043",
+		"trainerName": "Iris",
+		"trainerAlt": "Fall 2022",
+		"pokemonNumber": "0804",
+		"pokemonName": "Naganadel",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/10/17",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Seasonal",
+			"Wish Zone",
+			"Gym Leader",
+			"Champion"
+		]
+	},
+	{
 		"dexNumber": "044",
 		"trainerName": "Roxie",
 		"trainerAlt": "",
@@ -2926,7 +2954,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019/11/14",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia_EX.png"
 		],
 		"tags": [
 			"Sync Pair Scout",
@@ -3985,6 +4014,36 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"isMan",
 			"Rival"
+		]
+	},
+	{
+		"dexNumber": "092",
+		"trainerName": "Wally",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0282",
+		"pokemonName": "Gardevoir",
+		"pokemonGender": "♂",
+		"pokemonForm": ["Mega Evolution"],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/09/28",
+		"syncPairRegion": "3Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally_EX.png"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Mega Evolution",
+			"Multiple Units",
+			"Poké Fair",
+			"Wish Zone",
+			"Rival",
+			"Shiny"
 		]
 	},
 	{
@@ -5637,6 +5696,33 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "123",
+		"trainerName": "Raihan",
+		"trainerAlt": "",
+		"pokemonNumber": "0526",
+		"pokemonName": "Gigalith",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Support",
+		"syncPairRarity": "★★★★",
+		"releaseDate": "2022/10/01",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan.png",
+			"Sync Pairs/5Star/0H_GALAR_0B-08_TL_Raihan_5Star.png"
+		],
+		"tags": [
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Trainer Lodge",
+			"Weather",
+			"Gym Leader"
+		]
+	},
+	{
 		"dexNumber": "124",
 		"trainerName": "Ghetsis",
 		"trainerAlt": "",
@@ -6207,6 +6293,32 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "142",
+		"trainerName": "Allister",
+		"trainerAlt": "Fall 2022",
+		"pokemonNumber": "0711",
+		"pokemonName": "Gourgeist",
+		"pokemonGender": "♂",
+		"pokemonForm": ["Super Size"],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/10/19",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister_EX.png"
+		],
+		"tags": [
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Seasonal",
+			"Gym Leader"
+		]
+	},
+	{
 		"dexNumber": "143",
 		"trainerName": "Darach",
 		"trainerAlt": "",
@@ -6525,6 +6637,107 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Event",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "155",
+		"trainerName": "Gordie",
+		"trainerAlt": "",
+		"pokemonNumber": "0839",
+		"pokemonName": "Coalossal",
+		"pokemonGender": "♂",
+		"pokemonForm": ["Dynamax", "Gigantamax"],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/10/03",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie_EX.png"
+		],
+		"tags": [
+			"Dynamax",
+			"isMan",
+			"Sync Pair Scout",
+			"Gym Leader"
+		]
+	},
+	{
+		"dexNumber": "156",
+		"trainerName": "Melony",
+		"trainerAlt": "",
+		"pokemonNumber": "0131",
+		"pokemonName": "Lapras",
+		"pokemonGender": "♀",
+		"pokemonForm": ["Dynamax", "Gigantamax"],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/10/05",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony_EX.png"
+		],
+		"tags": [
+			"Dynamax",
+			"isWoman",
+			"Sync Pair Scout",
+			"Gym Leader"
+		]
+	},
+	{
+		"dexNumber": "157",
+		"trainerName": "Victor",
+		"trainerAlt": "",
+		"pokemonNumber": "0812",
+		"pokemonName": "Rillaboom",
+		"pokemonGender": "♂",
+		"pokemonForm": ["Dynamax", "Gigantamax"],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "★★★★★☆",
+		"releaseDate": "2022/10/07",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor_EX.png"
+		],
+		"tags": [
+			"Dynamax",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Main Character"
+		]
+	},
+	{
+		"dexNumber": "158",
+		"trainerName": "Helena",
+		"trainerAlt": "Hex Maniac",
+		"pokemonNumber": "0093",
+		"pokemonName": "Haunter",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "★★★",
+		"releaseDate": "2022/10/17",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0X-01_Helena.png",
+			"Sync Pairs/4Star/0F_KALOS_0X-01_Helena_4Star.png",
+			"Sync Pairs/5Star/0F_KALOS_0X-01_Helena_5Star.png"
+		],
+		"tags": [
+			"Event",
+			"isWoman",
+			"Limited Sync Pair Scout"
 		]
 	}
 	/*,
