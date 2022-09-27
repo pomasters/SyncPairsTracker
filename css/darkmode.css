@@ -59,8 +59,19 @@ body {
 	background-color: #364656;
 }
 
+#options {
+	background-image: url("../images/bg4.png");
+	border-bottom: 3px solid #364656;
+}
+
+.sortingSticky {
+	background-image: url(../images/bg4.png);
+	border-bottom: 3px solid #364656;
+}
+
 #filters .btn,
-#options .btn {
+#options .btn,
+#sorting .btn {
 	border-color: #585858;
 	background: linear-gradient(#4c4c4c, var(--bgDark));
 	color: var(--text);
@@ -68,7 +79,8 @@ body {
 }
 
 #filters .btn:active,
-#options .btn:active {
+#options .btn:active,
+#sorting .btn:active {
 	color: var(--bgDark);
 }
 
@@ -159,4 +171,8 @@ body {
 @media only screen and (max-width: 1024px) {
 
 	body { background-image: url(../images/bg3.png); }
+	#options {
+		background-image: none;
+		border-bottom: none;
+	}
 }

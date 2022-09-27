@@ -25,7 +25,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Main Character"
 		]
 	},
 	{
@@ -52,7 +53,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Main Character"
 		]
 	},
 	{
@@ -79,7 +81,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Main Character"
 		]
 	},
 	{
@@ -106,7 +109,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"Multiple Units"
+			"Multiple Units",
+			"Main Character"
 		]
 	},
 	{
@@ -133,7 +137,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"Multiple Units"
+			"Multiple Units",
+			"Main Character"
 		]
 	},
 	{
@@ -156,7 +161,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary Adventures",
-			"Multiple Units"
+			"Multiple Units",
+			"Legendary",
+			"Main Character"
 		]
 	},
 	{
@@ -179,7 +186,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Battle Points",
-			"Multiple Units"
+			"Multiple Units",
+			"Legendary",
+			"Main Character"
 		]
 	},
 	{
@@ -202,7 +211,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Battle Points",
-			"Multiple Units"
+			"Multiple Units",
+			"Legendary",
+			"Main Character"
 		]
 	},
 	{
@@ -225,7 +236,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Battle Points",
-			"Multiple Units"
+			"Multiple Units",
+			"Legendary",
+			"Main Character"
 		]
 	},
 	{
@@ -250,7 +263,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -276,7 +290,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -301,7 +316,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -326,7 +342,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Event",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -350,7 +367,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -375,7 +393,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -399,7 +418,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -425,7 +445,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -450,7 +471,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -474,7 +496,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -499,7 +522,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -523,7 +547,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -546,7 +571,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -569,7 +595,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -592,7 +619,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -616,7 +644,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -642,7 +671,9 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -667,7 +698,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -691,7 +723,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Event",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -714,7 +747,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout First-time Scout (Until 2.21.0 update)",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -739,7 +773,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -762,7 +797,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -787,7 +823,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"Gym Leader"
 		]
 	},
 	{
@@ -811,7 +848,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -834,7 +872,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -858,7 +897,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -882,7 +922,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -906,7 +947,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -931,7 +973,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -955,7 +999,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -979,7 +1024,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1003,7 +1049,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1027,7 +1074,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1052,7 +1100,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1076,7 +1125,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1100,7 +1150,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1123,7 +1174,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -1147,7 +1199,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -1196,7 +1249,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Rival"
 		]
 	},
 	{
@@ -1220,7 +1274,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1244,7 +1299,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1268,7 +1324,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1292,7 +1349,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1319,7 +1377,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"isWoman",
 			"Multiple Units",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1344,7 +1403,8 @@ export const SYNCPAIRS = [
 			"Battle Points",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1367,7 +1427,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -1463,7 +1524,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -1489,7 +1551,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Main Character"
 		]
 	},
 	{
@@ -1513,7 +1576,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -1538,7 +1602,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Mythical"
 		]
 	},
 	{
@@ -1562,7 +1628,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1588,7 +1655,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1613,7 +1681,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1640,7 +1709,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Gym Leader",
+			"Legendary"
 		]
 	},
 	{
@@ -1664,7 +1735,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1690,7 +1762,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader",
+			"Champion"
 		]
 	},
 	{
@@ -1715,7 +1789,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader",
+			"Champion"
 		]
 	},
 	{
@@ -1739,7 +1815,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1763,7 +1840,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1786,7 +1864,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -1810,7 +1889,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Story",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -1833,7 +1913,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1859,7 +1940,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1884,7 +1966,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader",
+			"Mythical"
 		]
 	},
 	{
@@ -1908,7 +1992,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1932,7 +2017,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -1958,7 +2044,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"Story",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -1983,7 +2070,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -2006,7 +2094,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -2030,7 +2119,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Rival"
 		]
 	},
 	{
@@ -2125,7 +2215,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2173,7 +2264,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2196,7 +2288,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -2242,7 +2335,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Gym Leader",
+			"Elite Four"
 		]
 	},
 	{
@@ -2266,7 +2361,8 @@ export const SYNCPAIRS = [
 			"Story",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Elite Four"
 		]
 	},
 	{
@@ -2291,7 +2387,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2313,7 +2410,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Gym Leader"
 		]
 	},
 	{
@@ -2337,7 +2436,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout First-time Scout (Since 2.21.0 update)",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Champion"
 		]
 	},
 	{
@@ -2363,7 +2464,9 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Champion"
 		]
 	},
 	{
@@ -2388,7 +2491,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Champion"
 		]
 	},
 	{
@@ -2413,7 +2518,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Event",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Champion"
 		]
 	},
 	{
@@ -2437,7 +2544,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Champion"
 		]
 	},
 	{
@@ -2462,7 +2571,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Main Character"
 		]
 	},
 	{
@@ -2487,7 +2597,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -2513,7 +2624,9 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"isWoman",
-			"Terrain"
+			"Terrain",
+			"Main Character",
+			"Mythical"
 		]
 	},
 	{
@@ -2537,7 +2650,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -2562,7 +2676,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -2586,7 +2701,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -2611,7 +2727,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Mythical"
 		]
 	},
 	{
@@ -2636,7 +2754,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+            "Shiny"
 		]
 	},
 	{
@@ -2660,7 +2780,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -2684,7 +2805,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -2710,7 +2832,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Terrain"
+			"Terrain",
+			"Gym Leader"
 		]
 	},
 	{
@@ -2734,7 +2857,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2759,7 +2883,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2782,7 +2907,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -2804,7 +2930,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Elite Four"
 		]
 	},
 	{
@@ -2828,7 +2955,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -2852,7 +2980,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -2876,7 +3005,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -2900,7 +3030,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary Adventures",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -2925,7 +3056,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -2950,7 +3082,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Event",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -2974,7 +3107,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -2999,7 +3133,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -3023,7 +3159,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -3049,7 +3186,8 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -3074,7 +3212,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Elite Four",
+			"Champion"
 		]
 	},
 	{
@@ -3099,7 +3239,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion"
 		]
 	},
 	{
@@ -3124,7 +3265,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Champion"
 		]
 	},
 	{
@@ -3149,7 +3291,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Champion"
 		]
 	},
 	{
@@ -3175,7 +3318,9 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Champion",
+			"Legendary"
 		]
 	},
 	{
@@ -3200,7 +3345,8 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman",
-			"Limited"
+			"Limited",
+			"Champion"
 		]
 	},
 	{
@@ -3227,7 +3373,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Buddy Move",
-			"Wish Zone"
+			"Wish Zone",
+			"Champion"
 		]
 	},
 	{
@@ -3322,7 +3469,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion"
 		]
 	},
 	{
@@ -3348,7 +3496,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Champion"
 		]
 	},
 	{
@@ -3374,7 +3523,10 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Master Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion",
+			"Legendary",
+			"Shiny"
 		]
 	},
 	{
@@ -3393,20 +3545,16 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA_EX.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenB.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenB_EX.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenC.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenC_EX.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenD.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenD_EX.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA_EX.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Terrain"
+			"Terrain",
+			"Champion",
+			"Mythical"
 		]
 	},
 	{
@@ -3430,7 +3578,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
-			"isMan"
+			"isMan",
+			"Mythical"
 		]
 	},
 	{
@@ -3453,7 +3602,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3479,7 +3629,8 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -3504,7 +3655,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -3531,7 +3683,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Buddy Move",
-			"Terrain"
+			"Terrain",
+			"Main Character"
 		]
 	},
 	{
@@ -3555,7 +3708,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3580,7 +3734,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3602,7 +3757,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3625,7 +3781,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Vilain"
 		]
 	},
 	{
@@ -3649,7 +3806,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -3674,7 +3832,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -3698,7 +3857,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3722,7 +3882,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3745,7 +3906,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader",
+			"Champion"
 		]
 	},
 	{
@@ -3770,7 +3933,9 @@ export const SYNCPAIRS = [
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
-			"Weather"
+			"Weather",
+			"Rival",
+			"Legendary"
 		]
 	},
 	{
@@ -3794,7 +3959,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival"
 		]
 	},
 	{
@@ -3817,7 +3983,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Rival"
 		]
 	},
 	{
@@ -3841,7 +4008,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3866,7 +4034,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3890,7 +4059,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -3915,7 +4085,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -3940,7 +4111,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -3964,7 +4137,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -3989,7 +4163,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4013,7 +4188,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4038,7 +4214,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4063,7 +4240,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -4087,7 +4266,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Event",
-			"isWoman"
+			"isWoman",
+			"Vilain"
 		]
 	},
 	{
@@ -4134,7 +4314,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4158,7 +4339,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4183,7 +4365,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4209,7 +4392,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Gym Leader",
+			"Legendary"
 		]
 	},
 	{
@@ -4233,7 +4418,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary Adventures",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -4259,7 +4446,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"Vilain"
 		]
 	},
 	{
@@ -4283,7 +4471,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Vilain"
 		]
 	},
 	{
@@ -4308,7 +4497,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -4331,7 +4522,10 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -4406,7 +4600,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Master Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Legendary"
 		]
 	},
 	{
@@ -4480,7 +4675,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Event",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -4505,7 +4701,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"Multiple Units",
 			"isMan",
-			"Terrain"
+			"Terrain",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4531,7 +4728,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isMan",
-			"Terrain"
+			"Terrain",
+			"Gym Leader"
 		]
 	},
 	{
@@ -4554,7 +4752,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -4601,7 +4800,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isMan"
+			"isMan",
+			"Champion"
 		]
 	},
 	{
@@ -4624,7 +4824,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -4648,7 +4849,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isWoman",
-			"Terrain"
+			"Terrain",
+			"Rival"
 		]
 	},
 	{
@@ -4667,13 +4869,15 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria.png",
-			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria_EX2.png"
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria_EX.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -4698,7 +4902,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4723,7 +4928,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -4748,7 +4955,10 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -4774,7 +4984,10 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Master Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -4799,7 +5012,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Vilain"
 		]
 	},
 	{
@@ -4824,7 +5039,9 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isMan",
-			"Limited"
+			"Limited",
+			"Rival",
+			"Vilain"
 		]
 	},
 	{
@@ -4849,7 +5066,8 @@ export const SYNCPAIRS = [
 			"Sync Pair Scout",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Main Character"
 		]
 	},
 	{
@@ -4874,7 +5092,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4901,7 +5120,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Terrain"
+			"Terrain",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -4926,7 +5147,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4950,7 +5172,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -4997,7 +5220,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isMan"
+			"isMan",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -5067,7 +5292,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5092,7 +5318,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion"
 		]
 	},
 	{
@@ -5117,7 +5344,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion",
+			"Legendary"
 		]
 	},
 	{
@@ -5142,7 +5371,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Champion",
+			"Legendary"
 		]
 	},
 	{
@@ -5167,7 +5398,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Rival"
 		]
 	},
 	{
@@ -5192,7 +5424,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Rival"
 		]
 	},
 	{
@@ -5218,7 +5451,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Rival"
 		]
 	},
 	{
@@ -5243,7 +5477,8 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman",
-			"Limited"
+			"Limited",
+			"Rival"
 		]
 	},
 	{
@@ -5268,7 +5503,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Champion"
 		]
 	},
 	{
@@ -5293,7 +5529,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Champion",
+			"Mythical"
 		]
 	},
 	{
@@ -5316,7 +5554,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Main Character"
 		]
 	},
 	{
@@ -5339,7 +5578,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Main Character"
 		]
 	},
 	{
@@ -5364,7 +5604,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5383,7 +5624,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan.png",
-			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan_EX2.png"
+			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan_EX.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -5391,7 +5632,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5413,7 +5655,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary Adventures",
-			"isMan"
+			"isMan",
+			"Vilain"
 		]
 	},
 	{
@@ -5437,7 +5680,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5463,7 +5707,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5487,7 +5732,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5513,7 +5759,8 @@ export const SYNCPAIRS = [
 			"Seasonal",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5538,7 +5785,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -5563,7 +5812,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Vilain",
+			"Legendary"
 		]
 	},
 	{
@@ -5632,7 +5883,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -5781,7 +6033,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Battle Points",
-			"isWoman"
+			"isWoman",
+			"Legendary"
 		]
 	},
 	{
@@ -5805,7 +6058,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isMan"
+			"isMan",
+			"Rival",
+			"Mythical"
 		]
 	},
 	{
@@ -5876,7 +6131,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -5899,7 +6155,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -5921,7 +6178,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary Adventures",
-			"isMan"
+			"isMan",
+			"Rival"
 		]
 	},
 	{
@@ -5944,7 +6202,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Gym Leader"
 		]
 	},
 	{
@@ -6016,7 +6275,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+            "Shiny"
 		]
 	},
 	{
@@ -6041,7 +6301,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"Main Character",
+			"Legendary"
 		]
 	},
 	{
@@ -6064,7 +6326,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -6088,7 +6351,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Elite Four"
 		]
 	},
 	{
@@ -6111,7 +6375,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Sync Pair Scout",
-			"isMan"
+			"isMan",
+			"Elite Four"
 		]
 	},
 	{
@@ -6137,7 +6402,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"isMan",
 			"Weather",
-			"Terrain"
+			"Terrain",
+			"Rival"
 		]
 	},
 	{
@@ -6184,7 +6450,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Sync Pair Scout",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Vilain"
 		]
 	},
 	{
@@ -6209,7 +6476,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"isMan",
-			"Buddy Move"
+			"Buddy Move",
+			"Main Character"
 		]
 	},
 	{
@@ -6231,7 +6499,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Battle Points",
-			"isWoman"
+			"isWoman",
+			"Legendary"
 		]
 	},
 	{
@@ -6294,7 +6563,16 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Trainer Lodge",
 			"Weather",
-			"Wish Zone"
+			"Wish Zone",
+			"Main Character",
+			"Rival",
+			"Gym Leader",
+			"Elite Four",
+			"Champion",
+			"Vilain",
+			"Legendary",
+			"Mythical",
+			"Shiny"
 		]
 	}
 	*/

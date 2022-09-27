@@ -105,9 +105,11 @@ input:focus { outline: 0; }
 	text-align: initial;
 	height: auto;
 	max-height: 100px;
-	overflow: overlay;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	padding-inline-start: 20px;
 	margin: 20px 0;
+	margin-bottom: 0;
 	padding-right: 10px;
 	display: flex;
 	flex-direction: column-reverse;
@@ -198,9 +200,46 @@ input:focus { outline: 0; }
 	right: -14px;
 }
 
+#options {
+	position: sticky;
+	top: -20px;
+	z-index: 2;
+	background-image: url("../images/bg2.png");
+	background-attachment: fixed;
+	padding: 20px 0;
+	border-bottom: 3px solid var(--blue2);
+}
+
+#increaseSyncStar img,
+#increaseSyncLevel img {
+	height: 15px;
+	position: relative;
+	top: 3px;
+}
+
+#sorting {
+	padding: 20px 0;
+}
+
+#sorting .buttonGroupTitle { margin-top: 8px; }
+
+.optionsWhenSortingStiky {
+	border-bottom: none !important;
+	padding-bottom: 0px !important;
+}
+
+.sortingSticky {
+	position: sticky;
+	top: 128px;
+	z-index: 1;
+	background-image: url("../images/bg2.png");
+	background-attachment: fixed;
+	border-bottom: 3px solid var(--blue2);
+}
 
 #filters .btn,
-#options .btn {
+#options .btn,
+#sorting .btn {
 	width: 30%;
 	padding-left: 30px;
 	outline: none;
@@ -222,18 +261,37 @@ input:focus { outline: 0; }
 }
 
 #filters .btn:hover,
-#options .btn:hover {
+#options .btn:hover,
+#sorting .btn:hover {
 	cursor: pointer;
 }
 
 #filters .btn:active,
-#options .btn:active {
+#options .btn:active,
+#sorting .btn:active {
 	transform: scale(0.95);
 	transition-duration: 50ms;
 	background: linear-gradient(#D1EC96, #B8F33B);
 }
 
-#options .btn {
+#removeFilters:active,
+.btnRed {
+	background: linear-gradient(#ec9696, #ff6363) !important;
+	border: 2px solid #af2929 !important;
+	color: #7a1010 !important;
+}
+
+#sorting .btn:active,
+.btnBlue {
+	background: linear-gradient(#9696ec, #6363ff) !important;
+	border: 2px solid #2929af !important;
+	color: #10107a !important;
+}
+
+#showSorting, #removeFilters { width: 45.5% !important; }
+
+#options .btn,
+#sorting .btn {
 	padding: 0 10px;
 }
 
@@ -244,19 +302,25 @@ input:focus { outline: 0; }
 	position: absolute;
 }
 
+.btnNoImage {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center !important;
+}
+
 .selectedFilter,
 .selectedOption {
 	background: linear-gradient(#D1EC96, #B8F33B) !important;
 }
 
 .starBtn {
-	width: 14% !important;
+	width: 14.4% !important;
 	min-width: 14%;
 }
 
 .syncLvlBtn {
-	width: 17% !important;
-	min-width: 17%;
+	width: 14.4% !important;
+	min-width: 14%;
 }
 
 .syncLvlBtn img {
@@ -378,16 +442,38 @@ input:focus { outline: 0; }
 	border-radius: 20px;
 }
 
+#syncPairs *::selection { background: transparent; }
+
 .syncPair {
 	width: 100px;
 	height: 100px;
 	opacity: 0.2;
 	position: relative;
 	margin: 3px;
+	transition-duration: 100ms;
 }
 
 .selected {
 	opacity: 1;
+}
+
+.syncStar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	width: calc(85px * 100/135);
+	height: calc(55px * 100/135);
+	opacity: 0;
+}
+
+.selected .syncStar {
+	opacity: 1;
+}
+
+.syncStar img {
+	width: 100%;
+	pointer-events: none;
 }
 
 .syncLevel {
@@ -395,13 +481,13 @@ input:focus { outline: 0; }
 	left: 4px;
 	bottom: 4px;
 	z-index: 1;
-	width: 32px;
-	height: 32px;
-	opacity: 0;
+	width: 28px;
+	height: 28px;
+	display: none;
 }
 
 .selected .syncLevel {
-	opacity: 1;
+	display: block;
 }
 
 .syncLevel img {
@@ -412,12 +498,6 @@ input:focus { outline: 0; }
 .syncImages {
 	width: 100%;
 	height: 100%;
-	transition-duration: 100ms;
-}
-
-.syncImages img {
-	width: 100%;
-	pointer-events: none;
 }
 
 .syncImages:hover {
@@ -430,12 +510,19 @@ input:focus { outline: 0; }
 	transition-duration: 100ms;
 }
 
+.syncImages img {
+	width: 100%;
+	pointer-events: none;
+}
+
 .syncLevel img,
+.syncStar img,
 .syncImages img {
 	display: none;
 }
 
 .syncLevel .currentImage,
+.syncStar .currentImage,
 .syncImages .currentImage {
 	display: initial;
 }
@@ -646,10 +733,34 @@ input:focus { outline: 0; }
 	}
 
 	#news {
-		font-size: 1.5em;
+		font-size: 1.4em !important;
 		line-height: 1.5em;
 		padding: 0 40px;
-		padding-top: 40px;
+		margin-top: 40px;
+		max-height: 200px;
+	}
+	#news li:not(#news li:first-child) {
+		margin: 10px 0;
+	}
+	#options {
+		position: static;
+		background-image: none;
+		padding: 0;
+		border-bottom: none;
+	}
+
+	#showSorting {
+		pointer-events: none;
+		filter: brightness(65%);;
+	}
+
+	#increaseSyncStar img,
+	#increaseSyncLevel img {
+		height: 1.2em !important;
+		position: absolute;
+		top: 12px !important;
+		left: auto !important;
+		padding-left: 12px;
 	}
 
 	#leftSide {
@@ -688,11 +799,13 @@ input:focus { outline: 0; }
 		margin-top: 1.1em;
 	}
 
-	#options {
+	#options,
+	#sorting {
 		margin-top: 40px;
 	}
 
-	#options .btn {
+	#options .btn,
+	#sorting .btn {
 		font-size: 1.7em !important;
 		padding: 17px;
 		padding-left: 17px !important;
@@ -704,7 +817,8 @@ input:focus { outline: 0; }
 		transition-duration: 0ms !important;
 	}
 
-	#options .btn:active {
+	#options .btn:active,
+	#sorting .btn:active {
 		transition-duration: 0ms !important;
 	}
 
@@ -720,14 +834,15 @@ input:focus { outline: 0; }
 	}
 	.starBtn {
 		width: 14.5% !important;
+		min-width: 14.5%;
 	}
 	.regionBtn {
 		width: 22.5% !important;
 		padding-left: 0px !important;
 	}
 	.syncLvlBtn {
-		width: 17.5% !important;
-		min-width: 17.5%;
+		width: 14.5% !important;
+		min-width: 14.5%;
 	}
 
 	.btn img {
@@ -741,13 +856,15 @@ input:focus { outline: 0; }
 		height: auto;
 	}
 
-	.syncImages:hover {
+	.syncPair:hover >.syncImages,
+	.syncPair:active >.syncImages {
 		transform: none;
 		transition-duration: 0ms !important;
 	}
-	.syncImages:active {
-		transform: none;
-		transition-duration: 0ms !important;
+
+	.syncStar {
+		width: calc(100% * 85/135);
+		height: calc(80% * 55/135);
 	}
 
 	.syncLevel {

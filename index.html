@@ -8,7 +8,7 @@
 	<meta charset="UTF-16">
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css">
+	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
 </head>
 
 
@@ -20,21 +20,29 @@
 			<div id="btnEggs"></div>
 
 			<ul id="news">
+				<li><span>2022/09/26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons</span></li>
 				<li><span>2022/09/06</span><span>Add the possibility to up the ★ of sync pair (currently not the case for eggmons)</span></li>
 				<li><span>2022/09/05</span><span>Hello, Pokémon World !</span></li>
 			</ul>
 
 			<div id="options">
 				<div>
+					<button type="button" class="btn" id="fullSelection">Select</button>
+					<button type="button" class="btn" id="resetSelection">Unselect</button>
 					<button type="button" class="btn" id="invertSelection">Invert</button>
-					<button type="button" class="btn" id="resetSelection">Reset</button>
-					<button type="button" class="btn" id="editOrderMode">Edit order</button>
 					<button type="button" class="btn" id="exportSelection">Export</button>
 					<button type="button" class="btn" id="importSelection">Import</button>
 					<button type="button" class="btn" id="takeScreenshot">Save Image</button>
+					<button type="button" class="btn" id="increaseSyncStar">Increase <img src="images/star.png"></button>
+					<button type="button" class="btn" id="increaseSyncLevel">Increase <img src="images/0.png"></button>
+					<button type="button" class="btn" id="editOrderMode">Edit order</button>
+					<button type="button" class="btn" id="showSorting">Sort</button>
+					<button type="button" class="btn" id="removeFilters">× filters</button>
 					<textarea spellcheck="false" id="exportImportZone" class="hide"></textarea>
 				</div>
+			</div>
 
+			<div id="sorting">
 				<div>
 					<div class="buttonGroupTitle">Sort by</div>
 					<button type="button" class="btn" data-asc="true" id="sortByDexNumber">Dex #</button>
@@ -133,6 +141,19 @@
 				</div>
 
 				<div>
+					<div class="buttonGroupTitle">Trainer/Pokémon</div>
+					<button type="button" class="btn btnNoImage" value='Main Character'>Main Character</button>
+					<button type="button" class="btn " value='Rival'>Rival</button>
+					<button type="button" class="btn btnNoImage" value='Gym Leader'>Gym Leader</button>
+					<button type="button" class="btn btnNoImage" value='Elite Four'>Elite Four</button>
+					<button type="button" class="btn" value='Champion'>Champion</button>
+					<button type="button" class="btn" value='Vilain'>Vilain</button>
+					<button type="button" class="btn" value='Legendary'>Legendary</button>
+					<button type="button" class="btn" value='Mythical'>Mythical</button>
+					<button type="button" class="btn" value='Shiny'>Shiny</button>
+				</div>
+
+				<div>
 					<div class="buttonGroupTitle">Other</div>
 					<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 					<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
@@ -155,19 +176,20 @@
 				</div>
 
 				<div>
-					<div class="buttonGroupTitle">Sync Level</div>
+					<div class="buttonGroupTitle">User</div>
 					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="0"'><img src="images/1.png">&nbsp;</button>
 					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="1"'><img src="images/2.png">&nbsp;</button>
 					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="2"'><img src="images/3.png">&nbsp;</button>
 					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="3"'><img src="images/4.png">&nbsp;</button>
 					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="4"'><img src="images/5.png">&nbsp;</button>
+					<button type="button" class="btn starBtn" value='EX.png" class="currentImage"'><img src="images/star6ex.png">&nbsp;</button>
 				</div>
 			</div>
 
 			<p id="credits">Made by <a href="https://www.reddit.com/user/Xtraterrestre/" target="_blank">u/Xtraterrestre</a>
 				<br>Credit to <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a> for making all the Sync Pairs tiles</p>
 
-				<div id="btnDarkMode"></div>
+				<div id="btnDarkMode" title="Darkmode"></div>
 		</div>
 
 		<div id="rightSide">
@@ -188,6 +210,6 @@
 <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/tinysort.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
-<script type="module" src="js/script.js"></script>
+<script type="module" src="js/script.js?v=2"></script>
 
 </html>
