@@ -1171,6 +1171,34 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0124",
+		"pokemonName": "Jynx",
+		"pokemonGender": "",
+		"pokemonForm": ["Smoochum"],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "★",
+		"releaseDate": "2022/10/07",
+		"syncPairRegion": "0Pasio",
+		"images":[
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0124_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0124_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0124_02sa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0124_03a.png"
+		],
+		"tags":[
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0125",
 		"pokemonName": "Electabuzz",
 		"pokemonGender": "",

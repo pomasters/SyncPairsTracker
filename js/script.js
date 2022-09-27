@@ -129,11 +129,12 @@ function addSyncPairsEvents() {
 
 	syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
 		e.preventDefault();
-
+		e.stopPropagation();
 		if(s.parentElement.classList.contains("selected")) {
 			swapImages(s)
 			addToLocalStorage(s.parentElement);
 		}
+		return false;
 	}));
 }
 

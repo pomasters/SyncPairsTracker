@@ -473,7 +473,9 @@ input:focus { outline: 0; }
 
 .syncStar img {
 	width: 100%;
-	pointer-events: none;
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
 }
 
 .syncLevel {
@@ -492,7 +494,9 @@ input:focus { outline: 0; }
 
 .syncLevel img {
 	width: 100%;
-	pointer-events: none;
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
 }
 
 .syncImages {
@@ -512,7 +516,9 @@ input:focus { outline: 0; }
 
 .syncImages img {
 	width: 100%;
-	pointer-events: none;
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
 }
 
 .syncLevel img,
