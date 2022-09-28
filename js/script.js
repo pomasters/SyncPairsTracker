@@ -127,15 +127,31 @@ function addSyncPairsEvents() {
 	var syncImages = Array.from(document.getElementsByClassName("syncImages"));
 	var syncStarLevelsImages = syncStars.concat(syncLevels.concat(syncImages));
 
-	syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
-		e.preventDefault();
-		e.stopPropagation();
-		if(s.parentElement.classList.contains("selected")) {
-			swapImages(s)
-			addToLocalStorage(s.parentElement);
-		}
-		return false;
-	}));
+	var ua = window.navigator.userAgent;
+	var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+	var webkit = !!ua.match(/WebKit/i);
+	var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+
+	if(iOSSafari) {
+		syncStarLevelsImages.forEach(s => s.addEventListener("long-press", function(e) {
+			if(s.parentElement.classList.contains("selected")) {
+				swapImages(s)
+				addToLocalStorage(s.parentElement);
+			}
+		}));
+	}
+	else {
+		syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
+			e.preventDefault();
+			e.stopPropagation();
+			if(s.parentElement.classList.contains("selected")) {
+				swapImages(s)
+				addToLocalStorage(s.parentElement);
+			}
+			return false;
+		}));
+	}
+
 }
 
 
