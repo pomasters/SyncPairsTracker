@@ -114,12 +114,15 @@ function generatePairsHTML(pairs, eggs) {
 function addSyncPairsEvents() {
 	Array.from(document.getElementsByClassName("syncPair")).forEach(s => s.addEventListener("click", function() {
 
-		if(s.classList.contains("selected")) {
-			unselect(s);
-		} else {
-			select(s);
+		if(! (localStorage.getItem("viewMode") === "true")) {
+			if(s.classList.contains("selected")) {
+				unselect(s);
+			} else {
+				select(s);
+			}
+			countSelection();
 		}
-		countSelection();
+
 	}));
 
 	var syncStars = Array.from(document.getElementsByClassName("syncStar"));
@@ -134,7 +137,8 @@ function addSyncPairsEvents() {
 
 	if(iOSSafari) {
 		syncStarLevelsImages.forEach(s => s.addEventListener("long-press", function(e) {
-			if(s.parentElement.classList.contains("selected")) {
+			
+			if(s.parentElement.classList.contains("selected") && ! (localStorage.getItem("viewMode") === "true")) {
 				swapImages(s)
 				addToLocalStorage(s.parentElement);
 			}
@@ -142,13 +146,16 @@ function addSyncPairsEvents() {
 	}
 	else {
 		syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
+
 			e.preventDefault();
 			e.stopPropagation();
-			if(s.parentElement.classList.contains("selected")) {
+
+			if(s.parentElement.classList.contains("selected") && ! (localStorage.getItem("viewMode") === "true")) {
 				swapImages(s)
 				addToLocalStorage(s.parentElement);
-			}
-			return false;
+			}			
+
+			return false;	
 		}));
 	}
 
@@ -234,6 +241,8 @@ function countSelection() {
 		document.getElementById("counterFound").innerHTML = "";
 		document.getElementById("counterFoundTotal").innerHTML = "";
 	}
+
+	document.getElementById("counterTotal").innerHTML = `Total : ${totalSyncPairs}`;
 }
 
 /* apply the unselect function to all syncpair */
@@ -346,7 +355,9 @@ function importSelection() {
 
 					select(s);
 				}
-			});			
+			});
+			countSelection();
+
 		} catch(e) { console.log(e); return; }
 	}
 }
@@ -463,6 +474,21 @@ function removeFilters() {
 }
 
 
+function viewMode() {
+	var isDisabled = document.getElementById("viewModeCss").disabled;
+	document.getElementById("viewModeCss").disabled = !isDisabled;
+
+	localStorage.setItem("viewMode", isDisabled);
+}
+
+
+function showSorting() {
+	document.getElementById("options").classList.toggle("optionsWhenSortingStiky");
+	document.getElementById("showSorting").classList.toggle("btnBlue");
+	document.getElementById("sorting").classList.toggle("sortingSticky");
+}
+
+
 
 /* use sortablejs to enable drag drop of syncpair
 !! See at bottom of the file for initiate */
@@ -477,12 +503,6 @@ function editOrderMode() {
 	}
 }
 
-function showSorting() {
-	document.getElementById("options").classList.toggle("optionsWhenSortingStiky");
-	document.getElementById("showSorting").classList.toggle("btnBlue");
-	document.getElementById("sorting").classList.toggle("sortingSticky");
-}
-
 
 /* use html2canvas to take screenshot */
 function takeScreenshot() {
@@ -493,6 +513,7 @@ function takeScreenshot() {
 
 	if(document.getElementsByClassName("selectedFilter").length > 0) {
 		document.getElementById("counterSelected").classList.add("hide");
+		document.getElementById("counterTotal").classList.add("hide");
 	}
 
 	html2canvas(document.getElementById('rightSide'),{
@@ -513,6 +534,7 @@ function takeScreenshot() {
 			document.getElementById("linkTool").classList.add("hide");
 
 			document.getElementById("counterSelected").classList.remove("hide");
+			document.getElementById("counterTotal").classList.remove("hide");
 	});
 }
 
@@ -585,6 +607,8 @@ document.getElementById("increaseSyncStar").addEventListener("click", increaseSy
 document.getElementById("increaseSyncLevel").addEventListener("click", increaseSyncLevel);
 
 document.getElementById("editOrderMode").addEventListener("click", editOrderMode);
+
+document.getElementById("viewMode").addEventListener("click", viewMode);
 
 document.getElementById("showSorting").addEventListener("click", showSorting);
 
@@ -684,10 +708,10 @@ document.getElementById("search").addEventListener("keyup", function() {
 /* Dark Mode button */
 document.getElementById("btnDarkMode").addEventListener("click", function() {
 
-	var state = document.getElementById("darkModeCss").disabled;
-	document.getElementById("darkModeCss").disabled = !state;
+	var isDisabled = document.getElementById("darkModeCss").disabled;
+	document.getElementById("darkModeCss").disabled = !isDisabled;
 
-	localStorage.setItem("darkMode", !state);
+	localStorage.setItem("darkMode", isDisabled);
 })
 
 
@@ -725,7 +749,11 @@ function generatePairs(pairs, eggmons) {
 
 function init() {
 	if(localStorage.getItem("darkMode") !== null) {
-		document.getElementById("darkModeCss").disabled = (localStorage.getItem("darkMode") === "true");
+		document.getElementById("darkModeCss").disabled = !(localStorage.getItem("darkMode") === "true");
+	}
+
+	if(localStorage.getItem("viewMode") !== null) {
+		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
 	}
 
 	document.getElementById("linkToolVer").innerHTML = document.getElementById("version").innerHTML;

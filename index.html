@@ -9,6 +9,7 @@
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
+	<link rel="stylesheet" type="text/css" id="viewModeCss" href="css/viewmode.css" disabled>
 </head>
 
 
@@ -30,12 +31,13 @@
 					<button type="button" class="btn" id="fullSelection">Select</button>
 					<button type="button" class="btn" id="resetSelection">Unselect</button>
 					<button type="button" class="btn" id="invertSelection">Invert</button>
-					<button type="button" class="btn" id="exportSelection">Export</button>
-					<button type="button" class="btn" id="importSelection">Import</button>
-					<button type="button" class="btn" id="takeScreenshot">Save Image</button>
 					<button type="button" class="btn" id="increaseSyncStar">Increase <img src="images/star.png"></button>
 					<button type="button" class="btn" id="increaseSyncLevel">Increase <img src="images/0.png"></button>
 					<button type="button" class="btn" id="editOrderMode">Edit order</button>
+					<button type="button" class="btn" id="exportSelection">Export</button>
+					<button type="button" class="btn" id="importSelection">Import</button>
+					<button type="button" class="btn" id="takeScreenshot">Save Image</button>
+					<button type="button" class="btn" id="viewMode">View Mode</button>
 					<button type="button" class="btn" id="showSorting">Sort</button>
 					<button type="button" class="btn" id="removeFilters">× filters</button>
 					<textarea spellcheck="false" id="exportImportZone" class="hide"></textarea>
@@ -193,7 +195,7 @@
 		</div>
 
 		<div id="rightSide">
-			<div id="counter"><p id="counterFound"></p><p id="counterFoundTotal"></p><p id="counterSelected">Selected / Total</p></div>
+			<div id="counter"><p id="counterFound"></p><p id="counterFoundTotal"></p><p id="counterSelected">Selected / Total</p><p id="counterTotal">Selected / Total</p></div>
 
 			<div id="filtersUsed"></div>
 
