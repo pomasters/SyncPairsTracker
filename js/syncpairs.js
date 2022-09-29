@@ -365,7 +365,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_SSMisty_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -391,7 +391,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0B-03a_LtSurge_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Gym Leader"
@@ -519,7 +519,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04_SSErika_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -545,7 +545,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0B-07_Blaine_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Weather",
 			"Gym Leader"
@@ -570,7 +570,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0C-01_Lorelei_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -594,7 +594,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0C-02_Bruno_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -618,7 +618,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0C-03_Agatha_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -642,7 +642,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_Kris_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Main Character"
@@ -696,7 +696,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0B_JOHTO_0B-02_Bugsy_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Gym Leader"
@@ -746,7 +746,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0B_JOHTO_0B-03_Whitney_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout First-time Scout (Until 2.21.0 update)",
+			"Gen Pool - First-time Scout (Until 2.21.0 update)",
 			"isWoman",
 			"Gym Leader"
 		]
@@ -821,7 +821,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0A_KANTO_0B-05_Janine_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"Gym Leader"
@@ -871,7 +871,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0B_JOHTO_0C-01_Will_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -895,7 +895,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04_Karen_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Elite Four"
@@ -945,7 +945,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_Brendan_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Main Character"
@@ -998,7 +998,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0B-01_Roxanne_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Gym Leader"
 		]
@@ -1023,7 +1023,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0B-02_Brawly_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1098,7 +1098,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0B-06_Winona_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Weather",
 			"Gym Leader"
@@ -1124,7 +1124,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0B-07-1_Tate_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1149,7 +1149,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0B-07-2_Liza_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Gym Leader"
 		]
@@ -1173,7 +1173,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-02_Phoebe_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -1198,7 +1198,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -1222,7 +1222,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0E-01_Noland_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Story",
 			"isMan"
 		]
@@ -1273,7 +1273,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0B-01_Roark_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1297,7 +1297,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0B-02_Gardenia_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Story",
 			"isWoman",
 			"Gym Leader"
@@ -1323,7 +1323,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0B-03_Maylene_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Gym Leader"
 		]
@@ -1348,7 +1348,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0B-04_CrasherWake_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1374,7 +1374,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"Weather",
@@ -1451,7 +1451,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1475,7 +1475,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0E-02_Cheryl_5Star.png",
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -1499,7 +1499,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0D_SINNOH_0E-03_Marley_5Star.png",
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -1627,7 +1627,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0B-05_Clay_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1734,7 +1734,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0B-07_Brycen_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1841,7 +1841,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0B-09_Roxie_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Story",
 			"isWoman",
 			"Gym Leader"
@@ -1867,7 +1867,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0B-10_Marlon_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -1891,7 +1891,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -1915,7 +1915,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0E_UNOVA_0C-03_Marshal_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Story",
 			"isMan",
 			"Elite Four"
@@ -1940,7 +1940,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0F_KALOS_0B-02_Grant_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -2019,7 +2019,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0F_KALOS_0B-04_Ramos_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -2044,7 +2044,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0F_KALOS_0B-08_Wulfric_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -2069,7 +2069,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Story",
 			"Multiple Units",
 			"isMan",
@@ -2121,7 +2121,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0F_KALOS_0C-03_Wikstrom_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -2170,7 +2170,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0G_ALOLA_0B-05_Sophocles_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Multiple Units"
 		]
@@ -2219,7 +2219,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0G_ALOLA_0B-07_Mina_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -2242,7 +2242,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02_Olivia_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -2291,7 +2291,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0G_ALOLA_0C-04_Kahili_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -2462,7 +2462,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_Blue_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout First-time Scout (Since 2.21.0 update)",
+			"Gen Pool - First-time Scout (Since 2.21.0 update)",
 			"Multiple Units",
 			"isMan",
 			"Rival",
@@ -2596,7 +2596,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_Lyra_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -2676,7 +2676,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_Hilbert_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Main Character"
@@ -2727,7 +2727,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_Hilda_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Main Character"
@@ -2806,7 +2806,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_Elesa_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -2831,7 +2831,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_SSElesa_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -2883,7 +2883,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-05_Caitlin_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Elite Four"
@@ -2958,7 +2958,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Elite Four"
 		]
@@ -2982,7 +2982,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_Grimsley_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Elite Four"
@@ -3007,7 +3007,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_SSGrimsley_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Elite Four"
@@ -3032,7 +3032,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_GrimsleyKimono_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Elite Four"
@@ -3134,7 +3134,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_Ethan_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Main Character"
@@ -3186,7 +3186,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_Leaf_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Main Character"
@@ -3424,7 +3424,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -3735,7 +3735,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-06_Sabrina_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -3785,7 +3785,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Gym Leader"
 		]
@@ -3809,7 +3809,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-02_Plumeria_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Vilain"
 		]
@@ -3833,7 +3833,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-03_Guzma_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Vilain"
@@ -3884,7 +3884,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_Clemont_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Multiple Units",
 			"Gym Leader"
@@ -3934,7 +3934,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-08_Wallace_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader",
 			"Champion"
@@ -4011,7 +4011,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_Wally_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Rival"
 		]
@@ -4065,7 +4065,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-06_Jasmine_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -4116,7 +4116,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_Dawn_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Main Character"
@@ -4194,7 +4194,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-03_Burgh_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Gym Leader"
@@ -4245,7 +4245,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_Serena_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Main Character"
@@ -4348,7 +4348,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/5Star/0C_HOENN_0E-02_Lucy_5Star.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -4371,7 +4371,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_Morty_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Gym Leader"
@@ -4528,7 +4528,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_Lusamine_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Vilain"
@@ -4580,7 +4580,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-05_Gladion_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Rival",
 			"Vilain",
@@ -4606,7 +4606,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_Lillie_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -4757,7 +4757,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-08_Volkner_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Terrain",
@@ -4834,7 +4834,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-03_Lisia_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -4882,7 +4882,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-05_Nate_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Main Character"
 		]
@@ -4906,7 +4906,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-04_Bianca_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Terrain",
 			"Rival"
@@ -5122,7 +5122,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_May_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -5254,7 +5254,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-04_Mallow_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -5350,7 +5350,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-07_Piers_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -5612,7 +5612,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-02_Selene_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Main Character"
 		]
@@ -5636,7 +5636,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-01_Elio_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Main Character"
 		]
@@ -5764,7 +5764,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-02_Nessa_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -5816,7 +5816,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04_Bea_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Gym Leader"
@@ -5922,7 +5922,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_Lana_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -5945,7 +5945,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-03_Kiawe_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -5968,7 +5968,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01_Hala_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -5993,7 +5993,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -6216,7 +6216,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01_Falkner_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -6240,7 +6240,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-01_Sidney_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -6287,7 +6287,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04b_Allister_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Gym Leader"
 		]
@@ -6337,7 +6337,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-04_Darach_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -6360,7 +6360,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_Sonia_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -6437,7 +6437,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-01_Aaron_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -6461,7 +6461,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-02_Bertha_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Weather",
 			"Elite Four"
@@ -6486,7 +6486,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-04_Lucian_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan",
 			"Elite Four"
 		]
@@ -6537,7 +6537,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-05_Looker_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -6560,7 +6560,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-03_Courtney_EX.png"
 		],
 		"tags": [
-			"Sync Pair Scout",
+			"Gen Pool",
 			"isWoman",
 			"Wish Zone",
 			"Vilain"
@@ -6658,9 +6658,9 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie_EX.png"
 		],
 		"tags": [
+			"Gen Pool",
 			"Dynamax",
 			"isMan",
-			"Sync Pair Scout",
 			"Gym Leader"
 		]
 	},
@@ -6683,9 +6683,9 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony_EX.png"
 		],
 		"tags": [
+			"Gen Pool",
 			"Dynamax",
 			"isWoman",
-			"Sync Pair Scout",
 			"Gym Leader"
 		]
 	},
@@ -6772,7 +6772,7 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Seasonal",
 			"Story",
-			"Sync Pair Scout",
+			"Gen Pool",
 			"Terrain",
 			"Trainer Lodge",
 			"Weather",
