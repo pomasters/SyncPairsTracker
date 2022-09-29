@@ -250,9 +250,9 @@ function resetSelection() {
 
 	var found = Array.from(document.getElementsByClassName("found"));
 
-	if(parseInt(found.length) > 0) {
+	if(parseInt(found.length) > 0 && confirm(`Unselect ${found.length} sync pairs ?\n(Sync level and Sync potential will be reset)`)) {
 		found.forEach(s => unselect(s))
-	} else {
+	} else if(parseInt(found.length) == 0 && confirm("Do you really want to unselect all sync pairs ?")) {
 		Array.from(document.getElementsByClassName("syncPair")).forEach(s => unselect(s));
 	}
 	countSelection();
@@ -263,9 +263,9 @@ function fullSelection() {
 
 	var found = Array.from(document.getElementsByClassName("found"));
 
-	if(parseInt(found.length) > 0) {
+	if(parseInt(found.length) > 0 && confirm(`Select ${found.length} sync pairs ?`)) {
 		found.forEach(s => select(s))
-	} else {
+	} else if(parseInt(found.length) == 0 && confirm("Do you really want to select all sync pairs ?")) {
 		Array.from(document.getElementsByClassName("syncPair")).forEach(s => select(s));
 	}
 	countSelection();
@@ -273,6 +273,10 @@ function fullSelection() {
 
 /* toggle the ".selected" class of all syncpairs and apply select/unselect function */
 function invertSelection() {
+
+	if(! confirm(`Do you really to want to invert your current selection ?\n(Sync level and Sync potential will be reset)`)) {
+		return
+	}
 
 	var found = Array.from(document.getElementsByClassName("found"));
 
@@ -307,6 +311,8 @@ function exportSelection() {
 
 	document.getElementById("exportImportZone").classList.remove("hide");
 
+	localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
+
 	importSelection();
 }
 
@@ -320,9 +326,11 @@ function importSelection() {
 		var imported;
 
 		try {
-			imported = JSON.parse(document.getElementById("exportImportZone").value);
-
-			resetSelection();
+			if(document.getElementById("exportImportZone").value == "") {
+				imported = JSON.parse(localStorage.getItem("syncPairsTrackerBackup"));
+			} else {
+				imported = JSON.parse(document.getElementById("exportImportZone").value);
+			}
 
 			Array.from(document.getElementsByClassName("syncPair")).forEach(function(s) {
 				var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
