@@ -191,6 +191,7 @@ function select(syncpair) {
 	addToLocalStorage(syncpair);
 }
 
+
 /* takes a ".syncpair" html element */
 function unselect(syncpair) {
 	syncpair.classList.remove("selected");
@@ -211,6 +212,7 @@ function unselect(syncpair) {
 
 	localStorage.removeItem(keySyncPairStorage);
 }
+
 
 /* takes a ".syncpair" html element and store the essentials informations in the data attribute in localstorage */
 function addToLocalStorage(syncpair) {
@@ -245,6 +247,7 @@ function countSelection() {
 	document.getElementById("counterTotal").innerHTML = `Total : ${totalSyncPairs}`;
 }
 
+
 /* apply the unselect function to all syncpair */
 function resetSelection() {
 
@@ -252,13 +255,14 @@ function resetSelection() {
 
 	if(parseInt(found.length) > 0 && confirm(`Unselect ${found.length} sync pairs ?\n(Sync level and Sync potential will be reset)`)) {
 		found.forEach(s => unselect(s))
-	} else if(parseInt(found.length) == 0 && confirm("Do you really want to unselect all sync pairs ?")) {
+	} else if(parseInt(found.length) == 0 && confirm("Do you really want to unselect all sync pairs ?\n(Sync level and Sync potential will be reset)")) {
 		Array.from(document.getElementsByClassName("syncPair")).forEach(s => unselect(s));
 	}
 	countSelection();
 }
 
-/* apply the unselect function to all syncpair */
+
+/* apply the select function to all syncpair */
 function fullSelection() {
 
 	var found = Array.from(document.getElementsByClassName("found"));
@@ -270,6 +274,7 @@ function fullSelection() {
 	}
 	countSelection();
 }
+
 
 /* toggle the ".selected" class of all syncpairs and apply select/unselect function */
 function invertSelection() {
@@ -296,6 +301,7 @@ function invertSelection() {
 	countSelection();
 }
 
+
 /* go through all selected elements, extract the needed informations and output them */
 function exportSelection() {
 	var exported = {};
@@ -315,6 +321,7 @@ function exportSelection() {
 
 	importSelection();
 }
+
 
 /* takes the string (with the format from the export function) in the import textarea
 go through all syncpairs and apply the need change to the elements */
@@ -373,13 +380,15 @@ function importSelection() {
 
 function increaseSyncLevel() {
 
-	if(parseInt(Array.from(document.getElementsByClassName("selectedFilter")).length) > 0) {
+	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	if(parseInt(filters.length) > 0 && confirm("Do you really want to increase the sync level of all filtered sync pairs ?")) {
 
 		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
 			swapImages(s.querySelector(".syncLevel"))
 			select(s);
 		})
-	} else {
+	} else if(parseInt(filters.length) == 0 && confirm("Do you really want to increase the sync level of all selected sync pairs ?")) {
 		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
 			swapImages(s.querySelector(".syncLevel"))
 			select(s);
@@ -390,7 +399,9 @@ function increaseSyncLevel() {
 
 function increaseSyncStar() {
 
-	if(parseInt(Array.from(document.getElementsByClassName("selectedFilter")).length) > 0) {
+	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	if(parseInt(filters.length) > 0 && confirm("Do you really want to increase the potential of all filtered sync pairs ?")) {
 
 		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
 			if(s.querySelector(".syncStar").classList.contains("hide")) {
@@ -401,7 +412,7 @@ function increaseSyncStar() {
 				select(s);
 			}
 		})
-	} else {
+	} else if(parseInt(filters.length) == 0	&& confirm("Do you really want to increase the potential of all selected sync pairs ?")) {
 		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
 			if(s.querySelector(".syncStar").classList.contains("hide")) {
 				swapImages(s.querySelector(".syncImages"))
