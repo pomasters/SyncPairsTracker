@@ -471,6 +471,12 @@ function searchFilters() {
 		filters.push(f.value);
 		filtersSPAN.push(`<span>${f.innerHTML}</span>`)
 	});
+
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") {
+		filters.push('Name">'+searchValue);
+		filtersSPAN.push(`<span>${searchValue}</span>`);		
+	}
 	
 	document.getElementById("filtersUsed").innerHTML = filtersSPAN.join(" & ");
 
@@ -488,6 +494,7 @@ function searchFilters() {
 
 /* just remove the selectedFilter class of all current filters */
 function removeFilters() {
+	document.getElementById("search").value = "";
 	Array.from(document.getElementsByClassName("selectedFilter")).forEach(f => f.classList.remove("selectedFilter"));
 	searchFilters();
 }
@@ -568,8 +575,6 @@ function addEventButtonsFilters() {
 	Array.from(document.getElementById("filters").getElementsByTagName("button")).forEach(b => b.addEventListener("click", function() {
 
 		b.classList.toggle("selectedFilter");
-
-		document.getElementById("search").value = "";
 
 		searchFilters();
 	}))
@@ -714,13 +719,7 @@ document.getElementById("sortByCustom").addEventListener("click", function() {
 
 /* Search Bar */
 document.getElementById("search").addEventListener("keyup", function() {
-	if(this.value !== "") {
-		removeFilters();
-		document.getElementById("filtersUsed").innerHTML = `<span>${this.value}</span>`;
-	} else {
-		document.getElementById("filtersUsed").innerHTML = ``;
-	}
-	setTimeout(search('Name">'+this.value), 500);
+	setTimeout(searchFilters, 250);	
 })
 
 

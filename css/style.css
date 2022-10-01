@@ -207,6 +207,7 @@ input:focus { outline: 0; }
 	background-image: url("../images/bg2.png");
 	background-attachment: fixed;
 	padding: 20px 0;
+	padding-bottom: 32px;
 	border-bottom: 3px solid var(--blue2);
 }
 
@@ -422,6 +423,10 @@ input:focus { outline: 0; }
 	background-color: rgb(150 200 220 / 40%);
 	padding: 2px 10px;
 	border-radius: 5px;
+}
+
+#filtersUsed span:empty {
+	display: none;
 }
 
 #filtersUsed span img {

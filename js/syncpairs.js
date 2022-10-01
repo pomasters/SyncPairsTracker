@@ -5664,7 +5664,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Gym Leader"
+			"Gym Leader",
+			"Weather"
 		]
 	},
 	{
@@ -6661,7 +6662,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Dynamax",
 			"isMan",
-			"Gym Leader"
+			"Gym Leader",
+			"Weather"
 		]
 	},
 	{
