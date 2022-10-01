@@ -1,7 +1,7 @@
 // data initialy taken from Bulbapedia (up to v2.23.0)
 
 export const SYNCPAIRS = [
-	{
+	/*{
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
@@ -84,7 +84,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Main Character"
 		]
-	},
+	},*/
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
