@@ -1223,7 +1223,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"Story",
 			"isMan"
 		]
 	},
@@ -3608,7 +3607,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
 			"isMan",
-			"Mythical"
+			"Mythical",
+			"Event",
+			"Story"
 		]
 	},
 	{
