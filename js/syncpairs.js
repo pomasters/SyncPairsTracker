@@ -4454,7 +4454,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Gym Leader",
-			"Legendary"
+			"Legendary",
+			"Shiny"
 		]
 	},
 	{
