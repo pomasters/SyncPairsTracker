@@ -368,12 +368,14 @@ input:focus { outline: 0; }
 	margin-bottom: 40px;
 }
 
-.syncUserBtn {
+.syncUserBtnSyncLevel,
+.syncUserBtnEX {
 	width: calc(100% * 1/7) !important;
 	min-width: calc(100% * 1/7);
 }
 
-.syncUserBtn img {
+.syncUserBtnSyncLevel img,
+.syncUserBtnEX img {
 	left: 0px !important;
 	right: 0px !important;
 	margin: auto;

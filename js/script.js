@@ -674,8 +674,18 @@ function takeScreenshot() {
 /* add eventlisteners to all filters buttons */
 function addEventButtonsFilters() {
 	var filtersBtns = Array.from(document.getElementById("filters").getElementsByTagName("button"));
+	var syncLevelBtns = Array.from(document.getElementsByClassName("syncUserBtnSyncLevel"));
+	var favBtns = Array.from(document.getElementsByClassName("syncUserBtnFav"));
 
 	filtersBtns.forEach(b => b.addEventListener("click", function() {
+
+		[syncLevelBtns, favBtns].forEach(function(btns) {
+			if(btns.indexOf(b) > -1) {
+				btns.forEach(function(b2) {
+					if(b != b2) { b2.classList.remove("selectedFilter"); }
+				});
+			}
+		})
 
 		b.classList.toggle("selectedFilter");
 
