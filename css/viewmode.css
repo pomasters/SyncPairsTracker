@@ -3,7 +3,9 @@
 #invertSelection,
 #increaseSyncStar,
 #increaseSyncLevel,
+#increaseFavorite,
 #editOrderMode,
+#sortByCustom,
 #exportSelection,
 #importSelection {
 	pointer-events: none !important;
@@ -15,8 +17,7 @@
 
 #exportImportZone { display: none; }
 
-#viewMode,
-#viewMode:active {
+#viewMode {
 	background: linear-gradient(#e3ec96, #ffdd63) !important;
 	border: 2px solid #7a7710 !important;
 	color: #7a7710 !important;
@@ -25,6 +26,7 @@
 #counterFound,
 #counterSelected,
 .syncStar,
+.syncFav,
 .syncLevel {
 	display: none !important;
 }

@@ -3,6 +3,7 @@ import {EGGS} from './eggs.js';
 
 const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
+const syncFavImgs = ["images/favorite1.png","images/favoriteG.png","images/favoriteY.png","images/favoriteO.png","images/favoriteR.png","images/favoriteV.png","images/favoriteB.png","images/favorite2.png"];
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
 
 
@@ -27,6 +28,9 @@ function generatePairsHTML(pairs, eggs) {
 			`<div class="syncStar ${hideStar}" data-currentImage="0">
 				${genImages(syncStarImgs, 0)}
 			</div>
+			<div class="syncFav" data-currentImage="0" data-html2canvas-ignore="true">
+				${genImages(syncFavImgs, 0)}
+			</div>
 			<div class="syncLevel" data-currentImage="0">
 				${genImages(syncLevelImgs, 0)}
 			</div>
@@ -38,21 +42,26 @@ function generatePairsHTML(pairs, eggs) {
 		/* if the current syncpair is in localstorage,
 		generate the images with current selected image */
 		if(localStorage.getItem(keySyncPairStorage) !== null) {
-			// you get "X|Y".split("|"), X index of sync level and Y index of syncpair image
+			// you get "X|Y|Z|W".split("|"), X index of sync level, Y index of syncpair image, Z sync star & W favorite
 			var currentData = localStorage.getItem(keySyncPairStorage).split("|");
 
 			var currentSyncLevel = parseInt(currentData[0]);
 			var currentSyncImage = parseInt(currentData[1]);
 			var currentSyncStar = parseInt(currentData[2]);
+			var currentSyncFav = parseInt(currentData[3]);
 
 			if(isNaN(currentSyncLevel)) { currentSyncLevel = "0" }
 			if(isNaN(currentSyncImage)) { currentSyncImage = "0" }
 			if(isNaN(currentSyncStar)) { currentSyncStar = "0" }
+			if(isNaN(currentSyncFav)) { currentSyncFav = "0" }
 
 			selected = " selected";
 			innerHtmlImages = 
 				`<div class="syncStar ${hideStar}" data-currentImage="${currentSyncStar}">
 					${genImages(syncStarImgs, currentSyncStar)}
+				</div>
+				<div class="syncFav" data-currentImage="${currentSyncFav}" data-html2canvas-ignore="true">
+					${genImages(syncFavImgs, currentSyncFav)}
 				</div>
 				<div class="syncLevel" data-currentImage="${currentSyncLevel}">
 					${genImages(syncLevelImgs, currentSyncLevel)}
@@ -112,53 +121,75 @@ function generatePairsHTML(pairs, eggs) {
 
 /* add eventlisterner to all ".syncpair" elements, move level and images */
 function addSyncPairsEvents() {
-	Array.from(document.getElementsByClassName("syncPair")).forEach(s => s.addEventListener("click", function() {
-
-		if(! (localStorage.getItem("viewMode") === "true")) {
-			if(s.classList.contains("selected")) {
-				unselect(s);
-			} else {
-				select(s);
-			}
-			countSelection();
-		}
-
-	}));
 
 	var syncStars = Array.from(document.getElementsByClassName("syncStar"));
+	var syncFavs = Array.from(document.getElementsByClassName("syncFav"));
 	var syncLevels = Array.from(document.getElementsByClassName("syncLevel"));
 	var syncImages = Array.from(document.getElementsByClassName("syncImages"));
-	var syncStarLevelsImages = syncStars.concat(syncLevels.concat(syncImages));
+
+	var syncStarFavsLevels = syncStars.concat(syncLevels);
+	var syncStarFavsLevelsImages = syncImages.concat(syncStarFavsLevels);
 
 	var ua = window.navigator.userAgent;
 	var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
 	var webkit = !!ua.match(/WebKit/i);
 	var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
 
-	if(iOSSafari) {
-		syncStarLevelsImages.forEach(s => s.addEventListener("long-press", function(e) {
-			
-			if(s.parentElement.classList.contains("selected") && ! (localStorage.getItem("viewMode") === "true")) {
-				swapImages(s)
-				addToLocalStorage(s.parentElement);
+	syncImages.forEach(s => s.addEventListener("click", function() {
+
+		if(! (localStorage.getItem("viewMode") === "true")) {
+			if(s.parentElement.classList.contains("selected")) {
+				unselect(s.parentElement);
+			} else {
+				select(s.parentElement);
 			}
-		}));
+			countSelection();
+		}
+
+	}));
+
+	syncStarFavsLevels.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
+
+	if(window.getComputedStyle(document.getElementById("mobileDetection")).getPropertyValue("width") == "0px") {
+		syncFavs.forEach(function(s) {
+			Array.from(s.children).forEach(t => t.addEventListener("click", function() {
+				chooseFavorite(t);
+				addToLocalStorage(t.parentElement.parentElement);
+			}))
+			Array.from(s.children).forEach(t => t.addEventListener("contextmenu", function(e) {
+				e.preventDefault();	e.stopPropagation();
+
+				chooseFavorite(t);
+				addToLocalStorage(t.parentElement.parentElement);
+
+				return false;
+			}))
+		});
+	} else {
+		syncFavs.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
+	}
+
+
+	if(iOSSafari) {
+		syncStarFavsLevelsImages.forEach(s => s.addEventListener("long-press", function() { addEvents(s); }));
 	}
 	else {
-		syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
+		syncStarFavsLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
 
-			e.preventDefault();
-			e.stopPropagation();
+			e.preventDefault();	e.stopPropagation();
 
-			if(s.parentElement.classList.contains("selected") && ! (localStorage.getItem("viewMode") === "true")) {
-				swapImages(s)
-				addToLocalStorage(s.parentElement);
-			}			
+			addEvents(s);
 
-			return false;	
+			return false;
 		}));
 	}
 
+	function addEvents(si) {
+		if(si.parentElement.classList.contains("selected") && ! (localStorage.getItem("viewMode") === "true")) {
+			swapImages(si)
+			addToLocalStorage(si.parentElement);
+		}
+	}
 }
 
 
@@ -170,12 +201,29 @@ function swapImages(imagesContainer) {
 	if(nextImageNumber >= images.length) {
 		nextImageNumber = "0";
 	}
+	if(nextImageNumber < 0) {
+		nextImageNumber = ""+images.length-1;
+	}
 
 	images.forEach(i => i.removeAttribute("class"));
 
 	images[nextImageNumber].classList.add("currentImage");
 
 	imagesContainer.dataset.currentimage = nextImageNumber + "";
+}
+
+
+function chooseFavorite(favorite) {
+	var parent = favorite.parentElement;
+
+	Array.from(parent.children).forEach(function(image, index) {
+		if(image == favorite) {
+			image.classList.add("currentImage");
+			parent.dataset.currentimage = index + "";
+		} else {
+			image.removeAttribute("class")
+		}
+	});
 }
 
 
@@ -197,14 +245,17 @@ function unselect(syncpair) {
 	syncpair.classList.remove("selected");
 
 	Array.from(syncpair.querySelector(".syncStar").children).forEach(c => c.classList.remove("currentImage"));
+	Array.from(syncpair.querySelector(".syncFav").children).forEach(c => c.classList.remove("currentImage"));
 	Array.from(syncpair.querySelector(".syncLevel").children).forEach(c => c.classList.remove("currentImage"));
 	Array.from(syncpair.querySelector(".syncImages").children).forEach(c => c.classList.remove("currentImage"));
 
 	syncpair.querySelector(".syncStar").children[0].classList.add("currentImage");
+	syncpair.querySelector(".syncFav").children[0].classList.add("currentImage");
 	syncpair.querySelector(".syncLevel").children[0].classList.add("currentImage");
 	syncpair.querySelector(".syncImages").children[0].classList.add("currentImage");
 
 	syncpair.querySelector(".syncStar").dataset.currentimage = "0";
+	syncpair.querySelector(".syncFav").dataset.currentimage = "0";
 	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
 	syncpair.querySelector(".syncImages").dataset.currentimage = "0";
 
@@ -219,10 +270,11 @@ function addToLocalStorage(syncpair) {
 	var keySyncPairStorage = syncpair.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + syncpair.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 
 	var currentSyncStar = syncpair.querySelector(".syncStar").dataset.currentimage;
+	var currentSyncFav = syncpair.querySelector(".syncFav").dataset.currentimage;
 	var currentSyncLevel = syncpair.querySelector(".syncLevel").dataset.currentimage;
 	var currentSyncImage = syncpair.querySelector(".syncImages").dataset.currentimage;
 
-	localStorage.setItem(keySyncPairStorage, currentSyncLevel + "|" + currentSyncImage + "|" + currentSyncStar);
+	localStorage.setItem(keySyncPairStorage, currentSyncLevel + "|" + currentSyncImage + "|" + currentSyncStar + "|" + currentSyncFav);
 }
 
 
@@ -306,18 +358,34 @@ function invertSelection() {
 function exportSelection() {
 	var exported = {};
 
-	Array.from(document.getElementsByClassName("selected")).forEach(function(s) {
-		var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
-		var value = s.querySelector(".syncLevel").dataset.currentimage + "|" + s.querySelector(".syncImages").dataset.currentimage + "|" + s.querySelector(".syncStar").dataset.currentimage;
+	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
 
-		exported[key] = value;
-	})
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { filters.push(searchValue); }
+
+	if(parseInt(filters.length) > 0) {
+		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
+			var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+			var value = s.querySelector(".syncLevel").dataset.currentimage + "|" + s.querySelector(".syncImages").dataset.currentimage + "|" + 
+						s.querySelector(".syncStar").dataset.currentimage + "|" + s.querySelector(".syncFav").dataset.currentimage;
+
+			exported[key] = value;
+		})
+	} else {
+		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
+			var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+			var value = s.querySelector(".syncLevel").dataset.currentimage + "|" + s.querySelector(".syncImages").dataset.currentimage + "|" + 
+						s.querySelector(".syncStar").dataset.currentimage + "|" + s.querySelector(".syncFav").dataset.currentimage;
+
+			exported[key] = value;
+		})
+
+		localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
+	}
 
 	document.getElementById("exportImportZone").value = JSON.stringify(exported);
 
 	document.getElementById("exportImportZone").classList.remove("hide");
-
-	localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
 
 	importSelection();
 }
@@ -347,26 +415,32 @@ function importSelection() {
 					var importedSyncLevel = currentSyncData[0];
 					var importedSyncImage = currentSyncData[1];
 					var importedSyncStar = currentSyncData[2];
+					var importedSyncFav = currentSyncData[3];
 
 					if(isNaN(importedSyncLevel)) { importedSyncLevel = "0" }
 					if(isNaN(importedSyncImage)) { importedSyncImage = "0" }
 					if(isNaN(importedSyncStar)) { importedSyncStar = "0" }
+					if(isNaN(importedSyncFav)) { importedSyncFav = "0" }
 
 					var syncLevelDIV = s.querySelector(".syncLevel");
 					var syncImagesDIV = s.querySelector(".syncImages");
 					var syncStarDIV = s.querySelector(".syncStar");
+					var syncFavDIV = s.querySelector(".syncFav");
 
 					syncLevelDIV.dataset.currentimage = parseInt(importedSyncLevel);
 					syncImagesDIV.dataset.currentimage = parseInt(importedSyncImage);
 					syncStarDIV.dataset.currentimage = parseInt(importedSyncStar);
+					syncFavDIV.dataset.currentimage = parseInt(importedSyncFav);
 
 					Array.from(syncLevelDIV.children).forEach(c => c.classList.remove("currentImage"))
 					Array.from(syncImagesDIV.children).forEach(c => c.classList.remove("currentImage"))
 					Array.from(syncStarDIV.children).forEach(c => c.classList.remove("currentImage"))
+					Array.from(syncFavDIV.children).forEach(c => c.classList.remove("currentImage"))
 
 					syncLevelDIV.children[importedSyncLevel].classList.add("currentImage");
 					syncImagesDIV.children[importedSyncImage].classList.add("currentImage");
 					syncStarDIV.children[importedSyncStar].classList.add("currentImage");
+					syncFavDIV.children[importedSyncFav].classList.add("currentImage");
 
 					select(s);
 				}
@@ -378,9 +452,34 @@ function importSelection() {
 }
 
 
+function increaseFavorite() {
+
+	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { filters.push(searchValue); }
+
+	if(parseInt(filters.length) > 0 && confirm("Change the current favorite color of all filtered sync pairs to the next color ?")) {
+
+		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
+			swapImages(s.querySelector(".syncFav"))
+			select(s);
+		})
+	} else if(parseInt(filters.length) == 0 && confirm("Change the current favorite color of all your sync pairs to the next color ?")) {
+		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
+			swapImages(s.querySelector(".syncFav"))
+			select(s);
+		});
+	}
+}
+
+
 function increaseSyncLevel() {
 
 	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { filters.push(searchValue); }
 
 	if(parseInt(filters.length) > 0 && confirm("Do you really want to increase the sync level of all filtered sync pairs ?")) {
 
@@ -400,6 +499,9 @@ function increaseSyncLevel() {
 function increaseSyncStar() {
 
 	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { filters.push(searchValue); }
 
 	if(parseInt(filters.length) > 0 && confirm("Do you really want to increase the potential of all filtered sync pairs ?")) {
 
@@ -509,9 +611,8 @@ function viewMode() {
 
 
 function showSorting() {
-	document.getElementById("options").classList.toggle("optionsWhenSortingStiky");
 	document.getElementById("showSorting").classList.toggle("btnBlue");
-	document.getElementById("sorting").classList.toggle("sortingSticky");
+	document.getElementById("sorting").classList.toggle("sortingVisible");
 }
 
 
@@ -522,10 +623,10 @@ var sortable;
 function editOrderMode() {
 	if(sortable.options.disabled) {
 		sortable.options.disabled = false;
-		document.getElementById("editOrderMode").classList.add("selectedOption");
+		document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/on.png">`
 	} else {
 		sortable.options.disabled = true;
-		document.getElementById("editOrderMode").classList.remove("selectedOption");
+		document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/off.png">`
 	}
 }
 
@@ -572,7 +673,9 @@ function takeScreenshot() {
 
 /* add eventlisteners to all filters buttons */
 function addEventButtonsFilters() {
-	Array.from(document.getElementById("filters").getElementsByTagName("button")).forEach(b => b.addEventListener("click", function() {
+	var filtersBtns = Array.from(document.getElementById("filters").getElementsByTagName("button"));
+
+	filtersBtns.forEach(b => b.addEventListener("click", function() {
 
 		b.classList.toggle("selectedFilter");
 
@@ -581,7 +684,7 @@ function addEventButtonsFilters() {
 }
 
 function addEventButtonsSorting() {
-	var sortBtns = Array.from(document.getElementById("sorting").getElementsByTagName("button"))
+	var sortBtns = Array.from(document.getElementById("sorting").getElementsByTagName("button"));
 	sortBtns.forEach(b => b.addEventListener("click", function() {
 
 		sortBtns.forEach(b => b.classList.remove("btnBlue"));
@@ -629,6 +732,8 @@ document.getElementById("takeScreenshot").addEventListener("click", takeScreensh
 document.getElementById("increaseSyncStar").addEventListener("click", increaseSyncStar);
 
 document.getElementById("increaseSyncLevel").addEventListener("click", increaseSyncLevel);
+
+document.getElementById("increaseFavorite").addEventListener("click", increaseFavorite);
 
 document.getElementById("editOrderMode").addEventListener("click", editOrderMode);
 
@@ -706,6 +811,16 @@ function funBySyncLevel(a,b){
 	return lenA===lenB?0:(lenA<lenB?1:-1);
 }
 
+document.getElementById("sortByFavorite").addEventListener("click", function() {
+	tinysort('.syncPair',{sortFunction:funByFavorite});
+})
+
+function funByFavorite(a,b){
+	var lenA = parseInt(a.elm.querySelector(".syncFav").dataset.currentimage);
+	var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentimage);
+	return lenA===lenB?0:(lenA<lenB?1:-1);
+}
+
 document.getElementById("sortBySelected").addEventListener("click", function() {
 	tinysort('.syncPair',{attr:'class',order:'desc'});
 })
@@ -731,6 +846,14 @@ document.getElementById("btnDarkMode").addEventListener("click", function() {
 
 	localStorage.setItem("darkMode", isDisabled);
 })
+
+
+const observer = new IntersectionObserver( 
+  ([e]) => e.target.classList.toggle("optionsSticky", e.intersectionRatio < 1),
+  { threshold: [1] }
+);
+
+observer.observe(document.getElementById("options"));
 
 
 

@@ -61,13 +61,18 @@ body {
 
 #options {
 	background-image: url("../images/bg4.png");
+}
+
+.optionsSticky {
 	border-bottom: 3px solid #364656;
 }
 
-.sortingSticky {
-	background-image: url(../images/bg4.png);
-	border-bottom: 3px solid #364656;
+/*
+#sorting .btn:not(.btnBlue) {
+	color: rgb(157 189 215) !important;
+	border-color: rgb(157 189 215 / 20%) !important;
 }
+*/
 
 #filters .btn,
 #options .btn,
@@ -141,6 +146,12 @@ body {
     opacity: 1;
 }
 
+.selected .syncFav:hover {
+	border-color: var(--bgLight);
+	background-color: var(--bgLight);
+	background-image: url(../images/bg3.png);
+}
+
 .syncInfos {
 	color: #bfbfbf;
 	border-color: var(--bgLight);
@@ -170,9 +181,8 @@ body {
 
 @media only screen and (max-width: 1024px) {
 
-	body { background-image: url(../images/bg3.png); }
-	#options {
-		background-image: none;
-		border-bottom: none;
+	body {
+		background-color: transparent;
+		background-image: url("../images/bg3.png");
 	}
 }

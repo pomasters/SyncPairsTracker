@@ -6,6 +6,7 @@
 <head>
 	<title>Sync Pairs Tracker - Pokémon Masters EX</title>
 	<meta charset="UTF-16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
@@ -21,32 +22,29 @@
 			<div id="btnEggs"></div>
 
 			<ul id="news">
+				<li><span>2022/10/10</span><span>Add the possibility to mark a sync pair<br>as a favorite / custom tag</span></li>
 				<li><span>2022/09/26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons<br>→&nbsp;&nbsp;&nbsp;Add v2.25.0</span></li>
 				<li><span>2022/09/06</span><span>Add the possibility to up the ★ of sync pair (currently not the case for eggmons)</span></li>
 				<li><span>2022/09/05</span><span>Hello, Pokémon World !</span></li>
 			</ul>
 
 			<div id="options">
-				<div>
-					<button type="button" class="btn" id="fullSelection">Select</button>
-					<button type="button" class="btn" id="resetSelection">Unselect</button>
-					<button type="button" class="btn" id="invertSelection">Invert</button>
-					<button type="button" class="btn" id="increaseSyncStar">Increase <img src="images/star.png"></button>
-					<button type="button" class="btn" id="increaseSyncLevel">Increase <img src="images/0.png"></button>
-					<button type="button" class="btn" id="editOrderMode">Edit order</button>
-					<button type="button" class="btn" id="exportSelection">Export / Save</button>
-					<button type="button" class="btn" id="importSelection">Import / Load</button>
-					<button type="button" class="btn" id="takeScreenshot">Save Image</button>
-					<button type="button" class="btn" id="viewMode">View Mode</button>
-					<button type="button" class="btn" id="showSorting">Sort</button>
-					<button type="button" class="btn" id="removeFilters">× filters</button>
-					<textarea spellcheck="false" id="exportImportZone" class="hide" placeholder="Paste a code to import or leave this empty to load the saved backup."></textarea>
-				</div>
-			</div>
+				<button type="button" class="btn" id="fullSelection">Select</button>
+				<button type="button" class="btn" id="resetSelection">Unselect</button>
+				<button type="button" class="btn" id="invertSelection">Invert</button>
+				<button type="button" class="btn" id="increaseSyncStar">Increase <img src="images/star.png"></button>
+				<button type="button" class="btn" id="increaseSyncLevel">Increase <img src="images/0.png"></button>
+				<button type="button" class="btn" id="increaseFavorite">Favorite <img src="images/favorite.png"></button>
+				<button type="button" class="btn" id="exportSelection">Export / Save</button>
+				<button type="button" class="btn" id="importSelection">Import / Load</button>
+				<button type="button" class="btn" id="takeScreenshot">Save Image</button>
+				<button type="button" class="btn" id="viewMode">View Mode</button>
+				<button type="button" class="btn" id="showSorting">Sort by...</button>
+				<button type="button" class="btn" id="removeFilters">× filters</button>
+				<textarea spellcheck="false" id="exportImportZone" class="hide" placeholder="Paste a code to import or leave this empty to load the saved backup."></textarea>
 
-			<div id="sorting">
-				<div>
-					<div class="buttonGroupTitle">Sort by</div>
+				<div id="sorting">
+					<div class="buttonGroupTitle">Sort by...</div>
 					<button type="button" class="btn" data-asc="true" id="sortByDexNumber">Dex #</button>
 					<button type="button" class="btn" data-asc="true" id="sortByPokemonNumber">Pokémon #</button>
 					<button type="button" class="btn" data-asc="true" id="sortByTrainer">Trainer</button>
@@ -58,24 +56,46 @@
 					<button type="button" class="btn" data-asc="false" id="sortByDate">Release Date</button>
 					<button type="button" class="btn" data-asc="true" id="sortBySyncLevel">Sync Level</button>
 					<button type="button" class="btn" data-asc="true" id="sortBySelected">Selected</button>
-					<button type="button" class="btn" data-asc="true" id="sortByCustom">Custom order</button>
+					<button type="button" class="btn" data-asc="true" id="sortByFavorite">Favorite</button>
+					<div>
+						<button type="button" class="btn editOrderBtn" id="editOrderMode">Edit order <img src="images/off.png"></button>
+						<button type="button" class="btn editOrderBtn" data-asc="true" id="sortByCustom">Custom order</button>						
+					</div>
 				</div>
 			</div>
 
-			<div>
-				<div class="buttonGroupTitle">Trainer/Pokémon</div>
-				<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon...">
-			</div>
-
 			<div id="filters">
+				<div id="userBtns">
+					<div class="buttonGroupTitle">User</div>
+					<button type="button" class="btn syncUserBtn" value='class="syncLevel" data-currentimage="0"'>&nbsp;<img src="images/1.png"></button>
+					<button type="button" class="btn syncUserBtn" value='class="syncLevel" data-currentimage="1"'>&nbsp;<img src="images/2.png"></button>
+					<button type="button" class="btn syncUserBtn" value='class="syncLevel" data-currentimage="2"'>&nbsp;<img src="images/3.png"></button>
+					<button type="button" class="btn syncUserBtn" value='class="syncLevel" data-currentimage="3"'>&nbsp;<img src="images/4.png"></button>
+					<button type="button" class="btn syncUserBtn" value='class="syncLevel" data-currentimage="4"'>&nbsp;<img src="images/5.png"></button>
+					<button type="button" class="btn syncUserBtn" value='EX.png" class="currentImage"'>&nbsp;<img src="images/star6ex.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favorite1.png" class="currentImage"'>&nbsp;<img src="images/favorite1.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteG.png" class="currentImage"'>&nbsp;<img src="images/favoriteG.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteY.png" class="currentImage"'>&nbsp;<img src="images/favoriteY.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteO.png" class="currentImage"'>&nbsp;<img src="images/favoriteO.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteR.png" class="currentImage"'>&nbsp;<img src="images/favoriteR.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteV.png" class="currentImage"'>&nbsp;<img src="images/favoriteV.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favoriteB.png" class="currentImage"'>&nbsp;<img src="images/favoriteB.png"></button>
+					<button type="button" class="btn syncUserBtnFav" value='favorite2.png" class="currentImage"'>&nbsp;<img src="images/favorite2.png"></button>
+				</div>
+
+				<div>
+					<div class="buttonGroupTitle">Trainer/Pokémon</div>
+					<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon...">
+				</div>
+
 				<div>
 					<div class="buttonGroupTitle">Star</div>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★<'><img src="images/star1.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★<'><img src="images/star2.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★<'><img src="images/star3.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★<'><img src="images/star4.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★★'><img src="images/star5.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='_EX'><img src="images/star6.png">&nbsp;</button>
+					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★<'>&nbsp;<img src="images/star1.png"></button>
+					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★<'>&nbsp;<img src="images/star2.png"></button>
+					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★<'>&nbsp;<img src="images/star3.png"></button>
+					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★<'>&nbsp;<img src="images/star4.png"></button>
+					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★★'>&nbsp;<img src="images/star5.png"></button>
+					<button type="button" class="btn starBtn" value='_EX'>&nbsp;<img src="images/star6.png"></button>
 				</div>
 
 				<div>
@@ -160,11 +180,11 @@
 					<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 					<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
 					<button type="button" class="btn" value='Buddy Move'><img src="images/icon_bmove.png">B Move</button>
-					<button type="button" class="btn" value='Gen Pool'>Gen Pool</button>
-					<button type="button" class="btn" value='Story'>Story</button>
-					<button type="button" class="btn" value='Event'>Event</button>
+					<button type="button" class="btn" value='Gen Pool'><img src="images/icon_genpool.png">Gen Pool</button>
+					<button type="button" class="btn" value='Story'><img src="images/icon_story.png">Story</button>
+					<button type="button" class="btn" value='Event'><img src="images/icon_event.png">Event</button>
 					<button type="button" class="btn" value='Limited'><img src="images/icon_gem.png">Limited</button>
-					<button type="button" class="btn" value='Seasonal'>Seasonnal</button>
+					<button type="button" class="btn" value='Seasonal'><img src="images/icon_seasonal.png">Seasonal</button>
 					<button type="button" class="btn" value='Poké Fair'><img src="images/icon_pokefair.png">Poké Fair</button>
 					<button type="button" class="btn" value='Master Fair'><img src="images/icon_master.png">Master Fair</button>
 					<button type="button" class="btn" value='Battle Points'><img src="images/icon_bp.png">BP</button>
@@ -175,16 +195,6 @@
 					<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Has an alt</button>
 					<button type="button" class="btn" value='isMan'><img src="images/icon_male.png">Man</button>
 					<button type="button" class="btn" value='isWoman'><img src="images/icon_female.png">Woman</button>
-				</div>
-
-				<div>
-					<div class="buttonGroupTitle">User</div>
-					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="0"'><img src="images/1.png">&nbsp;</button>
-					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="1"'><img src="images/2.png">&nbsp;</button>
-					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="2"'><img src="images/3.png">&nbsp;</button>
-					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="3"'><img src="images/4.png">&nbsp;</button>
-					<button type="button" class="btn syncLvlBtn" value='class="syncLevel" data-currentimage="4"'><img src="images/5.png">&nbsp;</button>
-					<button type="button" class="btn starBtn" value='EX.png" class="currentImage"'><img src="images/star6ex.png">&nbsp;</button>
 				</div>
 			</div>
 
@@ -206,6 +216,7 @@
 		</div>
 	</div>
 
+	<div id="mobileDetection"></div>
 </body>
 
 
