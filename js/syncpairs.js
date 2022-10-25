@@ -13,7 +13,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-02b-02_Venasaur.png",
@@ -41,7 +41,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-03b-02_Charizard.png",
@@ -69,7 +69,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-04b-02_Blastoise.png",
@@ -97,7 +97,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-01a_Pikachu.png",
@@ -125,7 +125,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/11/07",
+		"releaseDate": "2019-11-07",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0B-01b_Torchic.png",
@@ -153,7 +153,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2020/01/01",
+		"releaseDate": "2020-01-01",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Ca_Solgaleo.png",
@@ -178,7 +178,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Cobalion.png",
@@ -203,7 +203,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Regirock.png",
@@ -228,7 +228,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Mesprit.png",
@@ -253,7 +253,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_Brock.png",
@@ -279,7 +279,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_SSBrock.png",
@@ -306,7 +306,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_Misty.png",
@@ -332,7 +332,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/08/28",
+		"releaseDate": "2021-08-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02b_SwimsuitMisty.png",
@@ -358,7 +358,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/09/30",
+		"releaseDate": "2021-09-30",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_SSMisty.png",
@@ -383,7 +383,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png",
@@ -409,7 +409,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png",
@@ -434,7 +434,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04a_Erika.png",
@@ -461,7 +461,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/12/10",
+		"releaseDate": "2020-12-10",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Erika.png",
@@ -487,7 +487,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png",
@@ -512,7 +512,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/01",
+		"releaseDate": "2021-10-01",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04_SSErika.png",
@@ -538,7 +538,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-07_Blaine.png",
@@ -563,7 +563,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png",
@@ -587,7 +587,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png",
@@ -611,7 +611,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png",
@@ -635,7 +635,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_Kris.png",
@@ -660,7 +660,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/06/03",
+		"releaseDate": "2022-06-03",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_ssKris.png",
@@ -688,7 +688,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png",
@@ -714,7 +714,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/07/22",
+		"releaseDate": "2021-07-22",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png",
@@ -739,7 +739,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-03_Whitney.png",
@@ -763,7 +763,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-07_Pryce.png",
@@ -789,7 +789,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dragon",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-08_Clair.png",
@@ -813,7 +813,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Janine.png",
@@ -839,7 +839,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png",
@@ -864,7 +864,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-01_Will.png",
@@ -888,7 +888,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04_Karen.png",
@@ -913,7 +913,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png",
@@ -938,7 +938,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_Brendan.png",
@@ -963,7 +963,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/07/31",
+		"releaseDate": "2022-07-31",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_SSBrendan.png",
@@ -990,7 +990,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png",
@@ -1015,7 +1015,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-02_Brawly.png",
@@ -1040,7 +1040,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-04_Flannery.png",
@@ -1065,7 +1065,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-05_Norman.png",
@@ -1090,7 +1090,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-06_Winona.png",
@@ -1116,7 +1116,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-1_Tate.png",
@@ -1141,7 +1141,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-2_Liza.png",
@@ -1166,7 +1166,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-02_Phoebe.png",
@@ -1190,7 +1190,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake.png",
@@ -1215,7 +1215,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png",
@@ -1238,7 +1238,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03_Barry.png",
@@ -1264,7 +1264,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png",
@@ -1289,7 +1289,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png",
@@ -1314,7 +1314,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-03_Maylene.png",
@@ -1339,7 +1339,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-04_CrasherWake.png",
@@ -1364,7 +1364,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice.png",
@@ -1392,7 +1392,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png",
@@ -1418,7 +1418,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png",
@@ -1442,7 +1442,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton.png",
@@ -1466,7 +1466,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-02_Cheryl.png",
@@ -1490,7 +1490,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png",
@@ -1514,7 +1514,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_Rosa.png",
@@ -1539,7 +1539,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/12/12",
+		"releaseDate": "2019-12-12",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Rosa.png",
@@ -1566,7 +1566,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_BP_Rosa.png",
@@ -1591,7 +1591,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/09/15",
+		"releaseDate": "2022-09-15",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Rosa.png",
@@ -1618,7 +1618,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-05_Clay.png",
@@ -1643,7 +1643,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-06_Skyla.png",
@@ -1670,7 +1670,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/12/10",
+		"releaseDate": "2020-12-10",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Skyla.png",
@@ -1696,7 +1696,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/03/02",
+		"releaseDate": "2022-03-02",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Skyla.png",
@@ -1725,7 +1725,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-07_Brycen.png",
@@ -1750,7 +1750,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01_Iris.png",
@@ -1778,7 +1778,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/03/18",
+		"releaseDate": "2021-03-18",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01-2_IrisChampion.png",
@@ -1805,7 +1805,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/10/17",
+		"releaseDate": "2022-10-17",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris.png",
@@ -1833,7 +1833,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png",
@@ -1858,7 +1858,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-10_Marlon.png",
@@ -1883,7 +1883,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
@@ -1907,7 +1907,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-03_Marshal.png",
@@ -1932,7 +1932,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-02_Grant.png",
@@ -1956,7 +1956,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_Korrina.png",
@@ -1983,7 +1983,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/07/16",
+		"releaseDate": "2022-07-16",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_SSKorrina.png",
@@ -2010,7 +2010,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-04_Ramos.png",
@@ -2035,7 +2035,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-08_Wulfric.png",
@@ -2060,7 +2060,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold.png",
@@ -2087,7 +2087,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/12/12",
+		"releaseDate": "2019-12-12",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Siebold.png",
@@ -2113,7 +2113,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-03_Wikstrom.png",
@@ -2137,7 +2137,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_Hau.png",
@@ -2162,7 +2162,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png",
@@ -2186,7 +2186,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png",
@@ -2210,7 +2210,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png",
@@ -2234,7 +2234,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02_Olivia.png",
@@ -2258,7 +2258,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-11_Hapu.png",
@@ -2283,7 +2283,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_Kahili.png",
@@ -2307,7 +2307,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png",
@@ -2331,7 +2331,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-10_Nanu.png",
@@ -2354,7 +2354,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Koga.png",
@@ -2379,7 +2379,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_Acerola.png"
@@ -2404,7 +2404,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/10/15",
+		"releaseDate": "2020-10-15",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Acerola.png",
@@ -2430,7 +2430,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2019/08/29",
+		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren.png"
@@ -2454,7 +2454,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/09/03",
+		"releaseDate": "2019-09-03",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_Blue.png",
@@ -2480,7 +2480,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/08/28",
+		"releaseDate": "2020-08-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_SSBlue.png",
@@ -2508,7 +2508,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/09/18",
+		"releaseDate": "2021-09-18",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BlueClassic.png",
@@ -2535,7 +2535,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/02/17",
+		"releaseDate": "2022-02-17",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02-EP_Blue.png",
@@ -2562,7 +2562,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BP_Blue.png",
@@ -2588,7 +2588,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/09/17",
+		"releaseDate": "2019-09-17",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_Lyra.png",
@@ -2614,7 +2614,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/07/31",
+		"releaseDate": "2020-07-31",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Lyra.png",
@@ -2640,7 +2640,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/06/01",
+		"releaseDate": "2022-06-01",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_ssLyra.png",
@@ -2668,7 +2668,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/09/24",
+		"releaseDate": "2019-09-24",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_Hilbert.png",
@@ -2693,7 +2693,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/10/15",
+		"releaseDate": "2020-10-15",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Hilbert.png",
@@ -2719,7 +2719,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/09/30",
+		"releaseDate": "2019-09-30",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_Hilda.png",
@@ -2744,7 +2744,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/11/04",
+		"releaseDate": "2021-11-04",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Hilda.png",
@@ -2771,7 +2771,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/07/02",
+		"releaseDate": "2022-07-02",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_Hilda.png",
@@ -2798,7 +2798,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/10/17",
+		"releaseDate": "2019-10-17",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_Elesa.png",
@@ -2823,7 +2823,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/02/28",
+		"releaseDate": "2020-02-28",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_SSElesa.png",
@@ -2848,7 +2848,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/12/09",
+		"releaseDate": "2021-12-09",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_ElesaClassic.png",
@@ -2875,7 +2875,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/10/31",
+		"releaseDate": "2019-10-31",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-05_Caitlin.png",
@@ -2900,7 +2900,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/16",
+		"releaseDate": "2021-10-16",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Caitlin.png",
@@ -2926,7 +2926,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/11/07",
+		"releaseDate": "2019-11-07",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_Calem.png",
@@ -2950,7 +2950,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2019/11/14",
+		"releaseDate": "2019-11-14",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia.png",
@@ -2974,7 +2974,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/11/28",
+		"releaseDate": "2019-11-28",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_Grimsley.png",
@@ -2999,7 +2999,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/06/11",
+		"releaseDate": "2020-06-11",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_SSGrimsley.png",
@@ -3024,7 +3024,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/11/26",
+		"releaseDate": "2021-11-26",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_GrimsleyKimono.png",
@@ -3049,7 +3049,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/12/05",
+		"releaseDate": "2019-12-05",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01_Giovanni.png",
@@ -3074,7 +3074,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/05/19",
+		"releaseDate": "2022-05-19",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0A_KANTO_0D-01_SSGiovanni.png",
@@ -3100,7 +3100,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/15",
+		"releaseDate": "2022-08-15",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01-EP_Giovanni.png",
@@ -3126,7 +3126,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/01/15",
+		"releaseDate": "2020-01-15",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_Ethan.png",
@@ -3151,7 +3151,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/05/30",
+		"releaseDate": "2022-05-30",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_SSEthan.png",
@@ -3178,7 +3178,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/01/22",
+		"releaseDate": "2020-01-22",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_Leaf.png",
@@ -3203,7 +3203,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/08/28",
+		"releaseDate": "2020-08-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_SSLeaf.png",
@@ -3230,7 +3230,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2019/12/26",
+		"releaseDate": "2019-12-26",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04_Lance.png",
@@ -3257,7 +3257,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/01/01",
+		"releaseDate": "2021-01-01",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lance.png",
@@ -3283,7 +3283,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/01/01",
+		"releaseDate": "2020-01-01",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_Cynthia.png",
@@ -3309,7 +3309,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/08/17",
+		"releaseDate": "2020-08-17",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSCynthia.png",
@@ -3335,7 +3335,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/12/27",
+		"releaseDate": "2021-12-27",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSRCynthia.png",
@@ -3363,7 +3363,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_BP_Cynthia.png",
@@ -3389,7 +3389,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/08/30",
+		"releaseDate": "2022-08-30",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia.png",
@@ -3417,7 +3417,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2020/01/30",
+		"releaseDate": "2020-01-30",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png"
@@ -3439,7 +3439,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/01/30",
+		"releaseDate": "2020-01-30",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04_Zinnia.png",
@@ -3463,7 +3463,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png",
@@ -3487,7 +3487,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/02/14",
+		"releaseDate": "2020-02-14",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_Steven.png",
@@ -3513,7 +3513,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/07/31",
+		"releaseDate": "2020-07-31",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Steven.png",
@@ -3540,7 +3540,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/09/01",
+		"releaseDate": "2021-09-01",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Steven.png",
@@ -3569,7 +3569,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/08/10",
+		"releaseDate": "2022-08-10",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA.png",
@@ -3597,7 +3597,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2020/02/14",
+		"releaseDate": "2020-02-14",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png",
@@ -3624,7 +3624,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2020/02/25",
+		"releaseDate": "2020-02-25",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png",
@@ -3648,7 +3648,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/02/28",
+		"releaseDate": "2020-02-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSRed.png",
@@ -3666,7 +3666,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "084",
 		"trainerName": "Red",
-		"trainerAlt": "",
+		"trainerAlt": "Classic",
 		"pokemonNumber": "0143",
 		"pokemonName": "Snorlax",
 		"pokemonGender": "♂",
@@ -3675,7 +3675,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/09/16",
+		"releaseDate": "2021-09-16",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_Red.png",
@@ -3701,7 +3701,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/09/01",
+		"releaseDate": "2022-09-01",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSTRed.png",
@@ -3729,7 +3729,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/03/16",
+		"releaseDate": "2020-03-16",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-06_Sabrina.png",
@@ -3754,7 +3754,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/01/01",
+		"releaseDate": "2022-01-01",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Sabrina.png",
@@ -3780,7 +3780,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2020/03/19",
+		"releaseDate": "2020-03-19",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png"
@@ -3803,7 +3803,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/03/27",
+		"releaseDate": "2020-03-27",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-02_Plumeria.png",
@@ -3827,7 +3827,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/03/27",
+		"releaseDate": "2020-03-27",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-03_Guzma.png",
@@ -3852,7 +3852,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/11/11",
+		"releaseDate": "2021-11-11",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Guzma.png",
@@ -3878,7 +3878,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/04/14",
+		"releaseDate": "2020-04-14",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_Clemont.png",
@@ -3903,7 +3903,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png",
@@ -3928,7 +3928,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/04/30",
+		"releaseDate": "2020-04-30",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-08_Wallace.png",
@@ -3953,7 +3953,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/04/30",
+		"releaseDate": "2020-04-30",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_Silver.png",
@@ -3980,7 +3980,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_BP_Silver.png",
@@ -4005,7 +4005,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/05/14",
+		"releaseDate": "2020-05-14",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_Wally.png",
@@ -4029,7 +4029,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/09/28",
+		"releaseDate": "2022-09-28",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally.png",
@@ -4059,7 +4059,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/05/21",
+		"releaseDate": "2020-05-21",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-06_Jasmine.png",
@@ -4084,7 +4084,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/11/18",
+		"releaseDate": "2021-11-18",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Jasmine.png",
@@ -4110,7 +4110,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/05/28",
+		"releaseDate": "2020-05-28",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_Dawn.png",
@@ -4135,7 +4135,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/02/01",
+		"releaseDate": "2021-02-01",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Dawn.png",
@@ -4161,7 +4161,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/02/14",
+		"releaseDate": "2022-02-14",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_SSDawn.png",
@@ -4188,7 +4188,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/06/18",
+		"releaseDate": "2020-06-18",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-03_Burgh.png",
@@ -4213,7 +4213,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/04/02",
+		"releaseDate": "2021-04-02",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_Burgh.png",
@@ -4239,7 +4239,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/06/30",
+		"releaseDate": "2020-06-30",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_Serena.png",
@@ -4264,7 +4264,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/01/29",
+		"releaseDate": "2021-01-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Serena.png",
@@ -4290,7 +4290,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/03/17",
+		"releaseDate": "2022-03-17",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_SSSerena.png",
@@ -4317,7 +4317,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2020/07/09",
+		"releaseDate": "2020-07-09",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-02_Jessie.png",
@@ -4342,7 +4342,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2020/07/10",
+		"releaseDate": "2020-07-10",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-02_Lucy.png",
@@ -4365,7 +4365,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/07/15",
+		"releaseDate": "2020-07-15",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_Morty.png",
@@ -4390,7 +4390,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/05/27",
+		"releaseDate": "2021-05-27",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png",
@@ -4415,7 +4415,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/14",
+		"releaseDate": "2021-10-14",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Morty.png",
@@ -4441,7 +4441,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/04/28",
+		"releaseDate": "2022-04-28",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_SSMorty.png",
@@ -4470,7 +4470,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/08/17",
+		"releaseDate": "2020-08-17",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_Cyrus.png",
@@ -4496,7 +4496,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/02/10",
+		"releaseDate": "2022-02-10",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_SSCyrus.png",
@@ -4523,7 +4523,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/09/10",
+		"releaseDate": "2020-09-10",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_Lusamine.png",
@@ -4548,7 +4548,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/11/30",
+		"releaseDate": "2021-11-30",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_SSLusamine.png",
@@ -4575,7 +4575,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/09/14",
+		"releaseDate": "2020-09-14",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-05_Gladion.png",
@@ -4601,7 +4601,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/09/17",
+		"releaseDate": "2020-09-17",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_Lillie.png",
@@ -4625,7 +4625,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/01/01",
+		"releaseDate": "2021-01-01",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lillie.png",
@@ -4650,7 +4650,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/08/28",
+		"releaseDate": "2021-08-28",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Lillie.png",
@@ -4677,7 +4677,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/03/31",
+		"releaseDate": "2022-03-31",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Lillie.png",
@@ -4703,7 +4703,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_BP_Lillie.png",
@@ -4727,7 +4727,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2020/09/17",
+		"releaseDate": "2020-09-17",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-03_James.png",
@@ -4752,7 +4752,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/09/30",
+		"releaseDate": "2020-09-30",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-08_Volkner.png",
@@ -4778,7 +4778,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/01/01",
+		"releaseDate": "2022-01-01",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Volkner.png",
@@ -4805,7 +4805,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2020/10/08",
+		"releaseDate": "2020-10-08",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-05_Molayne.png",
@@ -4829,7 +4829,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/10/30",
+		"releaseDate": "2020-10-30",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-03_Lisia.png",
@@ -4852,7 +4852,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/11/06",
+		"releaseDate": "2020-11-06",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-06_Alder.png",
@@ -4877,7 +4877,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/11/12",
+		"releaseDate": "2020-11-12",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-05_Nate.png",
@@ -4901,7 +4901,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/11/14",
+		"releaseDate": "2020-11-14",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-04_Bianca.png",
@@ -4926,7 +4926,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/11/30",
+		"releaseDate": "2020-11-30",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria.png",
@@ -4953,7 +4953,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/07/15",
+		"releaseDate": "2021-07-15",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Gloria.png",
@@ -4979,7 +4979,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/07/14",
+		"releaseDate": "2022-07-14",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GloriaDojo.png",
@@ -5006,7 +5006,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dragon",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2020/12/24",
+		"releaseDate": "2020-12-24",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_N.png",
@@ -5034,7 +5034,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dragon",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/08/30",
+		"releaseDate": "2021-08-30",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_N.png",
@@ -5063,7 +5063,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/06/30",
+		"releaseDate": "2022-06-30",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_N.png",
@@ -5090,7 +5090,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_BP_N.png",
@@ -5117,7 +5117,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/01/14",
+		"releaseDate": "2021-01-14",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_May.png",
@@ -5143,7 +5143,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/04/02",
+		"releaseDate": "2021-04-02",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_May.png",
@@ -5169,7 +5169,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/02/28",
+		"releaseDate": "2022-02-28",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_May.png",
@@ -5198,7 +5198,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/07/29",
+		"releaseDate": "2022-07-29",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_SSMay.png",
@@ -5224,7 +5224,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_BP_May.png",
@@ -5249,7 +5249,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/01/21",
+		"releaseDate": "2021-01-21",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-04_Mallow.png",
@@ -5272,7 +5272,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/02/11",
+		"releaseDate": "2021-02-11",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_Lysandre.png",
@@ -5298,7 +5298,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/02/11",
+		"releaseDate": "2021-02-11",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore.png"
@@ -5321,7 +5321,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_BP_ProfSycamore.png",
@@ -5345,7 +5345,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/02/18",
+		"releaseDate": "2021-02-18",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-07_Piers.png",
@@ -5369,7 +5369,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/02/26",
+		"releaseDate": "2021-02-26",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_Leon.png",
@@ -5395,7 +5395,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/08/12",
+		"releaseDate": "2021-08-12",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_SSLeon.png",
@@ -5422,7 +5422,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/12/16",
+		"releaseDate": "2021-12-16",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Leon.png",
@@ -5449,7 +5449,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/02/26",
+		"releaseDate": "2021-02-26",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_Marnie.png",
@@ -5475,7 +5475,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/07/17",
+		"releaseDate": "2021-07-17",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Marnie.png",
@@ -5501,7 +5501,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/01/31",
+		"releaseDate": "2022-01-31",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Marnie.png",
@@ -5528,7 +5528,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/08/25",
+		"releaseDate": "2022-08-25",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_BP_Marnie.png",
@@ -5554,7 +5554,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/03/31",
+		"releaseDate": "2021-03-31",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_Diantha.png",
@@ -5580,7 +5580,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/29",
+		"releaseDate": "2021-10-29",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Diantha.png",
@@ -5607,7 +5607,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/04/15",
+		"releaseDate": "2021-04-15",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-02_Selene.png",
@@ -5631,7 +5631,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/04/17",
+		"releaseDate": "2021-04-17",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-01_Elio.png",
@@ -5655,7 +5655,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/04/28",
+		"releaseDate": "2021-04-28",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_Raihan.png",
@@ -5682,7 +5682,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/03/04",
+		"releaseDate": "2022-03-04",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan.png",
@@ -5710,7 +5710,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2022/10/01",
+		"releaseDate": "2022-10-01",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan.png",
@@ -5737,7 +5737,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/05/04",
+		"releaseDate": "2021-05-04",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis.png"
@@ -5760,7 +5760,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/05/13",
+		"releaseDate": "2021-05-13",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-02_Nessa.png",
@@ -5785,7 +5785,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/12/18",
+		"releaseDate": "2021-12-18",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Nessa.png",
@@ -5812,7 +5812,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/05/15",
+		"releaseDate": "2021-05-15",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04_Bea.png",
@@ -5837,7 +5837,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/02/02",
+		"releaseDate": "2022-02-02",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Bea.png",
@@ -5864,7 +5864,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/05/31",
+		"releaseDate": "2021-05-31",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-01_Maxie.png",
@@ -5891,7 +5891,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/01",
+		"releaseDate": "2021-06-01",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-02_Archie.png",
@@ -5918,7 +5918,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/11",
+		"releaseDate": "2021-06-11",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_Lana.png",
@@ -5941,7 +5941,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/13",
+		"releaseDate": "2021-06-13",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-03_Kiawe.png",
@@ -5964,7 +5964,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/15",
+		"releaseDate": "2021-06-15",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01_Hala.png",
@@ -5988,7 +5988,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/17",
+		"releaseDate": "2021-06-17",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-02_MaskedRoyal.png",
@@ -6012,7 +6012,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/30",
+		"releaseDate": "2021-06-30",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-01_Ingo.png",
@@ -6038,7 +6038,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/04/14",
+		"releaseDate": "2022-04-14",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Ingo.png",
@@ -6064,7 +6064,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/06/30",
+		"releaseDate": "2021-06-30",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-02_Emmet.png",
@@ -6090,7 +6090,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/04/21",
+		"releaseDate": "2022-04-21",
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Emmet.png",
@@ -6115,7 +6115,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/07/28",
+		"releaseDate": "2021-07-28",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-02_Evelyn.png"
@@ -6138,7 +6138,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/07/30",
+		"releaseDate": "2021-07-30",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-01_Lear.png",
@@ -6164,7 +6164,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/07/30",
+		"releaseDate": "2021-07-30",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-02_Rachel.png",
@@ -6188,7 +6188,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★",
-		"releaseDate": "2021/07/30",
+		"releaseDate": "2021-07-30",
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-03_Sawyer.png",
@@ -6212,7 +6212,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/08/05",
+		"releaseDate": "2021-08-05",
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01_Falkner.png",
@@ -6236,7 +6236,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/08/09",
+		"releaseDate": "2021-08-09",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-01_Sidney.png",
@@ -6260,7 +6260,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2021/08/12",
+		"releaseDate": "2021-08-12",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_Hop.png"
@@ -6283,7 +6283,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/22",
+		"releaseDate": "2021-10-22",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04b_Allister.png",
@@ -6307,7 +6307,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/10/19",
+		"releaseDate": "2022-10-19",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister.png",
@@ -6333,7 +6333,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/10/25",
+		"releaseDate": "2021-10-25",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-04_Darach.png",
@@ -6356,7 +6356,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2021/12/23",
+		"releaseDate": "2021-12-23",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_Sonia.png",
@@ -6380,7 +6380,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/04/07",
+		"releaseDate": "2022-04-07",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Sonia.png",
@@ -6406,7 +6406,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/01/13",
+		"releaseDate": "2022-01-13",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_Lucas.png",
@@ -6433,7 +6433,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/05/09",
+		"releaseDate": "2022-05-09",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-01_Aaron.png",
@@ -6457,7 +6457,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/05/11",
+		"releaseDate": "2022-05-11",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-02_Bertha.png",
@@ -6482,7 +6482,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/05/13",
+		"releaseDate": "2022-05-13",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-04_Lucian.png",
@@ -6506,7 +6506,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/06/16",
+		"releaseDate": "2022-06-16",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_Bede.png",
@@ -6533,7 +6533,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/08/03",
+		"releaseDate": "2022-08-03",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-05_Looker.png",
@@ -6556,7 +6556,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/08/05",
+		"releaseDate": "2022-08-05",
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-03_Courtney.png",
@@ -6581,7 +6581,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-02_Ash.png",
@@ -6607,7 +6607,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★",
-		"releaseDate": "2022/08/28",
+		"releaseDate": "2022-08-28",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-01_Nita.png"
@@ -6630,7 +6630,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2022/09/15",
+		"releaseDate": "2022-09-15",
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0X-01_Naomi.png",
@@ -6654,7 +6654,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/10/03",
+		"releaseDate": "2022-10-03",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie.png",
@@ -6680,7 +6680,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/10/05",
+		"releaseDate": "2022-10-05",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony.png",
@@ -6705,7 +6705,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/10/07",
+		"releaseDate": "2022-10-07",
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor.png",
@@ -6731,7 +6731,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRarity": "★★★",
-		"releaseDate": "2022/10/17",
+		"releaseDate": "2022-10-17",
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0X-01_Helena.png",
@@ -6757,7 +6757,7 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Normal / Fire / Water / Electric / Grass / Ice / Fighting / Poison / Ground / Flying / Psychic / Bug / Rock / Ghost / Dragon / Dark / Steel / Fairy",
 		"syncPairRole": "Special Strike / Physical Strike / Tech / Support",
 		"syncPairRarity": "★★★★★☆",
-		"releaseDate": "2022/00/00",
+		"releaseDate": "2022-00-00",
 		"syncPairRegion": "0Pasio / 1Kanto / 2Johto / 3Hoenn / 4Sinnoh / 5Unova / 6Kalos / 7Alola / 8Galar",
 		"images": [
 			"images/empty.png"
@@ -6789,7 +6789,16 @@ export const SYNCPAIRS = [
 			"Vilain",
 			"Legendary",
 			"Mythical",
-			"Shiny"
+			"Shiny",
+			"Sygna Suit",
+			"Special Costume",
+			"Anniversary",
+			"New Year",
+			"Palentine",
+			"Spring",
+			"Summer",
+			"Fall",
+			"Holiday"
 		]
 	}
 	*/

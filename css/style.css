@@ -21,6 +21,8 @@
 * { box-sizing: border-box; }
 
 
+html { scroll-behavior:smooth; }
+
 body {
 	width: 100%;
 	margin: 0;
@@ -141,7 +143,7 @@ input:focus { outline: 0; }
 	padding: 6px 12px;
 	color: white;
 	background-color: var(--blue3);
-	border: none;
+	border: 2px solid transparent;
 	border-radius: 5px;
 }
 
@@ -150,9 +152,35 @@ input:focus { outline: 0; }
 	opacity: 1; /* Firefox */
 }
 
+#search:focus {
+	border: 2px solid #48899a;
+}
+
+#dateBtns {
+	margin: 20px 0;
+	margin-bottom: 30px;
+}
+
+#date1, #date2 {
+	width: 36%;
+	padding: 0px 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #82aeb5;
+	color: white;
+	font-family: "kenya-NewRodinProN-B";
+	font-size: 12px;
+}
+
+#btnDate {
+	width: 16% !important;
+	padding: 0 !important;
+	text-align: center !important;
+}
+
 /* class for elements during search */
 .found {
-	display: block !important;
+	display: block;
 	opacity: 0.5;
 }
 .notFound {
@@ -229,12 +257,83 @@ input:focus { outline: 0; }
 	margin: 0;
 }
 
-#increaseSyncStar img,
-#increaseSyncLevel img,
-#increaseFavorite img {
+.extendedIcon {
+	position: absolute !important;
+	right: 5px !important;
+	width: 10px;
+	height: auto !important;
+	top: 5px !important;
+	filter: none !important;
+}
+
+.btnBlue .extendedIcon {
+	transform: scaleY(-1);
+}
+
+#increaseBtns img,
+#increaseOptions .btn img {
 	height: 15px;
 	position: relative;
 	top: 3px;
+}
+
+#increaseBtns img { margin: auto 5px; filter: saturate(0.2); }
+#increaseBtns:hover img,
+#increaseBtns[class="btn btnBlue"] img { filter: saturate(1); }
+
+#selectionOptions,
+#increaseOptions,
+#visibilityOptions {
+	background-color: rgb(72 137 154 / 30%);
+	border-radius: 5px;
+	padding: 10px 0;
+	padding-bottom: 15px;
+	margin: auto 15px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+#selectionBtns[class="btn btnBlue"] ~ #increaseBtns[class="btn btnBlue"] ~ #selectionOptions,
+#selectionBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #selectionOptions,
+#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #increaseOptions {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+#selectionBtns[class="btn btnBlue"] ~ #increaseBtns[class="btn btnBlue"] ~ #increaseOptions,
+#selectionBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #visibilityOptions,
+#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #visibilityOptions {
+	margin-top: 0px;
+	margin-bottom: 12px;
+	padding-top: 6px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#selectionBtns[class="btn btnBlue"] ~
+#increaseBtns[class="btn btnBlue"] ~
+#visibilityBtns[class="btn btnBlue"] ~ #increaseOptions {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#increaseOptions2 .btn {
+	width: 14.25% !important;
+}
+#allVisible,
+#selectedVisible {
+	width: 14.25% !important;
+}
+#notSelectedVisible,
+#datamineVisible {
+	width: 30% !important;
 }
 
 #sorting {
@@ -244,14 +343,14 @@ input:focus { outline: 0; }
 	z-index: 2;
 	background-attachment: fixed;
 	margin-top: 40px;
+	background-color: rgb(72 137 154 / 30%);
+    border-radius: 5px;
+    padding: 10px 0;
+    padding-bottom: 15px;
+    margin: auto 15px;
+    margin-top: 16px;
+    margin-bottom: 3px;
 }
-
-/*
-#sorting .btn:not(.btnBlue) {
-	background: linear-gradient(rgb(150 196 236 / 30%), rgb(99 133 255 / 30%)) !important;
-	color: #075f78;
-}
-*/
 
 .sortingVisible {
 	display: block !important;
@@ -297,18 +396,42 @@ input:focus { outline: 0; }
 	background: linear-gradient(#D1EC96, #B8F33B);
 }
 
-#viewMode:active {
+#lockMode,
+#viewMode {
+	width: 14.5% !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-color: #E6E6E6 !important;
+}
+
+#lockMode {
+	background-image: url(../images/lock1.png) !important;
+}
+
+#viewMode {
+	background-image: url(../images/view1.png) !important;
+}
+
+#allVisible:active,
+#selectedVisible:active,
+#notSelectedVisible:active,
+#datamineVisible:active,
+.btnYellow {
 	background: linear-gradient(#e3ec96, #ffdd63) !important;
 	border: 2px solid #7a7710 !important;
 	color: #7a7710 !important;
 }
 
+#selectionBtns:active,
+#increaseBtns:active,
+#visibilityBtns:active,
 #showSorting:active,
 #sorting .btn:active,
 .btnBlue {
-	background: linear-gradient(#96c4ec, #6385ff) !important;
-	border: 2px solid #295faf !important;
-	color: #294caf !important;
+	background: linear-gradient(#9ed2ff, #819cff) !important;
+	border: 2px solid #4677d1 !important;
+	color: #325fb3 !important;
 }
 
 #removeFilters:active,
@@ -356,6 +479,7 @@ input:focus { outline: 0; }
 .selectedFilter,
 .selectedOption {
 	background: linear-gradient(#D1EC96, #B8F33B) !important;
+	transition-duration: 500ms;
 }
 
 .starBtn {
@@ -365,7 +489,7 @@ input:focus { outline: 0; }
 
 #userBtns {
 	margin: 20px 0;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .syncUserBtnSyncLevel,
@@ -908,9 +1032,16 @@ input:focus { outline: 0; }
 		top: 3px;
 	}
 
-	#userBtns {
+	.btnBlue,
+	.btnRed,
+	.btnYellow {
+		border-width: 1.2px !important;
+	}
+
+	#userBtns,
+	#dateBtns {
 		margin: 24px 0;
-		margin-top: 0;
+		margin-top: 30;
 	}
 
 	#syncPairs {

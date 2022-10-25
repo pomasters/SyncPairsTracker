@@ -7,10 +7,14 @@
 	<title>Sync Pairs Tracker - Pokémon Masters EX</title>
 	<meta charset="UTF-16">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Sync Pairs Tracker for Pokémon Masters EX">
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
+	<link rel="stylesheet" type="text/css" id="lockModeCss" href="css/lockmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="viewModeCss" href="css/viewmode.css" disabled>
+	<style type="text/css" id="visibilityMode"></style>
+	<link rel="stylesheet" type="text/css" id="datamineCss" href="css/datamine.css" disabled>
 </head>
 
 
@@ -22,30 +26,56 @@
 			<div id="btnEggs"></div>
 
 			<ul id="news">
-				<li><span>2022/10/10</span><span>Add the possibility to mark a sync pair<br>as a favorite / custom tag</span></li>
-				<li><span>2022/09/26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons<br>→&nbsp;&nbsp;&nbsp;Add v2.25.0</span></li>
-				<li><span>2022/09/06</span><span>Add the possibility to up the ★ of sync pair (currently not the case for eggmons)</span></li>
-				<li><span>2022/09/05</span><span>Hello, Pokémon World !</span></li>
+				<li><span>2022-10-25</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add new options&nbsp;&nbsp;:&nbsp;&nbsp;visibility options,<br>lock mode, filter by release date interval, ...</span></li>
+				<li><span>2022-10-10</span><span>Add the possibility to mark a sync pair<br>as a favorite / custom tag</span></li>
+				<li><span>2022-09-26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons<br>→&nbsp;&nbsp;&nbsp;Add v2.25.0</span></li>
+				<li><span>2022-09-06</span><span>Add the possibility to up the ★ of sync pair<br>(currently not the case for eggmons)</span></li>
+				<li><span>2022-09-05</span><span>Hello, Pokémon World !</span></li>
 			</ul>
 
 			<div id="options">
-				<button type="button" class="btn" id="fullSelection">Select</button>
-				<button type="button" class="btn" id="resetSelection">Unselect</button>
-				<button type="button" class="btn" id="invertSelection">Invert</button>
-				<button type="button" class="btn" id="increaseSyncStar">Increase <img src="images/star.png"></button>
-				<button type="button" class="btn" id="increaseSyncLevel">Increase <img src="images/0.png"></button>
-				<button type="button" class="btn" id="increaseFavorite">Favorite <img src="images/favorite.png"></button>
+				<button type="button" class="btn" id="selectionBtns">Selection<img class="extendedIcon" src="images/bottomArrow.png"></button>
+				<button type="button" class="btn" id="increaseBtns"><img src="images/star.png"><img src="images/0.png"><img src="images/favoriteG.png"><img class="extendedIcon" src="images/bottomArrow.png"></button>
+				<button type="button" class="btn" id="visibilityBtns">Visibility<img class="extendedIcon" src="images/bottomArrow.png"></button>
+
+				<div class="hide" id="selectionOptions">
+					<button type="button" class="btn" id="fullSelection">Select</button>
+					<button type="button" class="btn" id="resetSelection">Unselect</button>
+					<button type="button" class="btn" id="invertSelection">Invert</button>
+				</div>
+
+				<div class="hide" id="increaseOptions">
+					<div id="increaseOptions2">
+						<button type="button" class="btn" id="increaseSyncStar">↑ <img src="images/star.png"></button>
+						<button type="button" class="btn" id="decreaseSyncStar">↓ <img src="images/star.png"></button>
+						<button type="button" class="btn" id="increaseSyncLevel">↑ <img src="images/0.png"></button>
+						<button type="button" class="btn" id="decreaseSyncLevel">↓ <img src="images/0.png"></button>
+						<button type="button" class="btn" id="increaseFavorite">↑ <img src="images/favoriteG.png"></button>
+						<button type="button" class="btn" id="decreaseFavorite">↓ <img src="images/favoriteG.png"></button>
+					</div>
+					<button type="button" class="btn" id="resetSyncStar">Default <img src="images/star0.png"></button>
+					<button type="button" class="btn" id="resetSyncLevel">Default <img src="images/1.png"></button>
+					<button type="button" class="btn" id="resetFavorite">Default <img src="images/favorite1.png"></button>
+				</div>
+
+				<div class="hide" id="visibilityOptions">
+					<button type="button" class="btn btnYellow" id="allVisible">All</button>
+					<button type="button" class="btn" id="selectedVisible">Have</button>
+					<button type="button" class="btn" id="notSelectedVisible">Not have</button>
+					<button type="button" class="btn" id="datamineVisible">Datamine</button>
+				</div>
+
 				<button type="button" class="btn" id="exportSelection">Export / Save</button>
 				<button type="button" class="btn" id="importSelection">Import / Load</button>
 				<button type="button" class="btn" id="takeScreenshot">Save Image</button>
-				<button type="button" class="btn" id="viewMode">View Mode</button>
-				<button type="button" class="btn" id="showSorting">Sort by...</button>
+				<button type="button" class="btn" id="lockMode">&nbsp;</button>
+				<button type="button" class="btn" id="viewMode">&nbsp;</button>
+				<button type="button" class="btn" id="showSorting">Sort by...<img class="extendedIcon" src="images/bottomArrow.png"></button>
 				<button type="button" class="btn" id="removeFilters">× filters</button>
 				<textarea spellcheck="false" id="exportImportZone" class="hide" placeholder="Paste a code to import or leave this empty to load the saved backup."></textarea>
 
 				<div id="sorting">
-					<div class="buttonGroupTitle">Sort by...</div>
-					<button type="button" class="btn" data-asc="true" id="sortByDexNumber">Dex #</button>
+					<button type="button" class="btn btnBlue" data-asc="false" id="sortByDexNumber">Dex #</button>
 					<button type="button" class="btn" data-asc="true" id="sortByPokemonNumber">Pokémon #</button>
 					<button type="button" class="btn" data-asc="true" id="sortByTrainer">Trainer</button>
 					<button type="button" class="btn" data-asc="true" id="sortByStar">Star</button>
@@ -59,7 +89,7 @@
 					<button type="button" class="btn" data-asc="true" id="sortByFavorite">Favorite</button>
 					<div>
 						<button type="button" class="btn editOrderBtn" id="editOrderMode">Edit order <img src="images/off.png"></button>
-						<button type="button" class="btn editOrderBtn" data-asc="true" id="sortByCustom">Custom order</button>						
+						<button type="button" class="btn editOrderBtn" data-asc="true" id="sortByCustom">Custom order</button>
 					</div>
 				</div>
 			</div>
@@ -83,6 +113,13 @@
 					<button type="button" class="btn syncUserBtnFav" value='favorite2.png" class="currentImage"'>&nbsp;<img src="images/favorite2.png"></button>
 				</div>
 
+				<div id="dateBtns">
+					<div class="buttonGroupTitle">Date</div>
+					<input type="date" id="date1" min="2019-08-29" max="2023-01-01">
+					<input type="date" id="date2" min="2019-08-29" max="2023-01-01">
+					<input type="button" class="btn" id="btnDate" value="Filter">
+				</div>
+
 				<div>
 					<div class="buttonGroupTitle">Trainer/Pokémon</div>
 					<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon...">
@@ -90,76 +127,76 @@
 
 				<div>
 					<div class="buttonGroupTitle">Star</div>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★<'>&nbsp;<img src="images/star1.png"></button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★<'>&nbsp;<img src="images/star2.png"></button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★<'>&nbsp;<img src="images/star3.png"></button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★<'>&nbsp;<img src="images/star4.png"></button>
-					<button type="button" class="btn starBtn" value='"infoSyncPairRarity">★★★★★'>&nbsp;<img src="images/star5.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★<'>&nbsp;<img src="images/star1.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★<'>&nbsp;<img src="images/star2.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★<'>&nbsp;<img src="images/star3.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★★<'>&nbsp;<img src="images/star4.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★★★'>&nbsp;<img src="images/star5.png"></button>
 					<button type="button" class="btn starBtn" value='_EX'>&nbsp;<img src="images/star6.png"></button>
 				</div>
 
 				<div>
 					<div class="buttonGroupTitle">Type</div>
-					<button type="button" class="btn" value='"infoPokemonType">normal'><img src="images/type_normal.png">Normal</button>
-					<button type="button" class="btn" value='"infoPokemonType">fire'><img src="images/type_fire.png">Fire</button>
-					<button type="button" class="btn" value='"infoPokemonType">water'><img src="images/type_water.png">Water</button>
-					<button type="button" class="btn" value='"infoPokemonType">electric'><img src="images/type_electric.png">Electric</button>
-					<button type="button" class="btn" value='"infoPokemonType">grass'><img src="images/type_grass.png">Grass</button>
-					<button type="button" class="btn" value='"infoPokemonType">ice'><img src="images/type_ice.png">Ice</button>
-					<button type="button" class="btn" value='"infoPokemonType">fighting'><img src="images/type_fighting.png">Fighting</button>
-					<button type="button" class="btn" value='"infoPokemonType">poison'><img src="images/type_poison.png">Poison</button>
-					<button type="button" class="btn" value='"infoPokemonType">ground'><img src="images/type_ground.png">Ground</button>
-					<button type="button" class="btn" value='"infoPokemonType">flying'><img src="images/type_flying.png">Flying</button>
-					<button type="button" class="btn" value='"infoPokemonType">psychic'><img src="images/type_psychic.png">Psychic</button>
-					<button type="button" class="btn" value='"infoPokemonType">bug'><img src="images/type_bug.png">Bug</button>
-					<button type="button" class="btn" value='"infoPokemonType">rock'><img src="images/type_rock.png">Rock</button>
-					<button type="button" class="btn" value='"infoPokemonType">ghost'><img src="images/type_ghost.png">Ghost</button>
-					<button type="button" class="btn" value='"infoPokemonType">dragon'><img src="images/type_dragon.png">Dragon</button>
-					<button type="button" class="btn" value='"infoPokemonType">dark'><img src="images/type_dark.png">Dark</button>
-					<button type="button" class="btn" value='"infoPokemonType">steel'><img src="images/type_steel.png">Steel</button>
-					<button type="button" class="btn" value='"infoPokemonType">fairy'><img src="images/type_fairy.png">Fairy</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">normal'><img src="images/type_normal.png">Normal</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">fire'><img src="images/type_fire.png">Fire</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">water'><img src="images/type_water.png">Water</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">electric'><img src="images/type_electric.png">Electric</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">grass'><img src="images/type_grass.png">Grass</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">ice'><img src="images/type_ice.png">Ice</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">fighting'><img src="images/type_fighting.png">Fighting</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">poison'><img src="images/type_poison.png">Poison</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">ground'><img src="images/type_ground.png">Ground</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">flying'><img src="images/type_flying.png">Flying</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">psychic'><img src="images/type_psychic.png">Psychic</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">bug'><img src="images/type_bug.png">Bug</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">rock'><img src="images/type_rock.png">Rock</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">ghost'><img src="images/type_ghost.png">Ghost</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">dragon'><img src="images/type_dragon.png">Dragon</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">dark'><img src="images/type_dark.png">Dark</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">steel'><img src="images/type_steel.png">Steel</button>
+					<button type="button" class="btn filterType" value='"infoPokemonType">fairy'><img src="images/type_fairy.png">Fairy</button>
 				</div>
 
 				<div style="display: none;">
 					<div class="buttonGroupTitle">Weakness</div>
-					<button type="button" class="btn" value='"infoPokemonWeak">normal'><img src="images/type_normal.png">Normal</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">fire'><img src="images/type_fire.png">Fire</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">water'><img src="images/type_water.png">Water</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">electric'><img src="images/type_electric.png">Electric</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">grass'><img src="images/type_grass.png">Grass</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">ice'><img src="images/type_ice.png">Ice</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">fighting'><img src="images/type_fighting.png">Fighting</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">poison'><img src="images/type_poison.png">Poison</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">ground'><img src="images/type_ground.png">Ground</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">flying'><img src="images/type_flying.png">Flying</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">psychic'><img src="images/type_psychic.png">Psychic</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">bug'><img src="images/type_bug.png">Bug</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">rock'><img src="images/type_rock.png">Rock</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">ghost'><img src="images/type_ghost.png">Ghost</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">dragon'><img src="images/type_dragon.png">Dragon</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">dark'><img src="images/type_dark.png">Dark</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">steel'><img src="images/type_steel.png">Steel</button>
-					<button type="button" class="btn" value='"infoPokemonWeak">fairy'><img src="images/type_fairy.png">Fairy</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">normal'><img src="images/type_normal.png">Normal</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">fire'><img src="images/type_fire.png">Fire</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">water'><img src="images/type_water.png">Water</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">electric'><img src="images/type_electric.png">Electric</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">grass'><img src="images/type_grass.png">Grass</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">ice'><img src="images/type_ice.png">Ice</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">fighting'><img src="images/type_fighting.png">Fighting</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">poison'><img src="images/type_poison.png">Poison</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">ground'><img src="images/type_ground.png">Ground</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">flying'><img src="images/type_flying.png">Flying</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">psychic'><img src="images/type_psychic.png">Psychic</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">bug'><img src="images/type_bug.png">Bug</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">rock'><img src="images/type_rock.png">Rock</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">ghost'><img src="images/type_ghost.png">Ghost</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">dragon'><img src="images/type_dragon.png">Dragon</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">dark'><img src="images/type_dark.png">Dark</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">steel'><img src="images/type_steel.png">Steel</button>
+					<button type="button" class="btn filterWeak" value='"infoPokemonWeak">fairy'><img src="images/type_fairy.png">Fairy</button>
 				</div>
 
 				<div>
 					<div class="buttonGroupTitle">Role</div>
-					<button type="button" class="btn" value='Strike<'><img src="images/role_strike.png">Strike</button>
-					<button type="button" class="btn" value='Tech<'><img src="images/role_tech.png">Tech</button>
-					<button type="button" class="btn" value='Support<'><img src="images/role_support.png">Support</button>
+					<button type="button" class="btn filterRole" value='Strike<'><img src="images/role_strike.png">Strike</button>
+					<button type="button" class="btn filterRole" value='Tech<'><img src="images/role_tech.png">Tech</button>
+					<button type="button" class="btn filterRole" value='Support<'><img src="images/role_support.png">Support</button>
 				</div>
 
 				<div>
 					<div class="buttonGroupTitle">Region</div>
-					<button type="button" class="btn" value='"infoSyncPairRegion">1Kanto'>Kanto</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">2Johto'>Johto</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">3Hoenn'>Hoenn</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">4Sinnoh'>Sinnoh</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">5Unova'>Unova</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">6Kalos'>Kalos</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">7Alola'>Alola</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">8Galar'>Galar</button>
-					<button type="button" class="btn" value='"infoSyncPairRegion">0Pasio'>Pasio</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">1Kanto'>Kanto</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">2Johto'>Johto</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">3Hoenn'>Hoenn</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">4Sinnoh'>Sinnoh</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">5Unova'>Unova</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">6Kalos'>Kalos</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">7Alola'>Alola</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">8Galar'>Galar</button>
+					<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">0Pasio'>Pasio</button>
 				</div>
 
 				<div>
@@ -173,6 +210,16 @@
 					<button type="button" class="btn" value='Legendary'>Legendary</button>
 					<button type="button" class="btn" value='Mythical'>Mythical</button>
 					<button type="button" class="btn" value='Shiny'>Shiny</button>
+				</div>
+
+				<div>
+					<div class="buttonGroupTitle">Seasonnal</div>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='New Year'>New Year</button>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='Palentine'>Palentine</button>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='Spring'>Spring</button>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='Summer'>Summer</button>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='Fall'>Fall</button>
+					<button type="button" class="btn filterSeasonal btnNoImage" value='Holiday'>Holiday</button>
 				</div>
 
 				<div>
@@ -193,8 +240,11 @@
 					<button type="button" class="btn" value='Terrain'><img src="images/icon_terrain.png">Terrain</button>
 					<button type="button" class="btn" value='Wish Zone'><img src="images/icon_zone.png">Zone</button>
 					<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Has an alt</button>
-					<button type="button" class="btn" value='isMan'><img src="images/icon_male.png">Man</button>
-					<button type="button" class="btn" value='isWoman'><img src="images/icon_female.png">Woman</button>
+					<button type="button" class="btn filterGender" value='isMan'><img src="images/icon_male.png">Man</button>
+					<button type="button" class="btn filterGender" value='isWoman'><img src="images/icon_female.png">Woman</button>
+					<button type="button" class="btn btnNoImage" value='Sygna Suit'>Sygna Suit</button>
+					<button type="button" class="btn btnNoImage" value='Special Costume'>Special Costume</button>
+					<button type="button" class="btn btnNoImage" value='Anniversary'>Anniversary</button>
 				</div>
 			</div>
 
@@ -224,6 +274,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/tinysort.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 <script type="text/javascript" src="js/long-press-event.min.js"></script>
-<script type="module" src="js/script.js?v=2"></script>
+<script type="module" src="js/script.js"></script>
 
 </html>

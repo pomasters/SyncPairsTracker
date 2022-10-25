@@ -43,13 +43,18 @@ body {
 }
 
 
-#search {
+#search,
+#date1, #date2 {
 	color: var(--text);
 	background-color: var(--bgDark);
 }
 
 #search::placeholder {
 	color: var(--text);
+}
+
+#search:focus {
+	border: 2px solid #364656;
 }
 
 
@@ -67,12 +72,12 @@ body {
 	border-bottom: 3px solid #364656;
 }
 
-/*
-#sorting .btn:not(.btnBlue) {
-	color: rgb(157 189 215) !important;
-	border-color: rgb(157 189 215 / 20%) !important;
+#selectionOptions,
+#increaseOptions,
+#visibilityOptions,
+#sorting {
+	background-color: rgb(54 70 86 / 60%);
 }
-*/
 
 #filters .btn,
 #options .btn,
@@ -87,6 +92,12 @@ body {
 #options .btn:active,
 #sorting .btn:active {
 	color: var(--bgDark);
+}
+
+#lockMode,
+#viewMode {
+	background-color: #464646 !important;
+	filter: saturate(12) grayscale(1);
 }
 
 .selectedFilter,
