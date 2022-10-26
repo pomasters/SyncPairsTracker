@@ -26,7 +26,7 @@
 			<div id="btnEggs"></div>
 
 			<ul id="news">
-				<li><span>2022-10-25</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add new options&nbsp;&nbsp;:&nbsp;&nbsp;visibility options,<br>lock mode, filter by release date interval, ...</span></li>
+				<li><span>2022-10-25</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add new options&nbsp;&nbsp;:&nbsp;&nbsp;visibility options,<br>lock mode, filter by release date interval,<br>current star buttons, ...</span></li>
 				<li><span>2022-10-10</span><span>Add the possibility to mark a sync pair<br>as a favorite / custom tag</span></li>
 				<li><span>2022-09-26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons<br>→&nbsp;&nbsp;&nbsp;Add v2.25.0</span></li>
 				<li><span>2022-09-06</span><span>Add the possibility to up the ★ of sync pair<br>(currently not the case for eggmons)</span></li>
@@ -84,7 +84,7 @@
 					<button type="button" class="btn" data-asc="true" id="sortByWeakness">Weakness</button>
 					<button type="button" class="btn" data-asc="true" id="sortByRegion">Region</button>
 					<button type="button" class="btn" data-asc="false" id="sortByDate">Release Date</button>
-					<button type="button" class="btn" data-asc="true" id="sortBySyncLevel">Sync Level</button>
+					<button type="button" class="btn" data-asc="true" id="sortBySyncLevel">Move Level</button>
 					<button type="button" class="btn" data-asc="true" id="sortBySelected">Selected</button>
 					<button type="button" class="btn" data-asc="true" id="sortByFavorite">Favorite</button>
 					<div>
@@ -96,21 +96,33 @@
 
 			<div id="filters">
 				<div id="userBtns">
-					<div class="buttonGroupTitle">User</div>
-					<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="0"'>&nbsp;<img src="images/1.png"></button>
-					<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="1"'>&nbsp;<img src="images/2.png"></button>
-					<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="2"'>&nbsp;<img src="images/3.png"></button>
-					<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="3"'>&nbsp;<img src="images/4.png"></button>
-					<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="4"'>&nbsp;<img src="images/5.png"></button>
-					<button type="button" class="btn syncUserBtnEX" value='EX.png" class="currentImage"'>&nbsp;<img src="images/star6ex.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favorite1.png" class="currentImage"'>&nbsp;<img src="images/favorite1.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteG.png" class="currentImage"'>&nbsp;<img src="images/favoriteG.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteY.png" class="currentImage"'>&nbsp;<img src="images/favoriteY.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteO.png" class="currentImage"'>&nbsp;<img src="images/favoriteO.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteR.png" class="currentImage"'>&nbsp;<img src="images/favoriteR.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteV.png" class="currentImage"'>&nbsp;<img src="images/favoriteV.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favoriteB.png" class="currentImage"'>&nbsp;<img src="images/favoriteB.png"></button>
-					<button type="button" class="btn syncUserBtnFav" value='favorite2.png" class="currentImage"'>&nbsp;<img src="images/favorite2.png"></button>
+					<div class="buttonGroupTitle">Current value</div>
+					<div>
+						<button type="button" class="btn syncUserBtnFav" value='favorite1.png" class="currentImage"'>&nbsp;<img src="images/favorite1.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteG.png" class="currentImage"'>&nbsp;<img src="images/favoriteG.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteY.png" class="currentImage"'>&nbsp;<img src="images/favoriteY.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteO.png" class="currentImage"'>&nbsp;<img src="images/favoriteO.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteR.png" class="currentImage"'>&nbsp;<img src="images/favoriteR.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteV.png" class="currentImage"'>&nbsp;<img src="images/favoriteV.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favoriteB.png" class="currentImage"'>&nbsp;<img src="images/favoriteB.png"></button>
+						<button type="button" class="btn syncUserBtnFav" value='favorite2.png" class="currentImage"'>&nbsp;<img src="images/favorite2.png"></button>
+					</div>
+					<div>
+						<button type="button" class="btn syncUserBtnStar" value='data-currentstar="1"'>&nbsp;<img src="images/star1.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='data-currentstar="2"'>&nbsp;<img src="images/star2.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='data-currentstar="3"'>&nbsp;<img src="images/star3.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='data-currentstar="4"'>&nbsp;<img src="images/star4.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='data-currentstar="5"'>&nbsp;<img src="images/star5.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='EX.png">'>&nbsp;<img src="images/star6.png"><span class="tooltiptext">Not EXed</span></button>
+					</div>
+					<div>
+						<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="0"'>&nbsp;<img src="images/1.png"></button>
+						<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="1"'>&nbsp;<img src="images/2.png"></button>
+						<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="2"'>&nbsp;<img src="images/3.png"></button>
+						<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="3"'>&nbsp;<img src="images/4.png"></button>
+						<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="4"'>&nbsp;<img src="images/5.png"></button>
+						<button type="button" class="btn syncUserBtnStar" value='EX.png" class="currentImage">'>&nbsp;<img src="images/star6ex.png"><span class="tooltiptext">EXed</span></button>
+					</div>
 				</div>
 
 				<div id="dateBtns">
@@ -126,13 +138,13 @@
 				</div>
 
 				<div>
-					<div class="buttonGroupTitle">Star</div>
-					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★<'>&nbsp;<img src="images/star1.png"></button>
-					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★<'>&nbsp;<img src="images/star2.png"></button>
-					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★<'>&nbsp;<img src="images/star3.png"></button>
-					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★★<'>&nbsp;<img src="images/star4.png"></button>
-					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">★★★★★'>&nbsp;<img src="images/star5.png"></button>
-					<button type="button" class="btn starBtn" value='_EX'>&nbsp;<img src="images/star6.png"></button>
+					<div class="buttonGroupTitle">Initial Star</div>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">1'>&nbsp;<img src="images/star1.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">2'>&nbsp;<img src="images/star2.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">3'>&nbsp;<img src="images/star3.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">4'>&nbsp;<img src="images/star4.png"></button>
+					<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">5'>&nbsp;<img src="images/star5.png"></button>
+					<button type="button" class="btn starBtn" value='EX.png'>&nbsp;<img src="images/star6.png"><span class="tooltiptext">Can EX</span></button>
 				</div>
 
 				<div>

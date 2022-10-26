@@ -11,13 +11,16 @@ const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","gras
 	GENERATE ALL HTML ELEMENTS ABOUT THE SYNCPAIRS
 -----------------------------------------------------------------------------*/
 
+var EGGMONMODE = document.getElementById("btnEggs").classList.contains("btnEggsON");
+
+
 /* parameter "pairs" is the array containing all {syncpair} -- see syncpairs.js/eggs.js */
-function generatePairsHTML(pairs, eggs) {
+function generatePairsHTML(pairs) {
 
 	var result = "";
 	var hideStar = "";
 
-	if(! eggs) { hideStar = "hide" }
+	if(! EGGMONMODE) { hideStar = "hide" }
 
 	for(var i=0; i<pairs.length; i++) {
 		var syncPair = pairs[i];
@@ -34,7 +37,7 @@ function generatePairsHTML(pairs, eggs) {
 		}
 
 		var innerHtmlImages = 
-			`<div class="syncStar ${hideStar}" data-currentImage="0">
+			`<div class="syncStar ${hideStar}" data-currentImage="0" data-currentstar="${syncPair.syncPairRarity}">
 				${genImages(syncStarImgs, 0)}
 			</div>
 			<div class="syncFav" data-currentImage="0" data-html2canvas-ignore="true">
@@ -64,9 +67,19 @@ function generatePairsHTML(pairs, eggs) {
 			if(isNaN(currentSyncStar)) { currentSyncStar = "0" }
 			if(isNaN(currentSyncFav)) { currentSyncFav = "0" }
 
+			var currentStar;
+			if(! EGGMONMODE) {
+				if(syncPair.trainerName == "Player") {
+					currentStar = Math.floor(currentSyncImage/2) + parseInt(syncPair.syncPairRarity);
+				} else {
+					currentStar = parseInt(syncPair.syncPairRarity) + parseInt(currentSyncImage);
+				}
+			} else { currentStar = parseInt(syncPair.syncPairRarity) + parseInt(currentSyncStar); }
+
+		
 			selected = " selected";
 			innerHtmlImages = 
-				`<div class="syncStar ${hideStar}" data-currentImage="${currentSyncStar}">
+				`<div class="syncStar ${hideStar}" data-currentImage="${currentSyncStar}" data-currentstar="${currentStar}">
 					${genImages(syncStarImgs, currentSyncStar)}
 				</div>
 				<div class="syncFav" data-currentImage="${currentSyncFav}" data-html2canvas-ignore="true">
@@ -208,17 +221,31 @@ function swapImages(imagesContainer, step) {
 	var nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
 
 	if(nextImageNumber >= images.length) {
-		nextImageNumber = "0";
+		nextImageNumber = 0;
 	}
 	if(nextImageNumber < 0) {
-		nextImageNumber = ""+images.length-1;
+		nextImageNumber = images.length-1;
 	}
 
 	images.forEach(i => i.removeAttribute("class"));
 
 	images[nextImageNumber].classList.add("currentImage");
 
-	imagesContainer.dataset.currentimage = nextImageNumber + "";
+	imagesContainer.dataset.currentimage = nextImageNumber;
+
+
+	var basestar = parseInt(imagesContainer.parentElement.querySelector(".infoSyncPairRarity").textContent);
+
+	if(imagesContainer.classList.contains("syncStar") && EGGMONMODE) {
+		imagesContainer.dataset.currentstar = basestar + nextImageNumber;
+	}
+	if(imagesContainer.classList.contains("syncImages") && !EGGMONMODE) {
+		if(imagesContainer.parentElement.querySelector(".infoTrainerName").textContent == "Player") {
+			imagesContainer.parentElement.querySelector(".syncStar").dataset.currentstar = Math.floor(nextImageNumber/2) + basestar;
+		} else {
+			imagesContainer.parentElement.querySelector(".syncStar").dataset.currentstar = basestar + nextImageNumber;
+		}
+	}
 }
 
 
@@ -263,6 +290,7 @@ function unselect(syncpair) {
 	syncpair.querySelector(".syncLevel").children[0].classList.add("currentImage");
 	syncpair.querySelector(".syncImages").children[0].classList.add("currentImage");
 
+	syncpair.querySelector(".syncStar").dataset.currentstar = syncpair.querySelector(".infoSyncPairRarity").textContent;
 	syncpair.querySelector(".syncStar").dataset.currentimage = "0";
 	syncpair.querySelector(".syncFav").dataset.currentimage = "0";
 	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
@@ -464,6 +492,17 @@ function importSelection() {
 					syncStarDIV.dataset.currentimage = parseInt(importedSyncStar);
 					syncFavDIV.dataset.currentimage = parseInt(importedSyncFav);
 
+					var currentStar;
+					var basestar = parseInt(s.querySelector(".infoSyncPairRarity").textContent);
+					if(! EGGMONMODE) {
+						if(s.querySelector(".infoTrainerName").textContent == "Player") {
+							currentStar = Math.floor(importedSyncImage/2) + parseInt(basestar);
+						} else {
+							currentStar = parseInt(basestar) + parseInt(importedSyncImage);
+						}
+					} else { currentStar = parseInt(basestar) + parseInt(currentSyncStar); }
+					syncStarDIV.dataset.currentstar = currentStar;
+
 					Array.from(syncLevelDIV.children).forEach(c => c.classList.remove("currentImage"))
 					Array.from(syncImagesDIV.children).forEach(c => c.classList.remove("currentImage"))
 					Array.from(syncStarDIV.children).forEach(c => c.classList.remove("currentImage"))
@@ -577,7 +616,7 @@ function increaseSyncStar() {
 	var message1 = "Increase the potential of all filtered sync pairs ?";
 	var message2 = "Increase the potential of all sync pairs ?";
 
-	if(document.getElementById("btnEggs").classList.contains("btnEggsON")) {
+	if(EGGMONMODE) {
 		swapElem(".syncStar", message1, message2, 1);
 	} else {
 		swapElem(".syncImages", message1, message2, 1);		
@@ -587,7 +626,7 @@ function decreaseSyncStar() {
 	var message1 = "Decrease the potential of all filtered sync pairs ?";
 	var message2 = "Decrease the potential of all sync pairs ?";
 
-	if(document.getElementById("btnEggs").classList.contains("btnEggsON")) {
+	if(EGGMONMODE) {
 		swapElem(".syncStar", message1, message2, -1);
 	} else {
 		swapElem(".syncImages", message1, message2, -1);		
@@ -597,7 +636,7 @@ function resetSyncStar() {
 	var message1 = "Reset the potential of all filtered sync pairs ?";
 	var message2 = "Reset the potential of all sync pairs ?";
 
-	if(document.getElementById("btnEggs").classList.contains("btnEggsON")) {
+	if(EGGMONMODE) {
 		resetDefault(".syncStar", message1, message2);
 	} else {
 		resetDefault(".syncImages", message1, message2);
@@ -862,6 +901,7 @@ function addEventButtonsFilters() {
 	var filtersBtns = Array.from(document.getElementById("filters").getElementsByTagName("button"));
 	var syncLevelBtns = Array.from(document.getElementsByClassName("syncUserBtnSyncLevel"));
 	var favBtns = Array.from(document.getElementsByClassName("syncUserBtnFav"));
+	var starBtns = Array.from(document.getElementsByClassName("syncUserBtnStar"));
 	var filterStars = Array.from(document.getElementsByClassName("filterStar"));
 	var filterTypes = Array.from(document.getElementsByClassName("filterType"));
 	var filterWeak = Array.from(document.getElementsByClassName("filterWeak"));
@@ -872,7 +912,7 @@ function addEventButtonsFilters() {
 
 	filtersBtns.forEach(b => b.addEventListener("click", function() {
 
-		[syncLevelBtns, favBtns, filterStars, filterTypes, filterWeak,
+		[syncLevelBtns, favBtns, starBtns, filterStars, filterTypes, filterWeak,
 		filterRoles, filterRegions, filterGender, filterSeasonals].forEach(function(btns) {
 			if(btns.indexOf(b) > -1) {
 				btns.forEach(function(b2) {
@@ -936,10 +976,12 @@ document.getElementById("btnEggs").addEventListener("click", function() {
 	document.getElementById("editOrderMode").classList.remove("selectedOption")
 
 	if(this.classList.contains("btnEggsON")) {
-		generatePairs(SYNCPAIRS, false);
+		EGGMONMODE = false;
+		generatePairs(SYNCPAIRS);
 		this.classList.remove("btnEggsON");
 	} else {
-		generatePairs(EGGS, true);
+		EGGMONMODE = true;
+		generatePairs(EGGS);
 		this.classList.add("btnEggsON");
 	}
 })
@@ -1117,8 +1159,8 @@ observer.observe(document.getElementById("options"));
 	INIT
 -----------------------------------------------------------------------------*/
 
-function generatePairs(pairs, eggmons) {
-	generatePairsHTML(pairs, eggmons);
+function generatePairs(pairs) {
+	generatePairsHTML(pairs);
 
 	addSyncPairsEvents();
 
@@ -1167,7 +1209,7 @@ function init() {
 
 	document.getElementById("linkToolVer").innerHTML = document.getElementById("version").innerHTML;
 
-	generatePairs(SYNCPAIRS, false);
+	generatePairs(SYNCPAIRS);
 
 	addEventButtonsFilters();
 

@@ -356,6 +356,36 @@ input:focus { outline: 0; }
 	display: block !important;
 }
 
+/*https://www.w3schools.com/css/css_tooltip.asp*/
+.tooltiptext {
+	visibility: hidden;
+	width: 100px;
+	background-color: rgb(0 0 0 / 80%);
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0 4px;
+	position: absolute;
+	z-index: 10;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -50px;
+	white-space: normal;
+	font-size: 11px;
+	pointer-events: none;
+}
+.tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+.btn:hover .tooltiptext { visibility: visible; }
+
 #filters .btn,
 #options .btn,
 #userBtns .btn,
@@ -488,18 +518,22 @@ input:focus { outline: 0; }
 }
 
 #userBtns {
-	margin: 20px 0;
+	margin: 14px 0;
 	margin-bottom: 30px;
 }
 
+#userBtns > div:nth-child(2) {
+	margin-bottom: 10px;
+}
+
 .syncUserBtnSyncLevel,
-.syncUserBtnEX {
-	width: calc(100% * 1/7) !important;
-	min-width: calc(100% * 1/7);
+.syncUserBtnStar {
+	width: 14.35% !important;
+	min-width: 14.35%;
 }
 
 .syncUserBtnSyncLevel img,
-.syncUserBtnEX img {
+.syncUserBtnStar img {
 	left: 0px !important;
 	right: 0px !important;
 	margin: auto;
@@ -1041,7 +1075,7 @@ input:focus { outline: 0; }
 	#userBtns,
 	#dateBtns {
 		margin: 24px 0;
-		margin-top: 30;
+		margin-top: 0;
 	}
 
 	#syncPairs {

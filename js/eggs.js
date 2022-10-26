@@ -10,7 +10,7 @@ export const EGGS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -36,7 +36,7 @@ export const EGGS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -62,7 +62,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -89,7 +89,7 @@ export const EGGS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -115,7 +115,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -141,7 +141,7 @@ export const EGGS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -167,7 +167,7 @@ export const EGGS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -193,7 +193,7 @@ export const EGGS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -219,7 +219,7 @@ export const EGGS = [
 		"pokemonType": "Ground",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -245,7 +245,7 @@ export const EGGS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -271,7 +271,7 @@ export const EGGS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-04-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -297,7 +297,7 @@ export const EGGS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -324,7 +324,7 @@ export const EGGS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -350,7 +350,7 @@ export const EGGS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -376,7 +376,7 @@ export const EGGS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-11-15",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -402,7 +402,7 @@ export const EGGS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -428,7 +428,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -454,7 +454,7 @@ export const EGGS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -480,7 +480,7 @@ export const EGGS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -506,7 +506,7 @@ export const EGGS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -532,7 +532,7 @@ export const EGGS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -558,7 +558,7 @@ export const EGGS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -584,7 +584,7 @@ export const EGGS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -610,7 +610,7 @@ export const EGGS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-03-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -636,7 +636,7 @@ export const EGGS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -662,7 +662,7 @@ export const EGGS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -688,7 +688,7 @@ export const EGGS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -714,7 +714,7 @@ export const EGGS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -740,7 +740,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -766,7 +766,7 @@ export const EGGS = [
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -792,7 +792,7 @@ export const EGGS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -818,7 +818,7 @@ export const EGGS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -844,7 +844,7 @@ export const EGGS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -870,7 +870,7 @@ export const EGGS = [
 		"pokemonType": "Ground",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -896,7 +896,7 @@ export const EGGS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -920,7 +920,7 @@ export const EGGS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -944,7 +944,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-12-02",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -970,7 +970,7 @@ export const EGGS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -996,7 +996,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1022,7 +1022,7 @@ export const EGGS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-06-21",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1048,7 +1048,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-10-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1074,7 +1074,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1100,7 +1100,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1126,7 +1126,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-09-03",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1152,7 +1152,7 @@ export const EGGS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1178,7 +1178,7 @@ export const EGGS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-10-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1206,7 +1206,7 @@ export const EGGS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1232,7 +1232,7 @@ export const EGGS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1258,7 +1258,7 @@ export const EGGS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1284,7 +1284,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1310,7 +1310,7 @@ export const EGGS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-05-05",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1337,7 +1337,7 @@ export const EGGS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1364,7 +1364,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1390,7 +1390,7 @@ export const EGGS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1416,7 +1416,7 @@ export const EGGS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1443,7 +1443,7 @@ export const EGGS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1469,7 +1469,7 @@ export const EGGS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1495,7 +1495,7 @@ export const EGGS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike<>Tech<>Support",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2021-09-09",
 		"syncPairRegion": "0Pasio",
 		"images":[
@@ -1521,7 +1521,7 @@ export const EGGS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
-		"syncPairRarity": "★",
+		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
 		"syncPairRegion": "0Pasio",
 		"images":[
