@@ -677,6 +677,32 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "010",
+		"trainerName": "Kris",
+		"trainerAlt": "Eevee Day",
+		"pokemonNumber": "0135",
+		"pokemonName": "Jolteon",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-21",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png"
+		],
+		"tags": [
+			"Event",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Terrain",
+			"Main Character"
+		]
+	},
+	{
 		"dexNumber": "011",
 		"trainerName": "Bugsy",
 		"trainerAlt": "",
@@ -2433,7 +2459,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2019-08-29",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren.png",			
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren_EX.png"
 		],
 		"tags": [
 			"Story",
@@ -2657,6 +2684,32 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "066",
+		"trainerName": "Lyra",
+		"trainerAlt": "Eevee Day",
+		"pokemonNumber": "0134",
+		"pokemonName": "Vaporeon",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-21",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png"
+		],
+		"tags": [
+			"Event",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Weather",
+			"Main Character"
+		]
+	},
+	{
 		"dexNumber": "067",
 		"trainerName": "Hilbert",
 		"trainerAlt": "",
@@ -2705,6 +2758,34 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Main Character"
+		]
+	},
+	{
+		"dexNumber": "067",
+		"trainerName": "Hilbert",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0649",
+		"pokemonName": "Pokemon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-02",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_SSHilbert.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_SSHilbert_EX.png"
+		],
+		"tags": [
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Poké Fair",
+			"Main Character",
+			"Mythical",
+			"Sygna Suit"
 		]
 	},
 	{
@@ -2787,6 +2868,34 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "068",
+		"trainerName": "Hilda",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0494",
+		"pokemonName": "Victini",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-10-31",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_SSHilda.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_SSHilda_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Poké Fair",
+			"Main Character",
+			"Mythical",
+			"Sygna Suit"
+		]
+	},
+	{
 		"dexNumber": "069",
 		"trainerName": "Elesa",
 		"trainerAlt": "",
@@ -2860,6 +2969,31 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
+			"Gym Leader"
+		]
+	},
+	{
+		"dexNumber": "069",
+		"trainerName": "Elesa",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0595",
+		"pokemonName": "Joltik",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRarity": "4",
+		"releaseDate": "2022-11-01",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_TL_Elesa.png",
+			"Sync Pairs/5Star/0E_UNOVA_0B-04_TL_Elesa_5Star.png"
+		],
+		"tags": [
+			"isWoman",
+			"Multiple Units",
+			"Trainer Lodge",
 			"Gym Leader"
 		]
 	},
@@ -5106,6 +5240,36 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "112",
+		"trainerName": "N",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0646",
+		"pokemonName": "Kyurem",
+		"pokemonGender": "",
+		"pokemonForm": ["Black Kyurem"],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-14",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_SSN.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_SSN_EX.png"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Poké Fair",
+			"Rival",
+			"Vilain",
+			"Legendary",
+			"Sygna Suit"
+		]
+	},
+	{
 		"dexNumber": "113",
 		"trainerName": "May",
 		"trainerAlt": "",
@@ -5740,7 +5904,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021-05-04",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis_EX.png"
 		],
 		"tags": [
 			"Legendary Adventures",
@@ -6421,6 +6586,32 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "145",
+		"trainerName": "Lucas",
+		"trainerAlt": "Eevee Day",
+		"pokemonNumber": "0136",
+		"pokemonName": "Flareon",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-21",
+		"syncPairRegion": "4Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png"
+		],
+		"tags": [
+			"Event",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Weather",
+			"Main Character"
+		]
+	},
+	{
 		"dexNumber": "146",
 		"trainerName": "Aaron",
 		"trainerAlt": "",
@@ -6741,6 +6932,54 @@ export const SYNCPAIRS = [
 			"Event",
 			"isWoman",
 			"Limited Sync Pair Scout"
+		]
+	},
+	{
+		"dexNumber": "159",
+		"trainerName": "Hugh",
+		"trainerAlt": "",
+		"pokemonNumber": "0626",
+		"pokemonName": "Bouffalant",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-07",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-07_Hugh.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-07_Hugh_EX.png"
+		],
+		"tags": [
+			"isMan",
+			"Gen Pool",
+			"Rival"
+		]
+	},
+	{
+		"dexNumber": "160",
+		"trainerName": "Colress",
+		"trainerAlt": "",
+		"pokemonNumber": "0601",
+		"pokemonName": "Klinklang",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-17",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-02_Colress.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-02_Colress_EX.png"
+		],
+		"tags": [
+			"isMan",
+			"Gen Pool",
+			"Vilain"
 		]
 	}
 	/*,
