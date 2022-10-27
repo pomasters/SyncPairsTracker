@@ -1047,7 +1047,6 @@ document.getElementById("sortByDexNumber").addEventListener("click", function() 
 var sortBtns = [
 	["sortByPokemonNumber","infoPokemonNum"],
 	["sortByTrainer","infoTrainerName"],
-	["sortByStar","infoSyncPairRarity"],
 	["sortByRole","infoSyncPairRole"],
 	["sortByDate","infoReleaseDate"],
 	["sortByRegion","infoSyncPairRegion"]
@@ -1056,21 +1055,22 @@ var sortBtns = [
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortBtns.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
+
 	if(this.dataset.asc === "true") {
 		tinysort('.syncPair',{sortFunction:function(a,b){
 			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
 			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
 			return lenA===lenB?0:(lenA>lenB?1:-1);
 		}});
-		this.dataset.asc = false;
 	} else {
 		tinysort('.syncPair',{sortFunction:function(a,b){
 			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
 			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
 			return lenA===lenB?0:(lenA<lenB?1:-1);
 		}});
-		this.dataset.asc = true;
 	}
+	this.dataset.asc = !(this.dataset.asc === "true");
 }))
 
 /* contains all pair of [btn_id, class_el_to_sort] */
@@ -1082,45 +1082,81 @@ var sortTypes = [
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortTypes.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
+
 	if(this.dataset.asc === "true") {
 		tinysort('.syncPair',{sortFunction:function(a,b){
 			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
 			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
 			return lenA===lenB?0:(lenA>lenB?1:-1);
 		}});
-		this.dataset.asc = false;
 	} else {
 		tinysort('.syncPair',{sortFunction:function(a,b){
 			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
 			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
 			return lenA===lenB?0:(lenA<lenB?1:-1);
 		}});
-		this.dataset.asc = true;
 	}
+	this.dataset.asc = !(this.dataset.asc === "true");
 }))
 
+document.getElementById("sortByStar").addEventListener("click", function() {
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
+	tinysort('.syncPair',{sortFunction:funByCurrentStar});
+
+	function funByCurrentStar(a,b){
+		var lenA = parseInt(a.elm.querySelector(".syncStar").dataset.currentstar);
+		var lenB = parseInt(b.elm.querySelector(".syncStar").dataset.currentstar);
+		if(document.getElementById("sortByStar").dataset.asc === "true") {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA<lenB?1:-1);
+		}
+	}
+	this.dataset.asc = !(this.dataset.asc === "true");
+})
+
 document.getElementById("sortBySyncLevel").addEventListener("click", function() {
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	tinysort('.syncPair',{sortFunction:funBySyncLevel});
 
 	function funBySyncLevel(a,b){
 		var lenA = parseInt(a.elm.querySelector(".syncLevel").dataset.currentimage);
 		var lenB = parseInt(b.elm.querySelector(".syncLevel").dataset.currentimage);
-		return lenA===lenB?0:(lenA<lenB?1:-1);
+		if(document.getElementById("sortBySyncLevel").dataset.asc === "true") {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA<lenB?1:-1);
+		}
 	}
+	this.dataset.asc = !(this.dataset.asc === "true");
 })
 
 document.getElementById("sortByFavorite").addEventListener("click", function() {
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	tinysort('.syncPair',{sortFunction:funByFavorite});
 
 	function funByFavorite(a,b){
 		var lenA = parseInt(a.elm.querySelector(".syncFav").dataset.currentimage);
 		var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentimage);
-		return lenA===lenB?0:(lenA<lenB?1:-1);
+		if(document.getElementById("sortByFavorite").dataset.asc === "true") {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA<lenB?1:-1);
+		}
 	}
+	this.dataset.asc = !(this.dataset.asc === "true");
 })
 
 document.getElementById("sortBySelected").addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'class',order:'desc'});
+	tinysort('.syncPair',{attr:'data-id',order:"asc"});
+	
+	if(this.dataset.asc === "true") {
+		tinysort('.syncPair',{attr:'class',order:'asc'});
+	} else {
+		tinysort('.syncPair',{attr:'class',order:'desc'});
+	}
+	this.dataset.asc = !(this.dataset.asc === "true")
 })
 
 document.getElementById("sortByCustom").addEventListener("click", function() {
