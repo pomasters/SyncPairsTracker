@@ -4148,7 +4148,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Rival"
+			"Rival",
+			"Multiple Units"
 		]
 	},
 	{
@@ -6456,7 +6457,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Gym Leader"
+			"Gym Leader",
+			"Multiple Units"
 		]
 	},
 	{
@@ -6582,7 +6584,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Wish Zone",
 			"Main Character",
-			"Legendary"
+			"Legendary",
+			"Multiple Units"
 		]
 	},
 	{
