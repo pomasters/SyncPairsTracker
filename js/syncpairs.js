@@ -774,7 +774,36 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool - First-time Scout (Until 2.21.0 update)",
 			"isWoman",
-			"Gym Leader"
+			"Gym Leader",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "012",
+		"trainerName": "Whitney",
+		"trainerAlt": "Holiday (2022)",
+		"pokemonNumber": "0586",
+		"pokemonName": "Sawsbuck",
+		"pokemonGender": "♀",
+		"pokemonForm": ["Winter Form"],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-12-16",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Whitney.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Whitney_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Seasonal",
+			"Terrain",
+			"Gym Leader",
+			"Holiday"
 		]
 	},
 	{
@@ -3073,6 +3102,37 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "071",
+		"trainerName": "Calem",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0658",
+		"pokemonName": "Greninja",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-12-02",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_ChampCalem.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_ChampCalem_EX.png"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Multiple Units",
+			"Weather",
+			"Wish Zone",
+			"Main Character",
+			"Champion",
+			"Shiny"
+		]
+	},
+	{
 		"dexNumber": "072",
 		"trainerName": "Glacia",
 		"trainerAlt": "",
@@ -3917,7 +3977,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020-03-19",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina_EX.png"
 		],
 		"tags": [
 			"Gen Pool",
@@ -4234,6 +4295,34 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "093",
+		"trainerName": "Jasmine",
+		"trainerAlt": "Holiday (2022)",
+		"pokemonNumber": "0181",
+		"pokemonName": "Ampharos",
+		"pokemonGender": "♀",
+		"pokemonForm": ["Mega Evolution"],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-12-14",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Jasmine.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Jasmine_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Mega Evolution",
+			"Multiple Units",
+			"Seasonal",
+			"Gym Leader",
+			"Holiday"
+		]
+	},
+	{
 		"dexNumber": "094",
 		"trainerName": "Dawn",
 		"trainerAlt": "",
@@ -4438,6 +4527,59 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Main Character",
 			"Legendary"
+		]
+	},
+	{
+		"dexNumber": "096",
+		"trainerName": "Serena",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0658",
+		"pokemonName": "Greninja",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-30",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_ChampSerena.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_ChampSerena_EX.png"
+		],
+		"tags": [
+			"Buddy Move",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Multiple Units",
+			"Main Character",
+			"Champion"
+		]
+	},
+	{
+		"dexNumber": "096",
+		"trainerName": "Serena",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0661",
+		"pokemonName": "Fletchling",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2022-11-30",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_TL_Serena.png",
+			"Sync Pairs/5Star/0F_KALOS_0A-02_TL_Serena_5Star.png"
+		],
+		"tags": [
+			"isWoman",
+			"Multiple Units",
+			"Trainer Lodge",
+			"Main Character"
 		]
 	},
 	{
