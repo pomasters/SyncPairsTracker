@@ -38,7 +38,7 @@ body {
 }
 
 
-#news li:not(#news li:first-child) {
+#news ul li:first-child {
 	color : var(--textDark);
 }
 

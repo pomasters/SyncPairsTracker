@@ -21,19 +21,18 @@
 <body>
 	<div id="main">
 		<div id="leftSide">
-			<p id="version">v2.27.0</p>
+			<p id="version"></p>
 
 			<div id="btnEggs"></div>
 
-			<ul id="news">
-				<li><span>2022-11-28</span><span>Add v2.27.0</span></li>
-				<li><span>2022-10-27</span><span>Add v2.26.0</span></li>
-				<li><span>2022-10-25</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add new options&nbsp;&nbsp;:&nbsp;&nbsp;visibility options,<br>lock mode, filter by release date interval,<br>current star buttons, ...</span></li>
-				<li><span>2022-10-10</span><span>Add the possibility to mark a sync pair<br>as a favorite / custom tag</span></li>
-				<li><span>2022-09-26</span><span>→&nbsp;&nbsp;&nbsp;Add new filters<br>→&nbsp;&nbsp;&nbsp;Add ★ upgrade for eggmons<br>→&nbsp;&nbsp;&nbsp;Add/rework options buttons<br>→&nbsp;&nbsp;&nbsp;Add v2.25.0</span></li>
-				<li><span>2022-09-06</span><span>Add the possibility to up the ★ of sync pair<br>(currently not the case for eggmons)</span></li>
-				<li><span>2022-09-05</span><span>Hello, Pokémon World !</span></li>
-			</ul>
+			<div id="news">
+				<ul id="newsList"></ul>
+
+				<div id="newsNav">
+					<div><img id="previousNews" src="images/bottomArrow.png" draggable="false"></div>
+					<div><img id="nextNews" src="images/bottomArrow.png" draggable="false"></div>
+				</div>
+			</div>
 
 			<div id="options">
 				<button type="button" class="btn" id="selectionBtns">Selection<img class="extendedIcon" src="images/bottomArrow.png"></button>

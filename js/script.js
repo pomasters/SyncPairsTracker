@@ -1,5 +1,6 @@
-import {SYNCPAIRS} from './syncpairs.js';
+import {SYNCPAIRS, VERSION} from './syncpairs.js';
 import {EGGS} from './eggs.js';
+import {NEWS} from './news.js';
 
 const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
@@ -12,6 +13,8 @@ const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","gras
 -----------------------------------------------------------------------------*/
 
 var EGGMONMODE = document.getElementById("btnEggs").classList.contains("btnEggsON");
+
+var CURRENT_NEW = 0;
 
 
 /* parameter "pairs" is the array containing all {syncpair} -- see syncpairs.js/eggs.js */
@@ -720,6 +723,17 @@ function dateInterval() {
 }
 
 
+function updateNews() {
+
+	if(CURRENT_NEW < 0) { CURRENT_NEW = 0; }
+	if(CURRENT_NEW > NEWS.length-2) { CURRENT_NEW = NEWS.length-2; }
+
+	document.getElementById("newsList").innerHTML =
+		`<li><span>${NEWS[CURRENT_NEW+1].date}</span><span>${NEWS[CURRENT_NEW+1].info.replaceAll("\n", "<br>")}</span></li>
+		<li><span>${NEWS[CURRENT_NEW].date}</span><span>${NEWS[CURRENT_NEW].info.replaceAll("\n", "<br>")}</span></li>`;
+}
+
+
 /* takes a string to search through each syncpair outerHTML
 input format : "search1,,search2,,search3"
 for each syncpair outerHTML, search all filters */
@@ -987,6 +1001,9 @@ document.getElementById("btnEggs").addEventListener("click", function() {
 })
 
 
+document.getElementById("previousNews").addEventListener("click", function() { CURRENT_NEW++; updateNews(); });
+document.getElementById("nextNews").addEventListener("click", function() { CURRENT_NEW--; updateNews(); });
+
 document.getElementById("selectionBtns").addEventListener("click", selectionBtns);
 
 document.getElementById("fullSelection").addEventListener("click", fullSelection);
@@ -1243,7 +1260,10 @@ function init() {
 		document.getElementById("datamineCss").disabled = !(localStorage.getItem("datamineVisible") === "true");
 	}
 
-	document.getElementById("linkToolVer").innerHTML = document.getElementById("version").innerHTML;
+	document.getElementById("version").innerHTML = VERSION;
+	document.getElementById("linkToolVer").innerHTML = VERSION;
+
+	updateNews();
 
 	generatePairs(SYNCPAIRS);
 
