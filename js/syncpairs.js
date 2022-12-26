@@ -3484,7 +3484,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_Cynthia_EX.png"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			//"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
@@ -3567,7 +3567,7 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman",
-			"Limited",
+			//"Limited",
 			"Champion"
 		]
 	},
@@ -3587,7 +3587,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia.png",
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia.png_EX.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia_EX.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -3614,7 +3614,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2020-01-30",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui_EX.png"
 		],
 		"tags": [
 			"Gen Pool",
@@ -3766,8 +3767,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-10",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA.png",
-			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_SSStevenA_EX.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_ssSteven_ANormal.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_ssSteven_ANormal_EX.png"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -4398,6 +4399,58 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Main Character",
 			"Legendary"
+		]
+	},
+	{
+		"dexNumber": "094",
+		"trainerName": "Dawn",
+		"trainerAlt": "New Year's 2023",
+		"pokemonNumber": "0741",
+		"pokemonName": "Oricorio",
+		"pokemonGender": "♀",
+		"pokemonForm": ["Sensu Style"],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-01-01",
+		"syncPairRegion": "4Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Dawn.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Dawn_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Seasonal",
+			"Main Character",
+			"New Year"
+		]
+	},
+	{
+		"dexNumber": "094",
+		"trainerName": "Dawn",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0413",
+		"pokemonName": "Wormadam",
+		"pokemonGender": "♀",
+		"pokemonForm": ["Plant Cloak"],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-01-01",
+		"syncPairRegion": "4Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_TL_Dawn.png",
+			"Sync Pairs/5Star/0D_SINNOH_0A-02_TL_Dawn_5Star.png"
+		],
+		"tags": [
+			"isWoman",
+			"Multiple Units",
+			"Trainer Lodge",
+			"Main Character"
 		]
 	},
 	{
@@ -5114,7 +5167,35 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "107",
+		"trainerName": "Lisia",
+		"trainerAlt": "New Year's 2023",
+		"pokemonNumber": "0078",
+		"pokemonName": "Rapidash",
+		"pokemonGender": "♂",
+		"pokemonForm": ["Galarian Form"],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-01-01",
+		"syncPairRegion": "3Hoenn",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Lisia.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Lisia_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Seasonal",
+			"Shiny",
+			"New Year"
 		]
 	},
 	{
@@ -5290,7 +5371,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_N_EX.png"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			//"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
@@ -5377,7 +5458,7 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isMan",
-			"Limited",
+			//"Limited",
 			"Rival",
 			"Vilain"
 		]
@@ -5608,7 +5689,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021-02-11",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore_EX.png"
 		],
 		"tags": [
 			"Legendary Adventures",
@@ -5763,7 +5845,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_Marnie_EX.png"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			//"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
@@ -5845,7 +5927,7 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman",
-			"Limited",
+			//"Limited",
 			"Rival"
 		]
 	},
@@ -5900,6 +5982,38 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Champion",
 			"Mythical"
+		]
+	},
+	{
+		"dexNumber": "120",
+		"trainerName": "Diantha",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0719",
+		"pokemonName": "Diancie",
+		"pokemonGender": "",
+		"pokemonForm": ["Mega Evolution"],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-01-12",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_ssDiantha.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_ssDiantha_EX.png"
+		],
+		"tags": [
+			"Buddy Move",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Mega Evolution",
+			"Multiple Units",
+			"Poké Fair",
+			"Wish Zone",
+			"Champion",
+			"Mythical",
+			"Shiny",
+			"Sygna Suit"
 		]
 	},
 	{
@@ -5969,7 +6083,7 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_Raihan_EX.png"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			//"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
@@ -6025,7 +6139,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Limited Sync Pair Scout",
+			//"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Trainer Lodge",
 			"Weather",
@@ -7126,6 +7240,55 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Vilain"
 		]
+	},
+	{
+		"dexNumber": "161",
+		"trainerName": "Kali",
+		"trainerAlt": "Furisode Girl",
+		"pokemonNumber": "0184",
+		"pokemonName": "Azumarill",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRarity": "3",
+		"releaseDate": "2023-01-01",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0X-02_Kali.png",
+			"Sync Pairs/4Star/0F_KALOS_0X-02_Kali_4Star.png",
+			"Sync Pairs/5Star/0F_KALOS_0X-02_Kali_5Star.png"
+		],
+		"tags": [
+			"Event",
+			"isWoman",
+			"Limited Sync Pair Scout"
+		]
+	},
+	{
+		"dexNumber": "162",
+		"trainerName": "Shauna",
+		"trainerAlt": "",
+		"pokemonNumber": "0652",
+		"pokemonName": "Chesnaught",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-01-16",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-03_Shauna.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-03_Shauna_EX.png"
+		],
+		"tags": [
+			"isWoman",
+			"Gen Pool",
+			"Rival"
+		]
 	}
 	/*,
 	{
@@ -7188,4 +7351,4 @@ export const SYNCPAIRS = [
 ]
 
 
-export const VERSION = "v2.27.0";
+export const VERSION = "v2.28.0";
