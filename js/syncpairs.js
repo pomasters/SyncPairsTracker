@@ -4568,7 +4568,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
-		"syncPairRarity": "5",
+		"syncPairRarity": "4",
 		"releaseDate": "2022-11-30",
 		"syncPairRegion": "6Kalos",
 		"images": [

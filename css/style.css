@@ -10,6 +10,13 @@
 	src: url("kenya-NewRodinProN-EB.otf") format("opentype");
 }
 
+/*
+@font-face {
+	font-family: "kenya-SouthSide";
+	font-weight: bold;
+	src: url("kenya-SouthSide.otf") format("opentype");
+}
+*/
 
 :root{
 	--blue1: #32788C;
@@ -673,13 +680,24 @@ input:focus { outline: 0; }
 	text-align: center;
 	margin-top: -10px;
 	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	line-height: 30px;
+}
+
+#filtersUsed .filterDate {
+	font-size: 13px;
 }
 
 #filtersUsed span {
-	margin: auto 5px;
+	margin: 5px 8px;
 	background-color: rgb(150 200 220 / 40%);
 	padding: 2px 10px;
 	border-radius: 5px;
+	display: flex;
+    align-items: center;
 }
 
 #filtersUsed span:empty {

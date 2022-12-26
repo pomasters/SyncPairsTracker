@@ -129,10 +129,10 @@ function generatePairsHTML(pairs) {
 		var im = "";
 		var current_im = current_i;
 		if(current_im >= imgs.length) { current_im = imgs.length-1; }
-		if(imgs.length == 0) return `<img draggable="false" src="images/empty.png" class="currentImage">`
+		if(imgs.length == 0) return `<img draggable="false" loading="lazy" src="images/empty.png" class="currentImage">`
 
 		for(var i=0; i<imgs.length; i++) {
-			if(i==current_im) { im += `<img draggable="false" src="${imgs[i]}" class="currentImage">`
+			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
 			} else { im += `<img  draggable="false" src="${imgs[i]}">`	}
 		}
 		return im;
@@ -697,7 +697,7 @@ function dateInterval() {
 	var date2 = document.getElementById("date2").value;
 
 	if(date1 == "") { date1 = "2019-08-29"; }
-	if(date2 == "") { date2 = "2023-01-01"; }
+	if(date2 == "") { date2 = "2023-12-31"; }
 
 	var syncPairs;
 
@@ -719,6 +719,17 @@ function dateInterval() {
 			syncPairs[i].classList.add("notFound");
 		}
 	}
+
+	document.getElementById("filtersUsed").innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span>`;
+
+	var selecteFilters = Array.from(document.getElementsByClassName("selectedFilter"));
+	selecteFilters.forEach(function(f) {
+		document.getElementById("filtersUsed").innerHTML += ` & <span>${f.innerHTML}</span>`;
+	});
+
+	document.getElementById("removeFilters").classList.add("btnRed");
+	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFilters.length + 1})`;
+
 	countSelection();
 }
 
@@ -1262,6 +1273,8 @@ function init() {
 
 	document.getElementById("version").innerHTML = VERSION;
 	document.getElementById("linkToolVer").innerHTML = VERSION;
+
+	document.getElementById('date2').valueAsDate = new Date();
 
 	updateNews();
 
