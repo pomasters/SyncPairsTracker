@@ -722,6 +722,9 @@ function dateInterval() {
 
 	document.getElementById("filtersUsed").innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span>`;
 
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { document.getElementById("filtersUsed").innerHTML += ` & <span>${searchValue}</span>`; }
+
 	var selecteFilters = Array.from(document.getElementsByClassName("selectedFilter"));
 	selecteFilters.forEach(function(f) {
 		document.getElementById("filtersUsed").innerHTML += ` & <span>${f.innerHTML}</span>`;
@@ -731,6 +734,14 @@ function dateInterval() {
 	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFilters.length + 1})`;
 
 	countSelection();
+}
+
+function searchFiltersORdateInterval() {
+	if(document.getElementById("btnDate").classList.contains("filterDateEnable")) {
+		dateInterval();
+	} else {
+		searchFilters();
+	}
 }
 
 
@@ -816,7 +827,8 @@ function searchFilters() {
 function removeFilters() {
 	document.getElementById("search").value = "";
 	Array.from(document.getElementsByClassName("selectedFilter")).forEach(f => f.classList.remove("selectedFilter"));
-	searchFilters();
+	document.getElementById("btnDate").classList.remove("filterDateEnable");
+	searchFiltersORdateInterval();
 }
 
 
@@ -948,7 +960,7 @@ function addEventButtonsFilters() {
 
 		b.classList.toggle("selectedFilter");
 
-		searchFilters();
+		searchFiltersORdateInterval();
 	}))
 }
 
@@ -1058,7 +1070,13 @@ document.getElementById("removeFilters").addEventListener("click", removeFilters
 
 document.getElementById("editOrderMode").addEventListener("click", editOrderMode);
 
-document.getElementById("btnDate").addEventListener("click", dateInterval);
+document.getElementById("btnDate").addEventListener("click",  function() {
+	document.getElementById("btnDate").classList.toggle("filterDateEnable");
+	searchFiltersORdateInterval();
+});
+
+document.getElementById("date1").addEventListener("change", searchFiltersORdateInterval);
+document.getElementById("date2").addEventListener("change", searchFiltersORdateInterval);
 
 
 document.getElementById("sortByDexNumber").addEventListener("click", function() {
@@ -1196,7 +1214,11 @@ document.getElementById("sortByCustom").addEventListener("click", function() {
 
 /* Search Bar */
 document.getElementById("search").addEventListener("keyup", function() {
-	setTimeout(searchFilters, 250);	
+	if(document.getElementById("btnDate").classList.contains("filterDateEnable")) {
+		setTimeout(dateInterval, 250);
+	} else {
+		setTimeout(searchFilters, 250);
+	}
 })
 
 

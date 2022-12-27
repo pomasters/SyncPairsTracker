@@ -552,7 +552,8 @@ input:focus { outline: 0; }
 }
 
 .selectedFilter,
-.selectedOption {
+.selectedOption,
+.filterDateEnable {
 	background: linear-gradient(#D1EC96, #B8F33B) !important;
 	transition-duration: 500ms;
 }
