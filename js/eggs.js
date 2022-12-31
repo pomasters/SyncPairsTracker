@@ -369,6 +369,32 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0045",
+		"pokemonName": "Vileplume",
+		"pokemonGender": "",
+		"pokemonForm": ["Oddish", "Gloom"],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-01-06",
+		"syncPairRegion": "0Pasio",
+		"images":[
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0045_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0045_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0045_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0045_02sa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0045_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0045_03a.png"
+		],
+		"tags":[
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0047",
 		"pokemonName": "Parasect",
 		"pokemonGender": "",
@@ -1134,8 +1160,8 @@ export const EGGS = [
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0121_01a.png",
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0121_02b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0121_02a.png",
-			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0121_03b.png",
-			"Sync Pairs/0Z_EGGS/MALE/Egg_0121_03a.png"
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0121_03sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0121_03sa.png"
 		],
 		"tags":[
 			"Pokémon Egg"

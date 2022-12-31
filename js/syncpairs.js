@@ -694,12 +694,12 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png"
 		],
 		"tags": [
-			"Event",
 			"isWoman",
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Terrain",
-			"Main Character"
+			"Main Character",
+			"Variety"
 		]
 	},
 	{
@@ -2730,12 +2730,12 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png"
 		],
 		"tags": [
-			"Event",
 			"isWoman",
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Weather",
-			"Main Character"
+			"Main Character",
+			"Variety"
 		]
 	},
 	{
@@ -2794,7 +2794,7 @@ export const SYNCPAIRS = [
 		"trainerName": "Hilbert",
 		"trainerAlt": "Sygna Suit",
 		"pokemonNumber": "0649",
-		"pokemonName": "Pokemon",
+		"pokemonName": "Genesect",
 		"pokemonGender": "",
 		"pokemonForm": [],
 		"pokemonType": "Bug",
@@ -2814,7 +2814,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Main Character",
 			"Mythical",
-			"Sygna Suit"
+			"Sygna Suit",
+			"Rebuff"
 		]
 	},
 	{
@@ -4241,7 +4242,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Wish Zone",
 			"Rival",
-			"Shiny"
+			"Shiny",
+			"Rebuff"
 		]
 	},
 	{
@@ -4607,7 +4609,8 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"Main Character",
-			"Champion"
+			"Champion",
+			"Rebuff"
 		]
 	},
 	{
@@ -6740,7 +6743,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Seasonal",
-			"Gym Leader"
+			"Gym Leader",
+			"Rebuff"
 		]
 	},
 	{
@@ -6862,12 +6866,12 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png"
 		],
 		"tags": [
-			"Event",
 			"isMan",
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Weather",
-			"Main Character"
+			"Main Character",
+			"Variety"
 		]
 	},
 	{
@@ -7114,7 +7118,8 @@ export const SYNCPAIRS = [
 			"Dynamax",
 			"isMan",
 			"Gym Leader",
-			"Weather"
+			"Weather",
+			"Rebuff"
 		]
 	},
 	{
@@ -7344,7 +7349,9 @@ export const SYNCPAIRS = [
 			"Spring",
 			"Summer",
 			"Fall",
-			"Holiday"
+			"Holiday",
+			"Variety",
+			"Rebuff"
 		]
 	}
 	*/
