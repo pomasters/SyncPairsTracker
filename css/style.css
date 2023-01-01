@@ -642,7 +642,6 @@ input:focus { outline: 0; }
 	color: white;
 	margin: auto;
 	margin-bottom: 20px;
-	padding: 5px 0;
 	width: 98%;
 	height: fit-content;
 	position: relative;
@@ -1204,6 +1203,7 @@ input:focus { outline: 0; }
 	#counter {
 		font-size: 0.8em;
 		line-height: 16px;
+		padding: 5px 0;
 	}
 
 	#filtersUsed {
@@ -1212,6 +1212,7 @@ input:focus { outline: 0; }
 
 	#counter::before,
 	#counter::after {
+		padding: 5px 0;
 		height: 100%;
 	}
 
