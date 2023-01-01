@@ -642,7 +642,9 @@ input:focus { outline: 0; }
 	color: white;
 	margin: auto;
 	margin-bottom: 20px;
+	padding: 5px 0;
 	width: 98%;
+	height: fit-content;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -650,6 +652,7 @@ input:focus { outline: 0; }
 
 #counter p {
 	margin: 0 10px;
+	height: fit-content;
 }
 
 #counter::before {
@@ -1142,6 +1145,7 @@ input:focus { outline: 0; }
 
 	.syncPair {
 		width: 24%;
+		max-width: 100px;
 		height: auto;
 		margin: 3px 1px;
 	}
@@ -1199,6 +1203,7 @@ input:focus { outline: 0; }
 
 	#counter {
 		font-size: 0.8em;
+		line-height: 16px;
 	}
 
 	#filtersUsed {
@@ -1207,7 +1212,7 @@ input:focus { outline: 0; }
 
 	#counter::before,
 	#counter::after {
-		height: -webkit-fill-available;
+		height: 100%;
 	}
 
 	#counterFound { text-align: left; }
