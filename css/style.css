@@ -1212,7 +1212,6 @@ input:focus { outline: 0; }
 
 	#counter::before,
 	#counter::after {
-		padding: 5px 0;
 		height: 100%;
 	}
 
