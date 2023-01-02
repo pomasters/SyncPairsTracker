@@ -51,16 +51,25 @@ input:focus { outline: 0; }
 }
 
 
+#version_eggs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#version {
+	color: var(--blue1);
+	width: auto;
+	padding: 0 10px;
+}
+
 #btnEggs {
-	width: 100px;
+	width: 80px;
 	height: 32px;
 	background-image: url(../images/btnEgg1.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	position: absolute;
-	right: 20px;
-	top: 20px;
 }
 #btnEggs:hover {
 	transform: scale(0.90);
@@ -103,12 +112,9 @@ input:focus { outline: 0; }
 	background: var(--blue1); 
 }
 
-
-#version {
-	color: var(--blue1);
-	margin: 20px auto;
-	text-align: left;
-	padding: 0 20px;
+#leftSideTop,
+#leftSideBottom {
+	display: none;
 }
 
 #news {
@@ -198,7 +204,7 @@ input:focus { outline: 0; }
 }
 
 #search:focus {
-	border: 2px solid #48899a;
+	border: 2px solid var(--blue2);
 }
 
 #dateBtns {
@@ -211,7 +217,7 @@ input:focus { outline: 0; }
 	padding: 0px 8px;
 	border: none;
 	border-radius: 5px;
-	background-color: #82aeb5;
+	background-color: var(--blue3);
 	color: white;
 	font-family: "kenya-NewRodinProN-B";
 	font-size: 12px;
@@ -251,6 +257,7 @@ input:focus { outline: 0; }
 	margin: 8px auto;
 	margin-top: 16px;
 	padding: 0;
+	font-size: 14px;
 	line-height: 24px;
 	width: calc(92% - 32px);
 	position: relative;
@@ -515,6 +522,8 @@ input:focus { outline: 0; }
 	border: 2px solid #af2929 !important;
 	color: #7a1010 !important;
 }
+
+#removeFilters2 { display: none; }
 
 #showSorting:hover + #sorting,
 #sorting:hover {
@@ -1033,6 +1042,7 @@ input:focus { outline: 0; }
 }
 
 .hide { display: none !important; }
+.show { display: initial !important; }
 
 
 /* Apply to element before screenshot */
@@ -1043,194 +1053,4 @@ input:focus { outline: 0; }
 .forScreenshot::before,
 .forScreenshot::after {
 	display: none !important;
-}
-
-
-#mobileDetection { opacity: 0; width: 0px; }
-
-
-@media only screen and (max-width: 1600px) {
-	#main { width: 90%; }
-	#leftSide { width: 33%; }
-	#rightSide { width: 63%; }
-}
-
-@media only screen and (max-width: 1400px) {
-	#main { width: 100%;	}
-	#leftSide { width: 40%; }
-	#rightSide { width: 60%; }
-}
-
-@media only screen and (max-width: 1200px) {
-	#main { width: 100%;	}
-	#leftSide { width: 50%; }
-	#rightSide { width: 50%; }
-}
-
-@media only screen and (max-width: 1024px) {
-
-	body {
-		background-color: transparent;
-		background-image: url("../images/bg.png");
-	}
-
-	#main {
-		width: 100%;
-		min-height: auto;
-		height: auto;
-		flex-direction: column;
-	}
-
-	#leftSide {
-		position: static;
-		height: fit-content;
-		overflow: initial;
-		padding: 10px;
-		padding-top: 0;
-	}
-
-	#rightSide {
-		position: static;
-		height: fit-content;
-	}
-
-	#leftSide,
-	#rightSide {
-		width: 100%;
-		margin: 0;
-	}
-
-	#options {
-		position: static;
-		background-image: none;
-	}
-
-	.optionsSticky {
-		padding-bottom: 20px !important;
-		border-bottom: none !important;
-	}
-	.optionsSticky:after {
-		content: none;
-	}
-
-	#filters .btn,
-	#options .btn,
-	#sorting .btn {
-		border: 1.2px solid var(--blue1);
-		box-shadow: 0px 0px 2px var(--blue1);
-	}
-
-	#filters .btn img {
-		height: 14px;
-		top: 3px;
-	}
-
-	.btnBlue,
-	.btnRed,
-	.btnYellow {
-		border-width: 1.2px !important;
-	}
-
-	#userBtns,
-	#dateBtns {
-		margin: 24px 0;
-		margin-top: 0;
-	}
-
-	#syncPairs {
-		padding: 5px;
-		margin: -5px;
-	}
-
-	.syncPair {
-		width: 24%;
-		max-width: 100px;
-		height: auto;
-		margin: 3px 1px;
-	}
-
-	.syncStar {
-		width: calc(100% * 85/135);
-		height: calc(80% * 55/135);
-	}
-
-	.syncFav img {
-		display: none;
-	}
-
-	.syncFav .currentImage {
-		display: block;
-	}
-
-	.selected .syncFav:hover {
-		position: absolute;
-		right: 0px;
-		top: 0px;
-		z-index: 3;
-		width: 22px;
-		height: 22px;
-		flex: none;
-		background-color: transparent !important;
-		background-image: none !important;
-		padding: 0;
-		border: none;
-		border-radius: 0;
-		box-shadow: none;
-	}
-	.selected .syncFav img {
-		display: none !important;
-		pointer-events: none !important;
-		-webkit-touch-callout: none !important;
-		-webkit-user-select: none !important;
-		user-select: none !important;
-	}
-	.selected .syncFav img[class="currentImage"] {
-		display: block !important;
-		background-color: transparent !important;
-	}
-
-	.syncLevel {
-		width: 28.8%;
-		height: auto;
-		left: 5%;
-		bottom: 5%;
-	}
-
-	.selected:hover > .syncInfos {
-		display: none;
-	}
-
-	#counter {
-		font-size: 0.8em;
-		line-height: 16px;
-		padding: 5px 0;
-	}
-
-	#filtersUsed {
-		font-size: 0.9em;
-	}
-
-	#counter::before,
-	#counter::after {
-		height: 100%;
-	}
-
-	#counterFound { text-align: left; }
-	#counterFoundTotal { text-align: center; }
-	#counterSelected { text-align: right; }
-
-	#filtersUsed span img {
-		height: 1.1em;
-	}
-
-	#credits {
-		margin: 15px 0;
-	}
-
-	#btnDarkMode {
-		width: 64px;
-		height: 64px;
-	}
-
-	#mobileDetection { width: 1px; }
 }

@@ -731,6 +731,7 @@ function dateInterval() {
 	});
 
 	document.getElementById("removeFilters").classList.add("btnRed");
+	document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
 	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFilters.length + 1})`;
 
 	countSelection();
@@ -815,9 +816,11 @@ function searchFilters() {
 
 	if(filters.length > 0) {
 		document.getElementById("removeFilters").classList.add("btnRed");
+		document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
 		document.getElementById("removeFilters").innerHTML = `× filters (${filters.length})`;
 	} else {
 		document.getElementById("removeFilters").classList.remove("btnRed");
+		document.getElementById("mobileMenuFilters").classList.remove("mobileMenu_selected");
 		document.getElementById("removeFilters").innerHTML = `× filters`
 	}
 }
@@ -1067,6 +1070,7 @@ document.getElementById("viewMode").addEventListener("click", viewMode);
 document.getElementById("showSorting").addEventListener("click", showSorting);
 
 document.getElementById("removeFilters").addEventListener("click", removeFilters);
+document.getElementById("removeFilters2").addEventListener("click", removeFilters);
 
 document.getElementById("editOrderMode").addEventListener("click", editOrderMode);
 
@@ -1239,6 +1243,44 @@ const observer = new IntersectionObserver(
 
 observer.observe(document.getElementById("options"));
 
+
+/* Mobile Menu */
+document.getElementById("mobileMenuHome").addEventListener("click", function() {
+
+	document.getElementById("leftSide").classList.remove("leftSideVisible");
+})
+
+document.getElementById("mobileMenuFilters").addEventListener("click", function() {
+
+	document.getElementById("leftSide").classList.add("leftSideVisible");
+
+	document.getElementById("leftSideTop").innerHTML = "<p>Filters</p>"
+	document.getElementById("removeFilters2").classList.remove("hide");
+
+	document.getElementById("version").classList.add("hide");
+	document.getElementById("btnEggs").classList.add("hide");
+	document.getElementById("news").classList.add("hide");
+	document.getElementById("filters").classList.remove("hide");
+	document.getElementById("options").classList.add("hide");
+	document.getElementById("credits").classList.add("hide");
+	document.getElementById("btnDarkMode").classList.add("hide");
+})
+
+document.getElementById("mobileMenuOptions").addEventListener("click", function() {
+
+	document.getElementById("leftSide").classList.add("leftSideVisible");
+
+	document.getElementById("leftSideTop").innerHTML = "<p>Options</p>"
+	document.getElementById("removeFilters2").classList.add("hide");
+
+	document.getElementById("version").classList.remove("hide");
+	document.getElementById("btnEggs").classList.remove("hide");
+	document.getElementById("news").classList.remove("hide");
+	document.getElementById("filters").classList.add("hide");
+	document.getElementById("options").classList.remove("hide");
+	document.getElementById("credits").classList.remove("hide");
+	document.getElementById("btnDarkMode").classList.remove("hide");
+})
 
 
 /*-----------------------------------------------------------------------------

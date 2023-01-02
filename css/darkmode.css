@@ -85,7 +85,7 @@ body {
 	border-color: #585858;
 	background: linear-gradient(#4c4c4c, var(--bgDark));
 	color: var(--text);
-	box-shadow: 1px 1px 3px #000000;;
+	box-shadow: 1px 1px 3px #000000;
 }
 
 #filters .btn:active,
@@ -115,7 +115,7 @@ body {
 }
 
 #credits a {
-	color: #48899A;
+	color: var(--blue2);
 }
 
 
@@ -190,10 +190,75 @@ body {
 	border-color: var(--text);
 }
 
+
+#mobileMenu .btn {
+	color: var(--text);
+	border: 2px solid #585858;
+	background: linear-gradient(var(--bgDark), #4c4c4c);
+	box-shadow: 1px 1px 3px #000000;
+}
+
+#mobileMenu .btn:hover,
+.mobileMenu_selected {
+	border-color: #585858;
+	background: linear-gradient(#4c4c4c, var(--bgDark));
+	color: var(--text);
+	box-shadow: 1px 1px 3px #000000;
+}
+
+
 @media only screen and (max-width: 1024px) {
 
 	body {
 		background-color: transparent;
 		background-image: url("../images/bg3.png");
+	}
+
+	#leftSide {
+		background-image: none;
+	}
+
+	#options {
+		background-image: none;
+	}
+
+	#lockMode, #viewMode {
+		background-color: #E6E6E6 !important;
+		filter: none;
+	}
+
+	#news ul li:first-child {
+		color: #8aadbb;
+	}
+
+	#selectionOptions, #increaseOptions, #visibilityOptions, #sorting {
+		background-color: rgb(72 137 154 / 30%);
+	}
+
+	#search, #date1, #date2 {
+		color: white;
+		background-color: var(--blue3);
+	}
+
+	#filters .btn, #options .btn, #sorting .btn {
+		border-color: var(--blue1);
+		background: linear-gradient(#ffffff, #cccccc);
+		color: var(--blue1);
+		box-shadow: 0px 0px 2px var(--blue1);
+	}
+
+	.buttonGroupTitle, .buttonGroupTitle::before, .buttonGroupTitle::after {
+		background-color: var(--blue2);
+	}
+
+	.mobileMenu_selected {
+		color: var(--blue1) !important;
+	}
+
+	#credits {
+		color: var(--blue1);
+	}
+	#credits a {
+		color: #103742;
 	}
 }
