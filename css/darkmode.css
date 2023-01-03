@@ -163,6 +163,10 @@ body {
 	background-image: url(../images/bg3.png);
 }
 
+.syncImages {
+	filter: drop-shadow(1px 3px 0px #383838);
+}
+
 .syncInfos {
 	color: #bfbfbf;
 	border-color: var(--bgLight);
