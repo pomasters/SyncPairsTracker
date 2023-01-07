@@ -1002,6 +1002,7 @@ input:focus { outline: 0; }
 .infoPokemonForms,
 .infoSyncPairRarity,
 .infoSyncPairRegion,
+.infoSyncPairThemes,
 .infoSyncPairTags {
 	display: none;
 }

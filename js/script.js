@@ -117,6 +117,7 @@ function generatePairsHTML(pairs) {
 					<p class="infoSyncPairRarity">${syncPair.syncPairRarity}</p>
 					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
 					<p class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
+					<p class="infoSyncPairThemes">${tags(syncPair.themes)}</p>
 					<p class="infoSyncPairTags">${tags(syncPair.tags)}</p>
 				</div>
 			</div>
