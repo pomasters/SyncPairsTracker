@@ -504,7 +504,7 @@ function importSelection() {
 						} else {
 							currentStar = parseInt(basestar) + parseInt(importedSyncImage);
 						}
-					} else { currentStar = parseInt(basestar) + parseInt(currentSyncStar); }
+					} else { currentStar = parseInt(basestar) + parseInt(importedSyncStar); }
 					syncStarDIV.dataset.currentstar = currentStar;
 
 					Array.from(syncLevelDIV.children).forEach(c => c.classList.remove("currentImage"))
