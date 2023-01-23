@@ -29,7 +29,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Starter"
 		]
 	},
 	{
@@ -60,7 +61,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Starter"
 		]
 	},
 	{
@@ -91,7 +93,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Multiple Units"
+			"Multiple Units",
+			"Starter"
 		]
 	},*/
 	{
@@ -153,7 +156,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"Multiple Units"
+			"Multiple Units",
+			"Starter"
 		]
 	},
 	{
@@ -774,7 +778,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -1222,7 +1227,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -1607,7 +1613,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -1831,7 +1838,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -1957,7 +1965,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -2020,7 +2029,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -3171,7 +3181,8 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -3303,7 +3314,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Starter"
 		]
 	},
 	{
@@ -3433,7 +3445,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -3531,7 +3544,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -3891,7 +3905,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Weather",
 			"Wish Zone",
-			"Shiny"
+			"Shiny",
+			"Starter"
 		]
 	},
 	{
@@ -4143,7 +4158,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -4240,7 +4256,8 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -4335,7 +4352,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Weather"
 		]
 	},
 	{
@@ -4808,7 +4826,8 @@ export const SYNCPAIRS = [
 			"Ticket Scout (after Victory Road)",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -5218,7 +5237,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -5422,7 +5442,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -5650,7 +5671,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -5749,7 +5771,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"Rebuff"
+			"Rebuff",
+			"Starter"
 		]
 	},
 	{
@@ -6642,7 +6665,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -6878,7 +6902,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Starter"
 		]
 	},
 	{
@@ -6981,7 +7006,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -7196,7 +7222,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -7536,7 +7563,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Starter"
 		]
 	},
 	{
@@ -7569,7 +7597,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -8014,7 +8043,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isMan"
+			"isMan",
+			"Starter"
 		]
 	},
 	{
@@ -8963,7 +8993,8 @@ export const SYNCPAIRS = [
 			"Dynamax",
 			"isMan",
 			"Limited Sync Pair Scout",
-			"Poké Fair"
+			"Poké Fair",
+			"Starter"
 		]
 	},
 	{
@@ -9110,7 +9141,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Gen Pool"
+			"Gen Pool",
+			"Starter"
 		]
 	}
 	/*,
