@@ -2947,7 +2947,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png",
-			"Sync Pairs/5Star/0F_KALOS_0B-01_Viola_5Star.png"
+			"Sync Pairs/5Star/0F_KALOS_0B-01_Viola_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -3774,6 +3775,38 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Trainer Lodge"
+		]
+	},
+	{
+		"dexNumber": "069",
+		"trainerName": "Elesa",
+		"trainerAlt": "Palentine's 2023",
+		"pokemonNumber": "0176",
+		"pokemonName": "Togetic",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-02-02",
+		"syncPairRegion": "5Unova",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Elesa.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Elesa_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Seasonal Outfit",
+			"Scarf",
+			"Artistic"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Palentine"
 		]
 	},
 	{
@@ -5996,6 +6029,37 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "099",
+		"trainerName": "Morty",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0092",
+		"pokemonName": "Gastly",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-02-01",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_TL_Morty.png",
+			"Sync Pairs/5Star/0B_JOHTO_0B-04_TL_Morty_5Star.png"
+		],
+		"themes": [
+			"Ghost",
+			"Johto",
+			"Gym Leader",
+			"Scarf",
+			"Supernatural"
+		],
+		"tags": [
+			"isMan",
+			"Multiple Units",
+			"Trainer Lodge"
+		]
+	},
+	{
 		"dexNumber": "100",
 		"trainerName": "Cyrus",
 		"trainerAlt": "",
@@ -7067,7 +7131,40 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "114",
+		"trainerName": "Mallow",
+		"trainerAlt": "Palentine's 2023",
+		"pokemonNumber": "0842",
+		"pokemonName": "Appletun",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-01-31",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Mallow.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Mallow_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Alola",
+			"Seasonal Outfit",
+			"Pigtails",
+			"Cook"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Palentine"
 		]
 	},
 	{
@@ -7099,7 +7196,42 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "115",
+		"trainerName": "Lysandre",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0721",
+		"pokemonName": "Volcanion",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Special Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-02-13",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_ssLysandre.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_ssLysandre_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Kalos",
+			"Villain",
+			"Sygna Suit",
+			"Researcher"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Poké Fair",
+			"Mythical"
 		]
 	},
 	{
@@ -9144,6 +9276,68 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Starter"
 		]
+	},
+	{
+		"dexNumber": "163",
+		"trainerName": "Anabel",
+		"trainerAlt": "",
+		"pokemonNumber": "0143",
+		"pokemonName": "Snorlax",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Gigantamax"
+		],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-02-15",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-03_Anabel.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-03_Anabel_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Alola",
+			"Grown Woman"
+		],
+		"tags": [
+			"Dynamax",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Poké Fair"
+		]
+	},
+	{
+		"dexNumber": "164",
+		"trainerName": "Emma",
+		"trainerAlt": "",
+		"pokemonNumber": "0169",
+		"pokemonName": "Crobat",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-02-17",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-02_Emma.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-02_Emma_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Kalos",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Buddy Move",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Poké Fair"
+		]
 	}
 	/*,
 	{
@@ -9199,4 +9393,4 @@ export const SYNCPAIRS = [
 ]
 
 
-export const VERSION = "v2.28.0";
+export const VERSION = "v2.29.0";
