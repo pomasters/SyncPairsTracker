@@ -573,13 +573,46 @@ export const EGGS = [
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_01a.png",
-			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_02b.png",
-			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_02sa.png",
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_03b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_03a.png"
 		],
 		"themes": [
 			"Normal",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0053",
+		"pokemonName": "Persian",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Alolan Form",
+			"Meowth"
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-02-22",
+		"syncPairRegion": "0Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01ab.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_01aa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_02asb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_02asa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_03ab.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_03aa.png"
+		],
+		"themes": [
+			"Dark",
 			"Main Character"
 		],
 		"tags": [
@@ -1907,6 +1940,38 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0863",
+		"pokemonName": "Perrserker",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Meowth"
+		],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-02-22",
+		"syncPairRegion": "0Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0863_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0863_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0863_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0863_02sa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0863_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0863_03a.png"
+		],
+		"themes": [
+			"Steel",
 			"Main Character"
 		],
 		"tags": [
