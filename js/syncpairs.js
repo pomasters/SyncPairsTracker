@@ -9357,6 +9357,7 @@ export const SYNCPAIRS = [
 		"images": [
 			"images/empty.png"
 		],
+		"themes": [],
 		"tags": [
 			"Battle Points",
 			"Buddy Move",
