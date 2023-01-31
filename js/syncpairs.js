@@ -2321,7 +2321,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited Sync Pair Scout",
 			"Multiple Units",
-			"Wish Zone"
+			"Wish Zone",
+			"Ultra Beast"
 		]
 	},
 	{
@@ -4386,6 +4387,7 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
+			"Limited Sync Pair Scout",
 			"Weather"
 		]
 	},
@@ -4487,6 +4489,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
+			"Limited Sync Pair Scout",
 			"isWoman"
 		]
 	},
@@ -5115,7 +5118,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Ultra Beast"
 		]
 	},
 	{
@@ -5407,7 +5411,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Seasonal",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Ultra Beast"
 		]
 	},
 	{
@@ -6151,7 +6156,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Ultra Beast"
 		]
 	},
 	{
@@ -6799,6 +6805,7 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
+			"Limited Sync Pair Scout",
 			"Legendary"
 		]
 	},
@@ -6894,6 +6901,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
+			"Limited Sync Pair Scout",
 			"isMan"
 		]
 	},
@@ -7459,6 +7467,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Poké Fair",
 			"Multiple Units",
+			"Limited Sync Pair Scout",
 			"isWoman"
 		]
 	},
@@ -7555,6 +7564,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Trainer Lodge",
 			"Multiple Units",
+			"Limited Sync Pair Scout",
 			"isWoman"
 		]
 	},
@@ -7762,6 +7772,7 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
+			"Limited Sync Pair Scout",
 			"Weather"
 		]
 	},
@@ -7829,6 +7840,7 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Trainer Lodge",
+			"Limited Sync Pair Scout",
 			"Weather"
 		]
 	},
