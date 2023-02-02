@@ -102,7 +102,7 @@ function generatePairsHTML(pairs) {
 
 				${innerHtmlImages}
 
-				<div class="syncInfos">
+				<div class="syncInfos" data-html2canvas-ignore="true">
 					<p class="infoDexNum">${syncPair.dexNumber}</p>
 					<p class="infoTrainerName">${syncPair.trainerName}</p>
 					<p class="infoTrainerAltName">${syncPair.trainerAlt}</p>
@@ -324,7 +324,7 @@ and insert the count in the corresponding output element */
 function countSelection() {
 	var totalSyncPairs, allSelected, allSelectedFound, allFound, allNotSelected, allNotSelectedFound;
 
-	if(!document.getElementById("datamineCss").disabled) {
+	if((localStorage.getItem("datamineVisible") !== null) && (localStorage.getItem("datamineVisible") === "false")) {
 		totalSyncPairs = parseInt(Array.from(document.querySelectorAll(".syncPair:not(.datamine)")).length);
 		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected:not(.datamine)")).length);
 		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found:not(.datamine)")).length);
@@ -350,11 +350,11 @@ function countSelection() {
 		allFound = allNotSelectedFound;
 	}
 
-	document.getElementById("counterSelected").innerHTML = `${allSelected} / ${totalSyncPairs} (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)`;
+	document.getElementById("counterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="counterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
 
 	if(allFound > 0) {
-		document.getElementById("counterFound").innerHTML = `${allSelectedFound} / ${allFound} (${((allSelectedFound/allFound)*100).toFixed(1)}%)`;
-		document.getElementById("counterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs} (${((allFound/totalSyncPairs)*100).toFixed(1)}%)`;
+		document.getElementById("counterFound").innerHTML = `${allSelectedFound} / ${allFound}<span class="counterPercentage"> (${((allSelectedFound/allFound)*100).toFixed(1)}%)</span>`;
+		document.getElementById("counterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs}<span class="counterPercentage"> (${((allFound/totalSyncPairs)*100).toFixed(1)}%)</span>`;
 	} else {
 		document.getElementById("counterFound").innerHTML = "";
 		document.getElementById("counterFoundTotal").innerHTML = "";
@@ -648,45 +648,107 @@ function resetSyncStar() {
 }
 
 
-function allVisible() {
-	document.getElementById("visibilityMode").innerHTML = ``;
-
-	document.getElementById("allVisible").classList.add("btnYellow");
+function pairsVisible(id) {
+	document.getElementById("allVisible").classList.remove("btnYellow");
 	document.getElementById("selectedVisible").classList.remove("btnYellow");
 	document.getElementById("notSelectedVisible").classList.remove("btnYellow");
 
-	localStorage.setItem("visibilityMode", "allVisible");
-	countSelection();
-}
-function selectedVisible() {
-	document.getElementById("visibilityMode").innerHTML = `.syncPair:not([class*="selected"]) { display: none !important; }`;
+	document.getElementById(id).classList.add("btnYellow");
 
-	document.getElementById("allVisible").classList.remove("btnYellow");
-	document.getElementById("selectedVisible").classList.add("btnYellow");
-	document.getElementById("notSelectedVisible").classList.remove("btnYellow");
+	localStorage.setItem("visibilityMode", id);
 
-	localStorage.setItem("visibilityMode", "selectedVisible");
-	countSelection();
-}
-function notSelectedVisible() {
-	document.getElementById("visibilityMode").innerHTML = `.syncPair[class*="selected"] { display: none !important; }`;
-
-	document.getElementById("allVisible").classList.remove("btnYellow");
-	document.getElementById("selectedVisible").classList.remove("btnYellow");
-	document.getElementById("notSelectedVisible").classList.add("btnYellow");
-
-	localStorage.setItem("visibilityMode", "notSelectedVisible");
-	countSelection();
+	visibility();
 }
 
 function datamineVisible() {
-	var isDisabled = document.getElementById("datamineCss").disabled;
-	document.getElementById("datamineCss").disabled = !isDisabled;
+	document.getElementById("datamineVisible").classList.toggle("btnYellow");
 
-	localStorage.setItem("datamineVisible", isDisabled);
+	localStorage.setItem("datamineVisible", !document.getElementById("datamineVisible").classList.contains("btnYellow"));
 
 	Array.from(document.getElementsByClassName("datamine")).forEach(d => unselect(d))
+
+	visibility();
+}
+
+function elementVisible(id) {
+	document.getElementById(id).classList.toggle("btnYellow");
+
+	localStorage.setItem(id, !document.getElementById(id).checked);
+
+	visibility();
+}
+
+function visibility() {
+	document.getElementById("visibilityMode").innerHTML = "";
+
+	var css = {
+		"allVisible": "",
+
+		"selectedVisible" : `.syncPair:not([class*="selected"]) { display: none !important; }\n`,
+
+		"notSelectedVisible": `.syncPair[class*="selected"] { display: none !important; }\n`,
+
+		"datamineVisible": `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }\n`,
+
+		"counterPercentageVisible" : `.counterPercentage { display: none; }\n`,
+
+		"syncFavsVisible" : `#buttonsFav, .syncFav { display: none !important; }\n`,
+
+		"syncInfosVisible" : `.selected:hover > .syncInfos { display: none; }\n`,
+
+		"fullWidthVisible" : `#main { width: 100%; } #rightSide { margin-left: 25%; width: 100%; }
+								@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }
+								@media only screen and (max-width: 1400px) { #rightSide { margin-left: 40% } }
+								@media only screen and (max-width: 1200px) { #rightSide { margin-left: 50% } }
+								@media only screen and (max-width: 1024px) { #rightSide { margin-left: auto } }`
+	}
+
+	var visibilityChoices = Array.from(document.getElementById("visibilityOptions").getElementsByClassName("btnYellow"));
+	visibilityChoices.forEach(function(c) {
+		document.getElementById("visibilityMode").innerHTML += css[c.id] + " ";
+	})
+
 	countSelection();
+}
+
+function loadVisibilityFromLocalStorage() {
+
+	if(localStorage.getItem("darkMode") !== null) {
+		document.getElementById("darkModeCss").disabled = !(localStorage.getItem("darkMode") === "true");
+	}
+
+	if(localStorage.getItem("lockMode") !== null) {
+		document.getElementById("lockModeCss").disabled = !(localStorage.getItem("lockMode") === "true");
+	}
+
+	if(localStorage.getItem("viewMode") !== null) {
+		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
+	}
+
+	if(localStorage.getItem("visibilityMode") !== null) {
+		document.getElementById(localStorage.getItem("visibilityMode")).click();
+	}
+
+	if((localStorage.getItem("datamineVisible") !== null) && (localStorage.getItem("datamineVisible") === "false")) {
+		document.getElementById("datamineVisible").click();
+	}
+
+	if((localStorage.getItem("counterPercentageVisible") !== null) && (localStorage.getItem("counterPercentageVisible") === "false")) {
+		document.getElementById("counterPercentageVisible").click();
+	}
+
+	if((localStorage.getItem("syncFavsVisible") !== null) && (localStorage.getItem("syncFavsVisible") === "false")) {
+		document.getElementById("syncFavsVisible").click();
+	}
+
+	if((localStorage.getItem("syncInfosVisible") !== null) && (localStorage.getItem("syncInfosVisible") === "false")) {
+		document.getElementById("syncInfosVisible").click();
+	}
+
+	if((localStorage.getItem("fullWidthVisible") !== null) && (localStorage.getItem("fullWidthVisible") === "false")) {
+		document.getElementById("fullWidthVisible").click();
+	}
+
 }
 
 
@@ -1053,11 +1115,16 @@ document.getElementById("resetFavorite").addEventListener("click", resetFavorite
 
 document.getElementById("visibilityBtns").addEventListener("click", visibilityOptions);
 
-document.getElementById("allVisible").addEventListener("click", allVisible);
-document.getElementById("selectedVisible").addEventListener("click", selectedVisible);
-document.getElementById("notSelectedVisible").addEventListener("click", notSelectedVisible);
+document.getElementById("allVisible").addEventListener("click", function() { pairsVisible(this.id); });
+document.getElementById("selectedVisible").addEventListener("click", function() { pairsVisible(this.id); });
+document.getElementById("notSelectedVisible").addEventListener("click", function() { pairsVisible(this.id); });
 
 document.getElementById("datamineVisible").addEventListener("click", datamineVisible);
+
+document.getElementById("counterPercentageVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("syncFavsVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("syncInfosVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("fullWidthVisible").addEventListener("click", function() { elementVisible(this.id); });
 
 document.getElementById("exportSelection").addEventListener("click", exportSelection);
 
@@ -1316,30 +1383,14 @@ function generatePairs(pairs) {
 
 
 function init() {
-	if(localStorage.getItem("darkMode") !== null) {
-		document.getElementById("darkModeCss").disabled = !(localStorage.getItem("darkMode") === "true");
-	}
 
-	if(localStorage.getItem("lockMode") !== null) {
-		document.getElementById("lockModeCss").disabled = !(localStorage.getItem("lockMode") === "true");
-	}
-
-	if(localStorage.getItem("viewMode") !== null) {
-		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
-	}
-
-	if(localStorage.getItem("visibilityMode") !== null) {
-		document.getElementById(localStorage.getItem("visibilityMode")).click();
-	}
-
-	if(localStorage.getItem("datamineVisible") !== null) {
-		document.getElementById("datamineCss").disabled = !(localStorage.getItem("datamineVisible") === "true");
-	}
 
 	document.getElementById("version").innerHTML = VERSION;
 	document.getElementById("linkToolVer").innerHTML = VERSION;
 
 	document.getElementById('date2').valueAsDate = new Date();
+
+	loadVisibilityFromLocalStorage();
 
 	updateNews();
 

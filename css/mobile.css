@@ -71,19 +71,19 @@
 
 
 @media only screen and (max-width: 1600px) {
-	#main { width: 90%; }
+	#main { width: 100%; }
 	#leftSide { width: 30%; }
 	#rightSide { width: 70%; }
+
+	#visibilityOptions2 div:nth-child(4) { display: none; }
 }
 
 @media only screen and (max-width: 1400px) {
-	#main { width: 100%;	}
 	#leftSide { width: 40%; }
 	#rightSide { width: 60%; }
 }
 
 @media only screen and (max-width: 1200px) {
-	#main { width: 100%;	}
 	#leftSide { width: 50%; }
 	#rightSide { width: 50%; }
 }
@@ -113,7 +113,6 @@
 	}
 
 	#main {
-		width: 100%;
 		min-height: auto;
 		height: 100%;
 		flex-direction: column;
@@ -218,6 +217,8 @@
 	.optionsSticky:after {
 		content: none;
 	}
+
+	#visibilityOptions2 div:nth-child(3) { display: none; }
 
 	.smallerText {
 		font-size: 10px !important;

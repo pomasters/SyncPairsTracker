@@ -1,9 +1,0 @@
-.datamine { display: none !important; }
-
-#datamineVisible {
-	background: linear-gradient(#e3ec96, #ffdd63) !important;
-	border: 2px solid #7a7710 !important;
-	color: #7a7710 !important;
-	text-decoration: line-through;
-	text-decoration-thickness: 2px;
-}

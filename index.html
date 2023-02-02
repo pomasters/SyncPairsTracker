@@ -15,7 +15,6 @@
 	<link rel="stylesheet" type="text/css" id="lockModeCss" href="css/lockmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="viewModeCss" href="css/viewmode.css" disabled>
 	<style type="text/css" id="visibilityMode"></style>
-	<link rel="stylesheet" type="text/css" id="datamineCss" href="css/datamine.css" disabled>
 </head>
 
 
@@ -69,6 +68,13 @@
 						<button type="button" class="btn smallerText" id="selectedVisible">Have</button>
 						<button type="button" class="btn" id="notSelectedVisible">Not have</button>
 						<button type="button" class="btn smallerText" id="datamineVisible">Not released</button>
+
+						<div id="visibilityOptions2">
+							<div><input type="checkbox" id="counterPercentageVisible"><label for="counterPercentageVisible">Hide percentage in counter</label></div>
+							<div><input type="checkbox" id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
+							<div><input type="checkbox" id="syncInfosVisible"><label for="syncInfosVisible">Hide sync pair informations</label></div>
+							<div><input type="checkbox" id="fullWidthVisible"><label for="fullWidthVisible">Full width of the window</label></div>
+						</div>
 					</div>
 
 					<button type="button" class="btn smallerText" id="exportSelection">Export / Save</button>
@@ -103,7 +109,7 @@
 				<div id="filters">
 					<div id="userBtns">
 						<div class="buttonGroupTitle">Current value</div>
-						<div>
+						<div id="buttonsFav">
 							<button type="button" class="btn syncUserBtnFav" value='favorite1.png" class="currentImage"'>&nbsp;<img src="images/favorite1.png"></button>
 							<button type="button" class="btn syncUserBtnFav" value='favoriteG.png" class="currentImage"'>&nbsp;<img src="images/favoriteG.png"></button>
 							<button type="button" class="btn syncUserBtnFav" value='favoriteY.png" class="currentImage"'>&nbsp;<img src="images/favoriteY.png"></button>
@@ -219,25 +225,28 @@
 
 					<div>
 						<div class="buttonGroupTitle">Trainer/Pokémon</div>
-						<button type="button" class="btn btnNoImage smallerText" value='Main Character'>Main Character</button>
+						<button type="button" class="btn smallerText" value='Main Character'>Main Character</button>
 						<button type="button" class="btn" value='Rival'>Rival</button>
 						<button type="button" class="btn" value='Gym Leader'>Gym Leader</button>
 						<button type="button" class="btn" value='Elite Four'>Elite Four</button>
 						<button type="button" class="btn" value='Champion'>Champion</button>
+						<button type="button" class="btn" value='Trial Giver'>Trial Giver</button>
 						<button type="button" class="btn" value='Villain'>Villain</button>
 						<button type="button" class="btn" value='Legendary'>Legendary</button>
 						<button type="button" class="btn" value='Mythical'>Mythical</button>
 						<button type="button" class="btn" value='Shiny'>Shiny</button>
+						<button type="button" class="btn" value='Ultra Beast'>Ultra Beast</button>
+						<button type="button" class="btn" value='Starter'>Starter</button>
 					</div>
 
 					<div>
 						<div class="buttonGroupTitle">Seasonnal</div>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='New Year'>New Year</button>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='Palentine'>Palentine</button>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='Spring'>Spring</button>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='Summer'>Summer</button>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='Fall'>Fall</button>
-						<button type="button" class="btn filterSeasonal btnNoImage" value='Holiday'>Holiday</button>
+						<button type="button" class="btn filterSeasonal" value='New Year'>New Year</button>
+						<button type="button" class="btn filterSeasonal" value='Palentine'>Palentine</button>
+						<button type="button" class="btn filterSeasonal" value='Spring'>Spring</button>
+						<button type="button" class="btn filterSeasonal" value='Summer'>Summer</button>
+						<button type="button" class="btn filterSeasonal" value='Fall'>Fall</button>
+						<button type="button" class="btn filterSeasonal" value='Holiday'>Holiday</button>
 					</div>
 
 					<div>
@@ -260,11 +269,11 @@
 						<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Has an alt</button>
 						<button type="button" class="btn filterGender" value='isMan'><img src="images/icon_male.png">Man</button>
 						<button type="button" class="btn filterGender" value='isWoman'><img src="images/icon_female.png">Woman</button>
-						<button type="button" class="btn btnNoImage" value='Sygna Suit'>Sygna Suit</button>
-						<button type="button" class="btn btnNoImage smallerText" value='Special Costume'>Special Costume</button>
-						<button type="button" class="btn btnNoImage" value='Anniversary'>Anniversary</button>
-						<!--<button type="button" class="btn btnNoImage" value='Variety'>Variety</button>
-						<button type="button" class="btn" value='Rebuff'><img src="images/icon_rebuff.png">Rebuff</button>-->
+						<button type="button" class="btn" value='Sygna Suit'>Sygna Suit</button>
+						<button type="button" class="btn smallerText" value='Special Costume'>Special Costume</button>
+						<button type="button" class="btn" value='Anniversary'>Anniversary</button>
+						<button type="button" class="btn" value='Variety'>Variety</button>
+						<button type="button" class="btn" value='Rebuff'><img src="images/icon_rebuff.png">Rebuff</button>
 					</div>
 				</div>
 

@@ -87,6 +87,8 @@ body {
 	color: var(--text);
 	box-shadow: 1px 1px 3px #000000;
 }
+.filterDateEnable { color: #585858 !important; }
+#visibilityOptions2 div {	color: var(--text); }
 
 #filters .btn:active,
 #options .btn:active,
@@ -238,6 +240,8 @@ body {
 	#selectionOptions, #increaseOptions, #visibilityOptions, #sorting {
 		background-color: rgb(72 137 154 / 30%);
 	}
+
+	#visibilityOptions2 div {	color: var(--blue1); }
 
 	#search, #date1, #date2 {
 		color: white;
