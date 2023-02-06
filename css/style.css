@@ -250,6 +250,23 @@ input:focus { outline: 0; }
 }
 
 
+#takeScreenshot img {
+	width: 16px;
+	position: absolute;
+	right: 4px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+@keyframes rotateAnim {
+	0% { transform: rotate(360deg); }
+	100% { transform: rotate(0deg); }
+}
+
+#image_rotate { animation: rotateAnim 1500ms linear infinite !important; }
+
+
 .buttonGroupTitle {
 	background-color: var(--blue2);
 	color: white;

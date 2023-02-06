@@ -959,6 +959,9 @@ function editOrderMode() {
 
 /* use html2canvas to take screenshot */
 function takeScreenshot() {
+	document.getElementById("image_rotate").classList.remove("hide");
+	document.getElementById("image_done").classList.add("hide");
+
 	document.getElementById("screenshot").classList.add("hide");
 	document.getElementById("counter").classList.add("forScreenshot");
 	document.getElementById("syncPairs").classList.add("forScreenshot");
@@ -994,6 +997,9 @@ function takeScreenshot() {
 
 			document.getElementById("leftSide").classList.remove("leftSideVisible");
 			notVisibleImgs.forEach(i => i.removeAttribute("data-html2canvas-ignore"));
+
+			document.getElementById("image_rotate").classList.add("hide");
+			document.getElementById("image_done").classList.remove("hide");
 
 			document.getElementById("screenshot").scrollIntoView(true);
 	});
