@@ -969,6 +969,9 @@ function takeScreenshot() {
 		document.getElementById("counterTotal").classList.add("hide");
 	}
 
+	var notVisibleImgs = Array.from(document.querySelectorAll(".syncImages img:not(.currentImage)"));
+	notVisibleImgs.forEach(i => i.setAttribute("data-html2canvas-ignore", "true"));
+
 	html2canvas(document.getElementById('rightSide'),{
 			backgroundColor:null,
 			windowWidth:1920,
@@ -989,7 +992,10 @@ function takeScreenshot() {
 			document.getElementById("counterSelected").classList.remove("hide");
 			document.getElementById("counterTotal").classList.remove("hide");
 
-			location.href = "#screenshot";
+			document.getElementById("leftSide").classList.remove("leftSideVisible");
+			notVisibleImgs.forEach(i => i.removeAttribute("data-html2canvas-ignore"));
+
+			document.getElementById("screenshot").scrollIntoView(true);
 	});
 }
 
