@@ -249,6 +249,21 @@ input:focus { outline: 0; }
 	outline: none;
 }
 
+#takeScreenshot {
+	width: 23.75% !important;
+	border-bottom-right-radius: 0 !important;
+	border-right: 0 !important;
+	margin-right: -2.75px !important;
+}
+
+#takeScreenshot2 {
+	width: 6.25% !important;
+	border-top-left-radius: 0 !important;
+	border-left: 0 !important;
+	margin-left: -2.75px !important;
+	text-align: center !important;
+	padding: 0 !important;
+}
 
 #takeScreenshot img {
 	width: 16px;
@@ -393,7 +408,7 @@ input:focus { outline: 0; }
 }
 
 #increaseOptions2 {
-	margin: auto 4.2%;
+	margin: auto 4%;
 	display: flex;
 	justify-content: center;
 }
@@ -515,7 +530,7 @@ input:focus { outline: 0; }
 
 #lockMode,
 #viewMode {
-	width: 14.5% !important;
+	width: calc(14.5% - 1px) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;

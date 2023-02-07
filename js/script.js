@@ -958,7 +958,7 @@ function editOrderMode() {
 
 
 /* use html2canvas to take screenshot */
-function takeScreenshot() {
+function takeScreenshot(id) {
 	document.getElementById("image_rotate").classList.remove("hide");
 	document.getElementById("image_done").classList.add("hide");
 
@@ -980,14 +980,32 @@ function takeScreenshot() {
 			windowWidth:1920,
 			windowHeight:1080
 		}).then(canvas => {
-			document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
 
-			var img = document.createElement('img');
-			img.src = canvas.toDataURL("image/png");
+			if(id == "takeScreenshot") {
+				document.getElementById("screenshot").classList.remove("hide");
+				document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
 
-			document.getElementById("screenshot").appendChild(img);
+				var img = document.createElement('img');
+				img.src = canvas.toDataURL("image/png");
+				img.setAttribute("draggable", "false");
 
-			document.getElementById("screenshot").classList.remove("hide");
+				document.getElementById("screenshot").appendChild(img);
+
+				document.getElementById("screenshot").scrollIntoView(true);
+
+			} else if(id == "takeScreenshot2") {
+				document.getElementById("screenshot").classList.add("hide");
+				document.getElementById("screenshot").innerHTML = "";
+
+				var link = document.createElement('a');
+				link.href = canvas.toDataURL("image/png");
+				link.download = "SyncPairsTracker.png";
+
+				document.body.appendChild(link);
+				link.click();
+				document.body.removeChild(link);
+			}
+
 			document.getElementById("counter").classList.remove("forScreenshot");
 			document.getElementById("syncPairs").classList.add("forScreenshot");
 			document.getElementById("linkTool").classList.add("hide");
@@ -1000,8 +1018,6 @@ function takeScreenshot() {
 
 			document.getElementById("image_rotate").classList.add("hide");
 			document.getElementById("image_done").classList.remove("hide");
-
-			document.getElementById("screenshot").scrollIntoView(true);
 	});
 }
 
@@ -1142,7 +1158,8 @@ document.getElementById("exportSelection").addEventListener("click", exportSelec
 
 document.getElementById("importSelection").addEventListener("click", importSelection);
 
-document.getElementById("takeScreenshot").addEventListener("click", takeScreenshot);
+document.getElementById("takeScreenshot").addEventListener("click", function() { takeScreenshot(this.id); });
+document.getElementById("takeScreenshot2").addEventListener("click", function() { takeScreenshot(this.id); });
 
 document.getElementById("lockMode").addEventListener("click", lockMode);
 document.getElementById("viewMode").addEventListener("click", viewMode);
