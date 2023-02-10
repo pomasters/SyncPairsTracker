@@ -54,6 +54,14 @@
 	display: block !important;
 }
 
+.syncImages:hover img:first-child {
+	display: none !important;
+}
+
+.syncImages:hover img:last-child {
+	display: block !important;
+}
+
 .syncPair:hover > .syncInfos {
 	display: flex !important;
 	flex-wrap: wrap !important;

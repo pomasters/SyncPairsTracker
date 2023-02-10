@@ -694,7 +694,7 @@ function visibility() {
 
 		"syncFavsVisible" : `#buttonsFav, .syncFav { display: none !important; }\n`,
 
-		"syncInfosVisible" : `.selected:hover > .syncInfos { display: none; }\n`,
+		"syncInfosVisible" : `.syncPair:hover > .syncInfos { display: none !important; }\n`,
 
 		"fullWidthVisible" : `#main { width: 100%; } #rightSide { margin-left: 25%; width: 100%; }
 								@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }
