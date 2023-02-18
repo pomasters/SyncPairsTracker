@@ -7340,7 +7340,10 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0006",
 		"pokemonName": "Charizard",
 		"pokemonGender": "♂",
-		"pokemonForm": [],
+		"pokemonForm": [
+			"Dynamax",
+			"Gigantamax"
+		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Special Strike",
@@ -9066,7 +9069,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"Dynamax",
 			"isMan",
 			"Weather",
 			"Rebuff"
@@ -9102,7 +9104,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"Dynamax",
 			"isWoman"
 		]
 	},
@@ -9134,7 +9135,6 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Dynamax",
 			"isMan",
 			"Limited Sync Pair Scout",
 			"Poké Fair",
@@ -9297,6 +9297,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Snorlax",
 		"pokemonGender": "♂",
 		"pokemonForm": [
+			"Dynamax",
 			"Gigantamax"
 		],
 		"pokemonType": "Normal",
@@ -9315,7 +9316,6 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Dynamax",
 			"isWoman",
 			"Limited Sync Pair Scout",
 			"Poké Fair"
@@ -9373,7 +9373,6 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Buddy Move",
-			"Dynamax",
 			"Event",
 			"Limited Event",
 			"isMan",
