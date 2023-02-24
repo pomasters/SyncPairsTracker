@@ -449,7 +449,9 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-03a_LtSurge_4Star.png",
-			"Sync Pairs/5Star/0A_KANTO_0B-03a_LtSurge_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0B-03a_LtSurge_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge_EX.png"
+
 		],
 		"themes": [
 			"Electric",
@@ -6704,7 +6706,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Rebuff"
 		]
 	},
 	{
@@ -6774,6 +6777,39 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary"
+		]
+	},
+	{
+		"dexNumber": "111",
+		"trainerName": "Gloria",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0811",
+		"pokemonName": "Thwackey",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-03-01",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_TL_Gloria.png",
+			"Sync Pairs/5Star/0H_GALAR_0A-02_TL_Gloria_5Star.png"
+		],
+		"themes": [
+			"Grass",
+			"Galar",
+			"Main Character",
+			"Cook",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"Trainer Lodge",
+			"Starter"
 		]
 	},
 	{
@@ -7569,6 +7605,43 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Limited Sync Pair Scout",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "119",
+		"trainerName": "Marnie",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0146",
+		"pokemonName": "Moltres",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Regional Form",
+			"Galarian Form"
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Special Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-02-28",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_NeoChampMarnie.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_NeoChampMarnie_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Galar",
+			"Champion",
+			"Pigtails",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"Buddy Move",
+			"isWoman",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Multiple Units",
+			"Legendary"
 		]
 	},
 	{
@@ -8531,7 +8604,46 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary Adventures",
-			"isMan"
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "141",
+		"trainerName": "Hop",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0145",
+		"pokemonName": "Zapdos",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Regional Form",
+			"Galarian Form"
+		],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-03-02",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_NeoChampHop.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_NeoChampHop_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Galar",
+			"Champion",
+			"Cape",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Multiple Units",
+			"Wish Zone",
+			"Legendary"
 		]
 	},
 	{
@@ -8884,7 +8996,45 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"isMan",
 			"Weather",
-			"Terrain"
+			"Terrain",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "149",
+		"trainerName": "Bede",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0144",
+		"pokemonName": "Articuno",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Regional Form",
+			"Galarian Form"
+		],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-03-04",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_NeoChampBede.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_NeoChampBede_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Galar",
+			"Champion",
+			"Scarf",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"Buddy Move",
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Multiple Units",
+			"Legendary"
 		]
 	},
 	{
@@ -9350,6 +9500,34 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair"
 		]
+	},
+	{
+		"dexNumber": "165",
+		"trainerName": "Ball Guy",
+		"trainerAlt": "",
+		"pokemonNumber": "0591",
+		"pokemonName": "Amoonguss",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-03-21",
+		"syncPairRegion": "8Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_BallGuy.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_BallGuy_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Galar"
+		],
+		"tags": [
+			"isMan",
+			"Limited Sync Pair Scout",
+			"Variety"
+		]
 	}
 	/*,
 	{
@@ -9398,11 +9576,12 @@ export const SYNCPAIRS = [
 			"Fall",
 			"Holiday",
 			"Variety",
-			"Rebuff"
+			"Rebuff",
+			"Starter"
 		]
 	}
 	*/
 ]
 
 
-export const VERSION = "v2.29.0";
+export const VERSION = "v2.30.0";
