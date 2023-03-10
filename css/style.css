@@ -454,7 +454,7 @@ input:focus { outline: 0; }
 	color: #fff;
 	text-align: center;
 	border-radius: 3px;
-	padding: 0 4px;
+	padding: 2px 4px;
 	position: absolute;
 	z-index: 10;
 	bottom: 150%;

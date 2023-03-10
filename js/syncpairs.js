@@ -781,7 +781,9 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -1165,7 +1167,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -3510,7 +3514,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Poké Fair",
 			"Mythical",
-			"Rebuff"
+			"Rebuff",
+			"Grid5"
 		]
 	},
 	{
@@ -3645,7 +3650,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Poké Fair",
-			"Mythical"
+			"Mythical",
+			"Grid5"
 		]
 	},
 	{
@@ -3676,7 +3682,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -3969,7 +3977,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4289,7 +4299,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4321,7 +4333,10 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Grid3",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4386,7 +4401,10 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Limited Sync Pair Scout",
-			"Weather"
+			"Weather",
+			"Grid3",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5025,7 +5043,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5242,7 +5262,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Weather",
-			"Legendary"
+			"Legendary",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5306,7 +5328,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5344,7 +5368,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Wish Zone",
 			"Shiny",
-			"Rebuff"
+			"Rebuff",
+			"Grid5"
 		]
 	},
 	{
@@ -6090,7 +6115,9 @@ export const SYNCPAIRS = [
 			"Legendary Adventures",
 			"Multiple Units",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6606,7 +6633,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isMan"
+			"isMan",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6703,7 +6732,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"Rebuff"
+			"Rebuff",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6838,7 +6869,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Limited Sync Pair Scout",
-			"Legendary"
+			"Legendary",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6970,7 +7003,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Poké Fair",
-			"Legendary"
+			"Legendary",
+			"Grid5"
 		]
 	},
 	{
@@ -7076,7 +7110,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
-			"Legendary"
+			"Legendary",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7237,7 +7273,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"isMan",
 			"Legendary",
-			"Multiple Units"
+			"Multiple Units",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7271,7 +7309,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Poké Fair",
-			"Mythical"
+			"Mythical",
+			"Grid5"
 		]
 	},
 	{
@@ -7303,7 +7342,9 @@ export const SYNCPAIRS = [
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7503,7 +7544,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"Limited Sync Pair Scout",
-			"isWoman"
+			"isWoman",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7671,7 +7714,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7744,7 +7789,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Wish Zone",
 			"Mythical",
-			"Shiny"
+			"Shiny",
+			"Grid5"
 		]
 	},
 	{
@@ -7845,7 +7891,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Limited Sync Pair Scout",
-			"Weather"
+			"Weather",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7880,7 +7928,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7943,7 +7993,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary Adventures",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -8993,7 +9045,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Terrain",
-			"Multiple Units"
+			"Multiple Units",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -9284,7 +9338,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"Starter"
+			"Starter",
+			"Grid5"
 		]
 	},
 	{
@@ -9464,7 +9519,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Limited Sync Pair Scout",
-			"Poké Fair"
+			"Poké Fair",
+			"Grid5"
 		]
 	},
 	{
@@ -9494,7 +9550,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"isWoman",
 			"Limited Sync Pair Scout",
-			"Poké Fair"
+			"Poké Fair",
+			"Grid5"
 		]
 	},
 	{
