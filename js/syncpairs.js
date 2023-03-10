@@ -183,6 +183,7 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"Legendary"
@@ -4101,6 +4102,7 @@ export const SYNCPAIRS = [
 			"Complicated Family"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isMan",
@@ -4604,6 +4606,7 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isWoman",
@@ -5258,6 +5261,7 @@ export const SYNCPAIRS = [
 			"Complicated Family"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
@@ -6112,6 +6116,7 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isMan",
@@ -7339,6 +7344,7 @@ export const SYNCPAIRS = [
 			"Old Colleagues"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
@@ -7991,6 +7997,7 @@ export const SYNCPAIRS = [
 			"Cape"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Legendary",
@@ -8651,6 +8658,7 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
+			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units"
