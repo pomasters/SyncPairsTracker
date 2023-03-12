@@ -774,7 +774,7 @@ function dateInterval() {
 			if(date1 <= datePair && datePair <= date2) {
 				syncPairs[i].classList.add("found");
 			} else {
-				syncPair.classList.remove("found");
+				syncPairs[i].classList.remove("found");
 				syncPairs[i].classList.add("notFound");
 			}
 		} else {
