@@ -950,8 +950,10 @@ function viewMode() {
 
 	document.getElementById("selectionBtns").classList.remove("btnBlue");
 	document.getElementById("increaseBtns").classList.remove("btnBlue");
+	document.getElementById("exportImportBtns").classList.remove("btnBlue");
 	document.getElementById("increaseOptions").classList.add("hide");
 	document.getElementById("selectionOptions").classList.add("hide");
+	document.getElementById("exportImportDiv").classList.add("hide");
 
 	sortable.options.disabled = true;
 	document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/off.png">`

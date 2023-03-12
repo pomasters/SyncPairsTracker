@@ -10,7 +10,8 @@
 #editOrderMode,
 #sortByCustom,
 #exportSelection,
-#importSelection {
+#importSelection,
+#exportImportBtns {
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
@@ -20,7 +21,7 @@
 
 #selectionOptions,
 #increaseOptions,
-#exportImportZone { display: none; }
+#exportImportDiv { display: none; }
 
 #viewMode {
 	border: 2px solid #7a7710 !important;
