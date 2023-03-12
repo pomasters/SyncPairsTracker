@@ -237,16 +237,36 @@ input:focus { outline: 0; }
 	display: none;
 }
 
+#exportImportDiv {
+	background-color: rgb(72 137 154 / 30%);
+	border-radius: 5px;
+	padding: 10px 5px;
+	margin: 12px 4.4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#exportImportOptions {
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 2.5%;
+}
+
+#exportImportOptions .btn {
+ 	width: 49% !important;
+}
+
 #exportImportZone {
 	width: 95%;
 	resize: vertical;
 	margin: auto;
-	margin-top: 20px;
 	border-radius: 2px;
 	min-height: 50px;
 	height: 100px;
 	max-height: 250px;
 	outline: none;
+	margin: 2%;
 }
 
 #takeScreenshot {
@@ -378,7 +398,8 @@ input:focus { outline: 0; }
 
 #selectionBtns[class="btn btnBlue"] ~ #increaseBtns[class="btn btnBlue"] ~ #selectionOptions,
 #selectionBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #selectionOptions,
-#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #increaseOptions {
+#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #increaseOptions,
+#exportImportBtns[class="btn btnBlue"] ~ #showSorting[class="btn btnBlue"] ~ #exportImportDiv {
 	margin-top: 12px;
 	margin-bottom: 0px;
 	padding-bottom: 6px;
@@ -387,7 +408,8 @@ input:focus { outline: 0; }
 }
 #selectionBtns[class="btn btnBlue"] ~ #increaseBtns[class="btn btnBlue"] ~ #increaseOptions,
 #selectionBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #visibilityOptions,
-#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #visibilityOptions {
+#increaseBtns[class="btn btnBlue"] ~ #visibilityBtns[class="btn btnBlue"] ~ #visibilityOptions,
+#exportImportBtns[class="btn btnBlue"] ~ #showSorting[class="btn btnBlue"] ~ #sorting {
 	margin-top: 0px;
 	margin-bottom: 12px;
 	padding-top: 6px;
@@ -428,23 +450,20 @@ input:focus { outline: 0; }
 
 #sorting {
 	display: none;
-	position: sticky;
-	top: 128px;
 	z-index: 2;
 	background-attachment: fixed;
 	margin-top: 40px;
 	background-color: rgb(72 137 154 / 30%);
-    border-radius: 5px;
-    padding: 10px 0;
-    padding-bottom: 15px;
-    margin: auto 4.4%;
-    margin-top: 16px;
-    margin-bottom: 3px;
+	border-radius: 5px;
+	padding: 10px 0;
+	padding-bottom: 15px;
+	margin: 12px 4.4%;
 }
 
 .sortingVisible {
 	display: block !important;
 }
+
 
 /*https://www.w3schools.com/css/css_tooltip.asp*/
 .tooltiptext {
@@ -474,6 +493,7 @@ input:focus { outline: 0; }
 	border-style: solid;
 	border-color: black transparent transparent transparent;
 }
+.btn:has(.tooltiptext) { overflow:visible !important; }
 .btn:hover .tooltiptext { visibility: visible; }
 
 #filters .btn,
@@ -497,6 +517,7 @@ input:focus { outline: 0; }
 	text-align: left;
 	position: relative;
 	white-space: nowrap;
+	overflow: hidden;
 }
 .width45 { width: 45.5%; }
 
@@ -559,6 +580,7 @@ input:focus { outline: 0; }
 #increaseBtns:active,
 #visibilityBtns:active,
 #showSorting:active,
+#exportImportBtns:active,
 #sorting .btn:active,
 .btnBlue {
 	background: linear-gradient(#9ed2ff, #819cff) !important;
@@ -755,7 +777,7 @@ input:focus { outline: 0; }
 	padding: 2px 10px;
 	border-radius: 5px;
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
 
 #filtersUsed span:empty {

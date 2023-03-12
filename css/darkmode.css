@@ -75,6 +75,7 @@ body {
 #selectionOptions,
 #increaseOptions,
 #visibilityOptions,
+#exportImportDiv,
 #sorting {
 	background-color: rgb(54 70 86 / 60%);
 }

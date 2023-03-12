@@ -77,17 +77,21 @@
 						</div>
 					</div>
 
-					<button type="button" class="btn smallerText" id="exportSelection">Export / Save</button>
-					<button type="button" class="btn smallerText" id="importSelection">Import / Load</button>
+					<button type="button" class="btn" id="exportImportBtns">Backup<img class="extendedIcon" src="images/bottomArrow.png"></button>
+					<button type="button" class="btn" id="showSorting">Sort by...<img class="extendedIcon" src="images/bottomArrow.png"></button>
+
 					<button type="button" class="btn" id="takeScreenshot">Image
 						<img id="image_rotate" class="hide" src="images/icon_rotate.png">
 						<img id="image_done" class="hide" src="images/icon_done.png"></button>
 					<button type="button" class="btn" id="takeScreenshot2">↓</button>
-					<button type="button" class="btn" id="lockMode">&nbsp;</button>
-					<button type="button" class="btn" id="viewMode">&nbsp;</button>
-					<button type="button" class="btn" id="showSorting">Sort by...<img class="extendedIcon" src="images/bottomArrow.png"></button>
-					<button type="button" class="btn" id="removeFilters">× filters</button>
-					<textarea spellcheck="false" id="exportImportZone" class="hide" placeholder="Paste a code to import or leave this empty to load the saved backup."></textarea>
+
+					<div id="exportImportDiv" class="hide">
+						<div id="exportImportOptions">
+							<button type="button" class="btn" id="exportSelection">Export / Save</button>
+							<button type="button" class="btn" id="importSelection">Import / Load</button>
+						</div>
+						<textarea spellcheck="false" id="exportImportZone" placeholder="Paste a code to import or leave this empty to load the saved backup."></textarea>
+					</div>
 
 					<div id="sorting">
 						<button type="button" class="btn btnBlue" data-asc="false" id="sortByDexNumber">Dex #</button>
@@ -107,6 +111,11 @@
 							<button type="button" class="btn editOrderBtn" data-asc="true" id="sortByCustom">Custom order</button>
 						</div>
 					</div>
+
+					<button type="button" class="btn" id="lockMode">&nbsp;</button>
+					<button type="button" class="btn" id="viewMode">&nbsp;</button>
+					<button type="button" class="btn" id="filterMode">Mode : AND<span class="tooltiptext">Needs to match all filters</span></button>
+					<button type="button" class="btn" id="removeFilters">× filters</button>
 				</div>
 
 				<div id="filters">
@@ -288,7 +297,7 @@
 				</div>
 
 				<p id="credits">Made by <a href="https://www.reddit.com/user/Xtraterrestre/" target="_blank">u/Xtraterrestre</a>
-					<br>Credit to <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a> for making all the Sync Pairs tiles</p>
+					<br>Credit to <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a> for the Sync Pairs tiles<br>and suggestions for improving the tool</p>
 
 				<div id="btnDarkMode" title="Darkmode"></div>
 			</div>
