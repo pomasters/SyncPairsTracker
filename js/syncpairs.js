@@ -3187,7 +3187,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Starter"
+			"Starter",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
