@@ -6155,7 +6155,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"Mythical"
 		]
 	},
 	{
