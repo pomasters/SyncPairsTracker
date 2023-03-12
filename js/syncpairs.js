@@ -3179,7 +3179,9 @@ export const SYNCPAIRS = [
 			"Kanto",
 			"Rival",
 			"Sygna Suit",
-			"Pallet Town"
+			"Pallet Town",
+			"Grid3",
+			"GridExpansion"
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
