@@ -2067,7 +2067,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -3585,7 +3584,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -5140,7 +5138,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isMan",
 			"Ultra Beast"
@@ -5439,7 +5436,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Ultra Beast"
@@ -6384,7 +6380,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone"
@@ -7758,7 +7753,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -8385,7 +8379,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isMan",
 			"Wish Zone"
@@ -8450,7 +8443,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isMan"
 		]
@@ -8862,7 +8854,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
-			"Seasonal",
 			"Multiple Units",
 			"isWoman",
 			"Shiny"
