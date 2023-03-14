@@ -3912,7 +3912,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"Multiple Units"
 		]
 	},
 	{
