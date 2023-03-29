@@ -483,7 +483,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png",
-			"Sync Pairs/5Star/0A_KANTO_0B-03b_LtSurge_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0B-03b_LtSurge_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -578,7 +579,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png",
-			"Sync Pairs/5Star/0A_KANTO_0B-04b_Erika_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0B-04b_Erika_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -685,7 +687,40 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "007",
+		"trainerName": "Lorelei",
+		"trainerAlt": "Variety",
+		"pokemonNumber": "0091",
+		"pokemonName": "Cloyster",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-20",
+		"syncPairRegion": "1Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01b_Lorelei.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01b_Lorelei_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Kanto",
+			"Elite Four",
+			"Glasses",
+			"Grown Woman"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"isWoman",
+			"Variety"
 		]
 	},
 	{
@@ -715,7 +750,40 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isMan"
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "008",
+		"trainerName": "Bruno",
+		"trainerAlt": "Variety",
+		"pokemonNumber": "0095",
+		"pokemonName": "Onix",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-22",
+		"syncPairRegion": "1Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02b_Bruno.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02b_Bruno_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Kanto",
+			"Elite Four",
+			"Body Builder",
+			"Sweet Tooth"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"isMan",
+			"Variety"
 		]
 	},
 	{
@@ -836,7 +904,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-11-21",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -903,7 +972,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png",
-			"Sync Pairs/5Star/0B_JOHTO_0B-02-EP_Bugsy_5Star.png"
+			"Sync Pairs/5Star/0B_JOHTO_0B-02-EP_Bugsy_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -1096,7 +1166,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png",
-			"Sync Pairs/5Star/0A_KANTO_0B-05_BP_Janine_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0B-05_BP_Janine_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -1189,7 +1260,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png",
-			"Sync Pairs/5Star/0B_JOHTO_0C-04-BP_Karen_5Star.png"
+			"Sync Pairs/5Star/0B_JOHTO_0C-04-BP_Karen_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -1292,7 +1364,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-01_Roxanne_4Star.png",
-			"Sync Pairs/5Star/0C_HOENN_0B-01_Roxanne_5Star.png"
+			"Sync Pairs/5Star/0C_HOENN_0B-01_Roxanne_5Star.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -1801,7 +1874,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png",
-			"Sync Pairs/5Star/0D_SINNOH_0B-07_BP_Candice_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0B-07_BP_Candice_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -2022,8 +2096,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_BP_Rosa.png",
-			"Sync Pairs/5Star/0E_UNOVA_0A-06_BP_Rosa_5Star.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_TL_Rosa.png",
+			"Sync Pairs/5Star/0E_UNOVA_0A-06_TL_Rosa_5Star.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_TL_Rosa_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -2793,7 +2868,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "7Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png",
-			"Sync Pairs/5Star/0G_ALOLA_0B-05_BP_Sophocles_5Star.png"
+			"Sync Pairs/5Star/0G_ALOLA_0B-05_BP_Sophocles_5Star.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -3272,8 +3348,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "1Kanto",
 		"images": [
-			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BP_Blue.png",
-			"Sync Pairs/5Star/0A_KANTO_0A-02_BP_Blue_5Star.png"
+			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_TL_Blue.png",
+			"Sync Pairs/5Star/0A_KANTO_0A-02_TL_Blue_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_TL_Blue_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -3404,7 +3481,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-11-21",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra_EX.png",
 		],
 		"themes": [
 			"Water",
@@ -3419,6 +3497,40 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Weather",
 			"Variety"
+		]
+	},
+	{
+		"dexNumber": "066",
+		"trainerName": "Lyra",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0231",
+		"pokemonName": "Phanpy",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-15",
+		"syncPairRegion": "2Johto",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Lyra.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Lyra_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Johto",
+			"Special Costume",
+			"Pigtails",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Seasonal",
+			"Multiple Units",
+			"isWoman",
+			"Special Costume",
+			"Rebuff"
 		]
 	},
 	{
@@ -3770,7 +3882,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "5Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_TL_Elesa.png",
-			"Sync Pairs/5Star/0E_UNOVA_0B-04_TL_Elesa_5Star.png"
+			"Sync Pairs/5Star/0E_UNOVA_0B-04_TL_Elesa_5Star.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_TL_Elesa_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -4495,8 +4608,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_BP_Cynthia.png",
-			"Sync Pairs/5Star/0D_SINNOH_0C-05_BP_Cynthia_5Star.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_TL_Cynthia.png",
+			"Sync Pairs/5Star/0D_SINNOH_0C-05_TL_Cynthia_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_TL_Cynthia_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -4630,7 +4744,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "3Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png",
-			"Sync Pairs/5Star/0C_HOENN_0E-04-BP_Zinnia_5Star.png"
+			"Sync Pairs/5Star/0C_HOENN_0E-04-BP_Zinnia_5Star.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -4642,6 +4757,41 @@ export const SYNCPAIRS = [
 			"Battle Points",
 			"Multiple Units",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "080",
+		"trainerName": "Zinnia",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0828",
+		"pokemonName": "Thievul",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-13",
+		"syncPairRegion": "3Hoenn",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Zinnia.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Zinnia_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Hoenn",
+			"Special Costume",
+			"Cape",
+			"Space Cadet"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Seasonal",
+			"Multiple Units",
+			"isWoman",
+			"Special Costume",
+			"Rebuff"
 		]
 	},
 	{
@@ -4785,6 +4935,75 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Terrain",
 			"Mythical"
+		]
+	},
+	{
+		"dexNumber": "081",
+		"trainerName": "Steven",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0508",
+		"pokemonName": "Stoutland",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-03-31",
+		"syncPairRegion": "3Hoenn",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Steven.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Steven_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Hoenn",
+			"Special Costume",
+			"Rock Lover",
+			"Space Cadet"
+		],
+		"tags": [
+			"Shiny",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Seasonal",
+			"Multiple Units",
+			"isMan",
+			"Special Costume",
+			"Rebuff"
+		]
+	},
+	{
+		"dexNumber": "081",
+		"trainerName": "Steven",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0346",
+		"pokemonName": "Cradily",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-03-31",
+		"syncPairRegion": "3Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_TL_Steven.png",
+			"Sync Pairs/5Star/0C_HOENN_0C-05_TL_Steven_5Star.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_TL_Steven_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Hoenn",
+			"Champion",
+			"Rock Lover",
+			"Space Cadet"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Trainer Lodge",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -5190,7 +5409,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png",
-			"Sync Pairs/5Star/0F_KALOS_0B-05_BP_Clemont_5Star.png"
+			"Sync Pairs/5Star/0F_KALOS_0B-05_BP_Clemont_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -5286,8 +5506,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_BP_Silver.png",
-			"Sync Pairs/5Star/0B_JOHTO_0A-04_BP_Silver_5Star.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_TL_Silver.png",
+			"Sync Pairs/5Star/0B_JOHTO_0A-04_TL_Silver_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_TL_Silver_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -5627,7 +5848,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "4Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_TL_Dawn.png",
-			"Sync Pairs/5Star/0D_SINNOH_0A-02_TL_Dawn_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0A-02_TL_Dawn_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_TL_Dawn_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -5855,7 +6077,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "6Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_TL_Serena.png",
-			"Sync Pairs/5Star/0F_KALOS_0A-02_TL_Serena_5Star.png"
+			"Sync Pairs/5Star/0F_KALOS_0A-02_TL_Serena_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_TL_Serena_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -5976,7 +6199,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png",
-			"Sync Pairs/5Star/0B_JOHTO_0B-04-BP_Morty_5Star.png"
+			"Sync Pairs/5Star/0B_JOHTO_0B-04-BP_Morty_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6075,7 +6299,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "2Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_TL_Morty.png",
-			"Sync Pairs/5Star/0B_JOHTO_0B-04_TL_Morty_5Star.png"
+			"Sync Pairs/5Star/0B_JOHTO_0B-04_TL_Morty_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_TL_Morty_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6400,8 +6625,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_BP_Lillie.png",
-			"Sync Pairs/5Star/0G_ALOLA_0A-04_BP_Lillie_5Star.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_TL_Lillie.png",
+			"Sync Pairs/5Star/0G_ALOLA_0A-04_TL_Lillie_5Star.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_TL_Lillie_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -6826,7 +7052,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_TL_Gloria.png",
-			"Sync Pairs/5Star/0H_GALAR_0A-02_TL_Gloria_5Star.png"
+			"Sync Pairs/5Star/0H_GALAR_0A-02_TL_Gloria_5Star.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_TL_Gloria_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -6957,8 +7184,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "5Unova",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_BP_N.png",
-			"Sync Pairs/5Star/0E_UNOVA_0E-03_BP_N_5Star.png"
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_TL_N.png",
+			"Sync Pairs/5Star/0E_UNOVA_0E-03_TL_N_5Star.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_TL_N_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -7169,8 +7397,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "3Hoenn",
 		"images": [
-			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_BP_May.png",
-			"Sync Pairs/5Star/0C_HOENN_0A-02_BP_May_5Star.png"
+			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_TL_May.png",
+			"Sync Pairs/5Star/0C_HOENN_0A-02_TL_May_5Star.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_TL_May_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -7367,8 +7596,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "6Kalos",
 		"images": [
-			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_BP_ProfSycamore.png",
-			"Sync Pairs/5Star/0F_KALOS_0F-01_BP_ProfSycamore_5Star.png"
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_TL_ProfSycamore.png",
+			"Sync Pairs/5Star/0F_KALOS_0F-01_TL_ProfSycamore_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_TL_ProfSycamore_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -7634,8 +7864,9 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-08-25",
 		"syncPairRegion": "8Galar",
 		"images": [
-			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_BP_Marnie.png",
-			"Sync Pairs/5Star/0H_GALAR_0A-04_BP_Marnie_5Star.png"
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_TL_Marnie.png",
+			"Sync Pairs/5Star/0H_GALAR_0A-04_TL_Marnie_5Star.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_TL_Marnie_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -7953,7 +8184,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "8Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan.png",
-			"Sync Pairs/5Star/0H_GALAR_0B-08_TL_Raihan_5Star.png"
+			"Sync Pairs/5Star/0H_GALAR_0B-08_TL_Raihan_5Star.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -8908,7 +9140,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-11-21",
 		"syncPairRegion": "4Sinnoh",
 		"images": [
-			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png"
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -9490,7 +9723,40 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Gen Pool",
-			"Starter"
+			"Starter",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "162",
+		"trainerName": "Shauna",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0707",
+		"pokemonName": "Klefki",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-02",
+		"syncPairRegion": "6Kalos",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Shauna.png",
+			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Shauna_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Kalos",
+			"Special Costume",
+			"Pigtails"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Seasonal",
+			"Multiple Units",
+			"isWoman",
+			"Special Costume",
 		]
 	},
 	{
@@ -9645,4 +9911,4 @@ export const SYNCPAIRS = [
 ]
 
 
-export const VERSION = "v2.30.0";
+export const VERSION = "v2.31.0";
