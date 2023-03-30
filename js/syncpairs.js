@@ -3958,7 +3958,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4825,7 +4827,9 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
