@@ -136,7 +136,7 @@ function generatePairsHTML(pairs) {
 
 		for(var i=0; i<imgs.length; i++) {
 			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
-			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}">`	}
+			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}" data-html2canvas-ignore="true">`	}
 		}
 		return im;
 	}
@@ -233,9 +233,13 @@ function swapImages(imagesContainer, step) {
 		nextImageNumber = images.length-1;
 	}
 
-	images.forEach(i => i.removeAttribute("class"));
+	images.forEach(function(i) {
+		i.removeAttribute("class");
+		i.setAttribute("data-html2canvas-ignore", "true");
+	});
 
 	images[nextImageNumber].classList.add("currentImage");
+	images[nextImageNumber].removeAttribute("data-html2canvas-ignore");
 
 	imagesContainer.dataset.currentimage = nextImageNumber;
 
@@ -1016,9 +1020,6 @@ function takeScreenshot(id) {
 		document.getElementById("counterTotal").classList.add("hide");
 	}
 
-	var notVisibleImgs = Array.from(document.querySelectorAll(".syncImages img:not(.currentImage)"));
-	notVisibleImgs.forEach(i => i.setAttribute("data-html2canvas-ignore", "true"));
-
 	html2canvas(document.getElementById('rightSide'),{
 			backgroundColor:null,
 			windowWidth:1920,
@@ -1058,7 +1059,6 @@ function takeScreenshot(id) {
 			document.getElementById("counterTotal").classList.remove("hide");
 
 			document.getElementById("leftSide").classList.remove("leftSideVisible");
-			notVisibleImgs.forEach(i => i.removeAttribute("data-html2canvas-ignore"));
 
 			document.getElementById("image_rotate").classList.add("hide");
 			document.getElementById("image_done").classList.remove("hide");
