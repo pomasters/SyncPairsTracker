@@ -136,6 +136,39 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0018",
+		"pokemonName": "Pidgeot",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Pidgey",
+			"Pidgeotto"
+		],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-04-08",
+		"syncPairRegion": "0Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0018_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0018_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0018_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0018_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0018_03sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0018_03sa.png"
+		],
+		"themes": [
+			"Flying",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0020",
 		"pokemonName": "Raticate",
 		"pokemonGender": "",
@@ -317,6 +350,39 @@ export const EGGS = [
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0031_02sa.png",
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0031_03b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0031_03a.png"
+		],
+		"themes": [
+			"Poison",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0034",
+		"pokemonName": "Nidoking",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Nidoran♂",
+			"Nidorino"
+		],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-04-08",
+		"syncPairRegion": "0Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0034_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0034_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0034_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0034_02sa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0034_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0034_03a.png"
 		],
 		"themes": [
 			"Poison",
