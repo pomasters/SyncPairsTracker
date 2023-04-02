@@ -1022,30 +1022,38 @@ function takeScreenshot(id) {
 			windowHeight:1080
 		}).then(canvas => {
 
-			if(id == "takeScreenshot") {
-				document.getElementById("screenshot").classList.remove("hide");
-				document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
+			canvas.toBlob((blob) => {
 
-				var img = document.createElement('img');
-				img.src = canvas.toDataURL("image/png");
-				img.setAttribute("draggable", "false");
+				if(id == "takeScreenshot") {
+					document.getElementById("screenshot").classList.remove("hide");
+					document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
+				
+					var url = URL.createObjectURL(blob);
+					var img = document.createElement('img');
 
-				document.getElementById("screenshot").appendChild(img);
+					img.onload = () => { URL.revokeObjectURL(url); };
+					img.src = url;
+					img.setAttribute("draggable", "false");
 
-				document.getElementById("screenshot").scrollIntoView(true);
+					document.getElementById("screenshot").appendChild(img);
+					document.getElementById("screenshot").scrollIntoView(true);
 
-			} else if(id == "takeScreenshot2") {
-				document.getElementById("screenshot").classList.add("hide");
-				document.getElementById("screenshot").innerHTML = "";
+				} else if(id == "takeScreenshot2") {
+					document.getElementById("screenshot").classList.add("hide");
+					document.getElementById("screenshot").innerHTML = "";
+					
+					var url = URL.createObjectURL(blob);
+					var link = document.createElement('a');
 
-				var link = document.createElement('a');
-				link.href = canvas.toDataURL("image/png");
-				link.download = "SyncPairsTracker.png";
+					link.onload = () => { URL.revokeObjectURL(url); };
+					link.href = url;
+					link.download = "SyncPairsTracker.png";
 
-				document.body.appendChild(link);
-				link.click();
-				document.body.removeChild(link);
-			}
+					document.body.appendChild(link);
+					link.click();
+					document.body.removeChild(link);
+				}
+			});
 
 			document.getElementById("counter").classList.remove("forScreenshot");
 			document.getElementById("syncPairs").classList.add("forScreenshot");
