@@ -135,8 +135,8 @@ function generatePairsHTML(pairs) {
 		if(imgs.length == 0) return `<img draggable="false" loading="lazy" src="images/empty.png" class="currentImage">`
 
 		for(var i=0; i<imgs.length; i++) {
-			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i].replace("Sync Pairs/","Sync Pairs/1rst April/")}" class="currentImage">`
-			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i].replace("Sync Pairs/","Sync Pairs/1rst April/")}">` }
+			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
+			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}">` }
 		}
 		return im;
 	}
