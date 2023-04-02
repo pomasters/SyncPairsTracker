@@ -136,7 +136,7 @@ function generatePairsHTML(pairs) {
 
 		for(var i=0; i<imgs.length; i++) {
 			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i].replace("Sync Pairs/","Sync Pairs/1rst April/")}" class="currentImage">`
-			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i].replace("Sync Pairs/","Sync Pairs/1rst April/")}" data-html2canvas-ignore="true">`	}
+			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i].replace("Sync Pairs/","Sync Pairs/1rst April/")}">` }
 		}
 		return im;
 	}
@@ -233,13 +233,9 @@ function swapImages(imagesContainer, step) {
 		nextImageNumber = images.length-1;
 	}
 
-	images.forEach(function(i) {
-		i.removeAttribute("class");
-		i.setAttribute("data-html2canvas-ignore", "true");
-	});
+	images.forEach(i => i.removeAttribute("class"));
 
 	images[nextImageNumber].classList.add("currentImage");
-	images[nextImageNumber].removeAttribute("data-html2canvas-ignore");
 
 	imagesContainer.dataset.currentimage = nextImageNumber;
 
