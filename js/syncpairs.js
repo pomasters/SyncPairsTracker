@@ -176,7 +176,9 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "0Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Ca_Solgaleo.png",
-			"Sync Pairs/00_PASIO/00_PASIO_0Cb_Solgaleo.png"
+			"Sync Pairs/00_PASIO/00_PASIO_0Cb_Solgaleo.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0Ca_Solgaleo_EX.png",
+			"Sync Pairs/00_PASIO/00_PASIO_0Cb_Solgaleo_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -186,7 +188,9 @@ export const SYNCPAIRS = [
 			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -815,7 +819,39 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "009",
+		"trainerName": "Agatha",
+		"trainerAlt": "Variety",
+		"pokemonNumber": "0024",
+		"pokemonName": "Arbok",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-05-07",
+		"syncPairRegion": "1Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03b_Agatha.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03b_Agatha_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Kanto",
+			"Elite Four",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"isWoman",
+			"Variety"
 		]
 	},
 	{
@@ -2816,6 +2852,44 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "054",
+		"trainerName": "Hau",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0785",
+		"pokemonName": "Tapu Koko",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-28",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau_EX.png"
+		],
+		"themes": [
+			"Electric Tech",
+			"Alola Tech",
+			"Sygna Suit Tech",
+			"Free Spirit Tech",
+			"Passionate Spirit Tech"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Terrain",
+			"Wish Zone",
+			"Multiple Units",
 			"isMan"
 		]
 	},
@@ -2900,7 +2974,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png",
 			"Sync Pairs/4Star/0G_ALOLA_0B-07_Mina_4Star.png",
-			"Sync Pairs/5Star/0G_ALOLA_0B-07_Mina_5Star.png"
+			"Sync Pairs/5Star/0G_ALOLA_0B-07_Mina_5Star.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -2911,6 +2986,44 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "056",
+		"trainerName": "Mina",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0788",
+		"pokemonName": "Tapu Fini",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-04-30",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_ssMina.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_ssMina_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Alola",
+			"Trial Giver",
+			"Sygna Suit",
+			"Free Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Weather",
+			"Wish Zone",
+			"Multiple Units",
 			"isWoman"
 		]
 	},
@@ -3162,6 +3275,75 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "063",
+		"trainerName": "Acerola",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0354",
+		"pokemonName": "Banette",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-05-01",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_TL_Acerola.png",
+			"Sync Pairs/5Star/0G_ALOLA_0C-03_TL_Acerola_5Star.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_TL_Acerola_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Alola",
+			"Elite Four",
+			"Trial Giver",
+			"Fancy Lady"
+		],
+		"tags": [
+			"Trainer Lodge",
+			"Multiple Units",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "063",
+		"trainerName": "Acerola",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0787",
+		"pokemonName": "Tapu Bulu",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-05-12",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_ssAcerola.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_ssAcerola_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Alola",
+			"Trial Giver",
+			"Sygna Suit",
+			"Free Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Weather",
+			"Terrain",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -4319,7 +4501,9 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isMan",
-			"Starter"
+			"Starter",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4485,6 +4669,38 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"isMan"
+		]
+	},
+	{
+		"dexNumber": "077",
+		"trainerName": "Lance",
+		"trainerAlt": "Variety",
+		"pokemonNumber": "0148",
+		"pokemonName": "Dragonair",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-05-09",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Kanto",
+			"Champion",
+			"Cape"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Multiple Units",
+			"isMan",
+			"Variety",
+			"Rebuff"
 		]
 	},
 	{
@@ -8460,6 +8676,43 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "129",
+		"trainerName": "Lana",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0786",
+		"pokemonName": "Tapu Lele",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Physical Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-05-14",
+		"syncPairRegion": "7Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_ssLana.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_ssLana_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Alola",
+			"Trial Giver",
+			"Sygna Suit",
+			"Free Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Terrain",
+			"Multiple Units",
 			"isWoman"
 		]
 	},
@@ -9850,7 +10103,6 @@ export const SYNCPAIRS = [
 			"Galar"
 		],
 		"tags": [
-			"isMan",
 			"Limited Sync Pair Scout",
 			"Variety"
 		]
