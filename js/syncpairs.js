@@ -190,7 +190,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"ZMove"
 		]
 	},
 	{
@@ -2853,7 +2854,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Story",
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"ZMove"
 		]
 	},
 	{
@@ -2875,11 +2877,11 @@ export const SYNCPAIRS = [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau_EX.png"
 		],
 		"themes": [
-			"Electric Tech",
-			"Alola Tech",
-			"Sygna Suit Tech",
-			"Free Spirit Tech",
-			"Passionate Spirit Tech"
+			"Electric",
+			"Alola",
+			"Sygna Suit",
+			"Free Spirit",
+			"Passionate Spirit"
 		],
 		"tags": [
 			"Legendary",
@@ -2890,7 +2892,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Wish Zone",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -2921,7 +2924,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"ZMove"
 		]
 	},
 	{
@@ -2987,7 +2991,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"ZMove"
 		]
 	},
 	{
@@ -3024,7 +3029,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Wish Zone",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -3056,7 +3062,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -3088,7 +3095,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -3118,7 +3126,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -3181,7 +3190,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -3242,7 +3252,8 @@ export const SYNCPAIRS = [
 			"Story",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"ZMove"
 		]
 	},
 	{
@@ -3345,7 +3356,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Terrain",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -4566,7 +4578,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -4909,7 +4922,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isMan"
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -5517,7 +5531,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -6632,7 +6647,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Ultra Beast"
+			"Ultra Beast",
+			"ZMove"
 		]
 	},
 	{
@@ -6668,7 +6684,8 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"ZMove"
 		]
 	},
 	{
@@ -6985,7 +7002,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isMan"
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -7661,7 +7679,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"ZMove"
 		]
 	},
 	{
@@ -8313,7 +8332,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Starter"
+			"Starter",
+			"ZMove"
 		]
 	},
 	{
@@ -8677,7 +8697,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"ZMove"
 		]
 	},
 	{
@@ -8713,7 +8734,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Terrain",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -8745,7 +8767,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Gen Pool",
-			"isMan"
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -8806,7 +8829,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Starter"
+			"Starter",
+			"ZMove"
 		]
 	},
 	{
@@ -9669,7 +9693,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Master Fair",
 			"isMan",
-			"Buddy Move"
+			"Buddy Move",
+			"ZMove"
 		]
 	},
 	{
@@ -10167,4 +10192,4 @@ export const SYNCPAIRS = [
 ]
 
 
-export const VERSION = "v2.31.0";
+export const VERSION = "v2.32.0";
