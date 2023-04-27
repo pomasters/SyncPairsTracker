@@ -4697,7 +4697,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-09",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "1Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance_EX.png"
