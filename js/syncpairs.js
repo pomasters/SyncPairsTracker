@@ -4370,8 +4370,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2021-11-26",
 		"syncPairRegion": "7Alola",
 		"images": [
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_GrimsleyKimono.png",
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_GrimsleyKimono_EX.png"
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_GrimsleyKimono.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_GrimsleyKimono_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -4436,8 +4436,8 @@ export const SYNCPAIRS = [
 		"releaseDate": "2022-05-19",
 		"syncPairRegion": "2Johto",
 		"images": [
-			"Sync Pairs/0B_JOHTO/0A_KANTO_0D-01_SSGiovanni.png",
-			"Sync Pairs/0B_JOHTO/0A_KANTO_0D-01_SSGiovanni_EX.png"
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_SSGiovanni.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_SSGiovanni_EX.png"
 		],
 		"themes": [
 			"Ground",
