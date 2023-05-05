@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2023-05-05",
+		"info" : "Add in-game theme skills"
+	},
+	{
 		"date": "2023-04-25",
 		"info" : "Add v2.32.0"
 	},

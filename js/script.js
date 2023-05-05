@@ -1116,6 +1116,20 @@ function addEventButtonsSorting() {
 	}))
 }
 
+function addEventGroupBtns() {
+	Array.from(document.getElementsByClassName("buttonGroupTitle")).forEach(g => g.addEventListener("click", function() {
+			var parent = g.parentElement;
+			if(parent.id != "userBtns") {
+				parent.classList.toggle("groupClose");
+			}
+		})
+	)
+	Array.from(document.getElementsByClassName("buttonGroupTitle2")).forEach(g => g.addEventListener("click", function() {
+			g.parentElement.classList.toggle("groupClose");
+		})
+	)
+}
+
 /* add onerror event on all images and prevent from being draggable */
 function addEventBaseImages() {
 	Array.from(document.getElementsByTagName("img")).forEach(i => i.addEventListener("error", function() {
@@ -1489,6 +1503,8 @@ function init() {
 	addEventButtonsFilters();
 
 	addEventButtonsSorting();
+
+	addEventGroupBtns();
 }
 
 

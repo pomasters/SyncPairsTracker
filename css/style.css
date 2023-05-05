@@ -206,11 +206,6 @@ input:focus { outline: 0; }
 	border: 2px solid var(--blue2);
 }
 
-#dateBtns {
-	margin: 20px 0;
-	margin-bottom: 30px;
-}
-
 #date1, #date2 {
 	width: 36%;
 	padding: 0px 8px;
@@ -302,19 +297,42 @@ input:focus { outline: 0; }
 #image_rotate { animation: rotateAnim 1500ms linear infinite !important; }
 
 
-.buttonGroupTitle {
+.buttonGroup .extendedIcon, .buttonGroup2 .extendedIcon,
+.groupClose *:not(.buttonGroupTitle):not(.buttonGroupTitle2) {
+	display: none;
+}
+.groupClose .extendedIcon {
+	display: block !important;
+	top: 7px !important;
+}
+.buttonGroup2 .extendedIcon {
+	width: 7px !important;
+}
+
+.buttonGroupTitle, .buttonGroupTitle2 {
 	background-color: var(--blue2);
 	color: white;
 	margin: 8px auto;
-	margin-top: 16px;
+	margin-top: 24px;
 	padding: 0;
 	font-size: 14px;
 	line-height: 24px;
 	width: calc(92% - 32px);
 	position: relative;
 }
+.buttonGroupTitle2 {
+	background-color: var(--blue3);
+	margin-top: 12px;
+	font-size: 12px;
+	line-height: 20px;
+	width: calc(87% - 32px);
+}
 
-.buttonGroupTitle::before {
+.buttonGroupTitle:hover, .buttonGroupTitle2:hover {
+	cursor: pointer;
+}
+
+.buttonGroupTitle::before, .buttonGroupTitle2::before {
 	content: ".";
 	color: transparent;
 	background-color: var(--blue2);
@@ -324,7 +342,7 @@ input:focus { outline: 0; }
 	left: -14px;
 }
 
-.buttonGroupTitle::after {
+.buttonGroupTitle::after, .buttonGroupTitle2::after {
 	content: ".";
 	color: transparent;
 	background-color: var(--blue2);
@@ -332,6 +350,13 @@ input:focus { outline: 0; }
 	clip-path: polygon(0% 0%, 50% 2%, 100% 50%, 50% 100%, 0% 100%);
 	position: absolute;
 	right: -14px;
+}
+.buttonGroupTitle2::before, .buttonGroupTitle2::after {
+	background-color: var(--blue3);
+}
+
+#ingameThemeSkills .btn {
+	width: 40% !important;
 }
 
 #options {
@@ -367,6 +392,7 @@ input:focus { outline: 0; }
 	height: auto !important;
 	top: 5px !important;
 	filter: none !important;
+	pointer-events: none;
 }
 
 .btnBlue .extendedIcon {
@@ -637,9 +663,8 @@ input:focus { outline: 0; }
 	text-align: center !important;
 }
 
-#userBtns {
-	margin: 14px 0;
-	margin-bottom: 30px;
+#userBtns .buttonGroupTitle {
+	margin-top: 12px;
 }
 
 #userBtns > div:not(:first-child) {

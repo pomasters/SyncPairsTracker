@@ -64,6 +64,12 @@ body {
 	background-color: #364656;
 }
 
+.buttonGroupTitle2,
+.buttonGroupTitle2::before,
+.buttonGroupTitle2::after {
+	background-color: #444E54;
+}
+
 #options {
 	background-image: url("../images/bg4.png");
 }
@@ -258,6 +264,10 @@ body {
 
 	.buttonGroupTitle, .buttonGroupTitle::before, .buttonGroupTitle::after {
 		background-color: var(--blue2);
+	}
+
+	.buttonGroupTitle2, .buttonGroupTitle2::before, .buttonGroupTitle2::after {
+		background-color: var(--blue3);
 	}
 
 	.mobileMenu_selected {
