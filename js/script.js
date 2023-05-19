@@ -1083,7 +1083,6 @@ function takeScreenshot(id) {
 					var url = URL.createObjectURL(blob);
 					var img = document.createElement('img');
 
-					img.onload = () => { URL.revokeObjectURL(url); };
 					img.src = url;
 					img.setAttribute("draggable", "false");
 
