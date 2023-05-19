@@ -95,7 +95,7 @@ body {
 	box-shadow: 1px 1px 3px #000000;
 }
 .filterDateEnable { color: #585858 !important; }
-#visibilityOptions2 div {	color: var(--text); }
+.checkboxOption {	color: var(--text); }
 
 #filters .btn:active,
 #options .btn:active,
@@ -150,8 +150,15 @@ body {
 	color: var(--text);
 }
 
-#filtersUsed span {
+#filtersUsed span,
+.separator span {
+	color: var(--text);
 	background-color: rgb(12 12 12 / 42%);
+}
+
+.separator::before,
+.separator::after {
+	background-color: #404040;
 }
 
 
@@ -247,8 +254,6 @@ body {
 	#selectionOptions, #increaseOptions, #visibilityOptions, #sorting {
 		background-color: rgb(72 137 154 / 30%);
 	}
-
-	#visibilityOptions2 div {	color: var(--blue1); }
 
 	#search, #date1, #date2 {
 		color: white;

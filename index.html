@@ -69,11 +69,11 @@
 						<button type="button" class="btn" id="notSelectedVisible">Not have</button>
 						<button type="button" class="btn smallerText" id="datamineVisible">Not released</button>
 
-						<div id="visibilityOptions2">
-							<div><input type="checkbox" id="counterPercentageVisible"><label for="counterPercentageVisible">Hide percentage in counter</label></div>
-							<div><input type="checkbox" id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
-							<div><input type="checkbox" id="syncInfosVisible"><label for="syncInfosVisible">Hide sync pair informations</label></div>
-							<div><input type="checkbox" id="fullWidthVisible"><label for="fullWidthVisible">Full width of the window</label></div>
+						<div>
+							<div class="checkboxOption"><input type="checkbox"id="counterPercentageVisible"><label for="counterPercentageVisible">Hide percentage in counter</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="syncInfosVisible"><label for="syncInfosVisible">Hide sync pair informations</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="fullWidthVisible"><label for="fullWidthVisible">Full width of the window</label></div>
 						</div>
 					</div>
 
@@ -104,9 +104,12 @@
 						<button type="button" class="btn" data-asc="true" id="sortByRegion">Region</button>
 						<button type="button" class="btn smallerText" data-asc="false" id="sortByDate">Release Date</button>
 						<button type="button" class="btn" data-asc="false" id="sortBySyncLevel">Move Level</button>
-						<button type="button" class="btn" data-asc="false" id="sortBySelected">Selected</button>
+						<button type="button" class="btn" data-asc="false" id="sortBySelected">Possession</button>
 						<button type="button" class="btn" data-asc="false" id="sortByFavorite">Favorite</button>
 						<div>
+							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
+						</div>
+						<div class="hide">
 							<button type="button" class="btn editOrderBtn" id="editOrderMode">Edit order <img src="images/off.png"></button>
 							<button type="button" class="btn editOrderBtn" data-asc="true" id="sortByCustom">Custom order</button>
 						</div>
@@ -224,15 +227,15 @@
 
 					<div class="buttonGroup">
 						<div class="buttonGroupTitle">Region<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">1Kanto'>Kanto</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">2Johto'>Johto</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">3Hoenn'>Hoenn</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">4Sinnoh'>Sinnoh</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">5Unova'>Unova</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">6Kalos'>Kalos</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">7Alola'>Alola</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">8Galar'>Galar</button>
-						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">0Pasio'>Pasio</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Kanto'>Kanto</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Johto'>Johto</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Hoenn'>Hoenn</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Sinnoh'>Sinnoh</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Unova'>Unova</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Kalos'>Kalos</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Alola'>Alola</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Galar'>Galar</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Pasio'>Pasio</button>
 					</div>
 
 					<div class="buttonGroup">

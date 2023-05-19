@@ -14,7 +14,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-02b-02_Venasaur.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0A-02a-02_Venasaur.png",
@@ -46,7 +46,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-03b-02_Charizard.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0A-03a-02_Charizard.png",
@@ -78,7 +78,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-04b-02_Blastoise.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0A-04a-02_Blastoise.png",
@@ -110,7 +110,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-01a_Pikachu.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0A-01b_Pikachu.png",
@@ -141,7 +141,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-11-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0B-01b_Torchic.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0B-01a_Torchic.png",
@@ -173,7 +173,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-01",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Ca_Solgaleo.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0Cb_Solgaleo.png",
@@ -207,7 +207,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Cobalion.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0Db_Cobalion.png"
@@ -235,7 +235,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Regirock.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0Db_Regirock.png"
@@ -263,7 +263,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Mesprit.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0Db_Mesprit.png"
@@ -291,7 +291,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_Brock.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-01_Brock_4Star.png",
@@ -323,7 +323,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_SSBrock.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-01_SSBrock_4Star.png",
@@ -356,7 +356,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_Misty.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-02_Misty_4Star.png",
@@ -387,7 +387,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-08-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02b_SwimsuitMisty.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-02b_SwimsuitMisty_5Star.png",
@@ -418,7 +418,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-30",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_SSMisty.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_SSMisty_EX.png"
@@ -451,7 +451,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-03a_LtSurge_4Star.png",
@@ -485,7 +485,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-03b_LtSurge_5Star.png",
@@ -517,7 +517,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04a_Erika.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-04a_Erika_4Star.png",
@@ -550,7 +550,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-10",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Erika.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Erika_EX.png"
@@ -581,7 +581,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-04b_Erika_5Star.png",
@@ -613,7 +613,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-01",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04_SSErika.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04_SSErika_EX.png"
@@ -647,7 +647,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-07_Blaine.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-07_Blaine_5Star.png"
@@ -678,7 +678,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png",
 			"Sync Pairs/5Star/0A_KANTO_0C-01_Lorelei_5Star.png"
@@ -709,7 +709,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-20",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01b_Lorelei.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01b_Lorelei_EX.png"
@@ -741,7 +741,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png",
 			"Sync Pairs/5Star/0A_KANTO_0C-02_Bruno_5Star.png"
@@ -772,7 +772,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-22",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02b_Bruno.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02b_Bruno_EX.png"
@@ -806,7 +806,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png",
 			"Sync Pairs/5Star/0A_KANTO_0C-03_Agatha_5Star.png"
@@ -837,7 +837,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-07",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03b_Agatha.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03b_Agatha_EX.png"
@@ -871,7 +871,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_Kris.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_Kris_EX.png"
@@ -905,7 +905,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-03",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_ssKris.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_ssKris_EX.png"
@@ -939,7 +939,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris_EX.png"
@@ -974,7 +974,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png",
 			"Sync Pairs/4Star/0B_JOHTO_0B-02_Bugsy_4Star.png",
@@ -1006,7 +1006,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-22",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png",
 			"Sync Pairs/5Star/0B_JOHTO_0B-02-EP_Bugsy_5Star.png",
@@ -1038,7 +1038,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-03_Whitney.png",
 			"Sync Pairs/5Star/0B_JOHTO_0B-03_Whitney_5Star.png"
@@ -1071,7 +1071,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-16",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Whitney.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Whitney_EX.png"
@@ -1106,7 +1106,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-07_Pryce.png",
 			"Sync Pairs/4Star/0B_JOHTO_0B-07_Pryce_4Star.png",
@@ -1138,7 +1138,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-08_Clair.png",
 			"Sync Pairs/5Star/0B_JOHTO_0B-08_Clair_5Star.png"
@@ -1168,7 +1168,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Janine.png",
 			"Sync Pairs/4Star/0A_KANTO_0B-05_Janine_4Star.png",
@@ -1200,7 +1200,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-05_BP_Janine_5Star.png",
@@ -1231,7 +1231,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-01_Will.png",
 			"Sync Pairs/5Star/0B_JOHTO_0C-01_Will_5Star.png"
@@ -1262,7 +1262,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04_Karen.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04_Karen_EX.png"
@@ -1294,7 +1294,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png",
 			"Sync Pairs/5Star/0B_JOHTO_0C-04-BP_Karen_5Star.png",
@@ -1328,7 +1328,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_Brendan.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_Brendan_EX.png"
@@ -1362,7 +1362,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-31",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_SSBrendan.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_SSBrendan_EX.png"
@@ -1397,7 +1397,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-01_Roxanne_4Star.png",
@@ -1431,7 +1431,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-02_Brawly.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-02_Brawly_4Star.png",
@@ -1462,7 +1462,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-04_Flannery.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-04_Flannery_4Star.png",
@@ -1493,7 +1493,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-05_Norman.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-05_Norman_4Star.png",
@@ -1524,7 +1524,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-06_Winona.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-06_Winona_4Star.png",
@@ -1556,7 +1556,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-1_Tate.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-07-1_Tate_4Star.png",
@@ -1587,7 +1587,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-2_Liza.png",
 			"Sync Pairs/4Star/0C_HOENN_0B-07-2_Liza_4Star.png",
@@ -1620,7 +1620,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-02_Phoebe.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-02_Phoebe_EX.png"
@@ -1650,7 +1650,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake.png",
 			"Sync Pairs/5Star/0C_HOENN_0C-04_Drake_5Star.png",
@@ -1682,7 +1682,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png",
 			"Sync Pairs/5Star/0C_HOENN_0E-01_Noland_5Star.png"
@@ -1714,7 +1714,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03_Barry.png",
 			"Sync Pairs/4Star/0D_SINNOH_0A-03_Barry_4Star.png",
@@ -1749,7 +1749,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png",
 			"Sync Pairs/4Star/0D_SINNOH_0B-01_Roark_4Star.png",
@@ -1780,7 +1780,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png",
 			"Sync Pairs/5Star/0D_SINNOH_0B-02_Gardenia_5Star.png"
@@ -1812,7 +1812,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-03_Maylene.png",
 			"Sync Pairs/4Star/0D_SINNOH_0B-03_Maylene_4Star.png",
@@ -1843,7 +1843,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-04_CrasherWake.png",
 			"Sync Pairs/4Star/0D_SINNOH_0B-04_CrasherWake_4Star.png",
@@ -1874,7 +1874,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice.png",
 			"Sync Pairs/4Star/0D_SINNOH_0B-07_Candice_4Star.png",
@@ -1908,7 +1908,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png",
 			"Sync Pairs/5Star/0D_SINNOH_0B-07_BP_Candice_5Star.png",
@@ -1941,7 +1941,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png",
 			"Sync Pairs/5Star/0D_SINNOH_0C-03_Flint_5Star.png"
@@ -1972,7 +1972,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton.png",
 			"Sync Pairs/5Star/0D_SINNOH_0E-01_Thorton_5Star.png",
@@ -2003,7 +2003,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-02_Cheryl.png",
 			"Sync Pairs/4Star/0D_SINNOH_0E-02_Cheryl_4Star.png",
@@ -2034,7 +2034,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png",
 			"Sync Pairs/4Star/0D_SINNOH_0E-03_Marley_4Star.png",
@@ -2067,7 +2067,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_Rosa.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_Rosa_EX.png"
@@ -2099,7 +2099,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-12",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Rosa.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Rosa_EX.png"
@@ -2131,7 +2131,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_TL_Rosa.png",
 			"Sync Pairs/5Star/0E_UNOVA_0A-06_TL_Rosa_5Star.png",
@@ -2166,7 +2166,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-15",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Rosa.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Rosa_EX.png"
@@ -2199,7 +2199,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-05_Clay.png",
 			"Sync Pairs/4Star/0E_UNOVA_0B-05_Clay_4Star.png",
@@ -2230,7 +2230,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-06_Skyla.png",
 			"Sync Pairs/4Star/0E_UNOVA_0B-06_Skyla_4Star.png",
@@ -2263,7 +2263,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-10",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Skyla.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Skyla_EX.png"
@@ -2295,7 +2295,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-02",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Skyla.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Skyla_EX.png"
@@ -2328,7 +2328,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-07_Brycen.png",
 			"Sync Pairs/4Star/0E_UNOVA_0B-07_Brycen_4Star.png",
@@ -2359,7 +2359,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01_Iris.png",
 			"Sync Pairs/4Star/0E_UNOVA_0C-01_Iris_4Star.png",
@@ -2391,7 +2391,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-18",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01-2_IrisChampion.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01-2_IrisChampion_EX.png"
@@ -2422,7 +2422,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-17",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris_EX.png"
@@ -2457,7 +2457,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png",
 			"Sync Pairs/5Star/0E_UNOVA_0B-09_Roxie_5Star.png"
@@ -2487,7 +2487,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-10_Marlon.png",
 			"Sync Pairs/4Star/0E_UNOVA_0B-10_Marlon_4Star.png",
@@ -2518,7 +2518,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
 			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png"
@@ -2548,7 +2548,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-03_Marshal.png",
 			"Sync Pairs/5Star/0E_UNOVA_0C-03_Marshal_5Star.png"
@@ -2580,7 +2580,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-02_Grant.png",
 			"Sync Pairs/5Star/0F_KALOS_0B-02_Grant_5Star.png"
@@ -2612,7 +2612,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_Korrina.png",
 			"Sync Pairs/4Star/0F_KALOS_0B-03_Korrina_4Star.png",
@@ -2644,7 +2644,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-16",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_SSKorrina.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_SSKorrina_EX.png"
@@ -2678,7 +2678,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-04_Ramos.png",
 			"Sync Pairs/4Star/0F_KALOS_0B-04_Ramos_4Star.png",
@@ -2709,7 +2709,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-08_Wulfric.png",
 			"Sync Pairs/4Star/0F_KALOS_0B-08_Wulfric_4Star.png",
@@ -2740,7 +2740,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold.png",
 			"Sync Pairs/5Star/0F_KALOS_0C-02_Siebold_5Star.png",
@@ -2772,7 +2772,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-12",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Siebold.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Siebold_EX.png"
@@ -2806,7 +2806,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-03_Wikstrom.png",
 			"Sync Pairs/5Star/0F_KALOS_0C-03_Wikstrom_5Star.png"
@@ -2838,7 +2838,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_Hau.png",
 			"Sync Pairs/5Star/0G_ALOLA_0A-03_Hau_5Star.png",
@@ -2871,7 +2871,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-28",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau_EX.png"
@@ -2909,7 +2909,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png",
 			"Sync Pairs/5Star/0G_ALOLA_0B-05_Sophocles_5Star.png"
@@ -2943,7 +2943,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png",
 			"Sync Pairs/5Star/0G_ALOLA_0B-05_BP_Sophocles_5Star.png",
@@ -2974,7 +2974,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png",
 			"Sync Pairs/4Star/0G_ALOLA_0B-07_Mina_4Star.png",
@@ -3008,7 +3008,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-30",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_ssMina.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_ssMina_EX.png"
@@ -3048,7 +3048,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02_Olivia.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02_Olivia_EX.png"
@@ -3079,7 +3079,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-11_Hapu.png",
 			"Sync Pairs/4Star/0G_ALOLA_0B-11_Hapu_4Star.png",
@@ -3112,7 +3112,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_Kahili.png",
 			"Sync Pairs/5Star/0G_ALOLA_0C-04_Kahili_5Star.png"
@@ -3145,7 +3145,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png",
 			"Sync Pairs/5Star/0F_KALOS_0B-01_Viola_5Star.png",
@@ -3177,7 +3177,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-10_Nanu.png",
 			"Sync Pairs/5Star/0G_ALOLA_0B-10_Nanu_5Star.png"
@@ -3207,7 +3207,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Koga.png",
 			"Sync Pairs/5Star/0A_KANTO_0B-05_Koga_5Star.png"
@@ -3237,7 +3237,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_Acerola.png"
 		],
@@ -3272,7 +3272,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-15",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Acerola.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Acerola_EX.png"
@@ -3303,7 +3303,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-05-01",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_TL_Acerola.png",
 			"Sync Pairs/5Star/0G_ALOLA_0C-03_TL_Acerola_5Star.png",
@@ -3335,7 +3335,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-12",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_ssAcerola.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_ssAcerola_EX.png"
@@ -3373,7 +3373,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren_EX.png"
@@ -3405,7 +3405,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-03",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_Blue.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_Blue_EX.png"
@@ -3438,7 +3438,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_SSBlue.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_SSBlue_EX.png"
@@ -3476,7 +3476,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-18",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BlueClassic.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BlueClassic_EX.png"
@@ -3508,7 +3508,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-02-17",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02-EP_Blue.png",
 			"Sync Pairs/5Star/0A_KANTO_0A-02-EP_Blue_5Star.png",
@@ -3540,7 +3540,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_TL_Blue.png",
 			"Sync Pairs/5Star/0A_KANTO_0A-02_TL_Blue_5Star.png",
@@ -3575,7 +3575,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-17",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_Lyra.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_Lyra_EX.png"
@@ -3608,7 +3608,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-31",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Lyra.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Lyra_EX.png"
@@ -3639,7 +3639,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-01",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_ssLyra.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_ssLyra_EX.png"
@@ -3673,7 +3673,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra_EX.png",
@@ -3706,7 +3706,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-15",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Lyra.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Lyra_EX.png"
@@ -3743,7 +3743,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-24",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_Hilbert.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_Hilbert_EX.png"
@@ -3774,7 +3774,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-15",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Hilbert.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Hilbert_EX.png"
@@ -3804,7 +3804,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-02",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_SSHilbert.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_SSHilbert_EX.png"
@@ -3842,7 +3842,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-30",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_Hilda.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_Hilda_EX.png"
@@ -3876,7 +3876,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-04",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Hilda.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Hilda_EX.png"
@@ -3908,7 +3908,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-02",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_Hilda.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_Hilda_EX.png"
@@ -3940,7 +3940,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-31",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_SSHilda.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_SSHilda_EX.png"
@@ -3974,7 +3974,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-10-17",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_Elesa.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_Elesa_EX.png"
@@ -4007,7 +4007,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-28",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_SSElesa.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_SSElesa_EX.png"
@@ -4040,7 +4040,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-09",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_ElesaClassic.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_ElesaClassic_EX.png"
@@ -4073,7 +4073,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-11-01",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_TL_Elesa.png",
 			"Sync Pairs/5Star/0E_UNOVA_0B-04_TL_Elesa_5Star.png",
@@ -4105,7 +4105,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-02",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Elesa.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Elesa_EX.png"
@@ -4137,7 +4137,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-10-31",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-05_Caitlin.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-05_Caitlin_EX.png"
@@ -4172,7 +4172,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-16",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Caitlin.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Caitlin_EX.png"
@@ -4205,7 +4205,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-07",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_Calem.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_Calem_EX.png"
@@ -4236,7 +4236,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-02",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_ChampCalem.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_ChampCalem_EX.png"
@@ -4275,7 +4275,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-14",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia_EX.png"
@@ -4306,7 +4306,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-28",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_Grimsley.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_Grimsley_EX.png"
@@ -4338,7 +4338,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-11",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_SSGrimsley.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_SSGrimsley_EX.png"
@@ -4368,7 +4368,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-26",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_GrimsleyKimono.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_GrimsleyKimono_EX.png"
@@ -4400,7 +4400,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-05",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01_Giovanni.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01_Giovanni_EX.png"
@@ -4434,7 +4434,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-19",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_SSGiovanni.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_SSGiovanni_EX.png"
@@ -4465,7 +4465,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-15",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01-EP_Giovanni.png",
 			"Sync Pairs/5Star/0A_KANTO_0D-01-EP_Giovanni_5Star.png",
@@ -4498,7 +4498,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-15",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_Ethan.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_Ethan_EX.png"
@@ -4531,7 +4531,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-30",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_SSEthan.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_SSEthan_EX.png"
@@ -4564,7 +4564,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-22",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_Leaf.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_Leaf_EX.png"
@@ -4597,7 +4597,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_SSLeaf.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_SSLeaf_EX.png"
@@ -4632,7 +4632,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-26",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04_Lance.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04_Lance_EX.png"
@@ -4667,7 +4667,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-01",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lance.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lance_EX.png"
@@ -4697,7 +4697,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-09",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance_EX.png"
@@ -4731,7 +4731,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-01",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_Cynthia.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_Cynthia_EX.png"
@@ -4767,7 +4767,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-17",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSCynthia.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSCynthia_EX.png"
@@ -4801,7 +4801,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-27",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSRCynthia.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSRCynthia_EX.png"
@@ -4837,7 +4837,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_TL_Cynthia.png",
 			"Sync Pairs/5Star/0D_SINNOH_0C-05_TL_Cynthia_5Star.png",
@@ -4872,7 +4872,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-30",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia_EX.png"
@@ -4908,7 +4908,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-30",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui_EX.png"
@@ -4941,7 +4941,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-30",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04_Zinnia.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04_Zinnia_EX.png"
@@ -4973,7 +4973,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png",
 			"Sync Pairs/5Star/0C_HOENN_0E-04-BP_Zinnia_5Star.png",
@@ -5004,7 +5004,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-13",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Zinnia.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Zinnia_EX.png"
@@ -5041,7 +5041,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-14",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_Steven.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_Steven_EX.png"
@@ -5077,7 +5077,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-31",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Steven.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Steven_EX.png"
@@ -5111,7 +5111,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-01",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Steven.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Steven_EX.png"
@@ -5150,7 +5150,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-10",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_ssSteven_ANormal.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_ssSteven_ANormal_EX.png"
@@ -5184,7 +5184,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-31",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Steven.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Steven_EX.png"
@@ -5220,7 +5220,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-03-31",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_TL_Steven.png",
 			"Sync Pairs/5Star/0C_HOENN_0C-05_TL_Steven_5Star.png",
@@ -5253,7 +5253,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-02-14",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png",
 			"Sync Pairs/4Star/0A_KANTO_0E-01_ProfOak_4Star.png",
@@ -5286,7 +5286,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-02-25",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png",
 			"Sync Pairs/5Star/0F_KALOS_0B-06_Valerie_5Star.png"
@@ -5318,7 +5318,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSRed.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSRed_EX.png"
@@ -5355,7 +5355,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-16",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_Red.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_Red_EX.png"
@@ -5390,7 +5390,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-01",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSTRed.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSTRed_EX.png"
@@ -5426,7 +5426,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-16",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-06_Sabrina.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-06_Sabrina_EX.png"
@@ -5456,7 +5456,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-01",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Sabrina.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Sabrina_EX.png"
@@ -5486,7 +5486,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-19",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina_EX.png"
@@ -5518,7 +5518,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-27",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-02_Plumeria.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-02_Plumeria_EX.png"
@@ -5548,7 +5548,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-27",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-03_Guzma.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-03_Guzma_EX.png"
@@ -5578,7 +5578,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-11",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Guzma.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Guzma_EX.png"
@@ -5610,7 +5610,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-14",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_Clemont.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_Clemont_EX.png"
@@ -5641,7 +5641,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png",
 			"Sync Pairs/5Star/0F_KALOS_0B-05_BP_Clemont_5Star.png",
@@ -5673,7 +5673,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-30",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-08_Wallace.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-08_Wallace_EX.png"
@@ -5703,7 +5703,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-30",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_Silver.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_Silver_EX.png"
@@ -5739,7 +5739,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_TL_Silver.png",
 			"Sync Pairs/5Star/0B_JOHTO_0A-04_TL_Silver_5Star.png",
@@ -5773,7 +5773,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-14",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_Wally.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_Wally_EX.png"
@@ -5808,7 +5808,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-28",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally_EX.png"
@@ -5847,7 +5847,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-21",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-06_Jasmine.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-06_Jasmine_EX.png"
@@ -5878,7 +5878,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-18",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Jasmine.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Jasmine_EX.png"
@@ -5912,7 +5912,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-14",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Jasmine.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Jasmine_EX.png"
@@ -5947,7 +5947,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-28",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_Dawn.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_Dawn_EX.png"
@@ -5981,7 +5981,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-01",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Dawn.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Dawn_EX.png"
@@ -6012,7 +6012,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-14",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_SSDawn.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_SSDawn_EX.png"
@@ -6046,7 +6046,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-01",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Dawn.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Dawn_EX.png"
@@ -6080,7 +6080,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-01-01",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_TL_Dawn.png",
 			"Sync Pairs/5Star/0D_SINNOH_0A-02_TL_Dawn_5Star.png",
@@ -6112,7 +6112,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-18",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-03_Burgh.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-03_Burgh_EX.png"
@@ -6143,7 +6143,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-02",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_Burgh.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_Burgh_EX.png"
@@ -6177,7 +6177,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-30",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_Serena.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_Serena_EX.png"
@@ -6209,7 +6209,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Serena.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Serena_EX.png"
@@ -6243,7 +6243,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-17",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_SSSerena.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_SSSerena_EX.png"
@@ -6275,7 +6275,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-30",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_ChampSerena.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_ChampSerena_EX.png"
@@ -6309,7 +6309,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-11-30",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_TL_Serena.png",
 			"Sync Pairs/5Star/0F_KALOS_0A-02_TL_Serena_5Star.png",
@@ -6340,7 +6340,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-07-09",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-02_Jessie.png",
 			"Sync Pairs/4Star/0A_KANTO_0D-02_Jessie_4Star.png",
@@ -6370,7 +6370,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-07-10",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-02_Lucy.png",
 			"Sync Pairs/5Star/0C_HOENN_0E-02_Lucy_5Star.png"
@@ -6400,7 +6400,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-15",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_Morty.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_Morty_EX.png"
@@ -6431,7 +6431,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png",
 			"Sync Pairs/5Star/0B_JOHTO_0B-04-BP_Morty_5Star.png",
@@ -6465,7 +6465,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-14",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Morty.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Morty_EX.png"
@@ -6496,7 +6496,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-28",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_SSMorty.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_SSMorty_EX.png"
@@ -6531,7 +6531,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-02-01",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_TL_Morty.png",
 			"Sync Pairs/5Star/0B_JOHTO_0B-04_TL_Morty_5Star.png",
@@ -6563,7 +6563,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-17",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_Cyrus.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_Cyrus_EX.png"
@@ -6597,7 +6597,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-10",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_SSCyrus.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_SSCyrus_EX.png"
@@ -6631,7 +6631,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-10",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_Lusamine.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_Lusamine_EX.png"
@@ -6667,7 +6667,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-30",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_SSLusamine.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_SSLusamine_EX.png"
@@ -6701,7 +6701,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-14",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-05_Gladion.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-05_Gladion_EX.png"
@@ -6732,7 +6732,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-17",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_Lillie.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_Lillie_EX.png"
@@ -6763,7 +6763,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-01",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lillie.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lillie_EX.png"
@@ -6794,7 +6794,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-28",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Lillie.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Lillie_EX.png"
@@ -6829,7 +6829,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-31",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Lillie.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Lillie_EX.png"
@@ -6860,7 +6860,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_TL_Lillie.png",
 			"Sync Pairs/5Star/0G_ALOLA_0A-04_TL_Lillie_5Star.png",
@@ -6892,7 +6892,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-09-17",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-03_James.png",
 			"Sync Pairs/4Star/0A_KANTO_0D-03_James_4Star.png",
@@ -6922,7 +6922,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-30",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-08_Volkner.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-08_Volkner_EX.png"
@@ -6954,7 +6954,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-01",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Volkner.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Volkner_EX.png"
@@ -6988,7 +6988,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-10-08",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-05_Molayne.png",
 			"Sync Pairs/5Star/0G_ALOLA_0C-05_Molayne_5Star.png"
@@ -7021,7 +7021,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-30",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-03_Lisia.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-03_Lisia_EX.png"
@@ -7053,7 +7053,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-01",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Lisia.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Lisia_EX.png"
@@ -7086,7 +7086,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-06",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-06_Alder.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-06_Alder_EX.png"
@@ -7119,7 +7119,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-12",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-05_Nate.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-05_Nate_EX.png"
@@ -7149,7 +7149,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-14",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-04_Bianca.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-04_Bianca_EX.png"
@@ -7182,7 +7182,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-30",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria_EX.png"
@@ -7218,7 +7218,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-15",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Gloria.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Gloria_EX.png"
@@ -7254,7 +7254,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-14",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GloriaDojo.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GloriaDojo_EX.png"
@@ -7287,7 +7287,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-03-01",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_TL_Gloria.png",
 			"Sync Pairs/5Star/0H_GALAR_0A-02_TL_Gloria_5Star.png",
@@ -7321,7 +7321,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-24",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_N.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_N_EX.png"
@@ -7356,7 +7356,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-30",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_N.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_N_EX.png"
@@ -7389,7 +7389,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-30",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_N.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_N_EX.png"
@@ -7420,7 +7420,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_TL_N.png",
 			"Sync Pairs/5Star/0E_UNOVA_0E-03_TL_N_5Star.png",
@@ -7455,7 +7455,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-14",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_SSN.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_SSN_EX.png"
@@ -7494,7 +7494,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-14",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_May.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_May_EX.png"
@@ -7529,7 +7529,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-02",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_May.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_May_EX.png"
@@ -7562,7 +7562,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-28",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_May.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_May_EX.png"
@@ -7600,7 +7600,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-29",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_SSMay.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_SSMay_EX.png"
@@ -7633,7 +7633,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_TL_May.png",
 			"Sync Pairs/5Star/0C_HOENN_0A-02_TL_May_5Star.png",
@@ -7665,7 +7665,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-21",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-04_Mallow.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-04_Mallow_EX.png"
@@ -7696,7 +7696,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-31",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Mallow.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Mallow_EX.png"
@@ -7728,7 +7728,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-11",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_Lysandre.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_Lysandre_EX.png"
@@ -7763,7 +7763,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-13",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_ssLysandre.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_ssLysandre_EX.png"
@@ -7798,7 +7798,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-11",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore_EX.png"
@@ -7833,7 +7833,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_TL_ProfSycamore.png",
 			"Sync Pairs/5Star/0F_KALOS_0F-01_TL_ProfSycamore_5Star.png",
@@ -7864,7 +7864,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-18",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-07_Piers.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-07_Piers_EX.png"
@@ -7896,7 +7896,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-26",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_Leon.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_Leon_EX.png"
@@ -7932,7 +7932,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-12",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_SSLeon.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_SSLeon_EX.png"
@@ -7967,7 +7967,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-16",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Leon.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Leon_EX.png"
@@ -8002,7 +8002,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-26",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_Marnie.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_Marnie_EX.png"
@@ -8036,7 +8036,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-17",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Marnie.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Marnie_EX.png"
@@ -8069,7 +8069,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-31",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Marnie.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Marnie_EX.png"
@@ -8101,7 +8101,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_TL_Marnie.png",
 			"Sync Pairs/5Star/0H_GALAR_0A-04_TL_Marnie_5Star.png",
@@ -8137,7 +8137,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-28",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_NeoChampMarnie.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_NeoChampMarnie_EX.png"
@@ -8173,7 +8173,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-31",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_Diantha.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_Diantha_EX.png"
@@ -8209,7 +8209,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-29",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Diantha.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Diantha_EX.png"
@@ -8243,7 +8243,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-12",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_ssDiantha.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_ssDiantha_EX.png"
@@ -8283,7 +8283,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-15",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-02_Selene.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-02_Selene_EX.png"
@@ -8317,7 +8317,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-17",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-01_Elio.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-01_Elio_EX.png"
@@ -8349,7 +8349,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-28",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_Raihan.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_Raihan_EX.png"
@@ -8386,7 +8386,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-04",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan_EX.png"
@@ -8421,7 +8421,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-10-01",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan.png",
 			"Sync Pairs/5Star/0H_GALAR_0B-08_TL_Raihan_5Star.png",
@@ -8455,7 +8455,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-04",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis_EX.png"
@@ -8488,7 +8488,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-13",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-02_Nessa.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-02_Nessa_EX.png"
@@ -8521,7 +8521,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-18",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Nessa.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Nessa_EX.png"
@@ -8553,7 +8553,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-15",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04_Bea.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04_Bea_EX.png"
@@ -8584,7 +8584,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-02",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Bea.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Bea_EX.png"
@@ -8616,7 +8616,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-31",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-01_Maxie.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-01_Maxie_EX.png"
@@ -8649,7 +8649,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-01",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-02_Archie.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-02_Archie_EX.png"
@@ -8682,7 +8682,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-11",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_Lana.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_Lana_EX.png"
@@ -8714,7 +8714,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-14",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_ssLana.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_ssLana_EX.png"
@@ -8753,7 +8753,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-13",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-03_Kiawe.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-03_Kiawe_EX.png"
@@ -8784,7 +8784,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-15",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01_Hala.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01_Hala_EX.png"
@@ -8814,7 +8814,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-17",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-02_MaskedRoyal.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-02_MaskedRoyal_EX.png"
@@ -8846,7 +8846,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-30",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-01_Ingo.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-01_Ingo_EX.png"
@@ -8878,7 +8878,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-14",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Ingo.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Ingo_EX.png"
@@ -8910,7 +8910,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-30",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-02_Emmet.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-02_Emmet_EX.png"
@@ -8942,7 +8942,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-21",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Emmet.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Emmet_EX.png"
@@ -8973,7 +8973,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-28",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-02_Evelyn.png"
 		],
@@ -9005,7 +9005,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-30",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-01_Lear.png",
 			"Sync Pairs/00_PASIO/00_PASIO_0E-01_Lear_EX.png"
@@ -9035,7 +9035,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-30",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-02_Rachel.png",
 			"Sync Pairs/5Star/00_PASIO_0E-02_Rachel_5Star.png"
@@ -9064,7 +9064,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-30",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-03_Sawyer.png",
 			"Sync Pairs/5Star/00_PASIO_0E-03_Sawyer_5Star.png"
@@ -9093,7 +9093,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-05",
-		"syncPairRegion": "2Johto",
+		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01_Falkner.png",
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01_Falkner_EX.png"
@@ -9124,7 +9124,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-09",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-01_Sidney.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-01_Sidney_EX.png"
@@ -9155,7 +9155,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-12",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_Hop.png"
 		],
@@ -9189,7 +9189,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-02",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_NeoChampHop.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_NeoChampHop_EX.png"
@@ -9227,7 +9227,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-22",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04b_Allister.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04b_Allister_EX.png"
@@ -9260,7 +9260,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-19",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister_EX.png"
@@ -9292,7 +9292,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-25",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-04_Darach.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-04_Darach_EX.png"
@@ -9322,7 +9322,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-23",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_Sonia.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_Sonia_EX.png"
@@ -9353,7 +9353,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-07",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Sonia.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Sonia_EX.png"
@@ -9385,7 +9385,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-13",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_Lucas.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_Lucas_EX.png"
@@ -9419,7 +9419,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas_EX.png"
@@ -9452,7 +9452,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-09",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-01_Aaron.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-01_Aaron_EX.png"
@@ -9481,7 +9481,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-11",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-02_Bertha.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-02_Bertha_EX.png"
@@ -9512,7 +9512,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-13",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-04_Lucian.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-04_Lucian_EX.png"
@@ -9545,7 +9545,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-16",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_Bede.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_Bede_EX.png"
@@ -9583,7 +9583,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-04",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_NeoChampBede.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_NeoChampBede_EX.png"
@@ -9617,7 +9617,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-03",
-		"syncPairRegion": "4Sinnoh",
+		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-05_Looker.png",
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-05_Looker_EX.png"
@@ -9647,7 +9647,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-05",
-		"syncPairRegion": "3Hoenn",
+		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-03_Courtney.png",
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-03_Courtney_EX.png"
@@ -9677,7 +9677,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "1Kanto",
+		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-02_Ash.png",
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-02_Ash_EX.png"
@@ -9712,7 +9712,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-01_Nita.png"
 		],
@@ -9742,7 +9742,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike",
 		"syncPairRarity": "3",
 		"releaseDate": "2022-09-15",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0X-01_Naomi.png",
 			"Sync Pairs/4Star/0G_ALOLA_0X-01_Naomi_4Star.png",
@@ -9774,7 +9774,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-03",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie_EX.png"
@@ -9808,7 +9808,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-05",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony_EX.png"
@@ -9841,7 +9841,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-07",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor_EX.png"
@@ -9873,7 +9873,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "3",
 		"releaseDate": "2022-10-17",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0X-01_Helena.png",
 			"Sync Pairs/4Star/0F_KALOS_0X-01_Helena_4Star.png",
@@ -9902,7 +9902,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-07",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-07_Hugh.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-07_Hugh_EX.png"
@@ -9932,7 +9932,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-17",
-		"syncPairRegion": "5Unova",
+		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-02_Colress.png",
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-02_Colress_EX.png"
@@ -9962,7 +9962,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "3",
 		"releaseDate": "2023-01-01",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0X-02_Kali.png",
 			"Sync Pairs/4Star/0F_KALOS_0X-02_Kali_4Star.png",
@@ -9991,7 +9991,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-16",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-03_Shauna.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-03_Shauna_EX.png"
@@ -10022,7 +10022,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-02",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Shauna.png",
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Shauna_EX.png"
@@ -10057,7 +10057,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-15",
-		"syncPairRegion": "7Alola",
+		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-03_Anabel.png",
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-03_Anabel_EX.png"
@@ -10087,7 +10087,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Physical Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-17",
-		"syncPairRegion": "6Kalos",
+		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-02_Emma.png",
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-02_Emma_EX.png"
@@ -10118,7 +10118,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-21",
-		"syncPairRegion": "8Galar",
+		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_BallGuy.png",
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_BallGuy_EX.png"
@@ -10146,7 +10146,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Special Strike / Physical Strike / Tech / Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-00-00",
-		"syncPairRegion": "0Pasio / 1Kanto / 2Johto / 3Hoenn / 4Sinnoh / 5Unova / 6Kalos / 7Alola / 8Galar",
+		"syncPairRegion": "Pasio / 1Kanto / 2Johto / 3Hoenn / 4Sinnoh / 5Unova / 6Kalos / 7Alola / 8Galar",
 		"images": [
 			"images/empty.png"
 		],

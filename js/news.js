@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2023-05-18",
+		"info" : "Add the possibility to show separators when sorting sync pairs"
+	},
+	{
 		"date": "2023-05-05",
 		"info" : "Add in-game theme skills"
 	},

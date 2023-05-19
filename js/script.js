@@ -4,8 +4,11 @@ import {NEWS} from './news.js';
 
 const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
+const syncStarImgs2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
 const syncFavImgs = ["images/favorite1.png","images/favoriteG.png","images/favoriteY.png","images/favoriteO.png","images/favoriteR.png","images/favoriteV.png","images/favoriteB.png","images/favorite2.png"];
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
+const rolesOrder = {"physical strike":"01","special strike":"01","tech":"02","support":"03"};
+const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 
 
 /*-----------------------------------------------------------------------------
@@ -116,10 +119,10 @@ function generatePairsHTML(pairs) {
 					<p class="infoPokemonForms">${tags(syncPair.pokemonForm)}</p>
 					<p data-order="${typesOrder[syncPair.pokemonType.toLowerCase()]}" class="infoPokemonType">${syncPair.pokemonType}</p>
 					<p data-order="${typesOrder[syncPair.pokemonWeak.toLowerCase()]}" class="infoPokemonWeak">${syncPair.pokemonWeak}</p>
-					<p class="infoSyncPairRole">${syncPair.syncPairRole}</p>
+					<p data-order="${rolesOrder[syncPair.syncPairRole.toLowerCase()]}" class="infoSyncPairRole">${syncPair.syncPairRole}</p>
 					<p class="infoSyncPairRarity">${syncPair.syncPairRarity}</p>
 					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
-					<p class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
+					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
 					<p class="infoSyncPairThemes">${tags(syncPair.themes)}</p>
 					<p class="infoSyncPairTags">${tags(syncPair.tags)}</p>
 				</div>
@@ -927,6 +930,55 @@ function removeFilters() {
 }
 
 
+/* Separators */
+function showSeparator(dataToSeparate) {
+	removeSeparator();
+
+	var syncPairs = Array.from(document.getElementsByClassName("syncPair"));
+	var inner = "", inner2 = "";
+
+	for(var i=syncPairs.length-1; i>0; i--) {
+		var curr_pair = syncPairs[i];
+		var prev_pair = syncPairs[i-1];
+
+		switch(dataToSeparate) {
+			case ".syncStar":
+				inner = `<img src="${syncStarImgs2[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
+				inner2 = `<img src="${syncStarImgs2[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
+				break;
+
+			case ".syncLevel":
+				inner = `<img src="${syncLevelImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				inner2 = `<img src="${syncLevelImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				break;
+
+			case ".syncFav":
+				inner = `<img src="${syncFavImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				inner2 = `<img src="${syncFavImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				break;
+
+			case ".selected":
+				inner = curr_pair.classList.contains("selected").toString().replace("true","Have").replace("false","Not have");
+				inner2 = prev_pair.classList.contains("selected").toString().replace("true","Have").replace("false","Not have");
+				break;
+
+			default:
+				inner = curr_pair.querySelector(dataToSeparate).innerHTML.replace("Special Strike", "Strike").replace("Physical Strike", "Strike");
+				inner2 = prev_pair.querySelector(dataToSeparate).innerHTML.replace("Special Strike", "Strike").replace("Physical Strike", "Strike")
+		}
+
+		if(inner != inner2) {
+			curr_pair.insertAdjacentHTML("beforebegin", `<div class="separator"><span>${inner}</span></div>`);
+		}
+	}
+	syncPairs[0].insertAdjacentHTML("beforebegin", `<div class="separator"><span>${inner2}</span></div>`);
+}
+
+function removeSeparator() {
+	Array.from(document.getElementsByClassName("separator")).forEach(s => s.remove());
+}
+
+
 function lockMode() {
 	var isDisabled = document.getElementById("lockModeCss").disabled;
 	document.getElementById("lockModeCss").disabled = !isDisabled;
@@ -1263,21 +1315,20 @@ document.getElementById("sortByDexNumber").addEventListener("click", function() 
 	tinysort('.syncPair',{attr:'data-id',order:ord});
 
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".infoDexNum"); }
 })
 
 /* contains all pair of [btn_id, class_el_to_sort] */
 var sortBtns = [
 	["sortByPokemonNumber","infoPokemonNum"],
 	["sortByTrainer","infoTrainerName"],
-	["sortByRole","infoSyncPairRole"],
-	["sortByDate","infoReleaseDate"],
-	["sortByRegion","infoSyncPairRegion"]
+	["sortByDate","infoReleaseDate"]
 ]
 
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortBtns.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 
 	if(this.dataset.asc === "true") {
 		tinysort('.syncPair',{sortFunction:function(a,b){
@@ -1293,18 +1344,21 @@ sortBtns.forEach(btn => document.getElementById(btn[0]).addEventListener("click"
 		}});
 	}
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator("."+btn[1]); }
 }))
 
 /* contains all pair of [btn_id, class_el_to_sort] */
 var sortTypes = [
 	["sortByType","infoPokemonType"],
-	["sortByWeakness","infoPokemonWeak"]
+	["sortByWeakness","infoPokemonWeak"],
+	["sortByRole","infoSyncPairRole"],
+	["sortByRegion","infoSyncPairRegion"]
 ]
 
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortTypes.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 
 	if(this.dataset.asc === "true") {
 		tinysort('.syncPair',{sortFunction:function(a,b){
@@ -1320,10 +1374,11 @@ sortTypes.forEach(btn => document.getElementById(btn[0]).addEventListener("click
 		}});
 	}
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator("."+btn[1]); }
 }))
 
 document.getElementById("sortByStar").addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	tinysort('.syncPair',{sortFunction:funByCurrentStar});
 
 	function funByCurrentStar(a,b){
@@ -1336,10 +1391,11 @@ document.getElementById("sortByStar").addEventListener("click", function() {
 		}
 	}
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".syncStar"); }
 })
 
 document.getElementById("sortBySyncLevel").addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	tinysort('.syncPair',{sortFunction:funBySyncLevel});
 
 	function funBySyncLevel(a,b){
@@ -1352,10 +1408,11 @@ document.getElementById("sortBySyncLevel").addEventListener("click", function() 
 		}
 	}
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".syncLevel"); }
 })
 
 document.getElementById("sortByFavorite").addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	tinysort('.syncPair',{sortFunction:funByFavorite});
 
 	function funByFavorite(a,b){
@@ -1368,17 +1425,30 @@ document.getElementById("sortByFavorite").addEventListener("click", function() {
 		}
 	}
 	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".syncFav"); }
 })
 
 document.getElementById("sortBySelected").addEventListener("click", function() {
-	tinysort('.syncPair',{attr:'data-id',order:"asc"});
 	
 	if(this.dataset.asc === "true") {
 		tinysort('.syncPair',{attr:'class',order:'asc'});
 	} else {
 		tinysort('.syncPair',{attr:'class',order:'desc'});
 	}
-	this.dataset.asc = !(this.dataset.asc === "true")
+	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".selected"); }
+})
+
+document.getElementById("showSeparator").addEventListener("click", function() {
+
+	removeSeparator();
+
+	var selectedBtn = document.getElementById("sorting").querySelector(".btnBlue");
+
+	selectedBtn.dataset.asc = !(selectedBtn.dataset.asc === "true");
+	selectedBtn.click();
 })
 
 document.getElementById("sortByCustom").addEventListener("click", function() {

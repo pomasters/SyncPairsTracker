@@ -15,7 +15,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0003_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0003_01sa.png",
@@ -48,7 +48,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0006_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0006_01a.png",
@@ -81,7 +81,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0009_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0009_01a.png",
@@ -115,7 +115,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0015_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0015_01a.png",
@@ -148,7 +148,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0018_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0018_01a.png",
@@ -180,7 +180,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0020_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0020_01a.png",
@@ -212,7 +212,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0022_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0022_01sa.png",
@@ -244,7 +244,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0024_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0024_01a.png",
@@ -277,7 +277,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0026_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0026_01sa.png",
@@ -309,7 +309,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0028_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0028_01a.png",
@@ -342,7 +342,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0031_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0031_01a.png",
@@ -375,7 +375,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0034_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0034_01a.png",
@@ -408,7 +408,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-04-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0036_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0036_01sa.png",
@@ -440,7 +440,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0038_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0038_01a.png",
@@ -474,7 +474,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0040_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0040_01a.png",
@@ -506,7 +506,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0042_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0042_01a.png",
@@ -539,7 +539,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-01-06",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0045_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0045_01a.png",
@@ -571,7 +571,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-11-15",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0047_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0047_01a.png",
@@ -603,7 +603,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0049_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0049_01a.png",
@@ -635,7 +635,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_01a.png",
@@ -668,7 +668,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01ab.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0053_01aa.png",
@@ -700,7 +700,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0057_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0057_01a.png",
@@ -732,7 +732,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0059_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0059_01sa.png",
@@ -765,7 +765,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0065_01a.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0065_01b.png",
@@ -798,7 +798,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0068_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0068_01sa.png",
@@ -831,7 +831,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0071_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0071_01a.png",
@@ -864,7 +864,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0076_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0076_01a.png",
@@ -896,7 +896,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0078_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0078_01a.png",
@@ -928,7 +928,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0082_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0082_01a.png",
@@ -958,7 +958,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0083_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0083_01a.png",
@@ -990,7 +990,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0087_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0087_01sa.png",
@@ -1022,7 +1022,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0089_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0089_01a.png",
@@ -1054,7 +1054,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0091_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0091_01a.png",
@@ -1087,7 +1087,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0094_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0094_01sa.png",
@@ -1117,7 +1117,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0095_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0095_01sa.png",
@@ -1149,7 +1149,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0101_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_01a.png",
@@ -1181,7 +1181,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0103_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0103_01a.png",
@@ -1213,7 +1213,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0105_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0105_01sa.png",
@@ -1245,7 +1245,7 @@ export const EGGS = [
 		"syncPairRole": "Strike",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0106_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0106_01a.png",
@@ -1275,7 +1275,7 @@ export const EGGS = [
 		"syncPairRole": "Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0107_03b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0107_03a.png",
@@ -1303,7 +1303,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-12-02",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0108_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0108_01a.png",
@@ -1335,7 +1335,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0110_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0110_01a.png",
@@ -1367,7 +1367,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0113_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0113_01a.png",
@@ -1397,7 +1397,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-06-21",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0114_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0114_01a.png",
@@ -1427,7 +1427,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0115_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0115_01sa.png",
@@ -1459,7 +1459,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0117_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0117_01a.png",
@@ -1491,7 +1491,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0119_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0119_01sa.png",
@@ -1523,7 +1523,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-03",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0121_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0121_01a.png",
@@ -1553,7 +1553,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0123_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0123_01sa.png",
@@ -1585,7 +1585,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-10-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0124_01a.png",
@@ -1619,7 +1619,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0125_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0125_01a.png",
@@ -1651,7 +1651,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0126_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0126_01a.png",
@@ -1681,7 +1681,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0127_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0127_01sa.png",
@@ -1711,7 +1711,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0128_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0128_01sa.png",
@@ -1743,7 +1743,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-05-05",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0130_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0130_01sa.png",
@@ -1774,7 +1774,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0131_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0131_01a.png",
@@ -1805,7 +1805,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0137_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0137_01sa.png",
@@ -1837,7 +1837,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0139_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0139_01a.png",
@@ -1869,7 +1869,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0141_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0141_01a.png",
@@ -1900,7 +1900,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0142_01sb.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0142_01sa.png",
@@ -1932,7 +1932,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0143_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0143_01a.png",
@@ -1965,7 +1965,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-09",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0149_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0149_01a.png",
@@ -1997,7 +1997,7 @@ export const EGGS = [
 		"syncPairRole": "Tech",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0237_02b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0237_02a.png",
@@ -2027,7 +2027,7 @@ export const EGGS = [
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
-		"syncPairRegion": "0Pasio",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0863_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0863_01a.png",
