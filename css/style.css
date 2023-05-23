@@ -657,6 +657,10 @@ input:focus { outline: 0; }
 	background: linear-gradient(#D1EC96, #B8F33B) !important;
 	transition-duration: 500ms;
 }
+.filterToHide {
+	background: linear-gradient(#ff9f9f, #ff6b6b) !important;
+	color: #585858 !important;
+}
 
 .starBtn {
 	width: 14.4% !important;
@@ -822,6 +826,11 @@ input:focus { outline: 0; }
 
 #filtersUsed:empty {
 	display: none;
+}
+
+.filterHidden::before {
+	content: "Not";
+	padding-right: 6px;
 }
 
 #syncPairs {

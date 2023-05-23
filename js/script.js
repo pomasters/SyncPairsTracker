@@ -834,9 +834,16 @@ function updateNews() {
 input format : "search1,,search2,,search3"
 for each syncpair outerHTML, search all filters */
 function search(input) {
-	var filter = input.split(",,").filter(Boolean);
 
 	var syncPairs = document.getElementsByClassName('syncPair');
+
+	var filters = [];
+	var hiddenFilters = [];
+
+	input.split(",,").filter(Boolean).forEach(function(f) {
+		if(f.charAt(0) == "!") { hiddenFilters.push(f.substring(1)); }
+		else { filters.push(f); }
+	})
 
 	for(var i=0; i<syncPairs.length; i++) {
 		var syncPair = syncPairs[i];
@@ -844,9 +851,9 @@ function search(input) {
 		syncPair.classList.remove("notFound");
 
 		if(FILTER_MODE == "&") {
-			for(var e=0; e<filter.length; e++) {
+			for(var e=0; e<filters.length; e++) {
 				// replaceAll for the role of the eggs
-				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filter[e].toLowerCase())) {
+				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filters[e].toLowerCase())) {
 					syncPair.classList.add("found");
 				} else {
 					syncPair.classList.remove("found");
@@ -855,12 +862,12 @@ function search(input) {
 				}
 			}
 		} else {
-			for(var e=0; e<filter.length; e++) {
+			for(var e=0; e<filters.length; e++) {
 				if(syncPair.classList.contains("found")) {
 					continue;
 				}
 				// replaceAll for the role of the eggs
-				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filter[e].toLowerCase())) {
+				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filters[e].toLowerCase())) {
 					syncPair.classList.add("found");
 					syncPair.classList.remove("notFound");
 				} else {
@@ -868,6 +875,14 @@ function search(input) {
 					syncPair.classList.add("notFound");
 				}
 			}			
+		}
+		for(var e=0; e<hiddenFilters.length; e++) {
+			if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(hiddenFilters[e].toLowerCase())) {
+				syncPair.classList.remove("found");
+				syncPair.classList.add("notFound");
+			} else if(!syncPair.classList.contains("found") && !syncPair.classList.contains("notFound")) {
+				syncPair.classList.add("found");
+			}
 		}
 	}
 	countSelection()
@@ -881,8 +896,14 @@ function searchFilters() {
 	var filtersSPAN = [];
 
 	Array.from(document.getElementsByClassName("selectedFilter")).forEach(function(f) {
-		filters.push(f.value);
-		filtersSPAN.push(`<span>${f.innerHTML}</span>`)
+		if(f.classList.contains("filterToHide")) {
+			filters.push("!" + f.value);
+			filtersSPAN.push(`<span class="filterHidden">${f.innerHTML}</span>`);
+		} else {
+			filters.push(f.value);
+			filtersSPAN.push(`<span>${f.innerHTML}</span>`);
+		}
+
 	});
 
 	var searchValue = document.getElementById("search").value;
@@ -925,6 +946,7 @@ function filterMode() {
 function removeFilters() {
 	document.getElementById("search").value = "";
 	Array.from(document.getElementsByClassName("selectedFilter")).forEach(f => f.classList.remove("selectedFilter"));
+	Array.from(document.getElementsByClassName("filterToHide")).forEach(f => f.classList.remove("filterToHide"));
 	document.getElementById("btnDate").classList.remove("filterDateEnable");
 	searchFiltersORdateInterval();
 }
@@ -1128,31 +1150,22 @@ function takeScreenshot(id) {
 
 /* add eventlisteners to all filters buttons */
 function addEventButtonsFilters() {
+	
 	var filtersBtns = Array.from(document.getElementById("filters").getElementsByTagName("button"));
-	var syncLevelBtns = Array.from(document.getElementsByClassName("syncUserBtnSyncLevel"));
-	var favBtns = Array.from(document.getElementsByClassName("syncUserBtnFav"));
-	var starBtns = Array.from(document.getElementsByClassName("syncUserBtnStar"));
-	var filterStars = Array.from(document.getElementsByClassName("filterStar"));
-	var filterTypes = Array.from(document.getElementsByClassName("filterType"));
-	var filterWeak = Array.from(document.getElementsByClassName("filterWeak"));
-	var filterRoles = Array.from(document.getElementsByClassName("filterRole"));
-	var filterRegions = Array.from(document.getElementsByClassName("filterRegion"));
-	var filterGender = Array.from(document.getElementsByClassName("filterGender"));
-	var filterSeasonals = Array.from(document.getElementsByClassName("filterSeasonal"));
 
 	filtersBtns.forEach(b => b.addEventListener("click", function() {
 
-		[syncLevelBtns, favBtns, starBtns, filterStars, filterTypes, filterWeak,
-		filterRoles, filterRegions, filterGender, filterSeasonals].forEach(function(btns) {
-			if(btns.indexOf(b) > -1) {
-				btns.forEach(function(b2) {
-					if(FILTER_MODE == "&" && b != b2) { b2.classList.remove("selectedFilter"); }
-				});
-			}
-		})
+		if(!b.classList.contains("selectedFilter") && !b.classList.contains("filterToHide")) {
+			b.classList.add("selectedFilter");
+			b.classList.remove("filterToHide");
 
-		b.classList.toggle("selectedFilter");
+		} else if(b.classList.contains("selectedFilter") && !b.classList.contains("filterToHide")) {
+			b.classList.add("filterToHide");
 
+		} else if(b.classList.contains("selectedFilter") && b.classList.contains("filterToHide")) {
+			b.classList.remove("selectedFilter");
+			b.classList.remove("filterToHide");
+		}
 		searchFiltersORdateInterval();
 	}))
 }
