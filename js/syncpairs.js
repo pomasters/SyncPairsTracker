@@ -433,7 +433,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Eeveelution"
 		]
 	},
 	{
@@ -629,7 +630,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Eeveelution"
 		]
 	},
 	{
@@ -956,7 +958,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Terrain",
-			"Variety"
+			"Variety",
+			"Eeveelution"
 		]
 	},
 	{
@@ -1309,7 +1312,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Eeveelution"
 		]
 	},
 	{
@@ -3692,7 +3696,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Weather",
-			"Variety"
+			"Variety",
+			"Eeveelution"
 		]
 	},
 	{
@@ -4583,7 +4588,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"Eeveelution"
 		]
 	},
 	{
@@ -5304,7 +5310,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Story",
-			"isWoman"
+			"isWoman",
+			"Eeveelution"
 		]
 	},
 	{
@@ -9090,7 +9097,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isWoman"
+			"isWoman",
+			"Eeveelution"
 		]
 	},
 	{
@@ -9478,7 +9486,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Multiple Units",
 			"Weather",
-			"Variety"
+			"Variety",
+			"Eeveelution"
 		]
 	},
 	{
@@ -10206,7 +10215,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Hisui"
+			"Hisui",
+			"Eeveelution"
 		]
 	},
 	{
@@ -10239,7 +10249,8 @@ export const SYNCPAIRS = [
 			"Trainer Lodge",
 			"Multiple Units",
 			"isMan",
-			"Hisui"
+			"Hisui",
+			"Eeveelution"
 		]
 	},
 	{
@@ -10274,7 +10285,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			//"Multiple Units",
 			"isWoman",
-			"Hisui"
+			"Hisui",
+			"Eeveelution"
 		]
 	},
 	{
