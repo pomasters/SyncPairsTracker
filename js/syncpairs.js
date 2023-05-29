@@ -1321,7 +1321,8 @@ export const SYNCPAIRS = [
 		"pokemonGender": "♂",
 		"pokemonForm": [
 			"Treecko",
-			"Grovyle"
+			"Grovyle",
+			"Mega Evolution"
 		],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Poison",
@@ -2460,7 +2461,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png",
-			"Sync Pairs/5Star/0E_UNOVA_0B-09_Roxie_5Star.png"
+			"Sync Pairs/5Star/0E_UNOVA_0B-09_Roxie_5Star.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -4320,7 +4322,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Grid3",
+			"GridExpansion",
 		]
 	},
 	{
@@ -5759,6 +5763,40 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "091",
+		"trainerName": "Silver",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "0215",
+		"pokemonName": "Sneasel",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-06-17",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_SSSilver.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_SSSilver_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Johto",
+			"Rival",
+			"Sygna Suit",
+			"Battle Partner"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Multiple Units",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "092",
 		"trainerName": "Wally",
 		"trainerAlt": "",
@@ -6515,7 +6553,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Legendary",
-			"Shiny"
+			"Shiny",
+			"Grid5",
+			"GridExpansion",
 		]
 	},
 	{
@@ -7617,7 +7657,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"Grid5",
+			"GridExpansion",
 		]
 	},
 	{
@@ -10131,6 +10173,143 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Variety"
 		]
+	},
+	{
+		"dexNumber": "166",
+		"trainerName": "Adaman",
+		"trainerAlt": "",
+		"pokemonNumber": "0470",
+		"pokemonName": "Leafeon",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-05-31",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_Adaman.png",
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_Adaman_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Sinnoh",
+			"Nature Lover",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Weather",
+			"Multiple Units",
+			"isMan",
+			"Rebuff",
+			"Hisui"
+		]
+	},
+	{
+		"dexNumber": "166",
+		"trainerName": "Adaman",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0134",
+		"pokemonName": "Vaporeon",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-05-31",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_TL_Adaman.png",
+			"Sync Pairs/5Star/0I_HISUI_0B-01_TL_Adaman_5Star.png",
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_TL_Adaman_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Sinnoh",
+			"Nature Lover",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Limited Sync Pair Scout",
+			"Trainer Lodge",
+			"Multiple Units",
+			"isMan",
+			"Hisui"
+		]
+	},
+	{
+		"dexNumber": "167",
+		"trainerName": "Irida",
+		"trainerAlt": "",
+		"pokemonNumber": "0471",
+		"pokemonName": "Glaceon",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-06-02",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-02_Irida.png",
+			"Sync Pairs/0I_HISUI/0I_HISUI_0B-02_Irida_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Sinnoh",
+			"Nature Lover",
+			"Artistic"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Master Fair",
+			"Weather",
+			"Wish Zone",
+			//"Multiple Units",
+			"isWoman",
+			"Hisui"
+		]
+	},
+	{
+		"dexNumber": "168",
+		"trainerName": "Eusine",
+		"trainerAlt": "",
+		"pokemonNumber": "0245",
+		"pokemonName": "Suicune",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-06-15",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0E-01_Eusine.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0E-01_Eusine_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Johto",
+			"Cape",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Shiny",
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"isMan"
+		]
 	}
 	/*,
 	{
@@ -10192,4 +10371,4 @@ export const SYNCPAIRS = [
 ]
 
 
-export const VERSION = "v2.32.0";
+export const VERSION = "v2.33.0";
