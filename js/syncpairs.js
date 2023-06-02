@@ -10299,7 +10299,7 @@ export const SYNCPAIRS = [
 		"pokemonForm": [],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike",
+		"syncPairRole": "Special Strike",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-15",
 		"syncPairRegion": "Johto",
