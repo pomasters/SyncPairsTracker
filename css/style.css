@@ -635,16 +635,6 @@ input:focus { outline: 0; }
 	padding: 0 10px;
 }
 
-.editOrderBtn {
-	width: 45.5% !important;
-	margin-top: 15px;
-}
-
-.editOrderBtn img {
-	height: 8px;
-	margin: 1px 5px;
-}
-
 #filters .btn img {
 	height: 16px;
 	margin-bottom: -3px;

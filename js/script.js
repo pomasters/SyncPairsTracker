@@ -1011,9 +1011,6 @@ function lockMode() {
 	document.getElementById("increaseBtns").classList.remove("btnBlue");
 	document.getElementById("increaseOptions").classList.add("hide");
 	document.getElementById("selectionOptions").classList.add("hide");
-
-	sortable.options.disabled = true;
-	document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/off.png">`
 }
 
 function viewMode() {
@@ -1028,9 +1025,6 @@ function viewMode() {
 	document.getElementById("increaseOptions").classList.add("hide");
 	document.getElementById("selectionOptions").classList.add("hide");
 	document.getElementById("exportImportDiv").classList.add("hide");
-
-	sortable.options.disabled = true;
-	document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/off.png">`
 }
 
 
@@ -1057,21 +1051,6 @@ function showSorting() {
 	document.getElementById("increaseOptions").classList.add("hide");
 	document.getElementById("selectionOptions").classList.add("hide");
 	document.getElementById("visibilityOptions").classList.add("hide");
-}
-
-
-
-/* use sortablejs to enable drag drop of syncpair
-!! See at bottom of the file for initiate */
-var sortable;
-function editOrderMode() {
-	if(sortable.options.disabled) {
-		sortable.options.disabled = false;
-		document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/on.png">`
-	} else {
-		sortable.options.disabled = true;
-		document.getElementById("editOrderMode").innerHTML = `Edit order <img src="images/off.png">`
-	}
 }
 
 
@@ -1238,9 +1217,6 @@ function visibilityOptions() {
 /* Egg Mode */
 document.getElementById("btnEggs").addEventListener("click", function() {
 
-	sortable.destroy();
-	document.getElementById("editOrderMode").classList.remove("selectedOption")
-
 	if(this.classList.contains("btnEggsON")) {
 		EGGMONMODE = false;
 		generatePairs(SYNCPAIRS);
@@ -1307,8 +1283,6 @@ document.getElementById("filterMode").addEventListener("click", filterMode);
 
 document.getElementById("removeFilters").addEventListener("click", removeFilters);
 document.getElementById("removeFilters2").addEventListener("click", removeFilters);
-
-document.getElementById("editOrderMode").addEventListener("click", editOrderMode);
 
 document.getElementById("btnDate").addEventListener("click",  function() {
 	document.getElementById("btnDate").classList.toggle("filterDateEnable");
@@ -1463,12 +1437,6 @@ document.getElementById("showSeparator").addEventListener("click", function() {
 	selectedBtn.click();
 })
 
-document.getElementById("sortByCustom").addEventListener("click", function() {
-	if(localStorage.getItem(sortable.options.group.name) !== null) {
-		sortable.sort(localStorage.getItem(sortable.options.group.name).split("|"), true);		
-	}
-})
-
 
 /* Search Bar */
 document.getElementById("search").addEventListener("keyup", function() {
@@ -1551,20 +1519,6 @@ function generatePairs(pairs) {
 	countSelection();
 
 	removeFilters();
-
-	sortable = Sortable.create(document.getElementById("syncPairs"), {
-		group: "syncPairsTrackerOrder",
-		disabled: true,
-		store: {
-			get: function (sortable) {
-				return
-			},
-			set: function (sortable) {
-				var order = sortable.toArray();
-				localStorage.setItem(sortable.options.group.name, order.join('|'));
-			}
-		}
-	})
 }
 
 
