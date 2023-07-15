@@ -1072,7 +1072,8 @@ function takeScreenshot(id) {
 	html2canvas(document.getElementById('rightSide'),{
 			backgroundColor:null,
 			windowWidth:1920,
-			windowHeight:1080
+			windowHeight:1080,
+			scale:1
 		}).then(canvas => {
 
 			canvas.toBlob((blob) => {
