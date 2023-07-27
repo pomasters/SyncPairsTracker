@@ -2114,7 +2114,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png",
 			"Sync Pairs/4Star/0D_SINNOH_0E-03_Marley_4Star.png",
-			"Sync Pairs/5Star/0D_SINNOH_0E-03_Marley_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0E-03_Marley_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -4341,6 +4342,38 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "071",
+		"trainerName": "Calem",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0653",
+		"pokemonName": "Fennekin",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Special Strike",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-08-01",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_TL_Calem.png",
+			"Sync Pairs/5Star/0F_KALOS_0A-01_TL_Calem_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_TL_Calem_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Kalos",
+			"Main Character",
+			"Sunglasses"
+		],
+		"tags": [
+			"Starter",
+			"Trainer Lodge",
+			"Multiple Units",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "072",
 		"trainerName": "Glacia",
 		"trainerAlt": "",
@@ -6245,7 +6278,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Grid3",
+			"GridExpansion",
 		]
 	},
 	{
@@ -7431,6 +7466,44 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "111",
+		"trainerName": "Gloria",
+		"trainerAlt": "Alt. 2",
+		"pokemonNumber": "0815",
+		"pokemonName": "Cinderace",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Dynamax",
+			"Gigantamax"
+		],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-08-02",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GymGloria.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GymGloria_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Galar",
+			"Main Character",
+			"Passionate Spirit",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff"
+		]
+	},
+	{
 		"dexNumber": "112",
 		"trainerName": "N",
 		"trainerAlt": "",
@@ -8140,6 +8213,40 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary"
+		]
+	},
+	{
+		"dexNumber": "118",
+		"trainerName": "Leon",
+		"trainerAlt": "Alt",
+		"pokemonNumber": "0887",
+		"pokemonName": "Dragapult",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Dynamax"],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-07-31",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_TowerLeon.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_TowerLeonEX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Galar",
+			"Champion",
+			"Battle Facility Foe",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -9052,7 +9159,9 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Grid5",
+			"GridExpansion",
 		]
 	},
 	{
@@ -10052,7 +10161,40 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Starter",
-			"Grid5"
+			"Grid5",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "157",
+		"trainerName": "Victor",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0897",
+		"pokemonName": "Spectrier",
+		"pokemonGender": "",
+		"pokemonForm": ["Dynamax"],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-08-16",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_SpecialVictor.png",
+			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_SpecialVictor_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Galar",
+			"Main Character",
+			"Galar Adventurer"
+		],
+		"tags": [
+			"Legendary",
+			"Limited Event",
+			"Wish Zone",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -10571,6 +10713,98 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff"
 		]
+	},
+	{
+		"dexNumber": "171",
+		"trainerName": "Olympia",
+		"trainerAlt": "",
+		"pokemonNumber": "0561",
+		"pokemonName": "Sigilyph",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-08-04",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-07_Olympia.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-07_Olympia_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Kalos",
+			"Gym Leader",
+			"Supernatural",
+			"Cape"
+		],
+		"tags": [
+			"Gen Pool",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "172",
+		"trainerName": "Drasna",
+		"trainerAlt": "",
+		"pokemonNumber": "0691",
+		"pokemonName": "Dragalge",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-08-07",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/0F_KALOS_0C-04_Drasna.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0C-04_Drasna_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Kalos",
+			"Elite Four",
+			"Free Spirit"
+		],
+		"tags": [
+			"Gen Pool",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "173",
+		"trainerName": "Nemona",
+		"trainerAlt": "",
+		"pokemonNumber": "0923",
+		"pokemonName": "Pawmot",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-08-08",
+		"syncPairRegion": "Rival",
+		"images": [
+			"Sync Pairs/0J_PALDEA/0J_PALDEA_0A-03_Nemona.png",
+			"Sync Pairs/0J_PALDEA/0J_PALDEA_0A-03_Nemona_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Rival",
+			"Champion",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited Sync Pair Scout",
+			"Poké Fair",
+			"isWoman",
+			"Paldea"
+		]
 	}
 	/*,
 	{
@@ -10625,11 +10859,12 @@ export const SYNCPAIRS = [
 			"Special Costume",
 			"Anniversary",
 			"Variety",
-			"Rebuff"
+			"Rebuff",
+			"Z-Move"
 		]
 	}
 	*/
 ]
 
 
-export const VERSION = "v2.34.0";
+export const VERSION = "v2.35.0";

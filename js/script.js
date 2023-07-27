@@ -7,7 +7,7 @@ const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png
 const syncStarImgs2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
 const syncFavImgs = ["images/favorite1.png","images/favoriteG.png","images/favoriteY.png","images/favoriteO.png","images/favoriteR.png","images/favoriteV.png","images/favoriteB.png","images/favorite2.png"];
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
-const rolesOrder = {"physical strike":"01","special strike":"01","tech":"02","support":"03"};
+const rolesOrder = {"physical strike":"01","special strike":"01","tech":"02","support":"03","sprint":"04","field":"05"};
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 
 
