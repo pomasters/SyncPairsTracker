@@ -10786,7 +10786,7 @@ export const SYNCPAIRS = [
 		"syncPairRole": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-08",
-		"syncPairRegion": "Rival",
+		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/0J_PALDEA/0J_PALDEA_0A-03_Nemona.png",
 			"Sync Pairs/0J_PALDEA/0J_PALDEA_0A-03_Nemona_EX.png"
@@ -10802,8 +10802,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isWoman",
-			"Paldea"
+			"isWoman"
 		]
 	}
 	/*,
