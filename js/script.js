@@ -791,21 +791,15 @@ function dateInterval() {
 		}
 	}
 
-	document.getElementById("filtersUsed").innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span>`;
+	var selecteFiltersLength = Array.from(document.getElementsByClassName("selectedFilter")).length;
 
+	if(document.getElementById("search").value != "") { selecteFiltersLength++; }
 
-	var selecteFilters = Array.from(document.getElementsByClassName("selectedFilter")).map(f => `<span>${f.innerHTML}</span>`);
-
-	var searchValue = document.getElementById("search").value;
-	if(searchValue != "") { selecteFilters.unshift(`<span>${searchValue}</span>`); }
-
-	if(selecteFilters.length != 0) {
-		document.getElementById("filtersUsed").innerHTML += " : " + selecteFilters.join(` ${FILTER_MODE} `);
-	}
+	document.getElementById("filtersUsed").innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span> : ` + document.getElementById("filtersUsed").innerHTML;
 
 	document.getElementById("removeFilters").classList.add("btnRed");
 	document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
-	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFilters.length + 1})`;
+	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFiltersLength + 1})`;
 
 	countSelection();
 }
@@ -908,8 +902,11 @@ function searchFilters() {
 
 	var searchValue = document.getElementById("search").value;
 	if(searchValue !== "") {
-		filters.push('Name">'+searchValue);
-		filtersSPAN.push(`<span>${searchValue}</span>`);		
+		var toSearch = searchValue.replace("  ","").replace(" , ",",").replace(", ",",").replace(" ,",",").split(",");
+		toSearch.forEach(function(el) {
+			filters.push('Name">'+el);
+			filtersSPAN.push(`<span>${el}</span>`);
+		})
 	}
 	
 	document.getElementById("filtersUsed").innerHTML = filtersSPAN.join(` ${FILTER_MODE} `);
