@@ -1,6 +1,7 @@
 import {SYNCPAIRS, VERSION} from './syncpairs.js';
 import {EGGS} from './eggs.js';
 import {NEWS} from './news.js';
+import {ITEMS} from './items.js';
 
 const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
@@ -150,6 +151,12 @@ function generatePairsHTML(pairs) {
 }
 
 
+
+var ua = window.navigator.userAgent;
+var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+var webkit = !!ua.match(/WebKit/i);
+var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+
 /* add eventlisterner to all ".syncpair" elements, move level and images */
 function addSyncPairsEvents() {
 
@@ -160,11 +167,6 @@ function addSyncPairsEvents() {
 
 	var syncStarFavsLevels = syncStars.concat(syncLevels);
 	var syncStarFavsLevelsImages = syncImages.concat(syncStarFavsLevels);
-
-	var ua = window.navigator.userAgent;
-	var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
-	var webkit = !!ua.match(/WebKit/i);
-	var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
 
 	syncImages.forEach(s => s.addEventListener("click", function() {
 
@@ -269,6 +271,83 @@ function chooseFavorite(favorite) {
 			image.removeAttribute("class")
 		}
 	});
+}
+
+
+function showCandy() {
+
+	document.getElementById("btnItems").classList.toggle("btnItemsON");
+	document.getElementById('items').classList.toggle("hide");
+
+	if(document.getElementById('items').innerHTML == "") {
+		generateItemsHTML(ITEMS);
+	}
+}
+
+function generateItemsHTML(items) {
+
+	var result = "";
+
+	if(localStorage.getItem("syncPairsTrackerItems") !== null) {
+		var storedItems = JSON.parse(localStorage.getItem("syncPairsTrackerItems"));
+
+		for(var i=0; i<items.length; i++) {
+			var count = storedItems[items[i].name];
+			var noIt = "";
+			if(count == "0") { noIt = " noItem"; }
+
+			result += `<div class="item itemBg_${items[i].background}${noIt}">
+							<img draggable="false" class="itemImg" src="${items[i].image}">
+							<p class="itemName">${items[i].name}</p>
+							<p class="itemCount">${count}</p>
+						</div>`;
+		}
+	} else {
+		for(var i=0; i<items.length; i++) {
+
+			result += `<div class="item itemBg_${items[i].background} noItem">
+							<img draggable="false" class="itemImg" src="${items[i].image}">
+							<p class="itemName">${items[i].name}</p>
+							<p class="itemCount">0</p>
+						</div>`;
+		}
+	}
+
+	document.getElementById('items').innerHTML = result;
+
+	function saveItems() {
+		var items = {}
+		Array.from(document.getElementById('items').getElementsByClassName("item")).forEach(function(i) {
+			items[i.getElementsByClassName("itemName")[0].innerHTML] = i.getElementsByClassName("itemCount")[0].innerHTML;
+		})
+		localStorage.setItem("syncPairsTrackerItems", JSON.stringify(items));
+	}
+
+	function resetItem(itemHtml) {
+		itemHtml.classList.add("noItem");
+		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = "0";
+	}
+
+	Array.from(document.getElementById('items').getElementsByClassName("item")).forEach(function(i) {
+
+		i.addEventListener("click", function() {
+			this.classList.remove("noItem");
+			this.getElementsByClassName("itemCount")[0].innerHTML = (parseInt(this.getElementsByClassName("itemCount")[0].innerHTML) + 1);
+			saveItems();
+		})
+
+		if(iOSSafari) {
+			i.addEventListener("long-press", function(e) { resetItem(this); saveItems(); })
+		} else {
+			i.addEventListener("contextmenu", function(e) {
+				e.preventDefault();	e.stopPropagation();
+
+				resetItem(this); saveItems();
+
+				return false;
+			})
+		}
+	})
 }
 
 
@@ -1059,6 +1138,7 @@ function takeScreenshot(id) {
 	document.getElementById("screenshot").classList.add("hide");
 	document.getElementById("counter").classList.add("forScreenshot");
 	document.getElementById("syncPairs").classList.add("forScreenshot");
+	document.getElementById("items").classList.add("forScreenshot");
 	document.getElementById("linkTool").classList.remove("hide");
 
 	if(document.getElementsByClassName("selectedFilter").length > 0) {
@@ -1106,7 +1186,8 @@ function takeScreenshot(id) {
 			});
 
 			document.getElementById("counter").classList.remove("forScreenshot");
-			document.getElementById("syncPairs").classList.add("forScreenshot");
+			document.getElementById("syncPairs").classList.remove("forScreenshot");
+			document.getElementById("items").classList.remove("forScreenshot");
 			document.getElementById("linkTool").classList.add("hide");
 
 			document.getElementById("counterSelected").classList.remove("hide");
@@ -1226,6 +1307,7 @@ document.getElementById("btnEggs").addEventListener("click", function() {
 	}
 })
 
+document.getElementById("btnItems").addEventListener("click", showCandy);
 
 document.getElementById("previousNews").addEventListener("click", function() { CURRENT_NEW++; updateNews(); });
 document.getElementById("nextNews").addEventListener("click", function() { CURRENT_NEW--; updateNews(); });
@@ -1477,8 +1559,7 @@ document.getElementById("mobileMenuFilters").addEventListener("click", function(
 	document.getElementById("leftSideTop").innerHTML = "<p>Filters</p>"
 	document.getElementById("removeFilters2").classList.remove("hide");
 
-	document.getElementById("version").classList.add("hide");
-	document.getElementById("btnEggs").classList.add("hide");
+	document.getElementById("leftSideHead").classList.add("hide");
 	document.getElementById("news").classList.add("hide");
 	document.getElementById("filters").classList.remove("hide");
 	document.getElementById("options").classList.add("hide");
@@ -1493,8 +1574,7 @@ document.getElementById("mobileMenuOptions").addEventListener("click", function(
 	document.getElementById("leftSideTop").innerHTML = "<p>Options</p>"
 	document.getElementById("removeFilters2").classList.add("hide");
 
-	document.getElementById("version").classList.remove("hide");
-	document.getElementById("btnEggs").classList.remove("hide");
+	document.getElementById("leftSideHead").classList.remove("hide");
 	document.getElementById("news").classList.remove("hide");
 	document.getElementById("filters").classList.add("hide");
 	document.getElementById("options").classList.remove("hide");

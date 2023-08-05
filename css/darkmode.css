@@ -161,8 +161,12 @@ body {
 	background-color: #404040;
 }
 
+.item {
+	filter: drop-shadow(1px 3px 0px rgb(171 205 239 / 20%));
+}
 
-#syncPairs {
+
+#syncPairs, #items {
 	background-color: rgb(12 12 12 / 42%);
 }
 
