@@ -298,18 +298,30 @@ function generateItemsHTML(items) {
 			if(count == "0") { noIt = " noItem"; }
 
 			result += `<div class="item itemBg_${items[i].background}${noIt}">
-							<img draggable="false" class="itemImg" src="${items[i].image}">
-							<p class="itemName">${items[i].name}</p>
-							<p class="itemCount">${count}</p>
+							<div class="itemInfos">
+								<img draggable="false" class="itemImg" src="${items[i].image}">
+								<p class="itemName">${items[i].name}</p>
+								<p class="itemCount">${count}</p>
+							</div>
+							<div class="itemIncrDrec" data-html2canvas-ignore="true">
+								<button type="button" class="btnIncreaseItem">+</button>
+								<button type="button" class="btnDecreaseItem">-</button>
+							</div>
 						</div>`;
 		}
 	} else {
 		for(var i=0; i<items.length; i++) {
 
 			result += `<div class="item itemBg_${items[i].background} noItem">
-							<img draggable="false" class="itemImg" src="${items[i].image}">
-							<p class="itemName">${items[i].name}</p>
-							<p class="itemCount">0</p>
+							<div class="itemInfos">
+								<img draggable="false" class="itemImg" src="${items[i].image}">
+								<p class="itemName">${items[i].name}</p>
+								<p class="itemCount">0</p>
+							</div>
+							<div class="itemIncrDrec" data-html2canvas-ignore="true">
+								<button type="button" class="btnIncreaseItem">+</button>
+								<button type="button" class="btnDecreaseItem">-</button>
+							</div>
 						</div>`;
 		}
 	}
@@ -324,30 +336,43 @@ function generateItemsHTML(items) {
 		localStorage.setItem("syncPairsTrackerItems", JSON.stringify(items));
 	}
 
+	function plusItem(itemHtml) {
+		itemHtml.classList.remove("noItem");
+		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) + 1;
+		saveItems();
+	}
+
+	function minusItem(itemHtml) {
+		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) - 1;
+		if(parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) <= 0) { resetItem(itemHtml);	}
+		saveItems();
+	}
+
 	function resetItem(itemHtml) {
 		itemHtml.classList.add("noItem");
 		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = "0";
+		saveItems();
 	}
 
-	Array.from(document.getElementById('items').getElementsByClassName("item")).forEach(function(i) {
+	Array.from(document.getElementById('items').getElementsByClassName("itemInfos")).forEach(function(i) {
 
-		i.addEventListener("click", function() {
-			this.classList.remove("noItem");
-			this.getElementsByClassName("itemCount")[0].innerHTML = (parseInt(this.getElementsByClassName("itemCount")[0].innerHTML) + 1);
-			saveItems();
-		})
+		i.addEventListener("click", function() { plusItem(this.parentElement); })
 
 		if(iOSSafari) {
-			i.addEventListener("long-press", function(e) { resetItem(this); saveItems(); })
+			i.addEventListener("long-press", function(e) { minusItem(this.parentElement); })
 		} else {
 			i.addEventListener("contextmenu", function(e) {
-				e.preventDefault();	e.stopPropagation();
-
-				resetItem(this); saveItems();
-
-				return false;
+				e.preventDefault();	e.stopPropagation(); minusItem(this.parentElement); return false;
 			})
 		}
+	})
+
+	Array.from(document.getElementById('items').getElementsByClassName("btnIncreaseItem")).forEach(function(i) {
+		i.addEventListener("click", function() { plusItem(this.parentElement.parentElement); })
+	})
+
+	Array.from(document.getElementById('items').getElementsByClassName("btnDecreaseItem")).forEach(function(i) {
+		i.addEventListener("click", function() { minusItem(this.parentElement.parentElement); })
 	})
 }
 
@@ -1062,6 +1087,19 @@ function showSeparator(dataToSeparate) {
 				inner2 = prev_pair.classList.contains("selected").toString().replace("true","Have").replace("false","Not have");
 				break;
 
+			case ".infoReleaseDate":
+				inner = curr_pair.querySelector(dataToSeparate).innerHTML;
+				inner2 = prev_pair.querySelector(dataToSeparate).innerHTML;
+
+				if(document.getElementById("separateByYear").checked) {
+					inner = inner.substring(0,4);
+					inner2 = inner2.substring(0,4);
+				} else if(document.getElementById("separateByMonth").checked) {
+					inner = inner.substring(0,7);
+					inner2 = inner2.substring(0,7);
+				}
+				break;
+
 			default:
 				inner = curr_pair.querySelector(dataToSeparate).innerHTML.replace("Special Strike", "Strike").replace("Physical Strike", "Strike");
 				inner2 = prev_pair.querySelector(dataToSeparate).innerHTML.replace("Special Strike", "Strike").replace("Physical Strike", "Strike")
@@ -1373,6 +1411,23 @@ document.getElementById("btnDate").addEventListener("click",  function() {
 
 document.getElementById("date1").addEventListener("change", searchFiltersORdateInterval);
 document.getElementById("date2").addEventListener("change", searchFiltersORdateInterval);
+
+
+Array.from(document.getElementById("sorting").getElementsByClassName("btn")).forEach(b => 
+	b.addEventListener("click", function() {
+		if(document.getElementById("showSeparator").checked && this.id == "sortByDate") {
+			document.getElementById("separateByDateOptions").classList.remove("hide");
+		} else { document.getElementById("separateByDateOptions").classList.add("hide"); }		
+}))
+document.getElementById("showSeparator").addEventListener("change", function() {
+	if(document.getElementById("sortByDate").classList.contains("btnBlue")) {
+		if(this.checked) { document.getElementById("separateByDateOptions").classList.remove("hide");
+		} else { document.getElementById("separateByDateOptions").classList.add("hide"); }
+	}
+})
+document.getElementById("separateByYear").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
+document.getElementById("separateByMonth").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
+document.getElementById("separateByDay").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
 
 
 document.getElementById("sortByDexNumber").addEventListener("click", function() {

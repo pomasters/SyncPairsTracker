@@ -95,7 +95,8 @@ body {
 	box-shadow: 1px 1px 3px #000000;
 }
 .filterDateEnable { color: #585858 !important; }
-.checkboxOption {	color: var(--text); }
+.checkboxOption,
+#separateByDateOptions {	color: var(--text); }
 
 #filters .btn:active,
 #options .btn:active,

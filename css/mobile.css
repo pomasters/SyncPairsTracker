@@ -327,9 +327,18 @@
 		display: none;
 	}
 
-	.itemCount {
-		right: 0px;
-		bottom: 0px;
+	.itemIncrDrec {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		z-index: 5;
+		margin: 5px;
+		margin-top: 0px;
+	}
+
+	.itemIncrDrec button {
+		width: 50%;
+		padding: 2px;
 	}
 
 	.counter {

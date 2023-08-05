@@ -586,6 +586,25 @@ input:focus { outline: 0; }
 }
 .checkboxOption label { margin-left: 5px; }
 
+#separateByDateOptions {
+	color: var(--blue1);
+	font-size: 12.5px;
+	margin-left: 4.4%;
+	margin-top: 8px;
+	display: flex;
+	justify-content: normal;
+	flex-wrap: wrap;
+	text-align: left;
+}
+#separateByDateOptions > p {
+	margin: 0;
+}
+#separateByDateOptions > div {
+	display: flex;
+	margin: 0;
+	align-items: center;
+}
+
 #filters .btn:hover,
 #options .btn:hover,
 #userBtns .btn:hover,
@@ -1249,10 +1268,11 @@ input:focus { outline: 0; }
 
 .item {
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-position: top;
+	background-size: contain;
 	width: 75px;
 	display: flex;
+	flex-direction: column;
 	position: relative;
 	margin: 5px;
 	filter: drop-shadow(1px 3px 0px #ABCDEF);
@@ -1283,15 +1303,16 @@ input:focus { outline: 0; }
 	background-image: url("../images/item_bg_gold.png");
 }
 
+.itemInfos {
+	width: 100%;
+	height: fit-content;
+	max-height: 75px;
+	position: relative;
+}
+
 .itemImg {
 	width: 100%;
-	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	-khtml-user-select: none !important;
-	-moz-user-select: none !important;
-	-o-user-select: none !important;
-	user-select: none !important;
 }
 
 .itemName {
@@ -1301,10 +1322,10 @@ input:focus { outline: 0; }
 .itemCount {
 	color: white;
 	position: absolute;
-	right: 3px;
-	bottom: 3px;
-	text-shadow: rgb(60, 114, 128) 2px 0px 0px, rgb(60, 114, 128) 1.75517px 0.958851px 0px, rgb(60, 114, 128) 1.0806px 1.68294px 0px, rgb(60, 114, 128) 0.141474px 1.99499px 0px, rgb(60, 114, 128) -0.832294px 1.81859px 0px, rgb(60, 114, 128) -1.60229px 1.19694px 0px, rgb(60, 114, 128) -1.97998px 0.28224px 0px, rgb(60, 114, 128) -1.87291px -0.701566px 0px, rgb(60, 114, 128) -1.30729px -1.5136px 0px, rgb(60, 114, 128) -0.421592px -1.95506px 0px, rgb(60, 114, 128) 0.567324px -1.91785px 0px, rgb(60, 114, 128) 1.41734px -1.41108px 0px, rgb(60, 114, 128) 1.92034px -0.558831px 0px;
 	margin: 0;
+	right: 5px;
+	bottom: 5px;
+	text-shadow: rgb(60, 114, 128) 2px 0px 0px, rgb(60, 114, 128) 1.75517px 0.958851px 0px, rgb(60, 114, 128) 1.0806px 1.68294px 0px, rgb(60, 114, 128) 0.141474px 1.99499px 0px, rgb(60, 114, 128) -0.832294px 1.81859px 0px, rgb(60, 114, 128) -1.60229px 1.19694px 0px, rgb(60, 114, 128) -1.97998px 0.28224px 0px, rgb(60, 114, 128) -1.87291px -0.701566px 0px, rgb(60, 114, 128) -1.30729px -1.5136px 0px, rgb(60, 114, 128) -0.421592px -1.95506px 0px, rgb(60, 114, 128) 0.567324px -1.91785px 0px, rgb(60, 114, 128) 1.41734px -1.41108px 0px, rgb(60, 114, 128) 1.92034px -0.558831px 0px;
 	font-size: 11px;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
@@ -1317,4 +1338,8 @@ input:focus { outline: 0; }
 
 .itemCount::before {
 	content: "×";
+}
+
+.itemIncrDrec {
+	display: none;
 }
