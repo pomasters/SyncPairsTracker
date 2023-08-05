@@ -889,6 +889,7 @@ input:focus { outline: 0; }
 .syncStar img {
 	width: 100%;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -914,6 +915,7 @@ input:focus { outline: 0; }
 	position: absolute;
 	width: 100%;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -945,6 +947,7 @@ input:focus { outline: 0; }
 	width: 22px;
 	height: 22px;
 	pointer-events: auto !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -981,6 +984,7 @@ input:focus { outline: 0; }
 .syncLevel img {
 	width: 100%;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -1007,6 +1011,7 @@ input:focus { outline: 0; }
 .syncImages img {
 	width: 100%;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -1251,6 +1256,7 @@ input:focus { outline: 0; }
 	position: relative;
 	margin: 5px;
 	filter: drop-shadow(1px 3px 0px #ABCDEF);
+	-webkit-touch-callout: none !important;
 }
 
 .item::selection {
@@ -1280,6 +1286,7 @@ input:focus { outline: 0; }
 .itemImg {
 	width: 100%;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
@@ -1300,6 +1307,7 @@ input:focus { outline: 0; }
 	margin: 0;
 	font-size: 11px;
 	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
