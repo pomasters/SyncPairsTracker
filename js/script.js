@@ -276,6 +276,7 @@ function chooseFavorite(favorite) {
 
 function showCandy() {
 
+	//document.getElementById('itemsCounter').classList.toggle("hide");
 	document.getElementById("btnItems").classList.toggle("btnItemsON");
 	document.getElementById('items').classList.toggle("hide");
 
@@ -434,17 +435,18 @@ function countSelection() {
 		allFound = allNotSelectedFound;
 	}
 
-	document.getElementById("counterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="counterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
+	document.getElementById("pairsCounterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
 
 	if(allFound > 0) {
-		document.getElementById("counterFound").innerHTML = `${allSelectedFound} / ${allFound}<span class="counterPercentage"> (${((allSelectedFound/allFound)*100).toFixed(1)}%)</span>`;
-		document.getElementById("counterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs}<span class="counterPercentage"> (${((allFound/totalSyncPairs)*100).toFixed(1)}%)</span>`;
+		document.getElementById("pairsCounterFound").innerHTML = `${allSelectedFound} / ${allFound}<span class="pairsCounterPercentage"> (${((allSelectedFound/allFound)*100).toFixed(1)}%)</span>`;
+		document.getElementById("pairsCounterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allFound/totalSyncPairs)*100).toFixed(1)}%)</span>`;
+		document.getElementById("pairsCounterSelected").innerHTML = "";
+		document.getElementById("pairsCounterTotal").innerHTML = "";
 	} else {
-		document.getElementById("counterFound").innerHTML = "";
-		document.getElementById("counterFoundTotal").innerHTML = "";
+		document.getElementById("pairsCounterFound").innerHTML = "";
+		document.getElementById("pairsCounterFoundTotal").innerHTML = "";
+		document.getElementById("pairsCounterTotal").innerHTML = `${totalSyncPairs} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (100.0%)</span>`;
 	}
-
-	document.getElementById("counterTotal").innerHTML = `Total : ${totalSyncPairs}`;
 }
 
 
@@ -768,7 +770,7 @@ function visibility() {
 
 		"datamineVisible": `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }\n`,
 
-		"counterPercentageVisible" : `.counterPercentage { display: none; }\n`,
+		"pairsCounterPercentageVisible" : `.pairsCounterPercentage { display: none; }\n`,
 
 		"syncFavsVisible" : `#buttonsFav, .syncFav { display: none !important; }\n`,
 
@@ -811,8 +813,8 @@ function loadVisibilityFromLocalStorage() {
 		document.getElementById("datamineVisible").click();
 	}
 
-	if((localStorage.getItem("counterPercentageVisible") !== null) && (localStorage.getItem("counterPercentageVisible") === "false")) {
-		document.getElementById("counterPercentageVisible").click();
+	if((localStorage.getItem("pairsCounterPercentageVisible") !== null) && (localStorage.getItem("pairsCounterPercentageVisible") === "false")) {
+		document.getElementById("pairsCounterPercentageVisible").click();
 	}
 
 	if((localStorage.getItem("syncFavsVisible") !== null) && (localStorage.getItem("syncFavsVisible") === "false")) {
@@ -1136,14 +1138,14 @@ function takeScreenshot(id) {
 	document.getElementById("image_done").classList.add("hide");
 
 	document.getElementById("screenshot").classList.add("hide");
-	document.getElementById("counter").classList.add("forScreenshot");
+	document.getElementById("pairsCounter").classList.add("forScreenshot");
 	document.getElementById("syncPairs").classList.add("forScreenshot");
 	document.getElementById("items").classList.add("forScreenshot");
 	document.getElementById("linkTool").classList.remove("hide");
 
 	if(document.getElementsByClassName("selectedFilter").length > 0) {
-		document.getElementById("counterSelected").classList.add("hide");
-		document.getElementById("counterTotal").classList.add("hide");
+		document.getElementById("pairsCounterSelected").classList.add("hide");
+		document.getElementById("pairsCounterTotal").classList.add("hide");
 	}
 
 	html2canvas(document.getElementById('rightSide'),{
@@ -1185,13 +1187,13 @@ function takeScreenshot(id) {
 				}
 			});
 
-			document.getElementById("counter").classList.remove("forScreenshot");
+			document.getElementById("pairsCounter").classList.remove("forScreenshot");
 			document.getElementById("syncPairs").classList.remove("forScreenshot");
 			document.getElementById("items").classList.remove("forScreenshot");
 			document.getElementById("linkTool").classList.add("hide");
 
-			document.getElementById("counterSelected").classList.remove("hide");
-			document.getElementById("counterTotal").classList.remove("hide");
+			document.getElementById("pairsCounterSelected").classList.remove("hide");
+			document.getElementById("pairsCounterTotal").classList.remove("hide");
 
 			document.getElementById("leftSide").classList.remove("leftSideVisible");
 
@@ -1340,7 +1342,7 @@ document.getElementById("notSelectedVisible").addEventListener("click", function
 
 document.getElementById("datamineVisible").addEventListener("click", datamineVisible);
 
-document.getElementById("counterPercentageVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("pairsCounterPercentageVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncFavsVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncInfosVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("fullWidthVisible").addEventListener("click", function() { elementVisible(this.id); });

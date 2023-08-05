@@ -140,9 +140,9 @@ body {
 	background-image: url(../images/bg3.png);
 }
 
-#counter,
-#counter::before,
-#counter::after {
+.counter,
+.counter::before,
+.counter::after {
 	background-color: var(--mostDark);
 }
 

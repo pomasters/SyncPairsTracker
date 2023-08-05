@@ -1,7 +1,7 @@
 export const NEWS = [
 	{
 		"date": "2023-08-05",
-		"info" : "Add a candy tracker"
+		"info" : "Add a candy tracker + small adjustments on pairs counter"
 	},
 	{
 		"date": "2023-07-27",

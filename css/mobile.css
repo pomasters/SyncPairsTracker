@@ -140,6 +140,13 @@
 
 	.leftSideVisible { display: initial !important; }
 
+
+	.checkboxOption { color: var(--blue1) !important; }
+	.checkboxOption:has(#syncInfosVisible),
+	.checkboxOption:has(#fullWidthVisible) {
+		display: none;
+	}
+
 	#leftSide > div:nth-child(2) {
 		background-image: url(../images/bg2.png);
 		background-color: white;
@@ -325,7 +332,7 @@
 		bottom: 0px;
 	}
 
-	#counter {
+	.counter {
 		font-size: 0.8em;
 		line-height: 16px;
 		padding: 5px 0;
@@ -335,14 +342,14 @@
 		font-size: 0.9em;
 	}
 
-	#counter::before,
-	#counter::after {
+	.counter::before,
+	.counter::after {
 		height: 100%;
 	}
 
-	#counterFound { text-align: left; }
-	#counterFoundTotal { text-align: center; }
-	#counterSelected { text-align: right; }
+	#pairsCounterFound { text-align: left; }
+	#pairsCounterFoundTotal { text-align: center; }
+	#pairsCounterSelected { text-align: right; }
 
 	#filtersUsed span img {
 		height: 1.1em;

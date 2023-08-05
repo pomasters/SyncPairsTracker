@@ -33,15 +33,17 @@
 	filter: none;
 }
 
-#counterFound,
-#counterSelected,
+#pairsCounterFound,
+#pairsCounterSelected,
+#pairsCounterTotal:empty,
 .syncStar,
 .syncFav,
 .syncLevel {
 	display: none !important;
 }
 
-#counterTotal { display: block; }
+#pairsCounterFoundTotal { margin-left: auto; }
+#pairsCounterTotal { display: block; }
 
 .syncPair {
 	opacity: 1 !important;

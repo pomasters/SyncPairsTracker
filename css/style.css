@@ -760,7 +760,7 @@ input:focus { outline: 0; }
 	position: relative;
 }
 
-#counter {
+.counter {
 	background-color: var(--blue2);
 	color: white;
 	margin: auto;
@@ -772,12 +772,12 @@ input:focus { outline: 0; }
 	justify-content: space-between;
 }
 
-#counter p {
+.counter p {
 	margin: 0 10px;
 	height: fit-content;
 }
 
-#counter::before {
+.counter::before {
 	content: ".";
 	color: transparent;
 	background-color: var(--blue2);
@@ -788,7 +788,7 @@ input:focus { outline: 0; }
 	top: 0;
 }
 
-#counter::after {
+.counter::after {
 	content: ".";
 	color: transparent;
 	background-color: var(--blue2);
@@ -799,7 +799,10 @@ input:focus { outline: 0; }
 	top: 0;
 }
 
-#counterTotal { display: none; }
+#pairsCounterFound { margin-right: auto; }
+#pairsCounterFoundTotal { margin-left: auto; }
+#pairsCounterSelected:empty,
+#pairsCounterTotal { display: none; }
 
 #filtersUsed {
 	color: var(--blue1);

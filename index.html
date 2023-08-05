@@ -71,7 +71,7 @@
 						<button type="button" class="btn smallerText" id="datamineVisible">Not released</button>
 
 						<div>
-							<div class="checkboxOption"><input type="checkbox"id="counterPercentageVisible"><label for="counterPercentageVisible">Hide percentage in counter</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="pairsCounterPercentageVisible"><label for="pairsCounterPercentageVisible">Hide percentage in pairsCounter</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="syncInfosVisible"><label for="syncInfosVisible">Hide sync pair informations</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="fullWidthVisible"><label for="fullWidthVisible">Full width of the window</label></div>
@@ -137,7 +137,7 @@
 							<button type="button" class="btn syncUserBtnStar" value='data-currentstar="3"'>&nbsp;<img src="images/star3.png"></button>
 							<button type="button" class="btn syncUserBtnStar" value='data-currentstar="4"'>&nbsp;<img src="images/star4.png"></button>
 							<button type="button" class="btn syncUserBtnStar" value='data-currentstar="5"'>&nbsp;<img src="images/star5.png"></button>
-							<button type="button" class="btn syncUserBtnStar" value='EX.png">'>&nbsp;<img src="images/star6.png"><span class="tooltiptext">Can Ex, not EXed</span></button>
+							<button type="button" class="btn syncUserBtnStar" value='EX.png">'>&nbsp;<img src="images/star6.png"><span class="tooltiptext">Can Ex but not EXed</span></button>
 						</div>
 						<div>
 							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="0"'>&nbsp;<img src="images/1.png"></button>
@@ -394,9 +394,16 @@
 		</div>
 
 		<div id="rightSide">
+			<div id="itemsCounter" class="counter hide"><p>5★ Move Candy</p></div>
+
 			<div id="items" class="hide"></div>
 
-			<div id="counter"><p id="counterFound"></p><p id="counterFoundTotal"></p><p id="counterSelected">Selected / Total</p><p id="counterTotal"></p></div>
+			<div id="pairsCounter" class="counter">
+				<p id="pairsCounterFound"></p>
+				<p id="pairsCounterFoundTotal"></p>
+				<p id="pairsCounterSelected">Selected / Total</p>
+				<p id="pairsCounterTotal"></p>
+			</div>
 
 			<div id="filtersUsed"></div>
 
