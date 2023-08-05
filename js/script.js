@@ -432,13 +432,14 @@ function addToLocalStorage(syncpair) {
 /* takes all elements with a specific class (all, selected, found, notfound)
 and insert the count in the corresponding output element */
 function countSelection() {
-	var totalSyncPairs, allSelected, allSelectedFound, allFound, allNotSelected, allNotSelectedFound;
+	var totalSyncPairs, allSelected, allSelectedFound, allFound, allNotFound, allNotSelected, allNotSelectedFound;
 
 	if((localStorage.getItem("datamineVisible") !== null) && (localStorage.getItem("datamineVisible") === "false")) {
 		totalSyncPairs = parseInt(Array.from(document.querySelectorAll(".syncPair:not(.datamine)")).length);
 		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected:not(.datamine)")).length);
 		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found:not(.datamine)")).length);
 		allFound = parseInt(Array.from(document.querySelectorAll(".syncPair.found:not(.datamine)")).length);
+		allNotFound = parseInt(Array.from(document.querySelectorAll(".syncPair.notFound:not(.datamine)")).length);
 		allNotSelected = totalSyncPairs-allSelected;
 		allNotSelectedFound = allFound-allSelectedFound;
 	} else {
@@ -446,8 +447,9 @@ function countSelection() {
 		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected")).length);
 		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found")).length);
 		allFound = parseInt(Array.from(document.querySelectorAll(".syncPair.found")).length);
+		allNotFound = parseInt(Array.from(document.querySelectorAll(".syncPair.notFound")).length);
 		allNotSelected = totalSyncPairs-allSelected;
-		allNotSelectedFound = allFound-allSelectedFound;		
+		allNotSelectedFound = allFound-allSelectedFound;
 	}
 	if(document.getElementById("selectedVisible").classList.contains("btnYellow")) {
 		totalSyncPairs = allSelected;
@@ -460,17 +462,26 @@ function countSelection() {
 		allFound = allNotSelectedFound;
 	}
 
-	document.getElementById("pairsCounterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
-
 	if(allFound > 0) {
 		document.getElementById("pairsCounterFound").innerHTML = `${allSelectedFound} / ${allFound}<span class="pairsCounterPercentage"> (${((allSelectedFound/allFound)*100).toFixed(1)}%)</span>`;
 		document.getElementById("pairsCounterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allFound/totalSyncPairs)*100).toFixed(1)}%)</span>`;
 		document.getElementById("pairsCounterSelected").innerHTML = "";
 		document.getElementById("pairsCounterTotal").innerHTML = "";
-	} else {
+		return;
+	}	
+	if(allFound==allNotFound) {
 		document.getElementById("pairsCounterFound").innerHTML = "";
 		document.getElementById("pairsCounterFoundTotal").innerHTML = "";
+		document.getElementById("pairsCounterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
 		document.getElementById("pairsCounterTotal").innerHTML = `${totalSyncPairs} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (100.0%)</span>`;
+		return;
+	}
+	if(allNotFound==totalSyncPairs) {
+		document.getElementById("pairsCounterFound").innerHTML = `0 / 0<span class="pairsCounterPercentage"> (0.0%)</span>`;
+		document.getElementById("pairsCounterFoundTotal").innerHTML = `0 / ${totalSyncPairs}<span class="pairsCounterPercentage"> (0.0%)</span>`;
+		document.getElementById("pairsCounterSelected").innerHTML = "";
+		document.getElementById("pairsCounterTotal").innerHTML = "";
+		return;
 	}
 }
 
