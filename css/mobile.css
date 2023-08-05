@@ -327,6 +327,16 @@
 		display: none;
 	}
 
+	#items {
+		flex-wrap: wrap;
+	}
+
+	.item {
+		width: calc(100%/6 - 2%);
+		max-width: 75px;
+		margin: 1%;
+	}
+
 	.itemIncrDrec {
 		display: flex;
 		flex-direction: row-reverse;
