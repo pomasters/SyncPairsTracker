@@ -917,6 +917,38 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0080",
+		"pokemonName": "Slowbro",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Slowpoke"
+		],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-08-07",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0080_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0080_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0080_02sb.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0080_02sa.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0080_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0080_03a.png"
+		],
+		"themes": [
+			"Psychic",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0082",
 		"pokemonName": "Magneton",
 		"pokemonGender": "",
