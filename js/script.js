@@ -295,6 +295,7 @@ function generateItemsHTML(items) {
 		for(var i=0; i<items.length; i++) {
 			var count = storedItems[items[i].name];
 			var noIt = "";
+			if(count == undefined || isNaN(parseInt(count))) { count = "0"; }
 			if(count == "0") { noIt = " noItem"; }
 
 			result += `<div class="item itemBg_${items[i].background}${noIt}">

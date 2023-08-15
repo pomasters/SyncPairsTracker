@@ -28,5 +28,10 @@ export const ITEMS = [
 		"name": "5★ Field Move Candy",
 		"image" : "images/candy_field.png",
 		"background": "gold"
+	},
+	{
+		"name": "5★ Power-Up",
+		"image" : "images/5_power_up.png",
+		"background": "gold"
 	}
 ]
