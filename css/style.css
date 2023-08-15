@@ -336,6 +336,20 @@ input:focus { outline: 0; }
 	width: 7px !important;
 }
 
+.group6inLine,
+.group8inLine {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.group6inLine .btn,
+.group8inLine .btn {
+	margin: 3px 2px;
+	text-align: center !important;
+}
+.group6inLine .btn { width: 14.6% !important; }
+.group8inLine .btn { width: 12.4% !important; }
+
 .buttonGroupTitle, .buttonGroupTitle2 {
 	background-color: var(--blue2);
 	color: white;
@@ -482,16 +496,6 @@ input:focus { outline: 0; }
 	border-top-right-radius: 0px;
 }
 
-#increaseOptions2 {
-	margin: auto 4%;
-	display: flex;
-	justify-content: center;
-}
-#increaseOptions2 .btn {
-	margin: 1px 2px;
-	padding: 0 !important;
-	text-align: center !important;
-}
 #allVisible,
 #selectedVisible {
 	width: 14.25% !important;
@@ -697,27 +701,7 @@ input:focus { outline: 0; }
 	color: #585858 !important;
 }
 
-.starBtn {
-	width: 14.4% !important;
-	min-width: 14%;
-	text-align: center !important;
-}
-
-#userBtns .buttonGroupTitle {
-	margin-top: 12px;
-}
-
-#userBtns > div:not(:first-child) {
-	margin: 5px 3.5%;
-	display: flex;
-	justify-content: space-between;
-}
-
-#userBtns > div:nth-child(2) {
-	margin-top: 12px;
-	margin-bottom: 18px;
-}
-#userBtns > div:nth-child(3) {
+#userBtns .buttonGroup:first-child .buttonGroupTitle {
 	margin-top: 12px;
 }
 
@@ -932,6 +916,8 @@ input:focus { outline: 0; }
 
 .syncFav img {
 	position: absolute;
+	top: 0;
+	right: 0;
 	width: 100%;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
@@ -946,25 +932,34 @@ input:focus { outline: 0; }
 	display: flex;
 }
 
+/*show empty heart when hover*/
+.selected:hover .syncFav {
+	background-image: url("../images/favorite1.png");
+	background-size: contain;
+}
+/*heart selection container*/
 .selected .syncFav:hover {
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: fit-content;
+	max-height: 100%;
 	padding: 4px;
 	border: 2px solid var(--blue2);
 	border-radius: 5px;
 	background-color: rgb(150 200 220 / 90%);
-	background-image: url("../images/bg.png");
+	background-image: url("../images/bg.png") !important;
 	box-shadow: -1px 1px 3px #00000096;
 }
-
+/*heart icon themselves*/
 .selected .syncFav:hover img {
 	position: static;
 	display: flex;
-	width: 22px;
-	height: 22px;
+	width: calc(100% / 4);
+	height: auto;
+	max-width: 22px;
+	max-height: 22px;
 	pointer-events: auto !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
@@ -973,16 +968,13 @@ input:focus { outline: 0; }
 	-o-user-select: none !important;
 	user-select: none !important;
 }
-
+/*bg color of selected heart when heart selection*/
 .selected .syncFav:hover img[class="currentImage"] {
 	background-color: rgb(72 137 154 / 75%);
 	border-radius: 4px;
 }
-
-.selected:hover .syncFav img:first-child {
-	display: flex;
-}
-.selected .syncFav img:not(:first-child)[class="currentImage"] {
+/*permanently show favorite heart when selected*/
+.selected .syncFav .currentImage {
 	display: flex;
 }
 

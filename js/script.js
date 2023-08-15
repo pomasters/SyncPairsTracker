@@ -6,7 +6,7 @@ import {ITEMS} from './items.js';
 const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
 const syncStarImgs2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
-const syncFavImgs = ["images/favorite1.png","images/favoriteG.png","images/favoriteY.png","images/favoriteO.png","images/favoriteR.png","images/favoriteV.png","images/favoriteB.png","images/favorite2.png"];
+const syncFavImgs = ["images/favoriteG.png","images/favoriteL.png","images/favoriteY.png","images/favoriteO.png","images/favoriteM.png","images/favoriteR.png","images/favoriteP.png","images/favoriteV.png","images/favoriteW.png","images/favoriteD.png","images/favoriteB.png","images/favoriteC.png"];
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
 const rolesOrder = {"physical strike":"01","special strike":"01","tech":"02","support":"03","sprint":"04","field":"05"};
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
@@ -21,6 +21,8 @@ var EGGMONMODE = document.getElementById("btnEggs").classList.contains("btnEggsO
 var CURRENT_NEW = 0;
 
 var FILTER_MODE = "&";
+
+var DEFAULT_FAVS_VALUES = Array(syncFavImgs.length).fill("0").join(""); // 00000000
 
 
 /* parameter "pairs" is the array containing all {syncpair} -- see syncpairs.js/eggs.js */
@@ -56,12 +58,12 @@ function generatePairsHTML(pairs) {
 			var currentSyncLevel = parseInt(currentData[0]);
 			var currentSyncImage = parseInt(currentData[1]);
 			var currentSyncStar = parseInt(currentData[2]);
-			var currentSyncFav = parseInt(currentData[3]);
+			var currentSyncFav = convertFav(currentData[3]);
 
 			if(isNaN(currentSyncLevel)) { currentSyncLevel = "0" }
 			if(isNaN(currentSyncImage)) { currentSyncImage = "0" }
 			if(isNaN(currentSyncStar)) { currentSyncStar = "0" }
-			if(isNaN(currentSyncFav)) { currentSyncFav = "0" }
+			if("" == currentSyncFav) { currentSyncFav = DEFAULT_FAVS_VALUES }
 
 			var currentStar;
 			if(! EGGMONMODE) {
@@ -78,8 +80,8 @@ function generatePairsHTML(pairs) {
 				`<div class="syncStar ${hideStar}" data-currentImage="${currentSyncStar}" data-currentstar="${currentStar}">
 					${genImages(syncStarImgs, currentSyncStar)}
 				</div>
-				<div class="syncFav" data-currentImage="${currentSyncFav}" data-html2canvas-ignore="true">
-					${genImages(syncFavImgs, currentSyncFav)}
+				<div class="syncFav" data-currentValues="${currentSyncFav}" data-html2canvas-ignore="true">
+					${genImages2(syncFavImgs, currentSyncFav)}
 				</div>
 				<div class="syncLevel" data-currentImage="${currentSyncLevel}">
 					${genImages(syncLevelImgs, currentSyncLevel)}
@@ -93,8 +95,8 @@ function generatePairsHTML(pairs) {
 				`<div class="syncStar ${hideStar}" data-currentImage="0" data-currentstar="${syncPair.syncPairRarity}">
 					${genImages(syncStarImgs, 0)}
 				</div>
-				<div class="syncFav" data-currentImage="0" data-html2canvas-ignore="true">
-					${genImages(syncFavImgs, 0)}
+				<div class="syncFav" data-currentValues="${DEFAULT_FAVS_VALUES}" data-html2canvas-ignore="true">
+					${genImages2(syncFavImgs, DEFAULT_FAVS_VALUES)}
 				</div>
 				<div class="syncLevel" data-currentImage="0">
 					${genImages(syncLevelImgs, 0)}
@@ -145,6 +147,17 @@ function generatePairsHTML(pairs) {
 		return im;
 	}
 
+	function genImages2(imgs, current_v) {
+		var im = "";
+		var current_va = convertFav(current_v).split("");
+
+		for(var i=0; i<imgs.length; i++) {
+			if(current_va[i] == "0") { im += `<img draggable="false" loading="lazy" src="${imgs[i]}">`
+			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">` }
+		}
+		return im;
+	}
+
 	function tags(tags) { return tags.join(", "); }
 
 	document.getElementById('syncPairs').innerHTML = result;
@@ -165,8 +178,8 @@ function addSyncPairsEvents() {
 	var syncLevels = Array.from(document.getElementsByClassName("syncLevel"));
 	var syncImages = Array.from(document.getElementsByClassName("syncImages"));
 
-	var syncStarFavsLevels = syncStars.concat(syncLevels);
-	var syncStarFavsLevelsImages = syncImages.concat(syncStarFavsLevels);
+	var syncStarLevels = syncStars.concat(syncLevels);
+	var syncStarLevelsImages = syncImages.concat(syncStarLevels);
 
 	syncImages.forEach(s => s.addEventListener("click", function() {
 
@@ -178,36 +191,34 @@ function addSyncPairsEvents() {
 			}
 			countSelection();
 		}
-
 	}));
 
-	syncStarFavsLevels.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
+	syncStarLevels.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
 
-	if(window.getComputedStyle(document.getElementById("mobileDetection")).getPropertyValue("width") == "0px") {
-		syncFavs.forEach(function(s) {
-			Array.from(s.children).forEach(t => t.addEventListener("click", function() {
-				chooseFavorite(t);
-				addToLocalStorage(t.parentElement.parentElement);
-			}))
-			Array.from(s.children).forEach(t => t.addEventListener("contextmenu", function(e) {
-				e.preventDefault();	e.stopPropagation();
+	syncFavs.forEach(function(s) {
+		Array.from(s.children).forEach(heartImg => heartImg.addEventListener("click", function() {
+			this.classList.toggle("currentImage");
 
-				chooseFavorite(t);
-				addToLocalStorage(t.parentElement.parentElement);
+			var values = [];
+			Array.from(s.children).forEach(function(i) {
+				if(i.classList.contains("currentImage")) {
+					values.push("1");
+				} else {
+					values.push("0");
+				}
+			});
+			s.dataset.currentvalues = values.join("");
 
-				return false;
-			}))
-		});
-	} else {
-		syncFavs.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
-	}
+			addToLocalStorage(s.parentElement);
+		}))
+	});
 
 
 	if(iOSSafari) {
-		syncStarFavsLevelsImages.forEach(s => s.addEventListener("long-press", function() { addEvents(s); }));
+		syncStarLevelsImages.forEach(s => s.addEventListener("long-press", function() { addEvents(s); }));
 	}
 	else {
-		syncStarFavsLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
+		syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
 
 			e.preventDefault();	e.stopPropagation();
 
@@ -219,7 +230,7 @@ function addSyncPairsEvents() {
 
 	function addEvents(si) {
 		if(si.parentElement.classList.contains("selected") && !(localStorage.getItem("viewMode") === "true") && !(localStorage.getItem("lockMode") === "true")) {
-			swapImages(si, 1)
+			swapImages(si, 1);
 			addToLocalStorage(si.parentElement);
 		}
 	}
@@ -260,17 +271,26 @@ function swapImages(imagesContainer, step) {
 }
 
 
-function chooseFavorite(favorite) {
-	var parent = favorite.parentElement;
+function convertFav(f) {
+	if(f.length == 1) {
+		var temp = Array(DEFAULT_FAVS_VALUES.length).fill("0");
+		temp[parseInt(f)] = "1";
+		if(""+f == "0") { temp[0] = "0"; }
+		return temp.join("");
+	}
+	return f;
+}
 
-	Array.from(parent.children).forEach(function(image, index) {
-		if(image == favorite) {
-			image.classList.add("currentImage");
-			parent.dataset.currentimage = index + "";
-		} else {
-			image.removeAttribute("class")
-		}
-	});
+function chooseImages(imagesContainer, values) {
+	var images = Array.from(imagesContainer.children);
+	var vals = convertFav(values);
+
+	for(var i=0; i<images.length; i++) {
+		if(vals.charAt(i) == "1") { images[i].classList.add("currentImage"); }
+		else { images[i].classList.remove("currentImage"); }
+	}
+
+	imagesContainer.dataset.currentvalues = ""+values;
 }
 
 
@@ -401,13 +421,12 @@ function unselect(syncpair) {
 	Array.from(syncpair.querySelector(".syncImages").children).forEach(c => c.classList.remove("currentImage"));
 
 	syncpair.querySelector(".syncStar").children[0].classList.add("currentImage");
-	syncpair.querySelector(".syncFav").children[0].classList.add("currentImage");
 	syncpair.querySelector(".syncLevel").children[0].classList.add("currentImage");
 	syncpair.querySelector(".syncImages").children[0].classList.add("currentImage");
 
 	syncpair.querySelector(".syncStar").dataset.currentstar = syncpair.querySelector(".infoSyncPairRarity").textContent;
 	syncpair.querySelector(".syncStar").dataset.currentimage = "0";
-	syncpair.querySelector(".syncFav").dataset.currentimage = "0";
+	syncpair.querySelector(".syncFav").dataset.currentvalues = DEFAULT_FAVS_VALUES;
 	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
 	syncpair.querySelector(".syncImages").dataset.currentimage = "0";
 
@@ -422,7 +441,7 @@ function addToLocalStorage(syncpair) {
 	var keySyncPairStorage = syncpair.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + syncpair.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 
 	var currentSyncStar = syncpair.querySelector(".syncStar").dataset.currentimage;
-	var currentSyncFav = syncpair.querySelector(".syncFav").dataset.currentimage;
+	var currentSyncFav = syncpair.querySelector(".syncFav").dataset.currentvalues;
 	var currentSyncLevel = syncpair.querySelector(".syncLevel").dataset.currentimage;
 	var currentSyncImage = syncpair.querySelector(".syncImages").dataset.currentimage;
 
@@ -550,25 +569,25 @@ function exportSelection() {
 	var searchValue = document.getElementById("search").value;
 	if(searchValue !== "") { filters.push(searchValue); }
 
+	var pairs = [];
 	if(parseInt(filters.length) > 0) {
-		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
-			var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
-			var value = s.querySelector(".syncLevel").dataset.currentimage + "|" + s.querySelector(".syncImages").dataset.currentimage + "|" + 
-						s.querySelector(".syncStar").dataset.currentimage + "|" + s.querySelector(".syncFav").dataset.currentimage;
-
-			exported[key] = value;
-		})
+		pairs = Array.from(document.getElementsByClassName("syncPair selected found"));
 	} else {
-		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
-			var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
-			var value = s.querySelector(".syncLevel").dataset.currentimage + "|" + s.querySelector(".syncImages").dataset.currentimage + "|" + 
-						s.querySelector(".syncStar").dataset.currentimage + "|" + s.querySelector(".syncFav").dataset.currentimage;
-
-			exported[key] = value;
-		})
-
-		localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
+		pairs = Array.from(document.getElementsByClassName("syncPair selected"));
 	}
+	pairs.forEach(function(s) {
+		var key = s.querySelector(".syncInfos .infoDexNum").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+		var synLevel = s.querySelector(".syncLevel").dataset.currentimage;
+		var synImage = s.querySelector(".syncImages").dataset.currentimage;
+		var synStar = s.querySelector(".syncStar").dataset.currentimage;
+		var synFavHEX = parseInt(s.querySelector(".syncFav").dataset.currentvalues, 2).toString(16).toUpperCase().padStart(3, '0');
+
+		var value = synLevel + "|" + synImage + "|" + synStar + "|" + synFavHEX;
+
+		exported[key] = value;
+	})
+
+	localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
 
 	document.getElementById("exportImportZone").value = JSON.stringify(exported);
 
@@ -590,19 +609,19 @@ function importSelection() {
 		}
 
 		Array.from(document.getElementsByClassName("syncPair")).forEach(function(s) {
-			var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+			var key = s.querySelector(".syncInfos .infoDexNum").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 
 			if(key in imported) {
 				var currentSyncData = imported[key].split("|");
 				var importedSyncLevel = currentSyncData[0];
 				var importedSyncImage = currentSyncData[1];
 				var importedSyncStar = currentSyncData[2];
-				var importedSyncFav = currentSyncData[3];
+				var importedSyncFav = convertFav(parseInt(currentSyncData[3], 16).toString(2).padStart(12, '0'));
 
 				if(isNaN(importedSyncLevel)) { importedSyncLevel = "0" }
 				if(isNaN(importedSyncImage)) { importedSyncImage = "0" }
 				if(isNaN(importedSyncStar)) { importedSyncStar = "0" }
-				if(isNaN(importedSyncFav)) { importedSyncFav = "0" }
+				if("" == importedSyncFav) { importedSyncFav = DEFAULT_FAVS_VALUES }
 
 				var syncLevelDIV = s.querySelector(".syncLevel");
 				var syncImagesDIV = s.querySelector(".syncImages");
@@ -612,7 +631,7 @@ function importSelection() {
 				syncLevelDIV.dataset.currentimage = parseInt(importedSyncLevel);
 				syncImagesDIV.dataset.currentimage = parseInt(importedSyncImage);
 				syncStarDIV.dataset.currentimage = parseInt(importedSyncStar);
-				syncFavDIV.dataset.currentimage = parseInt(importedSyncFav);
+				syncFavDIV.dataset.currentvalues = importedSyncFav;
 
 				var currentStar;
 				var basestar = parseInt(s.querySelector(".infoSyncPairRarity").textContent);
@@ -628,12 +647,12 @@ function importSelection() {
 				Array.from(syncLevelDIV.children).forEach(c => c.classList.remove("currentImage"))
 				Array.from(syncImagesDIV.children).forEach(c => c.classList.remove("currentImage"))
 				Array.from(syncStarDIV.children).forEach(c => c.classList.remove("currentImage"))
-				Array.from(syncFavDIV.children).forEach(c => c.classList.remove("currentImage"))
 
 				syncLevelDIV.children[importedSyncLevel].classList.add("currentImage");
 				syncImagesDIV.children[importedSyncImage].classList.add("currentImage");
 				syncStarDIV.children[importedSyncStar].classList.add("currentImage");
-				syncFavDIV.children[importedSyncFav].classList.add("currentImage");
+
+				chooseImages(syncFavDIV, importedSyncFav);
 
 				select(s);
 			}
@@ -651,18 +670,40 @@ function swapElem(element, message1, message2, step) {
 	var searchValue = document.getElementById("search").value;
 	if(searchValue !== "") { filters.push(searchValue); }
 
+	var pairs = [];
 	if(parseInt(filters.length) > 0 && confirm(message1)) {
-
-		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
-			swapImages(s.querySelector(element), step)
-			select(s);
-		})
+		pairs = Array.from(document.getElementsByClassName("syncPair selected found"));
 	} else if(parseInt(filters.length) == 0 && confirm(message2)) {
-		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
-			swapImages(s.querySelector(element), step)
-			select(s);
-		});
+		pairs = Array.from(document.getElementsByClassName("syncPair selected"));
 	}
+	pairs.forEach(function(s) {
+		swapImages(s.querySelector(element), step);
+		select(s);
+	});
+}
+
+function chooseElem(element, message1, message2, step) {
+
+	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
+
+	var searchValue = document.getElementById("search").value;
+	if(searchValue !== "") { filters.push(searchValue); }
+
+	var pairs = [];
+	if(parseInt(filters.length) > 0 && confirm(message1)) {
+		pairs = Array.from(document.getElementsByClassName("syncPair selected found"));
+	} else if(parseInt(filters.length) == 0 && confirm(message2)) {
+		pairs = Array.from(document.getElementsByClassName("syncPair selected"));
+	}
+	pairs.forEach(function(s) {
+		var nextVals = DEFAULT_FAVS_VALUES;
+		var currVals = convertFav(s.querySelector(element).dataset.currentvalues);
+
+		nextVals = currVals.slice(step) + currVals.slice(0,step);
+
+		chooseImages(s.querySelector(element), nextVals);
+		select(s);
+	});
 }
 
 function resetDefault(element, message1, message2) {
@@ -672,42 +713,41 @@ function resetDefault(element, message1, message2) {
 	var searchValue = document.getElementById("search").value;
 	if(searchValue !== "") { filters.push(searchValue); }
 
+	var pairs = [];
 	if(parseInt(filters.length) > 0 && confirm(message1)) {
-
-		Array.from(document.getElementsByClassName("syncPair selected found")).forEach(function(s) {
-			var imgs = Array.from(s.querySelector(element).children);
-			imgs.forEach(f => f.removeAttribute("class"));
-			imgs[0].classList.add("currentImage");
-			s.querySelector(element).dataset.currentimage = "0";
-			select(s);
-		})
+		pairs = Array.from(document.getElementsByClassName("syncPair selected found"));
 	} else if(parseInt(filters.length) == 0 && confirm(message2)) {
-		Array.from(document.getElementsByClassName("syncPair selected")).forEach(function(s) {
-			var imgs = Array.from(s.querySelector(element).children);
-			imgs.forEach(f => f.removeAttribute("class"));
+		pairs = Array.from(document.getElementsByClassName("syncPair selected"));
+	}
+	pairs.forEach(function(s) {
+		var imgs = Array.from(s.querySelector(element).children);
+		imgs.forEach(f => f.removeAttribute("class"));
+		if(element != ".syncFav") {
 			imgs[0].classList.add("currentImage");
 			s.querySelector(element).dataset.currentimage = "0";
-			select(s);
-		});
-	}
+		} else {
+			s.querySelector(element).dataset.currentvalues = DEFAULT_FAVS_VALUES;
+		}
+		select(s);
+	});
 }
 
 
 function increaseFavorite() {
-	var message1 = "Change the favorite color of all filtered sync pairs to the next color ?";
-	var message2 = "Change the favorite color of all sync pairs to the next color ?";
+	var message1 = "Shift the heart color of all filtered sync pairs to the next color ?";
+	var message2 = "Shift the heart color of all sync pairs to the next color ?";
 
-	swapElem(".syncFav", message1, message2, 1);
+	chooseElem(".syncFav", message1, message2, 1);
 }
 function decreaseFavorite() {
-	var message1 = "Change the favorite color of all filtered sync pairs to the previous color ?";
-	var message2 = "Change the favorite color of all sync pairs to the previous color ?";
+	var message1 = "Shift the heart color of all filtered sync pairs to the previous color ?";
+	var message2 = "Shift the heart color of all sync pairs to the previous color ?";
 
-	swapElem(".syncFav", message1, message2, -1);
+	chooseElem(".syncFav", message1, message2, -1);
 }
 function resetFavorite() {
-	var message1 = "Reset the favorite color of all filtered sync pairs ?";
-	var message2 = "Reset the favorite color of all sync pairs ?";
+	var message1 = "Reset the heart color of all filtered sync pairs ?";
+	var message2 = "Reset the heart color of all sync pairs ?";
 
 	resetDefault(".syncFav", message1, message2);
 }
@@ -809,7 +849,7 @@ function visibility() {
 
 		"pairsCounterPercentageVisible" : `.pairsCounterPercentage { display: none; }\n`,
 
-		"syncFavsVisible" : `#buttonsFav, .syncFav { display: none !important; }\n`,
+		"syncFavsVisible" : `.syncFav { display: none !important; }\n`,
 
 		"syncInfosVisible" : `.syncPair:hover > .syncInfos { display: none !important; }\n`,
 
@@ -1090,8 +1130,15 @@ function showSeparator(dataToSeparate) {
 				break;
 
 			case ".syncFav":
-				inner = `<img src="${syncFavImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
-				inner2 = `<img src="${syncFavImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				var cur = []; var pre = [];
+				Array.from(curr_pair.querySelector(dataToSeparate).getElementsByClassName("currentImage")).forEach(i => cur.push(i.outerHTML));
+				Array.from(prev_pair.querySelector(dataToSeparate).getElementsByClassName("currentImage")).forEach(i => pre.push(i.outerHTML));
+
+				if(cur.length == 0) { cur.push(`<img draggable="false" loading="lazy" src="images/favorite1.png">`) }
+				if(pre.length == 0) { pre.push(`<img draggable="false" loading="lazy" src="images/favorite1.png">`) }
+
+				inner = cur.join("");
+				inner2 = pre.join("");
 				break;
 
 			case ".selected":
@@ -1551,8 +1598,8 @@ document.getElementById("sortByFavorite").addEventListener("click", function() {
 	tinysort('.syncPair',{sortFunction:funByFavorite});
 
 	function funByFavorite(a,b){
-		var lenA = parseInt(a.elm.querySelector(".syncFav").dataset.currentimage);
-		var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentimage);
+		var lenA = parseInt(a.elm.querySelector(".syncFav").dataset.currentvalues);
+		var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentvalues);
 		if(document.getElementById("sortByFavorite").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA>lenB?1:-1);
 		} else {
@@ -1688,6 +1735,8 @@ function init() {
 	addEventButtonsSorting();
 
 	addEventGroupBtns();
+
+	exportSelection();
 }
 
 

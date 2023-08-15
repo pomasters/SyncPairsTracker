@@ -181,7 +181,11 @@ body {
 .selected .syncFav:hover {
 	border-color: var(--bgLight);
 	background-color: var(--bgLight);
-	background-image: url(../images/bg3.png);
+	background-image: url(../images/bg3.png) !important;
+}
+
+.selected .syncFav:hover img[class="currentImage"] {
+	background-color: rgb(92 92 92);
 }
 
 .syncImages {

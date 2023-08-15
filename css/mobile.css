@@ -281,39 +281,17 @@
 		height: calc(80% * 55/135);
 	}
 
+	.selected .syncFav {
+		background-image: url("../images/favorite1.png");
+		background-size: contain;
+	}
+
 	.syncFav img {
 		display: none;
 	}
 
 	.syncFav .currentImage {
 		display: block;
-	}
-
-	.selected .syncFav:hover {
-		position: absolute;
-		right: 0px;
-		top: 0px;
-		z-index: 3;
-		width: 22px;
-		height: 22px;
-		flex: none;
-		background-color: transparent !important;
-		background-image: none !important;
-		padding: 0;
-		border: none;
-		border-radius: 0;
-		box-shadow: none;
-	}
-	.selected .syncFav img {
-		display: none !important;
-		pointer-events: none !important;
-		-webkit-touch-callout: none !important;
-		-webkit-user-select: none !important;
-		user-select: none !important;
-	}
-	.selected .syncFav img[class="currentImage"] {
-		display: block !important;
-		background-color: transparent !important;
 	}
 
 	.syncLevel {
