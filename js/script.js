@@ -600,16 +600,28 @@ go through all syncpairs and apply the need change to the elements */
 function importSelection() {
 
 	var imported;
+	var importedTextAreaValue = document.getElementById("exportImportZone").value;
 
 	try {
-		if(document.getElementById("exportImportZone").value == "") {
+		if(importedTextAreaValue == "") {
 			imported = JSON.parse(localStorage.getItem("syncPairsTrackerBackup"));
 		} else {
-			imported = JSON.parse(document.getElementById("exportImportZone").value);
+			imported = JSON.parse(importedTextAreaValue);
+		}
+
+		var isOldFormat = false;
+		if(importedTextAreaValue.indexOf("a") > -1 || importedTextAreaValue.indexOf("i") > -1 || 
+			 importedTextAreaValue.indexOf("u") > -1 || importedTextAreaValue.indexOf("e") > -1 || 
+			 importedTextAreaValue.indexOf("o") > -1) {
+			isOldFormat = true;
 		}
 
 		Array.from(document.getElementsByClassName("syncPair")).forEach(function(s) {
 			var key = s.querySelector(".syncInfos .infoDexNum").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+
+			if(isOldFormat) {
+				var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+			}
 
 			if(key in imported) {
 				var currentSyncData = imported[key].split("|");
