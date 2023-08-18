@@ -10237,7 +10237,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Gen Pool"
+			"Gen Pool",
+			"Song Key"
 		]
 	},
 	{
