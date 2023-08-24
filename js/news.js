@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2023-08-24",
+		"info" : "Add v2.36.0"
+	},
+	{
 		"date": "2023-08-15",
 		"info" : "Add ability to select multiple heart icons \n+ update export format"
 	},
