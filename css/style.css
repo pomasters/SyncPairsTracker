@@ -93,13 +93,13 @@ input:focus { outline: 0; }
 	background-position: center;
 	background-repeat: no-repeat;
 	transition-duration: 50ms;
-	filter: drop-shadow(2px 3px 0px rgb(0 0 0 / 20%));
 }
 
 .btnItemsON {
 	transform: scale(0.95);
 	transition-duration: 50ms;
-	filter: drop-shadow(1px 2px 0px rgb(0 0 0 / 10%)) !important;
+	filter: grayscale(50%);
+	transform: scale(90%) !important;
 }
 
 #btnEggs:active,
@@ -217,11 +217,12 @@ input:focus { outline: 0; }
 #search {
 	font-family: "kenya-NewRodinProN-B", "Tahoma";
 	width: 91%;
-	padding: 6px 12px;
+	padding: 3px 9px;
 	color: white;
 	background-color: var(--blue3);
 	border: 2px solid transparent;
 	border-radius: 5px;
+	margin: 5px;
 }
 
 #search::placeholder {
@@ -980,11 +981,11 @@ input:focus { outline: 0; }
 
 .syncLevel {
 	position: absolute;
-	left: 4px;
-	bottom: 4px;
+	left: 5px;
+	bottom: 5px;
 	z-index: 1;
-	width: 28px;
-	height: 28px;
+	width: 25px;
+	height: 25px;
 	display: none;
 }
 
@@ -993,6 +994,38 @@ input:focus { outline: 0; }
 }
 
 .syncLevel img {
+	width: 100%;
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	-khtml-user-select: none !important;
+	-moz-user-select: none !important;
+	-o-user-select: none !important;
+	user-select: none !important;
+}
+
+.syncRoleEX {
+	position: absolute;
+	left: 0;
+	top: 36px;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	filter: drop-shadow(0px 0px 2px rgb(25 61 88 / 80%));
+}
+
+.syncRoleEX:empty {
+	display:none;
+	pointer-events:none;
+	user-select:none;
+}
+
+.selected:hover .syncRoleEX .currentImage:first-child,
+.selected .syncRoleEX .currentImage:last-child {
+	display: block;
+}
+
+.syncRoleEX img {
 	width: 100%;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
@@ -1033,7 +1066,8 @@ input:focus { outline: 0; }
 .syncLevel img,
 .syncStar img,
 .syncFav img,
-.syncImages img {
+.syncImages img,
+.syncRoleEX img {
 	display: none;
 }
 
@@ -1140,7 +1174,8 @@ input:focus { outline: 0; }
 	text-align: right;
 }
 
-.infoSyncPairRole {
+.infoSyncPairRole,
+.infoSyncPairRoleEX {
 	font-size: 0.9em;
 	order: 7;
 }

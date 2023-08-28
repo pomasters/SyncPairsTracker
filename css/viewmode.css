@@ -38,7 +38,8 @@
 #pairsCounterTotal:empty,
 .syncStar,
 .syncFav,
-.syncLevel {
+.syncLevel,
+.syncRoleEX {
 	display: none !important;
 }
 
