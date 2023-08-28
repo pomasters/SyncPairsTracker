@@ -1776,7 +1776,10 @@ function init() {
 
 	updateNews();
 
-	try { generatePairs(SYNCPAIRS);	} catch(e) { console.log(e); }
+	try { generatePairs(SYNCPAIRS);	} catch(e) {
+		console.log(e);
+		document.getElementById("syncPairs").innerHTML = "Something went wrong, try to hard refresh the page.";
+	}
 
 	addEventLeftSide();
 
