@@ -92,7 +92,6 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"Legendary",
@@ -378,7 +377,8 @@ export const SYNCPAIRS = [
 			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
-			"Eeveelution"
+			"Eeveelution",
+			"Villain Arc"
 		]
 	},
 	{
@@ -580,7 +580,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Eeveelution"
+			"Eeveelution",
+			"Villain Arc"
 		]
 	},
 	{
@@ -883,7 +884,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Legendary"
+			"Legendary",
+			"Villain Arc"
 		]
 	},
 	{
@@ -1357,7 +1359,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Villain Arc"
 		]
 	},
 	{
@@ -3029,7 +3032,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"Villain Arc"
 		]
 	},
 	{
@@ -3170,7 +3174,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"Villain Arc"
 		]
 	},
 	{
@@ -3542,7 +3547,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"Villain Arc"
 		]
 	},
 	{
@@ -3685,7 +3691,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Villain Arc"
 		]
 	},
 	{
@@ -3891,7 +3898,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
-			"Mythical"
+			"Mythical",
+			"Villain Arc"
 		]
 	},
 	{
@@ -4063,7 +4071,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Mythical",
 			"Rebuff",
-			"Grid5"
+			"Grid5",
+			"Villain Arc"
 		]
 	},
 	{
@@ -4204,7 +4213,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Poké Fair",
 			"Mythical",
-			"Grid5"
+			"Grid5",
+			"Villain Arc"
 		]
 	},
 	{
@@ -4705,11 +4715,10 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Psychic",
 			"Kanto",
-			"Villain",
+			"Villain.",
 			"Complicated Family"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isMan",
@@ -4741,7 +4750,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Ground",
 			"Johto",
-			"Villain",
+			"Villain.",
 			"Sygna Suit"
 		],
 		"tags": [
@@ -4749,7 +4758,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -4775,7 +4785,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Normal",
 			"Kanto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Event",
@@ -4805,7 +4815,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Ground",
 			"Kanto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Buddy Move",
@@ -4884,7 +4894,8 @@ export const SYNCPAIRS = [
 			"Master Fair",
 			"Multiple Units",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Villain Arc"
 		]
 	},
 	{
@@ -5236,7 +5247,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Wish Zone",
 			"Legendary",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -5375,7 +5387,6 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isWoman",
@@ -5599,7 +5610,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Terrain",
 			"Mythical",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -5810,7 +5822,7 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Song Key",
 			"Grid5",
-			"GridExpansion",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5846,7 +5858,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Villain Arc"
 		]
 	},
 	{
@@ -6043,7 +6056,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Grown Woman"
 		],
 		"tags": [
@@ -6075,7 +6088,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Bug",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Sunglasses"
 		],
 		"tags": [
@@ -6107,7 +6120,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Fighting",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Passionate Spirit",
 			"Special Costume"
 		],
@@ -6242,7 +6255,6 @@ export const SYNCPAIRS = [
 			"Complicated Family"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
@@ -6600,7 +6612,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Villain Arc"
 		]
 	},
 	{
@@ -6933,7 +6946,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Kanto",
-			"Villain",
+			"Villain.",
 			"Team Rocket Forever"
 		],
 		"tags": [
@@ -7106,7 +7119,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Shiny",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Villain Arc"
 		]
 	},
 	{
@@ -7164,11 +7178,10 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dragon",
 			"Sinnoh",
-			"Villain",
+			"Villain.",
 			"Gadgeteer"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"Multiple Units",
 			"isMan",
@@ -7202,7 +7215,7 @@ export const SYNCPAIRS = [
 			"Sinnoh",
 			"Sygna Suit",
 			"Scarf",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -7210,7 +7223,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Wish Zone",
-			"Mythical"
+			"Mythical",
+			"Villain Arc"
 		]
 	},
 	{
@@ -7235,7 +7249,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Bug",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Grown Woman",
 			"Alola Adventurer"
 		],
@@ -7273,7 +7287,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Psychic",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Sygna Suit",
 			"Grown Woman"
 		],
@@ -7309,7 +7323,7 @@ export const SYNCPAIRS = [
 			"Normal",
 			"Alola",
 			"Rival",
-			"Villain",
+			"Villain.",
 			"Alola Adventurer"
 		],
 		"tags": [
@@ -7508,7 +7522,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Kanto",
-			"Villain",
+			"Villain.",
 			"Team Rocket Forever"
 		],
 		"tags": [
@@ -7968,7 +7982,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"Villain Arc"
 		]
 	},
 	{
@@ -7994,7 +8009,7 @@ export const SYNCPAIRS = [
 			"Electric",
 			"Unova",
 			"Rival",
-			"Villain",
+			"Villain.",
 			"Unova Adventurer"
 		],
 		"tags": [
@@ -8098,7 +8113,7 @@ export const SYNCPAIRS = [
 			"Psychic",
 			"Unova",
 			"Rival",
-			"Villain",
+			"Villain.",
 			"Unova Adventurer"
 		],
 		"tags": [
@@ -8144,7 +8159,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Legendary",
 			"Grid5",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -8293,7 +8309,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Starter",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Villain Arc"
 		]
 	},
 	{
@@ -8449,7 +8466,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Flying",
 			"Kalos",
-			"Villain",
+			"Villain.",
 			"Gadgeteer",
 			"Old Colleagues"
 		],
@@ -8486,7 +8503,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Water",
 			"Kalos",
-			"Villain",
+			"Villain.",
 			"Sygna Suit",
 			"Researcher"
 		],
@@ -8498,7 +8515,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Mythical",
 			"Grid5",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -8528,7 +8546,6 @@ export const SYNCPAIRS = [
 			"Old Colleagues"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
@@ -8746,7 +8763,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -9038,7 +9056,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Shiny",
 			"Grid5",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -9243,11 +9262,10 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Ice",
 			"Unova",
-			"Villain",
+			"Villain.",
 			"Cape"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Legendary",
@@ -9410,7 +9428,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Ground",
 			"Hoenn",
-			"Villain",
+			"Villain.",
 			"Glasses",
 			"Researcher"
 		],
@@ -9445,7 +9463,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Water",
 			"Hoenn",
-			"Villain",
+			"Villain.",
 			"Body Builder",
 			"Nature Lover"
 		],
@@ -9526,7 +9544,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10046,7 +10065,6 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Story",
 			"Legendary Adventures",
 			"isMan",
 			"Multiple Units",
@@ -10293,7 +10311,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Wish Zone",
 			"Legendary",
-			"Multiple Units"
+			"Multiple Units",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10529,7 +10548,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Gen Pool",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10556,13 +10576,14 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Ground",
 			"Hoenn",
-			"Villain",
+			"Villain.",
 			"Battle Partner"
 		],
 		"tags": [
 			"Gen Pool",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10862,7 +10883,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Gen Pool",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10887,14 +10909,15 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Steel",
 			"Unova",
-			"Villain",
+			"Villain.",
 			"Glasses",
 			"Researcher"
 		],
 		"tags": [
 			"isMan",
 			"Gen Pool",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -10956,7 +10979,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Gen Pool",
 			"Starter",
-			"Multiple Units"
+			"Multiple Units",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11023,7 +11047,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"Grid5"
+			"Grid5",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11056,7 +11081,8 @@ export const SYNCPAIRS = [
 			"Limited Sync Pair Scout",
 			"Poké Fair",
 			"Grid5",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11292,7 +11318,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Steel",
 			"Galar",
-			"Villain",
+			"Villain.",
 			"Passionate Spirit"
 		],
 		"tags": [
@@ -11301,7 +11327,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Weather",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11329,7 +11356,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Galar",
-			"Villain",
+			"Villain.",
 			"Researcher",
 			"Grown Woman"
 		],
@@ -11339,7 +11366,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"isWoman",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11502,7 +11530,8 @@ export const SYNCPAIRS = [
 			"Poké Fair",
 			"Weather",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11534,7 +11563,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Limited Sync Pair Scout",
 			"Poké Fair",
-			"isWoman"
+			"isWoman",
+			"Villain Arc"
 		]
 	},
 	{
@@ -11559,7 +11589,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dark",
 			"Johto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -11589,7 +11619,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Johto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -11619,7 +11649,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Johto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
@@ -11649,7 +11679,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Flying",
 			"Johto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Limited Sync Pair Scout",
