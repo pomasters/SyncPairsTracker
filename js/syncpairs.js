@@ -15,6 +15,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0A-01a_Pikachu.png",
@@ -29,8 +30,8 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Story",
-			"Multiple Units"
+			"Multiple Units",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -47,6 +48,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-11-07",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0B-01b_Torchic.png",
@@ -61,7 +63,6 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"Starter"
 		]
@@ -80,6 +81,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-01",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Ca_Solgaleo.png",
@@ -114,6 +116,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Cobalion.png",
@@ -124,7 +127,6 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"Legendary"
 		]
@@ -143,6 +145,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Regirock.png",
@@ -153,7 +156,6 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"Legendary"
 		]
@@ -172,6 +174,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Mesprit.png",
@@ -182,7 +185,6 @@ export const SYNCPAIRS = [
 			"Main Character"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"Legendary"
 		]
@@ -201,6 +203,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0Da_Registeel.png",
@@ -212,7 +215,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"Battle Points",
 			"Multiple Units"
 		]
 	},
@@ -230,6 +232,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_Brock.png",
@@ -244,9 +247,9 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -263,6 +266,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-01_SSBrock.png",
@@ -278,7 +282,6 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isMan"
 		]
@@ -297,6 +300,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_Misty.png",
@@ -310,7 +314,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -329,6 +332,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-08-28",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02b_SwimsuitMisty.png",
@@ -342,7 +346,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -361,6 +365,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-02_SSMisty.png",
@@ -374,11 +379,11 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Eeveelution",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -397,6 +402,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03a_LtSurge.png",
@@ -412,7 +418,6 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -431,6 +436,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-03b_LtSurge.png",
@@ -445,9 +451,9 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -464,6 +470,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04a_Erika.png",
@@ -479,7 +486,6 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -498,6 +504,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-10",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Erika.png",
@@ -511,7 +518,7 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -530,6 +537,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04b_Erika.png",
@@ -544,7 +552,6 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -563,6 +570,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-01",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-04_SSErika.png",
@@ -576,12 +584,12 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
 			"Eeveelution",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -600,6 +608,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-07_Blaine.png",
@@ -613,9 +622,9 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -632,6 +641,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png",
@@ -645,9 +655,9 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -664,6 +674,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-20",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01b_Lorelei.png",
@@ -677,10 +688,9 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"isWoman",
-			"Variety"
+			"isWoman"
 		]
 	},
 	{
@@ -697,6 +707,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png",
@@ -710,7 +721,6 @@ export const SYNCPAIRS = [
 			"Sweet Tooth"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units"
 		]
@@ -729,6 +739,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-22",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02b_Bruno.png",
@@ -742,10 +753,10 @@ export const SYNCPAIRS = [
 			"Sweet Tooth"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -764,6 +775,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png",
@@ -777,9 +789,9 @@ export const SYNCPAIRS = [
 			"Old-Timer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -796,6 +808,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-07",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03b_Agatha.png",
@@ -808,10 +821,10 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -831,6 +844,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_Kris.png",
@@ -844,12 +858,12 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Starter",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -866,6 +880,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-03",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_ssKris.png",
@@ -879,19 +894,19 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
 			"Legendary",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
 		"dexNumber": "010",
 		"trainerName": "Kris",
-		"trainerAlt": "Eevee Day",
+		"trainerAlt": "Variety",
 		"pokemonNumber": "0135",
 		"pokemonName": "Jolteon",
 		"pokemonGender": "♀",
@@ -902,6 +917,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-03_VS_Kris.png",
@@ -916,10 +932,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Terrain",
-			"Variety",
 			"Eeveelution"
 		]
 	},
@@ -939,6 +954,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png",
@@ -953,7 +969,6 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -972,6 +987,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-22",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02-EP_Bugsy.png",
@@ -986,7 +1002,7 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -1005,6 +1021,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-03_Whitney.png",
@@ -1018,7 +1035,6 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Gen Pool - First-time Scout (Until 2.21.0 update)",
 			"isWoman",
 			"Multiple Units"
 		]
@@ -1039,6 +1055,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-16",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Whitney.png",
@@ -1053,7 +1070,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Terrain",
 			"Holiday"
@@ -1075,6 +1092,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-07_Pryce.png",
@@ -1090,7 +1108,6 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Story",
 			"isMan"
 		]
 	},
@@ -1108,6 +1125,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-08_Clair.png",
@@ -1122,7 +1140,6 @@ export const SYNCPAIRS = [
 			"Dragon Cousin"
 		],
 		"tags": [
-			"Story",
 			"isWoman"
 		]
 	},
@@ -1140,6 +1157,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Janine.png",
@@ -1154,7 +1172,6 @@ export const SYNCPAIRS = [
 			"Ninja Family"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units"
 		]
@@ -1173,6 +1190,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_BP_Janine.png",
@@ -1186,9 +1204,9 @@ export const SYNCPAIRS = [
 			"Scarf"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1205,6 +1223,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-01_Will.png",
@@ -1217,7 +1236,6 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1237,6 +1255,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04_Karen.png",
@@ -1249,11 +1268,11 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1270,6 +1289,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0C-04-BP_Karen.png",
@@ -1283,10 +1303,10 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isWoman",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1307,6 +1327,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_Brendan.png",
@@ -1320,7 +1341,6 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Starter"
@@ -1342,6 +1362,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-31",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-01_SSBrendan.png",
@@ -1355,8 +1376,7 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary",
@@ -1379,6 +1399,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-01_Roxanne.png",
@@ -1394,7 +1415,6 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -1414,6 +1434,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-02_Brawly.png",
@@ -1428,7 +1449,6 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1446,6 +1466,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-04_Flannery.png",
@@ -1460,7 +1481,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"isWoman"
 		]
 	},
@@ -1478,6 +1498,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-05_Norman.png",
@@ -1492,7 +1513,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"isMan"
 		]
 	},
@@ -1510,6 +1530,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-06_Winona.png",
@@ -1524,7 +1545,6 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Weather"
 		]
@@ -1543,6 +1563,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-1_Tate.png",
@@ -1557,7 +1578,6 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units"
 		]
@@ -1576,6 +1596,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-30",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2023_Tate.png",
@@ -1591,8 +1612,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Mythical",
 			"Summer",
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -1611,6 +1631,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-07-2_Liza.png",
@@ -1625,7 +1646,6 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units"
 		]
@@ -1644,6 +1664,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2023_Liza.png",
@@ -1659,10 +1680,10 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Ultra Beast",
 			"Summer",
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1681,6 +1702,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-02_Phoebe.png",
@@ -1694,7 +1716,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -1712,6 +1733,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-04_Drake.png",
@@ -1725,8 +1747,8 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Gen Pool",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1745,6 +1767,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png",
@@ -1757,7 +1780,6 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1778,6 +1800,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03_Barry.png",
@@ -1793,7 +1816,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"isMan",
 			"Starter",
 			"Song Key",
@@ -1814,6 +1836,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-03-BP_Barry.png",
@@ -1828,9 +1851,9 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1849,6 +1872,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png",
@@ -1863,7 +1887,6 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1881,6 +1904,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png",
@@ -1894,8 +1918,8 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -1914,6 +1938,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-03_Maylene.png",
@@ -1928,7 +1953,6 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -1946,6 +1970,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-04_CrasherWake.png",
@@ -1960,7 +1985,6 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -1978,6 +2002,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_Candice.png",
@@ -1993,7 +2018,6 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"Weather"
@@ -2013,6 +2037,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-07_BP_Candice.png",
@@ -2027,7 +2052,6 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isWoman",
 			"Weather"
@@ -2047,6 +2071,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png",
@@ -2060,7 +2085,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"isMan",
 			"Starter"
 		]
@@ -2079,6 +2103,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-01_Thorton.png",
@@ -2093,7 +2118,6 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2111,6 +2135,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-02_Cheryl.png",
@@ -2125,7 +2150,6 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -2143,6 +2167,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-03_Marley.png",
@@ -2157,8 +2182,8 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -2178,6 +2203,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_Rosa.png",
@@ -2191,7 +2217,6 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman",
 			"Starter"
@@ -2211,6 +2236,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-12",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Rosa.png",
@@ -2224,7 +2250,7 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Weather"
@@ -2244,6 +2270,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-06_TL_Rosa.png",
@@ -2258,7 +2285,6 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman",
 			"Starter"
@@ -2280,6 +2306,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-15",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Rosa.png",
@@ -2292,7 +2319,7 @@ export const SYNCPAIRS = [
 			"Special Costume"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -2314,6 +2341,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-05_Clay.png",
@@ -2328,7 +2356,6 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2346,6 +2373,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-06_Skyla.png",
@@ -2361,7 +2389,6 @@ export const SYNCPAIRS = [
 			"Unova Gym Besties"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -2380,6 +2407,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-10",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2020_Skyla.png",
@@ -2392,7 +2420,7 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -2413,6 +2441,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-02",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Skyla.png",
@@ -2425,8 +2454,7 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
@@ -2447,6 +2475,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-07_Brycen.png",
@@ -2461,7 +2490,6 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2479,6 +2507,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01_Iris.png",
@@ -2493,7 +2522,6 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -2512,6 +2540,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-18",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-01-2_IrisChampion.png",
@@ -2524,8 +2553,7 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Song Key"
@@ -2545,6 +2573,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-17",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Iris.png",
@@ -2559,7 +2588,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Wish Zone",
 			"Ultra Beast"
@@ -2581,6 +2610,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-09_Roxie.png",
@@ -2595,7 +2625,6 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -2613,6 +2642,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-10_Marlon.png",
@@ -2627,7 +2657,6 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2645,6 +2674,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
@@ -2658,7 +2688,6 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -2676,6 +2705,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-03_Marshal.png",
@@ -2689,7 +2719,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2709,6 +2738,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-02_Grant.png",
@@ -2722,7 +2752,6 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2742,6 +2771,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_Korrina.png",
@@ -2756,9 +2786,9 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -2775,6 +2805,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-16",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-03_SSKorrina.png",
@@ -2787,8 +2818,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -2810,6 +2840,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-04_Ramos.png",
@@ -2824,7 +2855,6 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2842,6 +2872,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-08_Wulfric.png",
@@ -2856,7 +2887,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2874,6 +2904,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-02_Siebold.png",
@@ -2888,7 +2919,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -2907,6 +2937,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-12",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2019_Siebold.png",
@@ -2920,7 +2951,7 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -2942,6 +2973,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-03_Wikstrom.png",
@@ -2955,7 +2987,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -2975,6 +3006,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_Hau.png",
@@ -2989,11 +3021,11 @@ export const SYNCPAIRS = [
 			"Melemele Family"
 		],
 		"tags": [
-			"Story",
 			"isMan",
 			"Multiple Units",
 			"ZMove",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3010,6 +3042,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-03_ssHau.png",
@@ -3026,8 +3059,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Terrain",
 			"Wish Zone",
 			"Multiple Units",
@@ -3050,6 +3082,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png",
@@ -3063,7 +3096,6 @@ export const SYNCPAIRS = [
 			"Observatory Cousin"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units",
 			"ZMove"
@@ -3085,6 +3117,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_BP_Sophocles.png",
@@ -3098,7 +3131,6 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isMan"
 		]
@@ -3117,6 +3149,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_Mina.png",
@@ -3132,7 +3165,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"ZMove"
@@ -3152,6 +3184,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-07_ssMina.png",
@@ -3168,8 +3201,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Weather",
 			"Wish Zone",
 			"Multiple Units",
@@ -3194,6 +3226,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02_Olivia.png",
@@ -3207,10 +3240,10 @@ export const SYNCPAIRS = [
 			"Trial Giver"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"ZMove",
-			"Multiple Units"
+			"Multiple Units",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3227,6 +3260,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02-BP_Olivia.png",
@@ -3241,7 +3275,6 @@ export const SYNCPAIRS = [
 			"Trial Giver"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -3260,6 +3293,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-11_Hapu.png",
@@ -3275,7 +3309,6 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Story",
 			"isWoman",
 			"ZMove"
 		]
@@ -3294,6 +3327,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_Kahili.png",
@@ -3307,7 +3341,6 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"ZMove"
 		]
@@ -3328,6 +3361,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-01_Viola.png",
@@ -3341,7 +3375,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Story",
 			"isWoman"
 		]
 	},
@@ -3361,6 +3394,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-10_Nanu.png",
@@ -3373,9 +3407,9 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Story",
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3392,6 +3426,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-05_Koga.png",
@@ -3406,8 +3441,8 @@ export const SYNCPAIRS = [
 			"Ninja Family"
 		],
 		"tags": [
-			"Story",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3424,6 +3459,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_Acerola.png"
@@ -3436,7 +3472,6 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Story",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -3460,6 +3495,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-15",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Acerola.png",
@@ -3473,7 +3509,7 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -3492,6 +3528,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-05-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_TL_Acerola.png",
@@ -3506,9 +3543,9 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3525,6 +3562,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-12",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-03_ssAcerola.png",
@@ -3541,8 +3579,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Weather",
 			"Terrain",
 			"Multiple Units",
@@ -3565,6 +3602,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-08-29",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-03_Cheren.png",
@@ -3578,8 +3616,8 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Story",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3598,6 +3636,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-03",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_Blue.png",
@@ -3611,12 +3650,12 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Gen Pool - First-time Scout (Since 2.21.0 update)",
 			"Multiple Units",
 			"isMan",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3635,6 +3674,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_SSBlue.png",
@@ -3648,9 +3688,8 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Ticket Scout (after Victory Road)",
-			"Poké Fair",
 			"Multiple Units",
 			"isMan",
 			"Starter",
@@ -3675,6 +3714,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-18",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_BlueClassic.png",
@@ -3688,8 +3728,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Villain Arc"
@@ -3709,6 +3748,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-02-17",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02-EP_Blue.png",
@@ -3723,9 +3763,10 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3742,6 +3783,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_TL_Blue.png",
@@ -3756,7 +3798,6 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isMan"
 		]
@@ -3775,6 +3816,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Strike (Special)",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-01",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-02_NCBlue.png",
@@ -3790,11 +3832,11 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3814,6 +3856,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_Lyra.png",
@@ -3827,7 +3870,6 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -3848,6 +3890,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-31",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Lyra.png",
@@ -3861,7 +3904,7 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -3880,6 +3923,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-01",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_ssLyra.png",
@@ -3893,8 +3937,7 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
@@ -3905,7 +3948,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "066",
 		"trainerName": "Lyra",
-		"trainerAlt": "Eevee Day",
+		"trainerAlt": "Variety",
 		"pokemonNumber": "0134",
 		"pokemonName": "Vaporeon",
 		"pokemonGender": "♀",
@@ -3916,6 +3959,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-02_VS_Lyra.png",
@@ -3930,11 +3974,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Weather",
-			"Variety",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -3951,6 +3995,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-15",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Lyra.png",
@@ -3964,11 +4009,9 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Special Costume",
 			"Rebuff"
 		]
 	},
@@ -3989,6 +4032,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-24",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_Hilbert.png",
@@ -4001,7 +4045,6 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Starter"
@@ -4021,6 +4064,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-15",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2020_Hilbert.png",
@@ -4033,7 +4077,7 @@ export const SYNCPAIRS = [
 			"Sweet Tooth"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -4052,6 +4096,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-02",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-01_SSHilbert.png",
@@ -4066,9 +4111,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Mythical",
 			"Rebuff",
 			"Grid5",
@@ -4092,6 +4136,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-09-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_Hilda.png",
@@ -4105,7 +4150,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Starter",
@@ -4129,6 +4173,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-04",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Hilda.png",
@@ -4142,10 +4187,11 @@ export const SYNCPAIRS = [
 			"Special Costume"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Mythical"
+			"Mythical",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -4162,6 +4208,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_Hilda.png",
@@ -4175,7 +4222,7 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Shiny"
@@ -4195,6 +4242,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-31",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-02_SSHilda.png",
@@ -4209,9 +4257,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Mythical",
 			"Grid5",
 			"Villain Arc"
@@ -4231,6 +4278,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-10-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_Elesa.png",
@@ -4244,7 +4292,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Grid3",
@@ -4265,6 +4312,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-28",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_SSElesa.png",
@@ -4278,7 +4326,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -4299,6 +4346,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-09",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_ElesaClassic.png",
@@ -4312,8 +4360,7 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
@@ -4335,6 +4382,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-11-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-04_TL_Elesa.png",
@@ -4350,8 +4398,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units",
-			"Trainer Lodge"
+			"Multiple Units"
 		]
 	},
 	{
@@ -4368,6 +4415,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Elesa.png",
@@ -4382,7 +4430,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Palentine"
 		]
@@ -4401,6 +4449,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-10-31",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-05_Caitlin.png",
@@ -4414,7 +4463,6 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Grid3",
@@ -4437,6 +4485,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-16",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Caitlin.png",
@@ -4450,7 +4499,7 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -4471,6 +4520,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-07",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_Calem.png",
@@ -4484,7 +4534,6 @@ export const SYNCPAIRS = [
 			"Kalos Neighbors"
 		],
 		"tags": [
-			"Story",
 			"isMan",
 			"Multiple Units"
 		]
@@ -4503,6 +4552,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-02",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_ChampCalem.png",
@@ -4518,13 +4568,13 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"Weather",
 			"Wish Zone",
 			"Shiny",
-			"Starter"
+			"Starter",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -4541,6 +4591,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-08-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-01_TL_Calem.png",
@@ -4555,7 +4606,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Starter",
-			"Trainer Lodge",
 			"Multiple Units",
 			"isMan"
 		]
@@ -4576,6 +4626,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-03_Glacia.png",
@@ -4588,7 +4639,6 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Grid3",
 			"GridExpansion"
@@ -4608,6 +4658,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-11-28",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_Grimsley.png",
@@ -4620,7 +4671,6 @@ export const SYNCPAIRS = [
 			"Scarf"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Grid3",
@@ -4643,6 +4693,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-11",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-04_SSGrimsley.png",
@@ -4655,7 +4706,6 @@ export const SYNCPAIRS = [
 			"Sygna Suit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -4674,6 +4724,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-26",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-04_GrimsleyKimono.png",
@@ -4686,7 +4737,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -4707,6 +4757,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-05",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01_Giovanni.png",
@@ -4742,6 +4793,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-19",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_SSGiovanni.png",
@@ -4754,8 +4806,7 @@ export const SYNCPAIRS = [
 			"Sygna Suit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Song Key",
@@ -4776,6 +4827,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-15",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01-EP_Giovanni.png",
@@ -4788,9 +4840,10 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -4807,6 +4860,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-06",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-01b_Giovanni.png",
@@ -4819,11 +4873,10 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Weather",
 			"Multiple Units",
-			"isMan",
-			"Variety"
+			"isMan"
 		]
 	},
 	{
@@ -4843,6 +4896,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-15",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_Ethan.png",
@@ -4855,7 +4909,6 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Starter",
@@ -4877,6 +4930,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-01_SSEthan.png",
@@ -4890,8 +4944,7 @@ export const SYNCPAIRS = [
 			"Scarf"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary",
@@ -4912,6 +4965,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-22",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_Leaf.png",
@@ -4924,7 +4978,6 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"ZMove",
@@ -4947,6 +5000,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_SSLeaf.png",
@@ -4959,9 +5013,8 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Ticket Scout (after Victory Road)",
-			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
 			"Starter",
@@ -4983,6 +5036,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_NCLeaf.png",
@@ -4998,12 +5052,12 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Weather",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5020,6 +5074,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-09-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-03_TL_Leaf.png",
@@ -5033,7 +5088,6 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -5052,6 +5106,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2019-12-26",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04_Lance.png",
@@ -5065,8 +5120,7 @@ export const SYNCPAIRS = [
 			"Dragon Cousin"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Grid3",
@@ -5089,6 +5143,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lance.png",
@@ -5101,7 +5156,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -5120,6 +5175,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-09",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-04b_Lance.png",
@@ -5132,10 +5188,9 @@ export const SYNCPAIRS = [
 			"Cape"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Variety",
 			"Rebuff"
 		]
 	},
@@ -5155,6 +5210,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-01",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_Cynthia.png",
@@ -5168,10 +5224,9 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Poké Fair",
 			"Multiple Units",
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Weather",
 			"Grid3",
 			"Grid5",
@@ -5193,6 +5248,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-17",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSCynthia.png",
@@ -5206,8 +5262,7 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -5228,6 +5283,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-27",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSRCynthia.png",
@@ -5241,8 +5297,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
@@ -5267,6 +5322,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_TL_Cynthia.png",
@@ -5281,9 +5337,8 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isWoman"
 		]
 	},
@@ -5303,6 +5358,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-05_SSACynthia.png",
@@ -5316,12 +5372,12 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Buddy Move",
-			"Wish Zone"
+			"Wish Zone",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5340,6 +5396,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-01_Kukui.png",
@@ -5353,10 +5410,10 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"ZMove",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5375,6 +5432,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-01-30",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04_Zinnia.png",
@@ -5391,7 +5449,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5408,6 +5467,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-04-BP_Zinnia.png",
@@ -5421,9 +5481,9 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5440,6 +5500,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-13",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Zinnia.png",
@@ -5454,11 +5515,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Special Costume",
 			"Rebuff"
 		]
 	},
@@ -5478,6 +5537,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_Steven.png",
@@ -5491,8 +5551,7 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Grid5",
@@ -5516,6 +5575,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-31",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2020_Steven.png",
@@ -5529,10 +5589,11 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5551,6 +5612,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-01",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Steven.png",
@@ -5564,12 +5626,12 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Shiny"
+			"Shiny",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5591,6 +5653,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-10",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_ssSteven_ANormal.png",
@@ -5604,8 +5667,7 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Terrain",
@@ -5628,6 +5690,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-31",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Steven.png",
@@ -5643,12 +5706,11 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Shiny",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Special Costume",
-			"Rebuff"
+			"Rebuff",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5665,6 +5727,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-03-31",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-05_TL_Steven.png",
@@ -5679,8 +5742,7 @@ export const SYNCPAIRS = [
 			"Space Cadet"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Trainer Lodge",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -5699,6 +5761,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-02-14",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png",
@@ -5714,9 +5777,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
 			"isMan",
-			"Mythical",
-			"Event",
-			"Story"
+			"Mythical"
 		]
 	},
 	{
@@ -5733,6 +5794,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-02-25",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png",
@@ -5746,7 +5808,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Story",
 			"isWoman",
 			"Eeveelution",
 			"Multiple Units"
@@ -5766,6 +5827,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06-BP_Valerie.png",
@@ -5780,9 +5842,9 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5801,6 +5863,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSRed.png",
@@ -5814,15 +5877,15 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Ticket Scout (after Victory Road)",
-			"Poké Fair",
 			"Multiple Units",
 			"isMan",
 			"Starter",
 			"Song Key",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5842,6 +5905,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-16",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_Red.png",
@@ -5855,11 +5919,11 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5879,6 +5943,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-01",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_SSTRed.png",
@@ -5892,12 +5957,12 @@ export const SYNCPAIRS = [
 			"Pallet Town"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Buddy Move",
-			"Terrain"
+			"Terrain",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5914,6 +5979,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0A-01_NCRed.png",
@@ -5929,12 +5995,12 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Weather",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -5953,6 +6019,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-16",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0B-06_Sabrina.png",
@@ -5965,7 +6032,6 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -5984,6 +6050,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Sabrina.png",
@@ -5996,7 +6063,7 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -6015,6 +6082,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-19",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-05_Fantina.png",
@@ -6028,10 +6096,10 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6048,6 +6116,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-27",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-02_Plumeria.png",
@@ -6060,7 +6129,6 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"ZMove",
 			"Song Key"
@@ -6080,6 +6148,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-03-27",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-03_Guzma.png",
@@ -6092,7 +6161,6 @@ export const SYNCPAIRS = [
 			"Sunglasses"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Song Key"
@@ -6112,6 +6180,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-11",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Guzma.png",
@@ -6125,7 +6194,7 @@ export const SYNCPAIRS = [
 			"Special Costume"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Ultra Beast"
@@ -6145,6 +6214,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_Clemont.png",
@@ -6158,7 +6228,6 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units"
 		]
@@ -6177,6 +6246,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-05_BP_Clemont.png",
@@ -6191,7 +6261,6 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
 			"isMan"
 		]
@@ -6210,6 +6279,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0B-08_Wallace.png",
@@ -6223,7 +6293,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Song Key"
 		]
@@ -6242,6 +6311,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-04-30",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_Silver.png",
@@ -6262,7 +6332,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6279,6 +6350,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_TL_Silver.png",
@@ -6292,10 +6364,10 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isMan",
-			"Starter"
+			"Starter",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6312,6 +6384,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-17",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0A-04_SSSilver.png",
@@ -6327,8 +6400,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -6349,6 +6421,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_Wally.png",
@@ -6362,7 +6435,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units",
 			"Grid3",
@@ -6386,6 +6458,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-03_ssWally.png",
@@ -6401,13 +6474,13 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Wish Zone",
 			"Shiny",
 			"Rebuff",
-			"Grid5"
+			"Grid5",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6426,6 +6499,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-21",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-06_Jasmine.png",
@@ -6439,7 +6513,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -6458,6 +6531,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-18",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Jasmine.png",
@@ -6471,10 +6545,11 @@ export const SYNCPAIRS = [
 			"Special Costume"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Ultra Beast"
+			"Ultra Beast",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6493,6 +6568,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-14",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2022_Jasmine.png",
@@ -6507,7 +6583,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Holiday"
 		]
@@ -6529,6 +6605,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-05-28",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_Dawn.png",
@@ -6542,7 +6619,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Starter"
@@ -6564,6 +6640,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Dawn.png",
@@ -6577,7 +6654,7 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -6596,6 +6673,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_SSDawn.png",
@@ -6608,8 +6686,7 @@ export const SYNCPAIRS = [
 			"Sygna Suit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
@@ -6632,6 +6709,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Dawn.png",
@@ -6646,7 +6724,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"New Year"
 		]
@@ -6667,6 +6745,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-01-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-02_TL_Dawn.png",
@@ -6682,8 +6761,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units",
-			"Trainer Lodge"
+			"Multiple Units"
 		]
 	},
 	{
@@ -6700,6 +6778,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-18",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0B-03_Burgh.png",
@@ -6713,7 +6792,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Grid3",
@@ -6734,6 +6812,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_Burgh.png",
@@ -6747,7 +6826,7 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -6769,6 +6848,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-06-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_Serena.png",
@@ -6782,7 +6862,6 @@ export const SYNCPAIRS = [
 			"Kalos Neighbors"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Starter"
@@ -6802,6 +6881,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-29",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2021_Serena.png",
@@ -6815,7 +6895,7 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -6837,6 +6917,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-17",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_SSSerena.png",
@@ -6849,8 +6930,7 @@ export const SYNCPAIRS = [
 			"Sygna Suit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary"
@@ -6870,6 +6950,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_ChampSerena.png",
@@ -6884,11 +6965,11 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isWoman",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"Rebuff",
-			"Starter"
+			"Starter",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6905,6 +6986,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-11-30",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-02_TL_Serena.png",
@@ -6919,8 +7001,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units",
-			"Trainer Lodge"
+			"Multiple Units"
 		]
 	},
 	{
@@ -6937,6 +7018,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-07-09",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-02_Jessie.png",
@@ -6950,8 +7032,9 @@ export const SYNCPAIRS = [
 			"Team Rocket Forever"
 		],
 		"tags": [
-			"Limited Event",
-			"isWoman"
+			"Limited",
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6968,6 +7051,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-07-10",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-02_Lucy.png",
@@ -6981,7 +7065,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -6999,6 +7082,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-07-15",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_Morty.png",
@@ -7012,7 +7096,6 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan"
 		]
@@ -7031,6 +7114,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-05-27",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04-BP_Morty.png",
@@ -7045,9 +7129,9 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7066,6 +7150,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-14",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2021_Morty.png",
@@ -7079,9 +7164,10 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7098,6 +7184,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_SSMorty.png",
@@ -7111,8 +7198,7 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Weather",
@@ -7120,7 +7206,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Grid5",
 			"GridExpansion",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7137,6 +7224,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-02-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-04_TL_Morty.png",
@@ -7152,8 +7240,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units",
-			"Trainer Lodge"
+			"Multiple Units"
 		]
 	},
 	{
@@ -7170,6 +7257,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-08-17",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_Cyrus.png",
@@ -7205,6 +7293,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-10",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0D-01_SSCyrus.png",
@@ -7218,8 +7307,7 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Wish Zone",
@@ -7241,6 +7329,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-10",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_Lusamine.png",
@@ -7254,7 +7343,6 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Ultra Beast",
@@ -7279,6 +7367,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0D-01_SSLusamine.png",
@@ -7292,8 +7381,7 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
@@ -7314,6 +7402,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-05_Gladion.png",
@@ -7327,7 +7416,6 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Legendary",
 			"Song Key"
@@ -7347,6 +7435,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_Lillie.png",
@@ -7360,7 +7449,6 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Song Key"
@@ -7380,6 +7468,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2021_Lillie.png",
@@ -7393,7 +7482,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -7412,6 +7501,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-28",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_Lillie.png",
@@ -7425,8 +7515,7 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary"
@@ -7448,6 +7537,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-31",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Lillie.png",
@@ -7460,7 +7550,7 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone"
@@ -7480,6 +7570,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-04_TL_Lillie.png",
@@ -7494,7 +7585,6 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -7513,6 +7603,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2020-09-17",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0D-03_James.png",
@@ -7526,8 +7617,9 @@ export const SYNCPAIRS = [
 			"Team Rocket Forever"
 		],
 		"tags": [
-			"Limited Event",
-			"isMan"
+			"Limited",
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7544,6 +7636,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-09-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-08_Volkner.png",
@@ -7557,7 +7650,6 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isMan",
 			"Terrain"
@@ -7577,6 +7669,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2022_Volkner.png",
@@ -7590,7 +7683,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Terrain"
@@ -7612,6 +7705,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2020-10-08",
+		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-05_Molayne.png",
@@ -7625,7 +7719,6 @@ export const SYNCPAIRS = [
 			"Observatory Cousin"
 		],
 		"tags": [
-			"Story",
 			"isMan",
 			"ZMove"
 		]
@@ -7646,6 +7739,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-10-30",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-03_Lisia.png",
@@ -7658,7 +7752,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"Song Key"
@@ -7680,6 +7773,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-01",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0D_NY_2023_Lisia.png",
@@ -7694,10 +7788,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Shiny",
-			"New Year"
+			"New Year",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7714,6 +7809,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-06",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-06_Alder.png",
@@ -7727,8 +7823,7 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
 			"Grid5",
 			"GridExpansion",
@@ -7749,6 +7844,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-12",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-05_Nate.png",
@@ -7762,7 +7858,6 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -7780,6 +7875,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-04_Bianca.png",
@@ -7793,7 +7889,6 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Terrain",
 			"Song Key"
@@ -7815,6 +7910,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-11-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_Gloria.png",
@@ -7828,8 +7924,7 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
@@ -7852,6 +7947,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-15",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Gloria.png",
@@ -7865,7 +7961,7 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Starter"
@@ -7889,6 +7985,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GloriaDojo.png",
@@ -7902,8 +7999,7 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
@@ -7925,6 +8021,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-03-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_TL_Gloria.png",
@@ -7940,9 +8037,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Trainer Lodge",
 			"Starter"
 		]
 	},
@@ -7963,6 +8059,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-02",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-02_GymGloria.png",
@@ -7978,8 +8075,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Starter",
 			"Grid5",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
@@ -8000,6 +8096,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-12-24",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_N.png",
@@ -8013,10 +8110,9 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Legendary",
 			"Grid5",
 			"GridExpansion",
@@ -8037,6 +8133,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-30",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2021_N.png",
@@ -8050,8 +8147,7 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary"
@@ -8071,6 +8167,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-30",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2022_N.png",
@@ -8084,7 +8181,7 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -8103,6 +8200,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_TL_N.png",
@@ -8117,10 +8215,10 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
-			"Limited Sync Pair Scout",
-			"isMan"
+			"Limited",
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8139,6 +8237,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-03_SSN.png",
@@ -8154,13 +8253,13 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Legendary",
 			"Grid5",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8181,6 +8280,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-14",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_May.png",
@@ -8194,7 +8294,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -8217,6 +8316,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0F_SPRING_2021_May.png",
@@ -8230,7 +8330,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -8251,6 +8351,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_May.png",
@@ -8264,8 +8365,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
@@ -8290,6 +8390,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-29",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_SSMay.png",
@@ -8303,8 +8404,7 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Starter",
@@ -8327,6 +8427,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0A-02_TL_May.png",
@@ -8341,7 +8442,6 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -8360,6 +8460,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-01-21",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-04_Mallow.png",
@@ -8372,10 +8473,10 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
-			"ZMove"
+			"ZMove",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8392,6 +8493,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-31",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2023_Mallow.png",
@@ -8406,7 +8508,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Palentine"
 		]
@@ -8425,6 +8527,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-23",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-02b_Mallow.png",
@@ -8437,11 +8540,10 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"ZMove",
-			"Variety"
+			"ZMove"
 		]
 	},
 	{
@@ -8458,6 +8560,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-11",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_Lysandre.png",
@@ -8471,8 +8574,7 @@ export const SYNCPAIRS = [
 			"Old Colleagues"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
 			"Legendary",
 			"Multiple Units",
@@ -8495,6 +8597,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-13",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0D-01_ssLysandre.png",
@@ -8510,9 +8613,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Mythical",
 			"Grid5",
 			"Song Key",
@@ -8533,6 +8635,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-11",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_ProfSycamore.png",
@@ -8569,6 +8672,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-01_TL_ProfSycamore.png",
@@ -8582,7 +8686,6 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
 			"isMan"
 		]
@@ -8601,6 +8704,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-18",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-07_Piers.png",
@@ -8613,7 +8717,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Song Key"
 		]
@@ -8635,6 +8738,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-26",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_Leon.png",
@@ -8648,12 +8752,12 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Starter",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8673,6 +8777,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-12",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_SSLeon.png",
@@ -8686,8 +8791,7 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary"
@@ -8709,6 +8813,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-16",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Leon.png",
@@ -8722,7 +8827,7 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Legendary"
@@ -8744,6 +8849,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-31",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0C-01_TowerLeon.png",
@@ -8759,8 +8865,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Song Key",
@@ -8784,6 +8889,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-26",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_Marnie.png",
@@ -8797,9 +8903,8 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Poké Fair",
 			"Multiple Units",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isWoman",
 			"Grid5",
 			"GridExpansion",
@@ -8820,6 +8925,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-17",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0B_SUM_2021_Marnie.png",
@@ -8833,7 +8939,7 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -8854,6 +8960,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-31",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Marnie.png",
@@ -8867,10 +8974,11 @@ export const SYNCPAIRS = [
 			"Cook"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8887,6 +8995,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-08-25",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_TL_Marnie.png",
@@ -8901,9 +9010,8 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Trainer Lodge",
 			"Multiple Units",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isWoman"
 		]
 	},
@@ -8924,6 +9032,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-28",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-04_NeoChampMarnie.png",
@@ -8939,10 +9048,10 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isWoman",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8961,6 +9070,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-31",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_Diantha.png",
@@ -8974,13 +9084,13 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -8999,6 +9109,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-29",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2021_Diantha.png",
@@ -9012,7 +9123,7 @@ export const SYNCPAIRS = [
 			"Special Costume"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Mythical"
@@ -9034,6 +9145,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-12",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-05_ssDiantha.png",
@@ -9049,15 +9161,15 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isWoman",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
-			"Poké Fair",
 			"Wish Zone",
 			"Mythical",
 			"Shiny",
 			"Grid5",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -9077,6 +9189,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-15",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-02_Selene.png",
@@ -9090,7 +9203,6 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Starter"
 		]
@@ -9112,6 +9224,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0A-01_Elio.png",
@@ -9125,7 +9238,6 @@ export const SYNCPAIRS = [
 			"Alola Adventurer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Starter",
 			"ZMove"
@@ -9145,6 +9257,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-28",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_Raihan.png",
@@ -9158,10 +9271,9 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Poké Fair",
 			"Multiple Units",
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Weather",
 			"Grid5",
 			"GridExpansion"
@@ -9183,6 +9295,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-04",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0G_ANNIV_2022_Raihan.png",
@@ -9196,8 +9309,7 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Weather",
@@ -9219,6 +9331,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2022-10-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-08_TL_Raihan.png",
@@ -9235,8 +9348,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"Trainer Lodge",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Weather"
 		]
 	},
@@ -9254,6 +9366,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-04",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-01_Ghetsis.png",
@@ -9271,7 +9384,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -9288,6 +9402,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-13",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-02_Nessa.png",
@@ -9300,7 +9415,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -9322,6 +9436,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-18",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0A_HOLIDAY_2021_Nessa.png",
@@ -9335,7 +9450,7 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Weather"
@@ -9355,6 +9470,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-15",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04_Bea.png",
@@ -9368,7 +9484,6 @@ export const SYNCPAIRS = [
 			"Sweet Tooth"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman"
 		]
@@ -9387,6 +9502,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-02",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0E_PAL_2022_Bea.png",
@@ -9400,7 +9516,7 @@ export const SYNCPAIRS = [
 			"Sweet Tooth"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
 			"Weather"
@@ -9420,6 +9536,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-31",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-01_Maxie.png",
@@ -9433,8 +9550,7 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"isMan",
 			"Weather",
 			"Legendary",
@@ -9455,6 +9571,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-01",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-02_Archie.png",
@@ -9468,8 +9585,7 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"isMan",
 			"Weather",
 			"Legendary",
@@ -9490,6 +9606,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-11",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_Lana.png",
@@ -9503,7 +9620,6 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Multiple Units",
 			"ZMove"
@@ -9523,6 +9639,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-02_ssLana.png",
@@ -9539,8 +9656,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Terrain",
 			"Multiple Units",
 			"isWoman",
@@ -9564,6 +9680,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-13",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-03_Kiawe.png",
@@ -9577,7 +9694,6 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"ZMove",
 			"Multiple Units"
@@ -9597,6 +9713,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-21",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01b_Kiawe.png",
@@ -9610,11 +9727,11 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"ZMove",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -9631,6 +9748,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-15",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0C-01_Hala.png",
@@ -9644,7 +9762,6 @@ export const SYNCPAIRS = [
 			"Melemele Family"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -9662,6 +9779,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-02_MaskedRoyal.png",
@@ -9675,7 +9793,6 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Starter",
 			"ZMove",
@@ -9696,6 +9813,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-01_Ingo.png",
@@ -9708,8 +9826,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Weather",
@@ -9731,6 +9848,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-14",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Ingo.png",
@@ -9744,7 +9862,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Wish Zone"
@@ -9764,6 +9882,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0E-02_Emmet.png",
@@ -9776,8 +9895,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Weather"
@@ -9797,6 +9915,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-21",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Emmet.png",
@@ -9810,7 +9929,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isMan"
 		]
@@ -9829,6 +9948,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-02_Evelyn.png"
@@ -9841,7 +9961,6 @@ export const SYNCPAIRS = [
 			"Fancy Lady"
 		],
 		"tags": [
-			"Battle Points",
 			"isWoman",
 			"Legendary"
 		]
@@ -9862,6 +9981,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-07-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-01_Lear.png",
@@ -9873,8 +9993,7 @@ export const SYNCPAIRS = [
 			"Sunglasses"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
 			"Mythical",
 			"Song Key"
@@ -9894,6 +10013,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-02_Rachel.png",
@@ -9905,10 +10025,10 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isWoman",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -9925,6 +10045,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2021-07-30",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-03_Sawyer.png",
@@ -9936,8 +10057,7 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"Limited Sync Pair Scout PML Arc Conclusion Special Missions",
-			"Poké Fair",
+			"Limited PML Arc Conclusion Special Missions",
 			"isMan"
 		]
 	},
@@ -9955,6 +10075,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-05",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01_Falkner.png",
@@ -9967,7 +10088,6 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Multiple Units"
 		]
@@ -9986,6 +10106,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-01-BP_Falkner.png",
@@ -9999,9 +10120,9 @@ export const SYNCPAIRS = [
 			"Pokéathlete"
 		],
 		"tags": [
-			"Battle Points",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10020,6 +10141,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-09",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0C-01_Sidney.png",
@@ -10032,7 +10154,6 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -10052,6 +10173,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-12",
+		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_Hop.png",
@@ -10090,6 +10212,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-02",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-03_NeoChampHop.png",
@@ -10105,11 +10228,11 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
 			"Wish Zone",
-			"Legendary"
+			"Legendary",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10129,6 +10252,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-22",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-04b_Allister.png",
@@ -10142,9 +10266,9 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10163,6 +10287,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-19",
+		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0C_FALL_2022_Allister.png",
@@ -10177,7 +10302,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Rebuff"
 		]
@@ -10196,6 +10321,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-10-25",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-04_Darach.png",
@@ -10209,7 +10335,6 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -10227,6 +10352,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-23",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_Sonia.png",
@@ -10240,7 +10366,6 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
 			"Multiple Units",
 			"isWoman",
 			"Song Key"
@@ -10260,6 +10385,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-07",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2022_Sonia.png",
@@ -10273,10 +10399,11 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Shiny"
+			"Shiny",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10293,6 +10420,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-13",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_Lucas.png",
@@ -10306,8 +10434,7 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
 			"Wish Zone",
 			"Legendary",
@@ -10318,7 +10445,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "145",
 		"trainerName": "Lucas",
-		"trainerAlt": "Eevee Day",
+		"trainerAlt": "Variety",
 		"pokemonNumber": "0136",
 		"pokemonName": "Flareon",
 		"pokemonGender": "♂",
@@ -10329,6 +10456,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-21",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0A-01_VS_Lucas.png",
@@ -10343,11 +10471,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Limited Sync Pair Scout",
+			"Limited",
 			"Multiple Units",
 			"Weather",
-			"Variety",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10364,6 +10492,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-09",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-01_Aaron.png",
@@ -10376,7 +10505,6 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -10394,6 +10522,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-11",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-02_Bertha.png",
@@ -10407,7 +10536,6 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Weather"
 		]
@@ -10426,6 +10554,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-13",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-04_Lucian.png",
@@ -10439,7 +10568,6 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan"
 		]
 	},
@@ -10460,6 +10588,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-16",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_Bede.png",
@@ -10472,8 +10601,7 @@ export const SYNCPAIRS = [
 			"Galar Adventurer"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
 			"Weather",
 			"Terrain",
@@ -10500,6 +10628,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-04",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-05_NeoChampBede.png",
@@ -10515,10 +10644,10 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isMan",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10535,6 +10664,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-03",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-05_Looker.png",
@@ -10546,7 +10676,6 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Song Key",
 			"Villain Arc"
@@ -10568,6 +10697,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-05",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0D-03_Courtney.png",
@@ -10580,7 +10710,6 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman",
 			"Wish Zone",
 			"Villain Arc"
@@ -10600,6 +10729,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-02_Ash.png",
@@ -10613,11 +10743,11 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"isMan",
 			"Buddy Move",
-			"ZMove"
+			"ZMove",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10636,6 +10766,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-01_Nita.png"
@@ -10648,7 +10779,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Battle Points",
 			"isWoman",
 			"Legendary"
 		]
@@ -10667,6 +10797,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2022-09-15",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0X-01_Naomi.png",
@@ -10679,8 +10810,9 @@ export const SYNCPAIRS = [
 			"Sunglasses"
 		],
 		"tags": [
-			"Limited Event",
-			"isWoman"
+			"Limited",
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10700,6 +10832,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-03",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06_Gordie.png",
@@ -10712,7 +10845,6 @@ export const SYNCPAIRS = [
 			"Sunglasses"
 		],
 		"tags": [
-			"Gen Pool",
 			"isMan",
 			"Weather",
 			"Rebuff"
@@ -10735,6 +10867,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-05",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0B-06b_Melony.png",
@@ -10748,8 +10881,8 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
-			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10769,6 +10902,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-07",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_Victor.png",
@@ -10782,8 +10916,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Starter",
 			"Grid5",
 			"Multiple Units"
@@ -10792,7 +10925,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "157",
 		"trainerName": "Victor",
-		"trainerAlt": "Event",
+		"trainerAlt": "",
 		"pokemonNumber": "0897",
 		"pokemonName": "Spectrier",
 		"pokemonGender": "",
@@ -10805,6 +10938,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-16",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0A-01_SpecialVictor.png",
@@ -10818,7 +10952,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"Limited Event",
+			"Limited",
 			"Wish Zone",
 			"Multiple Units",
 			"isMan"
@@ -10838,6 +10972,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2022-10-17",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0X-01_Helena.png",
@@ -10850,7 +10985,7 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"isWoman"
 		]
 	},
@@ -10868,6 +11003,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-07",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0A-07_Hugh.png",
@@ -10882,7 +11018,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Gen Pool",
 			"Song Key",
 			"Villain Arc"
 		]
@@ -10901,6 +11036,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-17",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0D-02_Colress.png",
@@ -10915,7 +11051,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Gen Pool",
 			"Song Key",
 			"Villain Arc"
 		]
@@ -10934,6 +11069,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "3",
 		"releaseDate": "2023-01-01",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0X-02_Kali.png",
@@ -10946,7 +11082,7 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
-			"Limited Event",
+			"Limited",
 			"isWoman"
 		]
 	},
@@ -10964,6 +11100,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-16",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0A-03_Shauna.png",
@@ -10977,7 +11114,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Gen Pool",
 			"Starter",
 			"Multiple Units",
 			"Villain Arc"
@@ -10997,6 +11133,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-02",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0Y_SEASONALS/0Z_0H_SPCostume_2023_Shauna.png",
@@ -11009,11 +11146,9 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Seasonal",
+			"Limited",
 			"Multiple Units",
-			"isWoman",
-			"Special Costume"
+			"isWoman"
 		]
 	},
 	{
@@ -11033,6 +11168,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-15",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0E-03_Anabel.png",
@@ -11045,10 +11181,10 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Grid5",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11065,6 +11201,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-17",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0F-02_Emma.png",
@@ -11078,11 +11215,11 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"isWoman",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Grid5",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11099,6 +11236,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-21",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_0F-01_BallGuy.png",
@@ -11109,8 +11247,7 @@ export const SYNCPAIRS = [
 			"Galar"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Variety"
+			"Limited"
 		]
 	},
 	{
@@ -11127,6 +11264,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-31",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_Adaman.png",
@@ -11140,14 +11278,14 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Weather",
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
 			"Hisui",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11164,6 +11302,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-05-31",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0I_HISUI/0I_HISUI_0B-01_TL_Adaman.png",
@@ -11177,12 +11316,12 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"Trainer Lodge",
+			"Limited",
 			"Multiple Units",
 			"isMan",
 			"Hisui",
-			"Eeveelution"
+			"Eeveelution",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11199,6 +11338,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-02",
+		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0I_HISUI/0I_HISUI_0B-02_Irida.png",
@@ -11212,8 +11352,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Master Fair",
+			"Limited",
 			"Weather",
 			"Wish Zone",
 			"Multiple Units",
@@ -11236,6 +11375,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-07-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0I_HISUI/0I_HISUI_0B-02_TL_Irida.png",
@@ -11250,11 +11390,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Eeveelution",
-			"Limited Sync Pair Scout",
-			"Trainer Lodge",
+			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Hisui"
+			"Hisui",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11271,6 +11411,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-15",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0E-01_Eusine.png",
@@ -11287,10 +11428,10 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11310,6 +11451,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-14",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_Rose.png",
@@ -11323,8 +11465,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Grid5",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Weather",
 			"isMan",
 			"Song Key",
@@ -11348,6 +11489,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-16",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/0H_GALAR_Oleana.png",
@@ -11362,8 +11504,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Grid5",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isWoman",
 			"Rebuff",
 			"Song Key",
@@ -11384,6 +11525,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-04",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-07_Olympia.png",
@@ -11397,8 +11539,8 @@ export const SYNCPAIRS = [
 			"Cape"
 		],
 		"tags": [
-			"Gen Pool",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11415,6 +11557,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-07",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0C-04_Drasna.png",
@@ -11427,7 +11570,6 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"Gen Pool",
 			"isWoman"
 		]
 	},
@@ -11445,6 +11587,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-08",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/0J_PALDEA/0J_PALDEA_0A-03_Nemona.png",
@@ -11459,8 +11602,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isWoman",
 			"Song Key"
 		]
@@ -11479,6 +11621,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0E-03_Dana.png"
@@ -11492,7 +11635,6 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"Battle Points",
 			"isWoman"
 		]
 	},
@@ -11513,6 +11655,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-04",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-04_Paulo.png",
@@ -11526,12 +11669,12 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Weather",
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11548,6 +11691,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "4",
 		"releaseDate": "2023-09-04",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/00_PASIO_0E-05_Tina.png",
@@ -11561,10 +11705,10 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Eeveelution",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isWoman",
-			"Villain Arc"
+			"Villain Arc",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11581,6 +11725,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-06",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-01_Archer.png",
@@ -11592,9 +11737,9 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isMan",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11611,6 +11756,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-06",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-02_Ariana.png",
@@ -11622,9 +11768,9 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isWoman",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11641,6 +11787,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-06",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-03_Petrel.png",
@@ -11652,9 +11799,9 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
+			"Limited",
 			"isMan",
-			"Variety"
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -11671,6 +11818,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-06",
+		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0D-04_Proton.png",
@@ -11682,9 +11830,8 @@ export const SYNCPAIRS = [
 			"Villain."
 		],
 		"tags": [
-			"Limited Sync Pair Scout",
-			"isMan",
-			"Variety"
+			"Limited",
+			"isMan"
 		]
 	},
 	{
@@ -11703,6 +11850,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-16",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-06_Palmer.png",
@@ -11719,8 +11867,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"Wish Zone",
 			"isMan"
 		]
@@ -11741,6 +11888,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-09-18",
+		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0E-07_Argenta.png",
@@ -11755,8 +11903,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Grid5",
-			"Limited Sync Pair Scout",
-			"Poké Fair",
+			"Limited",
 			"isWoman"
 		]
 	}
@@ -11777,6 +11924,7 @@ const P = {
 	"syncPairRoleEX": "Strike (Special) / Strike (Physical) / Tech / Support / Sprint / Field",
 	"syncPairRarity": "5",
 	"releaseDate": "2023-00-00",
+	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Master Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward",
 	"syncPairRegion": "Pasio / Kanto / Johto / Hoenn / Sinnoh / Unova / Kalos / Alola / Galar / Paldea",
 	"images": [
 		"images/empty.png"
@@ -11788,6 +11936,7 @@ const P = {
 		"Shiny",
 		"Ultra Beast",
 		"Starter",
+		"Eeveelution",
 		"New Year",
 		"Palentine",
 		"Spring",
@@ -11798,28 +11947,20 @@ const P = {
 		"Grid5",
 		"GridExpansion",
 		"Buddy Move",
-		"Gen Pool",
-		"Story",
-		"Limited Event",
-		"Limited Sync Pair Scout",
-		"Seasonal",
-		"Poké Fair",
-		"Master Fair",
-		"Battle Points",
-		"Trainer Lodge",
+		"Limited",
 		"Weather",
 		"Terrain",
 		"Wish Zone",
 		"Multiple Units",
+		"Multiple Pokemon",
 		"isMan",
 		"isWoman",
-		"Special Costume",
 		"Anniversary",
-		"Variety",
 		"Rebuff",
 		"Z-Move",
 		"Hisui",
-		"Song Key"
+		"Song Key",
+		"Legendary Adventures"
 	]
 }
 

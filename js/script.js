@@ -10,6 +10,7 @@ const syncFavImgs = ["images/favoriteG.png","images/favoriteL.png","images/favor
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
 const rolesOrder = {"strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05"};
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
+const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11"}
 const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"]}
 
 
@@ -131,6 +132,7 @@ function generatePairsHTML(pairs) {
 					<p data-order="${rolesOrder[syncPair.syncPairRoleEX.toLowerCase()]}" class="infoSyncPairRoleEX">${syncPair.syncPairRoleEX}</p>
 					<p class="infoSyncPairRarity">${syncPair.syncPairRarity}</p>
 					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
+					<p data-order="${acquisitionOrder[syncPair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${syncPair.syncPairAcquisition}</p>
 					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
 					<p class="infoSyncPairThemes">${tags(syncPair.themes)}</p>
 					<p class="infoSyncPairTags">${tags(syncPair.tags)}</p>
@@ -1583,7 +1585,8 @@ var sortTypes = [
 	["sortByType","infoPokemonType"],
 	["sortByWeakness","infoPokemonWeak"],
 	["sortByRole","infoSyncPairRole"],
-	["sortByRegion","infoSyncPairRegion"]
+	["sortByRegion","infoSyncPairRegion"],
+	["sortByAcquisition","infoSyncPairAcquisition"]
 ]
 
 /* for each sort button, add an eventlistener that call a function that

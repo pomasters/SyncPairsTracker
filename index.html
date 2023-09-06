@@ -111,6 +111,7 @@
 						<button type="button" class="btn" data-asc="false" id="sortBySyncLevel">Move Level</button>
 						<button type="button" class="btn" data-asc="false" id="sortBySelected">Possession</button>
 						<button type="button" class="btn" data-asc="false" id="sortByFavorite">Heart Icon</button>
+						<button type="button" class="btn" data-asc="true" id="sortByAcquisition">Acquisition</button>
 						<div>
 							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
 						</div>
@@ -304,33 +305,38 @@
 					</div>
 
 					<div class="buttonGroup">
+						<div class="buttonGroupTitle">Acquisition<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<button type="button" class="btn" value='General Pool'><img src="images/icon_genpool.png">Gen Pool</button>
+						<button type="button" class="btn" value='Poké Fair'><img src="images/icon_pokefair.png">Poké Fair</button>
+						<button type="button" class="btn smallerText" value='Master Fair'><img src="images/icon_master.png">Master Fair</button>
+						<button type="button" class="btn" value='>Seasonal'><img src="images/icon_seasonal.png">Seasonal</button>
+						<button type="button" class="btn smallerText" value='Special Costume'>Special Costume</button>
+						<button type="button" class="btn" value='Variety'>Variety</button>
+						<button type="button" class="btn" value='Main Story'><img src="images/icon_story.png">Story</button>
+						<button type="button" class="btn" value='Legendary Adventures'>Legendary Adv.</button>
+						<button type="button" class="btn" value='Event Reward'><img src="images/icon_event.png">Event</button>
+						<button type="button" class="btn" value='Battle Points'><img src="images/icon_bp.png">BP</button>
+						<button type="button" class="btn" value='Trainer Lodge'><img src="images/icon_lodge.png">Lodge</button>
+					</div>
+
+					<div class="buttonGroup">
 						<div class="buttonGroupTitle">Other<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 						<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
 						<button type="button" class="btn" value='Buddy Move'><img src="images/icon_bmove.png">B Move</button>
-						<button type="button" class="btn" value='Gen Pool'><img src="images/icon_genpool.png">Gen Pool</button>
-						<button type="button" class="btn" value='Story'><img src="images/icon_story.png">Story</button>
-						<button type="button" class="btn" value='Event'><img src="images/icon_event.png">Event</button>
 						<button type="button" class="btn" value='Limited'><img src="images/icon_gem.png">Limited</button>
-						<button type="button" class="btn" value='Seasonal'><img src="images/icon_seasonal.png">Seasonal</button>
-						<button type="button" class="btn" value='Poké Fair'><img src="images/icon_pokefair.png">Poké Fair</button>
-						<button type="button" class="btn smallerText" value='Master Fair'><img src="images/icon_master.png">Master Fair</button>
-						<button type="button" class="btn" value='Battle Points'><img src="images/icon_bp.png">BP</button>
-						<button type="button" class="btn" value='Trainer Lodge'><img src="images/icon_lodge.png">Lodge</button>
 						<button type="button" class="btn" value='Weather'><img src="images/icon_weather.png">Weather</button>
 						<button type="button" class="btn" value='Terrain'><img src="images/icon_terrain.png">Terrain</button>
 						<button type="button" class="btn" value='Wish Zone'><img src="images/icon_zone.png">Zone</button>
-						<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Has an alt</button>
+						<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Alt (Trainer)</button>
+						<button type="button" class="btn" value='Multiple Pokemon'>Alt (Pokémon)</button>
 						<button type="button" class="btn filterGender" value='isMan'><img src="images/icon_male.png">Man</button>
 						<button type="button" class="btn filterGender" value='isWoman'><img src="images/icon_female.png">Woman</button>
 						<button type="button" class="btn" value='Sygna Suit'>Sygna Suit</button>
-						<button type="button" class="btn smallerText" value='Special Costume'>Special Costume</button>
 						<button type="button" class="btn" value='Anniversary'>Anniversary</button>
-						<button type="button" class="btn" value='Variety'>Variety</button>
 						<button type="button" class="btn" value='Rebuff'><img src="images/icon_rebuff.png">Rebuff</button>
 						<button type="button" class="btn" value='ZMove'>Z-Move</button>
 						<button type="button" class="btn" value='Song Key'><img src="images/icon_songkey.png">Song Key</button>
-						<button type="button" class="btn" value='Legendary Adventures'>Legendary Adv.</button>
 						<button type="button" class="btn" value='Villain Arc'>Villain Arc</button>
 					</div>
 
@@ -462,6 +468,6 @@
 <script type="text/javascript" src="js/lib/html2canvas.min.js"></script>
 <script type="text/javascript" src="js/lib/tinysort.min.js"></script>
 <script type="text/javascript" src="js/lib/long-press-event.min.js"></script>
-<script type="module" src="js/script.js?v=20230828"></script>
+<script type="module" src="js/script.js?v=20230906"></script>
 
 </html>
