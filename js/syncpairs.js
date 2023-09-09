@@ -4876,7 +4876,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Wish Zone"
 		]
 	},
 	{
@@ -11959,8 +11960,7 @@ const P = {
 		"Rebuff",
 		"Z-Move",
 		"Hisui",
-		"Song Key",
-		"Legendary Adventures"
+		"Song Key"
 	]
 }
 
