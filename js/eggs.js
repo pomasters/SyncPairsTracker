@@ -16,6 +16,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0003_01sb.png",
@@ -50,6 +51,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0006_01b.png",
@@ -84,6 +86,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0009_01b.png",
@@ -119,6 +122,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0015_01b.png",
@@ -153,6 +157,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0018_01b.png",
@@ -186,6 +191,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0020_01b.png",
@@ -219,6 +225,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0022_01sb.png",
@@ -252,6 +259,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0024_01b.png",
@@ -286,6 +294,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0026_01sb.png",
@@ -319,6 +328,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0028_01b.png",
@@ -353,6 +363,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0031_01b.png",
@@ -387,6 +398,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0034_01b.png",
@@ -421,6 +433,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-04-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0036_01sb.png",
@@ -454,6 +467,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0038_01b.png",
@@ -489,6 +503,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0040_01b.png",
@@ -522,6 +537,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0042_01b.png",
@@ -556,6 +572,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-01-06",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0045_01b.png",
@@ -589,6 +606,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-11-15",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0047_01b.png",
@@ -622,6 +640,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0049_01b.png",
@@ -655,6 +674,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01b.png",
@@ -689,6 +709,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0053_01ab.png",
@@ -722,6 +743,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0057_01b.png",
@@ -755,6 +777,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0059_01sb.png",
@@ -789,6 +812,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0065_01a.png",
@@ -823,6 +847,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0068_01sb.png",
@@ -857,6 +882,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0071_01b.png",
@@ -891,6 +917,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0076_01b.png",
@@ -924,6 +951,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0078_01b.png",
@@ -957,6 +985,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-08-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0080_01b.png",
@@ -990,6 +1019,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0082_01b.png",
@@ -1021,6 +1051,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0083_01b.png",
@@ -1054,6 +1085,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0087_01sb.png",
@@ -1087,6 +1119,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0089_01b.png",
@@ -1120,6 +1153,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0091_01b.png",
@@ -1154,6 +1188,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0094_01sb.png",
@@ -1185,6 +1220,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0095_01sb.png",
@@ -1218,6 +1254,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0101_01b.png",
@@ -1251,6 +1288,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0103_01b.png",
@@ -1284,6 +1322,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0105_01sb.png",
@@ -1317,6 +1356,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0106_01b.png",
@@ -1348,6 +1388,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0107_03b.png",
@@ -1377,6 +1418,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-12-02",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0108_01b.png",
@@ -1410,6 +1452,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0110_01b.png",
@@ -1443,6 +1486,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0113_01b.png",
@@ -1474,6 +1518,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-06-21",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0114_01b.png",
@@ -1505,6 +1550,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0115_01sb.png",
@@ -1538,6 +1584,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0117_01b.png",
@@ -1571,6 +1618,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0119_01sb.png",
@@ -1604,6 +1652,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-03",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0121_01b.png",
@@ -1635,6 +1684,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0123_01sb.png",
@@ -1668,6 +1718,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-10-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0124_01b.png",
@@ -1703,6 +1754,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0125_01b.png",
@@ -1736,6 +1788,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0126_01b.png",
@@ -1767,6 +1820,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0127_01sb.png",
@@ -1798,6 +1852,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0128_01sb.png",
@@ -1831,6 +1886,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-05-05",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0130_01sb.png",
@@ -1863,6 +1919,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0131_01b.png",
@@ -1895,6 +1952,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0137_01sb.png",
@@ -1928,6 +1986,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0139_01b.png",
@@ -1961,6 +2020,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0141_01b.png",
@@ -1993,6 +2053,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0142_01sb.png",
@@ -2026,6 +2087,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0143_01b.png",
@@ -2060,6 +2122,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-09",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0149_01b.png",
@@ -2093,6 +2156,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0237_02b.png",
@@ -2124,6 +2188,7 @@ export const EGGS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
+		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0863_01b.png",
@@ -2135,6 +2200,102 @@ export const EGGS = [
 		],
 		"themes": [
 			"Steel",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0906",
+		"pokemonName": "Sprigatito",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-09-12",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0906_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0906_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0906_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0906_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0906_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0906_03a.png"
+		],
+		"themes": [
+			"Grass",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0909",
+		"pokemonName": "Fuecoco",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-09-12",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0909_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0909_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0909_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0909_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0909_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0909_03a.png"
+		],
+		"themes": [
+			"Fire",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0912",
+		"pokemonName": "Quaxly",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-09-12",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0912_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0912_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0912_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0912_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0912_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0912_03a.png"
+		],
+		"themes": [
+			"Water",
 			"Main Character"
 		],
 		"tags": [
