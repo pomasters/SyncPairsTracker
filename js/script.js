@@ -288,8 +288,10 @@ function swapImages(imagesContainer, step) {
 		if(imagesContainer.innerHTML.indexOf(`EX.png" class="currentImage">`) == -1) {
 			imagesContainer.parentElement.querySelector(".syncRoleEX").dataset.currentimage = "0";
 			var rolesImgs = Array.from(imagesContainer.parentElement.querySelector(".syncRoleEX").children);
-			rolesImgs.forEach(i => i.removeAttribute("class"));
-			rolesImgs[0].classList.add("currentImage");
+			if(rolesImgs.length > 0) {
+				rolesImgs.forEach(i => i.removeAttribute("class"));
+				rolesImgs[0].classList.add("currentImage");
+			}
 		}
 	}
 }

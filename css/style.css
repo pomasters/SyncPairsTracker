@@ -711,6 +711,7 @@ input:focus { outline: 0; }
 .syncUserBtnStar {
 	margin: 0px 3px;
 	text-align: center !important;
+	min-height: 26px;
 }
 
 .syncUserBtnFav img,
@@ -720,7 +721,8 @@ input:focus { outline: 0; }
 	left: 0px !important;
 	right: 0px !important;
 	margin: auto !important;
-	margin-top: 1px !important;
+	top: 0px !important;
+	bottom: 0px !important;
 }
 
 #credits {
@@ -833,6 +835,7 @@ input:focus { outline: 0; }
 	display: flex;
 	align-items: center;
 	color: var(--blue1);
+	min-height: 34px;
 }
 
 #filtersUsed span:empty,
@@ -843,7 +846,6 @@ input:focus { outline: 0; }
 #filtersUsed span img {
 	height: 20px;
 	display: inline;
-	margin-bottom: -3px;
 	margin-right: 5px;
 }
 
