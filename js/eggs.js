@@ -1260,9 +1260,9 @@ export const EGGS = [
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0101_01b.png",
 			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_01a.png",
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0101_02b.png",
-			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_03a.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_2a.png",
 			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0101_03b.png",
-			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_2a.png"
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0101_03a.png"
 		],
 		"themes": [
 			"Electric",
