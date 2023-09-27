@@ -1415,6 +1415,42 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "019",
+		"trainerName": "Roxanne",
+		"trainerAlt": "Fall 2023",
+		"pokemonNumber": "0867",
+		"pokemonName": "Runerigus",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-14",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Roxanne_0867.png",
+			"Sync Pairs/0Y_SEASONALS/Roxanne_0867_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Hoenn",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Rock Lover"
+		],
+		"tags": [
+			"Fall",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
 			"isWoman"
 		]
 	},
@@ -1716,6 +1752,41 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
+			"isWoman",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "026",
+		"trainerName": "Phoebe",
+		"trainerAlt": "Fall 2023",
+		"pokemonNumber": "0563",
+		"pokemonName": "Cofagrigus",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-12",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Phoebe_0563.png",
+			"Sync Pairs/0Y_SEASONALS/Phoebe_0563_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Hoenn",
+			"Elite Four",
+			"Seasonal Outfit",
+			"Supernatural"
+		],
+		"tags": [
+			"Fall",
+			"Limited",
+			"Multiple Units",
 			"isWoman"
 		]
 	},
@@ -1780,6 +1851,40 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "028",
+		"trainerName": "Noland",
+		"trainerAlt": "",
+		"pokemonNumber": "0291",
+		"pokemonName": "Ninjask",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-07",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Noland_0291.png",
+			"Sync Pairs/0C_HOENN/Noland_0291_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Hoenn",
+			"Battle Facility Foe",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
 			"isMan"
 		]
 	},
@@ -2118,7 +2223,42 @@ export const SYNCPAIRS = [
 			"Gadgeteer"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "036",
+		"trainerName": "Thorton",
+		"trainerAlt": "",
+		"pokemonNumber": "0462",
+		"pokemonName": "Magnezone",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-05",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/Thorton_0462.png",
+			"Sync Pairs/0D_SINNOH/Thorton_0462_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Sinnoh",
+			"Battle Facility Foe",
+			"Knowledgeable",
+			"Gadgeteer"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"Wish Zone"
 		]
 	},
 	{
@@ -2678,7 +2818,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
-			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png"
+			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal_EX.png",
 		],
 		"themes": [
 			"Ghost",
@@ -4046,6 +4187,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Starter"
 		]
@@ -4549,7 +4691,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dark",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-12-02",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -4878,6 +5020,37 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Wish Zone"
+		]
+	},
+	{
+		"dexNumber": "074",
+		"trainerName": "Giovanni",
+		"trainerAlt": "",
+		"pokemonNumber": "0033",
+		"pokemonName": "Nidorino",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-10-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Giovanni_0033.png",
+			"Sync Pairs/5Star/Giovanni_0033_5Star.png",
+			"Sync Pairs/0A_KANTO/Giovanni_0033_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Kanto",
+			"Villain"
+		],
+		"tags": [
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -6230,7 +6403,9 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -9205,6 +9380,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
+			"Multiple Pokemon",
 			"Starter"
 		]
 	},
@@ -11907,6 +12083,113 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman"
 		]
+	},
+	{
+		"dexNumber": "183",
+		"trainerName": "Akari",
+		"trainerAlt": "",
+		"pokemonNumber": "0503",
+		"pokemonName": "Samurott",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Regional Form"
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-09-29",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/Akari_0503.png",
+			"Sync Pairs/0I_HISUI/Akari_0503_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Sinnoh",
+			"Main Character",
+			"Scarf"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Pokemon",
+			"isWoman",
+			"Hisui"
+		]
+	},
+	{
+		"dexNumber": "184",
+		"trainerName": "Rei",
+		"trainerAlt": "",
+		"pokemonNumber": "0724",
+		"pokemonName": "Decidueye",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Regional Form"
+		],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-01",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/Rei_0724.png",
+			"Sync Pairs/0I_HISUI/Rei_0724_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Sinnoh",
+			"Main Character",
+			"Scarf"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Multiple Pokemon",
+			"isMan",
+			"Hisui"
+		]
+	},
+	{
+		"dexNumber": "185",
+		"trainerName": "Lenora",
+		"trainerAlt": "",
+		"pokemonNumber": "0505",
+		"pokemonName": "Watchog",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-16",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Lenora_0505.png",
+			"Sync Pairs/0E_UNOVA/Lenora_0505_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Unova",
+			"Knowledgeable",
+			"Rock Lover"
+		],
+		"tags": [
+			"isWoman"
+		]
 	}
 ]
 
@@ -11965,4 +12248,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.36.0";
+export const VERSION = "v2.37.0";
