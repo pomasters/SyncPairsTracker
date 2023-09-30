@@ -375,7 +375,7 @@ export const SYNCPAIRS = [
 			"Water",
 			"Kanto",
 			"Sygna Suit",
-			"Battle Facility",
+			"Battle Facility Foe",
 			"Passionate Spirit"
 		],
 		"tags": [
@@ -5431,7 +5431,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dragon",
 			"Sinnoh",
-			"Battleground Foe",
+			"Battle Facility Foe",
 			"Sygna Suit",
 			"Researcher"
 		],
