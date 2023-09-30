@@ -662,6 +662,40 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0051",
+		"pokemonName": "Dugtrio",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Diglett"
+		],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-10-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0051_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0051_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0051_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0051_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0051_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0051_03a.png"
+		],
+		"themes": [
+			"Ground",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0053",
 		"pokemonName": "Persian",
 		"pokemonGender": "",
