@@ -1866,7 +1866,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Sprint",
-		"syncPairRoleEX": "Strike",
+		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-10-07",
 		"syncPairAcquisition": "Variety Scout",
