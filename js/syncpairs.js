@@ -5046,7 +5046,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Kanto",
-			"Villain"
+			"Villain."
 		],
 		"tags": [
 			"Multiple Units",
