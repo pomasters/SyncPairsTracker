@@ -2696,6 +2696,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
+			"Grid5",
+			"GridExpansion",
 			"Song Key"
 		]
 	},
@@ -2765,7 +2767,51 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
+			"Multiple Units",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "044",
+		"trainerName": "Roxie",
+		"trainerAlt": "",
+		"pokemonNumber": "0849",
+		"pokemonName": "Toxtricity",
+		"pokemonGender": "♀️",
+		"pokemonForm": [
+			"Other Form",
+			"Dynamax",
+			"Gigantamax"
+		],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-10-31",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Roxie_0849.png",
+			"Sync Pairs/0E_UNOVA/Roxie_0849_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Unova",
+			"Gym Leader",
+			"Sygna Suit",
+			"Artistic"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Song Key"
 		]
 	},
 	{
@@ -5153,9 +5199,12 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"ZMove",
-			"Eeveelution"
+			"Eeveelution",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -5190,6 +5239,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Ticket Scout (after Victory Road)",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"Starter",
 			"Grid5",
@@ -5972,7 +6022,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie.png",
-			"Sync Pairs/5Star/0F_KALOS_0B-06_Valerie_5Star.png"
+			"Sync Pairs/5Star/0F_KALOS_0B-06_Valerie_5Star.png",
+			"Sync Pairs/0F_KALOS/0F_KALOS_0B-06_Valerie_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -5984,7 +6035,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Eeveelution",
-			"Multiple Units"
+			"Multiple Units",			
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6175,6 +6227,45 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon"
+		]
+	},
+	{
+		"dexNumber": "084",
+		"trainerName": "Red",
+		"trainerAlt": "",
+		"pokemonNumber": "0003",
+		"pokemonName": "Venusaur",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Dynamax"
+		],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-01",
+		"syncPairAcquisition": "Mix Scout",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Red_0003.png",
+			"Sync Pairs/0A_KANTO/Red_0003_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Kanto",
+			"Main Character",
+			"Pallet Town",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -7123,7 +7214,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-30",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -7594,7 +7685,42 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Legendary",
+			"Multiple Units",
 			"Song Key"
+		]
+	},
+	{
+		"dexNumber": "102",
+		"trainerName": "Gladion",
+		"trainerAlt": "",
+		"pokemonNumber": "0042",
+		"pokemonName": "Golbat",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-11-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Gladion_0042.png",
+			"Sync Pairs/5Star/Gladion_0042_5Star.png",
+			"Sync Pairs/0G_ALOLA/Gladion_0042_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Alola",
+			"Rival",
+			"Villain.",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -8894,6 +9020,48 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
+			"Multiple Units",
+			"Song Key"
+		]
+	},
+	{
+		"dexNumber": "117",
+		"trainerName": "Piers",
+		"trainerAlt": "",
+		"pokemonNumber": "0849",
+		"pokemonName": "Toxtricity",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-02",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Piers_0849.png",
+			"Sync Pairs/0H_GALAR/Piers_0849_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Galar",
+			"Gym Leader",
+			"Sygna Suit",
+			"Artistic"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
 			"Song Key"
 		]
 	},
@@ -9380,8 +9548,46 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
+			"Multiple Units",
 			"Multiple Pokemon",
 			"Starter"
+		]
+	},
+	{
+		"dexNumber": "121",
+		"trainerName": "Selene",
+		"trainerAlt": "",
+		"pokemonNumber": "0197",
+		"pokemonName": "Umbreon",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Selene_0197.png",
+			"Sync Pairs/0G_ALOLA/Selene_0197_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Alola",
+			"Main Character",
+			"Nature Lover",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Eeveelution",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"ZMove"
 		]
 	},
 	{
@@ -9417,6 +9623,43 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Starter",
+			"Multiple Units",
+			"ZMove"
+		]
+	},
+	{
+		"dexNumber": "122",
+		"trainerName": "Elio",
+		"trainerAlt": "",
+		"pokemonNumber": "0196",
+		"pokemonName": "Espeon",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Elio_0196.png",
+			"Sync Pairs/0G_ALOLA/Elio_0196_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Alola",
+			"Main Character",
+			"Nature Lover",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Eeveelution",
+			"Limited",
+			"Terrain",
+			"Multiple Units",
+			"isMan",
 			"ZMove"
 		]
 	},
@@ -12008,6 +12251,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Multiple Pokemon",
 			"isMan"
 		]
 	},
@@ -12190,6 +12434,139 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman"
 		]
+	},
+	{
+		"dexNumber": "186",
+		"trainerName": "Ryuki",
+		"trainerAlt": "",
+		"pokemonNumber": "0776",
+		"pokemonName": "Turtonator",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-04",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Ryuki_0776.png",
+			"Sync Pairs/0G_ALOLA/Ryuki_0776_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Alola",
+			"Artistic",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "187",
+		"trainerName": "Penny",
+		"trainerAlt": "",
+		"pokemonNumber": "0700",
+		"pokemonName": "Sylveon",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-10",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Penny_0700.png",
+			"Sync Pairs/0J_PALDEA/Penny_0700_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Paldea",
+			"Glasses",
+			"Gadgeteer"
+		],
+		"tags": [
+			"Eeveelution",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Multiple Pokemon",
+			"isWoman",
+			"Rebuff",
+			"Song Key"
+		]
+	},
+	{
+		"dexNumber": "188",
+		"trainerName": "Elaine",
+		"trainerAlt": "",
+		"pokemonNumber": "0133",
+		"pokemonName": "Eevee",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-17",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Elaine_0133.png",
+			"Sync Pairs/0A_KANTO/Elaine_0133_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Kanto",
+			"Main Character",
+			"Pallet Town"
+		],
+		"tags": [
+			"Eeveelution",
+			"Grid5",
+			"Limited",
+			"Multiple Pokemon",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "189",
+		"trainerName": "Eve",
+		"trainerAlt": "",
+		"pokemonNumber": "0133",
+		"pokemonName": "Eevee",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "3",
+		"releaseDate": "2023-11-17",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Eve_0133.png",
+			"Sync Pairs/4Star/Eve_0133_4Star.png",
+			"Sync Pairs/5Star/Eve_0133_5Star.png"
+		],
+		"themes": [
+			"Normal",
+			"Galar"
+		],
+		"tags": [
+			"Eeveelution",
+			"Limited",
+			"Multiple Pokemon",
+			"isWoman"
+		]
 	}
 ]
 
@@ -12248,4 +12625,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.37.0";
+export const VERSION = "v2.38.0";
