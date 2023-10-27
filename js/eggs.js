@@ -1976,6 +1976,90 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0134",
+		"pokemonName": "Vaporeon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_VaporeonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_VaporeonM2.png"
+		],
+		"themes": [
+			"Water",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0135",
+		"pokemonName": "Jolteon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_JolteonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_JolteonM2.png"
+		],
+		"themes": [
+			"Electric",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0136",
+		"pokemonName": "Flareon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_FlareonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_FlareonM2.png"
+		],
+		"themes": [
+			"Fire",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0137",
 		"pokemonName": "Porygon",
 		"pokemonGender": "",
@@ -2178,6 +2262,62 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0196",
+		"pokemonName": "Espeon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_EspeonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_EspeonM2.png"
+		],
+		"themes": [
+			"Psychic",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0197",
+		"pokemonName": "Umbreon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_UmbreonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_UmbreonM2.png"
+		],
+		"themes": [
+			"Dark",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0237",
 		"pokemonName": "Hitmontop",
 		"pokemonGender": "",
@@ -2200,6 +2340,90 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0470",
+		"pokemonName": "Leafeon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_LeafeonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_LeafeonM2.png"
+		],
+		"themes": [
+			"Grass",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0471",
+		"pokemonName": "Glaceon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_GlaceonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_GlaceonM2.png"
+		],
+		"themes": [
+			"Ice",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0700",
+		"pokemonName": "Sylveon",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2023-11-21",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_SylveonF2.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_SylveonM2.png"
+		],
+		"themes": [
+			"Fairy",
 			"Main Character"
 		],
 		"tags": [
