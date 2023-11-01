@@ -33,5 +33,30 @@ export const ITEMS = [
 		"name": "5★ Power-Up",
 		"image" : "images/5_power_up.png",
 		"background": "gold"
+	},
+	{
+		"name": "Strike Roll Cake",
+		"image" : "images/cake_strike.png",
+		"background": "gold"
+	},
+	{
+		"name": "Tech Roll Cake",
+		"image" : "images/cake_tech.png",
+		"background": "gold"
+	},
+	{
+		"name": "Support Roll Cake",
+		"image" : "images/cake_support.png",
+		"background": "gold"
+	},
+	{
+		"name": "Sprint Roll Cake",
+		"image" : "images/cake_sprint.png",
+		"background": "gold"
+	},
+	{
+		"name": "Field Roll Cake",
+		"image" : "images/cake_field.png",
+		"background": "gold"
 	}
 ]
