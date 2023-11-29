@@ -645,7 +645,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei.png",
-			"Sync Pairs/5Star/0A_KANTO_0C-01_Lorelei_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0C-01_Lorelei_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-01_Lorelei_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -2466,6 +2467,42 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "039",
+		"trainerName": "Rosa",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0648",
+		"pokemonName": "Meloetta",
+		"pokemonGender": "",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-12-25",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Rosa_0648.png",
+			"Sync Pairs/0E_UNOVA/Rosa_0648_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Unova",
+			"Main Character",
+			"Champion",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Mythical",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff"
+		]
+	},
+	{
 		"dexNumber": "040",
 		"trainerName": "Clay",
 		"trainerAlt": "",
@@ -2663,6 +2700,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman"
 		]
 	},
@@ -3562,6 +3600,43 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
+			"Multiple Units",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "060",
+		"trainerName": "Viola",
+		"trainerAlt": "Holiday 2023",
+		"pokemonNumber": "0666",
+		"pokemonName": "Vivillon",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-12-12",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Viola_0666.png",
+			"Sync Pairs/0Y_SEASONALS/Viola_0666_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Kalos",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Artistic"
+		],
+		"tags": [
+			"Holiday",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
 			"isWoman"
 		]
 	},
@@ -5637,7 +5712,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"ZMove",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6853,6 +6930,39 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Holiday"
+		]
+	},
+	{
+		"dexNumber": "093",
+		"trainerName": "Jasmine",
+		"trainerAlt": "",
+		"pokemonNumber": "0081",
+		"pokemonName": "Magnemite",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2023-12-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/Jasmine_0081.png",
+			"Sync Pairs/5Star/Jasmine_0081_5Star.png",
+			"Sync Pairs/0B_JOHTO/Jasmine_0081_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Johto",
+			"Gym Leader",
+			"Pokéathlete",
+			"Contest Lover"
+		],
+		"tags": [
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -8160,6 +8270,44 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
+			"isMan",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "109",
+		"trainerName": "Nate",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0612",
+		"pokemonName": "Haxorus",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-11-30",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Nate_0612.png",
+			"Sync Pairs/0E_UNOVA/Nate_0612_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Unova",
+			"Main Character",
+			"Champion",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Shiny",
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan"
 		]
 	},
@@ -8990,6 +9138,41 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan"
+		]
+	},
+	{
+		"dexNumber": "116",
+		"trainerName": "Professor Sycamore",
+		"trainerAlt": "Holiday 2023",
+		"pokemonNumber": "0673",
+		"pokemonName": "Gogoat",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2023-12-14",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Sycamore_0673.png",
+			"Sync Pairs/0Y_SEASONALS/Sycamore_0673_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Kalos",
+			"Seasonal Outfit",
+			"Knowledgeable",
+			"Researcher"
+		],
+		"tags": [
+			"Holiday",
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"Rebuff"
 		]
 	},
 	{
@@ -12612,6 +12795,7 @@ const P = {
 		"Weather",
 		"Terrain",
 		"Wish Zone",
+		"Region Circle",
 		"Multiple Units",
 		"Multiple Pokemon",
 		"isMan",
@@ -12625,4 +12809,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.38.0";
+export const VERSION = "v2.39.0";
