@@ -751,7 +751,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno.png",
-			"Sync Pairs/5Star/0A_KANTO_0C-02_Bruno_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0C-02_Bruno_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-02_Bruno_EX.png"
 		],
 		"themes": [
 			"Fighting",
