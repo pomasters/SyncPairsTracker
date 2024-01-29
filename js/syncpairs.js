@@ -219,6 +219,40 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0869",
+		"pokemonName": "Alcremie",
+		"pokemonGender": "♀️",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-02-14",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/00_PASIO/Scottie_0869.png",
+			"Sync Pairs/00_PASIO/Bettie_0869.png",
+			"Sync Pairs/5Star/Scottie_0869_5Star.png",
+			"Sync Pairs/5Star/Bettie_0869_5Star.png"
+		],
+		"themes": [
+			"Fairy",
+			"Main Character"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon"
+		]
+	},
+	{
 		"dexNumber": "002",
 		"trainerName": "Brock",
 		"trainerAlt": "",
@@ -283,7 +317,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -348,7 +383,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -383,7 +419,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Eeveelution",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -520,7 +557,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -589,7 +627,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Eeveelution",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -901,7 +940,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Legendary",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1074,7 +1114,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Terrain",
-			"Holiday"
+			"Holiday",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1175,7 +1216,8 @@ export const SYNCPAIRS = [
 			"New Year",
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1415,7 +1457,10 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Villain Arc"
+			"Villain Arc",
+			"Grid5",
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1486,7 +1531,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1685,7 +1731,8 @@ export const SYNCPAIRS = [
 			"Summer",
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1754,7 +1801,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -1822,7 +1870,8 @@ export const SYNCPAIRS = [
 			"Fall",
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2198,6 +2247,44 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "034",
+		"trainerName": "Candice",
+		"trainerAlt": "Palentine's 2024",
+		"pokemonNumber": "0555",
+		"pokemonName": "Darmanitan",
+		"pokemonGender": "♀️",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-11",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Candice_0555.png",
+			"Sync Pairs/0Y_SEASONALS/Candice_0555_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Sinnoh",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Cook"
+		],
+		"tags": [
+			"Palentine",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isWoman",
+			"Unique Costume"
+		]
+	},
+	{
 		"dexNumber": "035",
 		"trainerName": "Flint",
 		"trainerAlt": "",
@@ -2428,7 +2515,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2497,7 +2585,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Mythical"
+			"Mythical",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2507,7 +2596,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0648",
 		"pokemonName": "Meloetta",
 		"pokemonGender": "",
-		"pokemonForm": ["Other Form"],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
@@ -2533,7 +2624,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2633,7 +2725,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2669,7 +2762,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2770,7 +2864,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2805,7 +2900,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Wish Zone",
-			"Ultra Beast"
+			"Ultra Beast",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2883,7 +2979,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
-			"Song Key"
+			"Song Key",
+			"Unique Costume"
 		]
 	},
 	{
@@ -2937,7 +3034,7 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal.png",
 			"Sync Pairs/5Star/0E_UNOVA_0C-02_Shauntal_5Star.png",
-			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal_EX.png",
+			"Sync Pairs/0E_UNOVA/0E_UNOVA_0C-02_Shauntal_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -3080,7 +3177,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Mythical"
+			"Mythical",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3212,7 +3310,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3324,7 +3423,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"ZMove",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3466,7 +3566,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"ZMove",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3645,7 +3746,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0666",
 		"pokemonName": "Vivillon",
 		"pokemonGender": "♀️",
-		"pokemonForm": ["Other Form"],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Field",
@@ -3671,7 +3774,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Wish Zone",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3808,7 +3912,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3882,7 +3987,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"ZMove",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -3992,7 +4098,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Grid3",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4028,7 +4135,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4133,7 +4241,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4203,7 +4312,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4239,7 +4349,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Terrain",
 			"Mythical",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4309,7 +4420,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4377,7 +4489,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4414,7 +4527,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Rebuff",
 			"Grid5",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4489,7 +4603,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Mythical",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4523,7 +4638,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Shiny"
+			"Shiny",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4559,7 +4675,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Mythical",
 			"Grid5",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4625,7 +4742,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4663,7 +4781,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Terrain",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4730,7 +4849,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited",
 			"Multiple Units",
-			"Palentine"
+			"Palentine",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4799,7 +4919,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -4872,7 +4993,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Shiny",
 			"Starter",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5005,7 +5127,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5036,7 +5159,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5108,7 +5232,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5141,7 +5266,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5278,7 +5404,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5353,7 +5480,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Starter",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5391,7 +5519,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5492,7 +5621,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5601,7 +5731,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"Grid5",
 			"GridExpansion",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5640,7 +5771,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Legendary",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5714,7 +5846,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Buddy Move",
 			"Wish Zone",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5857,7 +5990,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5932,7 +6066,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Weather",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5970,7 +6105,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Legendary",
 			"Shiny",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -5989,7 +6125,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-08-10",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -6012,7 +6148,10 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Mythical",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Grid5",
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6049,7 +6188,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6150,7 +6290,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Eeveelution",
-			"Multiple Units",			
+			"Multiple Units",
 			"Multiple Pokemon"
 		]
 	},
@@ -6226,7 +6366,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Grid5",
 			"GridExpansion",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6303,7 +6444,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Buddy Move",
 			"Terrain",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6341,7 +6483,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6445,7 +6588,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6511,7 +6655,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"ZMove",
-			"Song Key"
+			"Song Key",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6577,7 +6723,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Ultra Beast"
+			"Ultra Beast",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6687,7 +6834,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0806",
 		"pokemonName": "Blacephalon",
 		"pokemonGender": "",
-		"pokemonForm": ["Dynamax"],
+		"pokemonForm": [
+			"Dynamax"
+		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Field",
@@ -6715,7 +6864,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Region Circle",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6823,7 +6973,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -6901,7 +7052,41 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Rebuff",
 			"Grid5",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "092",
+		"trainerName": "Wally",
+		"trainerAlt": "",
+		"pokemonNumber": "0301",
+		"pokemonName": "Delcatty",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-02-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Wally_0301.png",
+			"Sync Pairs/5Star/Wally_0301_5Star.png",
+			"Sync Pairs/0C_HOENN/Wally_0301_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Hoenn",
+			"Rival",
+			"Battle Facility Foe",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -6970,7 +7155,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Ultra Beast",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7006,7 +7192,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited",
 			"Multiple Units",
-			"Holiday"
+			"Holiday",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7110,7 +7297,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7144,7 +7333,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7180,7 +7370,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited",
 			"Multiple Units",
-			"New Year"
+			"New Year",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7282,7 +7473,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7351,7 +7543,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7387,7 +7580,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7423,7 +7617,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Rebuff",
 			"Starter",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7621,7 +7816,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7661,7 +7857,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7766,7 +7963,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Wish Zone",
 			"Mythical",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7818,7 +8016,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-11-30",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -7839,7 +8037,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"ZMove"
+			"ZMove",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7911,6 +8110,42 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "102",
+		"trainerName": "Gladion",
+		"trainerAlt": "",
+		"pokemonNumber": "0801",
+		"pokemonName": "Magearna",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-19",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Gladion_0801.png",
+			"Sync Pairs/0G_ALOLA/Gladion_0801_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Alola",
+			"Rival",
+			"Sygna Suit",
+			"Villain."
+		],
+		"tags": [
+			"Mythical",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"Unique Costume"
+		]
+	},
+	{
 		"dexNumber": "103",
 		"trainerName": "Lillie",
 		"trainerAlt": "",
@@ -7973,7 +8208,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -7987,7 +8223,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-28",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -8007,7 +8243,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8042,7 +8279,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Wish Zone"
+			"Wish Zone",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8175,7 +8413,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Terrain"
+			"Terrain",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8314,7 +8553,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Shiny",
 			"New Year",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8418,7 +8658,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8524,7 +8765,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8564,7 +8806,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8639,7 +8882,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8710,7 +8954,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8743,7 +8988,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8819,7 +9065,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Song Key",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8892,7 +9139,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8931,7 +9179,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Legendary",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -8970,7 +9219,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Grid5",
 			"GridExpansion",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9070,7 +9320,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited",
 			"Multiple Units",
-			"Palentine"
+			"Palentine",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9178,7 +9429,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Grid5",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9282,7 +9534,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9355,7 +9608,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9433,7 +9687,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9469,7 +9724,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Legendary"
+			"Legendary",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9508,7 +9764,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9580,7 +9837,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9617,7 +9875,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9690,7 +9949,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Legendary",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9765,7 +10025,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Mythical"
+			"Mythical",
+			"Unique Costume"
 		]
 	},
 	{
@@ -9808,7 +10069,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Song Key",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10029,7 +10291,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10168,7 +10431,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10234,7 +10498,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10376,7 +10641,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"ZMove",
-			"Villain Arc"
+			"Villain Arc",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10580,7 +10846,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10646,7 +10913,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Unique Costume"
 		]
 	},
 	{
@@ -10841,6 +11109,39 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "139",
+		"trainerName": "Falkner",
+		"trainerAlt": "",
+		"pokemonNumber": "0164",
+		"pokemonName": "Noctowl",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-05",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/Falkner_0164.png",
+			"Sync Pairs/0B_JOHTO/Falkner_0164_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Johto",
+			"Gym Leader",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "140",
 		"trainerName": "Sidney",
 		"trainerAlt": "",
@@ -10947,7 +11248,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Wish Zone",
 			"Legendary",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -11019,7 +11321,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Limited",
 			"Multiple Units",
-			"Rebuff"
+			"Rebuff",
+			"Unique Costume"
 		]
 	},
 	{
@@ -11118,7 +11421,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Shiny",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -11364,7 +11668,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Legendary",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Unique Costume"
 		]
 	},
 	{
@@ -11676,6 +11981,42 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "157",
+		"trainerName": "Victor",
+		"trainerAlt": "Palentine's 2024",
+		"pokemonNumber": "0820",
+		"pokemonName": "Greedent",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-09",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Victor_0820.png",
+			"Sync Pairs/0Y_SEASONALS/Victor_0820_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Galar",
+			"Main Character",
+			"Seasonal Outfit",
+			"Cook"
+		],
+		"tags": [
+			"Palentine",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"Unique Costume"
+		]
+	},
+	{
 		"dexNumber": "158",
 		"trainerName": "Helena",
 		"trainerAlt": "Hex Maniac",
@@ -11865,7 +12206,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Unique Costume"
 		]
 	},
 	{
@@ -12964,6 +13306,106 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Paldea"
 		]
+	},
+	{
+		"dexNumber": "193",
+		"trainerName": "Chase",
+		"trainerAlt": "",
+		"pokemonNumber": "0025",
+		"pokemonName": "Pikachu",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-01-31",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Chase_0025.png",
+			"Sync Pairs/0A_KANTO/Chase_0025_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Kanto",
+			"Main Character",
+			"Pallet Town"
+		],
+		"tags": [
+			"Grid5",
+			"Limited",
+			"Region Circle",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "194",
+		"trainerName": "Petey",
+		"trainerAlt": "",
+		"pokemonNumber": "0025",
+		"pokemonName": "Pikachu",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "3",
+		"releaseDate": "2024-02-02",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Petey_0025.png",
+			"Sync Pairs/4Star/Petey_0025_4Star.png",
+			"Sync Pairs/5Star/Petey_0025_5Star.png"
+		],
+		"themes": [
+			"Electric",
+			"Galar"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "195",
+		"trainerName": "Riley",
+		"trainerAlt": "",
+		"pokemonNumber": "0448",
+		"pokemonName": "Lucario",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Dynamax"
+		],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-19",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/Riley_0448.png",
+			"Sync Pairs/0D_SINNOH/Riley_0448_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Sinnoh",
+			"Supernatural",
+			"Battle Partner",
+			"Battleground Foe"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Pokemon",
+			"isMan"
+		]
 	}
 ]
 
@@ -13023,4 +13465,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.40.0";
+export const VERSION = "v2.41.0";
