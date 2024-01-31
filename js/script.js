@@ -8,7 +8,7 @@ const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png
 const syncStarImgs2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
 const syncFavImgs = ["images/favoriteG.png","images/favoriteL.png","images/favoriteY.png","images/favoriteO.png","images/favoriteM.png","images/favoriteR.png","images/favoriteP.png","images/favoriteV.png","images/favoriteW.png","images/favoriteD.png","images/favoriteB.png","images/favoriteC.png"];
 const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
-const rolesOrder = {"strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05"};
+const rolesOrder = {"":"10","strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05"};
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12"}
 const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"]}
@@ -1031,6 +1031,7 @@ function searchFiltersORdateInterval() {
 	} else {
 		searchFilters();
 	}
+	removeEmptySeparators();
 }
 
 
@@ -1238,6 +1239,46 @@ function removeSeparator() {
 	Array.from(document.getElementsByClassName("separator")).forEach(s => s.remove());
 }
 
+function removeEmptySeparators() {
+	if(document.getElementById("hideEmptySeparators").checked && document.getElementsByClassName("selectedFilter").length > 0) {
+
+		var idToInfos = {"sortByDexNumber": ".infoDexNum",
+				"sortByPokemonNumber": ".infoPokemonNum",
+				"sortByTrainer": ".infoTrainerName",
+				"sortByStar": ".syncStar",
+				"sortByRole": ".infoSyncPairRole",
+				"sortByRoleEX": ".infoSyncPairRoleEX",
+				"sortByType": ".infoPokemonType",
+				"sortByWeakness": ".infoPokemonWeak",
+				"sortByRegion": ".infoSyncPairRegion",
+				"sortByDate": ".infoReleaseDate",
+				"sortBySyncLevel": ".syncLevel",
+				"sortBySelected": ".selected",
+				"sortByFavorite": ".syncFav",
+				"sortByAcquisition": ".infoSyncPairAcquisition"}
+
+		showSeparator(idToInfos[document.getElementById("sorting").querySelector(".btnBlue").id]);
+
+		var pairs = document.getElementById("syncPairs").children;
+
+		var pairFound = false;
+		for(var i=pairs.length-1; i>=0; i--) {
+			var element = pairs[i];
+
+			if(element.classList.contains('found')) {
+				pairFound = true;
+			}
+			if(element.classList.contains('separator')) {
+				if(!pairFound) {
+					element.remove();
+				} else {
+					pairFound = false;
+				}
+			}
+		}
+	}
+}
+
 
 function lockMode() {
 	var isDisabled = document.getElementById("lockModeCss").disabled;
@@ -1393,6 +1434,8 @@ function addEventLeftSide() {
 		sortBtns.forEach(b => b.classList.remove("btnBlue"));
 
 		b.classList.add("btnBlue");
+
+		removeEmptySeparators();
 	}))
 
 
@@ -1536,9 +1579,9 @@ document.getElementById("showSeparator").addEventListener("change", function() {
 		} else { document.getElementById("separateByDateOptions").classList.add("hide"); }
 	}
 })
-document.getElementById("separateByYear").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
-document.getElementById("separateByMonth").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
-document.getElementById("separateByDay").addEventListener("click", function() { showSeparator(".infoReleaseDate") });
+document.getElementById("separateByYear").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
+document.getElementById("separateByMonth").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
+document.getElementById("separateByDay").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
 
 
 document.getElementById("sortByDexNumber").addEventListener("click", function() {
@@ -1587,6 +1630,7 @@ var sortTypes = [
 	["sortByType","infoPokemonType"],
 	["sortByWeakness","infoPokemonWeak"],
 	["sortByRole","infoSyncPairRole"],
+	["sortByRoleEX","infoSyncPairRoleEX"],
 	["sortByRegion","infoSyncPairRegion"],
 	["sortByAcquisition","infoSyncPairAcquisition"]
 ]
@@ -1678,7 +1722,19 @@ document.getElementById("sortBySelected").addEventListener("click", function() {
 
 document.getElementById("showSeparator").addEventListener("click", function() {
 
+	document.getElementById("hideEmptySeparatorsParentDiv").classList.toggle("hide");
+	if(!this.checked) { document.getElementById("hideEmptySeparators").checked = false; }
+
 	removeSeparator();
+
+	var selectedBtn = document.getElementById("sorting").querySelector(".btnBlue");
+
+	selectedBtn.dataset.asc = !(selectedBtn.dataset.asc === "true");
+	selectedBtn.click();
+})
+
+document.getElementById("hideEmptySeparators").addEventListener("click", function() {
+	removeEmptySeparators();
 
 	var selectedBtn = document.getElementById("sorting").querySelector(".btnBlue");
 
