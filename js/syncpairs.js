@@ -1,5 +1,3 @@
-// data initialy taken from Bulbapedia (up to v2.23.0)
-
 export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
@@ -317,6 +315,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Unique Costume"
 		]
@@ -1927,7 +1926,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland.png",
-			"Sync Pairs/5Star/0C_HOENN_0E-01_Noland_5Star.png"
+			"Sync Pairs/5Star/0C_HOENN_0E-01_Noland_5Star.png",
+			"Sync Pairs/0C_HOENN/0C_HOENN_0E-01_Noland_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -2765,6 +2765,38 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Legendary",
 			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "041",
+		"trainerName": "Skyla",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0521",
+		"pokemonName": "Unfezant",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-03-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Skyla_0521.png",
+			"Sync Pairs/5Star/Skyla_0521_5Star.png",
+			"Sync Pairs/0E_UNOVA/Skyla_0521_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Gym Leader",
+			"Undella Town"
+		],
+		"tags": [
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -5749,7 +5781,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-27",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -6690,7 +6722,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Song Key"
+			"Song Key",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -6975,6 +7009,46 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
+			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "091",
+		"trainerName": "Silver",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0248",
+		"pokemonName": "Tyranitar",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Mega Evolution"],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-01",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/Silver_0248.png",
+			"Sync Pairs/0B_JOHTO/Silver_0248_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Johto",
+			"Rival",
+			"Champion",
+			"Battle Partner"
+		],
+		"tags": [
+			"Shiny",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Song Key",
 			"Unique Costume"
 		]
 	},
@@ -7314,7 +7388,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-14",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -7335,7 +7409,9 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -8989,6 +9065,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Unique Costume"
 		]
@@ -9157,7 +9234,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12385,6 +12462,42 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "166",
+		"trainerName": "Adaman",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0901",
+		"pokemonName": "Ursaluna",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-14",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Adaman_0901.png",
+			"Sync Pairs/0Y_SEASONALS/Adaman_0901_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Sinnoh",
+			"Special Costume",
+			"Nature Lover",
+			"Artistic"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"Hisui",
+			"Unique Costume"
+		]
+	},
+	{
 		"dexNumber": "167",
 		"trainerName": "Irida",
 		"trainerAlt": "",
@@ -12458,6 +12571,43 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "167",
+		"trainerName": "Irida",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0571",
+		"pokemonName": "Zoroark",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Regional Form"],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-16",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Irida_0571.png",
+			"Sync Pairs/0Y_SEASONALS/Irida_0571_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Sinnoh",
+			"Special Costume",
+			"Nature Lover",
+			"Artistic"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Hisui",
+			"Unique Costume"
+		]
+	},
+	{
 		"dexNumber": "168",
 		"trainerName": "Eusine",
 		"trainerAlt": "",
@@ -12508,7 +12658,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-14",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12546,7 +12696,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-07-16",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12655,6 +12805,7 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Electric",
+			"Paldea",
 			"Rival",
 			"Champion",
 			"Passionate Spirit"
@@ -13261,6 +13412,7 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Electric",
+			"Paldea",
 			"Gym Leader",
 			"Artistic",
 			"Free Spirit"
@@ -13269,8 +13421,7 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Buddy Move",
 			"Limited",
-			"isWoman",
-			"Paldea"
+			"isWoman"
 		]
 	},
 	{
@@ -13295,6 +13446,7 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Ice",
+			"Paldea",
 			"Gym Leader",
 			"Scarf",
 			"Nature Lover"
@@ -13304,8 +13456,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
-			"isMan",
-			"Paldea"
+			"isMan"
 		]
 	},
 	{
@@ -13407,6 +13558,107 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan"
 		]
+	},
+	{
+		"dexNumber": "196",
+		"trainerName": "Geeta",
+		"trainerAlt": "",
+		"pokemonNumber": "0970",
+		"pokemonName": "Glimmora",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-02-28",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Geeta_0970.png",
+			"Sync Pairs/0J_PALDEA/Geeta_0970_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Paldea",
+			"Champion",
+			"Passionate Spirit",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"isWoman",
+			"Song Key"
+		]
+	},
+	{
+		"dexNumber": "197",
+		"trainerName": "Tierno",
+		"trainerAlt": "",
+		"pokemonNumber": "0342",
+		"pokemonName": "Crawdaunt",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-18",
+		"syncPairAcquisition": "Spotlight Scout / General Pool",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/0F_KALOS/Tierno_0342.png",
+			"Sync Pairs/0F_KALOS/Tierno_0342_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Kalos",
+			"Rival",
+			"Artistic"
+		],
+		"tags": [
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "198",
+		"trainerName": "Dahlia",
+		"trainerAlt": "",
+		"pokemonNumber": "0272",
+		"pokemonName": "Ludicolo",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Dynamax"],
+		"pokemonType": "Water",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-22",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/Dahlia_0272.png",
+			"Sync Pairs/0D_SINNOH/Dahlia_0272_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Sinnoh",
+			"Battle Facility Foe",
+			"Artistic",
+			"Grown Woman"
+		],
+		"tags": [
+			"Grid5",
+			"Limited",
+			"Weather",
+			"Terrain",
+			"isWoman",
+			"Rebuff"
+		]
 	}
 ]
 
@@ -13466,4 +13718,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.41.0";
+export const VERSION = "v2.42.0";

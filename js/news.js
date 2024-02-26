@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2024-02-26",
+		"info" : "Add v2.42.0"
+	},
+	{
 		"date": "2024-01-31",
 		"info" : "- Add sort option : EX Role\n- Add ability to hide empty separators"
 	},
