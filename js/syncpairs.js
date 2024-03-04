@@ -8739,6 +8739,7 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Buddy Move",
 			"Limited",
+			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
