@@ -1386,7 +1386,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike",
+		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",

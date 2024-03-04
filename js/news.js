@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2024-03-04",
+		"info" : "Add ability to show role on sync pair icons"
+	},
+	{
 		"date": "2024-02-26",
 		"info" : "Add v2.42.0"
 	},

@@ -11,7 +11,7 @@ const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","gras
 const rolesOrder = {"":"10","strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05"};
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12"}
-const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"]}
+const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "strike<>tech<>support": ["images/role_egg.png"]}
 
 
 /*-----------------------------------------------------------------------------
@@ -90,7 +90,10 @@ function generatePairsHTML(pairs) {
 				<div class="syncLevel" data-currentImage="${currentSyncLevel}">
 					${genImages(syncLevelImgs, currentSyncLevel)}
 				</div>
-				<div class="syncRoleEX" data-currentImage="${currentSyncRoleEX}">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], currentSyncRoleEX)}</div>
+				<div class="syncRoles">
+					<div class="syncRole">${genImages([syncRoleImgs[syncPair.syncPairRole.toLowerCase()][0]], 0)}</div>
+					<div class="syncRoleEX" data-currentImage="${currentSyncRoleEX}">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], currentSyncRoleEX)}</div>
+				</div>
 				<div class="syncImages" data-currentImage="${currentSyncImage}">
 					${genImages(syncPair.images, currentSyncImage)}
 				</div>`;
@@ -106,7 +109,10 @@ function generatePairsHTML(pairs) {
 				<div class="syncLevel" data-currentImage="0">
 					${genImages(syncLevelImgs, 0)}
 				</div>
-				<div class="syncRoleEX" data-currentImage="0">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], 0)}</div>
+				<div class="syncRoles">
+					<div class="syncRole">${genImages([syncRoleImgs[syncPair.syncPairRole.toLowerCase()][0]], 0)}</div>
+					<div class="syncRoleEX" data-currentImage="0">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], 0)}</div>
+				</div>
 				<div class="syncImages" data-currentImage="0">
 					${genImages(syncPair.images, 0)}
 				</div>`;
@@ -188,9 +194,9 @@ function addSyncPairsEvents() {
 	var syncFavs = Array.from(document.getElementsByClassName("syncFav"));
 	var syncLevels = Array.from(document.getElementsByClassName("syncLevel"));
 	var syncImages = Array.from(document.getElementsByClassName("syncImages"));
-	var syncRolesEX = Array.from(document.getElementsByClassName("syncRoleEX"));
+	var syncRoles = Array.from(document.getElementsByClassName("syncRoles"));
 
-	var syncStarLevels = syncStars.concat(syncLevels.concat(syncRolesEX));
+	var syncStarLevels = syncStars.concat(syncLevels.concat(syncRoles));
 	var syncStarLevelsImages = syncImages.concat(syncStarLevels);
 
 	syncImages.forEach(s => s.addEventListener("click", function() {
@@ -250,14 +256,20 @@ function addSyncPairsEvents() {
 
 
 /* takes a <div> containing <img> elements and move the "currentImage" class through the images */
-function swapImages(imagesContainer, step) {
+function swapImages(imgsContainer, step) {
+
+	var imagesContainer = imgsContainer;
+
+	if(imagesContainer.classList.contains("syncRoles")) {
+		if(imagesContainer.parentElement.querySelector(".syncImages").innerHTML.indexOf(`EX.png" class="currentImage">`) == -1) {
+			return;
+		} else {
+			imagesContainer = imagesContainer.querySelector(".syncRoleEX");
+		}
+	}
 
 	var images = Array.from(imagesContainer.children);
 	var nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
-
-	if(imagesContainer.classList.contains("syncRoleEX") && imagesContainer.parentElement.querySelector(".syncImages").innerHTML.indexOf(`EX.png" class="currentImage">`) == -1) {
-		return;
-	}
 
 	if(nextImageNumber >= images.length) {
 		nextImageNumber = 0;
@@ -272,8 +284,13 @@ function swapImages(imagesContainer, step) {
 
 	imagesContainer.dataset.currentimage = nextImageNumber;
 
+	var basestar;
 
-	var basestar = parseInt(imagesContainer.parentElement.querySelector(".infoSyncPairRarity").textContent);
+	if(imagesContainer.classList.contains("syncRoleEX")) {
+		basestar = parseInt(imagesContainer.parentElement.parentElement.querySelector(".infoSyncPairRarity").textContent);
+	} else {
+		basestar = parseInt(imagesContainer.parentElement.querySelector(".infoSyncPairRarity").textContent);
+	}
 
 	if(imagesContainer.classList.contains("syncStar") && EGGMONMODE) {
 		imagesContainer.dataset.currentstar = basestar + nextImageNumber;
@@ -490,7 +507,7 @@ and insert the count in the corresponding output element */
 function countSelection() {
 	var totalSyncPairs, allSelected, allSelectedFound, allFound, allNotFound, allNotSelected, allNotSelectedFound;
 
-	if((localStorage.getItem("datamineVisible") !== null) && (localStorage.getItem("datamineVisible") === "false")) {
+	if(document.getElementById("datamineVisible").classList.contains("btnYellow")) {
 		totalSyncPairs = parseInt(Array.from(document.querySelectorAll(".syncPair:not(.datamine)")).length);
 		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected:not(.datamine)")).length);
 		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found:not(.datamine)")).length);
@@ -868,107 +885,79 @@ function resetSyncStar() {
 }
 
 
-function pairsVisible(id) {
-	document.getElementById("allVisible").classList.remove("btnYellow");
-	document.getElementById("selectedVisible").classList.remove("btnYellow");
-	document.getElementById("notSelectedVisible").classList.remove("btnYellow");
-
-	document.getElementById(id).classList.add("btnYellow");
-
-	localStorage.setItem("visibilityMode", id);
-
-	visibility();
-}
-
-function datamineVisible() {
-	document.getElementById("datamineVisible").classList.toggle("btnYellow");
-
-	localStorage.setItem("datamineVisible", !document.getElementById("datamineVisible").classList.contains("btnYellow"));
-
-	Array.from(document.getElementsByClassName("datamine")).forEach(d => unselect(d))
-
-	visibility();
-}
-
 function elementVisible(id) {
-	document.getElementById(id).classList.toggle("btnYellow");
+	if(id == "allVisible" || id == "selectedVisible" || id == "notSelectedVisible") {
+		document.getElementById("allVisible").classList.remove("btnYellow");
+		document.getElementById("selectedVisible").classList.remove("btnYellow");
+		document.getElementById("notSelectedVisible").classList.remove("btnYellow");		
+	}
 
-	localStorage.setItem(id, !document.getElementById(id).checked);
+	if(id == "datamineVisible") {
+		Array.from(document.getElementsByClassName("datamine")).forEach(d => unselect(d));
+	}
+
+	document.getElementById(id).classList.toggle("btnYellow");
 
 	visibility();
 }
 
 function visibility() {
-	var css = {
-		"allVisible": "",
 
-		"selectedVisible" : `.syncPair:not([class*="selected"]) { display: none !important; }\n`,
+	var userChoices = []
 
-		"notSelectedVisible": `.syncPair[class*="selected"] { display: none !important; }\n`,
+	Array.from(document.getElementById("visibilityOptions").getElementsByClassName("btnYellow")).forEach(function(choice) {
+		userChoices.push(choice.id);
+	})
 
-		"datamineVisible": `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }\n`,
-
-		"pairsCounterPercentageVisible" : `.pairsCounterPercentage { display: none; }\n`,
-
-		"syncFavsVisible" : `.syncFav { display: none !important; }\n`,
-
-		"syncInfosVisible" : `.syncPair:hover > .syncInfos { display: none !important; }\n`,
-
-		"syncRoleEXVisible" : `.syncRoleEX { display: none !important; }\n`,
-
-		"fullWidthVisible" : `#main { width: 100%; } #rightSide { margin-left: 25%; width: 100%; }\n@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }\n@media only screen and (max-width: 1400px) { #rightSide { margin-left: 40% } }\n@media only screen and (max-width: 1200px) { #rightSide { margin-left: 50% } }\n@media only screen and (max-width: 1024px) { #rightSide { margin-left: auto } }`
-	}
-
-	var visibilityChoices = Array.from(document.getElementById("visibilityOptions").getElementsByClassName("btnYellow"));
-	var theCSS = [];
-	visibilityChoices.forEach(function(c) { theCSS.push(css[c.id]);	})
-	document.getElementById("visibilityMode").innerHTML = theCSS.join("");
+	setVisibility(userChoices);
 
 	countSelection();
 }
 
+function setVisibility(choices) {
+	localStorage.setItem("visibilityOptions", JSON.stringify(choices));
+
+	var css = {
+		"allVisible": "",
+
+		"selectedVisible" : `.syncPair:not([class*="selected"]) { display: none !important; }`,
+
+		"notSelectedVisible": `.syncPair[class*="selected"] { display: none !important; }`,
+
+		"datamineVisible": `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }`,
+
+		"pairsCounterPercentageVisible" : `.pairsCounterPercentage { display: none; }`,
+
+		"syncInfosVisible" : `.syncPair:hover > .syncInfos { display: none !important; }`,
+
+		"syncFavsVisible" : `.syncFav { display: none !important; }`,
+
+		"syncRoleVisible" : `.syncRole { display: none !important; }`,
+
+		"syncRoleEXVisible" : `.syncRoleEX { display: none !important; }`,
+
+		"fullWidthVisible" : `#main { width: 100%; } #rightSide { margin-left: 25%; width: 100%; }\n@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }\n@media only screen and (max-width: 1400px) { #rightSide { margin-left: 40% } }\n@media only screen and (max-width: 1200px) { #rightSide { margin-left: 50% } }\n@media only screen and (max-width: 1024px) { #rightSide { margin-left: auto } }`
+	}
+
+	var theCSS = [];
+	choices.forEach(function(choice) {
+		theCSS.push(css[choice]);
+		document.getElementById(choice).checked = true;
+		document.getElementById(choice).classList.add("btnYellow");
+	})
+
+	document.getElementById("visibilityMode").innerHTML = theCSS.join("\n");
+}
+
 function loadVisibilityFromLocalStorage() {
 
-	/*if(localStorage.getItem("darkMode") !== null) {
-		document.getElementById("darkModeCss").disabled = !(localStorage.getItem("darkMode") === "true");
-	}*/
+	var options = ["allVisible", "syncRoleVisible", "syncInfosVisible"];
 
-	if(localStorage.getItem("lockMode") !== null) {
-		document.getElementById("lockModeCss").disabled = !(localStorage.getItem("lockMode") === "true");
+	if("visibilityOptions" in localStorage) {
+		options = JSON.parse(localStorage.getItem("visibilityOptions"));
 	}
 
-	if(localStorage.getItem("viewMode") !== null) {
-		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
-	}
-
-	if(localStorage.getItem("visibilityMode") !== null) {
-		document.getElementById(localStorage.getItem("visibilityMode")).click();
-	}
-
-	if((localStorage.getItem("datamineVisible") !== null) && (localStorage.getItem("datamineVisible") === "false")) {
-		document.getElementById("datamineVisible").click();
-	}
-
-	if((localStorage.getItem("pairsCounterPercentageVisible") !== null) && (localStorage.getItem("pairsCounterPercentageVisible") === "false")) {
-		document.getElementById("pairsCounterPercentageVisible").click();
-	}
-
-	if((localStorage.getItem("syncFavsVisible") !== null) && (localStorage.getItem("syncFavsVisible") === "false")) {
-		document.getElementById("syncFavsVisible").click();
-	}
-
-	if((localStorage.getItem("syncInfosVisible") !== null) && (localStorage.getItem("syncInfosVisible") === "false")) {
-		document.getElementById("syncInfosVisible").click();
-	}
-
-	if((localStorage.getItem("syncRoleEXVisible") !== null) && (localStorage.getItem("syncRoleEXVisible") === "false")) {
-		document.getElementById("syncRoleEXVisible").click();
-	}
-
-	if((localStorage.getItem("fullWidthVisible") !== null) && (localStorage.getItem("fullWidthVisible") === "false")) {
-		document.getElementById("fullWidthVisible").click();
-	}
-
+	setVisibility(options);
 }
 
 
@@ -1527,15 +1516,16 @@ document.getElementById("resetFavorite").addEventListener("click", resetFavorite
 
 document.getElementById("visibilityBtns").addEventListener("click", visibilityOptions);
 
-document.getElementById("allVisible").addEventListener("click", function() { pairsVisible(this.id); });
-document.getElementById("selectedVisible").addEventListener("click", function() { pairsVisible(this.id); });
-document.getElementById("notSelectedVisible").addEventListener("click", function() { pairsVisible(this.id); });
+document.getElementById("allVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("selectedVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("notSelectedVisible").addEventListener("click", function() { elementVisible(this.id); });
 
-document.getElementById("datamineVisible").addEventListener("click", datamineVisible);
+document.getElementById("datamineVisible").addEventListener("click", function() { elementVisible(this.id); });
 
 document.getElementById("pairsCounterPercentageVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncFavsVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncInfosVisible").addEventListener("click", function() { elementVisible(this.id); });
+document.getElementById("syncRoleVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncRoleEXVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("fullWidthVisible").addEventListener("click", function() { elementVisible(this.id); });
 
@@ -1839,7 +1829,7 @@ function init() {
 
 	try { generatePairs(SYNCPAIRS);	} catch(e) {
 		console.log(e);
-		document.getElementById("syncPairs").innerHTML = "Something went wrong, try to hard refresh the page.";
+		document.getElementById("syncPairs").innerHTML = "<p>Something went wrong, try to hard refresh the page.<br>or<br>Go to <a target='_blank' href='https://pomasters.github.io/SyncPairsTrackerOld/'>https://pomasters.github.io/SyncPairsTrackerOld/</a> to get your export code.</p>";
 	}
 
 	addEventLeftSide();

@@ -2626,7 +2626,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -4275,7 +4276,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -5027,7 +5029,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Starter",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -5553,7 +5556,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -6517,7 +6521,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -7049,7 +7054,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Song Key",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -7695,7 +7701,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Starter",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -8736,7 +8743,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -10028,7 +10036,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -11327,7 +11336,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -11747,7 +11757,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion"
 		]
 	},
 	{
@@ -13677,7 +13688,7 @@ const P = {
 	"syncPairRoleEX": "Strike (Special) / Strike (Physical) / Tech / Support / Sprint / Field",
 	"syncPairRarity": "5",
 	"releaseDate": "2023-00-00",
-	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Master Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward",
+	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward",
 	"syncPairRegion": "Pasio / Kanto / Johto / Hoenn / Sinnoh / Unova / Kalos / Alola / Galar / Paldea",
 	"images": [
 		"images/empty.png"
@@ -13705,15 +13716,17 @@ const P = {
 		"Terrain",
 		"Wish Zone",
 		"Region Circle",
+		"Unique Costume",
 		"Multiple Units",
 		"Multiple Pokemon",
 		"isMan",
 		"isWoman",
 		"Anniversary",
 		"Rebuff",
-		"Z-Move",
+		"ZMove",
 		"Hisui",
-		"Song Key"
+		"Song Key",
+		"Neo Champion"
 	]
 }
 

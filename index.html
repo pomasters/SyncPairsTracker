@@ -68,15 +68,16 @@
 					</div>
 
 					<div class="hide" id="visibilityOptions">
-						<button type="button" class="btn btnYellow" id="allVisible">All</button>
+						<button type="button" class="btn" id="allVisible">All</button>
 						<button type="button" class="btn smallerText" id="selectedVisible">Have</button>
 						<button type="button" class="btn" id="notSelectedVisible">Not have</button>
 						<button type="button" class="btn smallerText" id="datamineVisible">Not released</button>
 
 						<div>
 							<div class="checkboxOption"><input type="checkbox"id="pairsCounterPercentageVisible"><label for="pairsCounterPercentageVisible">Hide percentage in counter</label></div>
-							<div class="checkboxOption"><input type="checkbox"id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="syncInfosVisible"><label for="syncInfosVisible">Hide sync pair informations</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="syncFavsVisible"><label for="syncFavsVisible">Hide favorite buttons</label></div>
+							<div class="checkboxOption"><input type="checkbox"id="syncRoleVisible"><label for="syncRoleVisible">Hide Role icons</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="syncRoleEXVisible"><label for="syncRoleEXVisible">Hide EX Role icons</label></div>
 							<div class="checkboxOption"><input type="checkbox"id="fullWidthVisible"><label for="fullWidthVisible">Full width of the window</label></div>
 						</div>
@@ -264,8 +265,8 @@
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Kalos'>Kalos</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Alola'>Alola</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Galar'>Galar</button>
-						<button type="button" class="btn" value='Hisui'>Hisui</button>
-						<button type="button" class="btn" value='Paldea'>Paldea</button>
+						<button type="button" class="btn filterRegion" value='Hisui'>Hisui</button>
+						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Paldea'>Paldea</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Pasio'>Pasio</button>
 					</div>
 
@@ -287,6 +288,7 @@
 						<button type="button" class="btn" value='Ultra Beast'>Ultra Beast</button>
 						<button type="button" class="btn" value='Starter'>Starter</button>
 						<button type="button" class="btn" value='Eeveelution'>Eeveelution</button>
+						<button type="button" class="btn" value='Neo Champion'>Neo Champion</button>
 					</div>
 
 					<div class="buttonGroup groupClose">
@@ -308,17 +310,17 @@
 
 					<div class="buttonGroup">
 						<div class="buttonGroupTitle">Acquisition<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn" value='General Pool'><img src="images/icon_genpool.png">Gen Pool</button>
-						<button type="button" class="btn" value='Poké Fair'><img src="images/icon_pokefair.png">Poké Fair</button>
-						<button type="button" class="btn smallerText" value='Master Fair'><img src="images/icon_master.png">Master Fair</button>
-						<button type="button" class="btn" value='>Seasonal'><img src="images/icon_seasonal.png">Seasonal</button>
-						<button type="button" class="btn smallerText" value='Special Costume'>Special Costume</button>
-						<button type="button" class="btn" value='Variety'>Variety</button>
-						<button type="button" class="btn" value='Main Story'><img src="images/icon_story.png">Story</button>
+						<button type="button" class="btn" value='Spotlight Scout / General Pool'><img src="images/icon_genpool.png">Gen Pool</button>
+						<button type="button" class="btn" value='Poké Fair Scout'><img src="images/icon_pokefair.png">Poké Fair</button>
+						<button type="button" class="btn smallerText" value='Master Fair Scout'><img src="images/icon_master.png">Master Fair</button>
+						<button type="button" class="btn" value='Seasonal Scout'><img src="images/icon_seasonal.png">Seasonal</button>
+						<button type="button" class="btn smallerText" value='Special Costume Scout'>Special Costume</button>
+						<button type="button" class="btn" value='Variety Scout'>Variety</button>
+						<button type="button" class="btn" value='Main Story: PML Arc'><img src="images/icon_story.png">Story</button>
 						<button type="button" class="btn" value='Legendary Adventures'>Legendary Adv.</button>
 						<button type="button" class="btn" value='Event Reward'><img src="images/icon_event.png">Event</button>
-						<button type="button" class="btn" value='Battle Points'><img src="images/icon_bp.png">BP</button>
-						<button type="button" class="btn" value='Trainer Lodge'><img src="images/icon_lodge.png">Lodge</button>
+						<button type="button" class="btn" value='Battle Points Exchange'><img src="images/icon_bp.png">BP</button>
+						<button type="button" class="btn" value='Trainer Lodge Exchange'><img src="images/icon_lodge.png">Lodge</button>
 						<button type="button" class="btn" value='Mix Scout'>Mix</button>
 					</div>
 
@@ -358,6 +360,7 @@
 							<button type="button" class="btn" value='Kalos'>Kalos</button>
 							<button type="button" class="btn" value='Alola'>Alola</button>
 							<button type="button" class="btn" value='Galar'>Galar</button>
+							<button type="button" class="btn" value='Paldea'>Paldea</button>
 						</div>
 
 						<div class="buttonGroup2 groupClose">

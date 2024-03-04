@@ -65,6 +65,21 @@
 .syncImages:hover img:last-child {
 	display: block !important;
 }
+.syncPair:hover .syncRoleEX {
+	display: block !important;
+}
+.syncRoleEX img:first-child {
+	display: none !important;
+}
+.syncRoleEX img:last-child {
+	display: block !important;
+}
+.syncRoleEX {
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
+}
 
 .syncPair:hover > .syncInfos {
 	display: flex !important;
