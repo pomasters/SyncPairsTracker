@@ -12,6 +12,7 @@ const rolesOrder = {"":"10","strike (physical)":"01","strike (special)":"01","te
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12"}
 const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "strike<>tech<>support": ["images/role_egg.png"]}
+const sortIdToSyncpairInfo = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition"}
 
 
 /*-----------------------------------------------------------------------------
@@ -1157,6 +1158,10 @@ function removeFilters() {
 	Array.from(document.getElementsByClassName("filterToHide")).forEach(f => f.classList.remove("filterToHide"));
 	document.getElementById("btnDate").classList.remove("filterDateEnable");
 	searchFiltersORdateInterval();
+
+	if(document.getElementById("hideEmptySeparators").checked) {
+		showSeparator(sortIdToSyncpairInfo[document.getElementById("sorting").querySelector(".btnBlue").id]);
+	}
 }
 
 
@@ -1231,22 +1236,7 @@ function removeSeparator() {
 function removeEmptySeparators() {
 	if(document.getElementById("hideEmptySeparators").checked && document.getElementsByClassName("selectedFilter").length > 0) {
 
-		var idToInfos = {"sortByDexNumber": ".infoDexNum",
-				"sortByPokemonNumber": ".infoPokemonNum",
-				"sortByTrainer": ".infoTrainerName",
-				"sortByStar": ".syncStar",
-				"sortByRole": ".infoSyncPairRole",
-				"sortByRoleEX": ".infoSyncPairRoleEX",
-				"sortByType": ".infoPokemonType",
-				"sortByWeakness": ".infoPokemonWeak",
-				"sortByRegion": ".infoSyncPairRegion",
-				"sortByDate": ".infoReleaseDate",
-				"sortBySyncLevel": ".syncLevel",
-				"sortBySelected": ".selected",
-				"sortByFavorite": ".syncFav",
-				"sortByAcquisition": ".infoSyncPairAcquisition"}
-
-		showSeparator(idToInfos[document.getElementById("sorting").querySelector(".btnBlue").id]);
+		showSeparator(sortIdToSyncpairInfo[document.getElementById("sorting").querySelector(".btnBlue").id]);
 
 		var pairs = document.getElementById("syncPairs").children;
 
