@@ -959,6 +959,14 @@ function loadVisibilityFromLocalStorage() {
 	}
 
 	setVisibility(options);
+
+	if(localStorage.getItem("lockMode") !== null) {
+		document.getElementById("lockModeCss").disabled = !(localStorage.getItem("lockMode") === "true");
+	}
+
+	if(localStorage.getItem("viewMode") !== null) {
+		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
+	}
 }
 
 
