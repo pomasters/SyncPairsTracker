@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2024-03-14",
+		"info" : "Add ability to track sync grid energy cap"
+	},
+	{
 		"date": "2024-03-04",
 		"info" : "Add ability to show role on sync pair icons"
 	},

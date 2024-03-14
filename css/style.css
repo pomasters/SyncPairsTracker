@@ -443,12 +443,29 @@ input:focus { outline: 0; }
 
 #increaseBtns img,
 #increaseOptions .btn img {
-	height: 15px;
+	height: 13px;
 	position: relative;
-	top: 3px;
+}
+#increaseOptions {
+	padding: 13px 10px !important;
+}
+#increaseOptions2, #increaseOptions3 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+#increaseOptions2 .btn, #increaseOptions3 .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4px 3px;
+	font-size: 11px !important;
+}
+#increaseOptions2 .btn {
+	width: auto !important;
 }
 
-#increaseBtns img { margin: auto 5px; filter: saturate(0.2); }
+#increaseBtns img { margin: auto 2px; filter: saturate(0.2); top: 2px; }
 #increaseBtns:hover img,
 #increaseBtns[class="btn btnBlue"] img { filter: saturate(1); }
 
@@ -716,7 +733,8 @@ input:focus { outline: 0; }
 
 .syncUserBtnFav img,
 .syncUserBtnSyncLevel img,
-.syncUserBtnStar img {
+.syncUserBtnStar img,
+.syncUserBtnSyncGrid img {
 	position: absolute;
 	left: 0px !important;
 	right: 0px !important;
@@ -992,11 +1010,22 @@ input:focus { outline: 0; }
 	display: none;
 }
 
-.selected .syncLevel {
-	display: block;
+.syncGrid {
+	position: absolute;
+	left: -15px;
+	right: 0;
+	bottom: -2px;
+	z-index: 1;
+	width: 34px;
+	margin: auto;
 }
 
-.syncLevel img {
+.selected .syncLevel {
+	display: flex;
+}
+
+.syncLevel img,
+.syncGrid img {
 	width: 100%;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
@@ -1044,7 +1073,7 @@ input:focus { outline: 0; }
 
 .selected:hover .syncRoleEX .currentImage:first-child,
 .selected .syncRoleEX .currentImage:last-child {
-	display: block;
+	display: flex;
 }
 
 .syncRole img,
@@ -1091,14 +1120,25 @@ input:focus { outline: 0; }
 .syncStar img,
 .syncFav img,
 .syncImages img,
-.syncRoleEX img {
+.syncRoleEX img,
+.syncGrid img {
 	display: none;
 }
 
 .syncLevel .currentImage,
 .syncStar .currentImage,
-.syncImages .currentImage {
+.syncImages .currentImage,
+.syncGrid .currentImage {
 	display: initial;
+}
+
+.syncGrid .currentImage:first-child,
+.selected .syncGrid .currentImage:first-child {
+	display: none !important;
+}
+.selected:hover .syncGrid .currentImage:first-child,
+.selected .syncGrid .currentImage:not(:first-child) {
+	display: flex !important;
 }
 
 

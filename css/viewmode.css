@@ -39,7 +39,8 @@
 .syncStar,
 .syncFav,
 .syncLevel,
-.syncRoleEX {
+.syncRoleEX,
+.syncGrid {
 	display: none !important;
 }
 

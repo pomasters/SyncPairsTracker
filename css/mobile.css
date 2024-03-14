@@ -284,21 +284,38 @@
 	.selected .syncFav {
 		background-image: url("../images/favorite1.png");
 		background-size: contain;
+		width: 22%;
+		height: 20%;
 	}
 
 	.syncFav img {
 		display: none;
+		width: 100%;
 	}
 
 	.syncFav .currentImage {
 		display: block;
 	}
 
+	.syncRoles {
+		top: 35%;
+	}
+
 	.syncLevel {
 		width: 25%;
 		height: auto;
-		left: 5%;
-		bottom: 5%;
+		z-index: 2;
+		left: 4%;
+		bottom: 12%;
+	}
+
+	.syncGrid {
+		bottom: -1%;
+		z-index: 1;
+		left: -13px;
+		width: 33%;
+		height: 22px;
+		margin: auto;
 	}
 
 	.selected:hover > .syncInfos {
@@ -355,6 +372,7 @@
 	#credits {
 		width: 90%;
 		margin: 15px auto;
+		font-size: 11px;
 	}
 
 	#btnDarkMode {
