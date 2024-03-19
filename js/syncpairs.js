@@ -29,7 +29,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -285,7 +286,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -353,7 +355,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -459,7 +462,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -527,7 +531,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -666,7 +671,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Weather",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -700,7 +706,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -766,7 +773,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -835,7 +843,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -907,7 +916,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Grid3",
 			"GridExpansion",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -1016,7 +1026,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -1082,7 +1093,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1155,7 +1167,8 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -1188,7 +1201,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1255,7 +1269,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1318,7 +1333,8 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -1354,7 +1370,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -1425,7 +1442,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -1501,7 +1519,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1571,7 +1590,8 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -1603,7 +1623,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -1635,7 +1656,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -1668,7 +1690,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Weather"
+			"Weather",
+			"First Unit"
 		]
 	},
 	{
@@ -1701,7 +1724,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1770,7 +1794,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1841,7 +1866,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -1908,7 +1934,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -1942,7 +1969,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -2014,7 +2042,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Starter",
 			"Song Key",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -2082,7 +2111,8 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -2114,7 +2144,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -2148,7 +2179,8 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -2180,7 +2212,8 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -2215,7 +2248,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"Weather"
+			"Weather",
+			"First Unit"
 		]
 	},
 	{
@@ -2319,7 +2353,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -2352,7 +2387,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -2418,7 +2454,8 @@ export const SYNCPAIRS = [
 			"Battleground Foe"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -2451,7 +2488,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -2487,7 +2525,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -2667,7 +2706,8 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -2701,7 +2741,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -2781,7 +2822,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0521",
 		"pokemonName": "Unfezant",
 		"pokemonGender": "♀️",
-		"pokemonForm": ["Other Form"],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Flying",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike (Physical)",
@@ -2835,7 +2878,8 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -2869,7 +2913,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -2976,7 +3021,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -3052,7 +3098,8 @@ export const SYNCPAIRS = [
 			"Body Builder"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3084,7 +3131,8 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -3115,7 +3163,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3148,7 +3197,8 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3184,7 +3234,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -3252,7 +3303,8 @@ export const SYNCPAIRS = [
 			"Veteran Trainer"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3284,7 +3336,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3317,7 +3370,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3385,7 +3439,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -3423,7 +3478,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"ZMove",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -3497,7 +3553,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -3566,7 +3623,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -3643,7 +3701,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"ZMove",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -3710,7 +3769,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -3742,7 +3802,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -3776,7 +3837,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -3849,7 +3911,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"ZMove",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -3882,7 +3945,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -3916,7 +3980,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -4060,7 +4125,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -4098,7 +4164,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -4321,7 +4388,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -4500,7 +4568,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -4609,7 +4678,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Starter",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -4753,7 +4823,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -4927,7 +4998,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -4997,7 +5069,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -5106,7 +5179,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -5139,7 +5213,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -5241,7 +5316,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -5414,7 +5490,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Starter",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -5487,7 +5564,8 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Eeveelution",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -5637,7 +5715,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -5743,7 +5822,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -5935,7 +6015,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Multiple Pokemon",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -5972,7 +6053,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -6079,7 +6161,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -6307,7 +6390,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
 			"isMan",
-			"Mythical"
+			"Mythical",
+			"First Unit"
 		]
 	},
 	{
@@ -6342,7 +6426,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Eeveelution",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -6418,7 +6503,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"First Unit"
 		]
 	},
 	{
@@ -6610,7 +6696,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -6677,7 +6764,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -6711,7 +6799,8 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Song Key",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -6745,7 +6834,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -6814,7 +6904,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -6880,7 +6971,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -6960,7 +7052,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -7040,7 +7133,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0248",
 		"pokemonName": "Tyranitar",
 		"pokemonGender": "♂️",
-		"pokemonForm": ["Mega Evolution"],
+		"pokemonForm": [
+			"Mega Evolution"
+		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike (Physical)",
@@ -7109,7 +7204,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -7218,7 +7314,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -7360,7 +7457,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -7540,7 +7638,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -7610,7 +7709,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -7786,7 +7886,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -7817,7 +7918,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -7849,7 +7951,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -8030,7 +8133,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8102,7 +8206,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Ultra Beast",
 			"ZMove",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8176,7 +8281,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Legendary",
 			"Multiple Units",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8280,7 +8386,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8452,7 +8559,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -8485,7 +8593,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Terrain"
+			"Terrain",
+			"First Unit"
 		]
 	},
 	{
@@ -8587,7 +8696,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -8621,7 +8731,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8695,7 +8806,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8727,7 +8839,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -8801,7 +8914,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Terrain",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -8840,7 +8954,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Rebuff",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -9029,7 +9144,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -9215,7 +9331,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -9397,7 +9514,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"ZMove",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -9502,7 +9620,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -9578,7 +9697,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -9678,7 +9798,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -9760,7 +9881,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Song Key",
 			"Multiple Pokemon",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"First Unit"
 		]
 	},
 	{
@@ -9916,7 +10038,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -10103,7 +10226,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -10221,7 +10345,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"Starter"
+			"Starter",
+			"First Unit"
 		]
 	},
 	{
@@ -10295,7 +10420,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Starter",
 			"Multiple Units",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -10367,7 +10493,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -10477,7 +10604,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -10508,7 +10636,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -10578,7 +10707,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -10649,7 +10779,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Legendary",
 			"Song Key",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"First Unit"
 		]
 	},
 	{
@@ -10685,7 +10816,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Legendary",
 			"Song Key",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"First Unit"
 		]
 	},
 	{
@@ -10718,7 +10850,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"ZMove"
+			"ZMove",
+			"First Unit"
 		]
 	},
 	{
@@ -10793,7 +10926,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"ZMove",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -10859,7 +10993,8 @@ export const SYNCPAIRS = [
 			"Melemele Family"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -10893,7 +11028,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Starter",
 			"ZMove",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -10928,7 +11064,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"First Unit"
 		]
 	},
 	{
@@ -10996,7 +11133,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Weather"
+			"Weather",
+			"First Unit"
 		]
 	},
 	{
@@ -11063,6 +11201,7 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Master Passive Teamwork",
+			"First Unit"
 		]
 	},
 	{
@@ -11096,7 +11235,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Mythical",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -11128,7 +11268,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -11158,7 +11299,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited PML Arc Conclusion Special Missions",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -11189,7 +11331,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -11287,7 +11430,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -11325,7 +11469,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -11404,7 +11549,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -11472,7 +11618,8 @@ export const SYNCPAIRS = [
 			"Undella Town"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -11505,7 +11652,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -11579,7 +11727,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Multiple Units",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -11645,7 +11794,8 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -11677,7 +11827,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Weather"
+			"Weather",
+			"First Unit"
 		]
 	},
 	{
@@ -11708,7 +11859,8 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -11748,7 +11900,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid5",
 			"GridExpansion",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -11821,7 +11974,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -11855,7 +12009,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Wish Zone",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -11891,7 +12046,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"ZMove",
 			"Multiple Pokemon",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"First Unit"
 		]
 	},
 	{
@@ -11925,7 +12081,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Legendary",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"First Unit"
 		]
 	},
 	{
@@ -11957,7 +12114,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -11992,7 +12150,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Weather",
-			"Rebuff"
+			"Rebuff",
+			"First Unit"
 		]
 	},
 	{
@@ -12027,7 +12186,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12064,7 +12224,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Starter",
 			"Grid5",
-			"Multiple Units"
+			"Multiple Units",
+			"First Unit"
 		]
 	},
 	{
@@ -12167,7 +12328,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -12200,7 +12362,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -12233,7 +12396,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -12264,7 +12428,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -12297,7 +12462,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Starter",
 			"Multiple Units",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -12366,7 +12532,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Grid5",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12401,7 +12568,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Song Key",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12429,7 +12597,8 @@ export const SYNCPAIRS = [
 			"Galar"
 		],
 		"tags": [
-			"Limited"
+			"Limited",
+			"First Unit"
 		]
 	},
 	{
@@ -12468,7 +12637,8 @@ export const SYNCPAIRS = [
 			"Hisui",
 			"Eeveelution",
 			"Multiple Pokemon",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"First Unit"
 		]
 	},
 	{
@@ -12578,7 +12748,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Hisui",
 			"Eeveelution",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"First Unit"
 		]
 	},
 	{
@@ -12624,7 +12795,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0571",
 		"pokemonName": "Zoroark",
 		"pokemonGender": "♀️",
-		"pokemonForm": ["Regional Form"],
+		"pokemonForm": [
+			"Regional Form"
+		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike (Special)",
@@ -12688,7 +12861,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12726,7 +12900,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"isMan",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -12765,7 +12940,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Song Key",
-			"Villain Arc"
+			"Villain Arc",
+			"First Unit"
 		]
 	},
 	{
@@ -12797,7 +12973,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12827,7 +13004,8 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -12862,7 +13040,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"isWoman",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -12894,7 +13073,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"isWoman",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"First Unit"
 		]
 	},
 	{
@@ -12933,7 +13113,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12967,7 +13148,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -12998,7 +13180,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -13029,7 +13212,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -13060,7 +13244,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"First Unit"
 		]
 	},
 	{
@@ -13091,7 +13276,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13129,7 +13315,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13164,7 +13351,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13203,7 +13391,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Pokemon",
 			"isWoman",
-			"Hisui"
+			"Hisui",
+			"First Unit"
 		]
 	},
 	{
@@ -13241,7 +13430,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isMan",
-			"Hisui"
+			"Hisui",
+			"First Unit"
 		]
 	},
 	{
@@ -13271,7 +13461,8 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13301,7 +13492,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13338,7 +13530,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"First Unit"
 		]
 	},
 	{
@@ -13372,7 +13565,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Limited",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13404,7 +13598,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Limited",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13435,7 +13630,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13469,7 +13665,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Buddy Move",
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"First Unit"
 		]
 	},
 	{
@@ -13504,7 +13701,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13538,7 +13736,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Region Circle",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13569,7 +13768,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13604,7 +13804,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13640,7 +13841,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"isWoman",
 			"Song Key",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"First Unit"
 		]
 	},
 	{
@@ -13670,7 +13872,8 @@ export const SYNCPAIRS = [
 			"Artistic"
 		],
 		"tags": [
-			"isMan"
+			"isMan",
+			"First Unit"
 		]
 	},
 	{
@@ -13680,7 +13883,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0272",
 		"pokemonName": "Ludicolo",
 		"pokemonGender": "♀️",
-		"pokemonForm": ["Dynamax"],
+		"pokemonForm": [
+			"Dynamax"
+		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
@@ -13706,7 +13911,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Terrain",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"First Unit"
 		]
 	}
 ]
@@ -13768,7 +13974,8 @@ const P = {
 		"Master Passive Flag Bearer",
 		"Master Passive Pride",
 		"Master Passive Spirit",
-		"Master Passive Teamwork"
+		"Master Passive Teamwork",
+		"First Unit"
 	]
 }
 

@@ -449,19 +449,19 @@ input:focus { outline: 0; }
 #increaseOptions {
 	padding: 13px 10px !important;
 }
-#increaseOptions2, #increaseOptions3 {
+.increaseOptions2, .increaseOptions3 {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
 }
-#increaseOptions2 .btn, #increaseOptions3 .btn {
+.increaseOptions2 .btn, .increaseOptions3 .btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 4px 3px;
 	font-size: 11px !important;
 }
-#increaseOptions2 .btn {
+.increaseOptions2 .btn {
 	width: auto !important;
 }
 
