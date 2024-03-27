@@ -831,7 +831,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha.png",
-			"Sync Pairs/5Star/0A_KANTO_0C-03_Agatha_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0C-03_Agatha_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0C-03_Agatha_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -2078,6 +2079,43 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Multiple Pokemon"
+		]
+	},
+	{
+		"dexNumber": "029",
+		"trainerName": "Barry",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0214",
+		"pokemonName": "Heracross",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Mega Evolution"
+		],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-04-12",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Barry_0214.png",
+			"Sync Pairs/0Y_SEASONALS/Barry_0214_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Sinnoh",
+			"Rival",
+			"Special Costume",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -4389,7 +4427,9 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Weather",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -4766,7 +4806,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-10-31",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -4873,7 +4913,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-12-09",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -6477,7 +6517,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2020-02-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -7672,6 +7712,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Unique Costume"
 		]
@@ -9424,7 +9465,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-29",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -9597,7 +9638,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-02-11",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -10387,6 +10428,44 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "121",
+		"trainerName": "Selene",
+		"trainerAlt": "Special Costume",
+		"pokemonNumber": "0212",
+		"pokemonName": "Scizor",
+		"pokemonGender": "♀️",
+		"pokemonForm": [
+			"Mega Evolution"
+		],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-04-14",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Selene_0212.png",
+			"Sync Pairs/0Y_SEASONALS/Selene_0212_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Alola",
+			"Main Character",
+			"Special Costume",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman"
+		]
+	},
+	{
 		"dexNumber": "122",
 		"trainerName": "Elio",
 		"trainerAlt": "",
@@ -10794,7 +10873,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-01",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -12547,7 +12626,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Poison",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-17",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -13914,6 +13993,113 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "199",
+		"trainerName": "Volo",
+		"trainerAlt": "",
+		"pokemonNumber": "0175",
+		"pokemonName": "Togepi",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-29",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/Volo_0175.png",
+			"Sync Pairs/0I_HISUI/Volo_0175_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Sinnoh",
+			"Knowledgeable",
+			"Researcher"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "199",
+		"trainerName": "Volo",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0443",
+		"pokemonName": "Gible",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-03-29",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0I_HISUI/Volo_0443.png",
+			"Sync Pairs/5Star/Volo_0443_5Star.png",
+			"Sync Pairs/0I_HISUI/Volo_0443_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Sinnoh",
+			"Knowledgeable",
+			"Researcher"
+		],
+		"tags": [
+			"Limited",
+			"Weather",
+			"Multiple Units",
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "200",
+		"trainerName": "Jacq",
+		"trainerAlt": "",
+		"pokemonNumber": "0981",
+		"pokemonName": "Farigiraf",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-03-31",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Jacq_0981.png",
+			"Sync Pairs/0J_PALDEA/Jacq_0981_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Paldea",
+			"Knowledgeable",
+			"Gadgeteer",
+			"Free Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isMan",
+			"First Unit"
+		]
 	}
 ]
 
@@ -13980,4 +14166,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.42.0";
+export const VERSION = "v2.43.0";

@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2024-03-27",
+		"info" : "Add v2.43.0"
+	},
+	{
 		"date": "2024-03-14",
 		"info" : "Add ability to track sync grid energy cap"
 	},
