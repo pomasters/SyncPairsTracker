@@ -32,6 +32,7 @@ var DEFAULT_FAVS_VALUES = Array(syncFavImgs.length).fill("0").join(""); // 00000
 /* parameter "pairs" is the array containing all {syncpair} -- see syncpairs.js/eggs.js */
 function generatePairsHTML(pairs) {
 
+	var dateNow = new Date();
 	var result = "";
 	var hideStar = "";
 	var hideGrid = " hide";
@@ -46,7 +47,6 @@ function generatePairsHTML(pairs) {
 
 		var datamine = "";
 		var dateRelease = new Date(syncPair.releaseDate + "T23:00:00-07:00"); //add 23:00:00 PDT
-		var dateNow = new Date();
 		// -86400000 => the previous day
 		if(dateRelease.getTime()-86400000 > dateNow.getTime()) {
 			datamine = " datamine"
@@ -170,6 +170,11 @@ function generatePairsHTML(pairs) {
 		for(var i=0; i<imgs.length; i++) {
 			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
 			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}">` }
+		}
+		var april1 = new Date("2024-03-31T23:00:00-07:00");
+		var april2 = new Date("2024-04-01T23:00:00-07:00");
+		if(april1.getTime() < dateNow.getTime() && dateNow.getTime() < april2.getTime()) {
+			return im.replaceAll("Sync Pairs/","Sync Pairs/20240401/");
 		}
 		return im;
 	}
@@ -1030,7 +1035,7 @@ function dateInterval() {
 	var date2 = document.getElementById("date2").value;
 
 	if(date1 == "") { date1 = "2019-08-29"; }
-	if(date2 == "") { date2 = "2023-12-31"; }
+	if(date2 == "") { date2 = "2024-12-31"; }
 
 	var syncPairs;
 
