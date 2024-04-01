@@ -765,6 +765,40 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0055",
+		"pokemonName": "Golduck",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Psyduck"
+		],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-03-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_03a.png"
+		],
+		"themes": [
+			"Water",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0057",
 		"pokemonName": "Primeape",
 		"pokemonGender": "",
@@ -1266,6 +1300,40 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0097",
+		"pokemonName": "Hypno",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Drowzee"
+		],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-03-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_03a.png"
+		],
+		"themes": [
+			"Psychic",
 			"Main Character"
 		],
 		"tags": [
