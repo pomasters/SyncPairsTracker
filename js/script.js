@@ -171,11 +171,6 @@ function generatePairsHTML(pairs) {
 			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
 			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}">` }
 		}
-		var april1 = new Date("2024-03-31T23:00:00-07:00");
-		var april2 = new Date("2024-04-01T23:00:00-07:00");
-		if(april1.getTime() < dateNow.getTime() && dateNow.getTime() < april2.getTime()) {
-			return im.replaceAll("Sync Pairs/","Sync Pairs/20240401/");
-		}
 		return im;
 	}
 
