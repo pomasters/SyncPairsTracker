@@ -1016,7 +1016,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy.png",
 			"Sync Pairs/4Star/0B_JOHTO_0B-02_Bugsy_4Star.png",
-			"Sync Pairs/5Star/0B_JOHTO_0B-02_Bugsy_5Star.png"
+			"Sync Pairs/5Star/0B_JOHTO_0B-02_Bugsy_5Star.png",
+			"Sync Pairs/0B_JOHTO/0B_JOHTO_0B-02_Bugsy_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -1271,6 +1272,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"First Unit"
 		]
 	},
@@ -1867,6 +1869,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
+			"Grid3",
+			"GridExpansion",
 			"Multiple Units",
 			"First Unit"
 		]
@@ -2829,7 +2833,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Special)",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-03-02",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -2850,7 +2854,9 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Wish Zone",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -3531,7 +3537,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Special)",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -4260,7 +4266,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-18",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -4278,10 +4284,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Units",
 			"isMan",
-			"Villain Arc",
-			"Unique Costume"
+			"Villain Arc"
 		]
 	},
 	{
@@ -4390,6 +4397,45 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Neo Champion",
 			"Master Passive Flag Bearer"
+		]
+	},
+	{
+		"dexNumber": "065",
+		"trainerName": "Blue",
+		"trainerAlt": "Classic",
+		"pokemonNumber": "0006",
+		"pokemonName": "Charizard",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Dynamax"
+		],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-01",
+		"syncPairAcquisition": "Mix Scout",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Blue_0006.png",
+			"Sync Pairs/0A_KANTO/Blue_0006_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Kanto",
+			"Rival",
+			"Pallet Town",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -4656,7 +4702,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Special)",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-02",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -5373,7 +5419,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ground",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-19",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -5390,6 +5436,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Units",
 			"isMan",
 			"Song Key",
@@ -6844,6 +6892,41 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "087",
+		"trainerName": "Plumeria",
+		"trainerAlt": "",
+		"pokemonNumber": "0094",
+		"pokemonName": "Gengar",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-11",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Plumeria_0094.png",
+			"Sync Pairs/0G_ALOLA/Plumeria_0094_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Alola",
+			"Villain.",
+			"Beauty"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"ZMove"
+		]
+	},
+	{
 		"dexNumber": "088",
 		"trainerName": "Guzma",
 		"trainerAlt": "",
@@ -6911,6 +6994,40 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Ultra Beast",
 			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "088",
+		"trainerName": "Guzma",
+		"trainerAlt": "",
+		"pokemonNumber": "0168",
+		"pokemonName": "Ariados",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-09",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Guzma_0168.png",
+			"Sync Pairs/0G_ALOLA/Guzma_0168_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Alola",
+			"Villain.",
+			"Sunglasses"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"ZMove"
 		]
 	},
 	{
@@ -7141,7 +7258,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-17",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -7261,7 +7378,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-09-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -8078,7 +8195,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-04-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -9049,7 +9166,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-14",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -9676,7 +9793,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-13",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -10836,7 +10953,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ground",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-05-31",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -11193,7 +11310,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-06-30",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -11210,6 +11327,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Units",
 			"isMan",
 			"Weather",
@@ -11956,7 +12075,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-16",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -11976,6 +12095,7 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Terrain",
+			"Wish Zone",
 			"Multiple Units",
 			"Grid5",
 			"GridExpansion",
@@ -12917,7 +13037,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-06-15",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -14100,6 +14220,184 @@ export const SYNCPAIRS = [
 			"isMan",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "201",
+		"trainerName": "Rika",
+		"trainerAlt": "",
+		"pokemonNumber": "0980",
+		"pokemonName": "Clodsire",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-04-26",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Rika_0980.png",
+			"Sync Pairs/0J_PALDEA/Rika_0980_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Paldea",
+			"Elite Four",
+			"Knowledgeable",
+			"Grown Woman"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"isWoman",
+			"Song Key",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "201",
+		"trainerName": "Rika",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0340",
+		"pokemonName": "Whiscash",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-05-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Rika_0340.png",
+			"Sync Pairs/5Star/Rika_0340_5Star.png",
+			"Sync Pairs/0J_PALDEA/Rika_0340_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Paldea",
+			"Elite Four",
+			"Knowledgeable",
+			"Grown Woman"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "202",
+		"trainerName": "Brycen-Man",
+		"trainerAlt": "",
+		"pokemonNumber": "0571",
+		"pokemonName": "Zoroark",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-04-30",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Brycen-Man_0571.png",
+			"Sync Pairs/0E_UNOVA/Brycen-Man_0571_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Unova",
+			"Special Costume",
+			"Artistic",
+			"Masked"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Multiple Pokemon",
+			"isMan",
+			"Rebuff",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "203",
+		"trainerName": "Bellelba",
+		"trainerAlt": "",
+		"pokemonNumber": "0528",
+		"pokemonName": "Swoobat",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-02",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Bellelba_0528.png",
+			"Sync Pairs/0E_UNOVA/Bellelba_0528_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Unova",
+			"Special Costume",
+			"Artistic",
+			"Grown Woman"
+		],
+		"tags": [
+			"Limited",
+			"Terrain",
+			"isWoman",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "204",
+		"trainerName": "Poppy",
+		"trainerAlt": "",
+		"pokemonNumber": "0959",
+		"pokemonName": "Tinkaton",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-16",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Poppy_0959.png",
+			"Sync Pairs/0J_PALDEA/Poppy_0959_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Paldea",
+			"Elite Four",
+			"Fancy Lady",
+			"Free Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isWoman",
+			"Song Key",
+			"First Unit"
+		]
 	}
 ]
 
@@ -14166,4 +14464,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.43.0";
+export const VERSION = "v2.44.0";
