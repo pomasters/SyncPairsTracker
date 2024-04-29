@@ -6883,6 +6883,7 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
+			"Multiple Units",
 			"isWoman",
 			"ZMove",
 			"Song Key",
@@ -14277,7 +14278,7 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/0J_PALDEA/Rika_0340.png",
-			"Sync Pairs/5Star/Rika_0340_5Star.png",
+			"Sync Pairs/5Star/Rika_0340_5star.png",
 			"Sync Pairs/0J_PALDEA/Rika_0340_EX.png"
 		],
 		"themes": [

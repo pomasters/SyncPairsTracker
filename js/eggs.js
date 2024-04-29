@@ -109,6 +109,41 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0012",
+		"pokemonName": "Butterfree",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Caterpie",
+			"Metapod"
+		],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-05-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_03a.png"
+		],
+		"themes": [
+			"Bug",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0015",
 		"pokemonName": "Beedrill",
 		"pokemonGender": "",
