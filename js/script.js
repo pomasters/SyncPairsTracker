@@ -14,6 +14,7 @@ const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinno
 const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12"}
 const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "strike<>tech<>support": ["images/role_egg.png"]}
 const sortIdToSyncpairInfo = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid"}
+const roleCombis = {"strike":"1","strike,strike":"11","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","tech":"2","tech,tech":"22","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","support":"3","support,support":"33","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","sprint":"4","sprint,sprint":"44","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","field":"5","field,field":"55","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554"}
 
 
 /*-----------------------------------------------------------------------------
@@ -53,6 +54,8 @@ function generatePairsHTML(pairs) {
 		}
 
 		var innerHtmlImages;
+
+		var roleCombi = "roleCombi" + roleCombis[syncPair.syncPairRole.toLowerCase().replace(" (physical)","").replace(" (special)","")+","+syncPair.syncPairRoleEX.toLowerCase().replace(" (physical)","").replace(" (special)","")];
 
 		/* if the current syncpair is in localstorage,
 		generate the images with current selected image */
@@ -152,7 +155,7 @@ function generatePairsHTML(pairs) {
 					<p data-order="${acquisitionOrder[syncPair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${syncPair.syncPairAcquisition}</p>
 					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
 					<p class="infoSyncPairThemes">${tags(syncPair.themes)}</p>
-					<p class="infoSyncPairTags">${tags(syncPair.tags)}</p>
+					<p class="infoSyncPairTags">${tags(syncPair.tags)+","+roleCombi}</p>
 				</div>
 			</div>`;
 	}
