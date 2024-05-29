@@ -3293,7 +3293,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-16",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -3313,7 +3313,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Mythical",
-			"Unique Costume"
+			"Unique Costume",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -3585,7 +3587,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles.png",
-			"Sync Pairs/5Star/0G_ALOLA_0B-05_Sophocles_5Star.png"
+			"Sync Pairs/5Star/0G_ALOLA_0B-05_Sophocles_5Star.png",
+			"Sync Pairs/0G_ALOLA/0G_ALOLA_0B-05_Sophocles_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -4169,8 +4172,82 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
+			"Multiple Units",
 			"Multiple Pokemon",
 			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "064",
+		"trainerName": "Cheren",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0641",
+		"pokemonName": "Tornadus",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-05-31",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Cheren_Tornadus.png",
+			"Sync Pairs/0E_UNOVA/Cheren_Tornadus_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Champion",
+			"Cape",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Rebuff",
+			"Neo Champion",
+			"Master Passive Spirit"
+		]
+	},
+	{
+		"dexNumber": "064",
+		"trainerName": "Cheren",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0509",
+		"pokemonName": "Purrloin",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-05-31",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Cheren_Purrlion_4Star.png",
+			"Sync Pairs/5Star/Cheren_Purrlion_5Star.png",
+			"Sync Pairs/0E_UNOVA/Cheren_Purrlion_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Unova",
+			"Gym Leader",
+			"Rival",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -5593,7 +5670,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-05-30",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -6609,7 +6686,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-16",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -6630,7 +6707,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Villain Arc",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -9071,10 +9150,51 @@ export const SYNCPAIRS = [
 			"Unova Adventurer"
 		],
 		"tags": [
+			"Multiple Units",
 			"isWoman",
 			"Terrain",
 			"Song Key",
 			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "110",
+		"trainerName": "Bianca",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0640",
+		"pokemonName": "Virizion",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-02",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Bianca_Virizion.png",
+			"Sync Pairs/0E_UNOVA/Bianca_Virizion_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Unova",
+			"Champion",
+			"Glasses",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff",
+			"Neo Champion",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -11062,7 +11182,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-14",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12713,7 +12833,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-15",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -14399,6 +14519,82 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "205",
+		"trainerName": "Larry",
+		"trainerAlt": "",
+		"pokemonNumber": "0982",
+		"pokemonName": "Dudunsparce",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-14",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Larry_Dudunsparce.png",
+			"Sync Pairs/0J_PALDEA/Larry_Dudunsparce_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Paldea",
+			"Gym Leader",
+			"Elite Four",
+			"Free Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isMan",
+			"Rebuff",
+			"Song Key",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "206",
+		"trainerName": "Kabu",
+		"trainerAlt": "",
+		"pokemonNumber": "0851",
+		"pokemonName": "Centiskorch",
+		"pokemonGender": "♂️",
+		"pokemonForm": [
+			"Dynamax",
+			"Gigantamax"
+		],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-16",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Kabu_Centiskorch.png",
+			"Sync Pairs/0H_GALAR/Kabu_Centiskorch_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Galar",
+			"Gym Leader",
+			"Passionate Spirit",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isMan",
+			"Rebuff",
+			"First Unit"
+		]
 	}
 ]
 
@@ -14465,4 +14661,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.44.0";
+export const VERSION = "v2.45.0";
