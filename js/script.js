@@ -710,6 +710,8 @@ function importSelection() {
 				var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 			}
 
+			unselect(s);
+
 			if(key in imported) {
 				var currentSyncData = imported[key].split("|");
 				var importedSyncLevel = currentSyncData[0];
