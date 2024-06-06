@@ -8190,7 +8190,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
