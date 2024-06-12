@@ -145,7 +145,7 @@ function generatePairsHTML(pairs) {
 					<p class="infoPokemonName">${syncPair.pokemonName}
 						<span class="infoPokemonGender">${syncPair.pokemonGender}</span>
 					</p>
-					<p class="infoPokemonForms">${tags(syncPair.pokemonForm)}</p>
+					<p class="infoPokemonForms">${tags(syncPair.pokemonForm, "")}</p>
 					<p data-order="${typesOrder[syncPair.pokemonType.toLowerCase()]}" class="infoPokemonType">${syncPair.pokemonType}</p>
 					<p data-order="${typesOrder[syncPair.pokemonWeak.toLowerCase()]}" class="infoPokemonWeak">${syncPair.pokemonWeak}</p>
 					<p data-order="${rolesOrder[syncPair.syncPairRole.toLowerCase()]}" class="infoSyncPairRole">${syncPair.syncPairRole}</p>
@@ -154,8 +154,8 @@ function generatePairsHTML(pairs) {
 					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
 					<p data-order="${acquisitionOrder[syncPair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${syncPair.syncPairAcquisition}</p>
 					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
-					<p class="infoSyncPairThemes">${tags(syncPair.themes)}</p>
-					<p class="infoSyncPairTags">${tags(syncPair.tags)+","+roleCombi}</p>
+					<p class="infoSyncPairThemes">${tags(syncPair.themes, "theme_")}</p>
+					<p class="infoSyncPairTags">${tags(syncPair.tags, "")+","+roleCombi}</p>
 				</div>
 			</div>`;
 	}
@@ -188,7 +188,7 @@ function generatePairsHTML(pairs) {
 		return im;
 	}
 
-	function tags(tags) { return tags.join(", "); }
+	function tags(tags, tag_type) { return tags.map((t) => tag_type + t).join(", "); }
 
 	document.getElementById('syncPairs').innerHTML = result;
 }
