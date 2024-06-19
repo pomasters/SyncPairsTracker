@@ -276,11 +276,7 @@ function swapImages(imgsContainer, step) {
 	var imagesContainer = imgsContainer;
 
 	if(imagesContainer.classList.contains("syncRoles")) {
-		if(imagesContainer.parentElement.querySelector(".syncImages").innerHTML.indexOf(`EX.png" class="currentImage">`) == -1) {
-			return;
-		} else {
-			imagesContainer = imagesContainer.querySelector(".syncRoleEX");
-		}
+		imagesContainer = imagesContainer.querySelector(".syncRoleEX");
 	}
 	var imagesContainerParent = imagesContainer.parentElement;
 
