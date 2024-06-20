@@ -5693,7 +5693,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Villain Arc",
 			"Unique Costume",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"Wish Zone"
 		]
 	},
 	{
@@ -12855,7 +12856,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"Wish Zone"
 		]
 	},
 	{
