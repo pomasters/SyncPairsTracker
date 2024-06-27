@@ -1462,7 +1462,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-07-31",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -1627,7 +1627,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -2175,7 +2176,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia.png",
-			"Sync Pairs/5Star/0D_SINNOH_0B-02_Gardenia_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0B-02_Gardenia_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-02_Gardenia_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -2187,7 +2189,45 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "031",
+		"trainerName": "Gardenia",
+		"trainerAlt": "Summer 2024",
+		"pokemonNumber": "0781",
+		"pokemonName": "Dhelmise",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Gardenia_0781.png",
+			"Sync Pairs/0Y_SEASONALS/Gardenia_0781_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Sinnoh",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Nature Lover"
+		],
+		"tags": [
+			"Summer",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -2890,7 +2930,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -4144,6 +4185,43 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "063",
+		"trainerName": "Acerola",
+		"trainerAlt": "Summer 2024",
+		"pokemonNumber": "0593",
+		"pokemonName": "Jellicent",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-30",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Acerola_0593.png",
+			"Sync Pairs/0Y_SEASONALS/Acerola_0593_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Alola",
+			"Trial Giver",
+			"Seasonal Outfit",
+			"Free Spirit"
+		],
+		"tags": [
+			"Summer",
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff"
+		]
+	},
+	{
 		"dexNumber": "064",
 		"trainerName": "Cheren",
 		"trainerAlt": "",
@@ -4600,7 +4678,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-06-01",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -7522,6 +7600,39 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "092",
+		"trainerName": "Wally",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0334",
+		"pokemonName": "Altaria",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Damage Challenge",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Wally_0334.png",
+			"Sync Pairs/0C_HOENN/Wally_0334_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Hoenn",
+			"Rival",
+			"Battle Facility Foe",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "093",
 		"trainerName": "Jasmine",
 		"trainerAlt": "",
@@ -7553,7 +7664,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -8389,7 +8502,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dark",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-02-10",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -8412,7 +8525,9 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Mythical",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"Grid5",
+			"GridExpansion"
 		]
 	},
 	{
@@ -8595,6 +8710,39 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Unique Costume",
 			"Master Passive Spirit"
+		]
+	},
+	{
+		"dexNumber": "102",
+		"trainerName": "Gladion",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0461",
+		"pokemonName": "Weavile",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Damage Challenge",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Gladion_0461.png",
+			"Sync Pairs/0G_ALOLA/Gladion_0461_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Alola",
+			"Rival",
+			"Villain.",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Wish Zone",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -8973,7 +9121,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -10470,6 +10619,39 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Neo Champion",
 			"Master Passive Spirit"
+		]
+	},
+	{
+		"dexNumber": "119",
+		"trainerName": "Marnie",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0560",
+		"pokemonName": "Scrafty",
+		"pokemonGender": "♀️",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Damage Challenge",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Marnie_0560.png",
+			"Sync Pairs/0H_GALAR/Marnie_0560_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Galar",
+			"Rival",
+			"Pigtails",
+			"Fancy Lady"
+		],
+		"tags": [
+			"Wish Zone",
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -12686,7 +12868,41 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "159",
+		"trainerName": "Hugh",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0521",
+		"pokemonName": "Unfezant",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Damage Challenge",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/Hugh_0521.png",
+			"Sync Pairs/0E_UNOVA/Hugh_0521_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Rival",
+			"Unova Adventurer",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -13365,7 +13581,42 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "173",
+		"trainerName": "Nemona",
+		"trainerAlt": "Event",
+		"pokemonNumber": "0745",
+		"pokemonName": "Lycanroc",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Other Form"],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-06-28",
+		"syncPairAcquisition": "Damage Challenge",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Nemona_0745.png",
+			"Sync Pairs/0J_PALDEA/Nemona_0745_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Paldea",
+			"Rival",
+			"Champion",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman"
 		]
 	},
 	{
@@ -14597,6 +14848,153 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Rebuff",
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "206",
+		"trainerName": "Kabu",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0324",
+		"pokemonName": "Torkoal",
+		"pokemonGender": "♂️",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-07-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Kabu_0324.png",
+			"Sync Pairs/5Star/Kabu_0324_5Star.png",
+			"Sync Pairs/0H_GALAR/Kabu_0324_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Galar",
+			"Gym Leader",
+			"Passionate Spirit",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "207",
+		"trainerName": "Klara",
+		"trainerAlt": "",
+		"pokemonNumber": "0080",
+		"pokemonName": "Slowbro",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Regional Form", "Dynamax"],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-07-12",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Klara_0080.png",
+			"Sync Pairs/0H_GALAR/Klara_0080_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Galar",
+			"Gym Leader",
+			"Grown Woman",
+			"Artistic"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isWoman",
+			"Song Key",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "208",
+		"trainerName": "Avery",
+		"trainerAlt": "",
+		"pokemonNumber": "0199",
+		"pokemonName": "Slowking",
+		"pokemonGender": "♂️",
+		"pokemonForm": ["Regional Form", "Dynamax"],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-07-14",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Avery_0199.png",
+			"Sync Pairs/0H_GALAR/Avery_0199_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Galar",
+			"Gym Leader",
+			"Glasses",
+			"Supernatural"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Terrain",
+			"Region Circle",
+			"isMan",
+			"Song Key",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "209",
+		"trainerName": "Greta",
+		"trainerAlt": "",
+		"pokemonNumber": "0286",
+		"pokemonName": "Breloom",
+		"pokemonGender": "♀️",
+		"pokemonForm": ["Dynamax"],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-07-16",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Greta_0286.png",
+			"Sync Pairs/0C_HOENN/Greta_0286_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Hoenn",
+			"Battle Facility Foe",
+			"Body Builder",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"isWoman",
 			"First Unit"
 		]
 	}
@@ -14665,4 +15063,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.45.0";
+export const VERSION = "v2.46.0";
