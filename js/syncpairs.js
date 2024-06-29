@@ -7613,7 +7613,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2024-06-28",
-		"syncPairAcquisition": "Damage Challenge",
+		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/Wally_0334.png",
@@ -8726,7 +8726,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2024-06-28",
-		"syncPairAcquisition": "Damage Challenge",
+		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/0G_ALOLA/Gladion_0461.png",
@@ -10635,7 +10635,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2024-06-28",
-		"syncPairAcquisition": "Damage Challenge",
+		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/Marnie_0560.png",
@@ -12886,7 +12886,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2024-06-28",
-		"syncPairAcquisition": "Damage Challenge",
+		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/0E_UNOVA/Hugh_0521.png",
@@ -13599,7 +13599,7 @@ export const SYNCPAIRS = [
 		"syncPairRoleEX": "",
 		"syncPairRarity": "5",
 		"releaseDate": "2024-06-28",
-		"syncPairAcquisition": "Damage Challenge",
+		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/0J_PALDEA/Nemona_0745.png",
@@ -15015,7 +15015,7 @@ const P = {
 	"syncPairRoleEX": "Strike (Special) / Strike (Physical) / Tech / Support / Sprint / Field",
 	"syncPairRarity": "5",
 	"releaseDate": "2023-00-00",
-	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward",
+	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward / Training Ticket Exchange",
 	"syncPairRegion": "Pasio / Kanto / Johto / Hoenn / Sinnoh / Unova / Kalos / Alola / Galar / Paldea",
 	"images": [
 		"images/empty.png"
