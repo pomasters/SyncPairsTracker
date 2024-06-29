@@ -1611,6 +1611,40 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0112",
+		"pokemonName": "Rhydon",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Rhyhorn"
+		],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-07-26",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_03a.png"
+		],
+		"themes": [
+			"Ground",
+			"Main Character"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0113",
 		"pokemonName": "Chansey",
 		"pokemonGender": "",
