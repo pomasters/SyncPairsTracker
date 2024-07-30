@@ -3013,7 +3013,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-18",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -4594,6 +4594,39 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "065",
+		"trainerName": "Blue",
+		"trainerAlt": "Training Ticket",
+		"pokemonNumber": "0065",
+		"pokemonName": "Alakazam",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-08-01",
+		"syncPairAcquisition": "Training Ticket Exchange",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Blue_Alakazam.png",
+			"Sync Pairs/0A_KANTO/Blue_Alakazam_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Kanto",
+			"Champion",
+			"Rival",
+			"Pallet Town"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "066",
 		"trainerName": "Lyra",
 		"trainerAlt": "",
@@ -5696,7 +5729,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -6623,7 +6657,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak.png",
 			"Sync Pairs/4Star/0A_KANTO_0E-01_ProfOak_4Star.png",
-			"Sync Pairs/5Star/0A_KANTO_0E-01_ProfOak_5Star.png"
+			"Sync Pairs/5Star/0A_KANTO_0E-01_ProfOak_5Star.png",
+			"Sync Pairs/0A_KANTO/0A_KANTO_0E-01_ProfOak_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -6635,7 +6670,40 @@ export const SYNCPAIRS = [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
 			"isMan",
 			"Mythical",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "082",
+		"trainerName": "Professor Oak",
+		"trainerAlt": "",
+		"pokemonNumber": "0033",
+		"pokemonName": "Nidorino",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-08-18",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/0A_KANTO/Oak_Nidorino.png",
+			"Sync Pairs/0A_KANTO/Oak_Nidorino_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Kanto",
+			"Researcher",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -6943,7 +7011,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -7288,7 +7357,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"Grid3",
+			"GridExpansion"
 		]
 	},
 	{
@@ -7602,7 +7673,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "092",
 		"trainerName": "Wally",
-		"trainerAlt": "Event",
+		"trainerAlt": "Training Ticket",
 		"pokemonNumber": "0334",
 		"pokemonName": "Altaria",
 		"pokemonGender": "♂️",
@@ -8715,7 +8786,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "102",
 		"trainerName": "Gladion",
-		"trainerAlt": "Event",
+		"trainerAlt": "Training Ticket",
 		"pokemonNumber": "0461",
 		"pokemonName": "Weavile",
 		"pokemonGender": "♂️",
@@ -10593,7 +10664,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dark",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-02-28",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -10624,7 +10695,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "119",
 		"trainerName": "Marnie",
-		"trainerAlt": "Event",
+		"trainerAlt": "Training Ticket",
 		"pokemonNumber": "0560",
 		"pokemonName": "Scrafty",
 		"pokemonGender": "♀️",
@@ -10744,7 +10815,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Rock",
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-01-12",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -10889,6 +10960,45 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "121",
+		"trainerName": "Selene",
+		"trainerAlt": "Alt.",
+		"pokemonNumber": "0793",
+		"pokemonName": "Nihilego",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-08-02",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Selene_Nihilego.png",
+			"Sync Pairs/0G_ALOLA/Selene_Nihilego_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Alola",
+			"Main Character",
+			"Pigtails",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Ultra Beast",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"ZMove"
+		]
+	},
+	{
 		"dexNumber": "122",
 		"trainerName": "Elio",
 		"trainerAlt": "",
@@ -10957,6 +11067,47 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Limited",
 			"Terrain",
+			"Multiple Units",
+			"isMan",
+			"ZMove"
+		]
+	},
+	{
+		"dexNumber": "122",
+		"trainerName": "Elio",
+		"trainerAlt": "Alt.",
+		"pokemonNumber": "0805",
+		"pokemonName": "Stakataka",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-07-31",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Elio_Stakataka.png",
+			"Sync Pairs/0G_ALOLA/Elio_Stakataka_EX.png"
+
+		],
+		"themes": [
+			"Rock",
+			"Alola",
+			"Main Character",
+			"Passionate Spirit",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Ultra Beast",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
 			"Multiple Units",
 			"isMan",
 			"ZMove"
@@ -11991,7 +12142,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-02",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -12207,7 +12358,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-01-13",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12423,7 +12574,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-03-04",
 		"syncPairAcquisition": "Master Fair Scout",
@@ -12875,7 +13026,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "159",
 		"trainerName": "Hugh",
-		"trainerAlt": "Event",
+		"trainerAlt": "Training Ticket",
 		"pokemonNumber": "0521",
 		"pokemonName": "Unfezant",
 		"pokemonGender": "♂️",
@@ -13588,7 +13739,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "173",
 		"trainerName": "Nemona",
-		"trainerAlt": "Event",
+		"trainerAlt": "Training Ticket",
 		"pokemonNumber": "0745",
 		"pokemonName": "Lycanroc",
 		"pokemonGender": "♀️",
@@ -13617,6 +13768,46 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "173",
+		"trainerName": "Nemona",
+		"trainerAlt": "",
+		"pokemonNumber": "0985",
+		"pokemonName": "Scream Tail",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-08-18",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Nemona_Screamtail.png",
+			"Sync Pairs/0J_PALDEA/Nemona_Screamtail_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Paldea",
+			"Rival",
+			"Sygna Suit",
+			"Champion"
+		],
+		"tags": [
+			"Paradox",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Song Key",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -14241,7 +14432,42 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "191",
+		"trainerName": "Iono",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0940",
+		"pokemonName": "Wattrel",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-08-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Iono_Wattrel.png",
+			"Sync Pairs/5Star/Iono_Wattrel_5Star.png",
+			"Sync Pairs/0J_PALDEA/Iono_Wattrel_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Paldea",
+			"Gym Leader",
+			"Artistic",
+			"Free Spirit"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -14997,6 +15223,42 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "210",
+		"trainerName": "Arven",
+		"trainerAlt": "",
+		"pokemonNumber": "0943",
+		"pokemonName": "Mabosstiff",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-08-10",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Arven_Mabosstiff.png",
+			"Sync Pairs/0J_PALDEA/Arven_Mabosstiff_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Paldea",
+			"Rival",
+			"Cook",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isMan",
+			"Song Key",
+			"First Unit"
+		]
 	}
 ]
 
@@ -15063,4 +15325,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.46.0";
+export const VERSION = "v2.47.0";
