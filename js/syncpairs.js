@@ -6668,6 +6668,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Log-in from February 14 to March 16, 2020 and from August 28, 2020 indefinitely",
+			"Main Story: PML Arc",
 			"isMan",
 			"Mythical",
 			"First Unit",
@@ -6701,6 +6702,7 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
+			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan"
