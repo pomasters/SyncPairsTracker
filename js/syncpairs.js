@@ -13789,8 +13789,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/0J_PALDEA/Nemona_Screamtail.png",
-			"Sync Pairs/0J_PALDEA/Nemona_Screamtail_EX.png"
+			"Sync Pairs/0J_PALDEA/Nemona_0985.png",
+			"Sync Pairs/0J_PALDEA/Nemona_0985_EX.png"
 		],
 		"themes": [
 			"Fairy",
