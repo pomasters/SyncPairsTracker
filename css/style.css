@@ -702,6 +702,12 @@ input:focus { outline: 0; }
 	padding: 0 10px;
 }
 
+#sorting .btn {
+	width: auto;
+	max-width: 46%;
+	min-width: 30%;
+}
+
 #filters .btn img {
 	height: 16px;
 	margin-bottom: -3px;
@@ -1254,7 +1260,8 @@ input:focus { outline: 0; }
 .infoSyncPairRarity,
 .infoSyncPairRegion,
 .infoSyncPairThemes,
-.infoSyncPairTags {
+.infoSyncPairTags,
+.infoSyncPairRoleCombi {
 	display: none;
 }
 
@@ -1325,7 +1332,7 @@ input:focus { outline: 0; }
 }
 
 .separator img {
-	height: 22px;
+	height: 20px;
 	display: inline;
 	margin: 2px;
 }

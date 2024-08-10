@@ -13,8 +13,8 @@ const rolesOrder = {"":"10","strike (physical)":"01","strike (special)":"01","te
 const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12", "training ticket exchange":"13"}
 const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "strike<>tech<>support": ["images/role_egg.png"]}
-const sortIdToSyncpairInfo = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid"}
-const roleCombis = {"strike":"1","strike,strike":"11","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","tech":"2","tech,tech":"22","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","support":"3","support,support":"33","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","sprint":"4","sprint,sprint":"44","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","field":"5","field,field":"55","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554"}
+const sortIdToSyncpairInfo = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid", "sortByEXRoleUnlock": ".syncRoleEX", "sortByRoleCombi": ".infoSyncPairRoleCombi"}
+const roleCombis = {"strike,":"N/A","strike,strike":"1111","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","tech,":"N/A","tech,tech":"2222","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","support,":"N/A","support,support":"3333","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","sprint,":"N/A","sprint,sprint":"4444","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","field,":"N/A","field,field":"5555","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554"}
 
 
 /*-----------------------------------------------------------------------------
@@ -150,12 +150,13 @@ function generatePairsHTML(pairs) {
 					<p data-order="${typesOrder[syncPair.pokemonWeak.toLowerCase()]}" class="infoPokemonWeak">${syncPair.pokemonWeak}</p>
 					<p data-order="${rolesOrder[syncPair.syncPairRole.toLowerCase()]}" class="infoSyncPairRole">${syncPair.syncPairRole}</p>
 					<p data-order="${rolesOrder[syncPair.syncPairRoleEX.toLowerCase()]}" class="infoSyncPairRoleEX">${syncPair.syncPairRoleEX}</p>
+					<p data-order="${roleCombi}" class="infoSyncPairRoleCombi">${roleCombi}</p>
 					<p class="infoSyncPairRarity">${syncPair.syncPairRarity}</p>
 					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
 					<p data-order="${acquisitionOrder[syncPair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${syncPair.syncPairAcquisition}</p>
 					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
 					<p class="infoSyncPairThemes">${tags(syncPair.themes, "theme_")}</p>
-					<p class="infoSyncPairTags">${tags(syncPair.tags, "")+","+roleCombi}</p>
+					<p class="infoSyncPairTags">${tags(syncPair.tags, "")}</p>
 				</div>
 			</div>`;
 	}
@@ -1278,9 +1279,46 @@ function showSeparator(dataToSeparate) {
 				}
 				break;
 
+			case ".infoPokemonType":
+				var t = curr_pair.querySelector(dataToSeparate).textContent;
+				inner = `<img src="images/type_${t.toLowerCase()}.png">&nbsp;${t}`;
+
+				t = prev_pair.querySelector(dataToSeparate).textContent;
+				inner2 = `<img src="images/type_${t.toLowerCase()}.png">&nbsp;${t}`
+				break;
+
+			case ".infoSyncPairRole":
+				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
+				inner = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`;
+				
+				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
+				inner2 = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`
+				break;
+
+			case ".infoSyncPairRoleEX":
+				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
+				inner = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
+				
+				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
+				inner2 = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
+
+				if(inner.indexOf("role_ex_.png") > -1) { inner = ""; }
+				if(inner2.indexOf("role_ex_.png") > -1) { inner2 = ""; }
+				break;
+
+			case ".infoSyncPairRoleCombi":
+				inner = document.getElementById(curr_pair.querySelector(dataToSeparate).textContent).innerHTML.replace('png">/','png">&nbsp;/');
+				inner2 = document.getElementById(prev_pair.querySelector(dataToSeparate).textContent).innerHTML.replace('png">/','png">&nbsp;/');
+				break;
+
 			case ".syncGrid":
 				inner = `<img src="${syncGridImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
 				inner2 = `<img src="${syncGridImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				break;
+
+			case ".syncRoleEX":
+				inner = curr_pair.querySelector(dataToSeparate).dataset.currentimage.replace("1",`<img src="images/icon_role_ex.png">`).replace("0",`<img src="images/icon_role_ex_2.png">`);
+				inner2 = prev_pair.querySelector(dataToSeparate).dataset.currentimage.replace("1",`<img src="images/icon_role_ex.png">`).replace("0",`<img src="images/icon_role_ex_2.png">`);
 				break;
 
 			default:
@@ -1682,7 +1720,8 @@ var sortTypes = [
 	["sortByRole","infoSyncPairRole"],
 	["sortByRoleEX","infoSyncPairRoleEX"],
 	["sortByRegion","infoSyncPairRegion"],
-	["sortByAcquisition","infoSyncPairAcquisition"]
+	["sortByAcquisition","infoSyncPairAcquisition"],
+	["sortByRoleCombi","infoSyncPairRoleCombi"]
 ]
 
 /* for each sort button, add an eventlistener that call a function that
@@ -1785,6 +1824,23 @@ document.getElementById("sortByGrid").addEventListener("click", function() {
 	this.dataset.asc = !(this.dataset.asc === "true");
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".syncGrid"); }
+})
+
+document.getElementById("sortByEXRoleUnlock").addEventListener("click", function() {
+	tinysort('.syncPair',{sortFunction:funByExRoleUnlocked});
+
+	function funByExRoleUnlocked(a,b){
+		var lenA = parseInt(a.elm.querySelector(".syncRoleEX").dataset.currentimage);
+		var lenB = parseInt(b.elm.querySelector(".syncRoleEX").dataset.currentimage);
+		if(document.getElementById("sortByEXRoleUnlock").dataset.asc === "true") {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA<lenB?1:-1);
+		}
+	}
+	this.dataset.asc = !(this.dataset.asc === "true");
+
+	if(document.getElementById("showSeparator").checked) { showSeparator(".syncRoleEX"); }
 })
 
 document.getElementById("showSeparator").addEventListener("click", function() {

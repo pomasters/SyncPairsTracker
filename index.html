@@ -121,6 +121,8 @@
 						<button type="button" class="btn" data-asc="true" id="sortByAcquisition">Acquisition</button>
 						<button type="button" class="btn" data-asc="true" id="sortByRoleEX">EX Role</button>
 						<button type="button" class="btn" data-asc="true" id="sortByGrid">Energy Cap</button>
+						<button type="button" class="btn" data-asc="false" id="sortByEXRoleUnlock">EX Role Unlock</button>
+						<button type="button" class="btn" data-asc="true" id="sortByRoleCombi">Role Combination</button>
 						<div id="separatorsOptions">
 							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
 							<div class="checkboxOption hide" id="hideEmptySeparatorsParentDiv"><input type="checkbox"id="hideEmptySeparators"><label for="hideEmptySeparators">Hide when empty</label></div>
@@ -270,16 +272,27 @@
 
 					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Role Combination<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn filterRole" value='roleCombi1221'><img src="images/role_strike.png"><img src="images/role_ex_tech.png">/&nbsp;<img src="images/role_tech.png"><img src="images/role_ex_strike.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi1331'><img src="images/role_strike.png"><img src="images/role_ex_support.png">/&nbsp;<img src="images/role_support.png"><img src="images/role_ex_strike.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi1441'><img src="images/role_strike.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_strike.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi1551'><img src="images/role_strike.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_strike.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi2332'><img src="images/role_tech.png"><img src="images/role_ex_support.png">/&nbsp;<img src="images/role_support.png"><img src="images/role_ex_tech.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi2442'><img src="images/role_tech.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_tech.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi2552'><img src="images/role_tech.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_tech.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi3443'><img src="images/role_support.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_support.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi3553'><img src="images/role_support.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_support.png"></button>
-						<button type="button" class="btn filterRole" value='roleCombi4554'><img src="images/role_sprint.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_sprint.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi1221" value='roleCombi1221'>
+							<img src="images/role_strike.png"><img src="images/role_ex_tech.png">/&nbsp;<img src="images/role_tech.png"><img src="images/role_ex_strike.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi1331" value='roleCombi1331'>
+							<img src="images/role_strike.png"><img src="images/role_ex_support.png">/&nbsp;<img src="images/role_support.png"><img src="images/role_ex_strike.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi1441" value='roleCombi1441'>
+							<img src="images/role_strike.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_strike.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi1551" value='roleCombi1551'>
+							<img src="images/role_strike.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_strike.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi2332" value='roleCombi2332'>
+							<img src="images/role_tech.png"><img src="images/role_ex_support.png">/&nbsp;<img src="images/role_support.png"><img src="images/role_ex_tech.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi2442" value='roleCombi2442'>
+							<img src="images/role_tech.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_tech.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi2552" value='roleCombi2552'>
+							<img src="images/role_tech.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_tech.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi3443" value='roleCombi3443'>
+							<img src="images/role_support.png"><img src="images/role_ex_sprint.png">/&nbsp;<img src="images/role_sprint.png"><img src="images/role_ex_support.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi3553" value='roleCombi3553'>
+							<img src="images/role_support.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_support.png"></button>
+						<button type="button" class="btn filterRole" id="roleCombi4554" value='roleCombi4554'>
+							<img src="images/role_sprint.png"><img src="images/role_ex_field.png">/&nbsp;<img src="images/role_field.png"><img src="images/role_ex_sprint.png"></button>
+						<button type="button" class="hide" id="roleCombiN/A" value='roleCombiN/A'></button>
 					</div>
 
 					<div class="buttonGroup">
@@ -309,6 +322,7 @@
 						<button type="button" class="btn" value='Starter'>Starter</button>
 						<button type="button" class="btn" value='Eeveelution'>Eeveelution</button>
 						<button type="button" class="btn" value='Neo Champion'>Neo Champion</button>
+						<button type="button" class="btn" value='Paradox'>Paradox</button>
 					</div>
 
 					<div class="buttonGroup groupClose">
