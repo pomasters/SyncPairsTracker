@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2024-08-26",
+		"info" : "Add v2.48.0"
+	},
+	{
 		"date": "2024-07-29",
 		"info" : "Add v2.47.0"
 	},
