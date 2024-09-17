@@ -25,7 +25,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Electric",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Multiple Units",
@@ -59,7 +60,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Multiple Units",
@@ -90,7 +92,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Steel",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Legendary Adventures",
@@ -124,7 +127,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Multiple Units",
@@ -154,7 +158,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Multiple Units",
@@ -184,7 +189,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Psychic",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Multiple Units",
@@ -214,7 +220,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Steel",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Legendary",
@@ -248,7 +255,8 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Fairy",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Limited",
@@ -271,7 +279,7 @@ export const SYNCPAIRS = [
 		"syncPairRarity": "5",
 		"releaseDate": "2024-08-28",
 		"syncPairAcquisition": "Battle Points Exchange",
-		"syncPairRegion": "Main Character",
+		"syncPairRegion": "Pasio",
 		"images": [
 			"Sync Pairs/00_PASIO/Trainer1_0243.png",
 			"Sync Pairs/00_PASIO/Trainer2_0243.png",
@@ -2991,6 +2999,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Multiple Pokemon",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
@@ -12294,7 +12303,8 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Psychic",
 			"Rival",
-			"Sunglasses"
+			"Sunglasses",
+			"Pasio"
 		],
 		"tags": [
 			"Limited",
@@ -12329,10 +12339,10 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Steel",
-			"Pasio",
 			"Rival",
 			"Sygna Suit",
-			"Sunglasses"
+			"Sunglasses",
+			"Pasio"
 		],
 		"tags": [
 			"Buddy Move",
@@ -12369,7 +12379,8 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dark",
 			"Sunglasses",
-			"Free Spirit"
+			"Free Spirit",
+			"Pasio"
 		],
 		"tags": [
 			"Limited",
@@ -12402,9 +12413,9 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Ghost",
-			"Pasio",
 			"Sunglasses",
-			"Free Spirit"
+			"Free Spirit",
+			"Pasio"
 		],
 		"tags": [
 			"Limited",
@@ -12437,7 +12448,8 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dark",
 			"Sunglasses",
-			"Body Builder"
+			"Body Builder",
+			"Pasio"
 		],
 		"tags": [
 			"Limited PML Arc Conclusion Special Missions",
@@ -12468,9 +12480,9 @@ export const SYNCPAIRS = [
 		],
 		"themes": [
 			"Ghost",
-			"Pasio",
 			"Sunglasses",
-			"Body Builder"
+			"Body Builder",
+			"Pasio"
 		],
 		"tags": [
 			"Limited",
@@ -14425,7 +14437,8 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Rock",
 			"Rival",
-			"Knowledgeable"
+			"Knowledgeable",
+			"Pasio"
 		],
 		"tags": [
 			"Grid5",
@@ -14463,7 +14476,8 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Fire",
 			"Free Spirit",
-			"Passionate Spirit"
+			"Passionate Spirit",
+			"Pasio"
 		],
 		"tags": [
 			"Eeveelution",
