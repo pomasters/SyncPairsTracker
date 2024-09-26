@@ -1672,14 +1672,25 @@ document.getElementById("separateByMonth").addEventListener("click", function() 
 document.getElementById("separateByDay").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
 
 
+
+document.getElementById("sortingOrder").addEventListener("click", function() {
+
+	if(this.dataset.asc == "true") {
+		this.dataset.asc = false; this.innerHTML = "⬆";
+	} else {
+		this.dataset.asc = true; this.innerHTML = "⬇";
+	}
+
+	document.querySelector("#sorting .btnBlue").click();
+})
+
+
 document.getElementById("sortByDexNumber").addEventListener("click", function() {
 	var ord;
-	if(this.dataset.asc === "true") { ord = "asc"; }
+	if(document.getElementById("sortingOrder").dataset.asc === "true") { ord = "asc"; }
 	else { ord = "desc"; }
 
 	tinysort('.syncPair',{attr:'data-id',order:ord});
-
-	this.dataset.asc = !(this.dataset.asc === "true");
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".infoDexNum"); }
 })
@@ -1694,21 +1705,19 @@ var sortBtns = [
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortBtns.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
+	tinysort('.syncPair',{sortFunction:function(a,b){
+		var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
+		var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
 
-	if(this.dataset.asc === "true") {
-		tinysort('.syncPair',{sortFunction:function(a,b){
-			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
-			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
+		if(document.getElementById("sortingOrder").dataset.asc === "true") {
+			if(btn[0] == "sortByDate") { return lenA===lenB?0:(lenA<lenB?1:-1); }
 			return lenA===lenB?0:(lenA>lenB?1:-1);
-		}});
-	} else {
-		tinysort('.syncPair',{sortFunction:function(a,b){
-			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
-			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).innerHTML;
+		} else {
+			if(btn[0] == "sortByDate") { return lenA===lenB?0:(lenA>lenB?1:-1); }
 			return lenA===lenB?0:(lenA<lenB?1:-1);
-		}});
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
+		}
+
+	}});
 
 	if(document.getElementById("showSeparator").checked) { showSeparator("."+btn[1]); }
 }))
@@ -1727,121 +1736,85 @@ var sortTypes = [
 /* for each sort button, add an eventlistener that call a function that
 sort the related class with asc/desc order stored in data attribute */
 sortTypes.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
+	tinysort('.syncPair',{sortFunction:function(a,b){
+		var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
+		var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
 
-	if(this.dataset.asc === "true") {
-		tinysort('.syncPair',{sortFunction:function(a,b){
-			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
-			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
+		if(document.getElementById("sortingOrder").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA>lenB?1:-1);
-		}});
-	} else {
-		tinysort('.syncPair',{sortFunction:function(a,b){
-			var lenA = a.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
-			var lenB = b.elm.querySelector(".syncInfos ." + btn[1]).dataset.order;
+		} else {
 			return lenA===lenB?0:(lenA<lenB?1:-1);
-		}});
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
+		}
+	}});
 
 	if(document.getElementById("showSeparator").checked) { showSeparator("."+btn[1]); }
 }))
 
 document.getElementById("sortByStar").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:funByCurrentStar});
-
-	function funByCurrentStar(a,b){
+	tinysort('.syncPair',{sortFunction:function(a,b){
 		var lenA = parseInt(a.elm.querySelector(".syncStar").dataset.currentstar);
 		var lenB = parseInt(b.elm.querySelector(".syncStar").dataset.currentstar);
-		if(document.getElementById("sortByStar").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
-		} else {
+
+		if(document.getElementById("sortingOrder").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA<lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
 		}
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
+	}});
+
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".syncStar"); }
 })
 
-document.getElementById("sortBySyncLevel").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:funBySyncLevel});
 
-	function funBySyncLevel(a,b){
-		var lenA = parseInt(a.elm.querySelector(".syncLevel").dataset.currentimage);
-		var lenB = parseInt(b.elm.querySelector(".syncLevel").dataset.currentimage);
-		if(document.getElementById("sortBySyncLevel").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
-		} else {
+var sortTypes2 = [
+	["sortBySyncLevel","syncLevel"],
+	["sortByGrid","syncGrid"],
+	["sortByEXRoleUnlock","syncRoleEX"]
+]
+
+sortTypes2.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
+	tinysort('.syncPair',{sortFunction:function(a,b){
+		var lenA = parseInt(a.elm.querySelector("." + btn[1]).dataset.currentimage);
+		var lenB = parseInt(b.elm.querySelector("." + btn[1]).dataset.currentimage);
+
+		if(document.getElementById("sortingOrder").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA<lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
 		}
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
+	}});
 
-	if(document.getElementById("showSeparator").checked) { showSeparator(".syncLevel"); }
-})
+	if(document.getElementById("showSeparator").checked) { showSeparator("."+btn[1]); }
+}))
+
 
 document.getElementById("sortByFavorite").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:funByFavorite});
-
-	function funByFavorite(a,b){
+	tinysort('.syncPair',{sortFunction:function(a,b){
 		var lenA = parseInt(a.elm.querySelector(".syncFav").dataset.currentvalues);
 		var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentvalues);
-		if(document.getElementById("sortByFavorite").dataset.asc === "true") {
+
+		if(document.getElementById("sortingOrder").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA>lenB?1:-1);
 		} else {
 			return lenA===lenB?0:(lenA<lenB?1:-1);
 		}
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
+	}});
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".syncFav"); }
 })
 
 document.getElementById("sortBySelected").addEventListener("click", function() {
 	
-	if(this.dataset.asc === "true") {
-		tinysort('.syncPair',{attr:'class',order:'asc'});
-	} else {
+	if(document.getElementById("sortingOrder").dataset.asc === "true") {
 		tinysort('.syncPair',{attr:'class',order:'desc'});
+	} else {
+		tinysort('.syncPair',{attr:'class',order:'asc'});
 	}
-	this.dataset.asc = !(this.dataset.asc === "true");
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".selected"); }
 })
 
-document.getElementById("sortByGrid").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:funBySyncGrid});
-
-	function funBySyncGrid(a,b){
-		var lenA = parseInt(a.elm.querySelector(".syncGrid").dataset.currentimage);
-		var lenB = parseInt(b.elm.querySelector(".syncGrid").dataset.currentimage);
-		if(document.getElementById("sortByGrid").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
-		} else {
-			return lenA===lenB?0:(lenA<lenB?1:-1);
-		}
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
-
-	if(document.getElementById("showSeparator").checked) { showSeparator(".syncGrid"); }
-})
-
-document.getElementById("sortByEXRoleUnlock").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:funByExRoleUnlocked});
-
-	function funByExRoleUnlocked(a,b){
-		var lenA = parseInt(a.elm.querySelector(".syncRoleEX").dataset.currentimage);
-		var lenB = parseInt(b.elm.querySelector(".syncRoleEX").dataset.currentimage);
-		if(document.getElementById("sortByEXRoleUnlock").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
-		} else {
-			return lenA===lenB?0:(lenA<lenB?1:-1);
-		}
-	}
-	this.dataset.asc = !(this.dataset.asc === "true");
-
-	if(document.getElementById("showSeparator").checked) { showSeparator(".syncRoleEX"); }
-})
 
 document.getElementById("showSeparator").addEventListener("click", function() {
 

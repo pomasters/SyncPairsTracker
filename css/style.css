@@ -235,8 +235,9 @@ input:focus { outline: 0; }
 }
 
 #date1, #date2 {
-	width: 36%;
+	width: 35.5%;
 	padding: 0px 8px;
+	margin: 2px;
 	border: none;
 	border-radius: 5px;
 	background-color: var(--blue3);
@@ -246,7 +247,7 @@ input:focus { outline: 0; }
 }
 
 #btnDate {
-	width: 16% !important;
+	min-width: 20% !important;
 	padding: 0 !important;
 	text-align: center !important;
 }
@@ -264,16 +265,18 @@ input:focus { outline: 0; }
 	background-color: rgb(72 137 154 / 30%);
 	border-radius: 5px;
 	padding: 10px 5px;
-	margin: 12px 4.4%;
+	margin: 12px auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 95%;
 }
 
 #exportImportOptions {
 	display: flex;
 	justify-content: space-between;
-	padding: 1% 2.5%;
+	margin: auto;
+	width: 98%;
 }
 
 #exportImportOptions .btn {
@@ -281,7 +284,7 @@ input:focus { outline: 0; }
 }
 
 #exportImportZone {
-	width: 95%;
+	width: 96%;
 	resize: vertical;
 	margin: auto;
 	border-radius: 2px;
@@ -291,21 +294,22 @@ input:focus { outline: 0; }
 	outline: none;
 	margin: 2%;
 }
+ 
 
-#takeScreenshot {
-	width: 23.75% !important;
+#showSorting, #takeScreenshot {
+	width: calc(calc(100% / 3)* 0.75 - 6px) !important;
 	border-bottom-right-radius: 0 !important;
 	border-right: 0 !important;
-	margin-right: -2.75px !important;
+	margin-right: 0 !important;
 }
 
-#takeScreenshot2 {
-	width: 6.25% !important;
+#sortingOrder, #takeScreenshot2 {
+	width: calc(calc(100% / 3)* 0.25 - 6px) !important;
 	border-top-left-radius: 0 !important;
 	border-left: 0 !important;
-	margin-left: -2.75px !important;
+	margin-left: 0 !important;
 	text-align: center !important;
-	padding: 0 !important;
+	padding: 0;
 }
 
 #takeScreenshot img {
@@ -325,6 +329,18 @@ input:focus { outline: 0; }
 #image_rotate { animation: rotateAnim 1500ms linear infinite !important; }
 
 
+.buttonGroup {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.buttonGroup2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
 .buttonGroup .extendedIcon, .buttonGroup2 .extendedIcon,
 .groupClose *:not(.buttonGroupTitle):not(.buttonGroupTitle2) {
 	display: none;
@@ -337,37 +353,26 @@ input:focus { outline: 0; }
 	width: 7px !important;
 }
 
-.group6inLine,
-.group8inLine {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.group6inLine .btn,
-.group8inLine .btn {
-	margin: 3px 2px;
-	text-align: center !important;
-}
-.group6inLine .btn { width: 14.6% !important; }
-.group8inLine .btn { width: 12.4% !important; }
+.group6inLine .btn { min-width: calc(calc(100% / 6) - 9px) !important; }
+.group8inLine .btn { min-width: calc(calc(100% / 7) - 9px) !important }
 
 .buttonGroupTitle, .buttonGroupTitle2 {
 	background-color: var(--blue2);
 	color: white;
-	margin: 8px auto;
-	margin-top: 24px;
+	margin: 8px 28px;
+	margin-top: 20px;
 	padding: 0;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 24px;
-	width: calc(92% - 32px);
+	width: 100%;
 	position: relative;
 }
 .buttonGroupTitle2 {
 	background-color: var(--blue3);
-	margin-top: 12px;
+	margin: 8px 40px;
 	font-size: 12px;
 	line-height: 20px;
-	width: calc(87% - 32px);
+	width: 100%;
 }
 
 .buttonGroupTitle:hover, .buttonGroupTitle2:hover {
@@ -409,6 +414,9 @@ input:focus { outline: 0; }
 	background-attachment: fixed;
 	padding: 20px 0;
 	margin-top: -1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .optionsSticky {
@@ -446,39 +454,50 @@ input:focus { outline: 0; }
 	height: 13px;
 	position: relative;
 }
-#increaseOptions {
-	padding: 13px 10px !important;
-}
+
 .increaseOptions2, .increaseOptions3 {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
+	margin: auto;
 }
-.increaseOptions2 .btn, .increaseOptions3 .btn {
+.increaseOptions2 .btn,
+.increaseOptions3 .btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 4px 3px;
 	font-size: 11px !important;
 }
 .increaseOptions2 .btn {
 	width: auto !important;
+	min-width: calc(calc(100% / 8) - 6px) !important;
+}
+.increaseOptions3 .btn {
+	width: auto !important;
+	min-width: calc(calc(100% / 4) - 6px) !important;
 }
 
 #increaseBtns img { margin: auto 2px; filter: saturate(0.2); top: 2px; }
 #increaseBtns:hover img,
 #increaseBtns[class="btn btnBlue"] img { filter: saturate(1); }
 
+#selectionOptions {
+	display: flex;
+	justify-content: center;
+}
+
 #selectionOptions,
 #increaseOptions,
-#visibilityOptions {
+#visibilityOptions,
+#sorting {
 	background-color: rgb(72 137 154 / 30%);
 	border-radius: 5px;
-	padding: 10px 0;
+	padding: 10px;
 	padding-bottom: 15px;
-	margin: auto 4.4%;
+	margin: auto;
 	margin-top: 12px;
 	margin-bottom: 10px;
+	width: 95%;
 }
 
 #selectionBtns[class="btn btnBlue"] ~ #increaseBtns[class="btn btnBlue"] ~ #selectionOptions,
@@ -514,29 +533,14 @@ input:focus { outline: 0; }
 	border-top-right-radius: 0px;
 }
 
-#allVisible,
-#selectedVisible {
-	width: 14.25% !important;
-}
-#notSelectedVisible,
-#datamineVisible {
-	width: 30% !important;
-}
-
 #sorting {
 	display: none;
-	z-index: 2;
-	background-attachment: fixed;
-	margin-top: 40px;
-	background-color: rgb(72 137 154 / 30%);
-	border-radius: 5px;
-	padding: 10px 0;
-	padding-bottom: 15px;
-	margin: 12px 4.4%;
+	flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sortingVisible {
-	display: block !important;
+	display: flex !important;
 }
 
 
@@ -575,7 +579,7 @@ input:focus { outline: 0; }
 #options .btn,
 #userBtns .btn,
 #sorting .btn {
-	width: 30%;
+	width: calc(calc(100% / 3) - 12px);
 	outline: none;
 	border: 2px solid #538291;
 	background: linear-gradient(#ffffff, #cccccc);
@@ -593,20 +597,42 @@ input:focus { outline: 0; }
 	position: relative;
 	white-space: nowrap;
 	overflow: hidden;
+	margin: 3px 3px;
 }
-.width45 { width: 45.5%; }
 
-#visibilityOptions .btn { width: auto; }
-#visibilityOptions > div {
+#filters .btn {
+	width: auto;
+	min-width: calc(calc(100% / 3) - 12px);
+}
+
+#visibilityMode {
+	display: flex;
+	margin: auto;
+}
+#visibilityMode .btn {
+	width: auto;
+	min-width: calc(calc(100% / 4) - 6px);
+}
+
+#allVisible,
+#selectedVisible {
+	min-width: calc(calc(100% / 6) - 6px) !important;
+}
+#notSelectedVisible,
+#datamineVisible {
+	min-width: calc(calc(100% / 3) - 6px) !important;
+}
+
+#visibilityCheck {
 	margin-top: 10px;
+	margin-left: 4px;
 }
 .checkboxOption {
 	display: flex;
-	margin-left: 4.4%;
 	color: var(--blue1);
 	font-size: 12.5px;
 }
-.checkboxOption label { margin-left: 5px; }
+.checkboxOption label { margin: 0 5px; }
 
 #separateByDateOptions {
 	color: var(--blue1);
@@ -617,6 +643,8 @@ input:focus { outline: 0; }
 	justify-content: normal;
 	flex-wrap: wrap;
 	text-align: left;
+	width: 94%;
+	margin-left: 4.4%;
 }
 #separateByDateOptions > p {
 	margin: 0;
@@ -645,7 +673,7 @@ input:focus { outline: 0; }
 
 #lockMode,
 #viewMode {
-	width: calc(14.5% - 1px) !important;
+	width: calc(calc(100% / 3) * 0.5 - 8px) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
@@ -691,21 +719,20 @@ input:focus { outline: 0; }
 
 #removeFilters2 { display: none; }
 
-#showSorting:hover + #sorting,
-#sorting:hover {
+#showSorting:hover + #sorting {
 	display: block !important;
 }
 
-
-#options .btn,
-#sorting .btn {
-	padding: 0 10px;
+.btnBlue + #sortingOrder {
+	background: linear-gradient(#9ed2ff, #819cff) !important;
+	border: 2px solid #4677d1 !important;
+	color: #325fb3 !important;
 }
 
-#sorting .btn {
+#selectionOptions .btn, #sorting .btn {
 	width: auto;
 	max-width: 46%;
-	min-width: 30%;
+	min-width: calc(calc(100% / 3) - 6px);
 }
 
 #filters .btn img {
@@ -740,7 +767,8 @@ input:focus { outline: 0; }
 .syncUserBtnFav img,
 .syncUserBtnSyncLevel img,
 .syncUserBtnStar img,
-.syncUserBtnSyncGrid img {
+.syncUserBtnSyncGrid img,
+.filterStar img {
 	position: absolute;
 	left: 0px !important;
 	right: 0px !important;
@@ -831,6 +859,7 @@ input:focus { outline: 0; }
 
 #pairsCounterFound { margin-right: auto; }
 #pairsCounterFoundTotal { margin-left: auto; }
+#pairsCounterSelected { margin-left: auto; }
 #pairsCounterSelected:empty,
 #pairsCounterTotal { display: none; }
 
@@ -1272,9 +1301,11 @@ input:focus { outline: 0; }
 	font-family: monospace;
 	font-size: 12px;
 	display: flex;
-	justify-content: space-between;
 	width: 100%;
 }
+
+#linkToolVer { margin-right: auto; }
+#linkToolUrl { margin-left: auto; }
 
 #linkTool span:first-child {
 	position: relative;
@@ -1318,6 +1349,7 @@ input:focus { outline: 0; }
 #separatorsOptions {
 	display: flex;
 	margin-top: 15px;
+	width: 98%;
 }
 
 .separator {

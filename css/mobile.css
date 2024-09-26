@@ -243,6 +243,10 @@
 		box-shadow: 0px 0px 2px var(--blue1);
 	}
 
+	#filters .btn {
+		max-width: calc(calc(100% / 3) - 12px);
+	}
+
 	#filters .btn img {
 		height: 14px;
 		top: 3px;
@@ -252,12 +256,6 @@
 	.btnRed,
 	.btnYellow {
 		border-width: 1.2px !important;
-	}
-
-	#userBtns,
-	#dateBtns {
-		margin: 24px 0;
-		margin-top: 0;
 	}
 
 	#syncPairs {
@@ -362,7 +360,7 @@
 	}
 
 	#pairsCounterFound { text-align: left; }
-	#pairsCounterFoundTotal { text-align: center; }
+	#pairsCounterFoundTotal { text-align: right; }
 	#pairsCounterSelected { text-align: right; }
 
 	#filtersUsed span img {
