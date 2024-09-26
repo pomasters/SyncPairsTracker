@@ -2199,6 +2199,39 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "029",
+		"trainerName": "Barry",
+		"trainerAlt": "Training Ticket",
+		"pokemonNumber": "0419",
+		"pokemonName": "Floatzel",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-10-01",
+		"syncPairAcquisition": "Training Ticket Exchange",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/0D_SINNOH/Barry_0419.png",
+			"Sync Pairs/0D_SINNOH/Barry_0419_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Sinnoh",
+			"Rival",
+			"Scarf",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "030",
 		"trainerName": "Roark",
 		"trainerAlt": "",
@@ -2370,7 +2403,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -2440,7 +2474,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Weather"
+			"Weather",
+			"Multiple Pokemon"
 		]
 	},
 	{
@@ -2499,7 +2534,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint.png",
-			"Sync Pairs/5Star/0D_SINNOH_0C-03_Flint_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0C-03_Flint_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0C-03_Flint_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -3327,7 +3363,46 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"Multiple Units"
+		]
+	},
+	{
+		"dexNumber": "046",
+		"trainerName": "Shauntal",
+		"trainerAlt": "Fall 2024",
+		"pokemonNumber": "0478",
+		"pokemonName": "Froslass",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Sprint",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-10-17",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Shauntal_0478.png",
+			"Sync Pairs/0Y_SEASONALS/Shauntal_0478_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Unova",
+			"Elite Four",
+			"Seasonal Outfit",
+			"Glasses"
+		],
+		"tags": [
+			"Fall",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman"
 		]
 	},
 	{
@@ -3836,7 +3911,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-04-30",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -4264,7 +4339,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-05-12",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -9222,6 +9297,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Grid3",
+			"GridExpansion",
 			"isWoman",
 			"Song Key",
 			"First Unit"
@@ -10003,7 +10080,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2023-08-02",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -10187,7 +10264,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairRarity": "5",
 		"releaseDate": "2022-11-14",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -10819,7 +10896,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-08-12",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -11156,7 +11233,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-03-31",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -11542,7 +11619,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairRarity": "5",
 		"releaseDate": "2021-04-28",
 		"syncPairAcquisition": "Poké Fair Scout",
@@ -12353,6 +12430,39 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Master Passive Flag Bearer"
+		]
+	},
+	{
+		"dexNumber": "136",
+		"trainerName": "Lear",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0553",
+		"pokemonName": "Krookodile",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "4",
+		"releaseDate": "2024-10-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/00_PASIO/Lear_0553.png",
+			"Sync Pairs/5Star/Lear_0553_5Star.png",
+			"Sync Pairs/00_PASIO/Lear_0553_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Pasio",
+			"Rival",
+			"Sunglasses"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isMan"
 		]
 	},
 	{
@@ -15041,6 +15151,44 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "191",
+		"trainerName": "Iono",
+		"trainerAlt": "Fall 2024",
+		"pokemonNumber": "0987",
+		"pokemonName": "Flutter Mane",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Support",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-10-15",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0Y_SEASONALS/Iono_0987.png",
+			"Sync Pairs/0Y_SEASONALS/Iono_0987_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Paldea",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Artistic"
+		],
+		"tags": [
+			"Paradox",
+			"Fall",
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff"
+		]
+	},
+	{
 		"dexNumber": "192",
 		"trainerName": "Grusha",
 		"trainerAlt": "",
@@ -15960,6 +16108,79 @@ export const SYNCPAIRS = [
 			"isMan",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "215",
+		"trainerName": "Giacomo",
+		"trainerAlt": "",
+		"pokemonNumber": "0983",
+		"pokemonName": "Kingambit",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Tech",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-09-30",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Giacomo_0983.png",
+			"Sync Pairs/0J_PALDEA/Giacomo_0983_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Paldea",
+			"Artistic",
+			"Free Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"isMan",
+			"Song Key",
+			"First Unit"
+		]
+	},
+	{
+		"dexNumber": "216",
+		"trainerName": "Clavell",
+		"trainerAlt": "",
+		"pokemonNumber": "0914",
+		"pokemonName": "Quaquaval",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Field",
+		"syncPairRarity": "5",
+		"releaseDate": "2024-10-02",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Clavell_0914.png",
+			"Sync Pairs/0J_PALDEA/Clavell_0914_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Paldea",
+			"Glasses",
+			"Knowledgeable",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"isMan",
+			"Song Key",
+			"First Unit"
+		]
 	}
 ]
 
@@ -16027,4 +16248,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.48.0";
+export const VERSION = "v2.49.0";
