@@ -274,6 +274,8 @@ function addSyncPairsEvents() {
 /* takes a <div> containing <img> elements and move the "currentImage" class through the images */
 function swapImages(imgsContainer, step) {
 
+	if(imgsContainer.children.length == 0) { return; }
+
 	var imagesContainer = imgsContainer;
 
 	if(imagesContainer.classList.contains("syncRoles")) {
@@ -796,7 +798,7 @@ function swapElem(element, message1, message2, step) {
 	});
 }
 
-function chooseElem(element, message1, message2, step) {
+function chooseElem(element, message1, message2, step, indexToChange) {
 
 	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
 
@@ -814,6 +816,11 @@ function chooseElem(element, message1, message2, step) {
 		var currVals = convertFav(s.querySelector(element).dataset.currentvalues);
 
 		nextVals = currVals.slice(step) + currVals.slice(0,step);
+
+		if(indexToChange != "none") {
+			var newValue = (currVals[indexToChange] == "0") ? "1" : "0";
+			nextVals = currVals.substring(0, indexToChange) + newValue + currVals.substring(indexToChange + 1);
+		}
 
 		chooseImages(s.querySelector(element), nextVals);
 		select(s);
@@ -835,6 +842,8 @@ function resetDefault(element, message1, message2) {
 	}
 	pairs.forEach(function(s) {
 		var imgs = Array.from(s.querySelector(element).children);
+		if(imgs.length == 0) { return; }
+
 		imgs.forEach(f => f.removeAttribute("class"));
 		if(element != ".syncFav") {
 			imgs[0].classList.add("currentImage");
@@ -851,19 +860,28 @@ function increaseFavorite() {
 	var message1 = "Shift the heart color of all filtered sync pairs to the next color ?";
 	var message2 = "Shift the heart color of all sync pairs to the next color ?";
 
-	chooseElem(".syncFav", message1, message2, 1);
+	chooseElem(".syncFav", message1, message2, 1, "none");
 }
 function decreaseFavorite() {
 	var message1 = "Shift the heart color of all filtered sync pairs to the previous color ?";
 	var message2 = "Shift the heart color of all sync pairs to the previous color ?";
 
-	chooseElem(".syncFav", message1, message2, -1);
+	chooseElem(".syncFav", message1, message2, -1, "none");
 }
 function resetFavorite() {
 	var message1 = "Reset the heart color of all filtered sync pairs ?";
 	var message2 = "Reset the heart color of all sync pairs ?";
 
 	resetDefault(".syncFav", message1, message2);
+}
+
+function selectHeart(heart) {
+	var message1 = "Apply the selected heart color to all filtered sync pairs ?";
+	var message2 = "Apply the selected heart color to all sync pairs ?";
+
+	var hearts = {"favoriteG": 0,"favoriteL": 1,"favoriteY": 2,"favoriteO": 3,"favoriteM": 4,"favoriteR": 5,"favoriteP": 6,"favoriteW": 7,"favoriteV": 8,"favoriteD": 9,"favoriteB": 10,"favoriteC": 11}
+
+	chooseElem(".syncFav", message1, message2, 0, hearts[heart]);
 }
 
 
@@ -935,6 +953,20 @@ function resetSyncGrid() {
 	var message2 = "Reset the sync grid energy cap of all sync pairs ?";
 
 	resetDefault(".syncGrid", message1, message2);
+}
+
+function unlockEXRole() {
+	var message1 = "Switch the EX Role state of all filtered sync pairs ?";
+	var message2 = "Switch the EX Role state of all sync pairs ?";
+
+	swapElem(".syncRoleEX", message1, message2, 1);
+}
+
+function resetEXRole() {
+	var message1 = "Reset the EX Role state of all filtered sync pairs ?";
+	var message2 = "Reset the EX Role state of all sync pairs ?";
+
+	resetDefault(".syncRoleEX", message1, message2);
 }
 
 
@@ -1610,6 +1642,13 @@ document.getElementById("resetSyncStar").addEventListener("click", resetSyncStar
 document.getElementById("resetSyncLevel").addEventListener("click", resetSyncLevel);
 document.getElementById("resetFavorite").addEventListener("click", resetFavorite);
 document.getElementById("resetSyncGrid").addEventListener("click", resetSyncGrid);
+
+document.getElementById("unlockEXRole").addEventListener("click", unlockEXRole);
+document.getElementById("resetEXRole").addEventListener("click", resetEXRole);
+
+
+Array.from(document.getElementById("selectionHearts2").getElementsByClassName("btn")).forEach(b => 
+	b.addEventListener("click", function() { selectHeart(this.value); }))
 
 document.getElementById("visibilityBtns").addEventListener("click", visibilityOptions);
 

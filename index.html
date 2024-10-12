@@ -44,31 +44,53 @@
 
 				<div id="options">
 					<button type="button" class="btn" id="selectionBtns">Selection<img class="extendedIcon" src="images/bottomArrow.png"></button>
-					<button type="button" class="btn" id="increaseBtns"><img src="images/star.png"><img src="images/0.png"><img src="images/favoriteG.png"><img src="images/icon_grid.png"><img class="extendedIcon" src="images/bottomArrow.png"></button>
+					<button type="button" class="btn" id="increaseBtns"><img src="images/star.png"><img src="images/0.png"><img src="images/favoriteG.png"><img src="images/icon_grid.png"><img src="images/icon_role_ex.png"><img class="extendedIcon" src="images/bottomArrow.png"></button>
 					<button type="button" class="btn" id="visibilityBtns">Visibility<img class="extendedIcon" src="images/bottomArrow.png"></button>
 
 					<div class="hide" id="selectionOptions">
-						<button type="button" class="btn" id="fullSelection">Select</button>
-						<button type="button" class="btn" id="resetSelection">Unselect</button>
-						<button type="button" class="btn" id="invertSelection">Invert</button>
+						<div id="selectionPairs">
+							<button type="button" class="btn" id="fullSelection">Select</button>
+							<button type="button" class="btn" id="resetSelection">Unselect</button>
+							<button type="button" class="btn" id="invertSelection">Invert</button>
+						</div>
 					</div>
 
 					<div class="hide" id="increaseOptions">
+						<div id="selectionHearts">
+							<div id="selectionHearts2">
+								<button type="button" class="btn" value='favoriteG'>&nbsp;<img src="images/favoriteG.png"></button>
+								<button type="button" class="btn" value='favoriteL'>&nbsp;<img src="images/favoriteL.png"></button>
+								<button type="button" class="btn" value='favoriteY'>&nbsp;<img src="images/favoriteY.png"></button>
+								<button type="button" class="btn" value='favoriteO'>&nbsp;<img src="images/favoriteO.png"></button>
+								<button type="button" class="btn" value='favoriteM'>&nbsp;<img src="images/favoriteM.png"></button>
+								<button type="button" class="btn" value='favoriteR'>&nbsp;<img src="images/favoriteR.png"></button>
+								<button type="button" class="btn" value='favoriteP'>&nbsp;<img src="images/favoriteP.png"></button>
+								<button type="button" class="btn" value='favoriteW'>&nbsp;<img src="images/favoriteW.png"></button>
+								<button type="button" class="btn" value='favoriteV'>&nbsp;<img src="images/favoriteV.png"></button>
+								<button type="button" class="btn" value='favoriteD'>&nbsp;<img src="images/favoriteD.png"></button>
+								<button type="button" class="btn" value='favoriteB'>&nbsp;<img src="images/favoriteB.png"></button>
+								<button type="button" class="btn" value='favoriteC'>&nbsp;<img src="images/favoriteC.png"></button>
+							</div>
+							<div id="selectionHearts3">
+								<div><button type="button" class="btn" id="increaseFavorite">↑<img src="images/favoriteG.png"></button>
+									<button type="button" class="btn" id="decreaseFavorite">↓<img src="images/favoriteG.png"></button></div>
+								<button type="button" class="btn smallerText" id="resetFavorite">Default&nbsp;<img src="images/favorite1.png"></button>
+							</div>
+						</div>
 						<div class="increaseOptions2">
 							<button type="button" class="btn" id="increaseSyncStar">↑ <img src="images/star.png"></button>
 							<button type="button" class="btn" id="decreaseSyncStar">↓ <img src="images/star.png"></button>
 							<button type="button" class="btn" id="increaseSyncLevel">↑ <img src="images/0.png"></button>
 							<button type="button" class="btn" id="decreaseSyncLevel">↓ <img src="images/0.png"></button>
-							<button type="button" class="btn" id="increaseFavorite">↑ <img src="images/favoriteG.png"></button>
-							<button type="button" class="btn" id="decreaseFavorite">↓ <img src="images/favoriteG.png"></button>
 							<button type="button" class="btn" id="increaseSyncGrid">↑ <img src="images/icon_grid.png"></button>
 							<button type="button" class="btn" id="decreaseSyncGrid">↓ <img src="images/icon_grid.png"></button>
+							<button type="button" class="btn" id="unlockEXRole"><img src="images/icon_role_ex.png">&nbsp;↔&nbsp;<img src="images/icon_role_ex_2.png"></button>
 						</div>
 						<div class="increaseOptions3">
 							<button type="button" class="btn smallerText" id="resetSyncStar">Default&nbsp;<img src="images/star0.png"></button>
 							<button type="button" class="btn smallerText" id="resetSyncLevel">Default&nbsp;<img src="images/1.png"></button>
-							<button type="button" class="btn smallerText" id="resetFavorite">Default&nbsp;<img src="images/favorite1.png"></button>
 							<button type="button" class="btn smallerText" id="resetSyncGrid">Default&nbsp;<img src="images/icon_grid.png"></button>
+							<button type="button" class="btn smallerText" id="resetEXRole">Default&nbsp;<img src="images/icon_role_ex_2.png"></button>
 						</div>
 					</div>
 

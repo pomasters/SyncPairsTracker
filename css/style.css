@@ -216,7 +216,7 @@ input:focus { outline: 0; }
 
 #search {
 	font-family: "kenya-NewRodinProN-B", "Tahoma";
-	width: 91%;
+	width: calc(calc(100% / 1) - 24px);
 	padding: 3px 9px;
 	color: white;
 	background-color: var(--blue3);
@@ -450,7 +450,8 @@ input:focus { outline: 0; }
 }
 
 #increaseBtns img,
-#increaseOptions .btn img {
+#increaseOptions .btn img,
+#selectionHearts .btn img {
 	height: 13px;
 	position: relative;
 }
@@ -472,7 +473,7 @@ input:focus { outline: 0; }
 	width: auto !important;
 	min-width: calc(calc(100% / 8) - 6px) !important;
 }
-.increaseOptions3 .btn {
+.increaseOptions3 .btn, #unlockEXRole {
 	width: auto !important;
 	min-width: calc(calc(100% / 4) - 6px) !important;
 }
@@ -484,7 +485,51 @@ input:focus { outline: 0; }
 #selectionOptions {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
+
+#selectionPairs {
+	display: flex;
+	justify-content: center;
+}
+
+#selectionHearts { margin-bottom: 12px; }
+#selectionHearts, #selectionHearts > div {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+    justify-content: center;
+}
+
+#selectionHearts2 .btn, 
+#selectionHearts3 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px !important;
+}
+
+#selectionHearts2 { width: 75%; }
+#selectionHearts2 .btn {
+	width: auto !important;
+    min-width: calc(calc(100% / 6) - 6px) !important;
+}
+
+#selectionHearts3 { width: 25%; }
+#selectionHearts3 > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+#selectionHearts3 .btn {
+	width: auto !important;
+	min-width: calc(calc(100% / 2) - 6px) !important;
+}
+#selectionHearts3 > .btn:last-child {
+	min-width: calc(calc(100% / 1) - 6px) !important;
+}
+
 
 #selectionOptions,
 #increaseOptions,
@@ -729,7 +774,7 @@ input:focus { outline: 0; }
 	color: #325fb3 !important;
 }
 
-#selectionOptions .btn, #sorting .btn {
+#selectionPairs .btn, #sorting .btn {
 	width: auto;
 	max-width: 46%;
 	min-width: calc(calc(100% / 3) - 6px);
