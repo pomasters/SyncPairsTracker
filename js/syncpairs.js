@@ -604,6 +604,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"Unique Costume"
 		]
@@ -9440,6 +9441,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman"
 		]
 	},
