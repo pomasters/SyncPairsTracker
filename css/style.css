@@ -280,7 +280,7 @@ input:focus { outline: 0; }
 }
 
 #exportImportOptions .btn {
- 	width: 49% !important;
+	width: 49% !important;
 }
 
 #exportImportZone {
@@ -354,7 +354,7 @@ input:focus { outline: 0; }
 }
 
 .group6inLine .btn { min-width: calc(calc(100% / 6) - 9px) !important; }
-.group8inLine .btn { min-width: calc(calc(100% / 7) - 9px) !important }
+.group8inLine .btn { min-width: calc(calc(100% / 7) - 8.4px) !important }
 
 .buttonGroupTitle, .buttonGroupTitle2 {
 	background-color: var(--blue2);
@@ -414,9 +414,9 @@ input:focus { outline: 0; }
 	background-attachment: fixed;
 	padding: 20px 0;
 	margin-top: -1px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .optionsSticky {
@@ -498,21 +498,21 @@ input:focus { outline: 0; }
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-    justify-content: center;
+	justify-content: center;
 }
 
 #selectionHearts2 .btn, 
 #selectionHearts3 .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px !important;
 }
 
 #selectionHearts2 { width: 75%; }
 #selectionHearts2 .btn {
 	width: auto !important;
-    min-width: calc(calc(100% / 6) - 6px) !important;
+	min-width: calc(calc(100% / 6) - 6px) !important;
 }
 
 #selectionHearts3 { width: 25%; }
@@ -581,7 +581,7 @@ input:focus { outline: 0; }
 #sorting {
 	display: none;
 	flex-wrap: wrap;
-    justify-content: center;
+	justify-content: center;
 }
 
 .sortingVisible {
@@ -619,6 +619,7 @@ input:focus { outline: 0; }
 }
 .btn:has(.tooltiptext) { overflow:visible !important; }
 .btn:hover .tooltiptext { visibility: visible; }
+
 
 #filters .btn,
 #options .btn,
@@ -714,6 +715,7 @@ input:focus { outline: 0; }
 	transform: scale(0.95);
 	transition-duration: 50ms;
 	background: linear-gradient(#D1EC96, #B8F33B);
+	z-index: 3;
 }
 
 #lockMode,
@@ -956,6 +958,13 @@ input:focus { outline: 0; }
 	padding-right: 6px;
 }
 
+.modeEgg .syncPair .syncStar {
+	display: block;
+}
+.modeEgg .syncPair .syncGrid {
+	display: none;
+}
+
 #syncPairs {
 	display: flex;
 	flex-wrap: wrap;
@@ -1000,10 +1009,6 @@ input:focus { outline: 0; }
 	-moz-user-select: none !important;
 	-o-user-select: none !important;
 	user-select: none !important;
-}
-
-.selected .syncStar {
-	display: block;
 }
 
 .syncFav {

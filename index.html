@@ -9,8 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Sync Pairs Tracker for Pokémon Masters EX">
 	<link rel="icon" type="image/png" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css?v=20240314">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css?v=20240314">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="lockModeCss" href="css/lockmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="viewModeCss" href="css/viewmode.css" disabled>
@@ -147,8 +147,8 @@
 						<button type="button" class="btn" data-asc="true" id="sortByAcquisition">Acquisition</button>
 						<button type="button" class="btn" data-asc="true" id="sortByRoleEX">EX Role</button>
 						<button type="button" class="btn" data-asc="true" id="sortByGrid">Energy Cap</button>
-						<button type="button" class="btn" data-asc="false" id="sortByEXRoleUnlock">EX Role Unlock</button>
-						<button type="button" class="btn" data-asc="true" id="sortByRoleCombi">Role Combination</button>
+						<button type="button" class="btn smallerText" data-asc="false" id="sortByEXRoleUnlock">EX Role Unlock</button>
+						<button type="button" class="btn smallerText" data-asc="true" id="sortByRoleCombi">Role Combination</button>
 						<div id="separatorsOptions">
 							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
 							<div class="checkboxOption hide" id="hideEmptySeparatorsParentDiv"><input type="checkbox"id="hideEmptySeparators"><label for="hideEmptySeparators">Hide when empty</label></div>
@@ -318,7 +318,7 @@
 						<button type="button" class="btn filterRole" id="roleCombi6336" value='roleCombi6336'><img src="images/role_multi.png"><img src="images/role_ex_support.png"></button>
 						<button type="button" class="btn filterRole" id="roleCombi6446" value='roleCombi6446'><img src="images/role_multi.png"><img src="images/role_ex_sprint.png"></button>
 						<button type="button" class="btn filterRole" id="roleCombi6556" value='roleCombi6556'><img src="images/role_multi.png"><img src="images/role_ex_field.png"></button>
-						<button type="button" class="hide" id="roleCombiN/A" value='roleCombiN/A'></button>
+						<button type="button" class="hide" id="roleCombiN/A" value='roleCombiN/A'><img src="images/role_strike.png">/&nbsp;<img src="images/role_tech.png">/&nbsp;<img src="images/role_support.png">/&nbsp;<img src="images/role_sprint.png">/&nbsp;<img src="images/role_field.png"></button>
 					</div>
 
 					<div class="buttonGroup">
@@ -393,6 +393,7 @@
 						<button type="button" class="btn" value='Mix Scout'>Mix</button>
 						<button type="button" class="btn smallerText" value='Training Ticket Exchange'><img src="images/icon_trainingticket.png">Training Ticket</button>
 						<button type="button" class="btn smallerText" value='Arc Suit Fair Scout'><img src="images/icon_arcsuit.png">Arc Suit Fair</button>
+						<button type="button" class="btn" value='Limited'><img src="images/icon_gem.png">Limited</button>
 					</div>
 
 					<div class="buttonGroup">
@@ -400,16 +401,15 @@
 						<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 						<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
 						<button type="button" class="btn" value='Buddy Move'><img src="images/icon_bmove.png">B Move</button>
-						<button type="button" class="btn" value='Limited'><img src="images/icon_gem.png">Limited</button>
 						<button type="button" class="btn" value='Weather'><img src="images/icon_weather.png">Weather</button>
 						<button type="button" class="btn" value='Terrain'><img src="images/icon_terrain.png">Terrain</button>
 						<button type="button" class="btn" value='Wish Zone'><img src="images/icon_zone.png">Zone</button>
 						<button type="button" class="btn" value='Region Circle'><img src="images/icon_circle.png">Circle</button>
+						<button type="button" class="btn" value='First Unit'>First Unit</button>
 						<button type="button" class="btn" value='Unique Costume'>Unique Costume</button>
 						<button type="button" class="btn" value='Multiple Units'><img src="images/icon_alt.png">Alt (Trainer)</button>
 						<button type="button" class="btn" value='Multiple Pokemon'>Alt (Pokémon)</button>
 						<button type="button" class="btn" value='Multiple Pairs'>Alt (Pair)</button>
-						<button type="button" class="btn" value='First Unit'>First Unit</button>
 						<button type="button" class="btn filterGender" value='isMan'><img src="images/icon_male.png">Man</button>
 						<button type="button" class="btn filterGender" value='isWoman'><img src="images/icon_female.png">Woman</button>
 						<button type="button" class="btn" value='Anniversary'><img src="images/icon_anniv.png">Anniversary</button>
@@ -549,6 +549,6 @@
 <script type="text/javascript" src="js/lib/html2canvas.min.js"></script>
 <script type="text/javascript" src="js/lib/tinysort.min.js"></script>
 <script type="text/javascript" src="js/lib/long-press-event.min.js"></script>
-<script type="module" src="js/script.js?v=20240314"></script>
+<script type="module" src="js/script.js"></script>
 
 </html>

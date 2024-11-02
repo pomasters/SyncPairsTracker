@@ -3,23 +3,24 @@ import {EGGS} from './eggs.js';
 import {NEWS} from './news.js';
 import {ITEMS} from './items.js';
 
-const syncLevelImgs = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
-const syncStarImgs = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
-const syncStarImgs2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
+const SYNCLEVELIMGS = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
+const SYNCSTARIMGS = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
+const SYNCSTARIMGS2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
 const syncFavImgs = ["images/favoriteG.png","images/favoriteL.png","images/favoriteY.png","images/favoriteO.png","images/favoriteM.png","images/favoriteR.png","images/favoriteP.png","images/favoriteV.png","images/favoriteW.png","images/favoriteD.png","images/favoriteB.png","images/favoriteC.png"];
-const syncGridImgs = ["images/grid60.png","images/grid62.png","images/grid64.png","images/grid66.png","images/grid68.png","images/grid70_2.png"];
-const typesOrder = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
-const rolesOrder = {"":"10","strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05","multi":"06"};
-const regionsOrder = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
-const acquisitionOrder = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12", "training ticket exchange":"13", "arc suit fair scout":"14"}
-const syncRoleImgs = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "multi": ["images/role_multi.png"], "strike<>tech<>support": ["images/role_egg.png"]}
-const sortIdToSyncpairInfo = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid", "sortByEXRoleUnlock": ".syncRoleEX", "sortByRoleCombi": ".infoSyncPairRoleCombi"}
-const roleCombis = {"strike,":"N/A","strike,strike":"1111","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","strike,multi":"6116","tech,":"N/A","tech,tech":"2222","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","tech,multi":"6226","support,":"N/A","support,support":"3333","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","support,multi":"6336","sprint,":"N/A","sprint,sprint":"4444","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","sprint,multi":"6446","field,":"N/A","field,field":"5555","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554","field,multi":"6556","multi,":"N/A","multi,multi":"6666","multi,strike":"6116","multi,tech":"6226","multi,support":"6336","multi,sprint":"6446","multi,field":"6556"}
-
+const SYNCGRIDIMGS = ["images/grid60.png","images/grid62.png","images/grid64.png","images/grid66.png","images/grid68.png","images/grid70_2.png"];
+const TYPESORDER = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
+const ROLESORDER = {"":"10","strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05","multi":"06"};
+const REGIONSORDER = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
+const ACQUISITIONORDER = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12", "training ticket exchange":"13", "arc suit fair scout":"14"}
+const SYNCROLEIMGS = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "multi": ["images/role_multi.png"], "strike<>tech<>support": ["images/role_egg.png"]}
+const SORTIDTOSYNCPAIRINFO = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid", "sortByEXRoleUnlock": ".syncRoleEX", "sortByRoleCombi": ".infoSyncPairRoleCombi"}
+const ROLECOMBIS = {"strike,":"N/A","strike,strike":"1111","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","strike,multi":"6116","tech,":"N/A","tech,tech":"2222","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","tech,multi":"6226","support,":"N/A","support,support":"3333","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","support,multi":"6336","sprint,":"N/A","sprint,sprint":"4444","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","sprint,multi":"6446","field,":"N/A","field,field":"5555","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554","field,multi":"6556","multi,":"N/A","multi,multi":"6666","multi,strike":"6116","multi,tech":"6226","multi,support":"6336","multi,sprint":"6446","multi,field":"6556"}
 
 /*-----------------------------------------------------------------------------
 	GENERATE ALL HTML ELEMENTS ABOUT THE SYNCPAIRS
 -----------------------------------------------------------------------------*/
+
+var DATENOW = new Date();
 
 var EGGMONMODE = document.getElementById("btnEggs").classList.contains("btnEggsON");
 
@@ -32,134 +33,125 @@ var DEFAULT_FAVS_VALUES = Array(syncFavImgs.length).fill("0").join(""); // 00000
 
 /* parameter "pairs" is the array containing all {syncpair} -- see syncpairs.js/eggs.js */
 function generatePairsHTML(pairs) {
-
-	var dateNow = new Date();
 	var result = "";
-	var hideStar = "";
-	var hideGrid = " hide";
 
-	if(! EGGMONMODE) { hideStar = " hide"; hideGrid = ""; }
-
-	for(var i=0; i<pairs.length; i++) {
-		var syncPair = pairs[i];
-		var keySyncPairStorage = syncPair.trainerName + "|" + syncPair.pokemonNumber;
-
-		var selected = ""; //to enable the selected class or not
-
-		var datamine = "";
-		var dateRelease = new Date(syncPair.releaseDate + "T23:00:00-07:00"); //add 23:00:00 PDT
-		// -86400000 => the previous day
-		if(dateRelease.getTime()-86400000 > dateNow.getTime()) {
-			datamine = " datamine"
-		}
-
-		var innerHtmlImages;
-
-		var roleCombi = "roleCombi" + roleCombis[syncPair.syncPairRole.toLowerCase().replace(" (physical)","").replace(" (special)","")+","+syncPair.syncPairRoleEX.toLowerCase().replace(" (physical)","").replace(" (special)","")];
-
-		/* if the current syncpair is in localstorage,
-		generate the images with current selected image */
-		if(localStorage.getItem(keySyncPairStorage) !== null) {
-			// you get "X|Y|Z|W".split("|"), X index of sync level, Y index of syncpair image, Z sync star & W favorite
-			var currentData = localStorage.getItem(keySyncPairStorage).split("|");
-
-			var currentSyncLevel = parseInt(currentData[0]);
-			var currentSyncImage = parseInt(currentData[1]);
-			var currentSyncStar = parseInt(currentData[2]);
-			var currentSyncFav = convertFav(currentData[3]);
-			var currentSyncRoleEX = parseInt(currentData[4]);
-			var currentSyncGrid = parseInt(currentData[5]);
-
-			if(isNaN(currentSyncLevel)) { currentSyncLevel = "0" }
-			if(isNaN(currentSyncImage)) { currentSyncImage = "0" }
-			if(isNaN(currentSyncStar)) { currentSyncStar = "0" }
-			if("" == currentSyncFav) { currentSyncFav = DEFAULT_FAVS_VALUES }
-			if(isNaN(currentSyncRoleEX)) { currentSyncRoleEX = "0" }
-			if(isNaN(currentSyncGrid)) { currentSyncGrid = "0" }
-
-			var currentStar;
-			if(! EGGMONMODE) {
-				if(syncPair.trainerName == "Player") {
-					currentStar = Math.floor(currentSyncImage/2) + parseInt(syncPair.syncPairRarity);
-				} else {
-					currentStar = parseInt(syncPair.syncPairRarity) + parseInt(currentSyncImage);
-				}
-			} else { currentStar = parseInt(syncPair.syncPairRarity) + parseInt(currentSyncStar); }
-
-		
-			selected = " selected";
-			innerHtmlImages = 
-				`<div class="syncStar${hideStar}" data-currentImage="${currentSyncStar}" data-currentstar="${currentStar}">
-					${genImages(syncStarImgs, currentSyncStar)}
-				</div>
-				<div class="syncFav" data-currentValues="${currentSyncFav}" data-html2canvas-ignore="true">
-					${genImages2(syncFavImgs, currentSyncFav)}
-				</div>
-				<div class="syncLevel" data-currentImage="${currentSyncLevel}">
-					${genImages(syncLevelImgs, currentSyncLevel)}
-				</div>
-				<div class="syncRoles">
-					<div class="syncRole">${genImages([syncRoleImgs[syncPair.syncPairRole.toLowerCase()][0]], 0)}</div>
-					<div class="syncRoleEX" data-currentImage="${currentSyncRoleEX}">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], currentSyncRoleEX)}</div>
-				</div>
-				<div class="syncImages" data-currentImage="${currentSyncImage}">
-					${genImages(syncPair.images, currentSyncImage)}
-				</div>				
-				<div class="syncGrid${hideGrid}" data-currentImage="${currentSyncGrid}">
-					${genImages(syncGridImgs, currentSyncGrid)}
-				</div>`;
-
-		} else {
-			innerHtmlImages = 
-				`<div class="syncStar${hideStar}" data-currentImage="0" data-currentstar="${syncPair.syncPairRarity}">
-					${genImages(syncStarImgs, 0)}
-				</div>
-				<div class="syncFav" data-currentValues="${DEFAULT_FAVS_VALUES}" data-html2canvas-ignore="true">
-					${genImages2(syncFavImgs, DEFAULT_FAVS_VALUES)}
-				</div>
-				<div class="syncLevel" data-currentImage="0">
-					${genImages(syncLevelImgs, 0)}
-				</div>
-				<div class="syncRoles">
-					<div class="syncRole">${genImages([syncRoleImgs[syncPair.syncPairRole.toLowerCase()][0]], 0)}</div>
-					<div class="syncRoleEX" data-currentImage="0">${genImages(syncRoleImgs[syncPair.syncPairRoleEX.toLowerCase()], 0)}</div>
-				</div>
-				<div class="syncImages" data-currentImage="0">
-					${genImages(syncPair.images, 0)}
-				</div>
-				<div class="syncGrid${hideGrid}" data-currentImage="0">
-					${genImages(syncGridImgs, 0)}
-				</div>`;
-		}
-
-		result += `
-			<div class="syncPair${selected}${datamine}" data-id="${i}">
-
-				${innerHtmlImages}
-
-				<div class="syncInfos" data-html2canvas-ignore="true">
-					<p class="infoDexNum">${syncPair.dexNumber}</p>
-					<p class="infoTrainerName">${syncPair.trainerName}</p>
-					<p class="infoTrainerAltName">${syncPair.trainerAlt}</p>
-					<p class="infoPokemonNum">${syncPair.pokemonNumber}</p>
-					<p class="infoPokemonName">${syncPair.pokemonName}
-						<span class="infoPokemonGender">${syncPair.pokemonGender}</span>
-					</p>
-					<p class="infoPokemonForms">${tags(syncPair.pokemonForm, "")}</p>
-					<p data-order="${typesOrder[syncPair.pokemonType.toLowerCase()]}" class="infoPokemonType">${syncPair.pokemonType}</p>
-					<p data-order="${typesOrder[syncPair.pokemonWeak.toLowerCase()]}" class="infoPokemonWeak">${syncPair.pokemonWeak}</p>
-					<p data-order="${rolesOrder[syncPair.syncPairRole.toLowerCase()]}" class="infoSyncPairRole">${syncPair.syncPairRole}</p>
-					<p data-order="${rolesOrder[syncPair.syncPairRoleEX.toLowerCase()]}" class="infoSyncPairRoleEX">${syncPair.syncPairRoleEX}</p>
-					<p data-order="${roleCombi}" class="infoSyncPairRoleCombi">${roleCombi}</p>
-					<p class="infoSyncPairRarity">${syncPair.syncPairRarity}</p>
-					<p class="infoReleaseDate">${syncPair.releaseDate}</p>
-					<p data-order="${acquisitionOrder[syncPair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${syncPair.syncPairAcquisition}</p>
-					<p data-order="${regionsOrder[syncPair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${syncPair.syncPairRegion}</p>
-					<p class="infoSyncPairThemes">${tags(syncPair.themes, "theme_")}</p>
-					<p class="infoSyncPairTags">${tags(syncPair.tags, "")}</p>
-				</div>
-			</div>`;
+	if(EGGMONMODE) {
+		document.getElementById('syncPairs').classList.add("modeEgg");
+	} else {
+		document.getElementById('syncPairs').classList.remove("modeEgg");
 	}
+
+	pairs.forEach((pair, index) => { result += generatePairHTML(pair, index) });
+
+	document.getElementById('syncPairs').innerHTML = result;
+}
+
+
+function generatePairHTML(pair, i) {
+
+	var datamine = "";
+	var dateRelease = new Date(pair.releaseDate + "T23:00:00-07:00"); //add 23:00:00 PDT
+	if(dateRelease.getTime()-86400000 > DATENOW.getTime()) { datamine = " datamine"; } // -86400000 => the previous day
+
+	var roleCombi = "roleCombi" + ROLECOMBIS[pair.syncPairRole.toLowerCase().split(" ")[0]+","+pair.syncPairRoleEX.toLowerCase().split(" ")[0]];
+
+	var imagesData = getImagesDataFromLocalStorage(pair);
+	var innerHtmlImages = generateImagesPairHTML(pair, imagesData);
+
+	function tags(tags, tag_type) { return tags.map((t) => tag_type + t).join(", "); }
+
+	return `<div class="syncPair${imagesData["selectionValue"]}${datamine}" data-id="${i}">
+
+			${innerHtmlImages}
+
+			<div class="syncInfos" data-html2canvas-ignore="true">
+				<p class="infoDexNum">${pair.dexNumber}</p>
+				<p class="infoTrainerName">${pair.trainerName}</p>
+				<p class="infoTrainerAltName">${pair.trainerAlt}</p>
+				<p class="infoPokemonNum">${pair.pokemonNumber}</p>
+				<p class="infoPokemonName">${pair.pokemonName}
+					<span class="infoPokemonGender">${pair.pokemonGender}</span>
+				</p>
+				<p class="infoPokemonForms">${tags(pair.pokemonForm, "")}</p>
+				<p data-order="${TYPESORDER[pair.pokemonType.toLowerCase()]}" class="infoPokemonType">${pair.pokemonType}</p>
+				<p data-order="${TYPESORDER[pair.pokemonWeak.toLowerCase()]}" class="infoPokemonWeak">${pair.pokemonWeak}</p>
+				<p data-order="${ROLESORDER[pair.syncPairRole.toLowerCase()]}" class="infoSyncPairRole">${pair.syncPairRole}</p>
+				<p data-order="${ROLESORDER[pair.syncPairRoleEX.toLowerCase()]}" class="infoSyncPairRoleEX">${pair.syncPairRoleEX}</p>
+				<p data-order="${roleCombi}" class="infoSyncPairRoleCombi">${roleCombi}</p>
+				<p class="infoSyncPairRarity">${pair.syncPairRarity}</p>
+				<p class="infoReleaseDate">${pair.releaseDate}</p>
+				<p data-order="${ACQUISITIONORDER[pair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${pair.syncPairAcquisition}</p>
+				<p data-order="${REGIONSORDER[pair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${pair.syncPairRegion}</p>
+				<p class="infoSyncPairThemes">${tags(pair.themes, "theme_")}</p>
+				<p class="infoSyncPairTags">${tags(pair.tags, "")}</p>
+			</div>
+		</div>`;
+}
+
+
+function getImagesDataFromLocalStorage(pair) {
+
+	var keySyncPairStorage = pair.trainerName + "|" + pair.pokemonNumber;
+
+	/* if the current syncpair is in localstorage,
+	generate the images with current selected image */
+	if(localStorage.getItem(keySyncPairStorage) !== null) {
+		// you get "X|Y|Z|W".split("|"), X index of sync level, Y index of syncpair image, Z sync star & W favorite
+		var currentData = localStorage.getItem(keySyncPairStorage).split("|");
+
+		var currentSyncLevel = parseInt(currentData[0]);
+		var currentSyncImage = parseInt(currentData[1]);
+		var currentSyncStar = parseInt(currentData[2]);
+		var currentSyncFav = convertFav(currentData[3]);
+		var currentSyncRoleEX = parseInt(currentData[4]);
+		var currentSyncGrid = parseInt(currentData[5]);
+
+		if(isNaN(currentSyncLevel)) { currentSyncLevel = 0 }
+		if(isNaN(currentSyncImage)) { currentSyncImage = 0 }
+		if(isNaN(currentSyncStar)) { currentSyncStar = 0 }
+		if("" == currentSyncFav) { currentSyncFav = DEFAULT_FAVS_VALUES }
+		if(isNaN(currentSyncRoleEX)) { currentSyncRoleEX = 0 }
+		if(isNaN(currentSyncGrid)) { currentSyncGrid = 0 }
+
+		/* Eggs: Adjustment for the player character because star image are separated
+		Normal : Adjustment for the player character because of Bettie AND Scottie */
+		var currentStar;
+		if(! EGGMONMODE) {
+			if(pair.trainerName == "Player") {
+				currentStar = Math.floor(currentSyncImage/2) + parseInt(pair.syncPairRarity);
+			} else {
+				currentStar = parseInt(pair.syncPairRarity) + parseInt(currentSyncImage);
+			}
+		} else { currentStar = parseInt(pair.syncPairRarity) + parseInt(currentSyncStar); }
+
+		return {
+			"selectionValue": " selected",
+			"syncStar-currentImage": currentSyncStar,
+			"syncStar-currentstar": currentStar,
+			"syncFav-currentValues": currentSyncFav,
+			"syncLevel-currentImage": currentSyncLevel,
+			"syncRole-currentImage": "",
+			"syncRoleEX-currentImage": currentSyncRoleEX,
+			"syncImages-currentImage": currentSyncImage,
+			"syncGrid-currentImage": currentSyncGrid
+		}
+	}
+
+	return {
+		"selectionValue": "",
+		"syncStar-currentImage": 0,
+		"syncStar-currentstar": pair.syncPairRarity,
+		"syncFav-currentValues": DEFAULT_FAVS_VALUES,
+		"syncLevel-currentImage": 0,
+		"syncRole-currentImage": "",
+		"syncRoleEX-currentImage": 0,
+		"syncImages-currentImage": 0,
+		"syncGrid-currentImage": 0
+	}
+}
+
+
+function generateImagesPairHTML(pair, imagesData) {
 
 	/* generate all <img> of an array of images src and
 	add the "currentImage" class to image at index "current_i" */
@@ -173,25 +165,46 @@ function generatePairsHTML(pairs) {
 
 		for(var i=0; i<imgs.length; i++) {
 			if(i==current_im) { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">`
-			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}">` }
+			} else { im += `<img draggable="false" loading="lazy" src="${imgs[i]}">` }
 		}
 		return im;
 	}
 
-	function genImages2(imgs, current_v) {
+	function genHeartsImages(imgs, current_v) {
 		var im = "";
 		var current_va = convertFav(current_v).split("");
 
 		for(var i=0; i<imgs.length; i++) {
 			if(current_va[i] == "0") { im += `<img draggable="false" loading="lazy" src="${imgs[i]}">`
-			} else { im += `<img  draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">` }
+			} else { im += `<img draggable="false" loading="lazy" src="${imgs[i]}" class="currentImage">` }
 		}
 		return im;
 	}
 
-	function tags(tags, tag_type) { return tags.map((t) => tag_type + t).join(", "); }
+	return `<div class="syncStar" data-currentImage="${imagesData["syncStar-currentImage"]}" data-currentstar="${imagesData["syncStar-currentstar"]}">
+			${genImages(SYNCSTARIMGS, imagesData["syncStar-currentImage"])}
+		</div>
 
-	document.getElementById('syncPairs').innerHTML = result;
+		<div class="syncFav" data-currentValues="${imagesData["syncFav-currentValues"]}" data-html2canvas-ignore="true">
+			${genHeartsImages(syncFavImgs, imagesData["syncFav-currentValues"])}
+		</div>
+
+		<div class="syncLevel" data-currentImage="${imagesData["syncLevel-currentImage"]}">
+			${genImages(SYNCLEVELIMGS, imagesData["syncLevel-currentImage"])}
+		</div>
+
+		<div class="syncRoles">
+			<div class="syncRole">${genImages([SYNCROLEIMGS[pair.syncPairRole.toLowerCase()][0]], 0)}</div>
+			<div class="syncRoleEX" data-currentImage="${imagesData["syncRoleEX-currentImage"]}">${genImages(SYNCROLEIMGS[pair.syncPairRoleEX.toLowerCase()], imagesData["syncRoleEX-currentImage"])}</div>
+		</div>
+
+		<div class="syncImages" data-currentImage="${imagesData["syncImages-currentImage"]}">
+			${genImages(pair.images, imagesData["syncImages-currentImage"])}
+		</div>
+
+		<div class="syncGrid" data-currentImage="${imagesData["syncGrid-currentImage"]}">
+			${genImages(SYNCGRIDIMGS, imagesData["syncGrid-currentImage"])}
+		</div>`;
 }
 
 
@@ -284,6 +297,8 @@ function swapImages(imgsContainer, step) {
 	var imagesContainerParent = imagesContainer.parentElement;
 
 	var images = Array.from(imagesContainer.children);
+
+	var currImageNumber = parseInt(imagesContainer.dataset.currentimage);
 	var nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
 
 	if(nextImageNumber >= images.length) { nextImageNumber = 0; }
@@ -291,11 +306,13 @@ function swapImages(imgsContainer, step) {
 
 	if(imagesContainer.classList.contains("syncGrid")) {
 		var syncLvlCurr = parseInt(imagesContainerParent.querySelector(".syncLevel").dataset.currentimage);
-		
+		if(syncLvlCurr > 4) { syncLvlCurr = 4; }
+
 		nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
 		if(step > 0 && nextImageNumber > syncLvlCurr+1) { nextImageNumber = 0; }
 		if(step < 0 && nextImageNumber < 0) { nextImageNumber = syncLvlCurr+1; }
 	}
+
 	if(imagesContainer.classList.contains("syncLevel") && parseInt(imagesContainer.dataset.currentimage) == 4) {
 		imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
 		swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
@@ -568,7 +585,7 @@ function countSelection() {
 		document.getElementById("pairsCounterSelected").innerHTML = "";
 		document.getElementById("pairsCounterTotal").innerHTML = "";
 		return;
-	}	
+	}
 	if(allFound==allNotFound) {
 		document.getElementById("pairsCounterFound").innerHTML = "";
 		document.getElementById("pairsCounterFoundTotal").innerHTML = "";
@@ -634,7 +651,7 @@ function invertSelection() {
 			if(s.classList.contains("selected")) {
 				unselect(s)
 			} else { select(s) }
-		});	
+		});
 	}
 	countSelection();
 }
@@ -912,7 +929,7 @@ function increaseSyncStar() {
 	if(EGGMONMODE) {
 		swapElem(".syncStar", message1, message2, 1);
 	} else {
-		swapElem(".syncImages", message1, message2, 1);		
+		swapElem(".syncImages", message1, message2, 1);
 	}
 }
 function decreaseSyncStar() {
@@ -922,7 +939,7 @@ function decreaseSyncStar() {
 	if(EGGMONMODE) {
 		swapElem(".syncStar", message1, message2, -1);
 	} else {
-		swapElem(".syncImages", message1, message2, -1);		
+		swapElem(".syncImages", message1, message2, -1);
 	}
 }
 function resetSyncStar() {
@@ -974,7 +991,7 @@ function elementVisible(id) {
 	if(id == "allVisible" || id == "selectedVisible" || id == "notSelectedVisible") {
 		document.getElementById("allVisible").classList.remove("btnYellow");
 		document.getElementById("selectedVisible").classList.remove("btnYellow");
-		document.getElementById("notSelectedVisible").classList.remove("btnYellow");		
+		document.getElementById("notSelectedVisible").classList.remove("btnYellow");
 	}
 
 	if(id == "datamineVisible") {
@@ -1174,7 +1191,7 @@ function search(input) {
 					syncPair.classList.remove("found");
 					syncPair.classList.add("notFound");
 				}
-			}			
+			}
 		}
 		for(var e=0; e<hiddenFilters.length; e++) {
 			if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(hiddenFilters[e].toLowerCase())) {
@@ -1214,7 +1231,7 @@ function searchFilters() {
 			filtersSPAN.push(`<span>${el}</span>`);
 		})
 	}
-	
+
 	document.getElementById("filtersUsed").innerHTML = filtersSPAN.join(` ${FILTER_MODE} `);
 
 	search(filters.join(",,"));
@@ -1254,7 +1271,7 @@ function removeFilters() {
 	searchFiltersORdateInterval();
 
 	if(document.getElementById("hideEmptySeparators").checked) {
-		showSeparator(sortIdToSyncpairInfo[document.getElementById("sorting").querySelector(".btnBlue").id]);
+		showSeparator(SORTIDTOSYNCPAIRINFO[document.getElementById("sorting").querySelector(".btnBlue").id]);
 	}
 }
 
@@ -1272,8 +1289,8 @@ function showSeparator(dataToSeparate) {
 
 		switch(dataToSeparate) {
 			case ".syncStar":
-				inner = `<img src="${syncStarImgs2[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
-				inner2 = `<img src="${syncStarImgs2[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
+				inner = `<img src="${SYNCSTARIMGS2[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
+				inner2 = `<img src="${SYNCSTARIMGS2[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
 				break;
 
 			case ".syncLevel":
@@ -1322,7 +1339,7 @@ function showSeparator(dataToSeparate) {
 			case ".infoSyncPairRole":
 				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
 				inner = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`;
-				
+
 				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
 				inner2 = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`
 				break;
@@ -1330,7 +1347,7 @@ function showSeparator(dataToSeparate) {
 			case ".infoSyncPairRoleEX":
 				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
 				inner = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
-				
+
 				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
 				inner2 = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
 
@@ -1344,8 +1361,8 @@ function showSeparator(dataToSeparate) {
 				break;
 
 			case ".syncGrid":
-				inner = `<img src="${syncGridImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
-				inner2 = `<img src="${syncGridImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				inner = `<img src="${SYNCGRIDIMGS[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				inner2 = `<img src="${SYNCGRIDIMGS[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
 				break;
 
 			case ".syncRoleEX":
@@ -1372,7 +1389,7 @@ function removeSeparator() {
 function removeEmptySeparators() {
 	if(document.getElementById("hideEmptySeparators").checked && document.getElementsByClassName("selectedFilter").length > 0) {
 
-		showSeparator(sortIdToSyncpairInfo[document.getElementById("sorting").querySelector(".btnBlue").id]);
+		showSeparator(SORTIDTOSYNCPAIRINFO[document.getElementById("sorting").querySelector(".btnBlue").id]);
 
 		var pairs = document.getElementById("syncPairs").children;
 
@@ -1476,7 +1493,7 @@ function takeScreenshot(id) {
 				if(id == "takeScreenshot") {
 					document.getElementById("screenshot").classList.remove("hide");
 					document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
-				
+
 					var url = URL.createObjectURL(blob);
 					var img = document.createElement('img');
 
@@ -1489,7 +1506,7 @@ function takeScreenshot(id) {
 				} else if(id == "takeScreenshot2") {
 					document.getElementById("screenshot").classList.add("hide");
 					document.getElementById("screenshot").innerHTML = "";
-					
+
 					var url = URL.createObjectURL(blob);
 					var link = document.createElement('a');
 
@@ -1685,7 +1702,7 @@ document.getElementById("filterMode").addEventListener("click", filterMode);
 document.getElementById("removeFilters").addEventListener("click", removeFilters);
 document.getElementById("removeFilters2").addEventListener("click", removeFilters);
 
-document.getElementById("btnDate").addEventListener("click",  function() {
+document.getElementById("btnDate").addEventListener("click", function() {
 	document.getElementById("btnDate").classList.toggle("filterDateEnable");
 	searchFiltersORdateInterval();
 });
@@ -1844,7 +1861,7 @@ document.getElementById("sortByFavorite").addEventListener("click", function() {
 })
 
 document.getElementById("sortBySelected").addEventListener("click", function() {
-	
+
 	if(document.getElementById("sortingOrder").dataset.asc === "true") {
 		tinysort('.syncPair',{attr:'class',order:'desc'});
 	} else {
@@ -1881,9 +1898,9 @@ document.getElementById("hideEmptySeparators").addEventListener("click", functio
 /* Search Bar */
 document.getElementById("search").addEventListener("keyup", function() {
 	if(document.getElementById("btnDate").classList.contains("filterDateEnable")) {
-		setTimeout(dateInterval, 250);
+		dateInterval();
 	} else {
-		setTimeout(searchFilters, 250);
+		searchFilters();
 	}
 })
 
@@ -1899,8 +1916,8 @@ document.getElementById("btnDarkMode").addEventListener("click", function() {
 
 
 const observer = new IntersectionObserver( 
-  ([e]) => e.target.classList.toggle("optionsSticky", e.intersectionRatio < 1),
-  { threshold: [1] }
+	([e]) => e.target.classList.toggle("optionsSticky", e.intersectionRatio < 1),
+	{ threshold: [1] }
 );
 
 observer.observe(document.getElementById("options"));
@@ -1953,8 +1970,6 @@ function generatePairs(pairs) {
 	addSyncPairsEvents();
 
 	addEventBaseImages();
-
-	countSelection();
 
 	removeFilters();
 }
