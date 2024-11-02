@@ -149,6 +149,7 @@
 						<button type="button" class="btn" data-asc="true" id="sortByGrid">Energy Cap</button>
 						<button type="button" class="btn smallerText" data-asc="false" id="sortByEXRoleUnlock">EX Role Unlock</button>
 						<button type="button" class="btn smallerText" data-asc="true" id="sortByRoleCombi">Role Combination</button>
+						<button type="button" class="btn smallerText" data-asc="false" id="sortBySyncSuperawakening">Superawakening</button>
 						<div id="separatorsOptions">
 							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
 							<div class="checkboxOption hide" id="hideEmptySeparatorsParentDiv"><input type="checkbox"id="hideEmptySeparators"><label for="hideEmptySeparators">Hide when empty</label></div>
@@ -177,11 +178,11 @@
 							<button type="button" class="btn syncUserBtnStar" value='data-currentstar="4"'>&nbsp;<img src="images/star4.png"></button>
 							<button type="button" class="btn syncUserBtnStar" value='data-currentstar="5"'>&nbsp;<img src="images/star5.png"></button>
 							<button type="button" class="btn syncUserBtnStar" value='EX.png" class="currentImage">'>&nbsp;<img src="images/star6ex.png"><span class="tooltiptext">EXed</span></button>
-							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="0"'>&nbsp;<img src="images/1.png"></button>
-							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="1"'>&nbsp;<img src="images/2.png"></button>
-							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="2"'>&nbsp;<img src="images/3.png"></button>
-							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="3"'>&nbsp;<img src="images/4.png"></button>
-							<button type="button" class="btn syncUserBtnSyncLevel" value='class="syncLevel" data-currentimage="4"'>&nbsp;<img src="images/5.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-currentlevel="1"'>&nbsp;<img src="images/1.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-currentlevel="2"'>&nbsp;<img src="images/2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-currentlevel="3"'>&nbsp;<img src="images/3.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-currentlevel="4"'>&nbsp;<img src="images/4.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-currentlevel="5"'>&nbsp;<img src="images/5.png"></button>
 							<button type="button" class="btn syncUserBtnStar" value='"syncRoleEX" data-currentimage="1"'>&nbsp;<img src="images/icon_role_ex.png"><span class="tooltiptext">EX Role unlocked</span></button>
 							<button type="button" class="btn syncUserBtnSyncGrid" value='class="syncGrid" data-currentimage="0"'>&nbsp;<img src="images/grid60.png"></button>
 							<button type="button" class="btn syncUserBtnSyncGrid" value='class="syncGrid" data-currentimage="1"'>&nbsp;<img src="images/grid62.png"></button>
@@ -189,6 +190,12 @@
 							<button type="button" class="btn syncUserBtnSyncGrid" value='class="syncGrid" data-currentimage="3"'>&nbsp;<img src="images/grid66.png"></button>
 							<button type="button" class="btn syncUserBtnSyncGrid" value='class="syncGrid" data-currentimage="4"'>&nbsp;<img src="images/grid68.png"></button>
 							<button type="button" class="btn syncUserBtnSyncGrid" value='class="syncGrid" data-currentimage="5"'>&nbsp;<img src="images/grid70_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='"syncLevel" data-currentimage="5"'>&nbsp;<img src="images/1_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='"syncLevel" data-currentimage="6"'>&nbsp;<img src="images/2_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='"syncLevel" data-currentimage="7"'>&nbsp;<img src="images/3_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='"syncLevel" data-currentimage="8"'>&nbsp;<img src="images/4_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='"syncLevel" data-currentimage="9"'>&nbsp;<img src="images/5_2.png"></button>
+							<button type="button" class="btn syncUserBtnSyncLevel" value='data-superawakening="true"'>&nbsp;<img src="images/0_2.png"><span class="tooltiptext">Unlocked</span></button>
 						</div>
 
 						<div class="buttonGroup group8inLine groupClose">
@@ -417,6 +424,7 @@
 						<button type="button" class="btn" value='ZMove'><img src="images/icon_zcrystal.png">Z-Move</button>
 						<button type="button" class="btn" value='Song Key'><img src="images/icon_songkey.png">Song Key</button>
 						<button type="button" class="btn" value='Villain Arc'><img src="images/icon_team_rocket.png">Villain Arc</button>
+						<button type="button" class="btn" value='images/5_2.png'><img src="images/0_2.png">Superawakening</button>
 					</div>
 
 					<div id="ingameThemeSkills" class="buttonGroup groupClose">

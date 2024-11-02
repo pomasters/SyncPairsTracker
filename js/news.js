@@ -1,7 +1,11 @@
 export const NEWS = [
 	{
+		"date": "2024-11-02",
+		"info" : "Add ability to track superawakening level"
+	},
+	{
 		"date": "2024-10-29",
-		"info" : "Add v2.50.0\nSuperawakening later"
+		"info" : "Add v2.50.0"
 	},
 	{
 		"date": "2024-09-26",

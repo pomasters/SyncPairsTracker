@@ -8,13 +8,15 @@ const SYNCSTARIMGS = ["images/star/1.png","images/star/2.png","images/star/3.png
 const SYNCSTARIMGS2 = ["images/star1.png","images/star2.png","images/star3.png","images/star4.png","images/star5.png","images/star6ex.png"];
 const syncFavImgs = ["images/favoriteG.png","images/favoriteL.png","images/favoriteY.png","images/favoriteO.png","images/favoriteM.png","images/favoriteR.png","images/favoriteP.png","images/favoriteV.png","images/favoriteW.png","images/favoriteD.png","images/favoriteB.png","images/favoriteC.png"];
 const SYNCGRIDIMGS = ["images/grid60.png","images/grid62.png","images/grid64.png","images/grid66.png","images/grid68.png","images/grid70_2.png"];
+const SYNCSUPERAWAKENINGIMGS = ["images/1_2.png","images/2_2.png","images/3_2.png","images/4_2.png","images/5_2.png"];
 const TYPESORDER = {"normal":"01","fire":"02","water":"03","electric":"04","grass":"05","ice":"06","fighting":"07","poison":"08","ground":"09","flying":"10","psychic":"11","bug":"12","rock":"13","ghost":"14","dragon":"15","dark":"16","steel":"17","fairy":"18"};
 const ROLESORDER = {"":"10","strike (physical)":"01","strike (special)":"01","tech":"02","support":"03","sprint":"04","field":"05","multi":"06"};
 const REGIONSORDER = {"pasio":"00","kanto":"01","johto":"02","hoenn":"03","sinnoh":"04","unova":"05","kalos":"06","alola":"07","galar":"08","paldea":"09"}
 const ACQUISITIONORDER = {"spotlight scout / general pool":"01","poké fair scout":"02","master fair scout":"03","seasonal scout":"04","special costume scout":"05","variety scout":"06","main story: pml arc":"07","legendary adventures":"08","event reward":"09","battle points exchange":"10","trainer lodge exchange":"11","mix scout":"12", "training ticket exchange":"13", "arc suit fair scout":"14"}
 const SYNCROLEIMGS = {"strike (physical)": ["images/role_strike.png","images/role_ex_strike.png"],"strike (special)": ["images/role_strike.png","images/role_ex_strike.png"],"tech": ["images/role_tech.png","images/role_ex_tech.png"],"support": ["images/role_support.png","images/role_ex_support.png"],"sprint": ["images/role_sprint.png","images/role_ex_sprint.png"],"field": ["images/role_field.png","images/role_ex_field.png"], "multi": ["images/role_multi.png"], "strike<>tech<>support": ["images/role_egg.png"]}
-const SORTIDTOSYNCPAIRINFO = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid", "sortByEXRoleUnlock": ".syncRoleEX", "sortByRoleCombi": ".infoSyncPairRoleCombi"}
+const SORTIDTOSYNCPAIRINFO = {"sortByDexNumber": ".infoDexNum", "sortByPokemonNumber": ".infoPokemonNum", "sortByTrainer": ".infoTrainerName", "sortByStar": ".syncStar", "sortByRole": ".infoSyncPairRole", "sortByRoleEX": ".infoSyncPairRoleEX", "sortByType": ".infoPokemonType", "sortByWeakness": ".infoPokemonWeak", "sortByRegion": ".infoSyncPairRegion", "sortByDate": ".infoReleaseDate", "sortBySyncLevel": ".syncLevel", "sortBySyncSuperawakening": ".syncLevel2", "sortBySelected": ".selected", "sortByFavorite": ".syncFav", "sortByAcquisition": ".infoSyncPairAcquisition", "sortByGrid": ".syncGrid", "sortByEXRoleUnlock": ".syncRoleEX", "sortByRoleCombi": ".infoSyncPairRoleCombi"}
 const ROLECOMBIS = {"strike,":"N/A","strike,strike":"1111","strike,tech":"1221","strike,support":"1331","strike,sprint":"1441","strike,field":"1551","strike,multi":"6116","tech,":"N/A","tech,tech":"2222","tech,strike":"1221","tech,support":"2332","tech,sprint":"2442","tech,field":"2552","tech,multi":"6226","support,":"N/A","support,support":"3333","support,strike":"1331","support,tech":"2332","support,sprint":"3443","support,field":"3553","support,multi":"6336","sprint,":"N/A","sprint,sprint":"4444","sprint,strike":"1441","sprint,tech":"2442","sprint,support":"3443","sprint,field":"4554","sprint,multi":"6446","field,":"N/A","field,field":"5555","field,strike":"1551","field,tech":"2552","field,support":"3553","field,sprint":"4554","field,multi":"6556","multi,":"N/A","multi,multi":"6666","multi,strike":"6116","multi,tech":"6226","multi,support":"6336","multi,sprint":"6446","multi,field":"6556"}
+const MAPPINGLEVELS = [1,2,3,4,5,5,5,5,5,5]
 
 /*-----------------------------------------------------------------------------
 	GENERATE ALL HTML ELEMENTS ABOUT THE SYNCPAIRS
@@ -181,6 +183,9 @@ function generateImagesPairHTML(pair, imagesData) {
 		return im;
 	}
 
+	var imgsSuperawakening = pair.syncPairSuperawakening ? SYNCSUPERAWAKENINGIMGS : [];
+	var superawakened = (imagesData["syncLevel-currentImage"] > 4);
+
 	return `<div class="syncStar" data-currentImage="${imagesData["syncStar-currentImage"]}" data-currentstar="${imagesData["syncStar-currentstar"]}">
 			${genImages(SYNCSTARIMGS, imagesData["syncStar-currentImage"])}
 		</div>
@@ -189,8 +194,8 @@ function generateImagesPairHTML(pair, imagesData) {
 			${genHeartsImages(syncFavImgs, imagesData["syncFav-currentValues"])}
 		</div>
 
-		<div class="syncLevel" data-currentImage="${imagesData["syncLevel-currentImage"]}">
-			${genImages(SYNCLEVELIMGS, imagesData["syncLevel-currentImage"])}
+		<div class="syncLevel" data-currentImage="${imagesData["syncLevel-currentImage"]}" data-currentlevel="${MAPPINGLEVELS[imagesData["syncLevel-currentImage"]]}" data-superawakening="${superawakened}">
+			${genImages(SYNCLEVELIMGS.concat(imgsSuperawakening), imagesData["syncLevel-currentImage"])}
 		</div>
 
 		<div class="syncRoles">
@@ -313,9 +318,32 @@ function swapImages(imgsContainer, step) {
 		if(step < 0 && nextImageNumber < 0) { nextImageNumber = syncLvlCurr+1; }
 	}
 
-	if(imagesContainer.classList.contains("syncLevel") && parseInt(imagesContainer.dataset.currentimage) == 4) {
-		imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
-		swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
+	if(imagesContainer.classList.contains("syncLevel")) {
+		imagesContainer.dataset.currentlevel = MAPPINGLEVELS[nextImageNumber];
+
+		if(images.length == 5 && currImageNumber == 4) {
+			imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
+			swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
+		}
+		if(images.length > 5) {
+			if(currImageNumber <= 5 && step < 0) {
+				imagesContainer.dataset.superawakening = "false";
+			}
+			if(currImageNumber == 0 && step < 0) {
+				imagesContainer.dataset.superawakening = "true";
+				imagesContainer.dataset.currentlevel = "5";
+			}
+			if(currImageNumber >= 4 && step > 0) {
+				imagesContainer.dataset.superawakening = "true";
+				imagesContainer.dataset.currentlevel = "5";
+			}
+			if(currImageNumber == 9) {
+				imagesContainer.dataset.superawakening = "false";
+				imagesContainer.dataset.currentlevel = "1";
+				imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
+				swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
+			}
+		}
 	}
 
 	images.forEach(i => i.removeAttribute("class"));
@@ -515,6 +543,8 @@ function unselect(syncpair) {
 	syncpair.querySelector(".syncStar").dataset.currentimage = "0";
 	syncpair.querySelector(".syncFav").dataset.currentvalues = DEFAULT_FAVS_VALUES;
 	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
+	syncpair.querySelector(".syncLevel").dataset.currentlevel = "1";
+	syncpair.querySelector(".syncLevel").dataset.superawakening = "false";
 	syncpair.querySelector(".syncImages").dataset.currentimage = "0";
 	syncpair.querySelector(".syncGrid").dataset.currentimage = "0";
 
@@ -752,6 +782,8 @@ function importSelection() {
 				var syncGridDIV = s.querySelector(".syncGrid");
 
 				syncLevelDIV.dataset.currentimage = parseInt(importedSyncLevel);
+				syncLevelDIV.dataset.currentlevel = MAPPINGLEVELS[parseInt(importedSyncLevel)];
+				syncLevelDIV.dataset.superawakening = (parseInt(importedSyncLevel) >= 5);
 				syncImagesDIV.dataset.currentimage = parseInt(importedSyncImage);
 				syncStarDIV.dataset.currentimage = parseInt(importedSyncStar);
 				syncFavDIV.dataset.currentvalues = importedSyncFav;
@@ -1294,8 +1326,27 @@ function showSeparator(dataToSeparate) {
 				break;
 
 			case ".syncLevel":
-				inner = `<img src="${syncLevelImgs[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
-				inner2 = `<img src="${syncLevelImgs[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
+				var curr_img = parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage);
+				var prev_img = parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage);
+				curr_img = curr_img > 4 ? 4 : curr_img;
+				prev_img = prev_img > 4 ? 4 : prev_img;
+
+				inner = `<img src="${SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[curr_img]}">`;
+				inner2 = `<img src="${SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[prev_img]}">`;
+				break;
+
+			case ".syncLevel2":
+				var curr_img = parseInt(curr_pair.querySelector(".syncLevel").dataset.currentimage);
+				var prev_img = parseInt(prev_pair.querySelector(".syncLevel").dataset.currentimage);
+
+				var innerImg = SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[curr_img];
+				var inner2Img = SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[prev_img];
+
+				if(curr_img <= 4) { innerImg = "images/0.png" }
+				if(prev_img <= 4) { inner2Img = "images/0.png" }
+
+				inner = `<img src="${innerImg}">`;
+				inner2 = `<img src="${inner2Img}">`;
 				break;
 
 			case ".syncFav":
@@ -1825,14 +1876,15 @@ document.getElementById("sortByStar").addEventListener("click", function() {
 
 var sortTypes2 = [
 	["sortBySyncLevel","syncLevel"],
+	["sortBySyncSuperawakening","syncLevel2"],
 	["sortByGrid","syncGrid"],
 	["sortByEXRoleUnlock","syncRoleEX"]
 ]
 
 sortTypes2.forEach(btn => document.getElementById(btn[0]).addEventListener("click", function() {
 	tinysort('.syncPair',{sortFunction:function(a,b){
-		var lenA = parseInt(a.elm.querySelector("." + btn[1]).dataset.currentimage);
-		var lenB = parseInt(b.elm.querySelector("." + btn[1]).dataset.currentimage);
+		var lenA = parseInt(a.elm.querySelector("." + btn[1].replace("2","")).dataset.currentimage);
+		var lenB = parseInt(b.elm.querySelector("." + btn[1].replace("2","")).dataset.currentimage);
 
 		if(document.getElementById("sortingOrder").dataset.asc === "true") {
 			return lenA===lenB?0:(lenA<lenB?1:-1);

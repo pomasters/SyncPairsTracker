@@ -300,11 +300,11 @@
 	}
 
 	.syncLevel {
-		width: 25%;
+		width: 28%;
 		height: auto;
 		z-index: 2;
-		left: 4%;
-		bottom: 12%;
+		left: 3%;
+		bottom: 13%;
 	}
 
 	.syncGrid {

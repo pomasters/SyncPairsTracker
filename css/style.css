@@ -778,7 +778,7 @@ input:focus { outline: 0; }
 
 #selectionPairs .btn, #sorting .btn {
 	width: auto;
-	max-width: 46%;
+	max-width: calc(calc(100% / 3) - 6px);
 	min-width: calc(calc(100% / 3) - 6px);
 }
 
@@ -809,6 +809,13 @@ input:focus { outline: 0; }
 	margin: 0px 3px;
 	text-align: center !important;
 	min-height: 26px;
+}
+.syncUserBtnSyncLevel img {
+	height: 18px !important;
+}
+
+.syncUserBtnSyncGrid img {
+	height: 15px !important;
 }
 
 .syncUserBtnFav img,
@@ -1090,8 +1097,8 @@ input:focus { outline: 0; }
 	left: 4px;
 	bottom: 4px;
 	z-index: 1;
-	width: 24px;
-	height: 24px;
+	width: 25px;
+	height: 25px;
 	display: none;
 }
 
