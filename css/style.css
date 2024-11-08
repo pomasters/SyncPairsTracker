@@ -621,6 +621,59 @@ input:focus { outline: 0; }
 .btn:hover .tooltiptext { visibility: visible; }
 
 
+#userBtns {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#userBtns input {
+	display: none;
+}
+#userBtns label {
+	width: auto;
+	min-width: calc(calc(100% / 5) - 5px) !important;
+	max-width: calc(calc(100% / 5) - 5px) !important;
+	background-color: var(--blue2);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 26px;
+}
+#userBtns label:nth-of-type(1) { clip-path: polygon(10% 0%, 101% 0%, 101% 100%, 10% 100%, 0% 50%); height: 26px; }
+#userBtns label:nth-of-type(5) { clip-path: polygon(90% 0%, 100% 50%, 90% 100%, -1% 100%, -1% 0%); height: 26px; }
+#userBtns label img {
+	width: auto;
+	height: 16px;
+}
+#userBtns label:hover { background-color: #7ba7b5; }
+#userBtns label:active { background-color: #4a7b8b; z-index: 10; }
+#userBtns input:checked + label { background-color: #055c73; }
+
+.tabContent {
+	display: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-top: 8px;
+}
+
+#tab1:checked ~ #tab1Content, #tab1:hover ~ #tab1Content { display: flex; }
+#tab2:checked ~ #tab2Content, #tab2:hover ~ #tab2Content { display: flex; }
+#tab3:checked ~ #tab3Content, #tab3:hover ~ #tab3Content { display: flex; }
+#tab4:checked ~ #tab4Content, #tab4:hover ~ #tab4Content { display: flex; }
+#tab5:checked ~ #tab5Content, #tab5:hover ~ #tab5Content { display: flex; }
+#tab1:not(:checked):hover ~ .tabContent:not(#tab1Content) { display: none; }
+#tab2:not(:checked):hover ~ .tabContent:not(#tab2Content) { display: none; }
+#tab3:not(:checked):hover ~ .tabContent:not(#tab3Content) { display: none; }
+#tab4:not(:checked):hover ~ .tabContent:not(#tab4Content) { display: none; }
+#tab5:not(:checked):hover ~ .tabContent:not(#tab5Content) { display: none; }
+
+
 #filters .btn,
 #options .btn,
 #userBtns .btn,

@@ -57,6 +57,10 @@ body {
 	border: 2px solid #364656;
 }
 
+#userBtns label { background-color: #364656; }
+#userBtns label:hover { background-color: #5f88a3; }
+#userBtns label:active { background-color: #6a8a9f; }
+#userBtns input:checked + label { background-color: #48697f; }
 
 .buttonGroupTitle,
 .buttonGroupTitle::before,
