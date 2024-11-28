@@ -1903,9 +1903,9 @@ document.getElementById("sortByFavorite").addEventListener("click", function() {
 		var lenB = parseInt(b.elm.querySelector(".syncFav").dataset.currentvalues);
 
 		if(document.getElementById("sortingOrder").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
-		} else {
 			return lenA===lenB?0:(lenA<lenB?1:-1);
+		} else {
+			return lenA===lenB?0:(lenA>lenB?1:-1);
 		}
 	}});
 
