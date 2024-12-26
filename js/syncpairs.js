@@ -17735,6 +17735,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
+			"Rebuff",
 			"Limited",
 			"isMan",
 			"Song Key",
