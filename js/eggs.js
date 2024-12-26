@@ -1036,6 +1036,41 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0073",
+		"pokemonName": "Tentacruel",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Tentacool",
+		],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2025-01-12",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0073_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0073_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0073_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0073_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0073_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0073_03a.png"
+		],
+		"themes": [
+			"Poison",
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0076",
 		"pokemonName": "Golem",
 		"pokemonGender": "",
