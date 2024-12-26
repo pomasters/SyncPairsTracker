@@ -16925,7 +16925,7 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
-		"dexNumber": "205",
+		"dexNumber": "204",
 		"trainerName": "Poppy",
 		"trainerAlt": "New Year's 2025",
 		"pokemonNumber": "0208",
@@ -17237,7 +17237,7 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
-		"dexNumber": "211",
+		"dexNumber": "210",
 		"trainerName": "Arven",
 		"trainerAlt": "Lodge",
 		"pokemonNumber": "0932",
