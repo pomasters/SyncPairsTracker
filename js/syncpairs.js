@@ -17683,8 +17683,7 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0F_KALOS/Blossom_0281.png",
 			"Sync Pairs/4Star/Blossom_0281_4.png",
-			"Sync Pairs/5Star/Blossom_0281_5.png",
-			"Sync Pairs/0F_KALOS/Blossom_0281_EX.png"
+			"Sync Pairs/5Star/Blossom_0281_5.png"
 		],
 		"themes": [
 			"Fairy",
