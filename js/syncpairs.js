@@ -6467,7 +6467,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dark",
 			"Johto",
-			"Villain",
+			"Villain.",
 			"Sygna Suit",
 			"Sunglasses"
 		],
@@ -9786,7 +9786,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Grass",
 			"Alola",
-			"Villain",
+			"Villain.",
 			"Grown Woman",
 			"Alola Adventurer"
 		],
@@ -15641,7 +15641,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Steel",
 			"Galar",
-			"Villain",
+			"Villain.",
 			"Passionate Spirit"
 		],
 		"tags": [
