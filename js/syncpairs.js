@@ -258,8 +258,32 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/00_PASIO/Scottie_0869.png",
 			"Sync Pairs/00_PASIO/Bettie_0869.png",
-			"Sync Pairs/5Star/Scottie_0869_5Star.png",
-			"Sync Pairs/5Star/Bettie_0869_5Star.png"
+			"Sync Pairs/5Star/Scottie_0869_5.png",
+			"Sync Pairs/5Star/Bettie_0869_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-2.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-2.png",
+			"Sync Pairs/5Star/Scottie_0869-2_5.png",
+			"Sync Pairs/5Star/Bettie_0869-2_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-3.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-3.png",
+			"Sync Pairs/5Star/Scottie_0869-3_5.png",
+			"Sync Pairs/5Star/Bettie_0869-3_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-4.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-4.png",
+			"Sync Pairs/5Star/Scottie_0869-4_5.png",
+			"Sync Pairs/5Star/Bettie_0869-4_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-5.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-5.png",
+			"Sync Pairs/5Star/Scottie_0869-5_5.png",
+			"Sync Pairs/5Star/Bettie_0869-5_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-6.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-6.png",
+			"Sync Pairs/5Star/Scottie_0869-6_5.png",
+			"Sync Pairs/5Star/Bettie_0869-6_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-7.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-7.png",
+			"Sync Pairs/5Star/Scottie_0869-7_5.png",
+			"Sync Pairs/5Star/Bettie_0869-7_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -269,7 +293,69 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Multiple Pairs"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0869|2",
+		"pokemonName": "Alcremie",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-02-11",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/00_PASIO/Scottie_0869.png",
+			"Sync Pairs/00_PASIO/Bettie_0869.png",
+			"Sync Pairs/5Star/Scottie_0869_5.png",
+			"Sync Pairs/5Star/Bettie_0869_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-2.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-2.png",
+			"Sync Pairs/5Star/Scottie_0869-2_5.png",
+			"Sync Pairs/5Star/Bettie_0869-2_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-3.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-3.png",
+			"Sync Pairs/5Star/Scottie_0869-3_5.png",
+			"Sync Pairs/5Star/Bettie_0869-3_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-4.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-4.png",
+			"Sync Pairs/5Star/Scottie_0869-4_5.png",
+			"Sync Pairs/5Star/Bettie_0869-4_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-5.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-5.png",
+			"Sync Pairs/5Star/Scottie_0869-5_5.png",
+			"Sync Pairs/5Star/Bettie_0869-5_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-6.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-6.png",
+			"Sync Pairs/5Star/Scottie_0869-6_5.png",
+			"Sync Pairs/5Star/Bettie_0869-6_5.png",
+			"Sync Pairs/00_PASIO/Scottie_0869-7.png",
+			"Sync Pairs/00_PASIO/Bettie_0869-7.png",
+			"Sync Pairs/5Star/Scottie_0869-7_5.png",
+			"Sync Pairs/5Star/Bettie_0869-7_5.png"
+		],
+		"themes": [
+			"Fairy",
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs"
 		]
 	},
 	{
@@ -409,7 +495,6 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
-			"Multiple Pairs",
 			"isMan"
 		]
 	},
