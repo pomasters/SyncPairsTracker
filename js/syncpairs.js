@@ -1810,6 +1810,88 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "018",
+		"trainerName": "Brendan",
+		"trainerAlt": "",
+		"pokemonNumber": "0277",
+		"pokemonName": "Swellow",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-03-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Brendan_0277.png",
+			"Sync Pairs/5Star/Brendan_0277_5.png",
+			"Sync Pairs/0C_HOENN/Brendan_0277_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Hoenn",
+			"Main Character",
+			"Space Cadet"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
+		"dexNumber": "018",
+		"trainerName": "Brendan",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0383",
+		"pokemonName": "Groudon",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Primal Reversion"
+		],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-03-02",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Brendan_0383.png",
+			"Sync Pairs/0C_HOENN/Brendan_0383_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Hoenn",
+			"Main Character",
+			"Champion",
+			"Space Cadet"
+		],
+		"tags": [
+			"Legendary",
+			"Shiny",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Song Key",
+			"Neo Champion",
+			"Master Passive Pride"
+		]
+	},
+	{
 		"dexNumber": "019",
 		"trainerName": "Roxanne",
 		"trainerAlt": "",
@@ -2554,7 +2636,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark.png",
 			"Sync Pairs/4Star/0D_SINNOH_0B-01_Roark_4Star.png",
-			"Sync Pairs/5Star/0D_SINNOH_0B-01_Roark_5Star.png"
+			"Sync Pairs/5Star/0D_SINNOH_0B-01_Roark_5Star.png",
+			"Sync Pairs/0D_SINNOH/0D_SINNOH_0B-01_Roark_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -4189,6 +4272,39 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Villain Arc",
 			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "054",
+		"trainerName": "Hau",
+		"trainerAlt": "",
+		"pokemonNumber": "0740",
+		"pokemonName": "Crabominable",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-03-01",
+		"syncPairAcquisition": "Training Ticket Exchange",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/0G_ALOLA/Hau_0740.png",
+			"Sync Pairs/0G_ALOLA/Hau_0740_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Alola",
+			"Rival",
+			"Free Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -6648,6 +6764,44 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "075",
+		"trainerName": "Ethan",
+		"trainerAlt": "",
+		"pokemonNumber": "0250",
+		"pokemonName": "Ho-Oh",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Field",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-03-14",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/0B_JOHTO/Ethan_0250.png",
+			"Sync Pairs/0B_JOHTO/Ethan_0250_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Johto",
+			"Main Character",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "076",
 		"trainerName": "Leaf",
 		"trainerAlt": "",
@@ -7516,7 +7670,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Flying",
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2021-09-01",
@@ -7534,6 +7688,8 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"Multiple Units",
 			"isMan",
@@ -7705,6 +7861,41 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Song Key"
+		]
+	},
+	{
+		"dexNumber": "081",
+		"trainerName": "Steven",
+		"trainerAlt": "",
+		"pokemonNumber": "0227",
+		"pokemonName": "Skarmory",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-02-26",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/Steven_0227.png",
+			"Sync Pairs/0C_HOENN/Steven_0227_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Hoenn",
+			"Champion",
+			"Rock Lover",
+			"Space Cadet"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
 		]
 	},
 	{
@@ -10647,6 +10838,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Buddy Move",
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
@@ -10770,6 +10963,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
+			"Multiple Pokemon",
 			"Rebuff",
 			"Grid5",
 			"GridExpansion",
@@ -11047,6 +11241,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
+			"Multiple Pairs",
 			"isMan",
 			"Unique Costume"
 		]
@@ -11128,6 +11323,47 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Multiple Pokemon",
 			"Unique Costume"
+		]
+	},
+	{
+		"dexNumber": "112",
+		"trainerName": "N",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0571|2",
+		"pokemonName": "Zoroark",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Tech",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-03-10",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/0E_UNOVA/AS_N_0571.png",
+			"Sync Pairs/0E_UNOVA/AS_N_0571_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Unova",
+			"Rival",
+			"Arc Suit",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Rebuff",
+			"Song Key"
 		]
 	},
 	{
@@ -11321,6 +11557,52 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "113",
+		"trainerName": "May",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0382",
+		"pokemonName": "Kyogre",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Primal Reversion"
+		],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-02-28",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/0C_HOENN/May_0382.png",
+			"Sync Pairs/0C_HOENN/May_0382_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Hoenn",
+			"Main Character",
+			"Champion",
+			"Space Cadet"
+		],
+		"tags": [
+			"Legendary",
+			"Shiny",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Song Key",
+			"Neo Champion",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -11726,6 +12008,8 @@ export const SYNCPAIRS = [
 			"Free Spirit"
 		],
 		"tags": [
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"Multiple Units",
 			"isMan",
@@ -12163,6 +12447,41 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman"
+		]
+	},
+	{
+		"dexNumber": "119",
+		"trainerName": "Marnie",
+		"trainerAlt": "",
+		"pokemonNumber": "0510",
+		"pokemonName": "Liepard",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-02-26",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Marnie_0510.png",
+			"Sync Pairs/0H_GALAR/Marnie_0510_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Galar",
+			"Rival",
+			"Pigtails",
+			"Fancy Lady"
+		],
+		"tags": [
+			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman"
@@ -12968,10 +13287,13 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"isMan",
 			"Weather",
 			"Legendary",
+			"Multiple Pokemon",
 			"Song Key",
 			"Master Passive Pride",
 			"First Unit"
@@ -13006,10 +13328,13 @@ export const SYNCPAIRS = [
 			"Nature Lover"
 		],
 		"tags": [
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"isMan",
 			"Weather",
 			"Legendary",
+			"Multiple Pokemon",
 			"Song Key",
 			"Master Passive Spirit",
 			"First Unit"
@@ -13228,6 +13553,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
+			"Multiple Pokemon",
 			"First Unit"
 		]
 	},
@@ -13818,6 +14144,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"First Unit"
 		]
 	},
@@ -14083,6 +14410,45 @@ export const SYNCPAIRS = [
 		]
 	},
 	{
+		"dexNumber": "141",
+		"trainerName": "Hop",
+		"trainerAlt": "",
+		"pokemonNumber": "0888",
+		"pokemonName": "Zacian ",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Crowned Sword"
+		],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Tech",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-02-26",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/0H_GALAR/Hop_0888.png",
+			"Sync Pairs/0H_GALAR/Hop_0888_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Galar",
+			"Rival",
+			"Galar Adventurer",
+			"Researcher"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		]
+	},
+	{
 		"dexNumber": "142",
 		"trainerName": "Allister",
 		"trainerAlt": "",
@@ -14114,6 +14480,8 @@ export const SYNCPAIRS = [
 			"Supernatural"
 		],
 		"tags": [
+			"Grid3",
+			"GridExpansion",
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
@@ -15384,6 +15752,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"isMan",
 			"First Unit"
 		]
 	},
@@ -16277,6 +16646,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Limited",
+			"Multiple Pokemon",
 			"isWoman",
 			"First Unit"
 		]
@@ -16678,6 +17048,40 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff"
+		]
+	},
+	{
+		"dexNumber": "191",
+		"trainerName": "Iono",
+		"trainerAlt": "",
+		"pokemonNumber": "0941",
+		"pokemonName": "Kilowattrel",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "",
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-02-26",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Iono_0941.png",
+			"Sync Pairs/0J_PALDEA/Iono_0941_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Paldea",
+			"Gym Leader",
+			"Artistic",
+			"Free Spirit"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isWoman"
 		]
 	},
 	{
@@ -18243,6 +18647,46 @@ export const SYNCPAIRS = [
 			"Master Passive Spirit",
 			"First Unit"
 		]
+	},
+	{
+		"dexNumber": "226",
+		"trainerName": "Ortega",
+		"trainerAlt": "",
+		"pokemonNumber": "0927",
+		"pokemonName": "Dachsbun",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-03-20",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/0J_PALDEA/Ortega_0927.png",
+			"Sync Pairs/0J_PALDEA/Ortega_0927_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Paldea",
+			"Team Star",
+			"Gadgeteer",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"isMan",
+			"Rebuff",
+			"Song Key",
+			"First Unit"
+		]
 	}
 ]
 
@@ -18318,4 +18762,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.53.0";
+export const VERSION = "v2.54.0";
