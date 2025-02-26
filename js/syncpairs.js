@@ -7878,7 +7878,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-02-26",
-		"syncPairAcquisition": "Variety Scout",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Hoenn",
 		"images": [
 			"Sync Pairs/0C_HOENN/Steven_0227.png",
@@ -12467,7 +12467,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-02-26",
-		"syncPairAcquisition": "Variety Scout",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/0H_GALAR/Marnie_0510.png",
@@ -17065,7 +17065,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-02-26",
-		"syncPairAcquisition": "Variety Scout",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/0J_PALDEA/Iono_0941.png",
