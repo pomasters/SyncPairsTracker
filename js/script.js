@@ -723,8 +723,6 @@ function exportSelection() {
 		document.getElementById("exportImportZone").value = JSON.stringify(exported);
 	}
 
-	importSelection();
-
 }
 
 
