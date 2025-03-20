@@ -17278,6 +17278,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Fairy",
 			"Paldea",
+			"Team Star",
 			"Glasses",
 			"Gadgeteer"
 		],
@@ -18714,6 +18715,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Dark",
 			"Paldea",
+			"Team Star",
 			"Artistic",
 			"Free Spirit"
 		],
@@ -18829,6 +18831,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Fighting",
 			"Paldea",
+			"Team Star",
 			"Body Builder",
 			"Passionate Spirit"
 		],
@@ -19021,6 +19024,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Fire",
 			"Paldea",
+			"Team Star",
 			"Passionate Spirit",
 			"Artistic"
 		],
@@ -19059,6 +19063,7 @@ export const SYNCPAIRS = [
 		"themes": [
 			"Poison",
 			"Paldea",
+			"Team Star",
 			"Artistic",
 			"Free Spirit"
 		],
