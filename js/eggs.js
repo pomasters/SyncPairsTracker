@@ -14,7 +14,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
@@ -31,7 +32,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0003_00_fushigibana"
 	},
 	{
 		"dexNumber": "001",
@@ -48,7 +51,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
@@ -65,7 +69,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0006_00_lizardon"
 	},
 	{
 		"dexNumber": "001",
@@ -82,7 +88,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
@@ -100,7 +107,9 @@ export const EGGS = [
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0009_00_kamex"
 	},
 	{
 		"dexNumber": "001",
@@ -117,7 +126,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2024-05-27",
@@ -134,7 +144,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0012_00_butterfree"
 	},
 	{
 		"dexNumber": "001",
@@ -151,7 +163,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
@@ -168,7 +181,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0015_00_spear"
 	},
 	{
 		"dexNumber": "001",
@@ -185,7 +200,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
@@ -202,7 +218,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0018_00_pigeot"
 	},
 	{
 		"dexNumber": "001",
@@ -218,7 +236,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -235,7 +254,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0020_00_ratta"
 	},
 	{
 		"dexNumber": "001",
@@ -251,7 +272,8 @@ export const EGGS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
@@ -268,7 +290,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0022_00_onidrill"
 	},
 	{
 		"dexNumber": "001",
@@ -284,7 +308,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
@@ -301,7 +326,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0024_00_arbok"
 	},
 	{
 		"dexNumber": "001",
@@ -318,7 +345,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
@@ -335,7 +363,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0026_00_raichu"
 	},
 	{
 		"dexNumber": "001",
@@ -351,7 +381,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
@@ -368,7 +399,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0028_00_sandpan"
 	},
 	{
 		"dexNumber": "001",
@@ -385,7 +418,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -402,7 +436,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0031_00_nidoqueen"
 	},
 	{
 		"dexNumber": "001",
@@ -419,7 +455,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-04-08",
@@ -436,7 +473,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0034_00_00_nidoking"
 	},
 	{
 		"dexNumber": "001",
@@ -453,7 +492,8 @@ export const EGGS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-04-25",
@@ -470,7 +510,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0036_00_pixy"
 	},
 	{
 		"dexNumber": "001",
@@ -486,7 +528,8 @@ export const EGGS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
@@ -504,7 +547,9 @@ export const EGGS = [
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0038_00_kyukon"
 	},
 	{
 		"dexNumber": "001",
@@ -521,7 +566,8 @@ export const EGGS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
@@ -538,7 +584,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0040_00_pukurin"
 	},
 	{
 		"dexNumber": "001",
@@ -554,7 +602,8 @@ export const EGGS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -571,7 +620,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0042_00_golbat"
 	},
 	{
 		"dexNumber": "001",
@@ -588,7 +639,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-01-06",
@@ -605,7 +657,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0045_00_ruffresia"
 	},
 	{
 		"dexNumber": "001",
@@ -621,7 +675,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-11-15",
@@ -638,7 +693,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0047_00_parasect"
 	},
 	{
 		"dexNumber": "001",
@@ -654,7 +711,8 @@ export const EGGS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
@@ -671,7 +729,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0049_00_morphon"
 	},
 	{
 		"dexNumber": "001",
@@ -687,7 +747,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-10-27",
@@ -704,7 +765,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0051_00_dugtrio"
 	},
 	{
 		"dexNumber": "001",
@@ -720,7 +783,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -737,7 +801,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0053_00_persian"
 	},
 	{
 		"dexNumber": "001",
@@ -754,7 +820,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
@@ -771,7 +838,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0053_61_apersian"
 	},
 	{
 		"dexNumber": "001",
@@ -787,7 +856,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2024-03-27",
@@ -804,7 +874,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0055_00_golduck"
 	},
 	{
 		"dexNumber": "001",
@@ -820,7 +892,8 @@ export const EGGS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
@@ -837,7 +910,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0057_00_okorizaru"
 	},
 	{
 		"dexNumber": "001",
@@ -853,7 +928,8 @@ export const EGGS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
@@ -870,7 +946,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0059_00_windie"
 	},
 	{
 		"dexNumber": "001",
@@ -887,7 +965,8 @@ export const EGGS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
@@ -904,7 +983,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0065_00_foodin"
 	},
 	{
 		"dexNumber": "001",
@@ -921,7 +1002,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
@@ -938,7 +1020,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0068_00_kairiky"
 	},
 	{
 		"dexNumber": "001",
@@ -955,7 +1039,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -972,7 +1057,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0071_00_utsubot"
 	},
 	{
 		"dexNumber": "001",
@@ -988,7 +1075,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2025-01-12",
@@ -1005,7 +1093,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0073_00_dokukurage"
 	},
 	{
 		"dexNumber": "001",
@@ -1022,7 +1112,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
@@ -1039,7 +1130,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0076_00_golonya"
 	},
 	{
 		"dexNumber": "001",
@@ -1055,7 +1148,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-20",
@@ -1072,7 +1166,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0078_00_gallop"
 	},
 	{
 		"dexNumber": "001",
@@ -1088,7 +1184,8 @@ export const EGGS = [
 		"pokemonWeak": "Ghost",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-08-07",
@@ -1105,7 +1202,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0080_00_yadoran"
 	},
 	{
 		"dexNumber": "001",
@@ -1121,7 +1220,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
@@ -1138,7 +1238,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0082_00_rarecoil"
 	},
 	{
 		"dexNumber": "001",
@@ -1152,7 +1254,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-08-03",
@@ -1169,7 +1272,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0083_00_kamonegi"
 	},
 	{
 		"dexNumber": "001",
@@ -1185,7 +1290,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
@@ -1202,7 +1308,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0087_00_jugon"
 	},
 	{
 		"dexNumber": "001",
@@ -1218,7 +1326,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
@@ -1235,7 +1344,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0089_00_betbeton"
 	},
 	{
 		"dexNumber": "001",
@@ -1251,7 +1362,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
@@ -1268,7 +1380,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0091_00_parshen"
 	},
 	{
 		"dexNumber": "001",
@@ -1285,7 +1399,8 @@ export const EGGS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
@@ -1302,7 +1417,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0094_00_gangar"
 	},
 	{
 		"dexNumber": "001",
@@ -1316,7 +1433,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
@@ -1333,7 +1451,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0095_00_iwark"
 	},
 	{
 		"dexNumber": "001",
@@ -1349,7 +1469,8 @@ export const EGGS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2024-03-27",
@@ -1366,7 +1487,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0097_00_sleeper"
 	},
 	{
 		"dexNumber": "001",
@@ -1382,7 +1505,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
@@ -1399,7 +1523,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0101_00_marumine"
 	},
 	{
 		"dexNumber": "001",
@@ -1415,7 +1541,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-11-05",
@@ -1432,7 +1559,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0103_00_nassy"
 	},
 	{
 		"dexNumber": "001",
@@ -1448,7 +1577,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
@@ -1465,7 +1595,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0105_00_garagara"
 	},
 	{
 		"dexNumber": "001",
@@ -1481,7 +1613,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
@@ -1498,7 +1631,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0106_00_sawamular"
 	},
 	{
 		"dexNumber": "001",
@@ -1514,7 +1649,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
@@ -1531,7 +1667,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0107_00_ebiwalar"
 	},
 	{
 		"dexNumber": "001",
@@ -1545,7 +1683,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-12-02",
@@ -1562,7 +1701,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0108_00_beroringa"
 	},
 	{
 		"dexNumber": "001",
@@ -1578,7 +1719,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-10-25",
@@ -1595,7 +1737,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0110_00_matadogas"
 	},
 	{
 		"dexNumber": "001",
@@ -1611,7 +1755,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2024-07-26",
@@ -1628,7 +1773,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0112_00_sidon"
 	},
 	{
 		"dexNumber": "001",
@@ -1644,7 +1791,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
@@ -1661,7 +1809,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0113_00_lucky"
 	},
 	{
 		"dexNumber": "001",
@@ -1675,7 +1825,8 @@ export const EGGS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-06-21",
@@ -1692,7 +1843,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0114_00_monjara"
 	},
 	{
 		"dexNumber": "001",
@@ -1706,7 +1859,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-07",
@@ -1723,7 +1877,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0115_00_garura"
 	},
 	{
 		"dexNumber": "001",
@@ -1739,7 +1895,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-02-07",
@@ -1756,7 +1913,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0117_00_seadra"
 	},
 	{
 		"dexNumber": "001",
@@ -1772,7 +1931,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-09-03",
@@ -1789,7 +1949,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0119_00_azumao"
 	},
 	{
 		"dexNumber": "001",
@@ -1805,7 +1967,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-03",
@@ -1822,7 +1985,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0121_00_starmie"
 	},
 	{
 		"dexNumber": "001",
@@ -1836,7 +2001,8 @@ export const EGGS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
@@ -1853,7 +2019,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0123_00_strike"
 	},
 	{
 		"dexNumber": "001",
@@ -1869,7 +2037,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-10-07",
@@ -1886,7 +2055,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0124_00_rougela"
 	},
 	{
 		"dexNumber": "001",
@@ -1902,7 +2073,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-01-07",
@@ -1919,7 +2091,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0125_00_eleboo"
 	},
 	{
 		"dexNumber": "001",
@@ -1935,7 +2109,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-05-20",
@@ -1952,7 +2127,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0126_00_boober"
 	},
 	{
 		"dexNumber": "001",
@@ -1966,7 +2143,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-07-20",
@@ -1983,7 +2161,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0127_00_kailios"
 	},
 	{
 		"dexNumber": "001",
@@ -1997,7 +2177,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-04-27",
@@ -2014,7 +2195,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0128_00_kentauros"
 	},
 	{
 		"dexNumber": "001",
@@ -2030,7 +2213,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-05-05",
@@ -2048,7 +2232,9 @@ export const EGGS = [
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0130_00_gyarados"
 	},
 	{
 		"dexNumber": "001",
@@ -2062,7 +2248,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-10-22",
@@ -2080,7 +2267,9 @@ export const EGGS = [
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0131_00_laplace"
 	},
 	{
 		"dexNumber": "001",
@@ -2094,7 +2283,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2111,7 +2301,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0134_00_showers"
 	},
 	{
 		"dexNumber": "001",
@@ -2125,7 +2317,8 @@ export const EGGS = [
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2142,7 +2335,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0135_00_thunders"
 	},
 	{
 		"dexNumber": "001",
@@ -2156,7 +2351,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2173,7 +2369,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0136_00_booster"
 	},
 	{
 		"dexNumber": "001",
@@ -2187,7 +2385,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-03-25",
@@ -2204,7 +2403,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0137_00_porygon"
 	},
 	{
 		"dexNumber": "001",
@@ -2220,7 +2421,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-07-12",
@@ -2237,7 +2439,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0139_00_omstar"
 	},
 	{
 		"dexNumber": "001",
@@ -2253,7 +2457,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
@@ -2271,7 +2476,9 @@ export const EGGS = [
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0141_00_kabutops"
 	},
 	{
 		"dexNumber": "001",
@@ -2285,7 +2492,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2020-08-11",
@@ -2302,7 +2510,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0142_00_ptera"
 	},
 	{
 		"dexNumber": "001",
@@ -2318,7 +2528,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-03-10",
@@ -2335,7 +2546,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0143_00_kabigon"
 	},
 	{
 		"dexNumber": "001",
@@ -2352,7 +2565,8 @@ export const EGGS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2021-09-09",
@@ -2369,7 +2583,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0149_00_kairyu"
 	},
 	{
 		"dexNumber": "001",
@@ -2383,7 +2599,8 @@ export const EGGS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2400,7 +2617,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0196_00_eifie"
 	},
 	{
 		"dexNumber": "001",
@@ -2414,7 +2633,8 @@ export const EGGS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2431,7 +2651,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0197_00_blacky"
 	},
 	{
 		"dexNumber": "001",
@@ -2447,7 +2669,8 @@ export const EGGS = [
 		"pokemonWeak": "Psychic",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2022-07-16",
@@ -2464,7 +2687,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0237_00_kapoerer"
 	},
 	{
 		"dexNumber": "001",
@@ -2478,7 +2703,8 @@ export const EGGS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2495,7 +2721,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0470_00_leafia"
 	},
 	{
 		"dexNumber": "001",
@@ -2509,7 +2737,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2526,7 +2755,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0471_00_glacia"
 	},
 	{
 		"dexNumber": "001",
@@ -2540,7 +2771,8 @@ export const EGGS = [
 		"pokemonWeak": "Poison",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-11-21",
@@ -2557,7 +2789,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0767_00_ninnfi"
 	},
 	{
 		"dexNumber": "001",
@@ -2571,7 +2805,8 @@ export const EGGS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-12-27",
@@ -2588,7 +2823,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0810_00_00_sarunori"
 	},
 	{
 		"dexNumber": "001",
@@ -2602,7 +2839,8 @@ export const EGGS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-12-27",
@@ -2619,7 +2857,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0813_00_00_hibanny"
 	},
 	{
 		"dexNumber": "001",
@@ -2633,7 +2873,8 @@ export const EGGS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-12-27",
@@ -2650,7 +2891,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0816_00_00_messon"
 	},
 	{
 		"dexNumber": "001",
@@ -2666,7 +2909,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-02-22",
@@ -2683,7 +2927,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0863_00_31_nyaiking"
 	},
 	{
 		"dexNumber": "001",
@@ -2697,7 +2943,8 @@ export const EGGS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-09-12",
@@ -2714,7 +2961,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0906_00_00_nyahoja"
 	},
 	{
 		"dexNumber": "001",
@@ -2728,7 +2977,8 @@ export const EGGS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-09-12",
@@ -2745,7 +2995,9 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0909_00_00_hogator"
 	},
 	{
 		"dexNumber": "001",
@@ -2759,7 +3011,8 @@ export const EGGS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Strike<>Tech<>Support",
 		"syncPairRoleEX": "",
-		"syncPairEX": false,
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "1",
 		"releaseDate": "2023-09-12",
@@ -2776,6 +3029,8 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg"
-		]
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0912_00_00_kuwassu"
 	}
 ]
