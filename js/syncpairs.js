@@ -11048,7 +11048,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-04-15",
-		"syncPairAcquisition": "Costume Scout",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/Morty_0157_5.png",
@@ -14014,7 +14014,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-04-15",
-		"syncPairAcquisition": "Costume Scout",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Galar",
 		"images": [
 			"Sync Pairs/Marnie_0967_5.png",
@@ -18759,7 +18759,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-03-31",
-		"syncPairAcquisition": "Costume Scout",
+		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
 			"Sync Pairs/Rei_0628_5.png",
