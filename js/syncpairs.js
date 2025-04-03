@@ -3749,6 +3749,7 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
+			"Limited",
 			"Weather",
 			"Terrain",
 			"Region Circle",
@@ -20946,6 +20947,7 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
+			"Limited",
 			"Region Circle",
 			"Multiple Units",
 			"isMan",
