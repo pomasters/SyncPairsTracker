@@ -3736,7 +3736,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-03-31",
-		"syncPairAcquisition": "Academy Event",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Unova",
 		"images": [
 			"Sync Pairs/Rosa_0585_5.png",
@@ -20933,7 +20933,7 @@ export const SYNCPAIRS = [
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
 		"releaseDate": "2025-04-15",
-		"syncPairAcquisition": "Academy Event",
+		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
 			"Sync Pairs/Florian_0915_5.png",
