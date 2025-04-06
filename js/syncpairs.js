@@ -3755,7 +3755,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"Academy Sync Pair"
 		],
 		"internalTrainerName": "ch0101_42_mei",
 		"internalPokemonName": "pm0585_11_shikijika"
@@ -20951,7 +20952,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"Academy Sync Pair"
 		],
 		"internalTrainerName": "ch0286_00_svboy",
 		"internalPokemonName": "pm0915_00_00_gourton"
