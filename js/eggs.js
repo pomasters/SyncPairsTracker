@@ -2591,6 +2591,40 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
+		"pokemonNumber": "0175",
+		"pokemonName": "Togepi",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "1",
+		"releaseDate": "2025-04-20",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/Eggs/Bettie_0175_1.png",
+			"Sync Pairs/Eggs/Scottie_0175_1.png"
+		],
+		"themes": [
+			"Fairy",
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
+		],
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0175_00_togepy"
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
 		"pokemonNumber": "0196",
 		"pokemonName": "Espeon",
 		"pokemonGender": "",
