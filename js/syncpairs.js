@@ -1181,6 +1181,7 @@ export const SYNCPAIRS = [
 			"Old-Timer"
 		],
 		"tags": [
+			"GridMega",
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
@@ -1391,6 +1392,7 @@ export const SYNCPAIRS = [
 			"Researcher"
 		],
 		"tags": [
+			"GridMega",
 			"Multiple Units",
 			"isMan",
 			"First Unit"
@@ -1560,6 +1562,45 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0026_40_akane",
 		"internalPokemonName": "pm0586_14_mebukijika"
+	},
+	{
+		"dexNumber": "012",
+		"trainerName": "Whitney",
+		"trainerAlt": "",
+		"pokemonNumber": "0040",
+		"pokemonName": "Wigglytuff",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/Whitney_0040_5.png",
+			"Sync Pairs/Whitney_0040_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Johto",
+			"Gym Leader",
+			"Pigtails",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Region Circle",
+			"Wish Zone",
+			"Multiple Units",
+			"isWoman"
+		],
+		"internalTrainerName": "ch0026_00_akane",
+		"internalPokemonName": "pm0040_00_pukurin"
 	},
 	{
 		"dexNumber": "013",
@@ -1872,6 +1913,7 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"Multiple Pokemon",
 			"First Unit"
 		],
@@ -2000,6 +2042,7 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Unique Costume"
 		],
 		"internalTrainerName": "ch0019_10_yuki",
@@ -2689,6 +2732,7 @@ export const SYNCPAIRS = [
 			"Knowledgeable"
 		],
 		"tags": [
+			"GridMega",
 			"isMan",
 			"Multiple Units",
 			"First Unit"
@@ -2774,6 +2818,7 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Song Key",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"First Unit"
 		],
 		"internalTrainerName": "ch0099_00_jun",
@@ -2851,6 +2896,7 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
+			"GridMega",
 			"Buddy Move",
 			"Limited",
 			"Unique Costume",
@@ -4449,6 +4495,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
+			"GridMega",
+			"Wish Zone",
 			"Multiple Units",
 			"isWoman",
 			"Multiple Pokemon",
@@ -4497,6 +4545,44 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0012_10_corni",
 		"internalPokemonName": "pm0802_00_00_marshadow"
+	},
+	{
+		"dexNumber": "049",
+		"trainerName": "Korrina",
+		"trainerAlt": "",
+		"pokemonNumber": "0701",
+		"pokemonName": "Hawlucha",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Kalos",
+		"images": [
+			"Sync Pairs/Korrina_0701_5.png",
+			"Sync Pairs/Korrina_0701_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Kalos",
+			"Gym Leader",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Wish Zone",
+			"Region Circle",
+			"Multiple Units",
+			"isWoman"
+		],
+		"internalTrainerName": "ch0012_00_corni",
+		"internalPokemonName": "pm0761_00_rutya"
 	},
 	{
 		"dexNumber": "050",
@@ -5121,8 +5207,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
@@ -5130,7 +5216,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/Kahili_0733_4.png",
-			"Sync Pairs/Kahili_0733_5.png"
+			"Sync Pairs/Kahili_0733_5.png",
+			"Sync Pairs/Kahili_0733_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -5720,6 +5807,7 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"Song Key",
 			"Multiple Pokemon",
 			"First Unit"
@@ -5769,6 +5857,7 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Unique Costume"
 		],
 		"internalTrainerName": "ch0021_01_green",
@@ -5812,6 +5901,7 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Multiple Units",
 			"isMan",
 			"Villain Arc"
@@ -6473,6 +6563,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Mythical",
@@ -6807,6 +6898,54 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0176_00_togechick"
 	},
 	{
+		"dexNumber": "069",
+		"trainerName": "Elesa",
+		"trainerAlt": "Sygna Suit (Alt.)",
+		"pokemonNumber": "0642",
+		"pokemonName": "Thundurus",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form",
+			"Dynamax"
+		],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-04-27",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Elesa_0642_5.png",
+			"Sync Pairs/Elesa_0642_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Unova",
+			"Gym Leader",
+			"Sygna Suit",
+			"Artistic"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Terrain",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Rebuff"
+		],
+		"internalTrainerName": "ch0106_11_kamitsure",
+		"internalPokemonName": "pm0642_12_00_voltolos"
+	},
+	{
 		"dexNumber": "070",
 		"trainerName": "Caitlin",
 		"trainerAlt": "",
@@ -6880,6 +7019,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Unique Costume"
@@ -7087,6 +7227,7 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"First Unit"
 		],
 		"internalTrainerName": "ch0153_00_prim",
@@ -7167,6 +7308,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"isMan",
 			"Unique Costume"
 		],
@@ -7209,6 +7351,49 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0048_80_gima",
 		"internalPokemonName": "pm0625_00_kirikizan"
+	},
+	{
+		"dexNumber": "073",
+		"trainerName": "Grimsley",
+		"trainerAlt": "Kimono",
+		"pokemonNumber": "0359",
+		"pokemonName": "Absol",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Mega Evolution",
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-20",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/Grimsley_0359_5.png",
+			"Sync Pairs/Grimsley_0359_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Alola",
+			"Scarf",
+			"Free Spirit"
+		],
+		"tags": [
+			"GridMega",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		],
+		"internalTrainerName": "ch0048_80_gima",
+		"internalPokemonName": "pm0359_00_absol"
 	},
 	{
 		"dexNumber": "074",
@@ -7669,6 +7854,7 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Unique Costume"
 		],
 		"internalTrainerName": "ch0017_10_leaf",
@@ -8047,6 +8233,7 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Song Key",
 			"First Unit"
 		],
@@ -8217,6 +8404,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Buddy Move",
@@ -8521,6 +8709,7 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Grid5",
+			"GridMega",
 			"GridExpansion",
 			"Song Key",
 			"First Unit"
@@ -8606,6 +8795,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Limited",
 			"Wish Zone",
 			"Multiple Units",
@@ -9040,6 +9230,7 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Grid5",
 			"GridExpansion",
+			"GridMega",
 			"Multiple Pokemon",
 			"Unique Costume",
 			"First Unit"
@@ -9263,6 +9454,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"isWoman",
 			"First Unit",
 			"Multiple Pokemon"
@@ -9876,6 +10068,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Region Circle",
+			"GridMega",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
@@ -9962,6 +10155,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"Song Key",
 			"First Unit"
 		],
@@ -10008,6 +10202,7 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Shiny",
 			"Rebuff",
+			"GridMega",
 			"Grid5",
 			"Multiple Pokemon",
 			"Unique Costume"
@@ -10125,6 +10320,7 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
+			"GridMega",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
@@ -10210,6 +10406,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
+			"GridMega",
 			"Limited",
 			"Multiple Units",
 			"Holiday",
@@ -10464,6 +10661,48 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0116_00_hikari",
 		"internalPokemonName": "pm0413_11_minomadam"
+	},
+	{
+		"dexNumber": "094",
+		"trainerName": "Dawn",
+		"trainerAlt": "",
+		"pokemonNumber": "0395",
+		"pokemonName": "Empoleon",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Mix Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Dawn_0395_5.png",
+			"Sync Pairs/Dawn_0395_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Sinnoh",
+			"Main Character",
+			"Scarf",
+			"Contest Lover"
+		],
+		"tags": [
+			"Starter",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman"
+		],
+		"internalTrainerName": "ch0116_00_hikari",
+		"internalPokemonName": "pm0395_00_emperte"
 	},
 	{
 		"dexNumber": "095",
@@ -10939,6 +11178,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isMan",
 			"Multiple Pokemon",
@@ -11322,6 +11562,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Legendary",
+			"Grid3",
+			"GridExpansion",
 			"Multiple Units",
 			"Song Key",
 			"First Unit"
@@ -11401,6 +11643,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Mythical",
 			"Buddy Move",
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"Multiple Units",
 			"isMan",
@@ -11972,6 +12216,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
+			"GridMega",
 			"Song Key",
 			"First Unit",
 			"Multiple Pokemon"
@@ -12034,7 +12279,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Bug",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": true,
@@ -12059,10 +12304,59 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid5",
 			"GridExpansion",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
 			"Song Key",
 			"First Unit"
 		],
 		"internalTrainerName": "ch0132_00_adeku",
+		"internalPokemonName": "pm0637_00_ulgamoth"
+	},
+	{
+		"dexNumber": "108",
+		"trainerName": "Alder",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0637|2",
+		"pokemonName": "Volcarona",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-04-30",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Alder_0637_2_5.png",
+			"Sync Pairs/Alder_0637_2_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Unova",
+			"Champion",
+			"Arc Suit",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Rebuff",
+			"Song Key"
+		],
+		"internalTrainerName": "ch0132_90_adeku",
 		"internalPokemonName": "pm0637_00_ulgamoth"
 	},
 	{
@@ -12289,7 +12583,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": true,
@@ -12760,6 +13054,45 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0571_00_zoroark"
 	},
 	{
+		"dexNumber": "112",
+		"trainerName": "N",
+		"trainerAlt": "",
+		"pokemonNumber": "0567",
+		"pokemonName": "Archeops",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Training Ticket Exchange",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/N_0567_5.png",
+			"Sync Pairs/N_0567_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Unova",
+			"Rival",
+			"Villain.",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Fossil",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan"
+		],
+		"internalTrainerName": "ch0089_00_n",
+		"internalPokemonName": "pm0567_00_archeos"
+	},
+	{
 		"dexNumber": "113",
 		"trainerName": "May",
 		"trainerAlt": "",
@@ -12794,6 +13127,7 @@ export const SYNCPAIRS = [
 			"Contest Lover"
 		],
 		"tags": [
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Weather",
@@ -12837,6 +13171,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Unique Costume"
@@ -12878,6 +13213,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Terrain",
@@ -12923,6 +13259,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Starter",
@@ -13678,7 +14015,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": true,
@@ -13782,6 +14119,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
@@ -14071,6 +14409,7 @@ export const SYNCPAIRS = [
 			"Grown Woman"
 		],
 		"tags": [
+			"GridMega",
 			"Limited",
 			"Multiple Units",
 			"isWoman",
@@ -14161,6 +14500,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"isWoman",
 			"Limited",
+			"GridMega",
 			"Multiple Units",
 			"Wish Zone",
 			"Mythical",
@@ -14334,6 +14674,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Buddy Move",
 			"Limited",
+			"GridMega",
 			"Wish Zone",
 			"Unique Costume",
 			"Multiple Units",
@@ -15421,6 +15762,7 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Weather",
 			"First Unit"
@@ -15983,6 +16325,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
+			"GridMega",
+			"Multiple Pokemon",
 			"isMan",
 			"First Unit"
 		],
@@ -16787,6 +17131,49 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0818_00_00_intereon"
 	},
 	{
+		"dexNumber": "149",
+		"trainerName": "Bede",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "1006",
+		"pokemonName": "Iron Valiant",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-15",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/Bede_1006_5.png",
+			"Sync Pairs/Bede_1006_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Galar",
+			"Rival",
+			"Sygna Suit",
+			"Sunglasses"
+		],
+		"tags": [
+			"Paradox",
+			"Grid5",
+			"Buddy Move",
+			"Wish Zone",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan"
+		],
+		"internalTrainerName": "ch0246_10_beet",
+		"internalPokemonName": "pm1006_00_00_tetsunobujin"
+	},
+	{
 		"dexNumber": "150",
 		"trainerName": "Looker",
 		"trainerAlt": "",
@@ -16855,6 +17242,7 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
+			"GridMega",
 			"isWoman",
 			"Wish Zone",
 			"Villain Arc",
@@ -17080,7 +17468,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": true,
@@ -19179,6 +19567,49 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0941_00_00_taikaiden"
 	},
 	{
+		"dexNumber": "191",
+		"trainerName": "Iono",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "1021",
+		"pokemonName": "Raging Bolt",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-04-25",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Iono_1021_5.png",
+			"Sync Pairs/Iono_1021_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Paldea",
+			"Gym Leader",
+			"Sygna Suit",
+			"Artistic"
+		],
+		"tags": [
+			"Paradox",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman"
+		],
+		"internalTrainerName": "ch0296_10_nanjamo",
+		"internalPokemonName": "pm1021_00_00_takeruraiko"
+	},
+	{
 		"dexNumber": "192",
 		"trainerName": "Grusha",
 		"trainerAlt": "",
@@ -19902,6 +20333,7 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"New Year",
 			"Buddy Move",
+			"GridMega",
 			"Limited",
 			"Wish Zone",
 			"Unique Costume",
@@ -19949,6 +20381,7 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Buddy Move",
 			"Limited",
+			"Multiple Units",
 			"isMan",
 			"Rebuff",
 			"Song Key",
@@ -19956,6 +20389,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0304_00_aoki",
 		"internalPokemonName": "pm0982_11_00_nokokocchi"
+	},
+	{
+		"dexNumber": "205",
+		"trainerName": "Larry",
+		"trainerAlt": "",
+		"pokemonNumber": "0916",
+		"pokemonName": "Oinkologne",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Larry_0916_4.png",
+			"Sync Pairs/Larry_0916_5.png",
+			"Sync Pairs/Larry_0916_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Paldea",
+			"Gym Leader",
+			"Elite Four",
+			"Free Spirit"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isMan"
+		],
+		"internalTrainerName": "ch0304_00_aoki",
+		"internalPokemonName": "pm0916_01_00_perfuton"
 	},
 	{
 		"dexNumber": "206",
@@ -20042,6 +20516,45 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0252_00_kabu",
 		"internalPokemonName": "pm0324_00_cotoise"
+	},
+	{
+		"dexNumber": "206",
+		"trainerName": "Kabu",
+		"trainerAlt": "",
+		"pokemonNumber": "0038",
+		"pokemonName": "Ninetales",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/Kabu_0038_5.png",
+			"Sync Pairs/Kabu_0038_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Galar",
+			"Gym Leader",
+			"Passionate Spirit",
+			"Veteran Trainer"
+		],
+		"tags": [
+			"Region Circle",
+			"Weather",
+			"Multiple Units",
+			"isMan"
+		],
+		"internalTrainerName": "ch0252_00_kabu",
+		"internalPokemonName": "pm0038_00_kyukon"
 	},
 	{
 		"dexNumber": "207",
@@ -21122,6 +21635,88 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0182_00_ilima",
 		"internalPokemonName": "pm0827_00_mongoose2"
+	},
+	{
+		"dexNumber": "229",
+		"trainerName": "Teddy",
+		"trainerAlt": "Hiker",
+		"pokemonNumber": "0953",
+		"pokemonName": "Rellor",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": false,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "3",
+		"releaseDate": "2025-04-29",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Teddy_0953_3.png",
+			"Sync Pairs/Teddy_0953_4.png",
+			"Sync Pairs/Teddy_0953_5.png"
+		],
+		"themes": [
+			"Bug",
+			"Sinnoh",
+			"Nature Lover"
+		],
+		"tags": [
+			"Shiny",
+			"Limited",
+			"isMan",
+			"First Unit"
+		],
+		"internalTrainerName": "ch0080_00_yamaotoko",
+		"internalPokemonName": "pm0953_00_00_shigaroko_rare"
+	},
+	{
+		"dexNumber": "230",
+		"trainerName": "Benga",
+		"trainerAlt": "",
+		"pokemonNumber": "0637",
+		"pokemonName": "Volcarona",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Dynamax"
+		],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-05-05",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Benga_0637_5.png",
+			"Sync Pairs/Benga_0637_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Unova",
+			"Battle Facility Foe",
+			"Free Spirit",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Pokemon",
+			"isMan",
+			"First Unit"
+		],
+		"internalTrainerName": "ch0212_00_banjiro",
+		"internalPokemonName": "pm0637_00_ulgamoth"
 	}
 ]
 
@@ -21172,6 +21767,7 @@ const P = {
 		"Grid3",
 		"Grid5",
 		"GridExpansion",
+		"GridMega",
 		"Buddy Move",
 		"Limited",
 		"Weather",
@@ -21201,4 +21797,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.55.0";
+export const VERSION = "v2.56.0";
