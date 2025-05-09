@@ -34,7 +34,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0025_00_pikachu"
@@ -73,7 +74,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"Starter"
+			"Starter",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0255_00_achamo"
@@ -115,7 +117,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Pokemon",
-			"ZMove"
+			"ZMove",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0873_00_sun"
@@ -151,7 +154,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Legendary",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0638_00_cobalon"
@@ -187,7 +191,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Legendary",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0377_00_regirock"
@@ -223,7 +228,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Legendary",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0481_00_emrit"
@@ -259,7 +265,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"Multiple Units",
-			"Master Passive Teamwork"
+			"Master Passive Teamwork",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0379_00_registeel"
@@ -324,7 +331,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"Multiple Pairs"
+			"Multiple Pairs",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0869_11_11_mawhip"
@@ -389,7 +397,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"Multiple Pairs"
+			"Multiple Pairs",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "hero_128.ktx.png",
 		"internalPokemonName": "pm0243_00_raikou"
@@ -424,7 +433,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0869_11_11_mawhip"
@@ -464,7 +474,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0015_00_takeshi",
 		"internalPokemonName": "pm0095_00_iwark"
@@ -505,7 +516,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0015_01_takeshi",
 		"internalPokemonName": "pm0248_00_bangiras"
@@ -545,7 +557,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0015_00_takeshi",
 		"internalPokemonName": "pm0141_00_kabutops"
@@ -583,7 +596,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0110_01_kasumi",
 		"internalPokemonName": "pm0121_00_starmie"
@@ -622,7 +636,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0110_00_kasumi",
 		"internalPokemonName": "pm0054_00_koduck"
@@ -663,7 +678,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0110_10_kasumi",
 		"internalPokemonName": "pm0134_00_showers"
@@ -705,7 +721,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0035_00_matthies",
 		"internalPokemonName": "pm0101_00_marumine"
@@ -744,7 +761,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0035_00_matthies",
 		"internalPokemonName": "pm0026_00_raichu"
@@ -784,7 +802,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0008_00_erika",
 		"internalPokemonName": "pm0045_01_ruffresia"
@@ -824,7 +843,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0008_40_erika",
 		"internalPokemonName": "pm0863_00_lei"
@@ -862,7 +882,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0008_00_erika",
 		"internalPokemonName": "pm0114_00_monjara"
@@ -904,7 +925,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0008_10_erika",
 		"internalPokemonName": "pm0470_00_leafia"
@@ -945,7 +967,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0008_41_erika",
 		"internalPokemonName": "pm0869_00_hanakamakiri2"
@@ -986,7 +1009,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0059_00_katsura",
 		"internalPokemonName": "pm0078_00_gallop"
@@ -1026,7 +1050,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0005_00_kanna",
 		"internalPokemonName": "pm0131_00_laplace"
@@ -1064,7 +1089,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0005_00_kanna",
 		"internalPokemonName": "pm0091_00_parshen"
@@ -1103,7 +1129,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0057_00_shiba",
 		"internalPokemonName": "pm0068_00_kairiky"
@@ -1142,7 +1169,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0057_00_shiba",
 		"internalPokemonName": "pm0095_00_iwark"
@@ -1185,7 +1213,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0061_00_kikuko",
 		"internalPokemonName": "pm0094_00_gangar"
@@ -1223,7 +1252,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0061_00_kikuko",
 		"internalPokemonName": "pm0024_00_arbok"
@@ -1268,7 +1298,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0018_00_chris",
 		"internalPokemonName": "pm0160_00_ordile"
@@ -1312,7 +1343,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Multiple Pokemon",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0018_10_chris",
 		"internalPokemonName": "pm0245_00_suicune"
@@ -1352,7 +1384,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Terrain",
-			"Eeveelution"
+			"Eeveelution",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0018_00_chris",
 		"internalPokemonName": "pm0135_00_thunders"
@@ -1395,7 +1428,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Units",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0045_00_tsukushi",
 		"internalPokemonName": "pm0015_00_spear"
@@ -1434,7 +1468,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0045_00_tsukushi",
 		"internalPokemonName": "pm0123_00_strike"
@@ -1477,7 +1512,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Unique Costume",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0045_40_tsukushi",
 		"internalPokemonName": "pm0402_00_korotock"
@@ -1515,7 +1551,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0026_00_akane",
 		"internalPokemonName": "pm0241_00_miltank"
@@ -1558,7 +1595,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Terrain",
 			"Holiday",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0026_40_akane",
 		"internalPokemonName": "pm0586_14_mebukijika"
@@ -1597,7 +1635,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Wish Zone",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0026_00_akane",
 		"internalPokemonName": "pm0040_00_pukurin"
@@ -1638,7 +1677,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0032_00_yanagi",
 		"internalPokemonName": "pm0087_00_jugon"
@@ -1678,7 +1718,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0028_00_ibuki",
 		"internalPokemonName": "pm0230_00_kingdra"
@@ -1717,7 +1758,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0028_40_ibuki",
 		"internalPokemonName": "pm0856_00_doragon"
@@ -1758,7 +1800,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0060_00_anzu",
 		"internalPokemonName": "pm0168_00_ariados"
@@ -1796,7 +1839,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0060_00_anzu",
 		"internalPokemonName": "pm0169_00_crobat"
@@ -1834,7 +1878,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0047_00_itsuki",
 		"internalPokemonName": "pm0178_01_natio"
@@ -1872,7 +1917,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0047_00_itsuki",
 		"internalPokemonName": "pm0080_00_yadoran"
@@ -1915,7 +1961,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"GridMega",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0062_00_karin",
 		"internalPokemonName": "pm0229_00_hellgar"
@@ -1954,7 +2001,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0062_00_karin",
 		"internalPokemonName": "pm0197_00_blacky"
@@ -1997,7 +2045,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0019_00_yuki",
 		"internalPokemonName": "pm0254_00_jukain"
@@ -2043,7 +2092,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"GridMega",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0019_10_yuki",
 		"internalPokemonName": "pm0381_00_latios"
@@ -2081,7 +2131,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0019_00_yuki",
 		"internalPokemonName": "pm0277_00_ohsubame"
@@ -2125,6 +2176,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Weather",
+			"WeatherEX",
 			"Wish Zone",
 			"Region Circle",
 			"Unique Costume",
@@ -2133,7 +2185,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0019_90_yuki",
 		"internalPokemonName": "pm0383_00_groudon_rare"
@@ -2175,7 +2228,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0044_00_tsutsuji",
 		"internalPokemonName": "pm0476_00_dainose"
@@ -2216,7 +2270,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0044_40_tsutsuji",
 		"internalPokemonName": "pm0867_00_31_deathbarn"
@@ -2256,7 +2311,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0043_00_toki",
 		"internalPokemonName": "pm0297_00_hariteyama"
@@ -2295,7 +2351,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0029_00_asuna",
 		"internalPokemonName": "pm0324_00_cotoise"
@@ -2333,7 +2390,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0009_00_senri",
 		"internalPokemonName": "pm0289_00_kekking"
@@ -2373,7 +2431,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Weather",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0042_00_nagi",
 		"internalPokemonName": "pm0279_00_pelipper"
@@ -2413,7 +2472,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0042_00_nagi",
 		"internalPokemonName": "pm0334_00_tyltalis"
@@ -2452,7 +2512,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0031_00_fuu",
 		"internalPokemonName": "pm0338_00_solrock"
@@ -2493,7 +2554,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0031_40_fuu",
 		"internalPokemonName": "pm0385_00_jirachi"
@@ -2532,7 +2594,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0030_00_ran",
 		"internalPokemonName": "pm0337_00_lunatone"
@@ -2574,7 +2637,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0030_40_ran",
 		"internalPokemonName": "pm0881_00_beastpurple"
@@ -2616,7 +2680,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0049_00_fuyo",
 		"internalPokemonName": "pm0477_00_yonoir"
@@ -2656,7 +2721,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0049_40_fuyo",
 		"internalPokemonName": "pm0563_00_desukarn"
@@ -2694,7 +2760,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0094_00_genji",
 		"internalPokemonName": "pm0373_00_bohmander"
@@ -2735,7 +2802,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0046_00_datsura",
 		"internalPokemonName": "pm0127_00_kailios"
@@ -2773,7 +2841,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0046_00_datsura",
 		"internalPokemonName": "pm0291_00_tekkanin"
@@ -2819,7 +2888,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0099_00_jun",
 		"internalPokemonName": "pm0395_00_emperte"
@@ -2858,7 +2928,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0099_00_jun",
 		"internalPokemonName": "pm0407_00_roserade"
@@ -2901,7 +2972,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0099_40_jun",
 		"internalPokemonName": "pm0214_00_heracros"
@@ -2939,7 +3011,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0099_00_jun",
 		"internalPokemonName": "pm0419_00_floazel"
@@ -2981,7 +3054,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Fossil",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0038_00_hyouta",
 		"internalPokemonName": "pm0409_00_rampald"
@@ -3021,7 +3095,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Pokemon",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0027_00_natane",
 		"internalPokemonName": "pm0407_00_roserade"
@@ -3063,7 +3138,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0027_40_natane",
 		"internalPokemonName": "pm0857_00_darin"
@@ -3103,7 +3179,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0050_00_sumomo",
 		"internalPokemonName": "pm0308_01_charem"
@@ -3142,7 +3219,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0010_00_maximum",
 		"internalPokemonName": "pm0419_00_floazel"
@@ -3183,7 +3261,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Weather",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0025_00_suzuna",
 		"internalPokemonName": "pm0460_01_yukinooh"
@@ -3223,7 +3302,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0025_00_suzuna",
 		"internalPokemonName": "pm0478_00_yukimenoko"
@@ -3266,7 +3346,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0025_40_suzuna",
 		"internalPokemonName": "pm0555_11_31_dhihidaruma"
@@ -3305,7 +3386,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0006_00_oba",
 		"internalPokemonName": "pm0392_00_goukazaru"
@@ -3344,7 +3426,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0041_00_nejiki",
 		"internalPokemonName": "pm0437_00_dohtakun"
@@ -3383,7 +3466,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0041_00_nejiki",
 		"internalPokemonName": "pm0462_00_jibacoil"
@@ -3423,7 +3507,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0023_00_momi",
 		"internalPokemonName": "pm0242_00_happinas"
@@ -3461,7 +3546,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0023_00_momi",
 		"internalPokemonName": "pm0321_00_whaloh"
@@ -3501,7 +3587,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0097_00_mai",
 		"internalPokemonName": "pm0059_00_windie"
@@ -3547,7 +3634,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0097_40_mai",
 		"internalPokemonName": "pm0492_11_shaymin"
@@ -3589,7 +3677,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0101_00_mei",
 		"internalPokemonName": "pm0497_00_jalorda"
@@ -3629,7 +3718,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0101_10_mei",
 		"internalPokemonName": "pm0225_00_delibird"
@@ -3668,7 +3758,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Starter"
+			"Starter",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0101_00_mei",
 		"internalPokemonName": "pm0502_00_futachimaru"
@@ -3710,7 +3801,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Mythical",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0101_41_mei",
 		"internalPokemonName": "pm0492_12_shaymin"
@@ -3758,7 +3850,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0101_90_mei",
 		"internalPokemonName": "pm0648_11_meloetta"
@@ -3802,7 +3895,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
-			"Academy Sync Pair"
+			"Academy Sync Pair",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0101_42_mei",
 		"internalPokemonName": "pm0585_11_shikijika"
@@ -3843,7 +3937,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0033_00_yakon",
 		"internalPokemonName": "pm0537_00_gamageroge"
@@ -3883,7 +3978,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0016_00_huuro",
 		"internalPokemonName": "pm0581_00_swanna"
@@ -3921,7 +4017,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0016_40_huuro",
 		"internalPokemonName": "pm0468_00_togekiss"
@@ -3966,7 +4063,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Unique Costume",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0016_41_huuro",
 		"internalPokemonName": "pm0641_12_tornelos"
@@ -4006,7 +4104,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0016_00_huuro",
 		"internalPokemonName": "pm0521_01_kenhallow"
@@ -4044,7 +4143,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0040_00_hachiku",
 		"internalPokemonName": "pm0615_00_freegeo"
@@ -4084,7 +4184,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0092_00_iris",
 		"internalPokemonName": "pm0612_00_ononokus"
@@ -4125,7 +4226,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0092_80_iris",
 		"internalPokemonName": "pm0635_00_sazandora"
@@ -4166,7 +4268,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Wish Zone",
 			"Ultra Beast",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0092_40_iris",
 		"internalPokemonName": "pm0887_00_beastdoku2"
@@ -4207,7 +4310,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0011_00_homika",
 		"internalPokemonName": "pm0545_00_pendror"
@@ -4256,7 +4360,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Song Key",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0011_10_homika",
 		"internalPokemonName": "pm0849_11_00_strinder"
@@ -4295,7 +4400,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Fossil",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0052_00_shizui",
 		"internalPokemonName": "pm0565_00_abagoura"
@@ -4335,7 +4441,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"First Unit",
 			"Multiple Pokemon",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0024_00_shikimi",
 		"internalPokemonName": "pm0609_00_chandela"
@@ -4378,7 +4485,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0024_40_shikimi",
 		"internalPokemonName": "pm0478_00_yukimenoko"
@@ -4416,7 +4524,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0063_00_renbu",
 		"internalPokemonName": "pm0534_00_roubushin"
@@ -4456,7 +4565,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Fossil",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0053_00_zakuro",
 		"internalPokemonName": "pm0740_00_aurora2"
@@ -4496,11 +4606,11 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"GridMega",
-			"Wish Zone",
 			"Multiple Units",
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0012_00_corni",
 		"internalPokemonName": "pm0448_00_lucario"
@@ -4541,7 +4651,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Unique Costume",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0012_10_corni",
 		"internalPokemonName": "pm0802_00_00_marshadow"
@@ -4579,7 +4690,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0012_00_corni",
 		"internalPokemonName": "pm0761_00_rutya"
@@ -4619,7 +4731,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0037_00_fukuji",
 		"internalPokemonName": "pm0071_00_utsubot"
@@ -4657,7 +4770,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0022_00_urup",
 		"internalPokemonName": "pm0751_00_ice3"
@@ -4696,7 +4810,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0096_00_zumi",
 		"internalPokemonName": "pm0757_00_shrimp2"
@@ -4735,7 +4850,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0096_10_zumi",
 		"internalPokemonName": "pm0224_00_okutank"
@@ -4776,7 +4892,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0055_00_gampi",
 		"internalPokemonName": "pm0746_11_sword3"
@@ -4820,7 +4937,8 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0098_00_hau",
 		"internalPokemonName": "pm0026_61_araichu"
@@ -4866,7 +4984,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"ZMove",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0098_10_hau",
 		"internalPokemonName": "pm0830_00_tikitori"
@@ -4903,7 +5022,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0098_00_hau",
 		"internalPokemonName": "pm0860_00_yashigani2"
@@ -4943,7 +5063,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0036_00_mamane",
 		"internalPokemonName": "pm0858_00_nijichu"
@@ -4982,7 +5103,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0036_00_mamane",
 		"internalPokemonName": "pm0076_61_agolonya"
@@ -5024,7 +5146,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0034_00_matsurika",
 		"internalPokemonName": "pm0210_00_granbulu"
@@ -5070,7 +5193,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"ZMove",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0034_10_matsurika",
 		"internalPokemonName": "pm0833_00_tikisakana"
@@ -5112,7 +5236,8 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0051_00_litchi",
 		"internalPokemonName": "pm0829_12_okami2night"
@@ -5150,7 +5275,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0051_00_litchi",
 		"internalPokemonName": "pm0766_00_diamond"
@@ -5190,7 +5316,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0013_00_hapu",
 		"internalPokemonName": "pm0840_00_roba2"
@@ -5229,7 +5356,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0058_00_kahiri",
 		"internalPokemonName": "pm0809_00_kuchibashi3"
@@ -5269,7 +5397,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0039_00_viola",
 		"internalPokemonName": "pm0284_00_amemoth"
@@ -5313,7 +5442,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0039_40_viola",
 		"internalPokemonName": "pm0708_11_butterfly"
@@ -5353,7 +5483,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"ZMove",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0056_00_kuchinashi",
 		"internalPokemonName": "pm0053_61_apersian"
@@ -5392,7 +5523,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0054_00_kyo",
 		"internalPokemonName": "pm0169_00_crobat"
@@ -5432,7 +5564,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Weather",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0007_00_acerola",
 		"internalPokemonName": "pm0823_00_sunaba2"
@@ -5474,7 +5607,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0007_40_acerola",
 		"internalPokemonName": "pm0819_11_horror"
@@ -5513,7 +5647,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0007_00_acerola",
 		"internalPokemonName": "pm0354_00_juppeta"
@@ -5559,7 +5694,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"ZMove",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0007_10_acerola",
 		"internalPokemonName": "pm0832_00_tikiushi"
@@ -5603,7 +5739,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0007_41_acerola",
 		"internalPokemonName": "pm0593_00_burungel"
@@ -5642,7 +5779,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0014_01_cheren",
 		"internalPokemonName": "pm0508_00_mooland"
@@ -5689,7 +5827,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Neo Champion",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0014_90_cheren",
 		"internalPokemonName": "pm0641_11_tornelos"
@@ -5727,7 +5866,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0014_01_cheren",
 		"internalPokemonName": "pm0509_00_choroneko"
@@ -5765,7 +5905,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0014_01_cheren",
 		"internalPokemonName": "pm0510_00_lepardas"
@@ -5810,7 +5951,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_00_green",
 		"internalPokemonName": "pm0018_00_pigeot"
@@ -5858,7 +6000,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"GridMega",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_01_green",
 		"internalPokemonName": "pm0009_00_kamex"
@@ -5904,7 +6047,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Units",
 			"isMan",
-			"Villain Arc"
+			"Villain Arc",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0021_80_green",
 		"internalPokemonName": "pm0142_00_ptera"
@@ -5944,7 +6088,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_00_green",
 		"internalPokemonName": "pm0059_00_windie"
@@ -5982,7 +6127,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0021_00_green",
 		"internalPokemonName": "pm0103_00_nassy"
@@ -6027,7 +6173,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_90_green",
 		"internalPokemonName": "pm0145_00_thunder"
@@ -6071,7 +6218,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_80_green",
 		"internalPokemonName": "pm0006_00_lizardon"
@@ -6109,7 +6257,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0021_00_green",
 		"internalPokemonName": "pm0065_00_foodin"
@@ -6154,7 +6303,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"First Unit",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0002_00_kotone",
 		"internalPokemonName": "pm0154_01_meganium"
@@ -6193,7 +6343,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0002_40_kotone",
 		"internalPokemonName": "pm0039_00_purin"
@@ -6236,7 +6387,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Villain Arc",
 			"Unique Costume",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0002_10_kotone",
 		"internalPokemonName": "pm0251_00_celebi"
@@ -6277,7 +6429,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Weather",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0002_00_kotone",
 		"internalPokemonName": "pm0134_00_showers"
@@ -6317,7 +6470,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0002_41_kotone",
 		"internalPokemonName": "pm0231_00_gomazou"
@@ -6359,7 +6513,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0020_00_toya",
 		"internalPokemonName": "pm0503_00_daikenki"
@@ -6397,7 +6552,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0020_40_toya",
 		"internalPokemonName": "pm0262_00_graena"
@@ -6440,7 +6596,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Grid5",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0020_10_toya",
 		"internalPokemonName": "pm0649_11_genesect"
@@ -6480,7 +6637,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0020_00_toya",
 		"internalPokemonName": "pm0471_00_glacia"
@@ -6524,7 +6682,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0004_00_toko",
 		"internalPokemonName": "pm0500_00_enbuoh"
@@ -6568,7 +6727,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Mythical",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0004_40_toko",
 		"internalPokemonName": "pm0772_00_pinkdiamond"
@@ -6608,7 +6768,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Shiny",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0004_41_toko",
 		"internalPokemonName": "pm0853_00_00_otosupus_rare"
@@ -6651,7 +6812,8 @@ export const SYNCPAIRS = [
 			"Mythical",
 			"Grid5",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0004_10_toko",
 		"internalPokemonName": "pm0494_00_victini"
@@ -6692,7 +6854,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0004_00_toko",
 		"internalPokemonName": "pm0470_00_leafia"
@@ -6732,7 +6895,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0106_00_kamitsure",
 		"internalPokemonName": "pm0523_00_zebraika"
@@ -6770,7 +6934,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0106_10_kamitsure",
 		"internalPokemonName": "pm0479_11_rotom"
@@ -6814,7 +6979,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Grid5",
 			"GridExpansion",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0106_80_kamitsure",
 		"internalPokemonName": "pm0587_00_00_emonga"
@@ -6852,7 +7018,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0106_00_kamitsure",
 		"internalPokemonName": "pm0595_00_bachuru"
@@ -6892,7 +7059,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Palentine",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0106_40_kamitsure",
 		"internalPokemonName": "pm0176_00_togechick"
@@ -6940,7 +7108,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0106_11_kamitsure",
 		"internalPokemonName": "pm0642_12_00_voltolos"
@@ -6980,7 +7149,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0095_00_cattleya",
 		"internalPokemonName": "pm0579_00_lanculus"
@@ -7022,7 +7192,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0095_40_cattleya",
 		"internalPokemonName": "pm0302_00_yamirami"
@@ -7062,7 +7233,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0003_00_calme",
 		"internalPokemonName": "pm0734_00_cat2"
@@ -7109,7 +7281,9 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0003_90_calme",
 		"internalPokemonName": "pm0725_00_frog3_rare"
@@ -7147,7 +7321,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Starter",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0003_00_calme",
 		"internalPokemonName": "pm0717_00_fox1"
@@ -7187,7 +7362,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0003_00_calme",
 		"internalPokemonName": "pm0767_00_ninnfi"
@@ -7228,7 +7404,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"GridMega",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0153_00_prim",
 		"internalPokemonName": "pm0362_00_onigohri"
@@ -7268,7 +7445,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0048_00_gima",
 		"internalPokemonName": "pm0510_00_lepardas"
@@ -7310,7 +7488,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"GridMega",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0048_10_gima",
 		"internalPokemonName": "pm0319_00_samehader"
@@ -7347,7 +7526,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0048_80_gima",
 		"internalPokemonName": "pm0625_00_kirikizan"
@@ -7360,7 +7540,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Absol",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Mega Evolution",
+			"Mega Evolution"
 		],
 		"pokemonType": "Dark",
 		"pokemonWeak": "Bug",
@@ -7390,7 +7570,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0048_80_gima",
 		"internalPokemonName": "pm0359_00_absol"
@@ -7432,7 +7613,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Legendary",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0140_00_sakaki",
 		"internalPokemonName": "pm0150_00_mewtwo"
@@ -7477,7 +7659,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0140_10_sakaki",
 		"internalPokemonName": "pm0034_00_00_nidoking"
@@ -7516,7 +7699,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0140_80_sakaki",
 		"internalPokemonName": "pm0053_00_persian"
@@ -7555,7 +7739,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Multiple Units",
 			"isMan",
-			"Wish Zone"
+			"Wish Zone",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0140_00_sakaki",
 		"internalPokemonName": "pm0112_00_sidon"
@@ -7592,7 +7777,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0140_00_sakaki",
 		"internalPokemonName": "pm0033_00_nidorino"
@@ -7637,7 +7823,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0140_11_sakaki",
 		"internalPokemonName": "pm0876_00_beastorange"
@@ -7681,7 +7868,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0112_00_hibiki",
 		"internalPokemonName": "pm0157_00_bakphoon"
@@ -7724,7 +7912,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Unique Costume",
 			"Master Passive Spirit",
-			"Wish Zone"
+			"Wish Zone",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0112_10_hibiki",
 		"internalPokemonName": "pm0249_00_lugia"
@@ -7766,7 +7955,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0112_00_hibiki",
 		"internalPokemonName": "pm0250_00_houou"
@@ -7808,7 +7998,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveStatus"
 		],
 		"internalTrainerName": "ch0017_00_leaf",
 		"internalPokemonName": "pm0133_00_eievui"
@@ -7855,7 +8046,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"GridMega",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0017_10_leaf",
 		"internalPokemonName": "pm0003_01_fushigibana"
@@ -7901,7 +8093,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0017_90_leaf",
 		"internalPokemonName": "pm0146_00_fire"
@@ -7938,7 +8131,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0017_00_leaf",
 		"internalPokemonName": "pm0036_00_pixy"
@@ -7981,7 +8175,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0017_00_leaf",
 		"internalPokemonName": "pm0009_00_kamex"
@@ -8026,7 +8221,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0111_00_wataru",
 		"internalPokemonName": "pm0149_00_kairyu"
@@ -8064,7 +8260,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0111_40_wataru",
 		"internalPokemonName": "pm0130_00_gyarados"
@@ -8102,7 +8299,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0111_00_wataru",
 		"internalPokemonName": "pm0148_00_hakuryu"
@@ -8141,7 +8339,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0111_00_wataru",
 		"internalPokemonName": "pm0230_00_kingdra"
@@ -8186,7 +8385,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0111_90_wataru",
 		"internalPokemonName": "pm0149_00_kairyu"
@@ -8235,7 +8435,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"GridMega",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0091_00_shirona",
 		"internalPokemonName": "pm0445_01_gaburias"
@@ -8278,7 +8479,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0091_01_shirona",
 		"internalPokemonName": "pm0818_00_uroko3"
@@ -8324,7 +8526,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0091_20_shirona",
 		"internalPokemonName": "pm0487_11_giratina"
@@ -8365,7 +8568,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0091_00_shirona",
 		"internalPokemonName": "pm0423_11_tritodon"
@@ -8411,7 +8615,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Pokemon",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0091_10_shirona",
 		"internalPokemonName": "pm0448_00_lucario"
@@ -8460,7 +8665,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isWoman",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0091_90_shirona",
 		"internalPokemonName": "pm0445_01_gaburias"
@@ -8499,7 +8705,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0091_00_shirona",
 		"internalPokemonName": "pm0442_00_mikaruge"
@@ -8543,7 +8750,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0001_00_kukui",
 		"internalPokemonName": "pm0829_11_okami2noon"
@@ -8586,7 +8794,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0129_00_higana",
 		"internalPokemonName": "pm0384_00_rayquaza"
@@ -8624,7 +8833,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0129_00_higana",
 		"internalPokemonName": "pm0373_00_bohmander"
@@ -8665,7 +8875,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0129_40_higana",
 		"internalPokemonName": "pm0828_00_00_foxly"
@@ -8712,7 +8923,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_00_daigo",
 		"internalPokemonName": "pm0376_00_metagross"
@@ -8755,7 +8967,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_40_daigo",
 		"internalPokemonName": "pm0028_61_asandpan"
@@ -8804,7 +9017,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Multiple Pokemon",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_50_daigo",
 		"internalPokemonName": "pm0384_00_rayquaza_rare"
@@ -8854,7 +9068,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Grid5",
 			"GridExpansion",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0090_10_daigo",
 		"internalPokemonName": "pm0386_11_deoxys"
@@ -8897,7 +9112,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_41_daigo",
 		"internalPokemonName": "pm0508_00_mooland_rare"
@@ -8937,7 +9153,8 @@ export const SYNCPAIRS = [
 			"Fossil",
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0090_00_daigo",
 		"internalPokemonName": "pm0346_00_yuradle"
@@ -8984,7 +9201,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_90_daigo",
 		"internalPokemonName": "pm0376_00_metagross"
@@ -9023,7 +9241,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0090_00_daigo",
 		"internalPokemonName": "pm0227_00_00_airmd"
@@ -9065,7 +9284,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Mythical",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0137_00_orchid1",
 		"internalPokemonName": "pm0151_00_mew"
@@ -9103,7 +9323,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0137_00_orchid1",
 		"internalPokemonName": "pm0033_00_nidorino"
@@ -9144,7 +9365,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0157_00_mache",
 		"internalPokemonName": "pm0767_00_ninnfi"
@@ -9183,7 +9405,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0157_00_mache",
 		"internalPokemonName": "pm0303_00_kucheat"
@@ -9233,7 +9456,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Pokemon",
 			"Unique Costume",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0000_00_red",
 		"internalPokemonName": "pm0006_00_lizardon"
@@ -9278,7 +9502,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Multiple Pokemon",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0000_80_red",
 		"internalPokemonName": "pm0143_00_kabigon"
@@ -9324,7 +9549,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Multiple Pokemon",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0000_10_red",
 		"internalPokemonName": "pm0025_00_pikachu"
@@ -9370,7 +9596,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0000_90_red",
 		"internalPokemonName": "pm0144_00_freezer"
@@ -9414,7 +9641,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0000_80_red",
 		"internalPokemonName": "pm0003_00_fushigibana"
@@ -9457,7 +9685,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"isWoman",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0114_00_natsume",
 		"internalPokemonName": "pm0065_00_foodin"
@@ -9495,7 +9724,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0114_40_natsume",
 		"internalPokemonName": "pm0433_00_lisyan"
@@ -9535,7 +9765,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0151_00_melissa",
 		"internalPokemonName": "pm0429_00_mumargi"
@@ -9576,7 +9807,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0121_00_plumeria",
 		"internalPokemonName": "pm0806_00_dokutokage2"
@@ -9616,7 +9848,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0121_00_plumeria",
 		"internalPokemonName": "pm0094_00_gangar"
@@ -9656,7 +9889,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0125_00_guzma",
 		"internalPokemonName": "pm0867_00_gusokumushi2"
@@ -9696,7 +9930,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Ultra Beast",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0125_40_guzma",
 		"internalPokemonName": "pm0877_00_beastyellow"
@@ -9735,7 +9970,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0125_00_guzma",
 		"internalPokemonName": "pm0168_00_ariados"
@@ -9775,7 +10011,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0131_00_citron",
 		"internalPokemonName": "pm0732_00_frilledlizard2"
@@ -9813,7 +10050,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0131_00_citron",
 		"internalPokemonName": "pm0082_00_rarecoil"
@@ -9854,7 +10092,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"First Unit",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0127_00_mikuri",
 		"internalPokemonName": "pm0350_01_milokaross"
@@ -9900,7 +10139,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0127_40_mikuri",
 		"internalPokemonName": "pm0806_00_00_zugadoon"
@@ -9945,7 +10185,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0133_00_shilver",
 		"internalPokemonName": "pm0250_00_houou"
@@ -9984,7 +10225,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Starter",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0133_00_shilver",
 		"internalPokemonName": "pm0160_00_ordile"
@@ -10025,7 +10267,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0133_10_shilver",
 		"internalPokemonName": "pm0215_00_nyula"
@@ -10075,7 +10318,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0133_90_shilver",
 		"internalPokemonName": "pm0248_00_bangiras_rare"
@@ -10113,7 +10357,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0133_00_shilver",
 		"internalPokemonName": "pm0169_00_crobat"
@@ -10157,7 +10402,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"GridMega",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0128_00_mitsuru",
 		"internalPokemonName": "pm0475_00_erureido"
@@ -10205,7 +10451,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Grid5",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0128_10_mitsuru",
 		"internalPokemonName": "pm0282_00_sirnight_rare"
@@ -10244,7 +10491,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0128_00_mitsuru",
 		"internalPokemonName": "pm0301_00_enekororo"
@@ -10282,7 +10530,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0128_00_mitsuru",
 		"internalPokemonName": "pm0334_00_tyltalis"
@@ -10326,7 +10575,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"First Unit",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0113_00_mikan",
 		"internalPokemonName": "pm0208_01_haganeil"
@@ -10367,7 +10617,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Ultra Beast",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0113_40_mikan",
 		"internalPokemonName": "pm0881_00_beastpurple"
@@ -10410,7 +10661,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Holiday",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0113_41_mikan",
 		"internalPokemonName": "pm0181_00_denryu"
@@ -10448,7 +10700,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0113_00_mikan",
 		"internalPokemonName": "pm0081_00_coil"
@@ -10491,7 +10744,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0116_00_hikari",
 		"internalPokemonName": "pm0389_00_dodaitose"
@@ -10533,7 +10787,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0116_40_hikari",
 		"internalPokemonName": "pm0869_11_11_mawhip"
@@ -10575,7 +10830,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Unique Costume",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMoveStatus"
 		],
 		"internalTrainerName": "ch0116_10_hikari",
 		"internalPokemonName": "pm0488_00_cresselia"
@@ -10617,7 +10873,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"New Year",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0116_41_hikari",
 		"internalPokemonName": "pm0825_14_mitsusuinichibu"
@@ -10657,7 +10914,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0116_00_hikari",
 		"internalPokemonName": "pm0413_11_minomadam"
@@ -10699,7 +10957,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0116_00_hikari",
 		"internalPokemonName": "pm0395_00_emperte"
@@ -10739,7 +10998,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Grid3",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0170_00_arty",
 		"internalPokemonName": "pm0542_00_hahakomori"
@@ -10779,7 +11039,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0170_40_arty",
 		"internalPokemonName": "pm0175_00_togepy"
@@ -10821,7 +11082,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0130_00_serena",
 		"internalPokemonName": "pm0719_00_fox3"
@@ -10860,7 +11122,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0130_40_serena",
 		"internalPokemonName": "pm0547_00_elfuun"
@@ -10903,7 +11166,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0130_10_serena",
 		"internalPokemonName": "pm0770_00_pokemonZ"
@@ -10947,7 +11211,9 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0130_90_serena",
 		"internalPokemonName": "pm0725_00_frog3"
@@ -10984,7 +11250,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0130_00_serena",
 		"internalPokemonName": "pm0753_00_robin1"
@@ -11023,7 +11290,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0240_00_musashi",
 		"internalPokemonName": "pm0024_00_arbok"
@@ -11060,7 +11328,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0198_00_azami",
 		"internalPokemonName": "pm0336_00_habunake"
@@ -11100,7 +11369,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"First Unit",
 			"Grid3",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0148_00_matsuba",
 		"internalPokemonName": "pm0426_00_fuwaride"
@@ -11139,7 +11409,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0148_00_matsuba",
 		"internalPokemonName": "pm0429_00_mumargi"
@@ -11182,7 +11453,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0148_40_matsuba",
 		"internalPokemonName": "pm0354_00_juppeta"
@@ -11228,7 +11500,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0148_10_matsuba",
 		"internalPokemonName": "pm0250_00_houou_rare"
@@ -11266,7 +11539,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0148_00_matsuba",
 		"internalPokemonName": "pm0092_00_ghos"
@@ -11311,7 +11585,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0148_41_matsuba",
 		"internalPokemonName": "pm0157_00_41_bakphoon"
@@ -11353,7 +11628,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0194_00_akagi",
 		"internalPokemonName": "pm0484_00_palkia"
@@ -11397,7 +11673,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Unique Costume",
 			"Grid5",
-			"GridExpansion"
+			"GridExpansion",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0194_10_akagi",
 		"internalPokemonName": "pm0491_00_darkrai"
@@ -11440,7 +11717,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"ZMove",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0120_00_lusamine",
 		"internalPokemonName": "pm0879_00_beastblue"
@@ -11485,7 +11763,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"ZMove",
 			"Unique Costume",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0120_10_lusamine",
 		"internalPokemonName": "pm0865_12_prismsun"
@@ -11524,7 +11803,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Weather",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0120_00_lusamine",
 		"internalPokemonName": "pm0549_00_dredear"
@@ -11566,7 +11846,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Multiple Units",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0119_00_gladion",
 		"internalPokemonName": "pm0862_11_gryps2"
@@ -11605,7 +11886,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0119_00_gladion",
 		"internalPokemonName": "pm0042_00_golbat"
@@ -11649,7 +11931,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Unique Costume",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0119_10_gladion",
 		"internalPokemonName": "pm0882_11_maboroshi16"
@@ -11687,7 +11970,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Wish Zone",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0119_00_gladion",
 		"internalPokemonName": "pm0461_00_manyula"
@@ -11728,7 +12012,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0118_00_lillie",
 		"internalPokemonName": "pm0035_00_pippi"
@@ -11767,7 +12052,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0118_40_lillie",
 		"internalPokemonName": "pm0835_00_abu2"
@@ -11810,7 +12096,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0118_50_lillie",
 		"internalPokemonName": "pm0874_00_moon"
@@ -11851,7 +12138,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Wish Zone",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0118_41_lillie",
 		"internalPokemonName": "pm0855_11_00_potdeath"
@@ -11890,7 +12178,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0118_00_lillie",
 		"internalPokemonName": "pm0863_00_lei"
@@ -11935,7 +12224,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Anniversary",
-			"ZMove"
+			"ZMove",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0118_51_lillie",
 		"internalPokemonName": "pm0873_00_sun"
@@ -11979,7 +12269,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0118_42_lillie",
 		"internalPokemonName": "pm0849_00_ashika3_rare"
@@ -12018,7 +12309,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0241_00_kojiro",
 		"internalPokemonName": "pm0110_00_matadogas"
@@ -12057,7 +12349,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Terrain",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0115_00_denji",
 		"internalPokemonName": "pm0405_00_rentorar"
@@ -12097,7 +12390,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Terrain",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0115_40_denji",
 		"internalPokemonName": "pm0466_00_elekible"
@@ -12135,7 +12429,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0115_00_denji",
 		"internalPokemonName": "pm0026_00_raichu"
@@ -12175,7 +12470,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0183_00_molayne",
 		"internalPokemonName": "pm0051_61_adugtrio"
@@ -12219,7 +12515,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Song Key",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0215_00_lutia",
 		"internalPokemonName": "pm0334_00_tyltalis"
@@ -12263,7 +12560,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"New Year",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0215_40_lutia",
 		"internalPokemonName": "pm0078_00_31_dgallop_rare"
@@ -12308,7 +12606,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Multiple Pairs",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0132_00_adeku",
 		"internalPokemonName": "pm0637_00_ulgamoth"
@@ -12354,7 +12653,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0132_90_adeku",
 		"internalPokemonName": "pm0637_00_ulgamoth"
@@ -12393,7 +12693,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0100_00_kyohei",
 		"internalPokemonName": "pm0628_00_warrgle"
@@ -12441,7 +12742,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0100_90_kyohei",
 		"internalPokemonName": "pm0612_00_ononokus_rare"
@@ -12481,7 +12783,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Terrain",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0102_00_bell",
 		"internalPokemonName": "pm0518_00_musharna"
@@ -12527,7 +12830,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Neo Champion",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0102_90_bell",
 		"internalPokemonName": "pm0640_00_virizion"
@@ -12565,7 +12869,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0102_00_bell",
 		"internalPokemonName": "pm0609_00_chandela"
@@ -12611,7 +12916,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Grid5",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0243_00_yuri",
 		"internalPokemonName": "pm0888_12_00_zacian"
@@ -12652,7 +12958,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Starter",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0243_40_yuri",
 		"internalPokemonName": "pm0818_00_00_intereon"
@@ -12699,7 +13006,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"GridExpansion",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0243_80_yuri",
 		"internalPokemonName": "pm0892_12_00_wulaosu"
@@ -12739,7 +13047,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Limited",
 			"Multiple Units",
-			"Starter"
+			"Starter",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0243_00_yuri",
 		"internalPokemonName": "pm0811_00_00_bachinkey"
@@ -12788,7 +13097,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0243_81_yuri",
 		"internalPokemonName": "pm0815_00_00_aceburn"
@@ -12832,7 +13142,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0089_00_n",
 		"internalPokemonName": "pm0644_00_zekrom"
@@ -12875,7 +13186,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Legendary",
 			"Unique Costume",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0089_40_n",
 		"internalPokemonName": "pm0643_00_reshiram"
@@ -12916,7 +13228,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Multiple Pairs",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0089_41_n",
 		"internalPokemonName": "pm0571_00_zoroark"
@@ -12956,7 +13269,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Limited",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0089_00_n",
 		"internalPokemonName": "pm0561_00_symboler"
@@ -13003,7 +13317,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0089_10_n",
 		"internalPokemonName": "pm0646_13_kyurem"
@@ -13048,7 +13363,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0089_90_n",
 		"internalPokemonName": "pm0571_00_zoroark"
@@ -13087,7 +13403,8 @@ export const SYNCPAIRS = [
 			"Fossil",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0089_00_n",
 		"internalPokemonName": "pm0567_00_archeos"
@@ -13132,7 +13449,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Weather",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0126_00_haruka",
 		"internalPokemonName": "pm0260_00_laglarge"
@@ -13174,7 +13492,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0126_40_haruka",
 		"internalPokemonName": "pm0428_00_mimilop"
@@ -13220,7 +13539,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"GridExpansion",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0126_41_haruka",
 		"internalPokemonName": "pm0380_00_latias"
@@ -13266,7 +13586,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0126_10_haruka",
 		"internalPokemonName": "pm0257_00_bursyamo"
@@ -13304,7 +13625,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0126_00_haruka",
 		"internalPokemonName": "pm0320_00_hoeruko"
@@ -13348,13 +13670,15 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Weather",
+			"WeatherEX",
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
 			"Song Key",
 			"Neo Champion",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0126_90_haruka",
 		"internalPokemonName": "pm0382_00_kyogre_rare"
@@ -13393,7 +13717,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"ZMove",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0124_00_mao",
 		"internalPokemonName": "pm0814_00_mangosteen3"
@@ -13433,7 +13758,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Palentine",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0124_40_mao",
 		"internalPokemonName": "pm0842_00_00_tarupple"
@@ -13471,7 +13797,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0124_00_mao",
 		"internalPokemonName": "pm0804_00_Kinoko2"
@@ -13514,7 +13841,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0196_00_fleurdelis",
 		"internalPokemonName": "pm0769_00_pokemonY"
@@ -13559,7 +13887,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Song Key",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0196_10_fleurdelis",
 		"internalPokemonName": "pm0773_00_steam"
@@ -13602,7 +13931,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveStatus"
 		],
 		"internalTrainerName": "ch0136_00_platane",
 		"internalPokemonName": "pm0768_00_pokemonX"
@@ -13639,7 +13969,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0136_00_platane",
 		"internalPokemonName": "pm0001_00_fushigidane"
@@ -13680,7 +14011,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0136_40_platane",
 		"internalPokemonName": "pm0729_00_goat2"
@@ -13720,7 +14052,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0256_00_nezz",
 		"internalPokemonName": "pm0862_00_31_tachifusaguma"
@@ -13767,7 +14100,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Song Key",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0256_10_nezz",
 		"internalPokemonName": "pm0849_12_00_strinder"
@@ -13816,7 +14150,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Multiple Pairs",
 			"Master Passive Flag Bearer",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0247_00_dande",
 		"internalPokemonName": "pm0006_00_lizardon"
@@ -13861,7 +14196,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"isMan",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0247_10_dande",
 		"internalPokemonName": "pm0890_00_00_mugendina"
@@ -13903,7 +14239,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0247_40_dande",
 		"internalPokemonName": "pm0898_12_00_budrex"
@@ -13948,7 +14285,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0247_80_dande",
 		"internalPokemonName": "pm0887_00_00_dorapult"
@@ -13996,7 +14334,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"isMan",
 			"Rebuff",
-			"Song Key"
+			"Song Key",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0247_90_dande",
 		"internalPokemonName": "pm0006_00_lizardon"
@@ -14041,7 +14380,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_00_mary",
 		"internalPokemonName": "pm0877_11_00_morpeko"
@@ -14080,7 +14420,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_40_mary",
 		"internalPokemonName": "pm0861_00_00_ohlonge"
@@ -14124,7 +14465,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Wish Zone",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_41_mary",
 		"internalPokemonName": "pm0303_00_kucheat"
@@ -14163,7 +14505,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Limited",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0245_00_mary",
 		"internalPokemonName": "pm0454_01_dokurog"
@@ -14210,7 +14553,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Spirit"
+			"Master Passive Spirit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0245_90_mary",
 		"internalPokemonName": "pm0146_00_31_dfire"
@@ -14248,7 +14592,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Wish Zone",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_00_mary",
 		"internalPokemonName": "pm0560_00_zuruzukin"
@@ -14293,7 +14638,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_00_mary",
 		"internalPokemonName": "pm0815_00_00_aceburn"
@@ -14332,7 +14678,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0245_00_mary",
 		"internalPokemonName": "pm0510_00_lepardas"
@@ -14371,7 +14718,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0245_42_mary",
 		"internalPokemonName": "pm0967_00_00_mototokage"
@@ -14417,7 +14765,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0158_00_carnet",
 		"internalPokemonName": "pm0282_00_sirnight"
@@ -14459,7 +14808,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Mythical",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0158_40_carnet",
 		"internalPokemonName": "pm0647_12_Keldeo"
@@ -14509,7 +14859,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0158_10_carnet",
 		"internalPokemonName": "pm0772_00_pinkdiamond_rare"
@@ -14549,7 +14900,8 @@ export const SYNCPAIRS = [
 			"Fossil",
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0158_00_carnet",
 		"internalPokemonName": "pm0738_00_tyranno2"
@@ -14592,7 +14944,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"Starter",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0123_00_mizuki",
 		"internalPokemonName": "pm0843_00_fukurou3"
@@ -14634,7 +14987,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0123_00_mizuki",
 		"internalPokemonName": "pm0197_00_blacky"
@@ -14678,7 +15032,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0123_40_mizuki",
 		"internalPokemonName": "pm0212_01_hassam"
@@ -14722,7 +15077,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
-			"ZMove"
+			"ZMove",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0123_80_mizuki",
 		"internalPokemonName": "pm0875_00_beastred"
@@ -14768,7 +15124,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0122_00_yo",
 		"internalPokemonName": "pm0849_00_ashika3"
@@ -14810,7 +15167,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0122_00_yo",
 		"internalPokemonName": "pm0196_00_eifie"
@@ -14855,7 +15213,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isMan",
-			"ZMove"
+			"ZMove",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0122_80_yo",
 		"internalPokemonName": "pm0884_00_beastishigaki"
@@ -14897,7 +15256,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Grid5",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0257_00_qibana",
 		"internalPokemonName": "pm0884_00_00_duraludon"
@@ -14941,7 +15301,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Grid5",
 			"GridExpansion",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0257_40_qibana",
 		"internalPokemonName": "pm0330_00_flygon"
@@ -14981,7 +15342,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Limited",
-			"Weather"
+			"Weather",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0257_00_qibana",
 		"internalPokemonName": "pm0526_00_gigaiath"
@@ -15025,7 +15387,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Unique Costume",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0257_41_qibana",
 		"internalPokemonName": "pm0844_00_00_sadaija"
@@ -15067,7 +15430,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0195_00_ghetsis",
 		"internalPokemonName": "pm0646_11_kyurem"
@@ -15104,7 +15468,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0249_00_rulina",
 		"internalPokemonName": "pm0834_00_00_kajirigame"
@@ -15147,7 +15512,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0249_40_rulina",
 		"internalPokemonName": "pm0875_11_00_korippo"
@@ -15185,7 +15551,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0250_00_saida",
 		"internalPokemonName": "pm0865_00_31_negigaknight"
@@ -15225,7 +15592,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Weather",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0250_40_saida",
 		"internalPokemonName": "pm0584_00_baivanilla"
@@ -15270,7 +15638,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Song Key",
 			"Master Passive Pride",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0192_00_matsubusa",
 		"internalPokemonName": "pm0383_00_groudon"
@@ -15315,7 +15684,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Song Key",
 			"Master Passive Spirit",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0193_00_aogiri",
 		"internalPokemonName": "pm0382_00_kyogre"
@@ -15354,7 +15724,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Multiple Units",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0160_00_suiren",
 		"internalPokemonName": "pm0851_00_mizugumo2"
@@ -15399,7 +15770,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"ZMove",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0160_10_suiren",
 		"internalPokemonName": "pm0831_00_tikichou"
@@ -15437,7 +15809,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0160_00_suiren",
 		"internalPokemonName": "pm0171_00_lantern"
@@ -15478,7 +15851,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"ZMove",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0149_00_kaki",
 		"internalPokemonName": "pm0105_61_agaragara"
@@ -15518,7 +15892,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"ZMove",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0149_00_kaki",
 		"internalPokemonName": "pm0059_00_windie"
@@ -15556,7 +15931,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0161_00_hara",
 		"internalPokemonName": "pm0860_00_yashigani2"
@@ -15596,7 +15972,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"ZMove",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0117_00_royalmask",
 		"internalPokemonName": "pm0846_00_tora3"
@@ -15637,7 +16014,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Grid5",
 			"GridExpansion",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0108_00_nobori",
 		"internalPokemonName": "pm0530_00_doryuzu"
@@ -15677,7 +16055,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Wish Zone",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0108_40_nobori",
 		"internalPokemonName": "pm0617_00_agilder"
@@ -15722,7 +16101,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0108_10_nobori",
 		"internalPokemonName": "pm0609_00_chandela"
@@ -15765,7 +16145,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Weather",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0109_00_kudari",
 		"internalPokemonName": "pm0567_00_archeos"
@@ -15804,7 +16185,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0109_40_kudari",
 		"internalPokemonName": "pm0589_00_chevargo"
@@ -15850,7 +16232,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isMan",
-			"Rebuff"
+			"Rebuff",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0109_10_kudari",
 		"internalPokemonName": "pm0604_00_shibirudon"
@@ -15889,7 +16272,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Master Passive Teamwork",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0205_00_lesoir",
 		"internalPokemonName": "pm0244_00_entei"
@@ -15933,7 +16317,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Song Key",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0066_01_boss",
 		"internalPokemonName": "pm0774_00_majin"
@@ -15976,7 +16361,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0066_10_boss",
 		"internalPokemonName": "pm1000_00_00_surfugo"
@@ -16014,7 +16400,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0066_01_boss",
 		"internalPokemonName": "pm0553_00_waruvial"
@@ -16055,7 +16442,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Multiple Pokemon",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0067_01_leader1",
 		"internalPokemonName": "pm0197_00_blacky"
@@ -16095,7 +16483,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0067_01_leader1",
 		"internalPokemonName": "pm0999_12_00_collecurei"
@@ -16134,7 +16523,8 @@ export const SYNCPAIRS = [
 			"Limited PML Arc Conclusion Special Missions",
 			"isMan",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0068_01_leader2",
 		"internalPokemonName": "pm0430_00_dongkarasu"
@@ -16174,7 +16564,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0068_01_leader2",
 		"internalPokemonName": "pm0999_11_00_collecurei"
@@ -16212,7 +16603,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0150_00_hayato",
 		"internalPokemonName": "pm0277_00_ohsubame"
@@ -16250,7 +16642,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0150_00_hayato",
 		"internalPokemonName": "pm0018_00_pigeot"
@@ -16288,7 +16681,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0150_00_hayato",
 		"internalPokemonName": "pm0164_00_yorunozuku"
@@ -16328,7 +16722,8 @@ export const SYNCPAIRS = [
 			"GridMega",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0135_00_kagetsu",
 		"internalPokemonName": "pm0359_00_absol"
@@ -16372,7 +16767,8 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0244_00_hop",
 		"internalPokemonName": "pm0889_12_00_zamazenta"
@@ -16420,7 +16816,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0244_90_hop",
 		"internalPokemonName": "pm0145_00_31_dthunder"
@@ -16465,7 +16862,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0244_00_hop",
 		"internalPokemonName": "pm0812_00_00_gorirander"
@@ -16503,7 +16901,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Terrain",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0244_00_hop",
 		"internalPokemonName": "pm0871_00_00_bachinuni"
@@ -16546,7 +16945,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0244_00_hop",
 		"internalPokemonName": "pm0888_12_00_zacian"
@@ -16590,7 +16990,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0251_00_onion",
 		"internalPokemonName": "pm0094_00_gangar"
@@ -16632,7 +17033,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0251_40_onion",
 		"internalPokemonName": "pm0736_14_pumpkin2"
@@ -16669,7 +17071,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0159_00_kokuran",
 		"internalPokemonName": "pm0398_00_mukuhawk"
@@ -16708,7 +17111,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0259_00_sania",
 		"internalPokemonName": "pm0835_00_00_wanpachi"
@@ -16749,7 +17153,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Shiny",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0259_40_sania",
 		"internalPokemonName": "pm0814_00_mangosteen3_rare"
@@ -16793,7 +17198,8 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Multiple Units",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0162_00_koki",
 		"internalPokemonName": "pm0483_00_dialga"
@@ -16834,7 +17240,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Weather",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0162_00_koki",
 		"internalPokemonName": "pm0136_00_booster"
@@ -16876,7 +17283,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0162_00_koki",
 		"internalPokemonName": "pm0389_00_dodaitose"
@@ -16912,7 +17320,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0152_00_ryo",
 		"internalPokemonName": "pm0416_00_beequen"
@@ -16950,7 +17359,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Weather",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0154_00_kikuno",
 		"internalPokemonName": "pm0450_01_kabaldon"
@@ -16987,7 +17397,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0176_00_goyo",
 		"internalPokemonName": "pm0203_00_kirinriki"
@@ -17034,7 +17445,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"GridExpansion",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0246_00_beet",
 		"internalPokemonName": "pm0858_00_00_brimuon"
@@ -17081,7 +17493,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
-			"Master Passive Flag Bearer"
+			"Master Passive Flag Bearer",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0246_90_beet",
 		"internalPokemonName": "pm0144_00_31_dfreezer"
@@ -17125,7 +17538,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0246_00_beet",
 		"internalPokemonName": "pm0818_00_00_intereon"
@@ -17168,7 +17582,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0246_10_beet",
 		"internalPokemonName": "pm1006_00_00_tetsunobujin"
@@ -17205,7 +17620,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0217_00_handsome",
 		"internalPokemonName": "pm0453_00_gureggru"
@@ -17246,7 +17662,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Wish Zone",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0222_00_kagari",
 		"internalPokemonName": "pm0323_00_bakuuda"
@@ -17288,7 +17705,8 @@ export const SYNCPAIRS = [
 			"ZMove",
 			"Multiple Pokemon",
 			"Master Passive Spirit",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0264_00_satoshi",
 		"internalPokemonName": "pm0025_00_pikachu"
@@ -17329,7 +17747,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"Master Passive Teamwork",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0204_00_lanuit",
 		"internalPokemonName": "pm0645_11_landlos"
@@ -17367,7 +17786,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0651_78_nanase",
 		"internalPokemonName": "pm0028_00_sandpan"
@@ -17408,7 +17828,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Rebuff",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0254_00_gordie",
 		"internalPokemonName": "pm0839_00_00_sekitanzan"
@@ -17449,7 +17870,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0255_00_melon",
 		"internalPokemonName": "pm0131_00_laplace"
@@ -17494,7 +17916,8 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Multiple Pokemon",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0242_00_masaru",
 		"internalPokemonName": "pm0812_00_00_gorirander"
@@ -17535,7 +17958,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Wish Zone",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0242_00_masaru",
 		"internalPokemonName": "pm0897_00_00_wraithpos"
@@ -17576,7 +18000,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0242_40_masaru",
 		"internalPokemonName": "pm0820_00_00_yokubarisu"
@@ -17613,7 +18038,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0521_60_hexmaniac",
 		"internalPokemonName": "pm0093_00_ghost"
@@ -17653,7 +18079,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0147_00_hugh",
 		"internalPokemonName": "pm0626_00_buffron"
@@ -17693,7 +18120,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0147_00_hugh",
 		"internalPokemonName": "pm0521_00_kenhallow"
@@ -17732,7 +18160,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0191_00_achroma",
 		"internalPokemonName": "pm0601_00_gigigiaru"
@@ -17769,7 +18198,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0610_60_furisodegirl",
 		"internalPokemonName": "pm0184_00_marilli"
@@ -17808,7 +18238,8 @@ export const SYNCPAIRS = [
 			"Starter",
 			"Multiple Units",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0139_00_sana",
 		"internalPokemonName": "pm0722_00_hedgehog3"
@@ -17846,7 +18277,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isWoman",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0139_40_sana",
 		"internalPokemonName": "pm0760_00_key"
@@ -17884,7 +18316,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0139_00_sana",
 		"internalPokemonName": "pm0301_00_enekororo"
@@ -17922,7 +18355,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0139_00_sana",
 		"internalPokemonName": "pm0767_00_ninnfi"
@@ -17965,7 +18399,8 @@ export const SYNCPAIRS = [
 			"Villain Arc",
 			"Multiple Pokemon",
 			"First Unit",
-			"Wish Zone"
+			"Wish Zone",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0178_00_lira",
 		"internalPokemonName": "pm0143_00_kabigon"
@@ -18007,7 +18442,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0220_00_matiere",
 		"internalPokemonName": "pm0169_00_crobat"
@@ -18042,7 +18478,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0282_00_ballguy",
 		"internalPokemonName": "pm0591_00_morobareru"
@@ -18087,7 +18524,8 @@ export const SYNCPAIRS = [
 			"Eeveelution",
 			"Multiple Pokemon",
 			"Master Passive Pride",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0284_00_seki",
 		"internalPokemonName": "pm0470_00_leafia"
@@ -18128,7 +18566,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Hisui",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0284_00_seki",
 		"internalPokemonName": "pm0134_00_showers"
@@ -18169,7 +18608,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Hisui",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0284_40_seki",
 		"internalPokemonName": "pm0901_00_00_gachiguma"
@@ -18214,7 +18654,8 @@ export const SYNCPAIRS = [
 			"Hisui",
 			"Eeveelution",
 			"Master Passive Spirit",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0285_00_kai",
 		"internalPokemonName": "pm0471_00_glacia"
@@ -18255,7 +18696,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Hisui",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0285_00_kai",
 		"internalPokemonName": "pm0136_00_booster"
@@ -18299,7 +18741,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Hisui",
-			"Unique Costume"
+			"Unique Costume",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0285_40_kai",
 		"internalPokemonName": "pm0571_00_41_zoroark"
@@ -18343,7 +18786,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Song Key",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0216_00_minaki",
 		"internalPokemonName": "pm0245_00_suicune_rare"
@@ -18388,7 +18832,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Multiple Units",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0262_00_rose",
 		"internalPokemonName": "pm0879_00_00_daioudou"
@@ -18425,7 +18870,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0262_00_rose",
 		"internalPokemonName": "pm0863_00_31_nyaiking"
@@ -18470,7 +18916,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Song Key",
 			"Villain Arc",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0263_00_olea",
 		"internalPokemonName": "pm0569_00_00_dustdas"
@@ -18508,7 +18955,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0175_00_gojika",
 		"internalPokemonName": "pm0561_00_symboler"
@@ -18544,7 +18992,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0155_00_dracaena",
 		"internalPokemonName": "pm0710_00_seadragon2"
@@ -18587,7 +19036,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Song Key",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0289_00_nemo",
 		"internalPokemonName": "pm0923_00_00_parmot"
@@ -18628,7 +19078,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0289_00_nemo",
 		"internalPokemonName": "pm0829_11_okami2noon"
@@ -18673,7 +19124,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Song Key",
-			"Master Passive Pride"
+			"Master Passive Pride",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0289_10_nemo",
 		"internalPokemonName": "pm0985_00_00_sakebushippo"
@@ -18712,7 +19164,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"isWoman",
 			"Master Passive Teamwork",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0206_00_lajournee",
 		"internalPokemonName": "pm0378_00_regice"
@@ -18759,7 +19212,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0064_01_rival",
 		"internalPokemonName": "pm0745_13_00_lugarugan"
@@ -18800,7 +19254,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0105_01_rival2",
 		"internalPokemonName": "pm0136_00_booster"
@@ -18837,7 +19292,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0141_00_apollo",
 		"internalPokemonName": "pm0229_00_hellgar"
@@ -18874,7 +19330,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0142_00_athena",
 		"internalPokemonName": "pm0024_00_arbok"
@@ -18911,7 +19368,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Multiple Pokemon",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0143_00_lambda",
 		"internalPokemonName": "pm0110_00_matadogas"
@@ -18948,7 +19406,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0144_00_lance",
 		"internalPokemonName": "pm0042_00_golbat"
@@ -18992,7 +19451,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Wish Zone",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0134_00_kurotsugu",
 		"internalPokemonName": "pm0486_00_00_regigigas"
@@ -19034,7 +19494,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0203_00_kate",
 		"internalPokemonName": "pm0227_00_00_airmd"
@@ -19079,7 +19540,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Hisui",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0291_00_sho",
 		"internalPokemonName": "pm0503_00_41_daikenki"
@@ -19125,7 +19587,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Hisui",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0290_00_teru",
 		"internalPokemonName": "pm0724_00_41_junaiper"
@@ -19169,7 +19632,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Hisui"
+			"Hisui",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0290_40_teru",
 		"internalPokemonName": "pm0628_00_41_warrgle"
@@ -19205,7 +19669,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0169_00_aloe",
 		"internalPokemonName": "pm0505_00_miruhog"
@@ -19241,7 +19706,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0190_00_ryuki",
 		"internalPokemonName": "pm0854_00_matamata"
@@ -19285,7 +19751,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0293_00_button",
 		"internalPokemonName": "pm0767_00_ninnfi"
@@ -19325,7 +19792,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0269_00_ayumi",
 		"internalPokemonName": "pm0133_00_eievui"
@@ -19363,7 +19831,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0654_00_pokekidf",
 		"internalPokemonName": "pm0133_00_eievui"
@@ -19400,7 +19869,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0659_00_furisodegirl",
 		"internalPokemonName": "pm0743_00_sweets2"
@@ -19441,7 +19911,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0296_00_nanjamo",
 		"internalPokemonName": "pm0939_00_00_harabarie"
@@ -19480,7 +19951,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0296_00_nanjamo",
 		"internalPokemonName": "pm0940_00_00_kaiden"
@@ -19523,7 +19995,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
-			"Rebuff"
+			"Rebuff",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0296_40_nanjamo",
 		"internalPokemonName": "pm0987_00_00_habatakukami"
@@ -19561,7 +20034,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0296_00_nanjamo",
 		"internalPokemonName": "pm0941_00_00_taikaiden"
@@ -19602,9 +20076,11 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Terrain",
+			"TerrainEX",
 			"Unique Costume",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0296_10_nanjamo",
 		"internalPokemonName": "pm1021_00_00_takeruraiko"
@@ -19646,7 +20122,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Multiple Units",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0294_00_grusha",
 		"internalPokemonName": "pm0975_00_00_hulkujira"
@@ -19685,7 +20162,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0294_00_grusha",
 		"internalPokemonName": "pm0614_00_tunbear"
@@ -19725,7 +20203,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0279_00_kakeru",
 		"internalPokemonName": "pm0025_00_pikachu"
@@ -19762,7 +20241,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0655_00_pokekidm",
 		"internalPokemonName": "pm0025_01_pikachu"
@@ -19803,7 +20283,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0156_00_gen",
 		"internalPokemonName": "pm0448_00_lucario"
@@ -19845,7 +20326,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Song Key",
 			"Master Passive Flag Bearer",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0295_00_omodaka",
 		"internalPokemonName": "pm0970_00_00_kiraflor"
@@ -19882,7 +20364,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isMan",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0180_00_tierno",
 		"internalPokemonName": "pm0342_00_shizariger"
@@ -19920,7 +20403,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0180_00_tierno",
 		"internalPokemonName": "pm0755_00_robin3"
@@ -19964,7 +20448,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"isWoman",
 			"Rebuff",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0202_00_dahlia",
 		"internalPokemonName": "pm0272_01_runpappa"
@@ -20008,7 +20493,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0297_00_volo",
 		"internalPokemonName": "pm0175_00_togepy"
@@ -20048,7 +20534,8 @@ export const SYNCPAIRS = [
 			"Hisui",
 			"Weather",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0297_00_volo",
 		"internalPokemonName": "pm0443_00_fukamaru"
@@ -20088,7 +20575,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0298_00_zinnia",
 		"internalPokemonName": "pm0981_00_00_rikikirin"
@@ -20131,7 +20619,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0302_00_chiri",
 		"internalPokemonName": "pm0980_00_51_dooh"
@@ -20170,7 +20659,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0302_00_chiri",
 		"internalPokemonName": "pm0340_00_namazun"
@@ -20211,7 +20701,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Rebuff",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0301_00_hachikuman",
 		"internalPokemonName": "pm0571_00_zoroark"
@@ -20250,7 +20741,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Terrain",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0300_00_jujube",
 		"internalPokemonName": "pm0528_00_kokoromori"
@@ -20292,7 +20784,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0303_00_poppy",
 		"internalPokemonName": "pm0959_00_00_dekanuchan"
@@ -20339,7 +20832,8 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0303_40_poppy",
 		"internalPokemonName": "pm0208_01_haganeil_rare"
@@ -20385,7 +20879,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0304_00_aoki",
 		"internalPokemonName": "pm0982_11_00_nokokocchi"
@@ -20426,7 +20921,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0304_00_aoki",
 		"internalPokemonName": "pm0916_01_00_perfuton"
@@ -20472,7 +20968,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"First Unit",
-			"Multiple Units"
+			"Multiple Units",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0252_00_kabu",
 		"internalPokemonName": "pm0851_00_00_maruyakude"
@@ -20512,7 +21009,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0252_00_kabu",
 		"internalPokemonName": "pm0324_00_cotoise"
@@ -20551,7 +21049,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Weather",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0252_00_kabu",
 		"internalPokemonName": "pm0038_00_kyukon"
@@ -20596,7 +21095,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Song Key",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0272_00_klara",
 		"internalPokemonName": "pm0080_00_31_dyadoran"
@@ -20643,7 +21143,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"isMan",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0273_00_savory",
 		"internalPokemonName": "pm0199_00_31_dyadoking"
@@ -20686,7 +21187,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Terrain",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0199_00_kogomi",
 		"internalPokemonName": "pm0286_00_kinogassa"
@@ -20728,7 +21230,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0317_00_pepper",
 		"internalPokemonName": "pm0943_00_00_mafitiff"
@@ -20766,7 +21269,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0317_00_pepper",
 		"internalPokemonName": "pm0932_00_00_kojio"
@@ -20806,7 +21310,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"Master Passive Teamwork",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0207_00_lematin",
 		"internalPokemonName": "pm0640_00_virizion"
@@ -20844,7 +21349,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"First Unit",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0177_00_pachira",
 		"internalPokemonName": "pm0755_00_robin3"
@@ -20881,7 +21387,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0171_00_shijima",
 		"internalPokemonName": "pm0062_00_nyorobon"
@@ -20919,7 +21426,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0181_00_trova",
 		"internalPokemonName": "pm0715_13_flower3"
@@ -20960,7 +21468,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0327_00_pina",
 		"internalPokemonName": "pm0983_00_00_dodogezan"
@@ -21004,7 +21513,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0318_00_claver",
 		"internalPokemonName": "pm0914_00_00_wanival"
@@ -21044,7 +21554,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
-			"isMan"
+			"isMan",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0318_80_claver",
 		"internalPokemonName": "pm0906_00_00_nyahoja"
@@ -21086,7 +21597,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0330_00_biwa",
 		"internalPokemonName": "pm0979_00_00_konoyozaru"
@@ -21129,7 +21641,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isWoman",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0187_00_sina",
 		"internalPokemonName": "pm0471_00_glacia"
@@ -21172,7 +21685,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0188_00_dexio",
 		"internalPokemonName": "pm0196_00_eifie"
@@ -21215,7 +21729,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Terrain",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0248_00_yarrow",
 		"internalPokemonName": "pm0830_00_00_watashiraga"
@@ -21252,7 +21767,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"isWoman",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0660_00_furisodegirl",
 		"internalPokemonName": "pm0281_00_kirlia"
@@ -21294,7 +21810,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0320_00_meroko",
 		"internalPokemonName": "pm0936_00_00_gurenarma"
@@ -21336,7 +21853,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0328_00_shuumei",
 		"internalPokemonName": "pm0966_00_00_burororoom"
@@ -21380,7 +21898,8 @@ export const SYNCPAIRS = [
 			"Weather",
 			"isWoman",
 			"Master Passive Pride",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0287_00_svgirl",
 		"internalPokemonName": "pm1007_11_00_koraidon"
@@ -21425,7 +21944,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"isMan",
 			"Master Passive Spirit",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0286_00_svboy",
 		"internalPokemonName": "pm1008_11_00_miraidon"
@@ -21466,7 +21986,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
-			"Academy Sync Pair"
+			"Academy Sync Pair",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0286_00_svboy",
 		"internalPokemonName": "pm0915_00_00_gourton"
@@ -21510,7 +22031,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0329_00_ortiga",
 		"internalPokemonName": "pm0927_00_00_bowtzel"
@@ -21550,9 +22072,11 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Wish Zone",
+			"Wish ZoneEX",
 			"isWoman",
 			"Song Key",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0352_00_taro",
 		"internalPokemonName": "pm0210_00_granbulu"
@@ -21593,7 +22117,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"Multiple Pokemon",
-			"isWoman"
+			"isWoman",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0352_00_taro",
 		"internalPokemonName": "pm0869_17_27_mawhip"
@@ -21631,7 +22156,8 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"isMan",
 			"ZMove",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0182_00_ilima",
 		"internalPokemonName": "pm0827_00_mongoose2"
@@ -21669,7 +22195,8 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Limited",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0080_00_yamaotoko",
 		"internalPokemonName": "pm0953_00_00_shigaroko_rare"
@@ -21711,9 +22238,11 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
+			"Wish ZoneEX",
 			"Multiple Pokemon",
 			"isMan",
-			"First Unit"
+			"First Unit",
+			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0212_00_banjiro",
 		"internalPokemonName": "pm0637_00_ulgamoth"
@@ -21771,8 +22300,11 @@ const P = {
 		"Buddy Move",
 		"Limited",
 		"Weather",
+		"WeatherEX",
 		"Terrain",
+		"TerrainEX",
 		"Wish Zone",
+		"Wish ZoneEX",
 		"Region Circle",
 		"Unique Costume",
 		"Multiple Units",
@@ -21790,7 +22322,11 @@ const P = {
 		"Master Passive Pride",
 		"Master Passive Spirit",
 		"Master Passive Teamwork",
-		"First Unit"
+		"First Unit",
+		"Academy Sync Pair",
+		"SyncMovePhysical",
+		"SyncMoveSpecial",
+		"SyncMoveStatus"
 	],
 	"internalTrainerName": "",
 	"internalPokemonName": ""
