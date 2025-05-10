@@ -81,6 +81,9 @@ function generatePairHTML(pair, i) {
 				<p data-order="${ROLESORDER[pair.syncPairRoleEX.toLowerCase()]}" class="infoSyncPairRoleEX">${pair.syncPairRoleEX}</p>
 				<p data-order="${roleCombi}" class="infoSyncPairRoleCombi">${roleCombi}</p>
 				<p class="infoSyncPairRarity">${pair.syncPairRarity}</p>
+				<p class="infoSyncPairEXPose">${pair.syncPairEXPose}</p>
+				<p class="infoSyncPairEXColor">${pair.syncPairEXColor}</p>
+				<p class="infoSyncPairSuperawakening">${pair.syncPairSuperawakening}</p>
 				<p class="infoReleaseDate">${pair.releaseDate}</p>
 				<p data-order="${ACQUISITIONORDER[pair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${pair.syncPairAcquisition}</p>
 				<p data-order="${REGIONSORDER[pair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${pair.syncPairRegion}</p>

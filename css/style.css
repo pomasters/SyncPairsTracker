@@ -1400,7 +1400,10 @@ input:focus { outline: 0; }
 .infoSyncPairRegion,
 .infoSyncPairThemes,
 .infoSyncPairTags,
-.infoSyncPairRoleCombi {
+.infoSyncPairRoleCombi,
+.infoSyncPairEXPose,
+.infoSyncPairEXColor,
+.infoSyncPairSuperawakening {
 	display: none;
 }
 
