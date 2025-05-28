@@ -400,8 +400,8 @@ export const SYNCPAIRS = [
 			"Multiple Pairs",
 			"SyncMoveSpecial"
 		],
-		"internalTrainerName": "hero_128.ktx.png",
-		"internalPokemonName": "pm0243_00_raikou"
+		"internalTrainerName": "",
+		"internalPokemonName": "pm0869_11_11_mawhip"
 	},
 	{
 		"dexNumber": "001",
@@ -437,7 +437,7 @@ export const SYNCPAIRS = [
 			"SyncMovePhysical"
 		],
 		"internalTrainerName": "",
-		"internalPokemonName": "pm0869_11_11_mawhip"
+		"internalPokemonName": "pm0243_00_raikou"
 	},
 	{
 		"dexNumber": "002",
@@ -1565,7 +1565,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Sawsbuck",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Winter Form"
+			"Other Form"
 		],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
@@ -3316,7 +3316,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Darmanitan",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Other Form"
+			"Regional Form"
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Rock",
@@ -3772,7 +3772,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Shaymin",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Sky Forme"
+			"Other Form"
 		],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Poison",
@@ -4033,7 +4033,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Tornadus",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Therian Forme"
+			"Other Form"
 		],
 		"pokemonType": "Flying",
 		"pokemonWeak": "Rock",
@@ -4866,8 +4866,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Aegislash",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Shield Forme",
-			"Blade Forme"
+			"Other Form"
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
@@ -4908,7 +4907,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Raichu",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
@@ -5079,7 +5078,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Golem",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
@@ -5209,7 +5208,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Lycanroc",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Midnight Form"
+			"Other Form"
 		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Grass",
@@ -5458,7 +5457,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Persian",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Dark",
 		"pokemonWeak": "Bug",
@@ -5580,8 +5579,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Mimikyu",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Disguised Form",
-			"Busted Form"
+			"Other Form"
 		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Steel",
@@ -8495,7 +8493,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Giratina",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Altered Forme"
+			"Other Form"
 		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Fairy",
@@ -8542,7 +8540,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Gastrodon",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"West Sea"
+			"Other Form"
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Grass",
@@ -8721,7 +8719,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Lycanroc",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Midday Form"
+			"Other Form"
 		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Water",
@@ -8939,7 +8937,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Sandslash",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fighting",
@@ -9033,10 +9031,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Deoxys",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Normale",
-			"Attack",
-			"Defense",
-			"Speed"
+			"Other Form"
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
@@ -10889,7 +10884,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Wormadam",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Plant Cloak"
+			"Other Form"
 		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Flying",
@@ -11138,8 +11133,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Zygarde",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"50% Forme",
-			"Complete Forme"
+			"Other Form"
 		],
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Ice",
@@ -11733,8 +11727,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Necrozma",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Dusk Mane",
-			"Ultra Necrozma"
+			"Other Form"
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ghost",
@@ -12112,7 +12105,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Polteageist",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Antique Form"
+			"Other Form"
 		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Dark",
@@ -12445,7 +12438,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Dugtrio",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
@@ -12531,7 +12524,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Rapidash",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Galarian Form"
+			"Regional Form",
 		],
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Ghost",
@@ -12885,7 +12878,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Zacian",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Crowned Sword"
+			"Other Form"
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
@@ -12974,7 +12967,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Urshifu",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Rapid Strike Style",
+			"Other Form",
 			"Dynamax",
 			"Gigantamax"
 		],
@@ -13285,7 +13278,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Kyurem",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Black Kyurem"
+			"Other Form"
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fairy",
@@ -14212,7 +14205,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Calyrex",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Ice Rider"
+			"Other Form"
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Bug",
@@ -14350,8 +14343,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Morpeko",
 		"pokemonGender": "♀",
 		"pokemonForm": [
-			"Full Belly Mode",
-			"Hangry Mode"
+			"Other Form"
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Bug",
@@ -14521,8 +14513,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Moltres",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Regional Form",
-			"Galarian Form"
+			"Regional Form"
 		],
 		"pokemonType": "Dark",
 		"pokemonWeak": "Fairy",
@@ -14781,7 +14772,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Keldeo",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Resolute Form"
+			"Other Form"
 		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Grass",
@@ -15484,8 +15475,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Eiscue",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Ice Face",
-			"Noice Face"
+			"Other Form"
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fire",
@@ -15825,7 +15815,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Marowak",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Alolan Form"
+			"Regional Form"
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
@@ -16288,7 +16278,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Hoopa",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Hoopa Confined"
+			"Other Form"
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
@@ -16738,7 +16728,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Zamazenta",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Crowned Shield"
+			"Other Form"
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
@@ -16783,8 +16773,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Zapdos",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Regional Form",
-			"Galarian Form"
+			"Regional Form"
 		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
@@ -16917,7 +16906,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Zacian ",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Crowned Sword"
+			"Other Form"
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Ground",
@@ -17006,7 +16995,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Gourgeist",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Super Size"
+			"Other Form"
 		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Fire",
@@ -17335,7 +17324,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "0450",
 		"pokemonName": "Hippowdon",
 		"pokemonGender": "♀",
-		"pokemonForm": [],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
@@ -17461,8 +17452,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Articuno",
 		"pokemonGender": "",
 		"pokemonForm": [
-			"Regional Form",
-			"Galarian Form"
+			"Regional Form"
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ghost",
@@ -17721,7 +17711,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Landorus",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Incarnate Forme"
+			"Other Form"
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Ice",
@@ -19180,7 +19170,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Lycanroc",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Dusk Form",
+			"Other Form",
 			"Dynamax"
 		],
 		"pokemonType": "Rock",
@@ -21868,7 +21858,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "1007",
 		"pokemonName": "Koraidon",
 		"pokemonGender": "",
-		"pokemonForm": [],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike (Physical)",
@@ -21913,7 +21905,9 @@ export const SYNCPAIRS = [
 		"pokemonNumber": "1008",
 		"pokemonName": "Miraidon",
 		"pokemonGender": "",
-		"pokemonForm": [],
+		"pokemonForm": [
+			"Other Form"
+		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike (Special)",
@@ -22288,6 +22282,8 @@ const P = {
 		"Mythical",
 		"Shiny",
 		"Ultra Beast",
+		"Paradox",
+		"Fossil",
 		"Starter",
 		"Eeveelution",
 		"New Year",
