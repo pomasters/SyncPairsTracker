@@ -8051,7 +8051,7 @@ export const SYNCPAIRS = [
 		"dexNumber": "075",
 		"trainerName": "Ethan",
 		"trainerAlt": "Arc Suit",
-		"pokemonNumber": "0249",
+		"pokemonNumber": "0249|2",
 		"pokemonName": "Lugia",
 		"pokemonGender": "",
 		"pokemonForm": [],
