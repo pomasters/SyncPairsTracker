@@ -987,8 +987,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
@@ -996,7 +996,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kanto",
 		"images": [
 			"Sync Pairs/Blaine_0078_4.png",
-			"Sync Pairs/Blaine_0078_5.png"
+			"Sync Pairs/Blaine_0078_5.png",
+			"Sync Pairs/Blaine_0078_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -3938,6 +3939,7 @@ export const SYNCPAIRS = [
 			"Rock Lover"
 		],
 		"tags": [
+			"Multiple Pokemon",
 			"isMan",
 			"First Unit",
 			"SyncMovePhysical"
@@ -4111,6 +4113,49 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0016_00_huuro",
 		"internalPokemonName": "pm0521_01_kenhallow"
+	},
+	{
+		"dexNumber": "041",
+		"trainerName": "Skyla",
+		"trainerAlt": "Summer 2025",
+		"pokemonNumber": "0189",
+		"pokemonName": "Jumpluff",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-07-02",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Skyla_0189_5.png",
+			"Sync Pairs/Skyla_0189_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Unova",
+			"Gym Leader",
+			"Seasonal Outfit",
+			"Undella Town"
+		],
+		"tags": [
+			"Summer",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0016_42_huuro",
+		"internalPokemonName": "pm0189_00_watacco"
 	},
 	{
 		"dexNumber": "042",
@@ -7946,6 +7991,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
 			"isMan",
 			"Legendary",
 			"Villain Arc",
@@ -7999,6 +8046,54 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0112_00_hibiki",
 		"internalPokemonName": "pm0250_00_houou"
+	},
+	{
+		"dexNumber": "075",
+		"trainerName": "Ethan",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0249",
+		"pokemonName": "Lugia",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-07-17",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/Ethan_0249_2_5.png",
+			"Sync Pairs/Ethan_0249_2_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Johto",
+			"Main Character",
+			"Arc Suit",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Rebuff",
+			"Song Key",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0112_90_hibiki",
+		"internalPokemonName": "pm0249_00_lugia"
 	},
 	{
 		"dexNumber": "076",
@@ -8749,6 +8844,51 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0091_00_shirona",
 		"internalPokemonName": "pm0442_00_mikaruge"
+	},
+	{
+		"dexNumber": "078",
+		"trainerName": "Cynthia",
+		"trainerAlt": "Summer 2025",
+		"pokemonNumber": "0350",
+		"pokemonName": "Milotic",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-06-30",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Cynthia_0350_5.png",
+			"Sync Pairs/Cynthia_0350_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Sinnoh",
+			"Champion",
+			"Seasonal Outfit",
+			"Undella Town"
+		],
+		"tags": [
+			"Summer",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0091_40_shirona",
+		"internalPokemonName": "pm0350_01_milokaross"
 	},
 	{
 		"dexNumber": "079",
@@ -10127,6 +10267,7 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Song Key",
 			"First Unit",
+			"Multiple Pokemon",
 			"Grid3",
 			"GridExpansion",
 			"SyncMoveSpecial"
@@ -10221,6 +10362,7 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Song Key",
 			"Multiple Pokemon",
+			"Multiple Pairs",
 			"First Unit",
 			"SyncMovePhysical"
 		],
@@ -10347,6 +10489,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Region Circle",
+			"Grid5",
+			"GridExpansion",
 			"GridMega",
 			"Multiple Units",
 			"Multiple Pokemon",
@@ -10398,6 +10542,54 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0133_00_shilver",
 		"internalPokemonName": "pm0169_00_crobat"
+	},
+	{
+		"dexNumber": "091",
+		"trainerName": "Silver",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0250|2",
+		"pokemonName": "Ho-Oh",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-07-15",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Johto",
+		"images": [
+			"Sync Pairs/Silver_0250_2_5.png",
+			"Sync Pairs/Silver_0250_2_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Johto",
+			"Rival",
+			"Arc Suit",
+			"Battle Partner"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"WeatherEX",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Rebuff",
+			"Song Key",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0133_91_shilver",
+		"internalPokemonName": "pm0250_00_houou"
 	},
 	{
 		"dexNumber": "092",
@@ -12726,6 +12918,8 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
+			"Grid3",
+			"GridExpansion",
 			"isMan",
 			"Multiple Units",
 			"Multiple Pokemon",
@@ -14377,6 +14571,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0247_90_dande",
 		"internalPokemonName": "pm0006_00_lizardon"
+	},
+	{
+		"dexNumber": "118",
+		"trainerName": "Leon",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0537",
+		"pokemonName": "Seismitoad",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-07-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/Leon_0537_4.png",
+			"Sync Pairs/Leon_0537_5.png",
+			"Sync Pairs/Leon_0537_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Galar",
+			"Champion",
+			"Battle Facility Foe",
+			"Free Spirit"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0247_00_dande",
+		"internalPokemonName": "pm0537_00_gamageroge"
 	},
 	{
 		"dexNumber": "119",
@@ -22729,4 +22964,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.57.0";
+export const VERSION = "v2.58.0";
