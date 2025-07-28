@@ -10,10 +10,10 @@ export const SYNCPAIRS = [
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
 		"syncPairEXColor": false,
-		"syncPairSuperawakening": false,
+		"syncPairSuperawakening": true,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
 		"syncPairAcquisition": "Main Story: PML Arc",
@@ -24,7 +24,9 @@ export const SYNCPAIRS = [
 			"Sync Pairs/Scottie_0025_4.png",
 			"Sync Pairs/Bettie_0025_4.png",
 			"Sync Pairs/Scottie_0025_5.png",
-			"Sync Pairs/Bettie_0025_5.png"
+			"Sync Pairs/Bettie_0025_5.png",
+			"Sync Pairs/Scottie_0025_EX.png",
+			"Sync Pairs/Bettie_0025_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -1090,6 +1092,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"SyncMovePhysical"
 		],
@@ -2193,6 +2196,49 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0383_00_groudon_rare"
 	},
 	{
+		"dexNumber": "018",
+		"trainerName": "Brendan",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0259",
+		"pokemonName": "Marshtomp",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-05",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/Brendan_0259_5.png",
+			"Sync Pairs/Brendan_0259_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Hoenn",
+			"Main Character",
+			"Space Cadet"
+		],
+		"tags": [
+			"Starter",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan",
+			"Academy Sync Pair",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0019_40_yuki",
+		"internalPokemonName": "pm0259_00_numacraw"
+	},
+	{
 		"dexNumber": "019",
 		"trainerName": "Roxanne",
 		"trainerAlt": "",
@@ -2681,6 +2727,7 @@ export const SYNCPAIRS = [
 			"Grid3",
 			"GridExpansion",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"First Unit",
 			"SyncMovePhysical"
 		],
@@ -4360,6 +4407,50 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0621_00_crimgan"
 	},
 	{
+		"dexNumber": "043",
+		"trainerName": "Iris",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0131",
+		"pokemonName": "Lapras",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-05",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Iris_0131_5.png",
+			"Sync Pairs/Iris_0131_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Unova",
+			"Special Costume",
+			"Undella Town"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Rebuff",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0092_41_iris",
+		"internalPokemonName": "pm0131_00_laplace"
+	},
+	{
 		"dexNumber": "044",
 		"trainerName": "Roxie",
 		"trainerAlt": "",
@@ -4450,6 +4541,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0011_10_homika",
 		"internalPokemonName": "pm0849_11_00_strinder"
+	},
+	{
+		"dexNumber": "044",
+		"trainerName": "Roxie",
+		"trainerAlt": "",
+		"pokemonNumber": "0569",
+		"pokemonName": "Garbodor",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Roxie_0569_5.png",
+			"Sync Pairs/Roxie_0569_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Unova",
+			"Gym Leader",
+			"Artistic",
+			"Undella Town"
+		],
+		"tags": [
+			"Wish Zone",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0011_00_homika",
+		"internalPokemonName": "pm0569_00_00_dustdas"
 	},
 	{
 		"dexNumber": "045",
@@ -9940,12 +10072,54 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Grid3",
 			"GridExpansion",
+			"Multiple Units",
 			"Multiple Pokemon",
 			"First Unit",
 			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0151_00_melissa",
 		"internalPokemonName": "pm0429_00_mumargi"
+	},
+	{
+		"dexNumber": "086",
+		"trainerName": "Fantina",
+		"trainerAlt": "",
+		"pokemonNumber": "0477",
+		"pokemonName": "Dusknoir",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Fantina_0477_5.png",
+			"Sync Pairs/Fantina_0477_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Sinnoh",
+			"Gym Leader",
+			"Artistic",
+			"Contest Lover"
+		],
+		"tags": [
+			"Wish Zone",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0151_00_melissa",
+		"internalPokemonName": "pm0477_00_yonoir"
 	},
 	{
 		"dexNumber": "087",
@@ -12038,6 +12212,46 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0549_00_dredear"
 	},
 	{
+		"dexNumber": "101",
+		"trainerName": "Lusamine",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0350",
+		"pokemonName": "Milotic",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-08-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/Lusamine_0350_4.png",
+			"Sync Pairs/Lusamine_0350_5.png",
+			"Sync Pairs/Lusamine_0350_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Alola",
+			"Villain.",
+			"Grown Woman",
+			"Alola Adventurer"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0120_00_lusamine",
+		"internalPokemonName": "pm0350_01_milokaross"
+	},
+	{
 		"dexNumber": "102",
 		"trainerName": "Gladion",
 		"trainerAlt": "",
@@ -12203,6 +12417,46 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0119_00_gladion",
 		"internalPokemonName": "pm0461_00_manyula"
+	},
+	{
+		"dexNumber": "102",
+		"trainerName": "Gladion",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0474",
+		"pokemonName": "Porygon-Z",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-05",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/Gladion_0474_5.png",
+			"Sync Pairs/Gladion_0474_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Alola",
+			"Rival",
+			"Special Costume"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0119_40_gladion",
+		"internalPokemonName": "pm0474_00_porygon-z"
 	},
 	{
 		"dexNumber": "103",
@@ -12677,8 +12931,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2020-10-08",
@@ -12686,7 +12940,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/Molayne_0051_4.png",
-			"Sync Pairs/Molayne_0051_5.png"
+			"Sync Pairs/Molayne_0051_5.png",
+			"Sync Pairs/Molayne_0051_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -15212,6 +15467,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
+			"Grid3",
+			"GridExpansion",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"Starter",
@@ -16185,6 +16442,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0160_00_suiren",
 		"internalPokemonName": "pm0171_00_lantern"
+	},
+	{
+		"dexNumber": "129",
+		"trainerName": "Lana",
+		"trainerAlt": "",
+		"pokemonNumber": "0091",
+		"pokemonName": "Cloyster",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-01",
+		"syncPairAcquisition": "Gym Scout",
+		"syncPairRegion": "Alola",
+		"images": [
+			"Sync Pairs/Lana_0091_5.png",
+			"Sync Pairs/Lana_0091_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Alola",
+			"Trial Giver",
+			"Free Spirit",
+			"Nature Lover"
+		],
+		"tags": [
+			"Weather",
+			"Region Circle",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0160_00_suiren",
+		"internalPokemonName": "pm0091_00_parshen"
 	},
 	{
 		"dexNumber": "130",
@@ -19407,6 +19705,7 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Song Key",
+			"Multiple Pokemon",
 			"Villain Arc",
 			"First Unit",
 			"SyncMovePhysical"
@@ -22875,6 +23174,96 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0138_00_orchid2",
 		"internalPokemonName": "pm0103_61_00_anassy"
+	},
+	{
+		"dexNumber": "233",
+		"trainerName": "Carmine",
+		"trainerAlt": "",
+		"pokemonNumber": "1013",
+		"pokemonName": "Sinistcha",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Other Form",
+			"Terastallization"
+		],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-07-29",
+		"syncPairAcquisition": "Poké Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Carmine_1013_5.png",
+			"Sync Pairs/Carmine_1013_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Paldea",
+			"Rival",
+			"Battle Partner"
+		],
+		"tags": [
+			"Grid5",
+			"Limited",
+			"Terrain",
+			"Region Circle",
+			"isWoman",
+			"Song Key",
+			"First Unit",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0356_00_zeiyu",
+		"internalPokemonName": "pm1013_11_00_yabasocha"
+	},
+	{
+		"dexNumber": "234",
+		"trainerName": "Kieran",
+		"trainerAlt": "",
+		"pokemonNumber": "1019",
+		"pokemonName": "Hydrapple",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Terastallization"
+		],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-18",
+		"syncPairAcquisition": "Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Kieran_1019_5.png",
+			"Sync Pairs/Kieran_1019_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Paldea",
+			"Rival",
+			"Champion"
+		],
+		"tags": [
+			"Grid5",
+			"Limited",
+			"Weather",
+			"Wish Zone",
+			"isMan",
+			"Song Key",
+			"Master Passive Flag Bearer",
+			"First Unit",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0357_00_suguri",
+		"internalPokemonName": "pm1019_00_00_kamitsuorochi"
 	}
 ]
 
@@ -22892,7 +23281,8 @@ const P = {
 		"Mega Evolution",
 		"Regional Form",
 		"Dynamax",
-		"Gigantamax"
+		"Gigantamax",
+		"Terastallization"
 	],
 	"pokemonType": "Normal / Fire / Water / Electric / Grass / Ice / Fighting / Poison / Ground / Flying / Psychic / Bug / Rock / Ghost / Dragon / Dark / Steel / Fairy",
 	"pokemonWeak": "Normal / Fire / Water / Electric / Grass / Ice / Fighting / Poison / Ground / Flying / Psychic / Bug / Rock / Ghost / Dragon / Dark / Steel / Fairy",
@@ -22964,4 +23354,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.58.0";
+export const VERSION = "v2.59.0";
