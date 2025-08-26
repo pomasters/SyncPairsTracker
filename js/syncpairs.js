@@ -93,7 +93,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Ground",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Tech",
 		"syncPairEXPose": true,
 		"syncPairEXColor": false,
 		"syncPairSuperawakening": false,
@@ -442,6 +442,44 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0243_00_raikou"
 	},
 	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "BP",
+		"pokemonNumber": "0794",
+		"pokemonName": "Buzzwole",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/Scottie_0794_5.png",
+			"Sync Pairs/Bettie_0794_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Pasio",
+			"Main Character"
+		],
+		"tags": [
+			"Ultra Beast",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Master Passive Teamwork",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "hero",
+		"internalPokemonName": "pm0877_00_beastyellow"
+	},
+	{
 		"dexNumber": "002",
 		"trainerName": "Brock",
 		"trainerAlt": "",
@@ -453,8 +491,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -463,7 +501,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Brock_0095_3.png",
 			"Sync Pairs/Brock_0095_4.png",
-			"Sync Pairs/Brock_0095_5.png"
+			"Sync Pairs/Brock_0095_5.png",
+			"Sync Pairs/Brock_0095_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -577,8 +616,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Support",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -587,7 +626,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Misty_0121_3.png",
 			"Sync Pairs/Misty_0121_4.png",
-			"Sync Pairs/Misty_0121_5.png"
+			"Sync Pairs/Misty_0121_5.png",
+			"Sync Pairs/Misty_0121_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -1534,8 +1574,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
@@ -1543,7 +1583,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Johto",
 		"images": [
 			"Sync Pairs/Whitney_0241_4.png",
-			"Sync Pairs/Whitney_0241_5.png"
+			"Sync Pairs/Whitney_0241_5.png",
+			"Sync Pairs/Whitney_0241_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -2337,8 +2378,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Flying",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2347,7 +2388,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Brawly_0297_3.png",
 			"Sync Pairs/Brawly_0297_4.png",
-			"Sync Pairs/Brawly_0297_5.png"
+			"Sync Pairs/Brawly_0297_5.png",
+			"Sync Pairs/Brawly_0297_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -2376,8 +2418,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Water",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2386,7 +2428,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Flannery_0324_3.png",
 			"Sync Pairs/Flannery_0324_4.png",
-			"Sync Pairs/Flannery_0324_5.png"
+			"Sync Pairs/Flannery_0324_5.png",
+			"Sync Pairs/Flannery_0324_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -2416,8 +2459,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2426,7 +2469,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Norman_0289_3.png",
 			"Sync Pairs/Norman_0289_4.png",
-			"Sync Pairs/Norman_0289_5.png"
+			"Sync Pairs/Norman_0289_5.png",
+			"Sync Pairs/Norman_0289_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -2455,8 +2499,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Electric",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2465,7 +2509,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Winona_0279_3.png",
 			"Sync Pairs/Winona_0279_4.png",
-			"Sync Pairs/Winona_0279_5.png"
+			"Sync Pairs/Winona_0279_5.png",
+			"Sync Pairs/Winona_0279_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -2537,8 +2582,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2547,7 +2592,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Tate_0338_3.png",
 			"Sync Pairs/Tate_0338_4.png",
-			"Sync Pairs/Tate_0338_5.png"
+			"Sync Pairs/Tate_0338_5.png",
+			"Sync Pairs/Tate_0338_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2619,8 +2665,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Support",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -2629,7 +2675,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Liza_0337_3.png",
 			"Sync Pairs/Liza_0337_4.png",
-			"Sync Pairs/Liza_0337_5.png"
+			"Sync Pairs/Liza_0337_5.png",
+			"Sync Pairs/Liza_0337_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2774,6 +2821,46 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0049_40_fuyo",
 		"internalPokemonName": "pm0563_00_desukarn"
+	},
+	{
+		"dexNumber": "026",
+		"trainerName": "Phoebe",
+		"trainerAlt": "",
+		"pokemonNumber": "0302",
+		"pokemonName": "Sableye",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Hoenn",
+		"images": [
+			"Sync Pairs/Phoebe_0302_4.png",
+			"Sync Pairs/Phoebe_0302_5.png",
+			"Sync Pairs/Phoebe_0302_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Hoenn",
+			"Elite Four",
+			"Supernatural",
+			"Free Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0049_00_fuyo",
+		"internalPokemonName": "pm0302_00_yamirami"
 	},
 	{
 		"dexNumber": "027",
@@ -3066,6 +3153,49 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0419_00_floazel"
 	},
 	{
+		"dexNumber": "029",
+		"trainerName": "Barry",
+		"trainerAlt": "",
+		"pokemonNumber": "0392",
+		"pokemonName": "Infernape",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-01",
+		"syncPairAcquisition": "Mix Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Barry_0392_5.png",
+			"Sync Pairs/Barry_0392_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Sinnoh",
+			"Rival",
+			"Scarf",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0099_00_jun",
+		"internalPokemonName": "pm0392_00_goukazaru"
+	},
+	{
 		"dexNumber": "030",
 		"trainerName": "Roark",
 		"trainerAlt": "",
@@ -3206,8 +3336,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Support",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -3216,7 +3346,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Maylene_0308_3.png",
 			"Sync Pairs/Maylene_0308_4.png",
-			"Sync Pairs/Maylene_0308_5.png"
+			"Sync Pairs/Maylene_0308_5.png",
+			"Sync Pairs/Maylene_0308_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -3245,8 +3376,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -3255,7 +3386,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Crasher Wake_0419_3.png",
 			"Sync Pairs/Crasher Wake_0419_4.png",
-			"Sync Pairs/Crasher Wake_0419_5.png"
+			"Sync Pairs/Crasher Wake_0419_5.png",
+			"Sync Pairs/Crasher Wake_0419_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -3432,6 +3564,8 @@ export const SYNCPAIRS = [
 			"Passionate Spirit"
 		],
 		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Starter",
 			"First Unit",
@@ -3439,6 +3573,45 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0006_00_oba",
 		"internalPokemonName": "pm0392_00_goukazaru"
+	},
+	{
+		"dexNumber": "035",
+		"trainerName": "Flint",
+		"trainerAlt": "",
+		"pokemonNumber": "0078",
+		"pokemonName": "Rapidash",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Flint_0078_4.png",
+			"Sync Pairs/Flint_0078_5.png",
+			"Sync Pairs/Flint_0078_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Sinnoh",
+			"Elite Four",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0006_00_oba",
+		"internalPokemonName": "pm0078_00_gallop"
 	},
 	{
 		"dexNumber": "036",
@@ -3519,6 +3692,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0041_00_nejiki",
 		"internalPokemonName": "pm0462_00_jibacoil"
+	},
+	{
+		"dexNumber": "036",
+		"trainerName": "Thorton",
+		"trainerAlt": "",
+		"pokemonNumber": "0486",
+		"pokemonName": "Regigigas",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Thorton_0486_5.png",
+			"Sync Pairs/Thorton_0486_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Sinnoh",
+			"Battle Facility Foe",
+			"Knowledgeable",
+			"Gadgeteer"
+		],
+		"tags": [
+			"Legendary",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Master Passive Teamwork",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0041_00_nejiki",
+		"internalPokemonName": "pm0486_00_00_regigigas"
 	},
 	{
 		"dexNumber": "037",
@@ -3944,12 +4158,59 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Unique Costume",
 			"Multiple Units",
+			"Multiple Pairs",
 			"isWoman",
 			"Academy Sync Pair",
 			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0101_42_mei",
 		"internalPokemonName": "pm0585_11_shikijika"
+	},
+	{
+		"dexNumber": "039",
+		"trainerName": "Rosa",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0585|2",
+		"pokemonName": "Deerling",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-22",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Rosa_0585_2_5.png",
+			"Sync Pairs/Rosa_0585_2_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Unova",
+			"Main Character",
+			"Pigtails"
+		],
+		"tags": [
+			"Limited",
+			"Weather",
+			"Terrain",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pairs",
+			"isWoman",
+			"Academy Sync Pair",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0101_42_mei",
+		"internalPokemonName": "pm0585_12_shikijika"
 	},
 	{
 		"dexNumber": "040",
@@ -4216,8 +4477,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fighting",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -4226,7 +4487,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Brycen_0615_3.png",
 			"Sync Pairs/Brycen_0615_4.png",
-			"Sync Pairs/Brycen_0615_5.png"
+			"Sync Pairs/Brycen_0615_5.png",
+			"Sync Pairs/Brycen_0615_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -4236,12 +4498,52 @@ export const SYNCPAIRS = [
 			"Masked"
 		],
 		"tags": [
+			"Multiple Units",
 			"isMan",
 			"First Unit",
 			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0040_00_hachiku",
 		"internalPokemonName": "pm0615_00_freegeo"
+	},
+	{
+		"dexNumber": "042",
+		"trainerName": "Brycen",
+		"trainerAlt": "",
+		"pokemonNumber": "0365",
+		"pokemonName": "Walrein",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Brycen_0365_4.png",
+			"Sync Pairs/Brycen_0365_5.png",
+			"Sync Pairs/Brycen_0365_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Unova",
+			"Gym Leader",
+			"Artistic",
+			"Masked"
+		],
+		"tags": [
+			"Multiple Units",
+			"isMan",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0040_00_hachiku",
+		"internalPokemonName": "pm0365_00_todoseruga"
 	},
 	{
 		"dexNumber": "043",
@@ -4595,8 +4897,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Grass",
 		"syncPairRole": "Support",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -4605,7 +4907,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Marlon_0565_3.png",
 			"Sync Pairs/Marlon_0565_4.png",
-			"Sync Pairs/Marlon_0565_5.png"
+			"Sync Pairs/Marlon_0565_5.png",
+			"Sync Pairs/Marlon_0565_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -4761,8 +5064,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
@@ -4770,7 +5073,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Kalos",
 		"images": [
 			"Sync Pairs/Grant_0699_4.png",
-			"Sync Pairs/Grant_0699_5.png"
+			"Sync Pairs/Grant_0699_5.png",
+			"Sync Pairs/Grant_0699_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -4927,8 +5231,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Ice",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -4937,7 +5241,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Ramos_0071_3.png",
 			"Sync Pairs/Ramos_0071_4.png",
-			"Sync Pairs/Ramos_0071_5.png"
+			"Sync Pairs/Ramos_0071_5.png",
+			"Sync Pairs/Ramos_0071_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -4966,8 +5271,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Strike (Physical)",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "3",
 		"releaseDate": "2019-08-29",
@@ -4976,7 +5281,8 @@ export const SYNCPAIRS = [
 		"images": [
 			"Sync Pairs/Wulfric_0713_3.png",
 			"Sync Pairs/Wulfric_0713_4.png",
-			"Sync Pairs/Wulfric_0713_5.png"
+			"Sync Pairs/Wulfric_0713_5.png",
+			"Sync Pairs/Wulfric_0713_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -5678,8 +5984,8 @@ export const SYNCPAIRS = [
 		"pokemonWeak": "Bug",
 		"syncPairRole": "Tech",
 		"syncPairRoleEX": "",
-		"syncPairEXPose": false,
-		"syncPairEXColor": false,
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "4",
 		"releaseDate": "2019-08-29",
@@ -5687,7 +5993,8 @@ export const SYNCPAIRS = [
 		"syncPairRegion": "Alola",
 		"images": [
 			"Sync Pairs/Nanu_0053_4.png",
-			"Sync Pairs/Nanu_0053_5.png"
+			"Sync Pairs/Nanu_0053_5.png",
+			"Sync Pairs/Nanu_0053_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -6860,6 +7167,51 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0471_00_glacia"
 	},
 	{
+		"dexNumber": "067",
+		"trainerName": "Hilbert",
+		"trainerAlt": "",
+		"pokemonNumber": "0642",
+		"pokemonName": "Thundurus",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-05",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Hilbert_0642_5.png",
+			"Sync Pairs/Hilbert_0642_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Unova",
+			"Main Character",
+			"Unova Adventurer",
+			"Battle Partner"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"TerrainEX",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0020_00_toya",
+		"internalPokemonName": "pm0642_11_00_voltolos"
+	},
+	{
 		"dexNumber": "068",
 		"trainerName": "Hilda",
 		"trainerAlt": "",
@@ -7075,6 +7427,51 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0004_00_toko",
 		"internalPokemonName": "pm0470_00_leafia"
+	},
+	{
+		"dexNumber": "068",
+		"trainerName": "Hilda",
+		"trainerAlt": "",
+		"pokemonNumber": "0641",
+		"pokemonName": "Tornadus",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-05",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/Hilda_0641_5.png",
+			"Sync Pairs/Hilda_0641_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Main Character",
+			"Unova Adventurer",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0004_00_toko",
+		"internalPokemonName": "pm0641_11_tornelos"
 	},
 	{
 		"dexNumber": "069",
@@ -7323,6 +7720,7 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Unique Costume",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"Rebuff",
 			"SyncMoveSpecial"
@@ -7407,6 +7805,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"GridMega",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"Unique Costume",
 			"SyncMovePhysical"
@@ -7805,7 +8204,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Field",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -8786,7 +9185,10 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
+			"Grid5",
+			"GridExpansion",
 			"Wish Zone",
 			"Legendary",
 			"Song Key",
@@ -9080,7 +9482,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Rock",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -9763,6 +10165,7 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"GridMega",
 			"Multiple Pokemon",
+			"Multiple Pairs",
 			"Unique Costume",
 			"First Unit",
 			"SyncMoveSpecial"
@@ -9954,6 +10357,57 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0000_80_red",
 		"internalPokemonName": "pm0003_00_fushigibana"
+	},
+	{
+		"dexNumber": "084",
+		"trainerName": "Red",
+		"trainerAlt": "Anniversary 2025",
+		"pokemonNumber": "0006|2",
+		"pokemonName": "Charizard",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Terastallization"
+		],
+		"pokemonType": "Dragon",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Kanto",
+		"images": [
+			"Sync Pairs/Red_0006_2_5.png",
+			"Sync Pairs/Red_0006_2_EX.png"
+		],
+		"themes": [
+			"Dragon",
+			"Kanto",
+			"Main Character",
+			"Seasonal Outfit",
+			"Pallet Town"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Anniversary",
+			"Master Passive",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0000_40_red",
+		"internalPokemonName": "pm0006_00_lizardon"
 	},
 	{
 		"dexNumber": "085",
@@ -10278,6 +10732,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"Ultra Beast",
 			"Unique Costume",
@@ -10507,7 +10962,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
 		"syncPairRole": "Strike (Physical)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -12004,7 +12459,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Strike (Special)",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -12453,6 +12908,7 @@ export const SYNCPAIRS = [
 			"Unique Costume",
 			"Multiple Units",
 			"isMan",
+			"ZMove",
 			"SyncMoveSpecial"
 		],
 		"internalTrainerName": "ch0119_40_gladion",
@@ -12830,6 +13286,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
+			"Grid3",
+			"GridExpansion",
 			"Terrain",
 			"First Unit",
 			"SyncMovePhysical"
@@ -13012,7 +13470,7 @@ export const SYNCPAIRS = [
 		"pokemonName": "Rapidash",
 		"pokemonGender": "♂",
 		"pokemonForm": [
-			"Regional Form",
+			"Regional Form"
 		],
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Ghost",
@@ -13577,6 +14035,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Pokemon",
 			"Multiple Units",
+			"Multiple Pairs",
 			"Weather",
 			"Wish Zone",
 			"isWoman",
@@ -13586,6 +14045,57 @@ export const SYNCPAIRS = [
 			"SyncMovePhysical"
 		],
 		"internalTrainerName": "ch0243_81_yuri",
+		"internalPokemonName": "pm0815_00_00_aceburn"
+	},
+	{
+		"dexNumber": "111",
+		"trainerName": "Gloria",
+		"trainerAlt": "Anniversary 2025",
+		"pokemonNumber": "0815|2",
+		"pokemonName": "Cinderace",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Terastallization"
+		],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-01",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/Gloria_0815_2_5.png",
+			"Sync Pairs/Gloria_0815_2_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Galar",
+			"Main Character",
+			"Seasonal Outfit",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isWoman",
+			"Anniversary",
+			"Master Passive",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0243_41_yuri",
 		"internalPokemonName": "pm0815_00_00_aceburn"
 	},
 	{
@@ -13893,6 +14403,51 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0089_00_n",
 		"internalPokemonName": "pm0567_00_archeos"
+	},
+	{
+		"dexNumber": "112",
+		"trainerName": "N",
+		"trainerAlt": "",
+		"pokemonNumber": "0645",
+		"pokemonName": "Landorus",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Ice",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-05",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"images": [
+			"Sync Pairs/N_0645_5.png",
+			"Sync Pairs/N_0645_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Unova",
+			"Rival",
+			"Villain",
+			"Unova Adventurer"
+		],
+		"tags": [
+			"Legendary",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0089_00_n",
+		"internalPokemonName": "pm0645_11_landlos"
 	},
 	{
 		"dexNumber": "113",
@@ -14391,7 +14946,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -16033,7 +16588,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Ice",
 		"pokemonWeak": "Steel",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Support",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -16225,6 +16780,45 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0250_40_saida",
 		"internalPokemonName": "pm0584_00_baivanilla"
+	},
+	{
+		"dexNumber": "126",
+		"trainerName": "Bea",
+		"trainerAlt": "",
+		"pokemonNumber": "0237",
+		"pokemonName": "Hitmontop",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Battle Points Exchange",
+		"syncPairRegion": "Galar",
+		"images": [
+			"Sync Pairs/Bea_0237_4.png",
+			"Sync Pairs/Bea_0237_5.png",
+			"Sync Pairs/Bea_0237_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Galar",
+			"Gym Leader",
+			"Body Builder",
+			"Sweet Tooth"
+		],
+		"tags": [
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0250_00_saida",
+		"internalPokemonName": "pm0237_00_kapoerer"
 	},
 	{
 		"dexNumber": "127",
@@ -17410,7 +18004,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
 		"syncPairRole": "Support",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Sprint",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
@@ -18160,6 +18754,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Multiple Pokemon",
+			"Grid5",
+			"GridExpansion",
 			"Unique Costume",
 			"Neo Champion",
 			"Master Passive Flag Bearer",
@@ -18454,6 +19050,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Legendary",
+			"Multiple Pokemon",
 			"Master Passive Teamwork",
 			"First Unit",
 			"SyncMovePhysical"
@@ -19538,6 +20135,58 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0571_00_41_zoroark"
 	},
 	{
+		"dexNumber": "167",
+		"trainerName": "Irida",
+		"trainerAlt": "Anniversary 2025",
+		"pokemonNumber": "0157",
+		"pokemonName": "Typhlosion",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Regional Form",
+			"Terastallization"
+		],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-30",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Irida_0157_5.png",
+			"Sync Pairs/Irida_0157_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Sinnoh",
+			"Seasonal Outfit",
+			"Nature Lover",
+			"Hisui Adventurer"
+		],
+		"tags": [
+			"Starter",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Anniversary",
+			"Hisui",
+			"Master Passive",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0285_41_kai",
+		"internalPokemonName": "pm0157_00_41_bakphoon"
+	},
+	{
 		"dexNumber": "168",
 		"trainerName": "Eusine",
 		"trainerAlt": "",
@@ -19913,6 +20562,8 @@ export const SYNCPAIRS = [
 			"Region Circle",
 			"Unique Costume",
 			"Multiple Units",
+			"Grid5",
+			"GridExpansion",
 			"isWoman",
 			"Song Key",
 			"Master Passive Pride",
@@ -19920,6 +20571,46 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0289_10_nemo",
 		"internalPokemonName": "pm0985_00_00_sakebushippo"
+	},
+	{
+		"dexNumber": "173",
+		"trainerName": "Nemona",
+		"trainerAlt": "",
+		"pokemonNumber": "0912",
+		"pokemonName": "Quaxly",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Nemona_0912_5.png",
+			"Sync Pairs/Nemona_0912_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Paldea",
+			"Rival",
+			"Champion",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Weather",
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0289_00_nemo",
+		"internalPokemonName": "pm0912_00_00_kuwassu"
 	},
 	{
 		"dexNumber": "174",
@@ -20239,6 +20930,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Grid5",
 			"Buddy Move",
+			"Multiple Pokemon",
 			"Limited",
 			"Wish Zone",
 			"isMan",
@@ -21334,6 +22026,56 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0443_00_fukamaru"
 	},
 	{
+		"dexNumber": "199",
+		"trainerName": "Volo",
+		"trainerAlt": "Alt.",
+		"pokemonNumber": "0487",
+		"pokemonName": "Giratina",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-15",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"images": [
+			"Sync Pairs/Volo_0487_5.png",
+			"Sync Pairs/Volo_0487_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Sinnoh",
+			"Knowledgeable",
+			"Researcher"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Rebuff",
+			"Hisui",
+			"Song Key",
+			"Master Passive",
+			"SyncMovePhysical"
+		],
+		"internalTrainerName": "ch0359_00_volo2",
+		"internalPokemonName": "pm0487_12_giratina"
+	},
+	{
 		"dexNumber": "200",
 		"trainerName": "Jacq",
 		"trainerAlt": "",
@@ -22389,6 +23131,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Unique Costume",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"SyncMovePhysical"
 		],
@@ -22731,6 +23474,7 @@ export const SYNCPAIRS = [
 			"Paradox",
 			"Grid5",
 			"Buddy Move",
+			"Multiple Units",
 			"Limited",
 			"Weather",
 			"isWoman",
@@ -22740,6 +23484,48 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0287_00_svgirl",
 		"internalPokemonName": "pm1007_11_00_koraidon"
+	},
+	{
+		"dexNumber": "224",
+		"trainerName": "Juliana",
+		"trainerAlt": "",
+		"pokemonNumber": "0906",
+		"pokemonName": "Sprigatito",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Poison",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Juliana_0906_5.png",
+			"Sync Pairs/Juliana_0906_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Paldea",
+			"Main Character",
+			"Cook",
+			"Free Spirit"
+		],
+		"tags": [
+			"Starter",
+			"Limited",
+			"Terrain",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0287_00_svgirl",
+		"internalPokemonName": "pm0906_00_00_nyahoja"
 	},
 	{
 		"dexNumber": "225",
@@ -22830,6 +23616,47 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0286_00_svboy",
 		"internalPokemonName": "pm0915_00_00_gourton"
+	},
+	{
+		"dexNumber": "225",
+		"trainerName": "Florian",
+		"trainerAlt": "",
+		"pokemonNumber": "0909",
+		"pokemonName": "Fuecoco",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-08-28",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Florian_0909_5.png",
+			"Sync Pairs/Florian_0909_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Paldea",
+			"Main Character",
+			"Cook",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Starter",
+			"Limited",
+			"Weather",
+			"Multiple Units",
+			"isMan",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0286_00_svboy",
+		"internalPokemonName": "pm0909_00_00_hogator"
 	},
 	{
 		"dexNumber": "226",
@@ -23211,6 +24038,7 @@ export const SYNCPAIRS = [
 			"Grid5",
 			"Limited",
 			"Terrain",
+			"Multiple Units",
 			"Region Circle",
 			"isWoman",
 			"Song Key",
@@ -23219,6 +24047,45 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0356_00_zeiyu",
 		"internalPokemonName": "pm1013_11_00_yabasocha"
+	},
+	{
+		"dexNumber": "233",
+		"trainerName": "Carmine",
+		"trainerAlt": "",
+		"pokemonNumber": "0541",
+		"pokemonName": "Swadloon",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-09-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Paldea",
+		"images": [
+			"Sync Pairs/Carmine_0541_4.png",
+			"Sync Pairs/Carmine_0541_5.png",
+			"Sync Pairs/Carmine_0541_EX.png"
+		],
+		"themes": [
+			"Bug",
+			"Paldea",
+			"Rival",
+			"Battle Partner"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial"
+		],
+		"internalTrainerName": "ch0356_00_zeiyu",
+		"internalPokemonName": "pm0541_00_kurumayu"
 	},
 	{
 		"dexNumber": "234",
@@ -23354,4 +24221,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.59.0";
+export const VERSION = "v2.60.0";
