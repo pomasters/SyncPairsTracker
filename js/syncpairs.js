@@ -19,14 +19,14 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0025_3.png",
-			"Sync Pairs/Bettie_0025_3.png",
-			"Sync Pairs/Scottie_0025_4.png",
-			"Sync Pairs/Bettie_0025_4.png",
-			"Sync Pairs/Scottie_0025_5.png",
-			"Sync Pairs/Bettie_0025_5.png",
-			"Sync Pairs/Scottie_0025_EX.png",
-			"Sync Pairs/Bettie_0025_EX.png"
+			"icons/Scottie_0025_3.png",
+			"icons/Bettie_0025_3.png",
+			"icons/Scottie_0025_4.png",
+			"icons/Bettie_0025_4.png",
+			"icons/Scottie_0025_5.png",
+			"icons/Bettie_0025_5.png",
+			"icons/Scottie_0025_EX.png",
+			"icons/Bettie_0025_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -62,12 +62,12 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Bettie_0255_3.png",
-			"Sync Pairs/Scottie_0255_3.png",
-			"Sync Pairs/Bettie_0255_4.png",
-			"Sync Pairs/Scottie_0255_4.png",
-			"Sync Pairs/Bettie_0255_5.png",
-			"Sync Pairs/Scottie_0255_5.png"
+			"icons/Bettie_0255_3.png",
+			"icons/Scottie_0255_3.png",
+			"icons/Bettie_0255_4.png",
+			"icons/Scottie_0255_4.png",
+			"icons/Bettie_0255_5.png",
+			"icons/Scottie_0255_5.png"
 		],
 		"themes": [
 			"Fire",
@@ -102,10 +102,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0791_5.png",
-			"Sync Pairs/Bettie_0791_5.png",
-			"Sync Pairs/Scottie_0791_EX.png",
-			"Sync Pairs/Bettie_0791_EX.png"
+			"icons/Scottie_0791_5.png",
+			"icons/Bettie_0791_5.png",
+			"icons/Scottie_0791_EX.png",
+			"icons/Bettie_0791_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -145,8 +145,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0638_5.png",
-			"Sync Pairs/Bettie_0638_5.png"
+			"icons/Scottie_0638_5.png",
+			"icons/Bettie_0638_5.png"
 		],
 		"themes": [
 			"Fighting",
@@ -182,8 +182,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0377_5.png",
-			"Sync Pairs/Bettie_0377_5.png"
+			"icons/Scottie_0377_5.png",
+			"icons/Bettie_0377_5.png"
 		],
 		"themes": [
 			"Rock",
@@ -219,8 +219,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0481_5.png",
-			"Sync Pairs/Bettie_0481_5.png"
+			"icons/Scottie_0481_5.png",
+			"icons/Bettie_0481_5.png"
 		],
 		"themes": [
 			"Psychic",
@@ -256,8 +256,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0379_5.png",
-			"Sync Pairs/Bettie_0379_5.png"
+			"icons/Scottie_0379_5.png",
+			"icons/Bettie_0379_5.png"
 		],
 		"themes": [
 			"Steel",
@@ -295,34 +295,34 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0869.png",
-			"Sync Pairs/Bettie_0869.png",
-			"Sync Pairs/Scottie_0869_5.png",
-			"Sync Pairs/Bettie_0869_5.png",
-			"Sync Pairs/Scottie_0869-2.png",
-			"Sync Pairs/Bettie_0869-2.png",
-			"Sync Pairs/Scottie_0869-2_5.png",
-			"Sync Pairs/Bettie_0869-2_5.png",
-			"Sync Pairs/Scottie_0869-3.png",
-			"Sync Pairs/Bettie_0869-3.png",
-			"Sync Pairs/Scottie_0869-3_5.png",
-			"Sync Pairs/Bettie_0869-3_5.png",
-			"Sync Pairs/Scottie_0869-4.png",
-			"Sync Pairs/Bettie_0869-4.png",
-			"Sync Pairs/Scottie_0869-4_5.png",
-			"Sync Pairs/Bettie_0869-4_5.png",
-			"Sync Pairs/Scottie_0869-5.png",
-			"Sync Pairs/Bettie_0869-5.png",
-			"Sync Pairs/Scottie_0869-5_5.png",
-			"Sync Pairs/Bettie_0869-5_5.png",
-			"Sync Pairs/Scottie_0869-6.png",
-			"Sync Pairs/Bettie_0869-6.png",
-			"Sync Pairs/Scottie_0869-6_5.png",
-			"Sync Pairs/Bettie_0869-6_5.png",
-			"Sync Pairs/Scottie_0869-7.png",
-			"Sync Pairs/Bettie_0869-7.png",
-			"Sync Pairs/Scottie_0869-7_5.png",
-			"Sync Pairs/Bettie_0869-7_5.png"
+			"icons/Scottie_0869.png",
+			"icons/Bettie_0869.png",
+			"icons/Scottie_0869_5.png",
+			"icons/Bettie_0869_5.png",
+			"icons/Scottie_0869-2.png",
+			"icons/Bettie_0869-2.png",
+			"icons/Scottie_0869-2_5.png",
+			"icons/Bettie_0869-2_5.png",
+			"icons/Scottie_0869-3.png",
+			"icons/Bettie_0869-3.png",
+			"icons/Scottie_0869-3_5.png",
+			"icons/Bettie_0869-3_5.png",
+			"icons/Scottie_0869-4.png",
+			"icons/Bettie_0869-4.png",
+			"icons/Scottie_0869-4_5.png",
+			"icons/Bettie_0869-4_5.png",
+			"icons/Scottie_0869-5.png",
+			"icons/Bettie_0869-5.png",
+			"icons/Scottie_0869-5_5.png",
+			"icons/Bettie_0869-5_5.png",
+			"icons/Scottie_0869-6.png",
+			"icons/Bettie_0869-6.png",
+			"icons/Scottie_0869-6_5.png",
+			"icons/Bettie_0869-6_5.png",
+			"icons/Scottie_0869-7.png",
+			"icons/Bettie_0869-7.png",
+			"icons/Scottie_0869-7_5.png",
+			"icons/Bettie_0869-7_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -361,34 +361,34 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0869.png",
-			"Sync Pairs/Bettie_0869.png",
-			"Sync Pairs/Scottie_0869_5.png",
-			"Sync Pairs/Bettie_0869_5.png",
-			"Sync Pairs/Scottie_0869-2.png",
-			"Sync Pairs/Bettie_0869-2.png",
-			"Sync Pairs/Scottie_0869-2_5.png",
-			"Sync Pairs/Bettie_0869-2_5.png",
-			"Sync Pairs/Scottie_0869-3.png",
-			"Sync Pairs/Bettie_0869-3.png",
-			"Sync Pairs/Scottie_0869-3_5.png",
-			"Sync Pairs/Bettie_0869-3_5.png",
-			"Sync Pairs/Scottie_0869-4.png",
-			"Sync Pairs/Bettie_0869-4.png",
-			"Sync Pairs/Scottie_0869-4_5.png",
-			"Sync Pairs/Bettie_0869-4_5.png",
-			"Sync Pairs/Scottie_0869-5.png",
-			"Sync Pairs/Bettie_0869-5.png",
-			"Sync Pairs/Scottie_0869-5_5.png",
-			"Sync Pairs/Bettie_0869-5_5.png",
-			"Sync Pairs/Scottie_0869-6.png",
-			"Sync Pairs/Bettie_0869-6.png",
-			"Sync Pairs/Scottie_0869-6_5.png",
-			"Sync Pairs/Bettie_0869-6_5.png",
-			"Sync Pairs/Scottie_0869-7.png",
-			"Sync Pairs/Bettie_0869-7.png",
-			"Sync Pairs/Scottie_0869-7_5.png",
-			"Sync Pairs/Bettie_0869-7_5.png"
+			"icons/Scottie_0869.png",
+			"icons/Bettie_0869.png",
+			"icons/Scottie_0869_5.png",
+			"icons/Bettie_0869_5.png",
+			"icons/Scottie_0869-2.png",
+			"icons/Bettie_0869-2.png",
+			"icons/Scottie_0869-2_5.png",
+			"icons/Bettie_0869-2_5.png",
+			"icons/Scottie_0869-3.png",
+			"icons/Bettie_0869-3.png",
+			"icons/Scottie_0869-3_5.png",
+			"icons/Bettie_0869-3_5.png",
+			"icons/Scottie_0869-4.png",
+			"icons/Bettie_0869-4.png",
+			"icons/Scottie_0869-4_5.png",
+			"icons/Bettie_0869-4_5.png",
+			"icons/Scottie_0869-5.png",
+			"icons/Bettie_0869-5.png",
+			"icons/Scottie_0869-5_5.png",
+			"icons/Bettie_0869-5_5.png",
+			"icons/Scottie_0869-6.png",
+			"icons/Bettie_0869-6.png",
+			"icons/Scottie_0869-6_5.png",
+			"icons/Bettie_0869-6_5.png",
+			"icons/Scottie_0869-7.png",
+			"icons/Bettie_0869-7.png",
+			"icons/Scottie_0869-7_5.png",
+			"icons/Bettie_0869-7_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -425,8 +425,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0243_5.png",
-			"Sync Pairs/Bettie_0243_5.png"
+			"icons/Scottie_0243_5.png",
+			"icons/Bettie_0243_5.png"
 		],
 		"themes": [
 			"Electric",
@@ -461,8 +461,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Scottie_0794_5.png",
-			"Sync Pairs/Bettie_0794_EX.png"
+			"icons/Scottie_0794_5.png",
+			"icons/Bettie_0794_5.png"
 		],
 		"themes": [
 			"Bug",
@@ -499,10 +499,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Brock_0095_3.png",
-			"Sync Pairs/Brock_0095_4.png",
-			"Sync Pairs/Brock_0095_5.png",
-			"Sync Pairs/Brock_0095_EX.png"
+			"icons/Brock_0095_3.png",
+			"icons/Brock_0095_4.png",
+			"icons/Brock_0095_5.png",
+			"icons/Brock_0095_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -541,10 +541,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Brock_0248_3.png",
-			"Sync Pairs/Brock_0248_4.png",
-			"Sync Pairs/Brock_0248_5.png",
-			"Sync Pairs/Brock_0248_EX.png"
+			"icons/Brock_0248_3.png",
+			"icons/Brock_0248_4.png",
+			"icons/Brock_0248_5.png",
+			"icons/Brock_0248_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -583,8 +583,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Brock_0141_5.png",
-			"Sync Pairs/Brock_0141_EX.png"
+			"icons/Brock_0141_5.png",
+			"icons/Brock_0141_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -624,10 +624,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Misty_0121_3.png",
-			"Sync Pairs/Misty_0121_4.png",
-			"Sync Pairs/Misty_0121_5.png",
-			"Sync Pairs/Misty_0121_EX.png"
+			"icons/Misty_0121_3.png",
+			"icons/Misty_0121_4.png",
+			"icons/Misty_0121_5.png",
+			"icons/Misty_0121_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -664,9 +664,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Misty_0054_4.png",
-			"Sync Pairs/Misty_0054_5.png",
-			"Sync Pairs/Misty_0054_EX.png"
+			"icons/Misty_0054_4.png",
+			"icons/Misty_0054_5.png",
+			"icons/Misty_0054_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -704,8 +704,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Misty_0134_5.png",
-			"Sync Pairs/Misty_0134_EX.png"
+			"icons/Misty_0134_5.png",
+			"icons/Misty_0134_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -748,10 +748,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lt. Surge_0101_3.png",
-			"Sync Pairs/Lt. Surge_0101_4.png",
-			"Sync Pairs/Lt. Surge_0101_5.png",
-			"Sync Pairs/Lt. Surge_0101_EX.png"
+			"icons/Lt. Surge_0101_3.png",
+			"icons/Lt. Surge_0101_4.png",
+			"icons/Lt. Surge_0101_5.png",
+			"icons/Lt. Surge_0101_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -789,9 +789,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lt. Surge_0026_4.png",
-			"Sync Pairs/Lt. Surge_0026_5.png",
-			"Sync Pairs/Lt. Surge_0026_EX.png"
+			"icons/Lt. Surge_0026_4.png",
+			"icons/Lt. Surge_0026_5.png",
+			"icons/Lt. Surge_0026_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -829,10 +829,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Erika_0045_3.png",
-			"Sync Pairs/Erika_0045_4.png",
-			"Sync Pairs/Erika_0045_5.png",
-			"Sync Pairs/Erika_0045_EX.png"
+			"icons/Erika_0045_3.png",
+			"icons/Erika_0045_4.png",
+			"icons/Erika_0045_5.png",
+			"icons/Erika_0045_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -870,8 +870,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Erika_0764_5.png",
-			"Sync Pairs/Erika_0764_EX.png"
+			"icons/Erika_0764_5.png",
+			"icons/Erika_0764_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -911,9 +911,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Erika_0114_4.png",
-			"Sync Pairs/Erika_0114_5.png",
-			"Sync Pairs/Erika_0114_EX.png"
+			"icons/Erika_0114_4.png",
+			"icons/Erika_0114_5.png",
+			"icons/Erika_0114_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -950,8 +950,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Erika_0470_5.png",
-			"Sync Pairs/Erika_0470_EX.png"
+			"icons/Erika_0470_5.png",
+			"icons/Erika_0470_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -993,8 +993,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Erika_0754_5.png",
-			"Sync Pairs/Erika_0754_EX.png"
+			"icons/Erika_0754_5.png",
+			"icons/Erika_0754_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -1037,9 +1037,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blaine_0078_4.png",
-			"Sync Pairs/Blaine_0078_5.png",
-			"Sync Pairs/Blaine_0078_EX.png"
+			"icons/Blaine_0078_4.png",
+			"icons/Blaine_0078_5.png",
+			"icons/Blaine_0078_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -1078,9 +1078,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lorelei_0131_4.png",
-			"Sync Pairs/Lorelei_0131_5.png",
-			"Sync Pairs/Lorelei_0131_EX.png"
+			"icons/Lorelei_0131_4.png",
+			"icons/Lorelei_0131_5.png",
+			"icons/Lorelei_0131_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -1119,8 +1119,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lorelei_0091_5.png",
-			"Sync Pairs/Lorelei_0091_EX.png"
+			"icons/Lorelei_0091_5.png",
+			"icons/Lorelei_0091_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -1159,9 +1159,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Bruno_0068_4.png",
-			"Sync Pairs/Bruno_0068_5.png",
-			"Sync Pairs/Bruno_0068_EX.png"
+			"icons/Bruno_0068_4.png",
+			"icons/Bruno_0068_5.png",
+			"icons/Bruno_0068_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1199,8 +1199,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Bruno_0095_5.png",
-			"Sync Pairs/Bruno_0095_EX.png"
+			"icons/Bruno_0095_5.png",
+			"icons/Bruno_0095_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -1241,9 +1241,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Agatha_0094_4.png",
-			"Sync Pairs/Agatha_0094_5.png",
-			"Sync Pairs/Agatha_0094_EX.png"
+			"icons/Agatha_0094_4.png",
+			"icons/Agatha_0094_5.png",
+			"icons/Agatha_0094_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -1283,8 +1283,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Agatha_0024_5.png",
-			"Sync Pairs/Agatha_0024_EX.png"
+			"icons/Agatha_0024_5.png",
+			"icons/Agatha_0024_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -1325,8 +1325,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Kris_0160_5.png",
-			"Sync Pairs/Kris_0160_EX.png"
+			"icons/Kris_0160_5.png",
+			"icons/Kris_0160_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -1368,8 +1368,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Kris_0245_5.png",
-			"Sync Pairs/Kris_0245_EX.png"
+			"icons/Kris_0245_5.png",
+			"icons/Kris_0245_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -1413,8 +1413,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Kris_0135_5.png",
-			"Sync Pairs/Kris_0135_EX.png"
+			"icons/Kris_0135_5.png",
+			"icons/Kris_0135_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -1456,10 +1456,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Bugsy_0015_3.png",
-			"Sync Pairs/Bugsy_0015_4.png",
-			"Sync Pairs/Bugsy_0015_5.png",
-			"Sync Pairs/Bugsy_0015_EX.png"
+			"icons/Bugsy_0015_3.png",
+			"icons/Bugsy_0015_4.png",
+			"icons/Bugsy_0015_5.png",
+			"icons/Bugsy_0015_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -1498,9 +1498,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Bugsy_0123_4.png",
-			"Sync Pairs/Bugsy_0123_5.png",
-			"Sync Pairs/Bugsy_0123_EX.png"
+			"icons/Bugsy_0123_4.png",
+			"icons/Bugsy_0123_5.png",
+			"icons/Bugsy_0123_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -1538,8 +1538,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Bugsy_0402_5.png",
-			"Sync Pairs/Bugsy_0402_EX.png"
+			"icons/Bugsy_0402_5.png",
+			"icons/Bugsy_0402_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -1582,9 +1582,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Whitney_0241_4.png",
-			"Sync Pairs/Whitney_0241_5.png",
-			"Sync Pairs/Whitney_0241_EX.png"
+			"icons/Whitney_0241_4.png",
+			"icons/Whitney_0241_5.png",
+			"icons/Whitney_0241_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -1624,8 +1624,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Whitney_0586_5.png",
-			"Sync Pairs/Whitney_0586_EX.png"
+			"icons/Whitney_0586_5.png",
+			"icons/Whitney_0586_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -1666,8 +1666,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Whitney_0040_5.png",
-			"Sync Pairs/Whitney_0040_EX.png"
+			"icons/Whitney_0040_5.png",
+			"icons/Whitney_0040_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -1708,10 +1708,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Pryce_0087_3.png",
-			"Sync Pairs/Pryce_0087_4.png",
-			"Sync Pairs/Pryce_0087_5.png",
-			"Sync Pairs/Pryce_0087_EX.png"
+			"icons/Pryce_0087_3.png",
+			"icons/Pryce_0087_4.png",
+			"icons/Pryce_0087_5.png",
+			"icons/Pryce_0087_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -1748,9 +1748,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Clair_0230_4.png",
-			"Sync Pairs/Clair_0230_5.png",
-			"Sync Pairs/Clair_0230_EX.png"
+			"icons/Clair_0230_4.png",
+			"icons/Clair_0230_5.png",
+			"icons/Clair_0230_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -1789,8 +1789,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Clair_0780_5.png",
-			"Sync Pairs/Clair_0780_EX.png"
+			"icons/Clair_0780_5.png",
+			"icons/Clair_0780_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -1829,10 +1829,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Janine_0168_3.png",
-			"Sync Pairs/Janine_0168_4.png",
-			"Sync Pairs/Janine_0168_5.png",
-			"Sync Pairs/Janine_0168_EX.png"
+			"icons/Janine_0168_3.png",
+			"icons/Janine_0168_4.png",
+			"icons/Janine_0168_5.png",
+			"icons/Janine_0168_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -1871,9 +1871,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Janine_0169_4.png",
-			"Sync Pairs/Janine_0169_5.png",
-			"Sync Pairs/Janine_0169_EX.png"
+			"icons/Janine_0169_4.png",
+			"icons/Janine_0169_5.png",
+			"icons/Janine_0169_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -1910,9 +1910,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Will_0178_4.png",
-			"Sync Pairs/Will_0178_5.png",
-			"Sync Pairs/Will_0178_EX.png"
+			"icons/Will_0178_4.png",
+			"icons/Will_0178_5.png",
+			"icons/Will_0178_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1949,9 +1949,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Will_0080_4.png",
-			"Sync Pairs/Will_0080_5.png",
-			"Sync Pairs/Will_0080_EX.png"
+			"icons/Will_0080_4.png",
+			"icons/Will_0080_5.png",
+			"icons/Will_0080_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1990,8 +1990,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Karen_0229_5.png",
-			"Sync Pairs/Karen_0229_EX.png"
+			"icons/Karen_0229_5.png",
+			"icons/Karen_0229_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -2032,9 +2032,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Karen_0197_4.png",
-			"Sync Pairs/Karen_0197_5.png",
-			"Sync Pairs/Karen_0197_EX.png"
+			"icons/Karen_0197_4.png",
+			"icons/Karen_0197_5.png",
+			"icons/Karen_0197_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -2076,8 +2076,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brendan_0254_5.png",
-			"Sync Pairs/Brendan_0254_EX.png"
+			"icons/Brendan_0254_5.png",
+			"icons/Brendan_0254_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -2118,8 +2118,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brendan_0381_5.png",
-			"Sync Pairs/Brendan_0381_EX.png"
+			"icons/Brendan_0381_5.png",
+			"icons/Brendan_0381_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -2163,9 +2163,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brendan_0277_4.png",
-			"Sync Pairs/Brendan_0277_5.png",
-			"Sync Pairs/Brendan_0277_EX.png"
+			"icons/Brendan_0277_4.png",
+			"icons/Brendan_0277_5.png",
+			"icons/Brendan_0277_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -2204,8 +2204,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brendan_0383_5.png",
-			"Sync Pairs/Brendan_0383_EX.png"
+			"icons/Brendan_0383_5.png",
+			"icons/Brendan_0383_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -2256,8 +2256,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brendan_0259_5.png",
-			"Sync Pairs/Brendan_0259_EX.png"
+			"icons/Brendan_0259_5.png",
+			"icons/Brendan_0259_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -2301,10 +2301,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Roxanne_0476_3.png",
-			"Sync Pairs/Roxanne_0476_4.png",
-			"Sync Pairs/Roxanne_0476_5.png",
-			"Sync Pairs/Roxanne_0476_EX.png"
+			"icons/Roxanne_0476_3.png",
+			"icons/Roxanne_0476_4.png",
+			"icons/Roxanne_0476_5.png",
+			"icons/Roxanne_0476_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -2342,8 +2342,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Roxanne_0867_5.png",
-			"Sync Pairs/Roxanne_0867_EX.png"
+			"icons/Roxanne_0867_5.png",
+			"icons/Roxanne_0867_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -2386,10 +2386,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Brawly_0297_3.png",
-			"Sync Pairs/Brawly_0297_4.png",
-			"Sync Pairs/Brawly_0297_5.png",
-			"Sync Pairs/Brawly_0297_EX.png"
+			"icons/Brawly_0297_3.png",
+			"icons/Brawly_0297_4.png",
+			"icons/Brawly_0297_5.png",
+			"icons/Brawly_0297_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -2426,10 +2426,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Flannery_0324_3.png",
-			"Sync Pairs/Flannery_0324_4.png",
-			"Sync Pairs/Flannery_0324_5.png",
-			"Sync Pairs/Flannery_0324_EX.png"
+			"icons/Flannery_0324_3.png",
+			"icons/Flannery_0324_4.png",
+			"icons/Flannery_0324_5.png",
+			"icons/Flannery_0324_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -2467,10 +2467,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Norman_0289_3.png",
-			"Sync Pairs/Norman_0289_4.png",
-			"Sync Pairs/Norman_0289_5.png",
-			"Sync Pairs/Norman_0289_EX.png"
+			"icons/Norman_0289_3.png",
+			"icons/Norman_0289_4.png",
+			"icons/Norman_0289_5.png",
+			"icons/Norman_0289_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -2507,10 +2507,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Winona_0279_3.png",
-			"Sync Pairs/Winona_0279_4.png",
-			"Sync Pairs/Winona_0279_5.png",
-			"Sync Pairs/Winona_0279_EX.png"
+			"icons/Winona_0279_3.png",
+			"icons/Winona_0279_4.png",
+			"icons/Winona_0279_5.png",
+			"icons/Winona_0279_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -2549,8 +2549,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Winona_0334_5.png",
-			"Sync Pairs/Winona_0334_EX.png"
+			"icons/Winona_0334_5.png",
+			"icons/Winona_0334_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -2590,10 +2590,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Tate_0338_3.png",
-			"Sync Pairs/Tate_0338_4.png",
-			"Sync Pairs/Tate_0338_5.png",
-			"Sync Pairs/Tate_0338_EX.png"
+			"icons/Tate_0338_3.png",
+			"icons/Tate_0338_4.png",
+			"icons/Tate_0338_5.png",
+			"icons/Tate_0338_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2631,8 +2631,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Tate_0385_5.png",
-			"Sync Pairs/Tate_0385_EX.png"
+			"icons/Tate_0385_5.png",
+			"icons/Tate_0385_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -2673,10 +2673,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Liza_0337_3.png",
-			"Sync Pairs/Liza_0337_4.png",
-			"Sync Pairs/Liza_0337_5.png",
-			"Sync Pairs/Liza_0337_EX.png"
+			"icons/Liza_0337_3.png",
+			"icons/Liza_0337_4.png",
+			"icons/Liza_0337_5.png",
+			"icons/Liza_0337_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2714,8 +2714,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Liza_0797_5.png",
-			"Sync Pairs/Liza_0797_EX.png"
+			"icons/Liza_0797_5.png",
+			"icons/Liza_0797_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -2759,8 +2759,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Phoebe_0477_5.png",
-			"Sync Pairs/Phoebe_0477_EX.png"
+			"icons/Phoebe_0477_5.png",
+			"icons/Phoebe_0477_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -2801,8 +2801,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Phoebe_0563_5.png",
-			"Sync Pairs/Phoebe_0563_EX.png"
+			"icons/Phoebe_0563_5.png",
+			"icons/Phoebe_0563_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -2842,9 +2842,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Phoebe_0302_4.png",
-			"Sync Pairs/Phoebe_0302_5.png",
-			"Sync Pairs/Phoebe_0302_EX.png"
+			"icons/Phoebe_0302_4.png",
+			"icons/Phoebe_0302_5.png",
+			"icons/Phoebe_0302_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -2882,9 +2882,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Drake_0373_4.png",
-			"Sync Pairs/Drake_0373_5.png",
-			"Sync Pairs/Drake_0373_EX.png"
+			"icons/Drake_0373_4.png",
+			"icons/Drake_0373_5.png",
+			"icons/Drake_0373_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -2923,9 +2923,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Noland_0127_4.png",
-			"Sync Pairs/Noland_0127_5.png",
-			"Sync Pairs/Noland_0127_EX.png"
+			"icons/Noland_0127_4.png",
+			"icons/Noland_0127_5.png",
+			"icons/Noland_0127_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -2963,8 +2963,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Noland_0291_5.png",
-			"Sync Pairs/Noland_0291_EX.png"
+			"icons/Noland_0291_5.png",
+			"icons/Noland_0291_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -3005,10 +3005,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Barry_0395_3.png",
-			"Sync Pairs/Barry_0395_4.png",
-			"Sync Pairs/Barry_0395_5.png",
-			"Sync Pairs/Barry_0395_EX.png"
+			"icons/Barry_0395_3.png",
+			"icons/Barry_0395_4.png",
+			"icons/Barry_0395_5.png",
+			"icons/Barry_0395_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -3049,9 +3049,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Barry_0407_4.png",
-			"Sync Pairs/Barry_0407_5.png",
-			"Sync Pairs/Barry_0407_EX.png"
+			"icons/Barry_0407_4.png",
+			"icons/Barry_0407_5.png",
+			"icons/Barry_0407_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -3091,8 +3091,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Barry_0214_5.png",
-			"Sync Pairs/Barry_0214_EX.png"
+			"icons/Barry_0214_5.png",
+			"icons/Barry_0214_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -3133,8 +3133,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Barry_0419_5.png",
-			"Sync Pairs/Barry_0419_EX.png"
+			"icons/Barry_0419_5.png",
+			"icons/Barry_0419_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -3172,8 +3172,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Barry_0392_5.png",
-			"Sync Pairs/Barry_0392_EX.png"
+			"icons/Barry_0392_5.png",
+			"icons/Barry_0392_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -3217,10 +3217,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Roark_0409_3.png",
-			"Sync Pairs/Roark_0409_4.png",
-			"Sync Pairs/Roark_0409_5.png",
-			"Sync Pairs/Roark_0409_EX.png"
+			"icons/Roark_0409_3.png",
+			"icons/Roark_0409_4.png",
+			"icons/Roark_0409_5.png",
+			"icons/Roark_0409_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -3258,9 +3258,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Gardenia_0407_4.png",
-			"Sync Pairs/Gardenia_0407_5.png",
-			"Sync Pairs/Gardenia_0407_EX.png"
+			"icons/Gardenia_0407_4.png",
+			"icons/Gardenia_0407_5.png",
+			"icons/Gardenia_0407_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -3299,8 +3299,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Gardenia_0781_5.png",
-			"Sync Pairs/Gardenia_0781_EX.png"
+			"icons/Gardenia_0781_5.png",
+			"icons/Gardenia_0781_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -3344,10 +3344,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Maylene_0308_3.png",
-			"Sync Pairs/Maylene_0308_4.png",
-			"Sync Pairs/Maylene_0308_5.png",
-			"Sync Pairs/Maylene_0308_EX.png"
+			"icons/Maylene_0308_3.png",
+			"icons/Maylene_0308_4.png",
+			"icons/Maylene_0308_5.png",
+			"icons/Maylene_0308_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -3384,10 +3384,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Crasher Wake_0419_3.png",
-			"Sync Pairs/Crasher Wake_0419_4.png",
-			"Sync Pairs/Crasher Wake_0419_5.png",
-			"Sync Pairs/Crasher Wake_0419_EX.png"
+			"icons/Crasher Wake_0419_3.png",
+			"icons/Crasher Wake_0419_4.png",
+			"icons/Crasher Wake_0419_5.png",
+			"icons/Crasher Wake_0419_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -3425,10 +3425,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Candice_0460_3.png",
-			"Sync Pairs/Candice_0460_4.png",
-			"Sync Pairs/Candice_0460_5.png",
-			"Sync Pairs/Candice_0460_EX.png"
+			"icons/Candice_0460_3.png",
+			"icons/Candice_0460_4.png",
+			"icons/Candice_0460_5.png",
+			"icons/Candice_0460_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -3467,9 +3467,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Candice_0478_4.png",
-			"Sync Pairs/Candice_0478_5.png",
-			"Sync Pairs/Candice_0478_EX.png"
+			"icons/Candice_0478_4.png",
+			"icons/Candice_0478_5.png",
+			"icons/Candice_0478_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -3510,8 +3510,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Candice_0555_5.png",
-			"Sync Pairs/Candice_0555_EX.png"
+			"icons/Candice_0555_5.png",
+			"icons/Candice_0555_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -3552,9 +3552,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Flint_0392_4.png",
-			"Sync Pairs/Flint_0392_5.png",
-			"Sync Pairs/Flint_0392_EX.png"
+			"icons/Flint_0392_4.png",
+			"icons/Flint_0392_5.png",
+			"icons/Flint_0392_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -3594,9 +3594,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Flint_0078_4.png",
-			"Sync Pairs/Flint_0078_5.png",
-			"Sync Pairs/Flint_0078_EX.png"
+			"icons/Flint_0078_4.png",
+			"icons/Flint_0078_5.png",
+			"icons/Flint_0078_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -3633,9 +3633,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Thorton_0437_4.png",
-			"Sync Pairs/Thorton_0437_5.png",
-			"Sync Pairs/Thorton_0437_EX.png"
+			"icons/Thorton_0437_4.png",
+			"icons/Thorton_0437_5.png",
+			"icons/Thorton_0437_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -3673,8 +3673,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Thorton_0462_5.png",
-			"Sync Pairs/Thorton_0462_EX.png"
+			"icons/Thorton_0462_5.png",
+			"icons/Thorton_0462_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -3713,8 +3713,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Thorton_0486_5.png",
-			"Sync Pairs/Thorton_0486_EX.png"
+			"icons/Thorton_0486_5.png",
+			"icons/Thorton_0486_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -3754,10 +3754,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cheryl_0242_3.png",
-			"Sync Pairs/Cheryl_0242_4.png",
-			"Sync Pairs/Cheryl_0242_5.png",
-			"Sync Pairs/Cheryl_0242_EX.png"
+			"icons/Cheryl_0242_3.png",
+			"icons/Cheryl_0242_4.png",
+			"icons/Cheryl_0242_5.png",
+			"icons/Cheryl_0242_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -3795,9 +3795,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cheryl_0321_4.png",
-			"Sync Pairs/Cheryl_0321_5.png",
-			"Sync Pairs/Cheryl_0321_EX.png"
+			"icons/Cheryl_0321_4.png",
+			"icons/Cheryl_0321_5.png",
+			"icons/Cheryl_0321_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -3834,10 +3834,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Marley_0059_3.png",
-			"Sync Pairs/Marley_0059_4.png",
-			"Sync Pairs/Marley_0059_5.png",
-			"Sync Pairs/Marley_0059_EX.png"
+			"icons/Marley_0059_3.png",
+			"icons/Marley_0059_4.png",
+			"icons/Marley_0059_5.png",
+			"icons/Marley_0059_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -3877,8 +3877,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Marley_0492_5.png",
-			"Sync Pairs/Marley_0492_EX.png"
+			"icons/Marley_0492_5.png",
+			"icons/Marley_0492_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -3925,8 +3925,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0497_5.png",
-			"Sync Pairs/Rosa_0497_EX.png"
+			"icons/Rosa_0497_5.png",
+			"icons/Rosa_0497_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -3965,8 +3965,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0225_5.png",
-			"Sync Pairs/Rosa_0225_EX.png"
+			"icons/Rosa_0225_5.png",
+			"icons/Rosa_0225_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -4006,9 +4006,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0502_4.png",
-			"Sync Pairs/Rosa_0502_5.png",
-			"Sync Pairs/Rosa_0502_EX.png"
+			"icons/Rosa_0502_4.png",
+			"icons/Rosa_0502_5.png",
+			"icons/Rosa_0502_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -4048,8 +4048,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0492_5.png",
-			"Sync Pairs/Rosa_0492_EX.png"
+			"icons/Rosa_0492_5.png",
+			"icons/Rosa_0492_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -4091,8 +4091,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0648_5.png",
-			"Sync Pairs/Rosa_0648_EX.png"
+			"icons/Rosa_0648_5.png",
+			"icons/Rosa_0648_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -4142,8 +4142,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0585_5.png",
-			"Sync Pairs/Rosa_0585_EX.png"
+			"icons/Rosa_0585_5.png",
+			"icons/Rosa_0585_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -4188,8 +4188,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Rosa_0585_2_5.png",
-			"Sync Pairs/Rosa_0585_2_EX.png"
+			"icons/Rosa_0585_2_5.png",
+			"icons/Rosa_0585_2_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -4234,10 +4234,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Clay_0537_3.png",
-			"Sync Pairs/Clay_0537_4.png",
-			"Sync Pairs/Clay_0537_5.png",
-			"Sync Pairs/Clay_0537_EX.png"
+			"icons/Clay_0537_3.png",
+			"icons/Clay_0537_4.png",
+			"icons/Clay_0537_5.png",
+			"icons/Clay_0537_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -4275,10 +4275,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Skyla_0581_3.png",
-			"Sync Pairs/Skyla_0581_4.png",
-			"Sync Pairs/Skyla_0581_5.png",
-			"Sync Pairs/Skyla_0581_EX.png"
+			"icons/Skyla_0581_3.png",
+			"icons/Skyla_0581_4.png",
+			"icons/Skyla_0581_5.png",
+			"icons/Skyla_0581_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -4316,8 +4316,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Skyla_0468_5.png",
-			"Sync Pairs/Skyla_0468_EX.png"
+			"icons/Skyla_0468_5.png",
+			"icons/Skyla_0468_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -4357,8 +4357,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Skyla_0641_5.png",
-			"Sync Pairs/Skyla_0641_EX.png"
+			"icons/Skyla_0641_5.png",
+			"icons/Skyla_0641_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -4403,9 +4403,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Skyla_0521_4.png",
-			"Sync Pairs/Skyla_0521_5.png",
-			"Sync Pairs/Skyla_0521_EX.png"
+			"icons/Skyla_0521_4.png",
+			"icons/Skyla_0521_5.png",
+			"icons/Skyla_0521_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -4442,8 +4442,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Skyla_0189_5.png",
-			"Sync Pairs/Skyla_0189_EX.png"
+			"icons/Skyla_0189_5.png",
+			"icons/Skyla_0189_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -4485,10 +4485,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Brycen_0615_3.png",
-			"Sync Pairs/Brycen_0615_4.png",
-			"Sync Pairs/Brycen_0615_5.png",
-			"Sync Pairs/Brycen_0615_EX.png"
+			"icons/Brycen_0615_3.png",
+			"icons/Brycen_0615_4.png",
+			"icons/Brycen_0615_5.png",
+			"icons/Brycen_0615_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -4526,9 +4526,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Brycen_0365_4.png",
-			"Sync Pairs/Brycen_0365_5.png",
-			"Sync Pairs/Brycen_0365_EX.png"
+			"icons/Brycen_0365_4.png",
+			"icons/Brycen_0365_5.png",
+			"icons/Brycen_0365_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -4565,10 +4565,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Iris_0612_3.png",
-			"Sync Pairs/Iris_0612_4.png",
-			"Sync Pairs/Iris_0612_5.png",
-			"Sync Pairs/Iris_0612_EX.png"
+			"icons/Iris_0612_3.png",
+			"icons/Iris_0612_4.png",
+			"icons/Iris_0612_5.png",
+			"icons/Iris_0612_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -4606,8 +4606,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Iris_0635_5.png",
-			"Sync Pairs/Iris_0635_EX.png"
+			"icons/Iris_0635_5.png",
+			"icons/Iris_0635_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -4648,8 +4648,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Iris_0804_5.png",
-			"Sync Pairs/Iris_0804_EX.png"
+			"icons/Iris_0804_5.png",
+			"icons/Iris_0804_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -4690,9 +4690,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Iris_0621_4.png",
-			"Sync Pairs/Iris_0621_5.png",
-			"Sync Pairs/Iris_0621_EX.png"
+			"icons/Iris_0621_4.png",
+			"icons/Iris_0621_5.png",
+			"icons/Iris_0621_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -4728,8 +4728,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Iris_0131_5.png",
-			"Sync Pairs/Iris_0131_EX.png"
+			"icons/Iris_0131_5.png",
+			"icons/Iris_0131_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -4774,9 +4774,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Roxie_0545_4.png",
-			"Sync Pairs/Roxie_0545_5.png",
-			"Sync Pairs/Roxie_0545_EX.png"
+			"icons/Roxie_0545_4.png",
+			"icons/Roxie_0545_5.png",
+			"icons/Roxie_0545_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -4818,8 +4818,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Roxie_0849_5.png",
-			"Sync Pairs/Roxie_0849_EX.png"
+			"icons/Roxie_0849_5.png",
+			"icons/Roxie_0849_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -4864,8 +4864,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Roxie_0569_5.png",
-			"Sync Pairs/Roxie_0569_EX.png"
+			"icons/Roxie_0569_5.png",
+			"icons/Roxie_0569_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -4905,10 +4905,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Marlon_0565_3.png",
-			"Sync Pairs/Marlon_0565_4.png",
-			"Sync Pairs/Marlon_0565_5.png",
-			"Sync Pairs/Marlon_0565_EX.png"
+			"icons/Marlon_0565_3.png",
+			"icons/Marlon_0565_4.png",
+			"icons/Marlon_0565_5.png",
+			"icons/Marlon_0565_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -4946,9 +4946,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Shauntal_0609_4.png",
-			"Sync Pairs/Shauntal_0609_5.png",
-			"Sync Pairs/Shauntal_0609_EX.png"
+			"icons/Shauntal_0609_4.png",
+			"icons/Shauntal_0609_5.png",
+			"icons/Shauntal_0609_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -4987,8 +4987,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Shauntal_0478_5.png",
-			"Sync Pairs/Shauntal_0478_EX.png"
+			"icons/Shauntal_0478_5.png",
+			"icons/Shauntal_0478_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -5031,9 +5031,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Marshal_0534_4.png",
-			"Sync Pairs/Marshal_0534_5.png",
-			"Sync Pairs/Marshal_0534_EX.png"
+			"icons/Marshal_0534_4.png",
+			"icons/Marshal_0534_5.png",
+			"icons/Marshal_0534_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -5072,9 +5072,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Grant_0699_4.png",
-			"Sync Pairs/Grant_0699_5.png",
-			"Sync Pairs/Grant_0699_EX.png"
+			"icons/Grant_0699_4.png",
+			"icons/Grant_0699_5.png",
+			"icons/Grant_0699_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -5114,10 +5114,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Korrina_0448_3.png",
-			"Sync Pairs/Korrina_0448_4.png",
-			"Sync Pairs/Korrina_0448_5.png",
-			"Sync Pairs/Korrina_0448_EX.png"
+			"icons/Korrina_0448_3.png",
+			"icons/Korrina_0448_4.png",
+			"icons/Korrina_0448_5.png",
+			"icons/Korrina_0448_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -5156,8 +5156,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Korrina_0802_5.png",
-			"Sync Pairs/Korrina_0802_EX.png"
+			"icons/Korrina_0802_5.png",
+			"icons/Korrina_0802_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -5198,8 +5198,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Korrina_0701_5.png",
-			"Sync Pairs/Korrina_0701_EX.png"
+			"icons/Korrina_0701_5.png",
+			"icons/Korrina_0701_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -5239,10 +5239,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Ramos_0071_3.png",
-			"Sync Pairs/Ramos_0071_4.png",
-			"Sync Pairs/Ramos_0071_5.png",
-			"Sync Pairs/Ramos_0071_EX.png"
+			"icons/Ramos_0071_3.png",
+			"icons/Ramos_0071_4.png",
+			"icons/Ramos_0071_5.png",
+			"icons/Ramos_0071_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -5279,10 +5279,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Wulfric_0713_3.png",
-			"Sync Pairs/Wulfric_0713_4.png",
-			"Sync Pairs/Wulfric_0713_5.png",
-			"Sync Pairs/Wulfric_0713_EX.png"
+			"icons/Wulfric_0713_3.png",
+			"icons/Wulfric_0713_4.png",
+			"icons/Wulfric_0713_5.png",
+			"icons/Wulfric_0713_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -5319,9 +5319,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Siebold_0693_4.png",
-			"Sync Pairs/Siebold_0693_5.png",
-			"Sync Pairs/Siebold_0693_EX.png"
+			"icons/Siebold_0693_4.png",
+			"icons/Siebold_0693_5.png",
+			"icons/Siebold_0693_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -5359,8 +5359,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Siebold_0224_5.png",
-			"Sync Pairs/Siebold_0224_EX.png"
+			"icons/Siebold_0224_5.png",
+			"icons/Siebold_0224_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -5401,9 +5401,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Wikstrom_0681_4.png",
-			"Sync Pairs/Wikstrom_0681_5.png",
-			"Sync Pairs/Wikstrom_0681_EX.png"
+			"icons/Wikstrom_0681_4.png",
+			"icons/Wikstrom_0681_5.png",
+			"icons/Wikstrom_0681_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -5442,9 +5442,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Hau_0026_4.png",
-			"Sync Pairs/Hau_0026_5.png",
-			"Sync Pairs/Hau_0026_EX.png"
+			"icons/Hau_0026_4.png",
+			"icons/Hau_0026_5.png",
+			"icons/Hau_0026_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -5485,8 +5485,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Hau_0785_5.png",
-			"Sync Pairs/Hau_0785_EX.png"
+			"icons/Hau_0785_5.png",
+			"icons/Hau_0785_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -5532,8 +5532,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Hau_0740_5.png",
-			"Sync Pairs/Hau_0740_EX.png"
+			"icons/Hau_0740_5.png",
+			"icons/Hau_0740_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -5570,9 +5570,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Sophocles_0777_4.png",
-			"Sync Pairs/Sophocles_0777_5.png",
-			"Sync Pairs/Sophocles_0777_EX.png"
+			"icons/Sophocles_0777_4.png",
+			"icons/Sophocles_0777_5.png",
+			"icons/Sophocles_0777_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -5613,9 +5613,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Sophocles_0076_4.png",
-			"Sync Pairs/Sophocles_0076_5.png",
-			"Sync Pairs/Sophocles_0076_EX.png"
+			"icons/Sophocles_0076_4.png",
+			"icons/Sophocles_0076_5.png",
+			"icons/Sophocles_0076_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -5651,10 +5651,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Mina_0210_3.png",
-			"Sync Pairs/Mina_0210_4.png",
-			"Sync Pairs/Mina_0210_5.png",
-			"Sync Pairs/Mina_0210_EX.png"
+			"icons/Mina_0210_3.png",
+			"icons/Mina_0210_4.png",
+			"icons/Mina_0210_5.png",
+			"icons/Mina_0210_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -5694,8 +5694,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Mina_0788_5.png",
-			"Sync Pairs/Mina_0788_EX.png"
+			"icons/Mina_0788_5.png",
+			"icons/Mina_0788_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -5743,8 +5743,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Olivia_0745_5.png",
-			"Sync Pairs/Olivia_0745_EX.png"
+			"icons/Olivia_0745_5.png",
+			"icons/Olivia_0745_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -5784,9 +5784,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Olivia_0703_4.png",
-			"Sync Pairs/Olivia_0703_5.png",
-			"Sync Pairs/Olivia_0703_EX.png"
+			"icons/Olivia_0703_4.png",
+			"icons/Olivia_0703_5.png",
+			"icons/Olivia_0703_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -5823,10 +5823,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Hapu_0750_3.png",
-			"Sync Pairs/Hapu_0750_4.png",
-			"Sync Pairs/Hapu_0750_5.png",
-			"Sync Pairs/Hapu_0750_EX.png"
+			"icons/Hapu_0750_3.png",
+			"icons/Hapu_0750_4.png",
+			"icons/Hapu_0750_5.png",
+			"icons/Hapu_0750_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -5864,9 +5864,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Kahili_0733_4.png",
-			"Sync Pairs/Kahili_0733_5.png",
-			"Sync Pairs/Kahili_0733_EX.png"
+			"icons/Kahili_0733_4.png",
+			"icons/Kahili_0733_5.png",
+			"icons/Kahili_0733_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -5906,9 +5906,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Viola_0284_4.png",
-			"Sync Pairs/Viola_0284_5.png",
-			"Sync Pairs/Viola_0284_EX.png"
+			"icons/Viola_0284_4.png",
+			"icons/Viola_0284_5.png",
+			"icons/Viola_0284_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -5947,8 +5947,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Viola_0666_5.png",
-			"Sync Pairs/Viola_0666_EX.png"
+			"icons/Viola_0666_5.png",
+			"icons/Viola_0666_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -5992,9 +5992,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Nanu_0053_4.png",
-			"Sync Pairs/Nanu_0053_5.png",
-			"Sync Pairs/Nanu_0053_EX.png"
+			"icons/Nanu_0053_4.png",
+			"icons/Nanu_0053_5.png",
+			"icons/Nanu_0053_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -6032,9 +6032,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Koga_0169_4.png",
-			"Sync Pairs/Koga_0169_5.png",
-			"Sync Pairs/Koga_0169_EX.png"
+			"icons/Koga_0169_4.png",
+			"icons/Koga_0169_5.png",
+			"icons/Koga_0169_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -6072,8 +6072,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Acerola_0770_5.png",
-			"Sync Pairs/Acerola_0770_EX.png"
+			"icons/Acerola_0770_5.png",
+			"icons/Acerola_0770_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6115,8 +6115,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Acerola_0778_5.png",
-			"Sync Pairs/Acerola_0778_EX.png"
+			"icons/Acerola_0778_5.png",
+			"icons/Acerola_0778_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6155,9 +6155,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Acerola_0354_4.png",
-			"Sync Pairs/Acerola_0354_5.png",
-			"Sync Pairs/Acerola_0354_EX.png"
+			"icons/Acerola_0354_4.png",
+			"icons/Acerola_0354_5.png",
+			"icons/Acerola_0354_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6195,8 +6195,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Acerola_0787_5.png",
-			"Sync Pairs/Acerola_0787_EX.png"
+			"icons/Acerola_0787_5.png",
+			"icons/Acerola_0787_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -6244,8 +6244,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Acerola_0593_5.png",
-			"Sync Pairs/Acerola_0593_EX.png"
+			"icons/Acerola_0593_5.png",
+			"icons/Acerola_0593_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -6287,8 +6287,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Cheren_0508_5.png",
-			"Sync Pairs/Cheren_0508_EX.png"
+			"icons/Cheren_0508_5.png",
+			"icons/Cheren_0508_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -6329,8 +6329,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Cheren_0641_5.png",
-			"Sync Pairs/Cheren_0641_EX.png"
+			"icons/Cheren_0641_5.png",
+			"icons/Cheren_0641_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -6375,9 +6375,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Cheren_0509_4.png",
-			"Sync Pairs/Cheren_0509_5.png",
-			"Sync Pairs/Cheren_0509_EX.png"
+			"icons/Cheren_0509_4.png",
+			"icons/Cheren_0509_5.png",
+			"icons/Cheren_0509_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -6414,8 +6414,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Cheren_0510_5.png",
-			"Sync Pairs/Cheren_0510_EX.png"
+			"icons/Cheren_0510_5.png",
+			"icons/Cheren_0510_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -6455,8 +6455,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0018_5.png",
-			"Sync Pairs/Blue_0018_EX.png"
+			"icons/Blue_0018_5.png",
+			"icons/Blue_0018_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -6501,8 +6501,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0009_5.png",
-			"Sync Pairs/Blue_0009_EX.png"
+			"icons/Blue_0009_5.png",
+			"icons/Blue_0009_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -6550,8 +6550,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0142_5.png",
-			"Sync Pairs/Blue_0142_EX.png"
+			"icons/Blue_0142_5.png",
+			"icons/Blue_0142_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -6595,9 +6595,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0059_4.png",
-			"Sync Pairs/Blue_0059_5.png",
-			"Sync Pairs/Blue_0059_EX.png"
+			"icons/Blue_0059_4.png",
+			"icons/Blue_0059_5.png",
+			"icons/Blue_0059_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -6636,9 +6636,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0103_4.png",
-			"Sync Pairs/Blue_0103_5.png",
-			"Sync Pairs/Blue_0103_EX.png"
+			"icons/Blue_0103_4.png",
+			"icons/Blue_0103_5.png",
+			"icons/Blue_0103_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -6676,8 +6676,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0145_5.png",
-			"Sync Pairs/Blue_0145_EX.png"
+			"icons/Blue_0145_5.png",
+			"icons/Blue_0145_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -6724,8 +6724,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0006_5.png",
-			"Sync Pairs/Blue_0006_EX.png"
+			"icons/Blue_0006_5.png",
+			"icons/Blue_0006_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -6767,8 +6767,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Blue_0065_5.png",
-			"Sync Pairs/Blue_0065_EX.png"
+			"icons/Blue_0065_5.png",
+			"icons/Blue_0065_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -6809,8 +6809,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Lyra_0154_5.png",
-			"Sync Pairs/Lyra_0154_EX.png"
+			"icons/Lyra_0154_5.png",
+			"icons/Lyra_0154_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -6852,8 +6852,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Lyra_0039_5.png",
-			"Sync Pairs/Lyra_0039_EX.png"
+			"icons/Lyra_0039_5.png",
+			"icons/Lyra_0039_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -6892,8 +6892,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Lyra_0251_5.png",
-			"Sync Pairs/Lyra_0251_EX.png"
+			"icons/Lyra_0251_5.png",
+			"icons/Lyra_0251_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -6936,8 +6936,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Lyra_0134_5.png",
-			"Sync Pairs/Lyra_0134_EX.png"
+			"icons/Lyra_0134_5.png",
+			"icons/Lyra_0134_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -6978,8 +6978,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Lyra_0231_5.png",
-			"Sync Pairs/Lyra_0231_EX.png"
+			"icons/Lyra_0231_5.png",
+			"icons/Lyra_0231_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -7022,8 +7022,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilbert_0503_5.png",
-			"Sync Pairs/Hilbert_0503_EX.png"
+			"icons/Hilbert_0503_5.png",
+			"icons/Hilbert_0503_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -7062,8 +7062,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilbert_0262_5.png",
-			"Sync Pairs/Hilbert_0262_EX.png"
+			"icons/Hilbert_0262_5.png",
+			"icons/Hilbert_0262_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -7101,8 +7101,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilbert_0649_5.png",
-			"Sync Pairs/Hilbert_0649_EX.png"
+			"icons/Hilbert_0649_5.png",
+			"icons/Hilbert_0649_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -7145,8 +7145,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilbert_0471_5.png",
-			"Sync Pairs/Hilbert_0471_EX.png"
+			"icons/Hilbert_0471_5.png",
+			"icons/Hilbert_0471_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -7188,8 +7188,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilbert_0642_5.png",
-			"Sync Pairs/Hilbert_0642_EX.png"
+			"icons/Hilbert_0642_5.png",
+			"icons/Hilbert_0642_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7234,8 +7234,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0500_5.png",
-			"Sync Pairs/Hilda_0500_EX.png"
+			"icons/Hilda_0500_5.png",
+			"icons/Hilda_0500_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -7278,8 +7278,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0719_5.png",
-			"Sync Pairs/Hilda_0719_EX.png"
+			"icons/Hilda_0719_5.png",
+			"icons/Hilda_0719_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -7321,8 +7321,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0853_5.png",
-			"Sync Pairs/Hilda_0853_EX.png"
+			"icons/Hilda_0853_5.png",
+			"icons/Hilda_0853_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -7362,8 +7362,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0494_5.png",
-			"Sync Pairs/Hilda_0494_EX.png"
+			"icons/Hilda_0494_5.png",
+			"icons/Hilda_0494_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -7406,8 +7406,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0470_5.png",
-			"Sync Pairs/Hilda_0470_EX.png"
+			"icons/Hilda_0470_5.png",
+			"icons/Hilda_0470_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -7450,8 +7450,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hilda_0641_5.png",
-			"Sync Pairs/Hilda_0641_EX.png"
+			"icons/Hilda_0641_5.png",
+			"icons/Hilda_0641_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -7493,8 +7493,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0523_5.png",
-			"Sync Pairs/Elesa_0523_EX.png"
+			"icons/Elesa_0523_5.png",
+			"icons/Elesa_0523_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7534,8 +7534,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0479_5.png",
-			"Sync Pairs/Elesa_0479_EX.png"
+			"icons/Elesa_0479_5.png",
+			"icons/Elesa_0479_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7575,8 +7575,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0587_5.png",
-			"Sync Pairs/Elesa_0587_EX.png"
+			"icons/Elesa_0587_5.png",
+			"icons/Elesa_0587_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7618,9 +7618,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0595_4.png",
-			"Sync Pairs/Elesa_0595_5.png",
-			"Sync Pairs/Elesa_0595_EX.png"
+			"icons/Elesa_0595_4.png",
+			"icons/Elesa_0595_5.png",
+			"icons/Elesa_0595_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7657,8 +7657,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0176_5.png",
-			"Sync Pairs/Elesa_0176_EX.png"
+			"icons/Elesa_0176_5.png",
+			"icons/Elesa_0176_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -7701,8 +7701,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Elesa_0642_5.png",
-			"Sync Pairs/Elesa_0642_EX.png"
+			"icons/Elesa_0642_5.png",
+			"icons/Elesa_0642_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -7748,8 +7748,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Caitlin_0579_5.png",
-			"Sync Pairs/Caitlin_0579_EX.png"
+			"icons/Caitlin_0579_5.png",
+			"icons/Caitlin_0579_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -7791,8 +7791,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Caitlin_0302_5.png",
-			"Sync Pairs/Caitlin_0302_EX.png"
+			"icons/Caitlin_0302_5.png",
+			"icons/Caitlin_0302_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -7835,8 +7835,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Calem_0678_5.png",
-			"Sync Pairs/Calem_0678_EX.png"
+			"icons/Calem_0678_5.png",
+			"icons/Calem_0678_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -7874,8 +7874,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Calem_0658_5.png",
-			"Sync Pairs/Calem_0658_EX.png"
+			"icons/Calem_0658_5.png",
+			"icons/Calem_0658_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -7923,9 +7923,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Calem_0653_4.png",
-			"Sync Pairs/Calem_0653_5.png",
-			"Sync Pairs/Calem_0653_EX.png"
+			"icons/Calem_0653_4.png",
+			"icons/Calem_0653_5.png",
+			"icons/Calem_0653_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -7962,8 +7962,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Calem_0700_5.png",
-			"Sync Pairs/Calem_0700_EX.png"
+			"icons/Calem_0700_5.png",
+			"icons/Calem_0700_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -8005,8 +8005,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Glacia_0362_5.png",
-			"Sync Pairs/Glacia_0362_EX.png"
+			"icons/Glacia_0362_5.png",
+			"icons/Glacia_0362_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -8045,8 +8045,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Grimsley_0510_5.png",
-			"Sync Pairs/Grimsley_0510_EX.png"
+			"icons/Grimsley_0510_5.png",
+			"icons/Grimsley_0510_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -8088,8 +8088,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Grimsley_0319_5.png",
-			"Sync Pairs/Grimsley_0319_EX.png"
+			"icons/Grimsley_0319_5.png",
+			"icons/Grimsley_0319_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -8129,8 +8129,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Grimsley_0625_5.png",
-			"Sync Pairs/Grimsley_0625_EX.png"
+			"icons/Grimsley_0625_5.png",
+			"icons/Grimsley_0625_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -8169,8 +8169,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Grimsley_0359_5.png",
-			"Sync Pairs/Grimsley_0359_EX.png"
+			"icons/Grimsley_0359_5.png",
+			"icons/Grimsley_0359_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -8213,8 +8213,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Giovanni_0150_5.png",
-			"Sync Pairs/Giovanni_0150_EX.png"
+			"icons/Giovanni_0150_5.png",
+			"icons/Giovanni_0150_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -8256,8 +8256,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Giovanni_0034_5.png",
-			"Sync Pairs/Giovanni_0034_EX.png"
+			"icons/Giovanni_0034_5.png",
+			"icons/Giovanni_0034_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -8300,9 +8300,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Giovanni_0053_4.png",
-			"Sync Pairs/Giovanni_0053_5.png",
-			"Sync Pairs/Giovanni_0053_EX.png"
+			"icons/Giovanni_0053_4.png",
+			"icons/Giovanni_0053_5.png",
+			"icons/Giovanni_0053_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -8340,8 +8340,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Giovanni_0112_5.png",
-			"Sync Pairs/Giovanni_0112_EX.png"
+			"icons/Giovanni_0112_5.png",
+			"icons/Giovanni_0112_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -8380,9 +8380,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Giovanni_0033_4.png",
-			"Sync Pairs/Giovanni_0033_5.png",
-			"Sync Pairs/Giovanni_0033_EX.png"
+			"icons/Giovanni_0033_4.png",
+			"icons/Giovanni_0033_5.png",
+			"icons/Giovanni_0033_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -8418,8 +8418,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Giovanni_0799_5.png",
-			"Sync Pairs/Giovanni_0799_EX.png"
+			"icons/Giovanni_0799_5.png",
+			"icons/Giovanni_0799_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -8467,8 +8467,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Ethan_0157_5.png",
-			"Sync Pairs/Ethan_0157_EX.png"
+			"icons/Ethan_0157_5.png",
+			"icons/Ethan_0157_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -8509,8 +8509,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Ethan_0249_5.png",
-			"Sync Pairs/Ethan_0249_EX.png"
+			"icons/Ethan_0249_5.png",
+			"icons/Ethan_0249_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -8555,8 +8555,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Ethan_0250_5.png",
-			"Sync Pairs/Ethan_0250_EX.png"
+			"icons/Ethan_0250_5.png",
+			"icons/Ethan_0250_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -8598,8 +8598,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Ethan_0249_2_5.png",
-			"Sync Pairs/Ethan_0249_2_EX.png"
+			"icons/Ethan_0249_2_5.png",
+			"icons/Ethan_0249_2_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -8646,8 +8646,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Leaf_0133_5.png",
-			"Sync Pairs/Leaf_0133_EX.png"
+			"icons/Leaf_0133_5.png",
+			"icons/Leaf_0133_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -8691,8 +8691,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Leaf_0003_5.png",
-			"Sync Pairs/Leaf_0003_EX.png"
+			"icons/Leaf_0003_5.png",
+			"icons/Leaf_0003_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -8737,8 +8737,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Leaf_0146_5.png",
-			"Sync Pairs/Leaf_0146_EX.png"
+			"icons/Leaf_0146_5.png",
+			"icons/Leaf_0146_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -8784,9 +8784,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Leaf_0036_4.png",
-			"Sync Pairs/Leaf_0036_5.png",
-			"Sync Pairs/Leaf_0036_EX.png"
+			"icons/Leaf_0036_4.png",
+			"icons/Leaf_0036_5.png",
+			"icons/Leaf_0036_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -8824,8 +8824,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Leaf_0009_5.png",
-			"Sync Pairs/Leaf_0009_EX.png"
+			"icons/Leaf_0009_5.png",
+			"icons/Leaf_0009_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -8866,8 +8866,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lance_0149_5.png",
-			"Sync Pairs/Lance_0149_EX.png"
+			"icons/Lance_0149_5.png",
+			"icons/Lance_0149_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -8912,8 +8912,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lance_0130_5.png",
-			"Sync Pairs/Lance_0130_EX.png"
+			"icons/Lance_0130_5.png",
+			"icons/Lance_0130_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -8951,8 +8951,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lance_0148_5.png",
-			"Sync Pairs/Lance_0148_EX.png"
+			"icons/Lance_0148_5.png",
+			"icons/Lance_0148_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -8990,9 +8990,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lance_0230_4.png",
-			"Sync Pairs/Lance_0230_5.png",
-			"Sync Pairs/Lance_0230_EX.png"
+			"icons/Lance_0230_4.png",
+			"icons/Lance_0230_5.png",
+			"icons/Lance_0230_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -9030,8 +9030,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Lance_0149_2_5.png",
-			"Sync Pairs/Lance_0149_2_EX.png"
+			"icons/Lance_0149_2_5.png",
+			"icons/Lance_0149_2_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -9078,8 +9078,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0445_5.png",
-			"Sync Pairs/Cynthia_0445_EX.png"
+			"icons/Cynthia_0445_5.png",
+			"icons/Cynthia_0445_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -9126,8 +9126,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0784_5.png",
-			"Sync Pairs/Cynthia_0784_EX.png"
+			"icons/Cynthia_0784_5.png",
+			"icons/Cynthia_0784_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -9172,8 +9172,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0487_5.png",
-			"Sync Pairs/Cynthia_0487_EX.png"
+			"icons/Cynthia_0487_5.png",
+			"icons/Cynthia_0487_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -9222,9 +9222,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0423_4.png",
-			"Sync Pairs/Cynthia_0423_5.png",
-			"Sync Pairs/Cynthia_0423_EX.png"
+			"icons/Cynthia_0423_4.png",
+			"icons/Cynthia_0423_5.png",
+			"icons/Cynthia_0423_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -9264,8 +9264,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0448_5.png",
-			"Sync Pairs/Cynthia_0448_EX.png"
+			"icons/Cynthia_0448_5.png",
+			"icons/Cynthia_0448_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -9311,8 +9311,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0445_2_5.png",
-			"Sync Pairs/Cynthia_0445_2_EX.png"
+			"icons/Cynthia_0445_2_5.png",
+			"icons/Cynthia_0445_2_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -9359,8 +9359,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0442_5.png",
-			"Sync Pairs/Cynthia_0442_EX.png"
+			"icons/Cynthia_0442_5.png",
+			"icons/Cynthia_0442_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -9399,8 +9399,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cynthia_0350_5.png",
-			"Sync Pairs/Cynthia_0350_EX.png"
+			"icons/Cynthia_0350_5.png",
+			"icons/Cynthia_0350_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -9446,8 +9446,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Kukui_0745_5.png",
-			"Sync Pairs/Kukui_0745_EX.png"
+			"icons/Kukui_0745_5.png",
+			"icons/Kukui_0745_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -9491,8 +9491,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Zinnia_0384_5.png",
-			"Sync Pairs/Zinnia_0384_EX.png"
+			"icons/Zinnia_0384_5.png",
+			"icons/Zinnia_0384_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -9533,9 +9533,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Zinnia_0373_4.png",
-			"Sync Pairs/Zinnia_0373_5.png",
-			"Sync Pairs/Zinnia_0373_EX.png"
+			"icons/Zinnia_0373_4.png",
+			"icons/Zinnia_0373_5.png",
+			"icons/Zinnia_0373_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -9572,8 +9572,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Zinnia_0828_5.png",
-			"Sync Pairs/Zinnia_0828_EX.png"
+			"icons/Zinnia_0828_5.png",
+			"icons/Zinnia_0828_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -9616,8 +9616,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0376_5.png",
-			"Sync Pairs/Steven_0376_EX.png"
+			"icons/Steven_0376_5.png",
+			"icons/Steven_0376_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -9664,8 +9664,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0028_5.png",
-			"Sync Pairs/Steven_0028_EX.png"
+			"icons/Steven_0028_5.png",
+			"icons/Steven_0028_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -9708,8 +9708,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0384_5.png",
-			"Sync Pairs/Steven_0384_EX.png"
+			"icons/Steven_0384_5.png",
+			"icons/Steven_0384_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -9758,8 +9758,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0386_5.png",
-			"Sync Pairs/Steven_0386_EX.png"
+			"icons/Steven_0386_5.png",
+			"icons/Steven_0386_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -9804,8 +9804,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0508_5.png",
-			"Sync Pairs/Steven_0508_EX.png"
+			"icons/Steven_0508_5.png",
+			"icons/Steven_0508_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -9848,9 +9848,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0346_4.png",
-			"Sync Pairs/Steven_0346_5.png",
-			"Sync Pairs/Steven_0346_EX.png"
+			"icons/Steven_0346_4.png",
+			"icons/Steven_0346_5.png",
+			"icons/Steven_0346_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -9891,8 +9891,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0376_2_5.png",
-			"Sync Pairs/Steven_0376_2_EX.png"
+			"icons/Steven_0376_2_5.png",
+			"icons/Steven_0376_2_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -9937,8 +9937,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Steven_0227_5.png",
-			"Sync Pairs/Steven_0227_EX.png"
+			"icons/Steven_0227_5.png",
+			"icons/Steven_0227_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -9977,10 +9977,10 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Professor Oak_0151_3.png",
-			"Sync Pairs/Professor Oak_0151_4.png",
-			"Sync Pairs/Professor Oak_0151_5.png",
-			"Sync Pairs/Professor Oak_0151_EX.png"
+			"icons/Professor Oak_0151_3.png",
+			"icons/Professor Oak_0151_4.png",
+			"icons/Professor Oak_0151_5.png",
+			"icons/Professor Oak_0151_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -10020,8 +10020,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Professor Oak_0033_5.png",
-			"Sync Pairs/Professor Oak_0033_EX.png"
+			"icons/Professor Oak_0033_5.png",
+			"icons/Professor Oak_0033_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -10059,9 +10059,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Valerie_0700_4.png",
-			"Sync Pairs/Valerie_0700_5.png",
-			"Sync Pairs/Valerie_0700_EX.png"
+			"icons/Valerie_0700_4.png",
+			"icons/Valerie_0700_5.png",
+			"icons/Valerie_0700_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -10101,9 +10101,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Valerie_0303_4.png",
-			"Sync Pairs/Valerie_0303_5.png",
-			"Sync Pairs/Valerie_0303_EX.png"
+			"icons/Valerie_0303_4.png",
+			"icons/Valerie_0303_5.png",
+			"icons/Valerie_0303_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -10143,8 +10143,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0006_5.png",
-			"Sync Pairs/Red_0006_EX.png"
+			"icons/Red_0006_5.png",
+			"icons/Red_0006_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -10196,8 +10196,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0143_5.png",
-			"Sync Pairs/Red_0143_EX.png"
+			"icons/Red_0143_5.png",
+			"icons/Red_0143_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -10242,8 +10242,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0025_5.png",
-			"Sync Pairs/Red_0025_EX.png"
+			"icons/Red_0025_5.png",
+			"icons/Red_0025_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -10286,8 +10286,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0144_5.png",
-			"Sync Pairs/Red_0144_EX.png"
+			"icons/Red_0144_5.png",
+			"icons/Red_0144_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -10335,8 +10335,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0003_5.png",
-			"Sync Pairs/Red_0003_EX.png"
+			"icons/Red_0003_5.png",
+			"icons/Red_0003_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -10380,8 +10380,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "EX Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Red_0006_2_5.png",
-			"Sync Pairs/Red_0006_2_EX.png"
+			"icons/Red_0006_2_5.png",
+			"icons/Red_0006_2_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -10431,8 +10431,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Sabrina_0065_5.png",
-			"Sync Pairs/Sabrina_0065_EX.png"
+			"icons/Sabrina_0065_5.png",
+			"icons/Sabrina_0065_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -10473,8 +10473,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Sabrina_0433_5.png",
-			"Sync Pairs/Sabrina_0433_EX.png"
+			"icons/Sabrina_0433_5.png",
+			"icons/Sabrina_0433_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -10512,8 +10512,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Fantina_0429_5.png",
-			"Sync Pairs/Fantina_0429_EX.png"
+			"icons/Fantina_0429_5.png",
+			"icons/Fantina_0429_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -10554,8 +10554,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Fantina_0477_5.png",
-			"Sync Pairs/Fantina_0477_EX.png"
+			"icons/Fantina_0477_5.png",
+			"icons/Fantina_0477_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -10595,8 +10595,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Plumeria_0758_5.png",
-			"Sync Pairs/Plumeria_0758_EX.png"
+			"icons/Plumeria_0758_5.png",
+			"icons/Plumeria_0758_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -10637,8 +10637,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Plumeria_0094_5.png",
-			"Sync Pairs/Plumeria_0094_EX.png"
+			"icons/Plumeria_0094_5.png",
+			"icons/Plumeria_0094_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -10678,8 +10678,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Guzma_0768_5.png",
-			"Sync Pairs/Guzma_0768_EX.png"
+			"icons/Guzma_0768_5.png",
+			"icons/Guzma_0768_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -10719,8 +10719,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Guzma_0794_5.png",
-			"Sync Pairs/Guzma_0794_EX.png"
+			"icons/Guzma_0794_5.png",
+			"icons/Guzma_0794_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -10761,8 +10761,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Guzma_0168_5.png",
-			"Sync Pairs/Guzma_0168_EX.png"
+			"icons/Guzma_0168_5.png",
+			"icons/Guzma_0168_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -10801,8 +10801,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Clemont_0695_5.png",
-			"Sync Pairs/Clemont_0695_EX.png"
+			"icons/Clemont_0695_5.png",
+			"icons/Clemont_0695_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -10842,9 +10842,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Clemont_0082_4.png",
-			"Sync Pairs/Clemont_0082_5.png",
-			"Sync Pairs/Clemont_0082_EX.png"
+			"icons/Clemont_0082_4.png",
+			"icons/Clemont_0082_5.png",
+			"icons/Clemont_0082_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -10881,8 +10881,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wallace_0350_5.png",
-			"Sync Pairs/Wallace_0350_EX.png"
+			"icons/Wallace_0350_5.png",
+			"icons/Wallace_0350_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -10926,8 +10926,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wallace_0806_5.png",
-			"Sync Pairs/Wallace_0806_EX.png"
+			"icons/Wallace_0806_5.png",
+			"icons/Wallace_0806_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -10971,8 +10971,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0250_5.png",
-			"Sync Pairs/Silver_0250_EX.png"
+			"icons/Silver_0250_5.png",
+			"icons/Silver_0250_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -11018,9 +11018,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0160_4.png",
-			"Sync Pairs/Silver_0160_5.png",
-			"Sync Pairs/Silver_0160_EX.png"
+			"icons/Silver_0160_4.png",
+			"icons/Silver_0160_5.png",
+			"icons/Silver_0160_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -11058,8 +11058,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0215_5.png",
-			"Sync Pairs/Silver_0215_EX.png"
+			"icons/Silver_0215_5.png",
+			"icons/Silver_0215_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -11102,8 +11102,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0248_5.png",
-			"Sync Pairs/Silver_0248_EX.png"
+			"icons/Silver_0248_5.png",
+			"icons/Silver_0248_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -11153,8 +11153,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0169_5.png",
-			"Sync Pairs/Silver_0169_EX.png"
+			"icons/Silver_0169_5.png",
+			"icons/Silver_0169_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -11192,8 +11192,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Silver_0250_2_5.png",
-			"Sync Pairs/Silver_0250_2_EX.png"
+			"icons/Silver_0250_2_5.png",
+			"icons/Silver_0250_2_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -11242,8 +11242,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wally_0475_5.png",
-			"Sync Pairs/Wally_0475_EX.png"
+			"icons/Wally_0475_5.png",
+			"icons/Wally_0475_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -11287,8 +11287,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wally_0282_5.png",
-			"Sync Pairs/Wally_0282_EX.png"
+			"icons/Wally_0282_5.png",
+			"icons/Wally_0282_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -11334,9 +11334,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wally_0301_4.png",
-			"Sync Pairs/Wally_0301_5.png",
-			"Sync Pairs/Wally_0301_EX.png"
+			"icons/Wally_0301_4.png",
+			"icons/Wally_0301_5.png",
+			"icons/Wally_0301_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -11374,8 +11374,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Wally_0334_5.png",
-			"Sync Pairs/Wally_0334_EX.png"
+			"icons/Wally_0334_5.png",
+			"icons/Wally_0334_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -11415,8 +11415,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Jasmine_0208_5.png",
-			"Sync Pairs/Jasmine_0208_EX.png"
+			"icons/Jasmine_0208_5.png",
+			"icons/Jasmine_0208_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -11458,8 +11458,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Jasmine_0797_5.png",
-			"Sync Pairs/Jasmine_0797_EX.png"
+			"icons/Jasmine_0797_5.png",
+			"icons/Jasmine_0797_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -11502,8 +11502,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Jasmine_0181_5.png",
-			"Sync Pairs/Jasmine_0181_EX.png"
+			"icons/Jasmine_0181_5.png",
+			"icons/Jasmine_0181_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -11544,9 +11544,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Jasmine_0081_4.png",
-			"Sync Pairs/Jasmine_0081_5.png",
-			"Sync Pairs/Jasmine_0081_EX.png"
+			"icons/Jasmine_0081_4.png",
+			"icons/Jasmine_0081_5.png",
+			"icons/Jasmine_0081_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -11586,8 +11586,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0389_5.png",
-			"Sync Pairs/Dawn_0389_EX.png"
+			"icons/Dawn_0389_5.png",
+			"icons/Dawn_0389_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -11629,8 +11629,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0869_5.png",
-			"Sync Pairs/Dawn_0869_EX.png"
+			"icons/Dawn_0869_5.png",
+			"icons/Dawn_0869_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -11670,8 +11670,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0488_5.png",
-			"Sync Pairs/Dawn_0488_EX.png"
+			"icons/Dawn_0488_5.png",
+			"icons/Dawn_0488_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -11715,8 +11715,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0741_5.png",
-			"Sync Pairs/Dawn_0741_EX.png"
+			"icons/Dawn_0741_5.png",
+			"icons/Dawn_0741_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -11758,9 +11758,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0413_4.png",
-			"Sync Pairs/Dawn_0413_5.png",
-			"Sync Pairs/Dawn_0413_EX.png"
+			"icons/Dawn_0413_4.png",
+			"icons/Dawn_0413_5.png",
+			"icons/Dawn_0413_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -11797,8 +11797,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dawn_0395_5.png",
-			"Sync Pairs/Dawn_0395_EX.png"
+			"icons/Dawn_0395_5.png",
+			"icons/Dawn_0395_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -11840,8 +11840,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Burgh_0542_5.png",
-			"Sync Pairs/Burgh_0542_EX.png"
+			"icons/Burgh_0542_5.png",
+			"icons/Burgh_0542_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -11881,8 +11881,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Burgh_0175_5.png",
-			"Sync Pairs/Burgh_0175_EX.png"
+			"icons/Burgh_0175_5.png",
+			"icons/Burgh_0175_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -11925,8 +11925,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Serena_0655_5.png",
-			"Sync Pairs/Serena_0655_EX.png"
+			"icons/Serena_0655_5.png",
+			"icons/Serena_0655_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -11965,8 +11965,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Serena_0547_5.png",
-			"Sync Pairs/Serena_0547_EX.png"
+			"icons/Serena_0547_5.png",
+			"icons/Serena_0547_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -12007,8 +12007,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Serena_0718_5.png",
-			"Sync Pairs/Serena_0718_EX.png"
+			"icons/Serena_0718_5.png",
+			"icons/Serena_0718_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -12048,8 +12048,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Serena_0658_5.png",
-			"Sync Pairs/Serena_0658_EX.png"
+			"icons/Serena_0658_5.png",
+			"icons/Serena_0658_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -12094,9 +12094,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Serena_0661_4.png",
-			"Sync Pairs/Serena_0661_5.png",
-			"Sync Pairs/Serena_0661_EX.png"
+			"icons/Serena_0661_4.png",
+			"icons/Serena_0661_5.png",
+			"icons/Serena_0661_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -12132,9 +12132,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Jessie_0024_3.png",
-			"Sync Pairs/Jessie_0024_4.png",
-			"Sync Pairs/Jessie_0024_5.png"
+			"icons/Jessie_0024_3.png",
+			"icons/Jessie_0024_4.png",
+			"icons/Jessie_0024_5.png"
 		],
 		"themes": [
 			"Poison",
@@ -12172,9 +12172,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Lucy_0336_4.png",
-			"Sync Pairs/Lucy_0336_5.png",
-			"Sync Pairs/Lucy_0336_EX.png"
+			"icons/Lucy_0336_4.png",
+			"icons/Lucy_0336_5.png",
+			"icons/Lucy_0336_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -12211,8 +12211,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0426_5.png",
-			"Sync Pairs/Morty_0426_EX.png"
+			"icons/Morty_0426_5.png",
+			"icons/Morty_0426_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -12252,9 +12252,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0429_4.png",
-			"Sync Pairs/Morty_0429_5.png",
-			"Sync Pairs/Morty_0429_EX.png"
+			"icons/Morty_0429_4.png",
+			"icons/Morty_0429_5.png",
+			"icons/Morty_0429_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -12294,8 +12294,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0354_5.png",
-			"Sync Pairs/Morty_0354_EX.png"
+			"icons/Morty_0354_5.png",
+			"icons/Morty_0354_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -12336,8 +12336,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0250_5.png",
-			"Sync Pairs/Morty_0250_EX.png"
+			"icons/Morty_0250_5.png",
+			"icons/Morty_0250_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -12383,9 +12383,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0092_4.png",
-			"Sync Pairs/Morty_0092_5.png",
-			"Sync Pairs/Morty_0092_EX.png"
+			"icons/Morty_0092_4.png",
+			"icons/Morty_0092_5.png",
+			"icons/Morty_0092_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -12424,8 +12424,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Morty_0157_5.png",
-			"Sync Pairs/Morty_0157_EX.png"
+			"icons/Morty_0157_5.png",
+			"icons/Morty_0157_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -12468,8 +12468,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cyrus_0484_5.png",
-			"Sync Pairs/Cyrus_0484_EX.png"
+			"icons/Cyrus_0484_5.png",
+			"icons/Cyrus_0484_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -12511,8 +12511,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Cyrus_0491_5.png",
-			"Sync Pairs/Cyrus_0491_EX.png"
+			"icons/Cyrus_0491_5.png",
+			"icons/Cyrus_0491_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -12556,8 +12556,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lusamine_0795_5.png",
-			"Sync Pairs/Lusamine_0795_EX.png"
+			"icons/Lusamine_0795_5.png",
+			"icons/Lusamine_0795_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -12602,8 +12602,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lusamine_0800_5.png",
-			"Sync Pairs/Lusamine_0800_EX.png"
+			"icons/Lusamine_0800_5.png",
+			"icons/Lusamine_0800_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -12646,9 +12646,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lusamine_0549_4.png",
-			"Sync Pairs/Lusamine_0549_5.png",
-			"Sync Pairs/Lusamine_0549_EX.png"
+			"icons/Lusamine_0549_4.png",
+			"icons/Lusamine_0549_5.png",
+			"icons/Lusamine_0549_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -12686,9 +12686,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lusamine_0350_4.png",
-			"Sync Pairs/Lusamine_0350_5.png",
-			"Sync Pairs/Lusamine_0350_EX.png"
+			"icons/Lusamine_0350_4.png",
+			"icons/Lusamine_0350_5.png",
+			"icons/Lusamine_0350_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -12726,8 +12726,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Gladion_0773_5.png",
-			"Sync Pairs/Gladion_0773_EX.png"
+			"icons/Gladion_0773_5.png",
+			"icons/Gladion_0773_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -12769,9 +12769,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Gladion_0042_4.png",
-			"Sync Pairs/Gladion_0042_5.png",
-			"Sync Pairs/Gladion_0042_EX.png"
+			"icons/Gladion_0042_4.png",
+			"icons/Gladion_0042_5.png",
+			"icons/Gladion_0042_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -12809,8 +12809,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Gladion_0801_5.png",
-			"Sync Pairs/Gladion_0801_EX.png"
+			"icons/Gladion_0801_5.png",
+			"icons/Gladion_0801_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -12854,8 +12854,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Gladion_0461_5.png",
-			"Sync Pairs/Gladion_0461_EX.png"
+			"icons/Gladion_0461_5.png",
+			"icons/Gladion_0461_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -12893,8 +12893,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Gladion_0474_5.png",
-			"Sync Pairs/Gladion_0474_EX.png"
+			"icons/Gladion_0474_5.png",
+			"icons/Gladion_0474_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -12934,8 +12934,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0035_5.png",
-			"Sync Pairs/Lillie_0035_EX.png"
+			"icons/Lillie_0035_5.png",
+			"icons/Lillie_0035_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -12976,8 +12976,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0743_5.png",
-			"Sync Pairs/Lillie_0743_EX.png"
+			"icons/Lillie_0743_5.png",
+			"icons/Lillie_0743_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -13016,8 +13016,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0792_5.png",
-			"Sync Pairs/Lillie_0792_EX.png"
+			"icons/Lillie_0792_5.png",
+			"icons/Lillie_0792_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -13062,8 +13062,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0855_5.png",
-			"Sync Pairs/Lillie_0855_EX.png"
+			"icons/Lillie_0855_5.png",
+			"icons/Lillie_0855_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -13102,9 +13102,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0764_4.png",
-			"Sync Pairs/Lillie_0764_5.png",
-			"Sync Pairs/Lillie_0764_EX.png"
+			"icons/Lillie_0764_4.png",
+			"icons/Lillie_0764_5.png",
+			"icons/Lillie_0764_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -13142,8 +13142,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0791_5.png",
-			"Sync Pairs/Lillie_0791_EX.png"
+			"icons/Lillie_0791_5.png",
+			"icons/Lillie_0791_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -13188,8 +13188,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lillie_0730_5.png",
-			"Sync Pairs/Lillie_0730_EX.png"
+			"icons/Lillie_0730_5.png",
+			"icons/Lillie_0730_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -13233,9 +13233,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/James_0110_3.png",
-			"Sync Pairs/James_0110_4.png",
-			"Sync Pairs/James_0110_5.png"
+			"icons/James_0110_3.png",
+			"icons/James_0110_4.png",
+			"icons/James_0110_5.png"
 		],
 		"themes": [
 			"Poison",
@@ -13273,8 +13273,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volkner_0405_5.png",
-			"Sync Pairs/Volkner_0405_EX.png"
+			"icons/Volkner_0405_5.png",
+			"icons/Volkner_0405_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -13315,8 +13315,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volkner_0466_5.png",
-			"Sync Pairs/Volkner_0466_EX.png"
+			"icons/Volkner_0466_5.png",
+			"icons/Volkner_0466_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -13356,9 +13356,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volkner_0026_4.png",
-			"Sync Pairs/Volkner_0026_5.png",
-			"Sync Pairs/Volkner_0026_EX.png"
+			"icons/Volkner_0026_4.png",
+			"icons/Volkner_0026_5.png",
+			"icons/Volkner_0026_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -13397,9 +13397,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Main Story: PML Arc",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Molayne_0051_4.png",
-			"Sync Pairs/Molayne_0051_5.png",
-			"Sync Pairs/Molayne_0051_EX.png"
+			"icons/Molayne_0051_4.png",
+			"icons/Molayne_0051_5.png",
+			"icons/Molayne_0051_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -13439,8 +13439,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Lisia_0334_5.png",
-			"Sync Pairs/Lisia_0334_EX.png"
+			"icons/Lisia_0334_5.png",
+			"icons/Lisia_0334_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -13484,8 +13484,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Lisia_0078_5.png",
-			"Sync Pairs/Lisia_0078_EX.png"
+			"icons/Lisia_0078_5.png",
+			"icons/Lisia_0078_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -13527,8 +13527,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Alder_0637_5.png",
-			"Sync Pairs/Alder_0637_EX.png"
+			"icons/Alder_0637_5.png",
+			"icons/Alder_0637_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -13573,8 +13573,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Alder_0637_2_5.png",
-			"Sync Pairs/Alder_0637_2_EX.png"
+			"icons/Alder_0637_2_5.png",
+			"icons/Alder_0637_2_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -13620,8 +13620,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Nate_0628_5.png",
-			"Sync Pairs/Nate_0628_EX.png"
+			"icons/Nate_0628_5.png",
+			"icons/Nate_0628_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -13662,8 +13662,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Nate_0612_5.png",
-			"Sync Pairs/Nate_0612_EX.png"
+			"icons/Nate_0612_5.png",
+			"icons/Nate_0612_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -13711,8 +13711,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Bianca_0518_5.png",
-			"Sync Pairs/Bianca_0518_EX.png"
+			"icons/Bianca_0518_5.png",
+			"icons/Bianca_0518_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -13752,8 +13752,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Bianca_0640_5.png",
-			"Sync Pairs/Bianca_0640_EX.png"
+			"icons/Bianca_0640_5.png",
+			"icons/Bianca_0640_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -13799,8 +13799,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Bianca_0609_5.png",
-			"Sync Pairs/Bianca_0609_EX.png"
+			"icons/Bianca_0609_5.png",
+			"icons/Bianca_0609_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -13840,8 +13840,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0888_5.png",
-			"Sync Pairs/Gloria_0888_EX.png"
+			"icons/Gloria_0888_5.png",
+			"icons/Gloria_0888_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -13885,8 +13885,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0818_5.png",
-			"Sync Pairs/Gloria_0818_EX.png"
+			"icons/Gloria_0818_5.png",
+			"icons/Gloria_0818_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -13931,8 +13931,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0892_5.png",
-			"Sync Pairs/Gloria_0892_EX.png"
+			"icons/Gloria_0892_5.png",
+			"icons/Gloria_0892_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -13975,9 +13975,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0811_4.png",
-			"Sync Pairs/Gloria_0811_5.png",
-			"Sync Pairs/Gloria_0811_EX.png"
+			"icons/Gloria_0811_4.png",
+			"icons/Gloria_0811_5.png",
+			"icons/Gloria_0811_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -14019,8 +14019,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0815_5.png",
-			"Sync Pairs/Gloria_0815_EX.png"
+			"icons/Gloria_0815_5.png",
+			"icons/Gloria_0815_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -14069,8 +14069,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "EX Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gloria_0815_2_5.png",
-			"Sync Pairs/Gloria_0815_2_EX.png"
+			"icons/Gloria_0815_2_5.png",
+			"icons/Gloria_0815_2_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -14118,8 +14118,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0644_5.png",
-			"Sync Pairs/N_0644_EX.png"
+			"icons/N_0644_5.png",
+			"icons/N_0644_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -14163,8 +14163,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0643_5.png",
-			"Sync Pairs/N_0643_EX.png"
+			"icons/N_0643_5.png",
+			"icons/N_0643_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -14207,8 +14207,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0571_5.png",
-			"Sync Pairs/N_0571_EX.png"
+			"icons/N_0571_5.png",
+			"icons/N_0571_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -14249,9 +14249,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0561_4.png",
-			"Sync Pairs/N_0561_5.png",
-			"Sync Pairs/N_0561_EX.png"
+			"icons/N_0561_4.png",
+			"icons/N_0561_5.png",
+			"icons/N_0561_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -14292,8 +14292,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0646_5.png",
-			"Sync Pairs/N_0646_EX.png"
+			"icons/N_0646_5.png",
+			"icons/N_0646_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -14338,8 +14338,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0571_2_5.png",
-			"Sync Pairs/N_0571_2_EX.png"
+			"icons/N_0571_2_5.png",
+			"icons/N_0571_2_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -14384,8 +14384,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0567_5.png",
-			"Sync Pairs/N_0567_EX.png"
+			"icons/N_0567_5.png",
+			"icons/N_0567_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -14426,8 +14426,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/N_0645_5.png",
-			"Sync Pairs/N_0645_EX.png"
+			"icons/N_0645_5.png",
+			"icons/N_0645_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -14473,8 +14473,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0260_5.png",
-			"Sync Pairs/May_0260_EX.png"
+			"icons/May_0260_5.png",
+			"icons/May_0260_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -14517,8 +14517,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0428_5.png",
-			"Sync Pairs/May_0428_EX.png"
+			"icons/May_0428_5.png",
+			"icons/May_0428_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -14560,8 +14560,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0380_5.png",
-			"Sync Pairs/May_0380_EX.png"
+			"icons/May_0380_5.png",
+			"icons/May_0380_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -14607,8 +14607,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0257_5.png",
-			"Sync Pairs/May_0257_EX.png"
+			"icons/May_0257_5.png",
+			"icons/May_0257_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -14652,9 +14652,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0320_4.png",
-			"Sync Pairs/May_0320_5.png",
-			"Sync Pairs/May_0320_EX.png"
+			"icons/May_0320_4.png",
+			"icons/May_0320_5.png",
+			"icons/May_0320_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -14693,8 +14693,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/May_0382_5.png",
-			"Sync Pairs/May_0382_EX.png"
+			"icons/May_0382_5.png",
+			"icons/May_0382_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -14743,8 +14743,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Mallow_0763_5.png",
-			"Sync Pairs/Mallow_0763_EX.png"
+			"icons/Mallow_0763_5.png",
+			"icons/Mallow_0763_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -14785,8 +14785,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Mallow_0842_5.png",
-			"Sync Pairs/Mallow_0842_EX.png"
+			"icons/Mallow_0842_5.png",
+			"icons/Mallow_0842_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -14826,8 +14826,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Mallow_0756_5.png",
-			"Sync Pairs/Mallow_0756_EX.png"
+			"icons/Mallow_0756_5.png",
+			"icons/Mallow_0756_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -14865,8 +14865,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Lysandre_0717_5.png",
-			"Sync Pairs/Lysandre_0717_EX.png"
+			"icons/Lysandre_0717_5.png",
+			"icons/Lysandre_0717_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -14909,8 +14909,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Lysandre_0721_5.png",
-			"Sync Pairs/Lysandre_0721_EX.png"
+			"icons/Lysandre_0721_5.png",
+			"icons/Lysandre_0721_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -14955,8 +14955,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Professor Sycamore_0716_5.png",
-			"Sync Pairs/Professor Sycamore_0716_EX.png"
+			"icons/Professor Sycamore_0716_5.png",
+			"icons/Professor Sycamore_0716_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -14999,9 +14999,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Professor Sycamore_0001_4.png",
-			"Sync Pairs/Professor Sycamore_0001_5.png",
-			"Sync Pairs/Professor Sycamore_0001_EX.png"
+			"icons/Professor Sycamore_0001_4.png",
+			"icons/Professor Sycamore_0001_5.png",
+			"icons/Professor Sycamore_0001_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -15037,8 +15037,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Professor Sycamore_0673_5.png",
-			"Sync Pairs/Professor Sycamore_0673_EX.png"
+			"icons/Professor Sycamore_0673_5.png",
+			"icons/Professor Sycamore_0673_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -15079,8 +15079,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Piers_0862_5.png",
-			"Sync Pairs/Piers_0862_EX.png"
+			"icons/Piers_0862_5.png",
+			"icons/Piers_0862_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -15122,8 +15122,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Piers_0849_5.png",
-			"Sync Pairs/Piers_0849_EX.png"
+			"icons/Piers_0849_5.png",
+			"icons/Piers_0849_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -15171,8 +15171,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0006_5.png",
-			"Sync Pairs/Leon_0006_EX.png"
+			"icons/Leon_0006_5.png",
+			"icons/Leon_0006_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -15221,8 +15221,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0890_5.png",
-			"Sync Pairs/Leon_0890_EX.png"
+			"icons/Leon_0890_5.png",
+			"icons/Leon_0890_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -15266,8 +15266,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0898_5.png",
-			"Sync Pairs/Leon_0898_EX.png"
+			"icons/Leon_0898_5.png",
+			"icons/Leon_0898_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -15309,8 +15309,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0887_5.png",
-			"Sync Pairs/Leon_0887_EX.png"
+			"icons/Leon_0887_5.png",
+			"icons/Leon_0887_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -15356,8 +15356,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Arc Suit Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0006_2_5.png",
-			"Sync Pairs/Leon_0006_2_EX.png"
+			"icons/Leon_0006_2_5.png",
+			"icons/Leon_0006_2_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -15402,9 +15402,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Leon_0537_4.png",
-			"Sync Pairs/Leon_0537_5.png",
-			"Sync Pairs/Leon_0537_EX.png"
+			"icons/Leon_0537_4.png",
+			"icons/Leon_0537_5.png",
+			"icons/Leon_0537_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -15445,8 +15445,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0877_5.png",
-			"Sync Pairs/Marnie_0877_EX.png"
+			"icons/Marnie_0877_5.png",
+			"icons/Marnie_0877_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -15488,8 +15488,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0861_5.png",
-			"Sync Pairs/Marnie_0861_EX.png"
+			"icons/Marnie_0861_5.png",
+			"icons/Marnie_0861_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -15530,8 +15530,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0303_5.png",
-			"Sync Pairs/Marnie_0303_EX.png"
+			"icons/Marnie_0303_5.png",
+			"icons/Marnie_0303_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -15573,9 +15573,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0454_4.png",
-			"Sync Pairs/Marnie_0454_5.png",
-			"Sync Pairs/Marnie_0454_EX.png"
+			"icons/Marnie_0454_4.png",
+			"icons/Marnie_0454_5.png",
+			"icons/Marnie_0454_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -15615,8 +15615,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0146_5.png",
-			"Sync Pairs/Marnie_0146_EX.png"
+			"icons/Marnie_0146_5.png",
+			"icons/Marnie_0146_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -15660,8 +15660,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0560_5.png",
-			"Sync Pairs/Marnie_0560_EX.png"
+			"icons/Marnie_0560_5.png",
+			"icons/Marnie_0560_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -15701,8 +15701,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0815_5.png",
-			"Sync Pairs/Marnie_0815_EX.png"
+			"icons/Marnie_0815_5.png",
+			"icons/Marnie_0815_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -15745,8 +15745,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0510_5.png",
-			"Sync Pairs/Marnie_0510_EX.png"
+			"icons/Marnie_0510_5.png",
+			"icons/Marnie_0510_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -15785,8 +15785,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Marnie_0967_5.png",
-			"Sync Pairs/Marnie_0967_EX.png"
+			"icons/Marnie_0967_5.png",
+			"icons/Marnie_0967_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -15827,8 +15827,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Diantha_0282_5.png",
-			"Sync Pairs/Diantha_0282_EX.png"
+			"icons/Diantha_0282_5.png",
+			"icons/Diantha_0282_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -15874,8 +15874,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Diantha_0647_5.png",
-			"Sync Pairs/Diantha_0647_EX.png"
+			"icons/Diantha_0647_5.png",
+			"icons/Diantha_0647_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -15917,8 +15917,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Diantha_0719_5.png",
-			"Sync Pairs/Diantha_0719_EX.png"
+			"icons/Diantha_0719_5.png",
+			"icons/Diantha_0719_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -15966,9 +15966,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Diantha_0697_4.png",
-			"Sync Pairs/Diantha_0697_5.png",
-			"Sync Pairs/Diantha_0697_EX.png"
+			"icons/Diantha_0697_4.png",
+			"icons/Diantha_0697_5.png",
+			"icons/Diantha_0697_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -16010,8 +16010,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Selene_0724_5.png",
-			"Sync Pairs/Selene_0724_EX.png"
+			"icons/Selene_0724_5.png",
+			"icons/Selene_0724_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -16053,8 +16053,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Selene_0197_5.png",
-			"Sync Pairs/Selene_0197_EX.png"
+			"icons/Selene_0197_5.png",
+			"icons/Selene_0197_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -16098,8 +16098,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Selene_0212_5.png",
-			"Sync Pairs/Selene_0212_EX.png"
+			"icons/Selene_0212_5.png",
+			"icons/Selene_0212_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -16141,8 +16141,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Selene_0793_5.png",
-			"Sync Pairs/Selene_0793_EX.png"
+			"icons/Selene_0793_5.png",
+			"icons/Selene_0793_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -16188,8 +16188,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Selene_0800_5.png",
-			"Sync Pairs/Selene_0800_EX.png"
+			"icons/Selene_0800_5.png",
+			"icons/Selene_0800_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -16240,8 +16240,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Elio_0730_5.png",
-			"Sync Pairs/Elio_0730_EX.png"
+			"icons/Elio_0730_5.png",
+			"icons/Elio_0730_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -16284,8 +16284,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Elio_0196_5.png",
-			"Sync Pairs/Elio_0196_EX.png"
+			"icons/Elio_0196_5.png",
+			"icons/Elio_0196_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -16327,8 +16327,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Elio_0805_5.png",
-			"Sync Pairs/Elio_0805_EX.png"
+			"icons/Elio_0805_5.png",
+			"icons/Elio_0805_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -16375,8 +16375,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Elio_0800_5.png",
-			"Sync Pairs/Elio_0800_EX.png"
+			"icons/Elio_0800_5.png",
+			"icons/Elio_0800_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -16423,8 +16423,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Raihan_0884_5.png",
-			"Sync Pairs/Raihan_0884_EX.png"
+			"icons/Raihan_0884_5.png",
+			"icons/Raihan_0884_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -16468,8 +16468,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Raihan_0330_5.png",
-			"Sync Pairs/Raihan_0330_EX.png"
+			"icons/Raihan_0330_5.png",
+			"icons/Raihan_0330_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -16511,9 +16511,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Raihan_0526_4.png",
-			"Sync Pairs/Raihan_0526_5.png",
-			"Sync Pairs/Raihan_0526_EX.png"
+			"icons/Raihan_0526_4.png",
+			"icons/Raihan_0526_5.png",
+			"icons/Raihan_0526_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -16554,8 +16554,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Raihan_0844_5.png",
-			"Sync Pairs/Raihan_0844_EX.png"
+			"icons/Raihan_0844_5.png",
+			"icons/Raihan_0844_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -16597,8 +16597,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Ghetsis_0646_5.png",
-			"Sync Pairs/Ghetsis_0646_EX.png"
+			"icons/Ghetsis_0646_5.png",
+			"icons/Ghetsis_0646_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -16640,8 +16640,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Nessa_0834_5.png",
-			"Sync Pairs/Nessa_0834_EX.png"
+			"icons/Nessa_0834_5.png",
+			"icons/Nessa_0834_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -16680,8 +16680,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Nessa_0875_5.png",
-			"Sync Pairs/Nessa_0875_EX.png"
+			"icons/Nessa_0875_5.png",
+			"icons/Nessa_0875_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -16721,8 +16721,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bea_0865_5.png",
-			"Sync Pairs/Bea_0865_EX.png"
+			"icons/Bea_0865_5.png",
+			"icons/Bea_0865_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -16760,8 +16760,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bea_0584_5.png",
-			"Sync Pairs/Bea_0584_EX.png"
+			"icons/Bea_0584_5.png",
+			"icons/Bea_0584_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -16801,9 +16801,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bea_0237_4.png",
-			"Sync Pairs/Bea_0237_5.png",
-			"Sync Pairs/Bea_0237_EX.png"
+			"icons/Bea_0237_4.png",
+			"icons/Bea_0237_5.png",
+			"icons/Bea_0237_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -16840,8 +16840,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Maxie_0383_5.png",
-			"Sync Pairs/Maxie_0383_EX.png"
+			"icons/Maxie_0383_5.png",
+			"icons/Maxie_0383_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -16886,8 +16886,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Archie_0382_5.png",
-			"Sync Pairs/Archie_0382_EX.png"
+			"icons/Archie_0382_5.png",
+			"icons/Archie_0382_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -16932,8 +16932,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lana_0752_5.png",
-			"Sync Pairs/Lana_0752_EX.png"
+			"icons/Lana_0752_5.png",
+			"icons/Lana_0752_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -16972,8 +16972,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lana_0786_5.png",
-			"Sync Pairs/Lana_0786_EX.png"
+			"icons/Lana_0786_5.png",
+			"icons/Lana_0786_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -17018,9 +17018,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lana_0171_4.png",
-			"Sync Pairs/Lana_0171_5.png",
-			"Sync Pairs/Lana_0171_EX.png"
+			"icons/Lana_0171_4.png",
+			"icons/Lana_0171_5.png",
+			"icons/Lana_0171_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -17057,8 +17057,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Lana_0091_5.png",
-			"Sync Pairs/Lana_0091_EX.png"
+			"icons/Lana_0091_5.png",
+			"icons/Lana_0091_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -17100,8 +17100,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Kiawe_0105_5.png",
-			"Sync Pairs/Kiawe_0105_EX.png"
+			"icons/Kiawe_0105_5.png",
+			"icons/Kiawe_0105_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -17140,8 +17140,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Kiawe_0059_5.png",
-			"Sync Pairs/Kiawe_0059_EX.png"
+			"icons/Kiawe_0059_5.png",
+			"icons/Kiawe_0059_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -17181,8 +17181,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Hala_0740_5.png",
-			"Sync Pairs/Hala_0740_EX.png"
+			"icons/Hala_0740_5.png",
+			"icons/Hala_0740_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -17220,8 +17220,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/The Masked Royal_0727_5.png",
-			"Sync Pairs/The Masked Royal_0727_EX.png"
+			"icons/The Masked Royal_0727_5.png",
+			"icons/The Masked Royal_0727_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -17261,8 +17261,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Ingo_0530_5.png",
-			"Sync Pairs/Ingo_0530_EX.png"
+			"icons/Ingo_0530_5.png",
+			"icons/Ingo_0530_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -17303,8 +17303,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Ingo_0617_5.png",
-			"Sync Pairs/Ingo_0617_EX.png"
+			"icons/Ingo_0617_5.png",
+			"icons/Ingo_0617_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -17346,8 +17346,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Ingo_0609_5.png",
-			"Sync Pairs/Ingo_0609_EX.png"
+			"icons/Ingo_0609_5.png",
+			"icons/Ingo_0609_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -17390,8 +17390,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Emmet_0567_5.png",
-			"Sync Pairs/Emmet_0567_EX.png"
+			"icons/Emmet_0567_5.png",
+			"icons/Emmet_0567_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -17434,8 +17434,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Emmet_0589_5.png",
-			"Sync Pairs/Emmet_0589_EX.png"
+			"icons/Emmet_0589_5.png",
+			"icons/Emmet_0589_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -17476,8 +17476,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Emmet_0604_5.png",
-			"Sync Pairs/Emmet_0604_EX.png"
+			"icons/Emmet_0604_5.png",
+			"icons/Emmet_0604_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -17521,8 +17521,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Evelyn_0244_5.png",
-			"Sync Pairs/Evelyn_0244_EX.png"
+			"icons/Evelyn_0244_5.png",
+			"icons/Evelyn_0244_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -17563,8 +17563,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Lear_0720_5.png",
-			"Sync Pairs/Lear_0720_EX.png"
+			"icons/Lear_0720_5.png",
+			"icons/Lear_0720_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -17606,8 +17606,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Lear_1000_5.png",
-			"Sync Pairs/Lear_1000_EX.png"
+			"icons/Lear_1000_5.png",
+			"icons/Lear_1000_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -17650,9 +17650,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Lear_0553_4.png",
-			"Sync Pairs/Lear_0553_5.png",
-			"Sync Pairs/Lear_0553_EX.png"
+			"icons/Lear_0553_4.png",
+			"icons/Lear_0553_5.png",
+			"icons/Lear_0553_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -17689,9 +17689,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Rachel_0197_4.png",
-			"Sync Pairs/Rachel_0197_5.png",
-			"Sync Pairs/Rachel_0197_EX.png"
+			"icons/Rachel_0197_4.png",
+			"icons/Rachel_0197_5.png",
+			"icons/Rachel_0197_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -17733,8 +17733,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Rachel_0999_5.png",
-			"Sync Pairs/Rachel_0999_EX.png"
+			"icons/Rachel_0999_5.png",
+			"icons/Rachel_0999_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -17772,9 +17772,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Sawyer_0430_4.png",
-			"Sync Pairs/Sawyer_0430_5.png",
-			"Sync Pairs/Sawyer_0430_EX.png"
+			"icons/Sawyer_0430_4.png",
+			"icons/Sawyer_0430_5.png",
+			"icons/Sawyer_0430_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -17814,8 +17814,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Sawyer_0999_5.png",
-			"Sync Pairs/Sawyer_0999_EX.png"
+			"icons/Sawyer_0999_5.png",
+			"icons/Sawyer_0999_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -17853,8 +17853,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Falkner_0277_5.png",
-			"Sync Pairs/Falkner_0277_EX.png"
+			"icons/Falkner_0277_5.png",
+			"icons/Falkner_0277_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -17892,9 +17892,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Falkner_0018_4.png",
-			"Sync Pairs/Falkner_0018_5.png",
-			"Sync Pairs/Falkner_0018_EX.png"
+			"icons/Falkner_0018_4.png",
+			"icons/Falkner_0018_5.png",
+			"icons/Falkner_0018_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -17931,8 +17931,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Falkner_0164_5.png",
-			"Sync Pairs/Falkner_0164_EX.png"
+			"icons/Falkner_0164_5.png",
+			"icons/Falkner_0164_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -17972,8 +17972,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Sidney_0359_5.png",
-			"Sync Pairs/Sidney_0359_EX.png"
+			"icons/Sidney_0359_5.png",
+			"icons/Sidney_0359_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -18013,8 +18013,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Legendary Adventures",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Hop_0889_5.png",
-			"Sync Pairs/Hop_0889_EX.png"
+			"icons/Hop_0889_5.png",
+			"icons/Hop_0889_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -18058,8 +18058,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Hop_0145_5.png",
-			"Sync Pairs/Hop_0145_EX.png"
+			"icons/Hop_0145_5.png",
+			"icons/Hop_0145_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -18106,8 +18106,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Hop_0812_5.png",
-			"Sync Pairs/Hop_0812_EX.png"
+			"icons/Hop_0812_5.png",
+			"icons/Hop_0812_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -18150,8 +18150,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Hop_0871_5.png",
-			"Sync Pairs/Hop_0871_EX.png"
+			"icons/Hop_0871_5.png",
+			"icons/Hop_0871_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -18191,8 +18191,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Hop_0888_5.png",
-			"Sync Pairs/Hop_0888_EX.png"
+			"icons/Hop_0888_5.png",
+			"icons/Hop_0888_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -18236,8 +18236,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Allister_0094_5.png",
-			"Sync Pairs/Allister_0094_EX.png"
+			"icons/Allister_0094_5.png",
+			"icons/Allister_0094_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -18280,8 +18280,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Allister_0711_5.png",
-			"Sync Pairs/Allister_0711_EX.png"
+			"icons/Allister_0711_5.png",
+			"icons/Allister_0711_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -18321,8 +18321,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Darach_0398_5.png",
-			"Sync Pairs/Darach_0398_EX.png"
+			"icons/Darach_0398_5.png",
+			"icons/Darach_0398_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -18359,8 +18359,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Sonia_0835_5.png",
-			"Sync Pairs/Sonia_0835_EX.png"
+			"icons/Sonia_0835_5.png",
+			"icons/Sonia_0835_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -18399,8 +18399,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Sonia_0763_5.png",
-			"Sync Pairs/Sonia_0763_EX.png"
+			"icons/Sonia_0763_5.png",
+			"icons/Sonia_0763_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -18441,8 +18441,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Lucas_0483_5.png",
-			"Sync Pairs/Lucas_0483_EX.png"
+			"icons/Lucas_0483_5.png",
+			"icons/Lucas_0483_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -18486,8 +18486,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Lucas_0136_5.png",
-			"Sync Pairs/Lucas_0136_EX.png"
+			"icons/Lucas_0136_5.png",
+			"icons/Lucas_0136_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -18528,8 +18528,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Mix Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Lucas_0389_5.png",
-			"Sync Pairs/Lucas_0389_EX.png"
+			"icons/Lucas_0389_5.png",
+			"icons/Lucas_0389_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -18571,8 +18571,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Aaron_0416_5.png",
-			"Sync Pairs/Aaron_0416_EX.png"
+			"icons/Aaron_0416_5.png",
+			"icons/Aaron_0416_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -18610,8 +18610,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Bertha_0450_5.png",
-			"Sync Pairs/Bertha_0450_EX.png"
+			"icons/Bertha_0450_5.png",
+			"icons/Bertha_0450_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -18649,8 +18649,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Lucian_0203_5.png",
-			"Sync Pairs/Lucian_0203_EX.png"
+			"icons/Lucian_0203_5.png",
+			"icons/Lucian_0203_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -18690,8 +18690,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bede_0858_5.png",
-			"Sync Pairs/Bede_0858_EX.png"
+			"icons/Bede_0858_5.png",
+			"icons/Bede_0858_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -18737,8 +18737,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bede_0144_5.png",
-			"Sync Pairs/Bede_0144_EX.png"
+			"icons/Bede_0144_5.png",
+			"icons/Bede_0144_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -18786,8 +18786,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bede_0818_5.png",
-			"Sync Pairs/Bede_0818_EX.png"
+			"icons/Bede_0818_5.png",
+			"icons/Bede_0818_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -18829,8 +18829,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bede_1006_5.png",
-			"Sync Pairs/Bede_1006_EX.png"
+			"icons/Bede_1006_5.png",
+			"icons/Bede_1006_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -18873,8 +18873,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Bede_0303_5.png",
-			"Sync Pairs/Bede_0303_EX.png"
+			"icons/Bede_0303_5.png",
+			"icons/Bede_0303_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -18912,8 +18912,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Looker_0453_5.png",
-			"Sync Pairs/Looker_0453_EX.png"
+			"icons/Looker_0453_5.png",
+			"icons/Looker_0453_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -18952,8 +18952,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Courtney_0323_5.png",
-			"Sync Pairs/Courtney_0323_EX.png"
+			"icons/Courtney_0323_5.png",
+			"icons/Courtney_0323_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -18992,8 +18992,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Ash_0025_5.png",
-			"Sync Pairs/Ash_0025_EX.png"
+			"icons/Ash_0025_5.png",
+			"icons/Ash_0025_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -19037,8 +19037,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Nita_0645_5.png",
-			"Sync Pairs/Nita_0645_EX.png"
+			"icons/Nita_0645_5.png",
+			"icons/Nita_0645_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -19078,9 +19078,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Naomi_0028_3.png",
-			"Sync Pairs/Naomi_0028_4.png",
-			"Sync Pairs/Naomi_0028_5.png"
+			"icons/Naomi_0028_3.png",
+			"icons/Naomi_0028_4.png",
+			"icons/Naomi_0028_5.png"
 		],
 		"themes": [
 			"Ground",
@@ -19120,8 +19120,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gordie_0839_5.png",
-			"Sync Pairs/Gordie_0839_EX.png"
+			"icons/Gordie_0839_5.png",
+			"icons/Gordie_0839_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -19160,8 +19160,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Gordie_0689_5.png",
-			"Sync Pairs/Gordie_0689_EX.png"
+			"icons/Gordie_0689_5.png",
+			"icons/Gordie_0689_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -19202,8 +19202,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Melony_0131_5.png",
-			"Sync Pairs/Melony_0131_EX.png"
+			"icons/Melony_0131_5.png",
+			"icons/Melony_0131_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -19242,8 +19242,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Melony_0873_5.png",
-			"Sync Pairs/Melony_0873_EX.png"
+			"icons/Melony_0873_5.png",
+			"icons/Melony_0873_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -19285,8 +19285,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Victor_0812_5.png",
-			"Sync Pairs/Victor_0812_EX.png"
+			"icons/Victor_0812_5.png",
+			"icons/Victor_0812_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -19330,8 +19330,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Victor_0897_5.png",
-			"Sync Pairs/Victor_0897_EX.png"
+			"icons/Victor_0897_5.png",
+			"icons/Victor_0897_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -19370,8 +19370,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Victor_0820_5.png",
-			"Sync Pairs/Victor_0820_EX.png"
+			"icons/Victor_0820_5.png",
+			"icons/Victor_0820_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -19412,9 +19412,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Helena_0093_3.png",
-			"Sync Pairs/Helena_0093_4.png",
-			"Sync Pairs/Helena_0093_5.png"
+			"icons/Helena_0093_3.png",
+			"icons/Helena_0093_4.png",
+			"icons/Helena_0093_5.png"
 		],
 		"themes": [
 			"Ghost",
@@ -19450,8 +19450,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hugh_0626_5.png",
-			"Sync Pairs/Hugh_0626_EX.png"
+			"icons/Hugh_0626_5.png",
+			"icons/Hugh_0626_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -19493,8 +19493,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Hugh_0521_5.png",
-			"Sync Pairs/Hugh_0521_EX.png"
+			"icons/Hugh_0521_5.png",
+			"icons/Hugh_0521_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -19532,8 +19532,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Colress_0601_5.png",
-			"Sync Pairs/Colress_0601_EX.png"
+			"icons/Colress_0601_5.png",
+			"icons/Colress_0601_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -19572,9 +19572,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Kali_0184_3.png",
-			"Sync Pairs/Kali_0184_4.png",
-			"Sync Pairs/Kali_0184_5.png"
+			"icons/Kali_0184_3.png",
+			"icons/Kali_0184_4.png",
+			"icons/Kali_0184_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -19610,8 +19610,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Shauna_0652_5.png",
-			"Sync Pairs/Shauna_0652_EX.png"
+			"icons/Shauna_0652_5.png",
+			"icons/Shauna_0652_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -19650,8 +19650,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Shauna_0707_5.png",
-			"Sync Pairs/Shauna_0707_EX.png"
+			"icons/Shauna_0707_5.png",
+			"icons/Shauna_0707_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -19689,9 +19689,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Shauna_0301_4.png",
-			"Sync Pairs/Shauna_0301_5.png",
-			"Sync Pairs/Shauna_0301_EX.png"
+			"icons/Shauna_0301_4.png",
+			"icons/Shauna_0301_5.png",
+			"icons/Shauna_0301_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -19728,8 +19728,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Shauna_0700_5.png",
-			"Sync Pairs/Shauna_0700_EX.png"
+			"icons/Shauna_0700_5.png",
+			"icons/Shauna_0700_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -19770,8 +19770,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Anabel_0143_5.png",
-			"Sync Pairs/Anabel_0143_EX.png"
+			"icons/Anabel_0143_5.png",
+			"icons/Anabel_0143_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -19811,8 +19811,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Emma_0169_5.png",
-			"Sync Pairs/Emma_0169_EX.png"
+			"icons/Emma_0169_5.png",
+			"icons/Emma_0169_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -19854,8 +19854,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Ball Guy_0591_5.png",
-			"Sync Pairs/Ball Guy_0591_EX.png"
+			"icons/Ball Guy_0591_5.png",
+			"icons/Ball Guy_0591_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -19891,8 +19891,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Adaman_0470_5.png",
-			"Sync Pairs/Adaman_0470_EX.png"
+			"icons/Adaman_0470_5.png",
+			"icons/Adaman_0470_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -19937,9 +19937,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Adaman_0134_4.png",
-			"Sync Pairs/Adaman_0134_5.png",
-			"Sync Pairs/Adaman_0134_EX.png"
+			"icons/Adaman_0134_4.png",
+			"icons/Adaman_0134_5.png",
+			"icons/Adaman_0134_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -19979,8 +19979,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Adaman_0901_5.png",
-			"Sync Pairs/Adaman_0901_EX.png"
+			"icons/Adaman_0901_5.png",
+			"icons/Adaman_0901_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -20021,8 +20021,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Irida_0471_5.png",
-			"Sync Pairs/Irida_0471_EX.png"
+			"icons/Irida_0471_5.png",
+			"icons/Irida_0471_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -20067,9 +20067,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Irida_0136_4.png",
-			"Sync Pairs/Irida_0136_5.png",
-			"Sync Pairs/Irida_0136_EX.png"
+			"icons/Irida_0136_4.png",
+			"icons/Irida_0136_5.png",
+			"icons/Irida_0136_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -20111,8 +20111,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Irida_0571_5.png",
-			"Sync Pairs/Irida_0571_EX.png"
+			"icons/Irida_0571_5.png",
+			"icons/Irida_0571_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -20157,8 +20157,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "EX Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Irida_0157_5.png",
-			"Sync Pairs/Irida_0157_EX.png"
+			"icons/Irida_0157_5.png",
+			"icons/Irida_0157_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -20206,8 +20206,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Eusine_0245_5.png",
-			"Sync Pairs/Eusine_0245_EX.png"
+			"icons/Eusine_0245_5.png",
+			"icons/Eusine_0245_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -20254,8 +20254,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Rose_0879_5.png",
-			"Sync Pairs/Rose_0879_EX.png"
+			"icons/Rose_0879_5.png",
+			"icons/Rose_0879_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -20297,9 +20297,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Rose_0863_4.png",
-			"Sync Pairs/Rose_0863_5.png",
-			"Sync Pairs/Rose_0863_EX.png"
+			"icons/Rose_0863_4.png",
+			"icons/Rose_0863_5.png",
+			"icons/Rose_0863_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -20338,8 +20338,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Oleana_0569_5.png",
-			"Sync Pairs/Oleana_0569_EX.png"
+			"icons/Oleana_0569_5.png",
+			"icons/Oleana_0569_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -20382,8 +20382,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Olympia_0561_5.png",
-			"Sync Pairs/Olympia_0561_EX.png"
+			"icons/Olympia_0561_5.png",
+			"icons/Olympia_0561_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -20421,8 +20421,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Drasna_0691_5.png",
-			"Sync Pairs/Drasna_0691_EX.png"
+			"icons/Drasna_0691_5.png",
+			"icons/Drasna_0691_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -20458,8 +20458,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Nemona_0923_5.png",
-			"Sync Pairs/Nemona_0923_EX.png"
+			"icons/Nemona_0923_5.png",
+			"icons/Nemona_0923_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -20504,8 +20504,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Nemona_0745_5.png",
-			"Sync Pairs/Nemona_0745_EX.png"
+			"icons/Nemona_0745_5.png",
+			"icons/Nemona_0745_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -20544,8 +20544,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Nemona_0985_5.png",
-			"Sync Pairs/Nemona_0985_EX.png"
+			"icons/Nemona_0985_5.png",
+			"icons/Nemona_0985_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -20592,8 +20592,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Nemona_0912_5.png",
-			"Sync Pairs/Nemona_0912_EX.png"
+			"icons/Nemona_0912_5.png",
+			"icons/Nemona_0912_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -20632,8 +20632,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Dana_0378_5.png",
-			"Sync Pairs/Dana_0378_EX.png"
+			"icons/Dana_0378_5.png",
+			"icons/Dana_0378_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -20675,8 +20675,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Paulo_0745_5.png",
-			"Sync Pairs/Paulo_0745_EX.png"
+			"icons/Paulo_0745_5.png",
+			"icons/Paulo_0745_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -20720,9 +20720,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Tina_0136_4.png",
-			"Sync Pairs/Tina_0136_5.png",
-			"Sync Pairs/Tina_0136_EX.png"
+			"icons/Tina_0136_4.png",
+			"icons/Tina_0136_5.png",
+			"icons/Tina_0136_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -20762,8 +20762,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Archer_0229_5.png",
-			"Sync Pairs/Archer_0229_EX.png"
+			"icons/Archer_0229_5.png",
+			"icons/Archer_0229_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -20800,8 +20800,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Ariana_0024_5.png",
-			"Sync Pairs/Ariana_0024_EX.png"
+			"icons/Ariana_0024_5.png",
+			"icons/Ariana_0024_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -20838,8 +20838,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Petrel_0110_5.png",
-			"Sync Pairs/Petrel_0110_EX.png"
+			"icons/Petrel_0110_5.png",
+			"icons/Petrel_0110_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -20876,8 +20876,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Proton_0042_5.png",
-			"Sync Pairs/Proton_0042_EX.png"
+			"icons/Proton_0042_5.png",
+			"icons/Proton_0042_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -20916,8 +20916,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Palmer_0486_5.png",
-			"Sync Pairs/Palmer_0486_EX.png"
+			"icons/Palmer_0486_5.png",
+			"icons/Palmer_0486_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -20962,8 +20962,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Argenta_0227_5.png",
-			"Sync Pairs/Argenta_0227_EX.png"
+			"icons/Argenta_0227_5.png",
+			"icons/Argenta_0227_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -21005,8 +21005,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Akari_0503_5.png",
-			"Sync Pairs/Akari_0503_EX.png"
+			"icons/Akari_0503_5.png",
+			"icons/Akari_0503_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -21051,8 +21051,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Rei_0724_5.png",
-			"Sync Pairs/Rei_0724_EX.png"
+			"icons/Rei_0724_5.png",
+			"icons/Rei_0724_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -21098,8 +21098,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Rei_0628_5.png",
-			"Sync Pairs/Rei_0628_EX.png"
+			"icons/Rei_0628_5.png",
+			"icons/Rei_0628_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -21141,8 +21141,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Lenora_0505_5.png",
-			"Sync Pairs/Lenora_0505_EX.png"
+			"icons/Lenora_0505_5.png",
+			"icons/Lenora_0505_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -21178,8 +21178,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Ryuki_0776_5.png",
-			"Sync Pairs/Ryuki_0776_EX.png"
+			"icons/Ryuki_0776_5.png",
+			"icons/Ryuki_0776_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -21215,8 +21215,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Penny_0700_5.png",
-			"Sync Pairs/Penny_0700_EX.png"
+			"icons/Penny_0700_5.png",
+			"icons/Penny_0700_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -21260,8 +21260,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Elaine_0133_5.png",
-			"Sync Pairs/Elaine_0133_EX.png"
+			"icons/Elaine_0133_5.png",
+			"icons/Elaine_0133_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -21301,9 +21301,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Eve_0133_3.png",
-			"Sync Pairs/Eve_0133_4.png",
-			"Sync Pairs/Eve_0133_5.png"
+			"icons/Eve_0133_3.png",
+			"icons/Eve_0133_4.png",
+			"icons/Eve_0133_5.png"
 		],
 		"themes": [
 			"Normal",
@@ -21340,9 +21340,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Katherine_0685_3.png",
-			"Sync Pairs/Katherine_0685_4.png",
-			"Sync Pairs/Katherine_0685_5.png"
+			"icons/Katherine_0685_3.png",
+			"icons/Katherine_0685_4.png",
+			"icons/Katherine_0685_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -21378,8 +21378,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Iono_0939_5.png",
-			"Sync Pairs/Iono_0939_EX.png"
+			"icons/Iono_0939_5.png",
+			"icons/Iono_0939_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -21420,9 +21420,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Iono_0940_4.png",
-			"Sync Pairs/Iono_0940_5.png",
-			"Sync Pairs/Iono_0940_EX.png"
+			"icons/Iono_0940_4.png",
+			"icons/Iono_0940_5.png",
+			"icons/Iono_0940_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -21460,8 +21460,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Iono_0987_5.png",
-			"Sync Pairs/Iono_0987_EX.png"
+			"icons/Iono_0987_5.png",
+			"icons/Iono_0987_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -21504,8 +21504,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Iono_0941_5.png",
-			"Sync Pairs/Iono_0941_EX.png"
+			"icons/Iono_0941_5.png",
+			"icons/Iono_0941_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -21543,8 +21543,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Iono_1021_5.png",
-			"Sync Pairs/Iono_1021_EX.png"
+			"icons/Iono_1021_5.png",
+			"icons/Iono_1021_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -21588,8 +21588,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Grusha_0975_5.png",
-			"Sync Pairs/Grusha_0975_EX.png"
+			"icons/Grusha_0975_5.png",
+			"icons/Grusha_0975_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -21631,8 +21631,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Grusha_0614_5.png",
-			"Sync Pairs/Grusha_0614_EX.png"
+			"icons/Grusha_0614_5.png",
+			"icons/Grusha_0614_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -21671,8 +21671,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kanto",
 		"images": [
-			"Sync Pairs/Chase_0025_5.png",
-			"Sync Pairs/Chase_0025_EX.png"
+			"icons/Chase_0025_5.png",
+			"icons/Chase_0025_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -21712,9 +21712,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Petey_0025_3.png",
-			"Sync Pairs/Petey_0025_4.png",
-			"Sync Pairs/Petey_0025_5.png"
+			"icons/Petey_0025_3.png",
+			"icons/Petey_0025_4.png",
+			"icons/Petey_0025_5.png"
 		],
 		"themes": [
 			"Electric",
@@ -21752,8 +21752,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Riley_0448_5.png",
-			"Sync Pairs/Riley_0448_EX.png"
+			"icons/Riley_0448_5.png",
+			"icons/Riley_0448_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -21792,8 +21792,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Geeta_0970_5.png",
-			"Sync Pairs/Geeta_0970_EX.png"
+			"icons/Geeta_0970_5.png",
+			"icons/Geeta_0970_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -21837,8 +21837,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Tierno_0342_5.png",
-			"Sync Pairs/Tierno_0342_EX.png"
+			"icons/Tierno_0342_5.png",
+			"icons/Tierno_0342_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -21875,8 +21875,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Training Ticket Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Tierno_0663_5.png",
-			"Sync Pairs/Tierno_0663_EX.png"
+			"icons/Tierno_0663_5.png",
+			"icons/Tierno_0663_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -21916,8 +21916,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Dahlia_0272_5.png",
-			"Sync Pairs/Dahlia_0272_EX.png"
+			"icons/Dahlia_0272_5.png",
+			"icons/Dahlia_0272_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -21959,8 +21959,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volo_0175_5.png",
-			"Sync Pairs/Volo_0175_EX.png"
+			"icons/Volo_0175_5.png",
+			"icons/Volo_0175_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -22004,9 +22004,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volo_0443_4.png",
-			"Sync Pairs/Volo_0443_5.png",
-			"Sync Pairs/Volo_0443_EX.png"
+			"icons/Volo_0443_4.png",
+			"icons/Volo_0443_5.png",
+			"icons/Volo_0443_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -22047,8 +22047,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "EX Master Fair Scout",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Volo_0487_5.png",
-			"Sync Pairs/Volo_0487_EX.png"
+			"icons/Volo_0487_5.png",
+			"icons/Volo_0487_EX.png"
 		],
 		"themes": [
 			"Ghost",
@@ -22095,8 +22095,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Jacq_0981_5.png",
-			"Sync Pairs/Jacq_0981_EX.png"
+			"icons/Jacq_0981_5.png",
+			"icons/Jacq_0981_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -22136,8 +22136,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Rika_0980_5.png",
-			"Sync Pairs/Rika_0980_EX.png"
+			"icons/Rika_0980_5.png",
+			"icons/Rika_0980_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -22180,9 +22180,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Rika_0340_4.png",
-			"Sync Pairs/Rika_0340_5.png",
-			"Sync Pairs/Rika_0340_EX.png"
+			"icons/Rika_0340_4.png",
+			"icons/Rika_0340_5.png",
+			"icons/Rika_0340_EX.png"
 		],
 		"themes": [
 			"Ground",
@@ -22220,8 +22220,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Brycen-Man_0571_5.png",
-			"Sync Pairs/Brycen-Man_0571_EX.png"
+			"icons/Brycen-Man_0571_5.png",
+			"icons/Brycen-Man_0571_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -22262,8 +22262,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Bellelba_0528_5.png",
-			"Sync Pairs/Bellelba_0528_EX.png"
+			"icons/Bellelba_0528_5.png",
+			"icons/Bellelba_0528_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -22302,8 +22302,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Poppy_0959_5.png",
-			"Sync Pairs/Poppy_0959_EX.png"
+			"icons/Poppy_0959_5.png",
+			"icons/Poppy_0959_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -22347,8 +22347,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Poppy_0208_5.png",
-			"Sync Pairs/Poppy_0208_EX.png"
+			"icons/Poppy_0208_5.png",
+			"icons/Poppy_0208_EX.png"
 		],
 		"themes": [
 			"Steel",
@@ -22395,8 +22395,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Larry_0982_5.png",
-			"Sync Pairs/Larry_0982_EX.png"
+			"icons/Larry_0982_5.png",
+			"icons/Larry_0982_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -22442,9 +22442,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Larry_0916_4.png",
-			"Sync Pairs/Larry_0916_5.png",
-			"Sync Pairs/Larry_0916_EX.png"
+			"icons/Larry_0916_4.png",
+			"icons/Larry_0916_5.png",
+			"icons/Larry_0916_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -22482,8 +22482,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Larry_0973_5.png",
-			"Sync Pairs/Larry_0973_EX.png"
+			"icons/Larry_0973_5.png",
+			"icons/Larry_0973_EX.png"
 		],
 		"themes": [
 			"Flying",
@@ -22527,8 +22527,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Kabu_0851_5.png",
-			"Sync Pairs/Kabu_0851_EX.png"
+			"icons/Kabu_0851_5.png",
+			"icons/Kabu_0851_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -22571,9 +22571,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Kabu_0324_4.png",
-			"Sync Pairs/Kabu_0324_5.png",
-			"Sync Pairs/Kabu_0324_EX.png"
+			"icons/Kabu_0324_4.png",
+			"icons/Kabu_0324_5.png",
+			"icons/Kabu_0324_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -22612,8 +22612,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Gym Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Kabu_0038_5.png",
-			"Sync Pairs/Kabu_0038_EX.png"
+			"icons/Kabu_0038_5.png",
+			"icons/Kabu_0038_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -22655,8 +22655,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Klara_0080_5.png",
-			"Sync Pairs/Klara_0080_EX.png"
+			"icons/Klara_0080_5.png",
+			"icons/Klara_0080_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -22701,8 +22701,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Avery_0199_5.png",
-			"Sync Pairs/Avery_0199_EX.png"
+			"icons/Avery_0199_5.png",
+			"icons/Avery_0199_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -22748,8 +22748,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Hoenn",
 		"images": [
-			"Sync Pairs/Greta_0286_5.png",
-			"Sync Pairs/Greta_0286_EX.png"
+			"icons/Greta_0286_5.png",
+			"icons/Greta_0286_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -22790,8 +22790,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Arven_0943_5.png",
-			"Sync Pairs/Arven_0943_EX.png"
+			"icons/Arven_0943_5.png",
+			"icons/Arven_0943_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -22832,9 +22832,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Arven_0932_4.png",
-			"Sync Pairs/Arven_0932_5.png",
-			"Sync Pairs/Arven_0932_EX.png"
+			"icons/Arven_0932_4.png",
+			"icons/Arven_0932_5.png",
+			"icons/Arven_0932_EX.png"
 		],
 		"themes": [
 			"Rock",
@@ -22872,8 +22872,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Battle Points Exchange",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Morgan_0640_5.png",
-			"Sync Pairs/Morgan_0640_EX.png"
+			"icons/Morgan_0640_5.png",
+			"icons/Morgan_0640_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -22913,8 +22913,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Malva_0663_5.png",
-			"Sync Pairs/Malva_0663_EX.png"
+			"icons/Malva_0663_5.png",
+			"icons/Malva_0663_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -22952,8 +22952,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Johto",
 		"images": [
-			"Sync Pairs/Chuck_0062_5.png",
-			"Sync Pairs/Chuck_0062_EX.png"
+			"icons/Chuck_0062_5.png",
+			"icons/Chuck_0062_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -22992,8 +22992,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Trevor_0671_5.png",
-			"Sync Pairs/Trevor_0671_EX.png"
+			"icons/Trevor_0671_5.png",
+			"icons/Trevor_0671_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -23029,8 +23029,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Giacomo_0983_5.png",
-			"Sync Pairs/Giacomo_0983_EX.png"
+			"icons/Giacomo_0983_5.png",
+			"icons/Giacomo_0983_EX.png"
 		],
 		"themes": [
 			"Dark",
@@ -23071,8 +23071,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Clavell_0914_5.png",
-			"Sync Pairs/Clavell_0914_EX.png"
+			"icons/Clavell_0914_5.png",
+			"icons/Clavell_0914_EX.png"
 		],
 		"themes": [
 			"Water",
@@ -23116,8 +23116,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Clavell_0906_5.png",
-			"Sync Pairs/Clavell_0906_EX.png"
+			"icons/Clavell_0906_5.png",
+			"icons/Clavell_0906_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -23158,8 +23158,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Eri_0979_5.png",
-			"Sync Pairs/Eri_0979_EX.png"
+			"icons/Eri_0979_5.png",
+			"icons/Eri_0979_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -23201,8 +23201,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Sina_0471_5.png",
-			"Sync Pairs/Sina_0471_EX.png"
+			"icons/Sina_0471_5.png",
+			"icons/Sina_0471_EX.png"
 		],
 		"themes": [
 			"Ice",
@@ -23245,8 +23245,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Dexio_0196_5.png",
-			"Sync Pairs/Dexio_0196_EX.png"
+			"icons/Dexio_0196_5.png",
+			"icons/Dexio_0196_EX.png"
 		],
 		"themes": [
 			"Psychic",
@@ -23291,8 +23291,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Galar",
 		"images": [
-			"Sync Pairs/Milo_0830_5.png",
-			"Sync Pairs/Milo_0830_EX.png"
+			"icons/Milo_0830_5.png",
+			"icons/Milo_0830_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -23333,9 +23333,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Kalos",
 		"images": [
-			"Sync Pairs/Blossom_0281_3.png",
-			"Sync Pairs/Blossom_0281_4.png",
-			"Sync Pairs/Blossom_0281_5.png"
+			"icons/Blossom_0281_3.png",
+			"icons/Blossom_0281_4.png",
+			"icons/Blossom_0281_5.png"
 		],
 		"themes": [
 			"Fairy",
@@ -23371,8 +23371,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Mela_0936_5.png",
-			"Sync Pairs/Mela_0936_EX.png"
+			"icons/Mela_0936_5.png",
+			"icons/Mela_0936_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -23414,8 +23414,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Atticus_0966_5.png",
-			"Sync Pairs/Atticus_0966_EX.png"
+			"icons/Atticus_0966_5.png",
+			"icons/Atticus_0966_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -23459,8 +23459,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Juliana_1007_5.png",
-			"Sync Pairs/Juliana_1007_EX.png"
+			"icons/Juliana_1007_5.png",
+			"icons/Juliana_1007_EX.png"
 		],
 		"themes": [
 			"Fighting",
@@ -23505,8 +23505,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Juliana_0906_5.png",
-			"Sync Pairs/Juliana_0906_EX.png"
+			"icons/Juliana_0906_5.png",
+			"icons/Juliana_0906_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -23549,8 +23549,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Florian_1008_5.png",
-			"Sync Pairs/Florian_1008_EX.png"
+			"icons/Florian_1008_5.png",
+			"icons/Florian_1008_EX.png"
 		],
 		"themes": [
 			"Electric",
@@ -23595,8 +23595,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Florian_0915_5.png",
-			"Sync Pairs/Florian_0915_EX.png"
+			"icons/Florian_0915_5.png",
+			"icons/Florian_0915_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -23637,8 +23637,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Florian_0909_5.png",
-			"Sync Pairs/Florian_0909_EX.png"
+			"icons/Florian_0909_5.png",
+			"icons/Florian_0909_EX.png"
 		],
 		"themes": [
 			"Fire",
@@ -23678,8 +23678,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Ortega_0927_5.png",
-			"Sync Pairs/Ortega_0927_EX.png"
+			"icons/Ortega_0927_5.png",
+			"icons/Ortega_0927_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -23723,8 +23723,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Lacey_0210_5.png",
-			"Sync Pairs/Lacey_0210_EX.png"
+			"icons/Lacey_0210_5.png",
+			"icons/Lacey_0210_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -23770,9 +23770,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Lacey_0869_4.png",
-			"Sync Pairs/Lacey_0869_5.png",
-			"Sync Pairs/Lacey_0869_EX.png"
+			"icons/Lacey_0869_4.png",
+			"icons/Lacey_0869_5.png",
+			"icons/Lacey_0869_EX.png"
 		],
 		"themes": [
 			"Fairy",
@@ -23810,8 +23810,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Spotlight Scout / General Pool",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Ilima_0735_5.png",
-			"Sync Pairs/Ilima_0735_EX.png"
+			"icons/Ilima_0735_5.png",
+			"icons/Ilima_0735_EX.png"
 		],
 		"themes": [
 			"Normal",
@@ -23849,9 +23849,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Event Reward",
 		"syncPairRegion": "Sinnoh",
 		"images": [
-			"Sync Pairs/Teddy_0953_3.png",
-			"Sync Pairs/Teddy_0953_4.png",
-			"Sync Pairs/Teddy_0953_5.png"
+			"icons/Teddy_0953_3.png",
+			"icons/Teddy_0953_4.png",
+			"icons/Teddy_0953_5.png"
 		],
 		"themes": [
 			"Bug",
@@ -23890,8 +23890,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Unova",
 		"images": [
-			"Sync Pairs/Benga_0637_5.png",
-			"Sync Pairs/Benga_0637_EX.png"
+			"icons/Benga_0637_5.png",
+			"icons/Benga_0637_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -23934,8 +23934,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Special Costume Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Clive_0591_5.png",
-			"Sync Pairs/Clive_0591_EX.png"
+			"icons/Clive_0591_5.png",
+			"icons/Clive_0591_EX.png"
 		],
 		"themes": [
 			"Poison",
@@ -23978,8 +23978,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Variety Scout",
 		"syncPairRegion": "Alola",
 		"images": [
-			"Sync Pairs/Samson Oak_0103_5.png",
-			"Sync Pairs/Samson Oak_0103_EX.png"
+			"icons/Samson Oak_0103_5.png",
+			"icons/Samson Oak_0103_EX.png"
 		],
 		"themes": [
 			"Dragon",
@@ -24025,8 +24025,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Poké Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Carmine_1013_5.png",
-			"Sync Pairs/Carmine_1013_EX.png"
+			"icons/Carmine_1013_5.png",
+			"icons/Carmine_1013_EX.png"
 		],
 		"themes": [
 			"Grass",
@@ -24068,9 +24068,9 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Trainer Lodge Exchange",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Carmine_0541_4.png",
-			"Sync Pairs/Carmine_0541_5.png",
-			"Sync Pairs/Carmine_0541_EX.png"
+			"icons/Carmine_0541_4.png",
+			"icons/Carmine_0541_5.png",
+			"icons/Carmine_0541_EX.png"
 		],
 		"themes": [
 			"Bug",
@@ -24109,8 +24109,8 @@ export const SYNCPAIRS = [
 		"syncPairAcquisition": "Master Fair Scout",
 		"syncPairRegion": "Paldea",
 		"images": [
-			"Sync Pairs/Kieran_1019_5.png",
-			"Sync Pairs/Kieran_1019_EX.png"
+			"icons/Kieran_1019_5.png",
+			"icons/Kieran_1019_EX.png"
 		],
 		"themes": [
 			"Fighting",

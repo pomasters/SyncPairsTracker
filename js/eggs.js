@@ -22,8 +22,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0003_1.png",
-			"Sync Pairs/Eggs/Scottie_0003_1.png"
+			"icons/eggs/Bettie_0003_1.png",
+			"icons/eggs/Scottie_0003_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -59,8 +59,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0006_1.png",
-			"Sync Pairs/Eggs/Scottie_0006_1.png"
+			"icons/eggs/Bettie_0006_1.png",
+			"icons/eggs/Scottie_0006_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -96,8 +96,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0009_1.png",
-			"Sync Pairs/Eggs/Scottie_0009_1.png"
+			"icons/eggs/Bettie_0009_1.png",
+			"icons/eggs/Scottie_0009_1.png"
 		],
 		"themes": [
 			"Water",
@@ -134,8 +134,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0012_1.png",
-			"Sync Pairs/Eggs/Scottie_0012_1.png"
+			"icons/eggs/Bettie_0012_1.png",
+			"icons/eggs/Scottie_0012_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -171,8 +171,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0015_1.png",
-			"Sync Pairs/Eggs/Scottie_0015_1.png"
+			"icons/eggs/Bettie_0015_1.png",
+			"icons/eggs/Scottie_0015_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -208,8 +208,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0018_1.png",
-			"Sync Pairs/Eggs/Scottie_0018_1.png"
+			"icons/eggs/Bettie_0018_1.png",
+			"icons/eggs/Scottie_0018_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -244,8 +244,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0020_1.png",
-			"Sync Pairs/Eggs/Scottie_0020_1.png"
+			"icons/eggs/Bettie_0020_1.png",
+			"icons/eggs/Scottie_0020_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -280,8 +280,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0022_1.png",
-			"Sync Pairs/Eggs/Scottie_0022_1.png"
+			"icons/eggs/Bettie_0022_1.png",
+			"icons/eggs/Scottie_0022_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -316,8 +316,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0024_1.png",
-			"Sync Pairs/Eggs/Scottie_0024_1.png"
+			"icons/eggs/Bettie_0024_1.png",
+			"icons/eggs/Scottie_0024_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -353,8 +353,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0026_1.png",
-			"Sync Pairs/Eggs/Scottie_0026_1.png"
+			"icons/eggs/Bettie_0026_1.png",
+			"icons/eggs/Scottie_0026_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -389,8 +389,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0028_1.png",
-			"Sync Pairs/Eggs/Scottie_0028_1.png"
+			"icons/eggs/Bettie_0028_1.png",
+			"icons/eggs/Scottie_0028_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -426,8 +426,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0031_1.png",
-			"Sync Pairs/Eggs/Scottie_0031_1.png"
+			"icons/eggs/Bettie_0031_1.png",
+			"icons/eggs/Scottie_0031_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -463,8 +463,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0034_1.png",
-			"Sync Pairs/Eggs/Scottie_0034_1.png"
+			"icons/eggs/Bettie_0034_1.png",
+			"icons/eggs/Scottie_0034_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -500,8 +500,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0036_1.png",
-			"Sync Pairs/Eggs/Scottie_0036_1.png"
+			"icons/eggs/Bettie_0036_1.png",
+			"icons/eggs/Scottie_0036_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -536,8 +536,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0038_1.png",
-			"Sync Pairs/Eggs/Scottie_0038_1.png"
+			"icons/eggs/Bettie_0038_1.png",
+			"icons/eggs/Scottie_0038_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -574,8 +574,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0040_1.png",
-			"Sync Pairs/Eggs/Scottie_0040_1.png"
+			"icons/eggs/Bettie_0040_1.png",
+			"icons/eggs/Scottie_0040_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -610,8 +610,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0042_1.png",
-			"Sync Pairs/Eggs/Scottie_0042_1.png"
+			"icons/eggs/Bettie_0042_1.png",
+			"icons/eggs/Scottie_0042_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -647,8 +647,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0045_1.png",
-			"Sync Pairs/Eggs/Scottie_0045_1.png"
+			"icons/eggs/Bettie_0045_1.png",
+			"icons/eggs/Scottie_0045_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -683,8 +683,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0047_1.png",
-			"Sync Pairs/Eggs/Scottie_0047_1.png"
+			"icons/eggs/Bettie_0047_1.png",
+			"icons/eggs/Scottie_0047_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -719,8 +719,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0049_1.png",
-			"Sync Pairs/Eggs/Scottie_0049_1.png"
+			"icons/eggs/Bettie_0049_1.png",
+			"icons/eggs/Scottie_0049_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -755,8 +755,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0051_1.png",
-			"Sync Pairs/Eggs/Scottie_0051_1.png"
+			"icons/eggs/Bettie_0051_1.png",
+			"icons/eggs/Scottie_0051_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -791,8 +791,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0053_1.png",
-			"Sync Pairs/Eggs/Scottie_0053_1.png"
+			"icons/eggs/Bettie_0053_1.png",
+			"icons/eggs/Scottie_0053_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -828,8 +828,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0053_2_1.png",
-			"Sync Pairs/Eggs/Scottie_0053_2_1.png"
+			"icons/eggs/Bettie_0053_2_1.png",
+			"icons/eggs/Scottie_0053_2_1.png"
 		],
 		"themes": [
 			"Dark",
@@ -864,8 +864,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0055_1.png",
-			"Sync Pairs/Eggs/Scottie_0055_1.png"
+			"icons/eggs/Bettie_0055_1.png",
+			"icons/eggs/Scottie_0055_1.png"
 		],
 		"themes": [
 			"Water",
@@ -900,8 +900,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0057_1.png",
-			"Sync Pairs/Eggs/Scottie_0057_1.png"
+			"icons/eggs/Bettie_0057_1.png",
+			"icons/eggs/Scottie_0057_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -936,8 +936,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0059_1.png",
-			"Sync Pairs/Eggs/Scottie_0059_1.png"
+			"icons/eggs/Bettie_0059_1.png",
+			"icons/eggs/Scottie_0059_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -973,8 +973,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0065_1.png",
-			"Sync Pairs/Eggs/Scottie_0065_1.png"
+			"icons/eggs/Bettie_0065_1.png",
+			"icons/eggs/Scottie_0065_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1010,8 +1010,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0068_1.png",
-			"Sync Pairs/Eggs/Scottie_0068_1.png"
+			"icons/eggs/Bettie_0068_1.png",
+			"icons/eggs/Scottie_0068_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1047,8 +1047,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0071_1.png",
-			"Sync Pairs/Eggs/Scottie_0071_1.png"
+			"icons/eggs/Bettie_0071_1.png",
+			"icons/eggs/Scottie_0071_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -1083,8 +1083,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0073_1.png",
-			"Sync Pairs/Eggs/Scottie_0073_1.png"
+			"icons/eggs/Bettie_0073_1.png",
+			"icons/eggs/Scottie_0073_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1120,8 +1120,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0076_1.png",
-			"Sync Pairs/Eggs/Scottie_0076_1.png"
+			"icons/eggs/Bettie_0076_1.png",
+			"icons/eggs/Scottie_0076_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -1156,8 +1156,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0078_1.png",
-			"Sync Pairs/Eggs/Scottie_0078_1.png"
+			"icons/eggs/Bettie_0078_1.png",
+			"icons/eggs/Scottie_0078_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -1192,8 +1192,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0080_1.png",
-			"Sync Pairs/Eggs/Scottie_0080_1.png"
+			"icons/eggs/Bettie_0080_1.png",
+			"icons/eggs/Scottie_0080_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1228,8 +1228,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0082_1.png",
-			"Sync Pairs/Eggs/Scottie_0082_1.png"
+			"icons/eggs/Bettie_0082_1.png",
+			"icons/eggs/Scottie_0082_1.png"
 		],
 		"themes": [
 			"Steel",
@@ -1262,8 +1262,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0083_1.png",
-			"Sync Pairs/Eggs/Scottie_0083_1.png"
+			"icons/eggs/Bettie_0083_1.png",
+			"icons/eggs/Scottie_0083_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -1298,8 +1298,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0087_1.png",
-			"Sync Pairs/Eggs/Scottie_0087_1.png"
+			"icons/eggs/Bettie_0087_1.png",
+			"icons/eggs/Scottie_0087_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -1334,8 +1334,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0089_1.png",
-			"Sync Pairs/Eggs/Scottie_0089_1.png"
+			"icons/eggs/Bettie_0089_1.png",
+			"icons/eggs/Scottie_0089_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1370,8 +1370,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0091_1.png",
-			"Sync Pairs/Eggs/Scottie_0091_1.png"
+			"icons/eggs/Bettie_0091_1.png",
+			"icons/eggs/Scottie_0091_1.png"
 		],
 		"themes": [
 			"Water",
@@ -1407,8 +1407,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0094_1.png",
-			"Sync Pairs/Eggs/Scottie_0094_1.png"
+			"icons/eggs/Bettie_0094_1.png",
+			"icons/eggs/Scottie_0094_1.png"
 		],
 		"themes": [
 			"Ghost",
@@ -1441,8 +1441,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0095_1.png",
-			"Sync Pairs/Eggs/Scottie_0095_1.png"
+			"icons/eggs/Bettie_0095_1.png",
+			"icons/eggs/Scottie_0095_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -1477,8 +1477,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0097_1.png",
-			"Sync Pairs/Eggs/Scottie_0097_1.png"
+			"icons/eggs/Bettie_0097_1.png",
+			"icons/eggs/Scottie_0097_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1513,8 +1513,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0101_1.png",
-			"Sync Pairs/Eggs/Scottie_0101_1.png"
+			"icons/eggs/Bettie_0101_1.png",
+			"icons/eggs/Scottie_0101_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -1549,8 +1549,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0103_1.png",
-			"Sync Pairs/Eggs/Scottie_0103_1.png"
+			"icons/eggs/Bettie_0103_1.png",
+			"icons/eggs/Scottie_0103_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1585,8 +1585,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0105_1.png",
-			"Sync Pairs/Eggs/Scottie_0105_1.png"
+			"icons/eggs/Bettie_0105_1.png",
+			"icons/eggs/Scottie_0105_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -1621,8 +1621,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0106_1.png",
-			"Sync Pairs/Eggs/Scottie_0106_1.png"
+			"icons/eggs/Bettie_0106_1.png",
+			"icons/eggs/Scottie_0106_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1657,8 +1657,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0107_1.png",
-			"Sync Pairs/Eggs/Scottie_0107_1.png"
+			"icons/eggs/Bettie_0107_1.png",
+			"icons/eggs/Scottie_0107_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1691,8 +1691,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0108_1.png",
-			"Sync Pairs/Eggs/Scottie_0108_1.png"
+			"icons/eggs/Bettie_0108_1.png",
+			"icons/eggs/Scottie_0108_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1727,8 +1727,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0110_1.png",
-			"Sync Pairs/Eggs/Scottie_0110_1.png"
+			"icons/eggs/Bettie_0110_1.png",
+			"icons/eggs/Scottie_0110_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1763,8 +1763,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0112_1.png",
-			"Sync Pairs/Eggs/Scottie_0112_1.png"
+			"icons/eggs/Bettie_0112_1.png",
+			"icons/eggs/Scottie_0112_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -1799,8 +1799,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0113_1.png",
-			"Sync Pairs/Eggs/Scottie_0113_1.png"
+			"icons/eggs/Bettie_0113_1.png",
+			"icons/eggs/Scottie_0113_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1833,8 +1833,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0114_1.png",
-			"Sync Pairs/Eggs/Scottie_0114_1.png"
+			"icons/eggs/Bettie_0114_1.png",
+			"icons/eggs/Scottie_0114_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -1867,8 +1867,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0115_1.png",
-			"Sync Pairs/Eggs/Scottie_0115_1.png"
+			"icons/eggs/Bettie_0115_1.png",
+			"icons/eggs/Scottie_0115_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1903,8 +1903,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0117_1.png",
-			"Sync Pairs/Eggs/Scottie_0117_1.png"
+			"icons/eggs/Bettie_0117_1.png",
+			"icons/eggs/Scottie_0117_1.png"
 		],
 		"themes": [
 			"Water",
@@ -1939,8 +1939,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0119_1.png",
-			"Sync Pairs/Eggs/Scottie_0119_1.png"
+			"icons/eggs/Bettie_0119_1.png",
+			"icons/eggs/Scottie_0119_1.png"
 		],
 		"themes": [
 			"Water",
@@ -1975,8 +1975,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0121_1.png",
-			"Sync Pairs/Eggs/Scottie_0121_1.png"
+			"icons/eggs/Bettie_0121_1.png",
+			"icons/eggs/Scottie_0121_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2009,8 +2009,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0123_1.png",
-			"Sync Pairs/Eggs/Scottie_0123_1.png"
+			"icons/eggs/Bettie_0123_1.png",
+			"icons/eggs/Scottie_0123_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -2045,8 +2045,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0124_1.png",
-			"Sync Pairs/Eggs/Scottie_0124_1.png"
+			"icons/eggs/Bettie_0124_1.png",
+			"icons/eggs/Scottie_0124_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2081,8 +2081,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0125_1.png",
-			"Sync Pairs/Eggs/Scottie_0125_1.png"
+			"icons/eggs/Bettie_0125_1.png",
+			"icons/eggs/Scottie_0125_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -2117,8 +2117,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0126_1.png",
-			"Sync Pairs/Eggs/Scottie_0126_1.png"
+			"icons/eggs/Bettie_0126_1.png",
+			"icons/eggs/Scottie_0126_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2151,8 +2151,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0127_1.png",
-			"Sync Pairs/Eggs/Scottie_0127_1.png"
+			"icons/eggs/Bettie_0127_1.png",
+			"icons/eggs/Scottie_0127_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -2185,8 +2185,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0128_1.png",
-			"Sync Pairs/Eggs/Scottie_0128_1.png"
+			"icons/eggs/Bettie_0128_1.png",
+			"icons/eggs/Scottie_0128_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2221,8 +2221,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0130_1.png",
-			"Sync Pairs/Eggs/Scottie_0130_1.png"
+			"icons/eggs/Bettie_0130_1.png",
+			"icons/eggs/Scottie_0130_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2256,8 +2256,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0131_1.png",
-			"Sync Pairs/Eggs/Scottie_0131_1.png"
+			"icons/eggs/Bettie_0131_1.png",
+			"icons/eggs/Scottie_0131_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2291,8 +2291,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0134_1.png",
-			"Sync Pairs/Eggs/Scottie_0134_1.png"
+			"icons/eggs/Bettie_0134_1.png",
+			"icons/eggs/Scottie_0134_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2325,8 +2325,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0135_1.png",
-			"Sync Pairs/Eggs/Scottie_0135_1.png"
+			"icons/eggs/Bettie_0135_1.png",
+			"icons/eggs/Scottie_0135_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -2359,8 +2359,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0136_1.png",
-			"Sync Pairs/Eggs/Scottie_0136_1.png"
+			"icons/eggs/Bettie_0136_1.png",
+			"icons/eggs/Scottie_0136_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2393,8 +2393,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0137_1.png",
-			"Sync Pairs/Eggs/Scottie_0137_1.png"
+			"icons/eggs/Bettie_0137_1.png",
+			"icons/eggs/Scottie_0137_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2429,8 +2429,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0139_1.png",
-			"Sync Pairs/Eggs/Scottie_0139_1.png"
+			"icons/eggs/Bettie_0139_1.png",
+			"icons/eggs/Scottie_0139_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2465,8 +2465,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0141_1.png",
-			"Sync Pairs/Eggs/Scottie_0141_1.png"
+			"icons/eggs/Bettie_0141_1.png",
+			"icons/eggs/Scottie_0141_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2500,8 +2500,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0142_1.png",
-			"Sync Pairs/Eggs/Scottie_0142_1.png"
+			"icons/eggs/Bettie_0142_1.png",
+			"icons/eggs/Scottie_0142_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2536,8 +2536,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0143_1.png",
-			"Sync Pairs/Eggs/Scottie_0143_1.png"
+			"icons/eggs/Bettie_0143_1.png",
+			"icons/eggs/Scottie_0143_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2573,8 +2573,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0149_1.png",
-			"Sync Pairs/Eggs/Scottie_0149_1.png"
+			"icons/eggs/Bettie_0149_1.png",
+			"icons/eggs/Scottie_0149_1.png"
 		],
 		"themes": [
 			"Dragon",
@@ -2607,8 +2607,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0175_1.png",
-			"Sync Pairs/Eggs/Scottie_0175_1.png"
+			"icons/eggs/Bettie_0175_1.png",
+			"icons/eggs/Scottie_0175_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -2641,8 +2641,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0196_1.png",
-			"Sync Pairs/Eggs/Scottie_0196_1.png"
+			"icons/eggs/Bettie_0196_1.png",
+			"icons/eggs/Scottie_0196_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2675,8 +2675,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0197_1.png",
-			"Sync Pairs/Eggs/Scottie_0197_1.png"
+			"icons/eggs/Bettie_0197_1.png",
+			"icons/eggs/Scottie_0197_1.png"
 		],
 		"themes": [
 			"Dark",
@@ -2711,8 +2711,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0237_1.png",
-			"Sync Pairs/Eggs/Scottie_0237_1.png"
+			"icons/eggs/Bettie_0237_1.png",
+			"icons/eggs/Scottie_0237_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -2745,8 +2745,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0470_1.png",
-			"Sync Pairs/Eggs/Scottie_0470_1.png"
+			"icons/eggs/Bettie_0470_1.png",
+			"icons/eggs/Scottie_0470_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -2779,8 +2779,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0471_1.png",
-			"Sync Pairs/Eggs/Scottie_0471_1.png"
+			"icons/eggs/Bettie_0471_1.png",
+			"icons/eggs/Scottie_0471_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2813,8 +2813,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0700_1.png",
-			"Sync Pairs/Eggs/Scottie_0700_1.png"
+			"icons/eggs/Bettie_0700_1.png",
+			"icons/eggs/Scottie_0700_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -2847,8 +2847,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0810_1.png",
-			"Sync Pairs/Eggs/Scottie_0810_1.png"
+			"icons/eggs/Bettie_0810_1.png",
+			"icons/eggs/Scottie_0810_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -2881,8 +2881,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0813_1.png",
-			"Sync Pairs/Eggs/Scottie_0813_1.png"
+			"icons/eggs/Bettie_0813_1.png",
+			"icons/eggs/Scottie_0813_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2915,8 +2915,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0816_1.png",
-			"Sync Pairs/Eggs/Scottie_0816_1.png"
+			"icons/eggs/Bettie_0816_1.png",
+			"icons/eggs/Scottie_0816_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2951,8 +2951,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0863_1.png",
-			"Sync Pairs/Eggs/Scottie_0863_1.png"
+			"icons/eggs/Bettie_0863_1.png",
+			"icons/eggs/Scottie_0863_1.png"
 		],
 		"themes": [
 			"Steel",
@@ -2985,8 +2985,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0906_1.png",
-			"Sync Pairs/Eggs/Scottie_0906_1.png"
+			"icons/eggs/Bettie_0906_1.png",
+			"icons/eggs/Scottie_0906_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -3019,8 +3019,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0909_1.png",
-			"Sync Pairs/Eggs/Scottie_0909_1.png"
+			"icons/eggs/Bettie_0909_1.png",
+			"icons/eggs/Scottie_0909_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -3053,8 +3053,8 @@ export const EGGS = [
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
 		"images": [
-			"Sync Pairs/Eggs/Bettie_0912_1.png",
-			"Sync Pairs/Eggs/Scottie_0912_1.png"
+			"icons/eggs/Bettie_0912_1.png",
+			"icons/eggs/Scottie_0912_1.png"
 		],
 		"themes": [
 			"Water",
