@@ -44,7 +44,7 @@
 </head>
 
 <body>
-	<input type="text" id="searchBar" placeholder="Search a trainer, Pokémon, type, role, region...">
+	<input type="text" id="searchBar" placeholder="Search a trainer, Pokémon, type, role, region, rarity (star3, ..., starEX)...">
 
 	<div id="syncpairs"></div>
 
@@ -59,6 +59,10 @@
 
 		SYNCPAIRS.forEach(entry => {
 			entry.images.forEach(imgPath => {
+				const filename = imgPath.split("/").pop();
+				const parts = filename.replace(".png", "").split("_");
+				const rarity = parts[parts.length - 1]; 
+
 				const icon = document.createElement('div');
 
 				icon.className = 'icon';
@@ -67,6 +71,7 @@
 				icon.dataset.type = entry.pokemonType;
 				icon.dataset.role = entry.syncPairRole;
 				icon.dataset.region = entry.syncPairRegion;
+				icon.dataset.rarity = "star" + rarity;
 
 				icon.innerHTML = `<img src="${imgPath.replace("icons/","")}" alt="${entry.trainerName} ${entry.pokemonName}">`;
 
@@ -94,8 +99,9 @@
 				const type = icon.dataset.type.toLowerCase();
 				const region = icon.dataset.region.toLowerCase();
 				const role = icon.dataset.role.toLowerCase();
+				const rarity = icon.dataset.rarity.toLowerCase();
 
-				const fullText = `${name} ${pokemon} ${type} ${region} ${role}`;
+				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity}`;
 
 				const matchesGroup = groups.some(group => {
 					const words = group.split(/\s+/);
