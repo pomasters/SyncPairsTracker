@@ -20607,6 +20607,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Starter",
+			"Limited",
 			"Weather",
 			"Multiple Units",
 			"isWoman",
