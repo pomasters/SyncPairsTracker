@@ -61,12 +61,13 @@
 			entry.images.forEach(imgPath => {
 				const filename = imgPath.split("/").pop();
 				const parts = filename.replace(".png", "").split("_");
-				const rarity = parts[parts.length - 1]; 
+				const rarity = parts[parts.length - 1];
 
 				const icon = document.createElement('div');
-
 				icon.className = 'icon';
-				icon.dataset.name = entry.trainerName + ' ' + (entry.trainerAlt || '');
+
+				const trainerName = (entry.trainerName === "N") ? "Natural" : entry.trainerName;
+				icon.dataset.name = trainerName + ' ' + (entry.trainerAlt || '');
 				icon.dataset.pokemon = entry.pokemonName;
 				icon.dataset.type = entry.pokemonType;
 				icon.dataset.role = entry.syncPairRole;
