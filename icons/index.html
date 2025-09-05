@@ -44,7 +44,7 @@
 </head>
 
 <body>
-	<input type="text" id="searchBar" placeholder="Search a trainer, Pokémon, type, role, region, rarity (star3, ..., starEX)...">
+	<input type="text" id="searchBar" placeholder="Search a trainer, Pokémon, type, role, region, rarity (3star, ..., EXstar)...">
 
 	<div id="syncpairs"></div>
 
@@ -60,8 +60,7 @@
 		SYNCPAIRS.forEach(entry => {
 			entry.images.forEach(imgPath => {
 				const filename = imgPath.split("/").pop();
-				const parts = filename.replace(".png", "").split("_");
-				const rarity = parts[parts.length - 1];
+				const rarity = filename.split("_").pop().replace(".png","star");
 
 				const icon = document.createElement('div');
 				icon.className = 'icon';
@@ -72,7 +71,7 @@
 				icon.dataset.type = entry.pokemonType;
 				icon.dataset.role = entry.syncPairRole;
 				icon.dataset.region = entry.syncPairRegion;
-				icon.dataset.rarity = "star" + rarity;
+				icon.dataset.rarity = rarity + "star";
 
 				icon.innerHTML = `<img src="${imgPath.replace("icons/","")}" alt="${entry.trainerName} ${entry.pokemonName}">`;
 
