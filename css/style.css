@@ -406,6 +406,8 @@ input:focus { outline: 0; }
 	width: 40% !important;
 }
 
+.bi::before { font-size: 16px }
+
 #options {
 	position: sticky;
 	top: -1px;

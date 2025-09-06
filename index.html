@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" id="darkModeCss" href="css/darkmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="lockModeCss" href="css/lockmode.css" disabled>
 	<link rel="stylesheet" type="text/css" id="viewModeCss" href="css/viewmode.css" disabled>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
 	<style type="text/css" id="visibilityMode"></style>
 	<script type="text/javascript">
 		if(localStorage.getItem("darkMode") !== null) { document.getElementById("darkModeCss").disabled = !(localStorage.getItem("darkMode") === "true"); }
@@ -116,12 +117,12 @@
 					<button type="button" class="btn" id="exportImportBtns">Backup<img class="extendedIcon" src="images/bottomArrow.png"></button>
 
 					<button type="button" class="btn" id="showSorting">Sort by...<img class="extendedIcon" src="images/bottomArrow.png"></button>
-					<button type="button" class="btn" id="sortingOrder" data-asc="true">⬇</button>
+					<button type="button" class="btn bi bi-sort-down-alt" id="sortingOrder" data-asc="true"></button>
 
-					<button type="button" class="btn" id="takeScreenshot">Image
+					<button type="button" class="btn" id="takeScreenshot">Image <i class="bi bi-image"></i>
 						<img id="image_rotate" class="hide" src="images/icon_rotate.png">
 						<img id="image_done" class="hide" src="images/icon_done.png"></button>
-					<button type="button" class="btn" id="takeScreenshot2">↓</button>
+					<button type="button" class="btn bi bi-file-earmark-arrow-down" id="takeScreenshot2"></button>
 
 					<div id="exportImportDiv" class="hide">
 						<div id="exportImportOptions">

@@ -1784,9 +1784,9 @@ document.getElementById("separateByDay").addEventListener("click", function() { 
 document.getElementById("sortingOrder").addEventListener("click", function() {
 
 	if(this.dataset.asc == "true") {
-		this.dataset.asc = false; this.innerHTML = "⬆";
+		this.dataset.asc = false; this.classList.remove("bi-sort-down-alt"); this.classList.add("bi-sort-up-alt");
 	} else {
-		this.dataset.asc = true; this.innerHTML = "⬇";
+		this.dataset.asc = true; this.classList.add("bi-sort-down-alt"); this.classList.remove("bi-sort-up-alt");
 	}
 
 	document.querySelector("#sorting .btnBlue").click();
