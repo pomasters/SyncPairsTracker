@@ -431,8 +431,8 @@ function generateItemsHTML(items) {
 
 	const saveItems = () => {
 		const data = {};
-		container.getElementsByClassName("item").forEach(i => {
-			data[i.querySelector("itemName").textContent] = i.querySelector(".itemCount").textContent;
+		[...container.getElementsByClassName("item")].forEach(i => {
+			data[i.querySelector(".itemName").textContent] = i.querySelector(".itemCount").textContent;
 		});
 		localStorage.setItem("syncPairsTrackerItems", JSON.stringify(data));
 	};
@@ -451,7 +451,7 @@ function generateItemsHTML(items) {
 		saveItems();
 	};
 
-	container.getElementsByClassName("itemInfos").forEach(info => {
+	[...container.getElementsByClassName("itemInfos")].forEach(info => {
 		info.addEventListener("click", () => updateCount(info.parentElement, 1));
 
 		if(iOSSafari) {
@@ -466,11 +466,11 @@ function generateItemsHTML(items) {
 		}
 	});
 
-	container.getElementsByClassName("btnIncreaseItem").forEach(btn =>
+	[...container.getElementsByClassName("btnIncreaseItem")].forEach(btn =>
 		btn.addEventListener("click", () => updateCount(btn.closest(".item"), 1))
 	);
 
-	container.getElementsByClassName("btnDecreaseItem").forEach(btn =>
+	[...container.getElementsByClassName("btnDecreaseItem")].forEach(btn =>
 		btn.addEventListener("click", () => updateCount(btn.closest(".item"), -1))
 	);
 }
