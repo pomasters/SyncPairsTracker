@@ -224,158 +224,142 @@ var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
 
 /* add eventlisterner to all ".syncpair" elements, move level and images */
 function addSyncPairsEvents() {
+	const qsAll = cls => Array.from(document.getElementsByClassName(cls));
 
-	//var syncP = Array.from(document.getElementsByClassName("syncPair"));
-	var syncStars = Array.from(document.getElementsByClassName("syncStar"));
-	var syncFavs = Array.from(document.getElementsByClassName("syncFav"));
-	var syncLevels = Array.from(document.getElementsByClassName("syncLevel"));
-	var syncImages = Array.from(document.getElementsByClassName("syncImages"));
-	var syncRoles = Array.from(document.getElementsByClassName("syncRoles"));
-	var syncGrids = Array.from(document.getElementsByClassName("syncGrid"));
+	const syncStars   = qsAll("syncStar");
+	const syncFavs    = qsAll("syncFav");
+	const syncLevels  = qsAll("syncLevel");
+	const syncImages  = qsAll("syncImages");
+	const syncRoles   = qsAll("syncRoles");
+	const syncGrids   = qsAll("syncGrid");
 
-	var syncStarLevels = syncStars.concat(syncLevels.concat(syncRoles.concat(syncGrids)));
-	var syncStarLevelsImages = syncImages.concat(syncStarLevels);
+	const syncStarLevels = [...syncStars, ...syncLevels, ...syncRoles, ...syncGrids];
+	const syncStarLevelsImages = [...syncImages, ...syncStarLevels];
 
-	syncImages.forEach(s => s.addEventListener("click", function() {
+	const isLocked = () =>
+		localStorage.getItem("viewMode") === "true" ||
+		localStorage.getItem("lockMode") === "true";
 
-		if(!(localStorage.getItem("viewMode") === "true") && !(localStorage.getItem("lockMode") === "true")) {
-			if(s.parentElement.classList.contains("selected")) {
-				unselect(s.parentElement);
-			} else {
-				select(s.parentElement);
-			}
-			countSelection();
-		}
+	syncImages.forEach(img => img.addEventListener("click", () => {
+		if(isLocked()) return;
+		const pair = img.parentElement;
+		pair.classList.contains("selected") ? unselect(pair) : select(pair);
+		countSelection();
 	}));
 
-	syncStarLevels.forEach(s => s.addEventListener("click", function() { addEvents(s); }));
+	const handleSwap = el => {
+		if(!isLocked() && el.parentElement.classList.contains("selected")) {
+			swapImages(el, 1);
+			addToLocalStorage(el.parentElement);
+		}
+	};
 
-	syncFavs.forEach(function(s) {
-		Array.from(s.children).forEach(heartImg => heartImg.addEventListener("click", function() {
-			this.classList.toggle("currentImage");
+	syncStarLevels.forEach(el => el.addEventListener("click", () => handleSwap(el)));
 
-			var values = [];
-			Array.from(s.children).forEach(function(i) {
-				if(i.classList.contains("currentImage")) {
-					values.push("1");
-				} else {
-					values.push("0");
-				}
-			});
-			s.dataset.currentvalues = values.join("");
-
-			addToLocalStorage(s.parentElement);
-		}))
+	syncFavs.forEach(fav => {
+		Array.from(fav.children).forEach(heart =>
+			heart.addEventListener("click", () => {
+				heart.classList.toggle("currentImage");
+				fav.dataset.currentvalues = Array.from(fav.children)
+					.map(i => (i.classList.contains("currentImage") ? "1" : "0"))
+					.join("");
+				addToLocalStorage(fav.parentElement);
+			})
+		);
 	});
 
+	const altEvent = iOSSafari ? "long-press" : "contextmenu";
 
-	if(iOSSafari) {
-		syncStarLevelsImages.forEach(s => s.addEventListener("long-press", function() { addEvents(s); }));
-	}
-	else {
-		syncStarLevelsImages.forEach(s => s.addEventListener("contextmenu", function(e) {
-
-			e.preventDefault();	e.stopPropagation();
-
-			addEvents(s);
-
+	syncStarLevelsImages.forEach(el =>
+		el.addEventListener(altEvent, e => {
+			if(!iOSSafari) {
+				e.preventDefault();
+				e.stopPropagation();
+			}
+			handleSwap(el);
 			return false;
-		}));
-	}
-
-	function addEvents(si) {
-		if(si.parentElement.classList.contains("selected") && !(localStorage.getItem("viewMode") === "true") && !(localStorage.getItem("lockMode") === "true")) {
-			swapImages(si, 1);
-			addToLocalStorage(si.parentElement);
-		}
-	}
+		})
+	);
 }
+
 
 
 /* takes a <div> containing <img> elements and move the "currentImage" class through the images */
 function swapImages(imgsContainer, step) {
+	if(!imgsContainer || imgsContainer.children.length === 0) return;
 
-	if(imgsContainer.children.length == 0) { return; }
+	let container = imgsContainer.classList.contains("syncRoles")
+		? imgsContainer.querySelector(".syncRoleEX")
+		: imgsContainer;
 
-	var imagesContainer = imgsContainer;
+	const parent = container.parentElement;
+	const images = Array.from(container.children);
 
-	if(imagesContainer.classList.contains("syncRoles")) {
-		imagesContainer = imagesContainer.querySelector(".syncRoleEX");
-	}
-	var imagesContainerParent = imagesContainer.parentElement;
+	const curr = parseInt(container.dataset.currentimage) || 0;
+	let next = curr + step;
 
-	var images = Array.from(imagesContainer.children);
+	const cycleIndex = (idx, len) => (idx < 0 ? len - 1 : idx >= len ? 0 : idx);
 
-	var currImageNumber = parseInt(imagesContainer.dataset.currentimage);
-	var nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
-
-	if(nextImageNumber >= images.length) { nextImageNumber = 0; }
-	if(nextImageNumber < 0) { nextImageNumber = images.length-1; }
-
-	if(imagesContainer.classList.contains("syncGrid")) {
-		var syncLvlCurr = parseInt(imagesContainerParent.querySelector(".syncLevel").dataset.currentimage);
-		if(syncLvlCurr > 4) { syncLvlCurr = 4; }
-
-		nextImageNumber = parseInt(imagesContainer.dataset.currentimage) + step;
-		if(step > 0 && nextImageNumber > syncLvlCurr+1) { nextImageNumber = 0; }
-		if(step < 0 && nextImageNumber < 0) { nextImageNumber = syncLvlCurr+1; }
+	if(container.classList.contains("syncGrid")) {
+		let syncLvl = Math.min(4, parseInt(parent.querySelector(".syncLevel").dataset.currentimage));
+		next = curr + step;
+		if(step > 0 && next > syncLvl + 1) next = 0;
+		if(step < 0 && next < 0) next = syncLvl + 1;
+	} else {
+		next = cycleIndex(next, images.length);
 	}
 
-	if(imagesContainer.classList.contains("syncLevel")) {
-		imagesContainer.dataset.currentlevel = MAPPINGLEVELS[nextImageNumber];
+	if(container.classList.contains("syncLevel")) {
+		container.dataset.currentlevel = MAPPINGLEVELS[next];
 
-		if(images.length == 5 && currImageNumber == 4) {
-			imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
-			swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
+		if(images.length === 5 && curr === 4) {
+			parent.querySelector(".syncGrid").dataset.currentimage = "0";
+			swapImages(parent.querySelector(".syncGrid"), 0);
 		}
+
 		if(images.length > 5) {
-			if(currImageNumber <= 5 && step < 0) {
-				imagesContainer.dataset.superawakening = "false";
+			if(curr <= 5 && step < 0) container.dataset.superawakening = "false";
+			if(curr === 0 && step < 0) {
+				container.dataset.superawakening = "true";
+				container.dataset.currentlevel = "5";
 			}
-			if(currImageNumber == 0 && step < 0) {
-				imagesContainer.dataset.superawakening = "true";
-				imagesContainer.dataset.currentlevel = "5";
+			if(curr >= 4 && step > 0) {
+				container.dataset.superawakening = "true";
+				container.dataset.currentlevel = "5";
 			}
-			if(currImageNumber >= 4 && step > 0) {
-				imagesContainer.dataset.superawakening = "true";
-				imagesContainer.dataset.currentlevel = "5";
-			}
-			if(currImageNumber == 9) {
-				imagesContainer.dataset.superawakening = "false";
-				imagesContainer.dataset.currentlevel = "1";
-				imagesContainerParent.querySelector(".syncGrid").dataset.currentimage = "0";
-				swapImages(imagesContainerParent.querySelector(".syncGrid"), 0);
+			if(curr === 9) {
+				container.dataset.superawakening = "false";
+				container.dataset.currentlevel = "1";
+				parent.querySelector(".syncGrid").dataset.currentimage = "0";
+				swapImages(parent.querySelector(".syncGrid"), 0);
 			}
 		}
 	}
 
 	images.forEach(i => i.removeAttribute("class"));
+	images[next].classList.add("currentImage");
+	container.dataset.currentimage = next;
 
-	images[nextImageNumber].classList.add("currentImage");
+	const rarity = parseInt(
+		(container.classList.contains("syncRoleEX")
+			? parent.parentElement
+			: parent
+		).querySelector(".infoSyncPairRarity").textContent
+	);
 
-	imagesContainer.dataset.currentimage = nextImageNumber;
-
-	var basestar;
-
-	if(imagesContainer.classList.contains("syncRoleEX")) {
-		basestar = parseInt(imagesContainerParent.parentElement.querySelector(".infoSyncPairRarity").textContent);
-	} else {
-		basestar = parseInt(imagesContainerParent.querySelector(".infoSyncPairRarity").textContent);
+	if(container.classList.contains("syncStar") && EGGMONMODE) {
+		container.dataset.currentstar = rarity + next;
 	}
 
-	if(imagesContainer.classList.contains("syncStar") && EGGMONMODE) {
-		imagesContainer.dataset.currentstar = basestar + nextImageNumber;
-	}
-	if(imagesContainer.classList.contains("syncImages") && !EGGMONMODE) {
-		if(imagesContainerParent.querySelector(".infoTrainerName").textContent == "Player") {
-			imagesContainerParent.querySelector(".syncStar").dataset.currentstar = Math.floor(nextImageNumber/2) + basestar;
-		} else {
-			imagesContainerParent.querySelector(".syncStar").dataset.currentstar = basestar + nextImageNumber;
-		}
+	if(container.classList.contains("syncImages") && !EGGMONMODE) {
+		const trainerName = parent.querySelector(".infoTrainerName").textContent;
+		parent.querySelector(".syncStar").dataset.currentstar =
+			trainerName === "Player" ? Math.floor(next / 2) + rarity : rarity + next;
 
-		if(imagesContainer.innerHTML.indexOf(`EX.png" class="currentImage">`) == -1) {
-			imagesContainerParent.querySelector(".syncRoleEX").dataset.currentimage = "0";
-			var rolesImgs = Array.from(imagesContainerParent.querySelector(".syncRoleEX").children);
+		if(!container.innerHTML.includes(`EX.png" class="currentImage">`)) {
+			const roleEX = parent.querySelector(".syncRoleEX");
+			roleEX.dataset.currentimage = "0";
+			const rolesImgs = Array.from(roleEX.children);
 			if(rolesImgs.length > 0) {
 				rolesImgs.forEach(i => i.removeAttribute("class"));
 				rolesImgs[0].classList.add("currentImage");
@@ -422,96 +406,75 @@ function showCandy() {
 }
 
 function generateItemsHTML(items) {
+	const storedItems = JSON.parse(localStorage.getItem("syncPairsTrackerItems") || "{}");
 
-	var result = "";
+	const result = items.map(it => {
+		let count = parseInt(storedItems[it.name]) || 0;
+		const noItemClass = count === 0 ? " noItem" : "";
 
-	if(localStorage.getItem("syncPairsTrackerItems") !== null) {
-		var storedItems = JSON.parse(localStorage.getItem("syncPairsTrackerItems"));
+		return `
+			<div class="item itemBg_${it.background}${noItemClass}">
+				<div class="itemInfos">
+					<img draggable="false" class="itemImg" src="${it.image}">
+					<p class="itemName">${it.name}</p>
+					<p class="itemCount">${count}</p>
+				</div>
+				<div class="itemIncrDrec" data-html2canvas-ignore="true">
+					<button type="button" class="btnIncreaseItem">+</button>
+					<button type="button" class="btnDecreaseItem">-</button>
+				</div>
+			</div>`;
+	}).join("");
 
-		for(var i=0; i<items.length; i++) {
-			var count = storedItems[items[i].name];
-			var noIt = "";
-			if(count == undefined || isNaN(parseInt(count))) { count = "0"; }
-			if(count == "0") { noIt = " noItem"; }
+	const container = document.getElementById("items");
+	container.innerHTML = result;
 
-			result += `<div class="item itemBg_${items[i].background}${noIt}">
-							<div class="itemInfos">
-								<img draggable="false" class="itemImg" src="${items[i].image}">
-								<p class="itemName">${items[i].name}</p>
-								<p class="itemCount">${count}</p>
-							</div>
-							<div class="itemIncrDrec" data-html2canvas-ignore="true">
-								<button type="button" class="btnIncreaseItem">+</button>
-								<button type="button" class="btnDecreaseItem">-</button>
-							</div>
-						</div>`;
+	const saveItems = () => {
+		const data = {};
+		container.getElementsByClassName("item").forEach(i => {
+			data[i.querySelector("itemName").textContent] = i.querySelector(".itemCount").textContent;
+		});
+		localStorage.setItem("syncPairsTrackerItems", JSON.stringify(data));
+	};
+
+	const updateCount = (itemHtml, delta) => {
+		const countEl = itemHtml.querySelector(".itemCount");
+		let count = parseInt(countEl.textContent) + delta;
+
+		if(count <= 0) {
+			count = 0;
+			itemHtml.classList.add("noItem");
+		} else {
+			itemHtml.classList.remove("noItem");
 		}
-	} else {
-		for(var i=0; i<items.length; i++) {
-
-			result += `<div class="item itemBg_${items[i].background} noItem">
-							<div class="itemInfos">
-								<img draggable="false" class="itemImg" src="${items[i].image}">
-								<p class="itemName">${items[i].name}</p>
-								<p class="itemCount">0</p>
-							</div>
-							<div class="itemIncrDrec" data-html2canvas-ignore="true">
-								<button type="button" class="btnIncreaseItem">+</button>
-								<button type="button" class="btnDecreaseItem">-</button>
-							</div>
-						</div>`;
-		}
-	}
-
-	document.getElementById('items').innerHTML = result;
-
-	function saveItems() {
-		var items = {}
-		Array.from(document.getElementById('items').getElementsByClassName("item")).forEach(function(i) {
-			items[i.getElementsByClassName("itemName")[0].innerHTML] = i.getElementsByClassName("itemCount")[0].innerHTML;
-		})
-		localStorage.setItem("syncPairsTrackerItems", JSON.stringify(items));
-	}
-
-	function plusItem(itemHtml) {
-		itemHtml.classList.remove("noItem");
-		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) + 1;
+		countEl.textContent = count;
 		saveItems();
-	}
+	};
 
-	function minusItem(itemHtml) {
-		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) - 1;
-		if(parseInt(itemHtml.getElementsByClassName("itemCount")[0].innerHTML) <= 0) { resetItem(itemHtml);	}
-		saveItems();
-	}
-
-	function resetItem(itemHtml) {
-		itemHtml.classList.add("noItem");
-		itemHtml.getElementsByClassName("itemCount")[0].innerHTML = "0";
-		saveItems();
-	}
-
-	Array.from(document.getElementById('items').getElementsByClassName("itemInfos")).forEach(function(i) {
-
-		i.addEventListener("click", function() { plusItem(this.parentElement); })
+	container.getElementsByClassName("itemInfos").forEach(info => {
+		info.addEventListener("click", () => updateCount(info.parentElement, 1));
 
 		if(iOSSafari) {
-			i.addEventListener("long-press", function(e) { minusItem(this.parentElement); })
+			info.addEventListener("long-press", () => updateCount(info.parentElement, -1));
 		} else {
-			i.addEventListener("contextmenu", function(e) {
-				e.preventDefault();	e.stopPropagation(); minusItem(this.parentElement); return false;
-			})
+			info.addEventListener("contextmenu", e => {
+				e.preventDefault();
+				e.stopPropagation();
+				updateCount(info.parentElement, -1);
+				return false;
+			});
 		}
-	})
+	});
 
-	Array.from(document.getElementById('items').getElementsByClassName("btnIncreaseItem")).forEach(function(i) {
-		i.addEventListener("click", function() { plusItem(this.parentElement.parentElement); })
-	})
+	container.getElementsByClassName("btnIncreaseItem").forEach(btn =>
+		btn.addEventListener("click", () => updateCount(btn.closest(".item"), 1))
+	);
 
-	Array.from(document.getElementById('items').getElementsByClassName("btnDecreaseItem")).forEach(function(i) {
-		i.addEventListener("click", function() { minusItem(this.parentElement.parentElement); })
-	})
+	container.getElementsByClassName("btnDecreaseItem").forEach(btn =>
+		btn.addEventListener("click", () => updateCount(btn.closest(".item"), -1))
+	);
 }
+
 
 
 
@@ -531,37 +494,54 @@ function select(syncpair) {
 function unselect(syncpair) {
 	syncpair.classList.remove("selected");
 
-	Array.from(syncpair.querySelector(".syncStar").children).forEach(c => c.classList.remove("currentImage"));
-	Array.from(syncpair.querySelector(".syncFav").children).forEach(c => c.classList.remove("currentImage"));
-	Array.from(syncpair.querySelector(".syncLevel").children).forEach(c => c.classList.remove("currentImage"));
-	Array.from(syncpair.querySelector(".syncImages").children).forEach(c => c.classList.remove("currentImage"));
-	Array.from(syncpair.querySelector(".syncGrid").children).forEach(c => c.classList.remove("currentImage"));
+	const resetChildren = (selector, resetFirst = true) => {
+		const el = syncpair.querySelector(selector);
+		if(!el) return;
 
-	syncpair.querySelector(".syncStar").children[0].classList.add("currentImage");
-	syncpair.querySelector(".syncLevel").children[0].classList.add("currentImage");
-	syncpair.querySelector(".syncImages").children[0].classList.add("currentImage");
-	syncpair.querySelector(".syncGrid").children[0].classList.add("currentImage");
+		Array.from(el.children).forEach(c => c.classList.remove("currentImage"));
+		if(resetFirst && el.children.length > 0) {
+			el.children[0].classList.add("currentImage");
+		}
+		return el;
+	};
 
-	syncpair.querySelector(".syncStar").dataset.currentstar = syncpair.querySelector(".infoSyncPairRarity").textContent;
-	syncpair.querySelector(".syncStar").dataset.currentimage = "0";
-	syncpair.querySelector(".syncFav").dataset.currentvalues = DEFAULT_FAVS_VALUES;
-	syncpair.querySelector(".syncLevel").dataset.currentimage = "0";
-	syncpair.querySelector(".syncLevel").dataset.currentlevel = "1";
-	syncpair.querySelector(".syncLevel").dataset.superawakening = "false";
-	syncpair.querySelector(".syncImages").dataset.currentimage = "0";
-	syncpair.querySelector(".syncGrid").dataset.currentimage = "0";
+	const star   = resetChildren(".syncStar");
+	const fav    = resetChildren(".syncFav", false);
+	const level  = resetChildren(".syncLevel");
+	const images = resetChildren(".syncImages");
+	const grid   = resetChildren(".syncGrid");
+	const roleEX = resetChildren(".syncRoleEX");
 
-	var syncRoleEXDIVchildren = Array.from(syncpair.querySelector(".syncRoleEX").children);
-	if(syncRoleEXDIVchildren.length > 0) {
-		syncRoleEXDIVchildren.forEach(c => c.classList.remove("currentImage"));
-		syncpair.querySelector(".syncRoleEX").children[0].classList.add("currentImage");
-		syncpair.querySelector(".syncRoleEX").dataset.currentimage = "0";
+	if(star) {
+		star.dataset.currentstar  = syncpair.querySelector(".infoSyncPairRarity").textContent;
+		star.dataset.currentimage = "0";
+	}
+	if(fav) {
+		fav.dataset.currentvalues = DEFAULT_FAVS_VALUES;
+	}
+	if(level) {
+		level.dataset.currentimage       = "0";
+		level.dataset.currentlevel       = "1";
+		level.dataset.superawakening     = "false";
+	}
+	if(images) {
+		images.dataset.currentimage = "0";
+	}
+	if(grid) {
+		grid.dataset.currentimage = "0";
+	}
+	if(roleEX && roleEX.children.length > 0) {
+		roleEX.children[0].classList.add("currentImage");
+		roleEX.dataset.currentimage = "0";
 	}
 
-	var keySyncPairStorage = syncpair.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + syncpair.querySelector(".syncInfos .infoPokemonNum").innerHTML;
-
-	localStorage.removeItem(keySyncPairStorage);
+	const trainer = syncpair.querySelector(".syncInfos .infoTrainerName")?.textContent;
+	const pokeNum = syncpair.querySelector(".syncInfos .infoPokemonNum")?.textContent;
+	if(trainer && pokeNum) {
+		localStorage.removeItem(`${trainer}|${pokeNum}`);
+	}
 }
+
 
 
 /* takes a ".syncpair" html element and store the essentials informations in the data attribute in localstorage */
@@ -582,58 +562,59 @@ function addToLocalStorage(syncpair) {
 /* takes all elements with a specific class (all, selected, found, notfound)
 and insert the count in the corresponding output element */
 function countSelection() {
-	var totalSyncPairs, allSelected, allSelectedFound, allFound, allNotFound, allNotSelected, allNotSelectedFound;
+	const hasDatamineFilter = document.getElementById("datamineVisible").classList.contains("btnYellow");
+	const selectorBase = hasDatamineFilter ? ".syncPair:not(.datamine)" : ".syncPair";
 
-	if(document.getElementById("datamineVisible").classList.contains("btnYellow")) {
-		totalSyncPairs = parseInt(Array.from(document.querySelectorAll(".syncPair:not(.datamine)")).length);
-		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected:not(.datamine)")).length);
-		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found:not(.datamine)")).length);
-		allFound = parseInt(Array.from(document.querySelectorAll(".syncPair.found:not(.datamine)")).length);
-		allNotFound = parseInt(Array.from(document.querySelectorAll(".syncPair.notFound:not(.datamine)")).length);
-		allNotSelected = totalSyncPairs-allSelected;
-		allNotSelectedFound = allFound-allSelectedFound;
-	} else {
-		totalSyncPairs = parseInt(Array.from(document.querySelectorAll(".syncPair")).length);
-		allSelected = parseInt(Array.from(document.querySelectorAll(".syncPair.selected")).length);
-		allSelectedFound = parseInt(Array.from(document.querySelectorAll(".syncPair.selected.found")).length);
-		allFound = parseInt(Array.from(document.querySelectorAll(".syncPair.found")).length);
-		allNotFound = parseInt(Array.from(document.querySelectorAll(".syncPair.notFound")).length);
-		allNotSelected = totalSyncPairs-allSelected;
-		allNotSelectedFound = allFound-allSelectedFound;
-	}
+	const totalSyncPairs = document.querySelectorAll(selectorBase).length;
+	const allSelected = document.querySelectorAll(`${selectorBase}.selected`).length;
+	const allSelectedFound = document.querySelectorAll(`${selectorBase}.selected.found`).length;
+	const allFound = document.querySelectorAll(`${selectorBase}.found`).length;
+	const allNotFound = document.querySelectorAll(`${selectorBase}.notFound`).length;
+
+	let allNotSelected = totalSyncPairs - allSelected;
+	let allNotSelectedFound = allFound - allSelectedFound;
+
+	let total = totalSyncPairs;
+	let selected = allSelected;
+	let selectedFound = allSelectedFound;
+	let found = allFound;
+
 	if(document.getElementById("selectedVisible").classList.contains("btnYellow")) {
-		totalSyncPairs = allSelected;
-		allFound = allSelectedFound;
+		total = allSelected;
+		found = allSelectedFound;
 	}
 	if(document.getElementById("notSelectedVisible").classList.contains("btnYellow")) {
-		totalSyncPairs = allNotSelected;
-		allSelected = allNotSelected;
-		allSelectedFound = 0;
-		allFound = allNotSelectedFound;
+		total = allNotSelected;
+		selected = allNotSelected;
+		selectedFound = 0;
+		found = allNotSelectedFound;
 	}
 
-	if(allFound > 0) {
-		document.getElementById("pairsCounterFound").innerHTML = `${allSelectedFound} / ${allFound}<span class="pairsCounterPercentage"> (${((allSelectedFound/allFound)*100).toFixed(1)}%)</span>`;
-		document.getElementById("pairsCounterFoundTotal").innerHTML = `${allFound} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allFound/totalSyncPairs)*100).toFixed(1)}%)</span>`;
-		document.getElementById("pairsCounterSelected").innerHTML = "";
-		document.getElementById("pairsCounterTotal").innerHTML = "";
+	const update = (id, value) => document.getElementById(id).innerHTML = value;
+
+	if(found > 0) {
+		update("pairsCounterFound", `${selectedFound} / ${found}<span class="pairsCounterPercentage"> (${((selectedFound / found) * 100).toFixed(1)}%)</span>`);
+		update("pairsCounterFoundTotal", `${found} / ${total}<span class="pairsCounterPercentage"> (${((found / total) * 100).toFixed(1)}%)</span>`);
+		update("pairsCounterSelected", "");
+		update("pairsCounterTotal", "");
 		return;
 	}
-	if(allFound==allNotFound) {
-		document.getElementById("pairsCounterFound").innerHTML = "";
-		document.getElementById("pairsCounterFoundTotal").innerHTML = "";
-		document.getElementById("pairsCounterSelected").innerHTML = `${allSelected} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (${((allSelected/totalSyncPairs)*100).toFixed(1)}%)</span>`;
-		document.getElementById("pairsCounterTotal").innerHTML = `${totalSyncPairs} / ${totalSyncPairs}<span class="pairsCounterPercentage"> (100.0%)</span>`;
+	if(found === allNotFound) {
+		update("pairsCounterFound", "");
+		update("pairsCounterFoundTotal", "");
+		update("pairsCounterSelected", `${selected} / ${total}<span class="pairsCounterPercentage"> (${((selected / total) * 100).toFixed(1)}%)</span>`);
+		update("pairsCounterTotal", `${total} / ${total}<span class="pairsCounterPercentage"> (100.0%)</span>`);
 		return;
 	}
-	if(allNotFound==totalSyncPairs) {
-		document.getElementById("pairsCounterFound").innerHTML = `0 / 0<span class="pairsCounterPercentage"> (0.0%)</span>`;
-		document.getElementById("pairsCounterFoundTotal").innerHTML = `0 / ${totalSyncPairs}<span class="pairsCounterPercentage"> (0.0%)</span>`;
-		document.getElementById("pairsCounterSelected").innerHTML = "";
-		document.getElementById("pairsCounterTotal").innerHTML = "";
+	if(allNotFound === total) {
+		update("pairsCounterFound", `0 / 0<span class="pairsCounterPercentage"> (0.0%)</span>`);
+		update("pairsCounterFoundTotal", `0 / ${total}<span class="pairsCounterPercentage"> (0.0%)</span>`);
+		update("pairsCounterSelected", "");
+		update("pairsCounterTotal", "");
 		return;
 	}
 }
+
 
 
 /* apply the unselect function to all syncpair */
@@ -1049,115 +1030,93 @@ function visibility() {
 	countSelection();
 }
 
+const CSS_RULES = {
+	allVisible: "",
+	selectedVisible: `.syncPair:not([class*="selected"]) { display: none !important; }`,
+	notSelectedVisible: `.syncPair[class*="selected"] { display: none !important; }`,
+	datamineVisible: `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }`,
+	pairsCounterPercentageVisible: `.pairsCounterPercentage { display: none; }`,
+	syncInfosVisible: `.syncPair:hover > .syncInfos { display: none !important; }`,
+	syncFavsVisible: `.syncFav { display: none !important; }`,
+	syncRoleVisible: `.syncRole { display: none !important; }`,
+	syncRoleEXVisible: `.syncRoleEX { display: none !important; }`,
+	syncGridVisible: `.syncGrid { display: none !important; }`,
+	fullWidthVisible: `
+		#main { width: 100%; } 
+		#rightSide { margin-left: 25%; width: 100%; }
+		@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }
+		@media only screen and (max-width: 1400px) { #rightSide { margin-left: 40% } }
+		@media only screen and (max-width: 1200px) { #rightSide { margin-left: 50% } }
+		@media only screen and (max-width: 1024px) { #rightSide { margin-left: auto } }
+	`
+};
+
 function setVisibility(choices) {
 	localStorage.setItem("visibilityOptions", JSON.stringify(choices));
 
-	var css = {
-		"allVisible": "",
+	// Applique les styles correspondants
+	document.getElementById("visibilityMode").innerHTML = choices.map(choice => CSS_RULES[choice] || "").join("\n");
 
-		"selectedVisible" : `.syncPair:not([class*="selected"]) { display: none !important; }`,
-
-		"notSelectedVisible": `.syncPair[class*="selected"] { display: none !important; }`,
-
-		"datamineVisible": `.datamine { display: none !important; } #datamineVisible { text-decoration: line-through; text-decoration-thickness: 2px; }`,
-
-		"pairsCounterPercentageVisible" : `.pairsCounterPercentage { display: none; }`,
-
-		"syncInfosVisible" : `.syncPair:hover > .syncInfos { display: none !important; }`,
-
-		"syncFavsVisible" : `.syncFav { display: none !important; }`,
-
-		"syncRoleVisible" : `.syncRole { display: none !important; }`,
-
-		"syncRoleEXVisible" : `.syncRoleEX { display: none !important; }`,
-
-		"syncGridVisible" : `.syncGrid { display: none !important; }`,
-
-		"fullWidthVisible" : `#main { width: 100%; } #rightSide { margin-left: 25%; width: 100%; }\n@media only screen and (max-width: 1600px) { #rightSide { margin-left: 30% } }\n@media only screen and (max-width: 1400px) { #rightSide { margin-left: 40% } }\n@media only screen and (max-width: 1200px) { #rightSide { margin-left: 50% } }\n@media only screen and (max-width: 1024px) { #rightSide { margin-left: auto } }`
-	}
-
-	var theCSS = [];
-	choices.forEach(function(choice) {
-		theCSS.push(css[choice]);
-		document.getElementById(choice).checked = true;
-		document.getElementById(choice).classList.add("btnYellow");
-	})
-
-	document.getElementById("visibilityMode").innerHTML = theCSS.join("\n");
+	// Met à jour l'état des boutons
+	choices.forEach(choice => {
+		const el = document.getElementById(choice);
+		if(el) {
+			el.checked = true;
+			el.classList.add("btnYellow");
+		}
+	});
 }
 
 function loadVisibilityFromLocalStorage() {
-
-	var options = ["allVisible", "syncRoleVisible", "syncInfosVisible"];
-
-	if("visibilityOptions" in localStorage) {
-		options = JSON.parse(localStorage.getItem("visibilityOptions"));
-	}
+	const defaultOptions = ["allVisible", "syncRoleVisible", "syncInfosVisible"];
+	const options = localStorage.getItem("visibilityOptions")
+		? JSON.parse(localStorage.getItem("visibilityOptions"))
+		: defaultOptions;
 
 	setVisibility(options);
 
-	if(localStorage.getItem("lockMode") !== null) {
-		document.getElementById("lockModeCss").disabled = !(localStorage.getItem("lockMode") === "true");
-	}
-
-	if(localStorage.getItem("viewMode") !== null) {
-		document.getElementById("viewModeCss").disabled = !(localStorage.getItem("viewMode") === "true");
-	}
+	["lockMode", "viewMode"].forEach(mode => {
+		const el = document.getElementById(`${mode}Css`);
+		if(el && localStorage.getItem(mode) !== null) {
+			el.disabled = localStorage.getItem(mode) !== "true";
+		}
+	});
 }
+
 
 
 function dateInterval() {
-
 	searchFilters();
 
-	var date1 = document.getElementById("date1").value;
-	var date2 = document.getElementById("date2").value;
+	const date1 = document.getElementById("date1").value || "2019-08-29";
+	const date2 = document.getElementById("date2").value || "2024-12-31";
 
-	if(date1 == "") { date1 = "2019-08-29"; }
-	if(date2 == "") { date2 = "2024-12-31"; }
+	const hasFilters = document.getElementsByClassName("selectedFilter").length > 0 || document.getElementById("search").value !== "";
+	const syncPairs = hasFilters ? document.querySelectorAll(".syncPair.found") : Array.from(document.getElementsByClassName("syncPair"));
 
-	var syncPairs;
+	syncPairs.forEach(pair => {
+		const datePair = pair.querySelector(".infoReleaseDate").textContent;
+		const inRange = date1 <= datePair && datePair <= date2;
 
-	if(document.getElementsByClassName("selectedFilter").length > 0 || document.getElementById("search").value != "") {
-		syncPairs = document.querySelectorAll(".syncPair.found");
-	} else {
-		syncPairs = document.getElementsByClassName('syncPair');
-	}
+		pair.classList.toggle("found", inRange);
+		pair.classList.toggle("notFound", !inRange);
+	});
 
-	for(var i=0; i<syncPairs.length; i++) {
+	let selectedFiltersCount = document.getElementsByClassName("selectedFilter").length;
+	if(document.getElementById("search").value !== "") selectedFiltersCount++;
 
-		var datePair = syncPairs[i].querySelector(".infoReleaseDate").textContent;
+	const filtersUsedEl = document.getElementById("filtersUsed");
+	filtersUsedEl.innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span>${filtersUsedEl.innerHTML}`;
 
-		if(FILTER_MODE == "&") {
-			if(date1 <= datePair && datePair <= date2) {
-				syncPairs[i].classList.add("found");
-			} else {
-				syncPairs[i].classList.remove("found");
-				syncPairs[i].classList.add("notFound");
-			}
-		} else {
-			if(date1 <= datePair && datePair <= date2) {
-				syncPairs[i].classList.add("found");
-				syncPairs[i].classList.remove("notFound");
-			} else {
-				syncPairs[i].classList.remove("found");
-				syncPairs[i].classList.add("notFound");
-			}
-		}
-	}
+	const removeFiltersEl = document.getElementById("removeFilters");
+	removeFiltersEl.classList.add("btnRed");
+	removeFiltersEl.innerHTML = `× filters (${selectedFiltersCount + 1})`;
 
-	var selecteFiltersLength = Array.from(document.getElementsByClassName("selectedFilter")).length;
-
-	if(document.getElementById("search").value != "") { selecteFiltersLength++; }
-
-	document.getElementById("filtersUsed").innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span> : ` + document.getElementById("filtersUsed").innerHTML;
-
-	document.getElementById("removeFilters").classList.add("btnRed");
 	document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
-	document.getElementById("removeFilters").innerHTML = `× filters (${selecteFiltersLength + 1})`;
 
 	countSelection();
 }
+
 
 function searchFiltersORdateInterval() {
 	if(document.getElementById("btnDate").classList.contains("filterDateEnable")) {
@@ -1185,57 +1144,35 @@ input format : "search1,,search2,,search3"
 for each syncpair outerHTML, search all filters */
 function search(input) {
 
-	var syncPairs = document.getElementsByClassName('syncPair');
+	const rawFilters = input.split(",,").filter(Boolean);
+	const filters = rawFilters.filter(f => !f.startsWith("!"));
+	const hiddenFilters = rawFilters.filter(f => f.startsWith("!")).map(f => f.slice(1));
 
-	var filters = [];
-	var hiddenFilters = [];
+	Array.from(document.getElementsByClassName('syncPair')).forEach(syncPair => {
+		syncPair.classList.remove("found", "notFound");
 
-	input.split(",,").filter(Boolean).forEach(function(f) {
-		if(f.charAt(0) == "!") { hiddenFilters.push(f.substring(1)); }
-		else { filters.push(f); }
-	})
+		const text = syncPair.outerHTML.replaceAll("&lt;&gt;", "<>").toLowerCase();
 
-	for(var i=0; i<syncPairs.length; i++) {
-		var syncPair = syncPairs[i];
-		syncPair.classList.remove("found");
-		syncPair.classList.remove("notFound");
+		let matchesPositive = 
+			filters.length === 0 ? null :
+				(FILTER_MODE === "&"
+					? filters.every(f => text.includes(f.toLowerCase()))
+					: filters.some(f => text.includes(f.toLowerCase()))
+		);
 
-		if(FILTER_MODE == "&") {
-			for(var e=0; e<filters.length; e++) {
-				// replaceAll for the role of the eggs
-				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filters[e].toLowerCase())) {
-					syncPair.classList.add("found");
-				} else {
-					syncPair.classList.remove("found");
-					syncPair.classList.add("notFound");
-					break;
-				}
-			}
-		} else {
-			for(var e=0; e<filters.length; e++) {
-				if(syncPair.classList.contains("found")) {
-					continue;
-				}
-				// replaceAll for the role of the eggs
-				if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(filters[e].toLowerCase())) {
-					syncPair.classList.add("found");
-					syncPair.classList.remove("notFound");
-				} else {
-					syncPair.classList.remove("found");
-					syncPair.classList.add("notFound");
-				}
-			}
+		if(matchesPositive === true) {
+			syncPair.classList.add("found");
+		} else if(matchesPositive === false) {
+			syncPair.classList.add("notFound");
 		}
-		for(var e=0; e<hiddenFilters.length; e++) {
-			if(syncPair.outerHTML.replaceAll("&lt;&gt;","<>").toLowerCase().includes(hiddenFilters[e].toLowerCase())) {
-				syncPair.classList.remove("found");
-				syncPair.classList.add("notFound");
-			} else if(!syncPair.classList.contains("found") && !syncPair.classList.contains("notFound")) {
-				syncPair.classList.add("found");
-			}
+
+		if(hiddenFilters.some(f => text.includes(f.toLowerCase()))) {
+			syncPair.classList.remove("found");
+			syncPair.classList.add("notFound");
 		}
-	}
-	countSelection()
+	});
+
+	countSelection();
 }
 
 
@@ -1256,27 +1193,34 @@ function searchFilters() {
 
 	});
 
-	var searchValue = document.getElementById("search").value;
-	if(searchValue !== "") {
-		var toSearch = searchValue.replace("  ","").replace(" , ",",").replace(", ",",").replace(" ,",",").split(",");
-		toSearch.forEach(function(el) {
-			filters.push('Name">'+el);
+	const searchValue = document.getElementById("search").value.trim();
+	if(searchValue) {
+		const toSearch = searchValue
+			.replace(/\s*,\s*/g, ",")
+			.split(",")
+			.filter(Boolean);
+
+		toSearch.forEach(el => {
+			filters.push('Name">' + el);
 			filtersSPAN.push(`<span>${el}</span>`);
-		})
+		});
 	}
 
 	document.getElementById("filtersUsed").innerHTML = filtersSPAN.join(` ${FILTER_MODE} `);
 
 	search(filters.join(",,"));
 
+	const removeBtn = document.getElementById("removeFilters");
+	const mobileMenu = document.getElementById("mobileMenuFilters");
+
 	if(filters.length > 0) {
-		document.getElementById("removeFilters").classList.add("btnRed");
-		document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
-		document.getElementById("removeFilters").innerHTML = `× filters (${filters.length})`;
+		removeBtn.classList.add("btnRed");
+		mobileMenu.classList.add("mobileMenu_selected");
+		removeBtn.innerHTML = `× filters (${filters.length})`;
 	} else {
-		document.getElementById("removeFilters").classList.remove("btnRed");
-		document.getElementById("mobileMenuFilters").classList.remove("mobileMenu_selected");
-		document.getElementById("removeFilters").innerHTML = `× filters`
+		removeBtn.classList.remove("btnRed");
+		mobileMenu.classList.remove("mobileMenu_selected");
+		removeBtn.innerHTML = `× filters`
 	}
 }
 
@@ -1313,151 +1257,101 @@ function removeFilters() {
 function showSeparator(dataToSeparate) {
 	removeSeparator();
 
-	var syncPairs = Array.from(document.getElementsByClassName("syncPair"));
-	var inner = "", inner2 = "";
+	const syncPairs = Array.from(document.getElementsByClassName("syncPair"));
+	if(!syncPairs.length) return;
 
-	for(var i=syncPairs.length-1; i>0; i--) {
-		var curr_pair = syncPairs[i];
-		var prev_pair = syncPairs[i-1];
+	const handlers = {
+		".syncStar": el => `<img src="${SYNCSTARIMGS2[Math.max(parseInt(el.dataset.currentstar)-1,0)]}">`,
 
-		switch(dataToSeparate) {
-			case ".syncStar":
-				inner = `<img src="${SYNCSTARIMGS2[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
-				inner2 = `<img src="${SYNCSTARIMGS2[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentstar)-1]}">`;
-				break;
+		".syncLevel": el => {
+			const idx = Math.min(parseInt(el.dataset.currentimage), 4);
+			return `<img src="${SYNCLEVELIMGS[idx]}">`;
+		},
 
-			case ".syncLevel":
-				var curr_img = parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage);
-				var prev_img = parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage);
-				curr_img = curr_img > 4 ? 4 : curr_img;
-				prev_img = prev_img > 4 ? 4 : prev_img;
+		".syncLevel2": el => {
+			const levelEl = el.closest(".syncPair").querySelector(".syncLevel");
+			const idx = parseInt(levelEl.dataset.currentimage);
+			const src = idx <= 4 ? "images/0.png" : SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[idx];
+			return `<img src="${src}">`;
+		},
 
-				inner = `<img src="${SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[curr_img]}">`;
-				inner2 = `<img src="${SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[prev_img]}">`;
-				break;
+		".syncFav": el => {
+			const imgs = Array.from(el.getElementsByClassName("currentImage")).map(i => i.outerHTML);
+			return imgs.length ? imgs.join("") : `<img draggable="false" loading="lazy" src="images/favorite1.png">`;
+		},
 
-			case ".syncLevel2":
-				var curr_img = parseInt(curr_pair.querySelector(".syncLevel").dataset.currentimage);
-				var prev_img = parseInt(prev_pair.querySelector(".syncLevel").dataset.currentimage);
+		".selected": el => el.classList.contains("selected") ? "Have" : "Not have",
 
-				var innerImg = SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[curr_img];
-				var inner2Img = SYNCLEVELIMGS.concat(SYNCSUPERAWAKENINGIMGS)[prev_img];
+		".infoReleaseDate": el => {
+			let val = el.textContent;
+			if(document.getElementById("separateByYear").checked) val = val.substring(0,4);
+			else if(document.getElementById("separateByMonth").checked) val = val.substring(0,7);
+			return val;
+		},
 
-				if(curr_img <= 4) { innerImg = "images/0.png" }
-				if(prev_img <= 4) { inner2Img = "images/0.png" }
+		".infoPokemonType": el => `<img src="images/type_${el.textContent.toLowerCase()}.png">&nbsp;${el.textContent}`,
 
-				inner = `<img src="${innerImg}">`;
-				inner2 = `<img src="${inner2Img}">`;
-				break;
+		".infoSyncPairRole": el => {
+			const r = el.textContent.replace(/ \((Special|Physical)\)/,"");
+			return `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`;
+		},
 
-			case ".syncFav":
-				var cur = []; var pre = [];
-				Array.from(curr_pair.querySelector(dataToSeparate).getElementsByClassName("currentImage")).forEach(i => cur.push(i.outerHTML));
-				Array.from(prev_pair.querySelector(dataToSeparate).getElementsByClassName("currentImage")).forEach(i => pre.push(i.outerHTML));
+		".infoSyncPairRoleEX": el => {
+			const r = el.textContent.replace(/ \((Special|Physical)\)/,"");
+			const html = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
+			return html.includes("role_ex_.png") ? "" : html;
+		},
 
-				if(cur.length == 0) { cur.push(`<img draggable="false" loading="lazy" src="images/favorite1.png">`) }
-				if(pre.length == 0) { pre.push(`<img draggable="false" loading="lazy" src="images/favorite1.png">`) }
+		".infoSyncPairRoleCombi": el => document.getElementById(el.textContent).innerHTML.replace('png">/','png">&nbsp;/'),
 
-				inner = cur.join("");
-				inner2 = pre.join("");
-				break;
+		".syncGrid": el => `<img src="${SYNCGRIDIMGS[parseInt(el.dataset.currentimage)]}">`,
 
-			case ".selected":
-				inner = curr_pair.classList.contains("selected").toString().replace("true","Have").replace("false","Not have");
-				inner2 = prev_pair.classList.contains("selected").toString().replace("true","Have").replace("false","Not have");
-				break;
+		".syncRoleEX": el => el.dataset.currentimage.replace("1",`<img src="images/icon_role_ex.png">`).replace("0",`<img src="images/icon_role_ex_2.png">`),
 
-			case ".infoReleaseDate":
-				inner = curr_pair.querySelector(dataToSeparate).innerHTML;
-				inner2 = prev_pair.querySelector(dataToSeparate).innerHTML;
+		default: el => el.textContent.replace(/ \((Special|Physical)\)|\|2/g,"")
+	};
 
-				if(document.getElementById("separateByYear").checked) {
-					inner = inner.substring(0,4);
-					inner2 = inner2.substring(0,4);
-				} else if(document.getElementById("separateByMonth").checked) {
-					inner = inner.substring(0,7);
-					inner2 = inner2.substring(0,7);
-				}
-				break;
+	const getInner = el => (handlers[dataToSeparate] || handlers.default)(el);
 
-			case ".infoPokemonType":
-				var t = curr_pair.querySelector(dataToSeparate).textContent;
-				inner = `<img src="images/type_${t.toLowerCase()}.png">&nbsp;${t}`;
+	let prevValue = getInner(syncPairs[0].querySelector(dataToSeparate) || syncPairs[0]);
+	syncPairs[0].insertAdjacentHTML("beforebegin", `<div class="separator"><span>${prevValue}</span></div>`);
 
-				t = prev_pair.querySelector(dataToSeparate).textContent;
-				inner2 = `<img src="images/type_${t.toLowerCase()}.png">&nbsp;${t}`
-				break;
+	for (let i = 1; i < syncPairs.length; i++) {
+		const currEl = syncPairs[i].querySelector(dataToSeparate) || syncPairs[i];
+		const currValue = getInner(currEl);
 
-			case ".infoSyncPairRole":
-				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
-				inner = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`;
-
-				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
-				inner2 = `<img src="images/role_${r.toLowerCase()}.png">&nbsp;${r}`
-				break;
-
-			case ".infoSyncPairRoleEX":
-				var r = curr_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
-				inner = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
-
-				r = prev_pair.querySelector(dataToSeparate).textContent.replace(" (Special)","").replace(" (Physical)","");
-				inner2 = `<img src="images/role_ex_${r.toLowerCase()}.png">&nbsp;${r}`;
-
-				if(inner.indexOf("role_ex_.png") > -1) { inner = ""; }
-				if(inner2.indexOf("role_ex_.png") > -1) { inner2 = ""; }
-				break;
-
-			case ".infoSyncPairRoleCombi":
-				inner = document.getElementById(curr_pair.querySelector(dataToSeparate).textContent).innerHTML.replace('png">/','png">&nbsp;/');
-				inner2 = document.getElementById(prev_pair.querySelector(dataToSeparate).textContent).innerHTML.replace('png">/','png">&nbsp;/');
-				break;
-
-			case ".syncGrid":
-				inner = `<img src="${SYNCGRIDIMGS[parseInt(curr_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
-				inner2 = `<img src="${SYNCGRIDIMGS[parseInt(prev_pair.querySelector(dataToSeparate).dataset.currentimage)]}">`;
-				break;
-
-			case ".syncRoleEX":
-				inner = curr_pair.querySelector(dataToSeparate).dataset.currentimage.replace("1",`<img src="images/icon_role_ex.png">`).replace("0",`<img src="images/icon_role_ex_2.png">`);
-				inner2 = prev_pair.querySelector(dataToSeparate).dataset.currentimage.replace("1",`<img src="images/icon_role_ex.png">`).replace("0",`<img src="images/icon_role_ex_2.png">`);
-				break;
-
-			default:
-				inner = curr_pair.querySelector(dataToSeparate).innerHTML.replace(" (Special)","").replace(" (Physical)","").replaceAll("|2","");
-				inner2 = prev_pair.querySelector(dataToSeparate).innerHTML.replace(" (Special)","").replace(" (Physical)","").replaceAll("|2","");
-		}
-
-		if(inner != inner2) {
-			curr_pair.insertAdjacentHTML("beforebegin", `<div class="separator"><span>${inner}</span></div>`);
+		if(currValue !== prevValue) {
+			syncPairs[i].insertAdjacentHTML("beforebegin", `<div class="separator"><span>${currValue}</span></div>`);
+			prevValue = currValue;
 		}
 	}
-	syncPairs[0].insertAdjacentHTML("beforebegin", `<div class="separator"><span>${inner2}</span></div>`);
 }
+
 
 function removeSeparator() {
 	Array.from(document.getElementsByClassName("separator")).forEach(s => s.remove());
 }
 
 function removeEmptySeparators() {
-	if(document.getElementById("hideEmptySeparators").checked && document.getElementsByClassName("selectedFilter").length > 0) {
+	const hideEmpty = document.getElementById("hideEmptySeparators").checked;
+	const hasFilters = document.getElementsByClassName("selectedFilter").length > 0;
 
-		showSeparator(SORTIDTOSYNCPAIRINFO[document.getElementById("sorting").querySelector(".btnBlue").id]);
+	if(!hideEmpty || !hasFilters) return;
 
-		var pairs = document.getElementById("syncPairs").children;
+	const sortBtn = document.getElementById("sorting").querySelector(".btnBlue");
+	showSeparator(SORTIDTOSYNCPAIRINFO[sortBtn.id]);
 
-		var pairFound = false;
-		for(var i=pairs.length-1; i>=0; i--) {
-			var element = pairs[i];
+	const pairs = Array.from(document.getElementById("syncPairs").children).reverse();
+	let pairFound = false;
 
-			if(element.classList.contains('found')) {
-				pairFound = true;
-			}
-			if(element.classList.contains('separator')) {
-				if(!pairFound) {
-					element.remove();
-				} else {
-					pairFound = false;
-				}
+	for (const element of pairs) {
+		if(element.classList.contains('found')) {
+			pairFound = true;
+		} else if(element.classList.contains('separator')) {
+			if(!pairFound) {
+				element.remove();
+			} else {
+				pairFound = false;
 			}
 		}
 	}
@@ -1594,40 +1488,34 @@ function takeScreenshot(id) {
 -----------------------------------------------------------------------------*/
 
 function addEventLeftSide() {
-
-	Array.from(document.getElementById("filters").getElementsByTagName("button")).forEach(b => b.addEventListener("click", function() {
-
-		if(!b.classList.contains("selectedFilter") && !b.classList.contains("filterToHide")) {
+	const filterButtons = [...document.getElementById("filters").getElementsByTagName("button")];
+	filterButtons.forEach(b => b.addEventListener("click", () => {
+		if(!b.classList.contains("selectedFilter")) {
 			b.classList.add("selectedFilter");
 			b.classList.remove("filterToHide");
-
-		} else if(b.classList.contains("selectedFilter") && !b.classList.contains("filterToHide")) {
-			b.classList.add("filterToHide");
-
-		} else if(b.classList.contains("selectedFilter") && b.classList.contains("filterToHide")) {
-			b.classList.remove("selectedFilter");
-			b.classList.remove("filterToHide");
+		} else {
+			b.classList.toggle("filterToHide");
+			if(!b.classList.contains("filterToHide")) {
+				b.classList.remove("selectedFilter");
+			}
 		}
 		searchFiltersORdateInterval();
-	}))
+	}));
 
-
-	var sortBtns = Array.from(document.getElementById("sorting").getElementsByTagName("button"));
-	sortBtns.forEach(b => b.addEventListener("click", function() {
-
-		sortBtns.forEach(b => b.classList.remove("btnBlue"));
-
+	const sortButtons = [...document.getElementById("sorting").getElementsByTagName("button")];
+	sortButtons.forEach(b => b.addEventListener("click", () => {
+		sortButtons.forEach(btn => btn.classList.remove("btnBlue"));
 		b.classList.add("btnBlue");
-
 		removeEmptySeparators();
-	}))
+	}));
 
-
-	Array.from(document.getElementsByClassName("buttonGroupTitle")).concat(Array.from(document.getElementsByClassName("buttonGroupTitle2"))).forEach(g => g.addEventListener("click", function() {
-			g.parentElement.classList.toggle("groupClose");
-		})
-	)
+	const groupTitles = [
+		...document.getElementsByClassName("buttonGroupTitle"),
+		...document.getElementsByClassName("buttonGroupTitle2")
+	];
+	groupTitles.forEach(g => g.addEventListener("click", () => g.parentElement.classList.toggle("groupClose")));
 }
+
 
 /* add onerror event on all images and prevent from being draggable */
 function addEventBaseImages() {
