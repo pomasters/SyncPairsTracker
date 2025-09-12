@@ -573,10 +573,10 @@ function countSelection() {
 	let visible = visibleEls.length;
 	let selected = selectedEls.length;
 
-	if (isActive("selectedVisible")) {
+	if(isActive("selectedVisible")) {
 		total = selected;
 		visible = selected;
-	} else if (isActive("notSelectedVisible")) {
+	} else if(isActive("notSelectedVisible")) {
 		total = visible - selected;
 		visible = total;
 		selected = 0;
@@ -585,7 +585,7 @@ function countSelection() {
 	const update = (id, val) => document.getElementById(id).innerHTML = val;
 	const format = (part, whole) => `${part} / ${whole}<span class="pairsCounterPercentage"> (${whole ? (part / whole * 100).toFixed(1) : "0.0"}%)</span>`;
 
-	if (visible < total) {
+	if(visible < total) {
 		update("pairsCounterFound", format(selected, visible));
 		update("pairsCounterFoundTotal", format(visible, total));
 	} else {
@@ -1120,37 +1120,34 @@ function updateNews() {
 input format : "search1,,search2,,search3"
 for each syncpair outerHTML, search all filters */
 function search(input) {
+	const rawFilters = input.split(",,").map(s => s.trim()).filter(Boolean);
 
-	const rawFilters = input.split(",,").filter(Boolean);
-	const filters = rawFilters.filter(f => !f.startsWith("!"));
-	const hiddenFilters = rawFilters.filter(f => f.startsWith("!")).map(f => f.slice(1));
+	const tokens = rawFilters.map(f => {
+		const neg = f.startsWith("!");
+		const val = (neg ? f.slice(1) : f).trim().toLowerCase();
+		return val ? { neg, val } : null;
+	}).filter(Boolean);
+
+	const hasTokens = tokens.length > 0;
 
 	Array.from(document.getElementsByClassName("syncPair")).forEach(syncPair => {
 		syncPair.classList.remove("found", "notFound");
 
 		const text = syncPair.outerHTML.replaceAll("&lt;&gt;", "<>").toLowerCase();
 
-		let matchesPositive = 
-			filters.length === 0 ? null :
-				(FILTER_MODE === "&"
-					? filters.every(f => text.includes(f.toLowerCase()))
-					: filters.some(f => text.includes(f.toLowerCase()))
-		);
+		if(!hasTokens) return;
 
-		if(matchesPositive === true) {
-			syncPair.classList.add("found");
-		} else if(matchesPositive === false) {
-			syncPair.classList.add("notFound");
-		}
+		const matches = tokens.map(t => t.neg ? !text.includes(t.val) : text.includes(t.val));
 
-		if(hiddenFilters.some(f => text.includes(f.toLowerCase()))) {
-			syncPair.classList.remove("found");
-			syncPair.classList.add("notFound");
-		}
+		const overallMatch = FILTER_MODE === "&" ? matches.every(Boolean) : matches.some(Boolean);
+
+		if(overallMatch) syncPair.classList.add("found");
+		else syncPair.classList.add("notFound");
 	});
 
 	countSelection();
 }
+
 
 
 /* get the string of all selectedFilter btn and search them
@@ -1219,8 +1216,7 @@ function filterMode() {
 /* just remove the selectedFilter class of all current filters */
 function removeFilters() {
 	document.getElementById("search").value = "";
-	Array.from(document.getElementsByClassName("selectedFilter")).forEach(f => f.classList.remove("selectedFilter"));
-	Array.from(document.getElementsByClassName("filterToHide")).forEach(f => f.classList.remove("filterToHide"));
+	Array.from(document.getElementsByClassName("selectedFilter")).forEach(f => f.classList.remove("selectedFilter", "filterToHide"));
 	document.getElementById("btnDate").classList.remove("filterDateEnable");
 	searchFiltersORdateInterval();
 
@@ -1293,7 +1289,7 @@ function showSeparator(dataToSeparate) {
 	let prevValue = getInner(syncPairs[0].querySelector(dataToSeparate) || syncPairs[0]);
 	syncPairs[0].insertAdjacentHTML("beforebegin", `<div class="separator"><span>${prevValue}</span></div>`);
 
-	for (let i = 1; i < syncPairs.length; i++) {
+	for(let i = 1; i < syncPairs.length; i++) {
 		const currEl = syncPairs[i].querySelector(dataToSeparate) || syncPairs[i];
 		const currValue = getInner(currEl);
 
@@ -1321,15 +1317,9 @@ function removeEmptySeparators() {
 	const pairs = Array.from(document.getElementById("syncPairs").children).reverse();
 	let pairFound = false;
 
-	for (const element of pairs) {
-		if(element.classList.contains("found")) {
-			pairFound = true;
-		} else if(element.classList.contains('separator')) {
-			if(!pairFound) {
-				element.remove();
-			} else {
-				pairFound = false;
-			}
+	for(const el of pairs) {
+		if(el.classList.contains("separator") && !el.previousElementSibling?.classList.contains("found")) {
+			el.remove();
 		}
 	}
 }
