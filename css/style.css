@@ -968,9 +968,6 @@ input:focus { outline: 0; }
 
 #pairsCounterFound { margin-right: auto; }
 #pairsCounterFoundTotal { margin-left: auto; }
-#pairsCounterSelected { margin-left: auto; }
-#pairsCounterSelected:empty,
-#pairsCounterTotal { display: none; }
 
 #filtersUsed {
 	color: var(--blue1);

@@ -1,7 +1,7 @@
-import {SYNCPAIRS, VERSION} from './syncpairs.js';
-import {EGGS} from './eggs.js';
-import {NEWS} from './news.js';
-import {ITEMS} from './items.js';
+import {SYNCPAIRS, VERSION} from "./syncpairs.js";
+import {EGGS} from "./eggs.js";
+import {NEWS} from "./news.js";
+import {ITEMS} from "./items.js";
 
 const SYNCLEVELIMGS = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const SYNCSTARIMGS = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
@@ -38,14 +38,14 @@ function generatePairsHTML(pairs) {
 	var result = "";
 
 	if(EGGMONMODE) {
-		document.getElementById('syncPairs').classList.add("modeEgg");
+		document.getElementById("syncPairs").classList.add("modeEgg");
 	} else {
-		document.getElementById('syncPairs').classList.remove("modeEgg");
+		document.getElementById("syncPairs").classList.remove("modeEgg");
 	}
 
 	pairs.forEach((pair, index) => { result += generatePairHTML(pair, index) });
 
-	document.getElementById('syncPairs').innerHTML = result;
+	document.getElementById("syncPairs").innerHTML = result;
 }
 
 
@@ -394,11 +394,10 @@ function chooseImages(imagesContainer, values) {
 
 function showCandy() {
 
-	//document.getElementById('itemsCounter').classList.toggle("hide");
 	document.getElementById("btnItems").classList.toggle("btnItemsON");
-	document.getElementById('items').classList.toggle("hide");
+	document.getElementById("items").classList.toggle("hide");
 
-	if(document.getElementById('items').innerHTML == "") {
+	if(document.getElementById("items").innerHTML == "") {
 		generateItemsHTML(ITEMS);
 	}
 
@@ -562,56 +561,36 @@ function addToLocalStorage(syncpair) {
 /* takes all elements with a specific class (all, selected, found, notfound)
 and insert the count in the corresponding output element */
 function countSelection() {
-	const hasDatamineFilter = document.getElementById("datamineVisible").classList.contains("btnYellow");
-	const selectorBase = hasDatamineFilter ? ".syncPair:not(.datamine)" : ".syncPair";
+	const isActive = id => document.getElementById(id).classList.contains("btnYellow");
 
-	const totalSyncPairs = document.querySelectorAll(selectorBase).length;
-	const allSelected = document.querySelectorAll(`${selectorBase}.selected`).length;
-	const allSelectedFound = document.querySelectorAll(`${selectorBase}.selected.found`).length;
-	const allFound = document.querySelectorAll(`${selectorBase}.found`).length;
-	const allNotFound = document.querySelectorAll(`${selectorBase}.notFound`).length;
+	const selector = isActive("datamineVisible") ? ".syncPair:not(.datamine)" : ".syncPair";
 
-	let allNotSelected = totalSyncPairs - allSelected;
-	let allNotSelectedFound = allFound - allSelectedFound;
+	const elements = [...document.querySelectorAll(selector)];
+	const visibleEls = elements.filter(el => el.offsetParent !== null);
+	const selectedEls = visibleEls.filter(el => el.classList.contains("selected"));
 
-	let total = totalSyncPairs;
-	let selected = allSelected;
-	let selectedFound = allSelectedFound;
-	let found = allFound;
+	let total = elements.length;
+	let visible = visibleEls.length;
+	let selected = selectedEls.length;
 
-	if(document.getElementById("selectedVisible").classList.contains("btnYellow")) {
-		total = allSelected;
-		found = allSelectedFound;
-	}
-	if(document.getElementById("notSelectedVisible").classList.contains("btnYellow")) {
-		total = allNotSelected;
-		selected = allNotSelected;
-		selectedFound = 0;
-		found = allNotSelectedFound;
+	if (isActive("selectedVisible")) {
+		total = selected;
+		visible = selected;
+	} else if (isActive("notSelectedVisible")) {
+		total = visible - selected;
+		visible = total;
+		selected = 0;
 	}
 
-	const update = (id, value) => document.getElementById(id).innerHTML = value;
+	const update = (id, val) => document.getElementById(id).innerHTML = val;
+	const format = (part, whole) => `${part} / ${whole}<span class="pairsCounterPercentage"> (${whole ? (part / whole * 100).toFixed(1) : "0.0"}%)</span>`;
 
-	if(found > 0) {
-		update("pairsCounterFound", `${selectedFound} / ${found}<span class="pairsCounterPercentage"> (${((selectedFound / found) * 100).toFixed(1)}%)</span>`);
-		update("pairsCounterFoundTotal", `${found} / ${total}<span class="pairsCounterPercentage"> (${((found / total) * 100).toFixed(1)}%)</span>`);
-		update("pairsCounterSelected", "");
-		update("pairsCounterTotal", "");
-		return;
-	}
-	if(found === allNotFound) {
+	if (visible < total) {
+		update("pairsCounterFound", format(selected, visible));
+		update("pairsCounterFoundTotal", format(visible, total));
+	} else {
 		update("pairsCounterFound", "");
-		update("pairsCounterFoundTotal", "");
-		update("pairsCounterSelected", `${selected} / ${total}<span class="pairsCounterPercentage"> (${((selected / total) * 100).toFixed(1)}%)</span>`);
-		update("pairsCounterTotal", `${total} / ${total}<span class="pairsCounterPercentage"> (100.0%)</span>`);
-		return;
-	}
-	if(allNotFound === total) {
-		update("pairsCounterFound", `0 / 0<span class="pairsCounterPercentage"> (0.0%)</span>`);
-		update("pairsCounterFoundTotal", `0 / ${total}<span class="pairsCounterPercentage"> (0.0%)</span>`);
-		update("pairsCounterSelected", "");
-		update("pairsCounterTotal", "");
-		return;
+		update("pairsCounterFoundTotal", format(selected, total));
 	}
 }
 
@@ -691,7 +670,7 @@ function exportSelection() {
 		var synLevel = s.querySelector(".syncLevel").dataset.currentimage;
 		var synImage = s.querySelector(".syncImages").dataset.currentimage;
 		var synStar = s.querySelector(".syncStar").dataset.currentimage;
-		var synFavHEX = parseInt(s.querySelector(".syncFav").dataset.currentvalues, 2).toString(16).toUpperCase().padStart(3, '0');
+		var synFavHEX = parseInt(s.querySelector(".syncFav").dataset.currentvalues, 2).toString(16).toUpperCase().padStart(3, "0");
 		var synRoleEX = s.querySelector(".syncRoleEX").dataset.currentimage;
 		var synGrid = s.querySelector(".syncGrid").dataset.currentimage;
 
@@ -745,7 +724,7 @@ function importSelection() {
 				var importedSyncLevel = currentSyncData[0];
 				var importedSyncImage = currentSyncData[1];
 				var importedSyncStar = currentSyncData[2];
-				var importedSyncFav = convertFav(parseInt(currentSyncData[3], 16).toString(2).padStart(12, '0'));
+				var importedSyncFav = convertFav(parseInt(currentSyncData[3], 16).toString(2).padStart(12, "0"));
 				var importedSyncRoleEX = currentSyncData[4];
 				var importedSyncGrid = currentSyncData[5];
 
@@ -1054,10 +1033,8 @@ const CSS_RULES = {
 function setVisibility(choices) {
 	localStorage.setItem("visibilityOptions", JSON.stringify(choices));
 
-	// Applique les styles correspondants
 	document.getElementById("visibilityMode").innerHTML = choices.map(choice => CSS_RULES[choice] || "").join("\n");
 
-	// Met à jour l'état des boutons
 	choices.forEach(choice => {
 		const el = document.getElementById(choice);
 		if(el) {
@@ -1148,7 +1125,7 @@ function search(input) {
 	const filters = rawFilters.filter(f => !f.startsWith("!"));
 	const hiddenFilters = rawFilters.filter(f => f.startsWith("!")).map(f => f.slice(1));
 
-	Array.from(document.getElementsByClassName('syncPair')).forEach(syncPair => {
+	Array.from(document.getElementsByClassName("syncPair")).forEach(syncPair => {
 		syncPair.classList.remove("found", "notFound");
 
 		const text = syncPair.outerHTML.replaceAll("&lt;&gt;", "<>").toLowerCase();
@@ -1345,7 +1322,7 @@ function removeEmptySeparators() {
 	let pairFound = false;
 
 	for (const element of pairs) {
-		if(element.classList.contains('found')) {
+		if(element.classList.contains("found")) {
 			pairFound = true;
 		} else if(element.classList.contains('separator')) {
 			if(!pairFound) {
@@ -1424,10 +1401,9 @@ function takeScreenshot(id) {
 
 	if(document.getElementsByClassName("selectedFilter").length > 0) {
 		document.getElementById("pairsCounterSelected").classList.add("hide");
-		document.getElementById("pairsCounterTotal").classList.add("hide");
 	}
 
-	html2canvas(document.getElementById('rightSide'),{
+	html2canvas(document.getElementById("rightSide"),{
 			backgroundColor:null,
 			windowWidth:1920,
 			windowHeight:1080,
@@ -1441,7 +1417,7 @@ function takeScreenshot(id) {
 					document.getElementById("screenshot").innerHTML = "<p>Your image :</p>";
 
 					var url = URL.createObjectURL(blob);
-					var img = document.createElement('img');
+					var img = document.createElement("img");
 
 					img.src = url;
 					img.setAttribute("draggable", "false");
@@ -1454,7 +1430,7 @@ function takeScreenshot(id) {
 					document.getElementById("screenshot").innerHTML = "";
 
 					var url = URL.createObjectURL(blob);
-					var link = document.createElement('a');
+					var link = document.createElement("a");
 
 					link.onload = () => { URL.revokeObjectURL(url); };
 					link.href = url;
@@ -1472,7 +1448,6 @@ function takeScreenshot(id) {
 			document.getElementById("linkTool").classList.add("hide");
 
 			document.getElementById("pairsCounterSelected").classList.remove("hide");
-			document.getElementById("pairsCounterTotal").classList.remove("hide");
 
 			document.getElementById("leftSide").classList.remove("leftSideVisible");
 
@@ -1686,7 +1661,7 @@ document.getElementById("sortByDexNumber").addEventListener("click", function() 
 	if(document.getElementById("sortingOrder").dataset.asc === "true") { ord = "asc"; }
 	else { ord = "desc"; }
 
-	tinysort('.syncPair',{attr:'data-id',order:ord});
+	tinysort(".syncPair",{attr:"data-id",order:ord});
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".infoDexNum"); }
 })
@@ -1804,9 +1779,9 @@ document.getElementById("sortByFavorite").addEventListener("click", function() {
 document.getElementById("sortBySelected").addEventListener("click", function() {
 
 	if(document.getElementById("sortingOrder").dataset.asc === "true") {
-		tinysort('.syncPair',{attr:'class',order:'desc'});
+		tinysort(".syncPair",{attr:"class",order:"desc"});
 	} else {
-		tinysort('.syncPair',{attr:'class',order:'asc'});
+		tinysort(".syncPair",{attr:"class",order:"asc"});
 	}
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".selected"); }
@@ -1921,8 +1896,8 @@ function init() {
 	document.getElementById("version").innerHTML = VERSION;
 	document.getElementById("linkToolVer").innerHTML = VERSION;
 
-	document.getElementById('date1').valueAsDate = new Date("2019-08-29");
-	document.getElementById('date2').valueAsDate = new Date();
+	document.getElementById("date1").valueAsDate = new Date("2019-08-29");
+	document.getElementById("date2").valueAsDate = new Date();
 
 	loadVisibilityFromLocalStorage();
 
@@ -1930,7 +1905,7 @@ function init() {
 
 	try { generatePairs(SYNCPAIRS);	} catch(e) {
 		console.log(e);
-		document.getElementById("syncPairs").innerHTML = "<p>Something went wrong, try to hard refresh the page.<br>or<br>Go to <a target='_blank' href='https://pomasters.github.io/SyncPairsTrackerOld/'>https://pomasters.github.io/SyncPairsTrackerOld/</a> to get your export code.</p>";
+		document.getElementById("syncPairs").innerHTML = '<p>Something went wrong, try to hard refresh the page.<br>or<br>Go to <a target="_blank" href="https://pomasters.github.io/SyncPairsTrackerOld/">https://pomasters.github.io/SyncPairsTrackerOld/</a> to get your export code.</p>';
 	}
 
 	addEventLeftSide();

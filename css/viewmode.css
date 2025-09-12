@@ -34,8 +34,6 @@
 }
 
 #pairsCounterFound,
-#pairsCounterSelected,
-#pairsCounterTotal:empty,
 .syncStar,
 .syncFav,
 .syncLevel,
@@ -45,7 +43,6 @@
 }
 
 #pairsCounterFoundTotal { margin-left: auto; }
-#pairsCounterTotal { display: block; }
 
 .syncPair {
 	opacity: 1 !important;
