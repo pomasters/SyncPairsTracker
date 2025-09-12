@@ -1399,10 +1399,6 @@ function takeScreenshot(id) {
 	document.getElementById("items").classList.add("forScreenshot");
 	document.getElementById("linkTool").classList.remove("hide");
 
-	if(document.getElementsByClassName("selectedFilter").length > 0) {
-		document.getElementById("pairsCounterSelected").classList.add("hide");
-	}
-
 	html2canvas(document.getElementById("rightSide"),{
 			backgroundColor:null,
 			windowWidth:1920,
@@ -1446,8 +1442,6 @@ function takeScreenshot(id) {
 			document.getElementById("syncPairs").classList.remove("forScreenshot");
 			document.getElementById("items").classList.remove("forScreenshot");
 			document.getElementById("linkTool").classList.add("hide");
-
-			document.getElementById("pairsCounterSelected").classList.remove("hide");
 
 			document.getElementById("leftSide").classList.remove("leftSideVisible");
 
