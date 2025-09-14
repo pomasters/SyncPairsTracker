@@ -1083,11 +1083,11 @@ function dateInterval() {
 	if(document.getElementById("search").value !== "") selectedFiltersCount++;
 
 	const filtersUsedEl = document.getElementById("filtersUsed");
-	filtersUsedEl.innerHTML = `<span class="filterDate">📅 ${date1} → 📅 ${date2}</span>${filtersUsedEl.innerHTML}`;
+	filtersUsedEl.innerHTML = `<span class="filterDate"><i class="bi bi-calendar-minus"></i>&nbsp;${date1}&nbsp;<i class="bi bi-arrow-right"></i>&nbsp;${date2}&nbsp;<i class="bi bi-calendar-plus"></i></span>${filtersUsedEl.innerHTML}`;
 
 	const removeFiltersEl = document.getElementById("removeFilters");
 	removeFiltersEl.classList.add("btnRed");
-	removeFiltersEl.innerHTML = `× filters (${selectedFiltersCount + 1})`;
+	removeFiltersEl.innerHTML = `<i class="bi bi-x-square-fill"></i> Filters (${selectedFiltersCount + 1})`;
 
 	document.getElementById("mobileMenuFilters").classList.add("mobileMenu_selected");
 
@@ -1190,11 +1190,11 @@ function searchFilters() {
 	if(filters.length > 0) {
 		removeBtn.classList.add("btnRed");
 		mobileMenu.classList.add("mobileMenu_selected");
-		removeBtn.innerHTML = `× filters (${filters.length})`;
+		removeBtn.innerHTML = `<i class="bi bi-x-square-fill"></i> Filters (${filters.length})`;
 	} else {
 		removeBtn.classList.remove("btnRed");
 		mobileMenu.classList.remove("mobileMenu_selected");
-		removeBtn.innerHTML = `× filters`
+		removeBtn.innerHTML = `<i class="bi bi-x-square"></i> Filters`;
 	}
 }
 
@@ -1202,11 +1202,11 @@ function searchFilters() {
 function filterMode() {
 	if(FILTER_MODE == "&") {
 		FILTER_MODE = "|";
-		document.getElementById("filterMode").innerHTML = `Mode : OR<span class="tooltiptext">Search has to match at least one filter</span>`;
+		document.getElementById("filterMode").innerHTML = `Search : OR<span class="tooltiptext">Search has to match at least one filter</span>`;
 	}
 	else if(FILTER_MODE == "|") {
 		FILTER_MODE = "&";
-		document.getElementById("filterMode").innerHTML = `Mode : AND<span class="tooltiptext">Search has to match all filters</span>`;
+		document.getElementById("filterMode").innerHTML = `Search : AND<span class="tooltiptext">Search has to match all filters</span>`;
 	}
 
 	searchFiltersORdateInterval();
@@ -1317,9 +1317,15 @@ function removeEmptySeparators() {
 	const pairs = Array.from(document.getElementById("syncPairs").children).reverse();
 	let pairFound = false;
 
-	for(const el of pairs) {
-		if(el.classList.contains("separator") && !el.previousElementSibling?.classList.contains("found")) {
-			el.remove();
+	for(const element of pairs) {
+		if(element.classList.contains("found")) {
+			pairFound = true;
+		} else if(element.classList.contains('separator')) {
+			if(!pairFound) {
+				element.remove();
+			} else {
+				pairFound = false;
+			}
 		}
 	}
 }

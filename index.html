@@ -38,15 +38,15 @@
 					<ul id="newsList"></ul>
 
 					<div id="newsNav">
-						<div><img id="previousNews" src="images/bottomArrow.png" draggable="false"></div>
-						<div><img id="nextNews" src="images/bottomArrow.png" draggable="false"></div>
+						<i id="previousNews" class="bi bi-chevron-up"></i>
+						<i id="nextNews" class="bi bi-chevron-down"></i>
 					</div>
 				</div>
 
 				<div id="options">
-					<button type="button" class="btn" id="selectionBtns">Selection<img class="extendedIcon" src="images/bottomArrow.png"></button>
-					<button type="button" class="btn" id="increaseBtns"><img src="images/star.png"><img src="images/0.png"><img src="images/favoriteG.png"><img src="images/icon_grid.png"><img src="images/icon_role_ex.png"><img class="extendedIcon" src="images/bottomArrow.png"></button>
-					<button type="button" class="btn" id="visibilityBtns">Visibility<img class="extendedIcon" src="images/bottomArrow.png"></button>
+					<button type="button" class="btn" id="selectionBtns">Selection<i class="extendedIcon bi bi-chevron-compact-down"></i></button>
+					<button type="button" class="btn" id="increaseBtns"><img src="images/star.png"><img src="images/0.png"><img src="images/favoriteG.png"><img src="images/icon_grid.png"><img src="images/icon_role_ex.png"><i class="extendedIcon bi bi-chevron-compact-down"></i></button>
+					<button type="button" class="btn" id="visibilityBtns">Visibility<i class="extendedIcon bi bi-chevron-compact-down"></i></button>
 
 					<div class="hide" id="selectionOptions">
 						<div id="selectionPairs">
@@ -88,19 +88,19 @@
 							<button type="button" class="btn" id="unlockEXRole"><img src="images/icon_role_ex.png">&nbsp;↔&nbsp;<img src="images/icon_role_ex_2.png"></button>
 						</div>
 						<div class="increaseOptions3">
-							<button type="button" class="btn smallerText" id="resetSyncStar">Default&nbsp;<img src="images/star0.png"></button>
-							<button type="button" class="btn smallerText" id="resetSyncLevel">Default&nbsp;<img src="images/1.png"></button>
-							<button type="button" class="btn smallerText" id="resetSyncGrid">Default&nbsp;<img src="images/icon_grid.png"></button>
-							<button type="button" class="btn smallerText" id="resetEXRole">Default&nbsp;<img src="images/icon_role_ex_2.png"></button>
+							<button type="button" class="btn" id="resetSyncStar">Default&nbsp;<img src="images/star0.png"></button>
+							<button type="button" class="btn" id="resetSyncLevel">Default&nbsp;<img src="images/1.png"></button>
+							<button type="button" class="btn" id="resetSyncGrid">Default&nbsp;<img src="images/icon_grid.png"></button>
+							<button type="button" class="btn" id="resetEXRole">Default&nbsp;<img src="images/icon_role_ex_2.png"></button>
 						</div>
 					</div>
 
 					<div class="hide" id="visibilityOptions">
 						<div id="visibilityMode">
 							<button type="button" class="btn" id="allVisible">All</button>
-							<button type="button" class="btn smallerText" id="selectedVisible">Have</button>
+							<button type="button" class="btn" id="selectedVisible">Have</button>
 							<button type="button" class="btn" id="notSelectedVisible">Not have</button>
-							<button type="button" class="btn smallerText" id="datamineVisible">Not released</button>
+							<button type="button" class="btn" id="datamineVisible">Not released</button>
 						</div>
 
 						<div id="visibilityCheck">
@@ -114,14 +114,14 @@
 						</div>
 					</div>
 
-					<button type="button" class="btn" id="exportImportBtns">Backup<img class="extendedIcon" src="images/bottomArrow.png"></button>
+					<button type="button" class="btn" id="exportImportBtns">Backup<i class="extendedIcon bi bi-chevron-compact-down"></i></button>
 
-					<button type="button" class="btn" id="showSorting">Sort by...<img class="extendedIcon" src="images/bottomArrow.png"></button>
+					<button type="button" class="btn" id="showSorting">Sort by...<i class="extendedIcon bi bi-chevron-compact-down"></i></button>
 					<button type="button" class="btn bi bi-sort-down-alt" id="sortingOrder" data-asc="true"></button>
 
 					<button type="button" class="btn" id="takeScreenshot">Image <i class="bi bi-image"></i>
-						<img id="image_rotate" class="hide" src="images/icon_rotate.png">
-						<img id="image_done" class="hide" src="images/icon_done.png"></button>
+						<i id="image_rotate" class="hide bi bi-arrow-clockwise"></i>
+						<i id="image_done" class="hide bi bi-check-circle"></i>
 					<button type="button" class="btn bi bi-file-earmark-arrow-down" id="takeScreenshot2"></button>
 
 					<div id="exportImportDiv" class="hide">
@@ -165,8 +165,8 @@
 
 					<button type="button" class="btn" id="lockMode">&nbsp;</button>
 					<button type="button" class="btn" id="viewMode">&nbsp;</button>
-					<button type="button" class="btn" id="filterMode">Mode : AND<span class="tooltiptext">Needs to match all filters</span></button>
-					<button type="button" class="btn" id="removeFilters">× filters</button>
+					<button type="button" class="btn" id="filterMode">Search : AND<span class="tooltiptext">Needs to match all filters</span></button>
+					<button type="button" class="btn" id="removeFilters"><i class="bi bi-x-square"></i> Filters</button>
 				</div>
 
 				<div id="filters">
@@ -237,14 +237,14 @@
 					</div>
 
 					<div id="dateBtns" class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Release Date<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Release Date<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<input type="date" id="date1" min="2019-08-29" max="2025-12-31">
 						<input type="date" id="date2" min="2019-08-29" max="2025-12-31">
 						<input type="button" class="btn" id="btnDate" value="Filter">
 					</div>
 
 					<div class="buttonGroup group6inLine">
-						<div class="buttonGroupTitle">Initial Number of ★s<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Initial Number of ★s<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">1'>&nbsp;<img src="images/star1.png"></button>
 						<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">2'>&nbsp;<img src="images/star2.png"></button>
 						<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">3'>&nbsp;<img src="images/star3.png"></button>
@@ -254,7 +254,7 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Type<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Type<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterType" value='"infoPokemonType">normal'><img src="images/type_normal.png">Normal</button>
 						<button type="button" class="btn filterType" value='"infoPokemonType">fire'><img src="images/type_fire.png">Fire</button>
 						<button type="button" class="btn filterType" value='"infoPokemonType">water'><img src="images/type_water.png">Water</button>
@@ -276,7 +276,7 @@
 					</div>
 
 					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Weakness<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Weakness<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterWeak" value='"infoPokemonWeak">normal'><img src="images/type_normal.png">Normal</button>
 						<button type="button" class="btn filterWeak" value='"infoPokemonWeak">fire'><img src="images/type_fire.png">Fire</button>
 						<button type="button" class="btn filterWeak" value='"infoPokemonWeak">water'><img src="images/type_water.png">Water</button>
@@ -298,7 +298,7 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Role<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Role<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Strike'><img src="images/role_strike.png">Strike</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Tech'><img src="images/role_tech.png">Tech</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Support'><img src="images/role_support.png">Support</button>
@@ -308,7 +308,7 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">EX Role<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">EX Role<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterRole" value='infoSyncPairRoleEX">Strike'><img src="images/role_ex_strike.png">Strike</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRoleEX">Tech'><img src="images/role_ex_tech.png">Tech</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRoleEX">Support'><img src="images/role_ex_support.png">Support</button>
@@ -318,7 +318,7 @@
 					</div>
 
 					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Role Combination<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Role Combination<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterRole" id="roleCombi1221" value='roleCombi1221'>
 							<img src="images/role_strike.png"><img src="images/role_ex_tech.png">/&nbsp;<img src="images/role_tech.png"><img src="images/role_ex_strike.png"></button>
 						<button type="button" class="btn filterRole" id="roleCombi1331" value='roleCombi1331'>
@@ -348,7 +348,7 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Region<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Region<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Kanto'>Kanto</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Johto'>Johto</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Hoenn'>Hoenn</button>
@@ -363,61 +363,8 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Trainer/Pokémon<img class="extendedIcon" src="images/bottomArrow.png"></div>
-
-						<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon..."><br>
-
-						<button type="button" class="btn" value='Legendary'>Legendary</button>
-						<button type="button" class="btn" value='Mythical'>Mythical</button>
-						<button type="button" class="btn" value='Ultra Beast'>Ultra Beast</button>
-						<button type="button" class="btn" value='Starter'>Starter</button>
-						<button type="button" class="btn smallerText" value='Eeveelution'>Eeveelution</button>
-						<button type="button" class="btn" value='Paradox'>Paradox</button>
-						<button type="button" class="btn" value='Fossil'>Fossil</button>
-						<button type="button" class="btn" value='Other Form'>Other Form</button>
-						<button type="button" class="btn" value='Regional Form'>Regional Form</button>
-						<button type="button" class="btn" value='Shiny'>Shiny</button>
-						<button type="button" class="btn smallerText" value='Neo Champion'>Neo Champion</button>
-					</div>
-
-					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Seasonal<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn filterSeasonal" value='New Year'>New Year</button>
-						<button type="button" class="btn filterSeasonal" value='Palentine'>Palentine</button>
-						<button type="button" class="btn filterSeasonal" value='Spring'>Spring</button>
-						<button type="button" class="btn filterSeasonal" value='Summer'>Summer</button>
-						<button type="button" class="btn filterSeasonal" value='Fall'>Fall</button>
-						<button type="button" class="btn filterSeasonal" value='Holiday'>Holiday</button>
-						<button type="button" class="btn" value='Anniversary'><img src="images/icon_anniv.png">Anniversary</button>
-					</div>
-
-					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Sync Move<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn" value='SyncMovePhysical'>Sync Move&nbsp;<img src="images/category_physical.png"></button>
-						<button type="button" class="btn" value='SyncMoveSpecial'>Sync Move&nbsp;<img src="images/category_special.png"></button>
-						<button type="button" class="btn" value='SyncMoveStatus'>Sync Move&nbsp;<img src="images/category_status.png"></button>
-					</div>
-
-					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Master Passive Skill<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn smallerText" value='Master Passive Flag Bearer'><img src="images/icon_master.png">Flag Bearer</button>
-						<button type="button" class="btn" value='Master Passive Pride'><img src="images/icon_master.png">Pride</button>
-						<button type="button" class="btn" value='Master Passive Spirit'><img src="images/icon_master.png">Spirit</button>
-						<button type="button" class="btn" value='Master Passive Teamwork'><img src="images/icon_master.png">Teamwork</button>
-						<button type="button" class="btn smallerText" value='Master Passive'>Master Passive</button>
-					</div>
-
-					<div class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">Grid Expansion<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn" value='Grid3'>Has 3/5 exp.</button>
-						<button type="button" class="btn" value='Grid5'>Has 5/5 exp.</button>
-						<button type="button" class="btn" value='GridExpansion'>Retroactive<span class="tooltiptext">Retroactive expansion</span></button>
-						<button type="button" class="btn" value='GridMega'>Mega (Sync)</button>
-					</div>
-
-					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Acquisition<img class="extendedIcon" src="images/bottomArrow.png"></div>
-						<button type="button" class="btn" value='Spotlight Scout / General Pool'><img src="images/icon_genpool.png">Gen Pool</button>
+						<div class="buttonGroupTitle">Acquisition<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<button type="button" class="btn" value='Spotlight Scout / General Pool'><img src="images/icon_genpool.png">General Pool</button>
 						<button type="button" class="btn" value='Poké Fair Scout'><img src="images/icon_pokefair.png">Poké Fair</button>
 						<button type="button" class="btn smallerText" value='Master Fair Scout'><img src="images/icon_master.png">Master Fair</button>
 						<button type="button" class="btn" value='Seasonal Scout'><img src="images/icon_seasonal.png">Seasonal</button>
@@ -426,19 +373,19 @@
 						<button type="button" class="btn" value='Main Story: PML Arc'><img src="images/icon_story.png">Story</button>
 						<button type="button" class="btn smallerText" value='Legendary Adventures'>Legendary Adv.</button>
 						<button type="button" class="btn" value='Event Reward'><img src="images/icon_event.png">Event</button>
-						<button type="button" class="btn" value='Battle Points Exchange'><img src="images/icon_bp.png">BP</button>
+						<button type="button" class="btn" value='Battle Points Exchange'><img src="images/icon_bp.png">Battle Point</button>
 						<button type="button" class="btn" value='Trainer Lodge Exchange'><img src="images/icon_lodge.png">Lodge</button>
 						<button type="button" class="btn" value='Mix Scout'>Mix</button>
 						<button type="button" class="btn smallerText" value='Training Ticket Exchange'><img src="images/icon_trainingticket.png">Training Ticket</button>
 						<button type="button" class="btn smallerText" value='Arc Suit Fair Scout'><img src="images/icon_arcsuit.png">Arc Suit Fair</button>
-						<button type="button" class="btn smallerText" value='Gym Scout'><img src="images/icon_gymscout.png">Gym</button>
+						<button type="button" class="btn" value='Gym Scout'><img src="images/icon_gymscout.png">Gym</button>
 						<button type="button" class="btn" value='Academy Sync Pair'><img src="images/icon_academy.png">Academy</button>
 						<button type="button" class="btn smallerText" value='EX Master Fair Scout'><img src="images/icon_masterex.png">EX Master Fair</button>
 						<button type="button" class="btn" value='Limited'><img src="images/icon_gem.png">Limited</button>
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Field effect<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Field effect<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn" value='Weather'><img src="images/icon_weather.png">Weather</button>
 						<button type="button" class="btn" value='Terrain'><img src="images/icon_terrain.png">Terrain</button>
 						<button type="button" class="btn" value='Wish Zone'><img src="images/icon_zone.png">Zone</button>
@@ -449,30 +396,82 @@
 					</div>
 
 					<div class="buttonGroup">
-						<div class="buttonGroupTitle">Other<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">Trainer / Pokémon<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon..."><br>
 						<button type="button" class="btn" value='First Unit'>First Unit</button>
-						<button type="button" class="btn" value='Unique Costume'>Unique Costume</button>
-						<button type="button" class="btn" value='Multiple Units'>Alt (Trainer)</button>
-						<button type="button" class="btn" value='Multiple Pokemon'>Alt (Pokémon)</button>
-						<button type="button" class="btn" value='Multiple Pairs'>Alt (Pair)</button>
+						<button type="button" class="btn smallerText" value='Unique Costume'>Unique Costume</button>
 						<button type="button" class="btn" value='EXColor">true'>Has EX Color</button>
 						<button type="button" class="btn filterGender" value='isMan'><img src="images/icon_male.png">Male</button>
 						<button type="button" class="btn filterGender" value='isWoman'><img src="images/icon_female.png">Female</button>
-						<button type="button" class="btn" value='Song Key'><img src="images/icon_songkey.png">Song Key</button>
+						<button type="button" class="btn" value='Neo Champion'>Neo Champion</button><br><br>
+						<button type="button" class="btn" value='Multiple Units'>Alt (Trainer)</button>
+						<button type="button" class="btn" value='Multiple Pokemon'>Alt (Pokémon)</button>
+						<button type="button" class="btn" value='Multiple Pairs'>Alt (Pair)</button><br><br>
+						<button type="button" class="btn" value='Starter'>Starter</button>
+						<button type="button" class="btn" value='Eeveelution'>Eeveelution</button>
+						<button type="button" class="btn" value='Legendary'>Legendary</button>
+						<button type="button" class="btn" value='Mythical'>Mythical</button>
+						<button type="button" class="btn" value='Ultra Beast'>Ultra Beast</button>
+						<button type="button" class="btn" value='Gigantamax'>Gigantamax</button>
+						<button type="button" class="btn" value='Paradox'>Paradox</button>
+						<button type="button" class="btn" value='Fossil'>Fossil</button>
+						<button type="button" class="btn" value='Other Form'>Other Form</button>
+						<button type="button" class="btn" value='Regional Form'>Regional Form</button>
+						<button type="button" class="btn" value='Shiny'>Shiny</button>
+					</div>
+
+					<div class="buttonGroup">
+						<div class="buttonGroupTitle">Other<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 						<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 						<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
 						<button type="button" class="btn" value='Buddy Move'><img src="images/icon_bmove.png">B Move</button>
 						<button type="button" class="btn" value='ZMove'><img src="images/icon_zcrystal.png">Z-Move</button>
 						<button type="button" class="btn" value='Terastallization'><img src="images/icon_tera.png">Terastal</button>
+						<button type="button" class="btn" value='Song Key'><img src="images/icon_songkey.png">Song Key</button>
 						<button type="button" class="btn" value='Rebuff'><img src="images/icon_rebuff.png">Rebuff</button>
-						<button type="button" class="btn" value='Superawakening">true'><img src="images/0_2.png">Superawakening</button>
+						<button type="button" class="btn smallerText" value='Superawakening">true'><img src="images/0_2.png">Superawakening</button>
+					</div>
+
+					<div class="buttonGroup groupClose">
+						<div class="buttonGroupTitle">Seasonal<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<button type="button" class="btn filterSeasonal" value='New Year'>New Year</button>
+						<button type="button" class="btn filterSeasonal" value='Palentine'>Palentine</button>
+						<button type="button" class="btn filterSeasonal" value='Spring'>Spring</button>
+						<button type="button" class="btn filterSeasonal" value='Summer'>Summer</button>
+						<button type="button" class="btn filterSeasonal" value='Fall'>Fall</button>
+						<button type="button" class="btn filterSeasonal" value='Holiday'>Holiday</button>
+						<button type="button" class="btn" value='Anniversary'><img src="images/icon_anniv.png">Anniversary</button>
+					</div>
+
+					<div class="buttonGroup groupClose">
+						<div class="buttonGroupTitle">Sync Move<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<button type="button" class="btn" value='SyncMovePhysical'>Sync Move&nbsp;<img src="images/category_physical.png"></button>
+						<button type="button" class="btn" value='SyncMoveSpecial'>Sync Move&nbsp;<img src="images/category_special.png"></button>
+						<button type="button" class="btn" value='SyncMoveStatus'>Sync Move&nbsp;<img src="images/category_status.png"></button>
+					</div>
+
+					<div class="buttonGroup groupClose">
+						<div class="buttonGroupTitle">Master Passive Skill<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<button type="button" class="btn smallerText" value='Master Passive Flag Bearer'><img src="images/icon_master.png">Flag Bearer</button>
+						<button type="button" class="btn" value='Master Passive Pride'><img src="images/icon_master.png">Pride</button>
+						<button type="button" class="btn" value='Master Passive Spirit'><img src="images/icon_master.png">Spirit</button>
+						<button type="button" class="btn" value='Master Passive Teamwork'><img src="images/icon_master.png">Teamwork</button>
+						<button type="button" class="btn smallerText" value='Master Passive'>Master Passive</button>
+					</div>
+
+					<div class="buttonGroup groupClose">
+						<div class="buttonGroupTitle">Grid Expansion<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
+						<button type="button" class="btn" value='Grid3'>Has 3/5 exp.</button>
+						<button type="button" class="btn" value='Grid5'>Has 5/5 exp.</button>
+						<button type="button" class="btn" value='GridMega'>Mega expansion</button>
+						<button type="button" class="btn" value='GridExpansion'>Retroactive<span class="tooltiptext">Retroactive expansion</span></button>
 					</div>
 
 					<div id="ingameThemeSkills" class="buttonGroup groupClose">
-						<div class="buttonGroupTitle">In-game Theme Skills<img class="extendedIcon" src="images/bottomArrow.png"></div>
+						<div class="buttonGroupTitle">In-game Theme Skills<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 
 						<div class="buttonGroup2 groupClose">
-							<div class="buttonGroupTitle2">Region<img class="extendedIcon" src="images/bottomArrow.png"></div>
+							<div class="buttonGroupTitle2">Region<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 							<button type="button" class="btn" value='theme_Kanto'>Kanto</button>
 							<button type="button" class="btn" value='theme_Johto'>Johto</button>
 							<button type="button" class="btn" value='theme_Hoenn'>Hoenn</button>
@@ -486,7 +485,7 @@
 						</div>
 
 						<div class="buttonGroup2 groupClose">
-							<div class="buttonGroupTitle2">Trainer Group<img class="extendedIcon" src="images/bottomArrow.png"></div>
+							<div class="buttonGroupTitle2">Trainer Group<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 							<button type="button" class="btn" value='theme_Main Character'>Main Character</button>
 							<button type="button" class="btn" value='theme_Elite Four'>Elite Four</button>
 							<button type="button" class="btn" value='theme_Gym Leader'>Gym Leader</button>
@@ -499,7 +498,7 @@
 						</div>
 
 						<div class="buttonGroup2 groupClose">
-							<div class="buttonGroupTitle2">Fashion<img class="extendedIcon" src="images/bottomArrow.png"></div>
+							<div class="buttonGroupTitle2">Fashion<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 							<button type="button" class="btn" value='theme_Sygna Suit'>Sygna Suit</button>
 							<button type="button" class="btn" value='theme_Sunglasses'>Sunglasses</button>
 							<button type="button" class="btn" value='theme_Glasses'>Glasses</button>
@@ -513,7 +512,7 @@
 						</div>
 
 						<div class="buttonGroup2 groupClose">
-							<div class="buttonGroupTitle2">Other<img class="extendedIcon" src="images/bottomArrow.png"></div>
+							<div class="buttonGroupTitle2">Other<i class="extendedIcon bi bi-chevron-compact-down"></i></div>
 							<button type="button" class="btn" value='theme_Grown Woman'>Grown Woman</button>
 							<button type="button" class="btn" value='theme_Body Builder'>Body Builder</button>
 							<button type="button" class="btn" value='theme_Rock Lover'>Rock Lover</button>
@@ -551,12 +550,13 @@
 							<button type="button" class="btn" value='theme_Old Colleagues'>Old Colleagues</button>
 							<button type="button" class="btn" value='theme_Alola Adventurer'>Alola Adventurer</button>
 							<button type="button" class="btn" value='theme_Galar Adventurer'>Galar Adventurer</button>
+							<button type="button" class="btn" value='theme_Hisui Adventurer'>Hisui Adventurer</button>
 						</div>
 					</div>
 				</div>
 
 				<p id="credits">Made by <a href="https://www.reddit.com/user/Xtraterrestre/" target="_blank">u/Xtraterrestre</a>
-					<br>Credit to <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a> for the Sync Pairs tiles<br>and suggestions for improving the tool</p>
+					<br>Credit to <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a> for the Sync Pairs <a href="./icons" target="_blank">icons</a><br>and suggestions for improving the tool</p>
 
 				<div id="btnDarkMode" title="Darkmode"></div>
 			</div>
@@ -570,8 +570,8 @@
 			<div id="items" class="hide"></div>
 
 			<div id="pairsCounter" class="counter">
-				<p id="pairsCounterFound"></p>
-				<p id="pairsCounterFoundTotal"></p>
+				<p id="pairsCounterFound">&nbsp;</p>
+				<p id="pairsCounterFoundTotal">&nbsp;</p>
 			</div>
 
 			<div id="filtersUsed"></div>

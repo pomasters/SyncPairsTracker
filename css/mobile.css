@@ -193,12 +193,13 @@
 		display: block;
 		height: fit-content;
 		margin: auto;
+		padding: 6px 14px;
 		position: absolute;
 		right: 18px;
 		top: 0;
 		bottom: 0;
 		border: 1px solid #398093;
-		border-radius: 10px;
+		border-radius: 16px;
 		color: #398093;
 	}
 
@@ -228,7 +229,7 @@
 	#visibilityOptions2 div:nth-child(3) { display: none; }
 
 	.smallerText {
-		font-size: 10px !important;
+		font-size: 12px !important;
 	}
 
 	.buttonGroupTitle {
@@ -345,13 +346,10 @@
 	}
 
 	.counter {
-		font-size: 0.8em;
-		line-height: 16px;
-		padding: 5px 0;
-	}
-
-	#filtersUsed {
-		font-size: 0.9em;
+		padding: 0;
+		padding-top: 3px;
+		word-spacing: -5px;
+		font-size: 16px;
 	}
 
 	.counter::before,

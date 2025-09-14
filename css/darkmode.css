@@ -285,6 +285,11 @@ body {
 		box-shadow: 0px 0px 2px var(--blue1);
 	}
 
+	#userBtns label { background-color: #48899a; }
+	#userBtns label:hover { background-color: #7ba7b5; }
+	#userBtns label:active { background-color: #4a7b8b; }
+	#userBtns input:checked + label { background-color: #055c73; }
+
 	.buttonGroupTitle, .buttonGroupTitle::before, .buttonGroupTitle::after {
 		background-color: var(--blue2);
 	}
