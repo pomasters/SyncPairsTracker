@@ -10103,6 +10103,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Buddy Move",
 			"Wish Zone",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Master Passive Flag Bearer",
@@ -13033,6 +13035,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"Unique Costume",
 			"SyncMoveSpecial",
@@ -13782,6 +13785,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Weather",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isWoman",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
@@ -16490,6 +16494,48 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0849_12_00_strinder"
 	},
 	{
+		"dexNumber": "117",
+		"trainerName": "Piers",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0435",
+		"pokemonName": "Skuntank",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-10-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Galar",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Piers_0435_4.png",
+			"icons/Piers_0435_5.png",
+			"icons/Piers_0435_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Galar",
+			"Gym Leader",
+			"Artistic"
+		],
+		"tags": [
+			"Multiple Units",
+			"isMan",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeDark"
+		],
+		"internalTrainerName": "ch0256_00_nezz",
+		"internalPokemonName": "pm0435_00_skutank"
+	},
+	{
 		"dexNumber": "118",
 		"trainerName": "Leon",
 		"trainerAlt": "",
@@ -19192,6 +19238,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Song Key",
+			"Grid5",
+			"GridExpansion",
 			"Master Passive Flag Bearer",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
@@ -19686,6 +19734,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Wish Zone",
 			"Legendary",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Pokemon",
 			"Unique Costume",
 			"Neo Champion",
@@ -21206,6 +21256,8 @@ export const SYNCPAIRS = [
 			"Song Key",
 			"Villain Arc",
 			"First Unit",
+			"Grid3",
+			"GridExpansion",
 			"Multiple Units",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -25928,6 +25980,56 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0869_17_27_mawhip"
 	},
 	{
+		"dexNumber": "227",
+		"trainerName": "Lacey",
+		"trainerAlt": "Fall 2025",
+		"pokemonNumber": "0547",
+		"pokemonName": "Whimsicott",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Terastallization"
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-14",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Lacey_0547_5.png",
+			"icons/Lacey_0547_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Paldea",
+			"Elite Four",
+			"Seasonal Outfit",
+			"Fancy Lady"
+		],
+		"tags": [
+			"Fall",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeDark"
+		],
+		"internalTrainerName": "ch0352_40_taro",
+		"internalPokemonName": "pm0547_00_elfuun"
+	},
+	{
 		"dexNumber": "228",
 		"trainerName": "Ilima",
 		"trainerAlt": "",
@@ -26304,6 +26406,281 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0357_00_suguri",
 		"internalPokemonName": "pm1019_00_00_kamitsuorochi"
+	},
+	{
+		"dexNumber": "235",
+		"trainerName": "Arezu",
+		"trainerAlt": "",
+		"pokemonNumber": "0549",
+		"pokemonName": "Lilligant",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Regional Form"
+		],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-09-30",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Arezu_0549_5.png",
+			"icons/Arezu_0549_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Sinnoh",
+			"Nature Lover",
+			"Artistic"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"Multiple Pokemon",
+			"isWoman",
+			"Hisui",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeGrass"
+		],
+		"internalTrainerName": "ch0312_00_hinatsu",
+		"internalPokemonName": "pm0549_00_41_dredear"
+	},
+	{
+		"dexNumber": "236",
+		"trainerName": "Mai",
+		"trainerAlt": "",
+		"pokemonNumber": "0446",
+		"pokemonName": "Munchlax",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-02",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Mai_0446_5.png",
+			"icons/Mai_0446_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Sinnoh",
+			"Nature Lover",
+			"Grown Woman"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"isWoman",
+			"Hisui",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeNormal"
+		],
+		"internalTrainerName": "ch0311_00_yone",
+		"internalPokemonName": "pm0446_00_gonbe"
+	},
+	{
+		"dexNumber": "237",
+		"trainerName": "Perrin",
+		"trainerAlt": "",
+		"pokemonNumber": "0058",
+		"pokemonName": "Growlithe",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Regional Form"
+		],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-04",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Perrin_0058_5.png",
+			"icons/Perrin_0058_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Paldea",
+			"Artistic",
+			"Grown Woman"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish ZoneEX",
+			"Region Circle",
+			"isWoman",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeRock"
+		],
+		"internalTrainerName": "ch0338_00_sazare",
+		"internalPokemonName": "pm0058_00_41_gardie"
+	},
+	{
+		"dexNumber": "238",
+		"trainerName": "Cilan",
+		"trainerAlt": "",
+		"pokemonNumber": "0512",
+		"pokemonName": "Simisage",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-23",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Cilan_0512_5.png",
+			"icons/Cilan_0512_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Unova",
+			"Gym Leader",
+			"Cook"
+		],
+		"tags": [
+			"Limited",
+			"Region Circle",
+			"isMan",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeGrass"
+		],
+		"internalTrainerName": "ch0107_00_dent",
+		"internalPokemonName": "pm0512_00_yanakkie"
+	},
+	{
+		"dexNumber": "239",
+		"trainerName": "Chili",
+		"trainerAlt": "",
+		"pokemonNumber": "0514",
+		"pokemonName": "Simisear",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-23",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Chili_0514_5.png",
+			"icons/Chili_0514_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Unova",
+			"Gym Leader",
+			"Cook"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"isMan",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeFire"
+		],
+		"internalTrainerName": "ch0145_00_pod",
+		"internalPokemonName": "pm0514_00_baokkie"
+	},
+	{
+		"dexNumber": "240",
+		"trainerName": "Cress",
+		"trainerAlt": "",
+		"pokemonNumber": "0516",
+		"pokemonName": "Simipour",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-10-23",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Cress_0516_5.png",
+			"icons/Cress_0516_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Unova",
+			"Gym Leader",
+			"Cook"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Region Circle",
+			"isMan",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeWater"
+		],
+		"internalTrainerName": "ch0146_00_corn",
+		"internalPokemonName": "pm0516_00_hiyakkie"
 	}
 ]
 
@@ -26333,8 +26710,9 @@ const P = {
 	"syncPairSuperawakening": false,
 	"syncPairRarity": "5",
 	"releaseDate": "2025-00-00",
-	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / Arc Suit Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward / Training Ticket Exchange / Gym Scout",
+	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / EX Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / EX Master Fair Scout / Arc Suit Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward / Training Ticket Exchange / Gym Scout",
 	"syncPairRegion": "Pasio / Kanto / Johto / Hoenn / Sinnoh / Unova / Kalos / Alola / Galar / Paldea",
+	"syncPairIcon": "none",
 	"images": [
 		"images/empty.png"
 	],
@@ -26387,11 +26765,14 @@ const P = {
 		"Academy Sync Pair",
 		"SyncMovePhysical",
 		"SyncMoveSpecial",
-		"SyncMoveStatus"
+		"SyncMoveStatus",
+		"AttackMovePhysical",
+		"AttackMoveSpecial",
+		"AttackMoveStatus"
 	],
 	"internalTrainerName": "",
 	"internalPokemonName": ""
 }
 
 
-export const VERSION = "v2.60.0";
+export const VERSION = "v2.61.0";
