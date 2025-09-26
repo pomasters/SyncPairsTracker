@@ -21,6 +21,7 @@ export const EGGS = [
 		"releaseDate": "2020-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0003_1.png",
 			"icons/eggs/Scottie_0003_1.png"
@@ -58,6 +59,7 @@ export const EGGS = [
 		"releaseDate": "2020-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0006_1.png",
 			"icons/eggs/Scottie_0006_1.png"
@@ -95,6 +97,7 @@ export const EGGS = [
 		"releaseDate": "2020-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0009_1.png",
 			"icons/eggs/Scottie_0009_1.png"
@@ -133,6 +136,7 @@ export const EGGS = [
 		"releaseDate": "2024-05-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0012_1.png",
 			"icons/eggs/Scottie_0012_1.png"
@@ -170,6 +174,7 @@ export const EGGS = [
 		"releaseDate": "2020-07-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0015_1.png",
 			"icons/eggs/Scottie_0015_1.png"
@@ -207,6 +212,7 @@ export const EGGS = [
 		"releaseDate": "2023-04-08",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0018_1.png",
 			"icons/eggs/Scottie_0018_1.png"
@@ -243,6 +249,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0020_1.png",
 			"icons/eggs/Scottie_0020_1.png"
@@ -279,6 +286,7 @@ export const EGGS = [
 		"releaseDate": "2021-08-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0022_1.png",
 			"icons/eggs/Scottie_0022_1.png"
@@ -315,6 +323,7 @@ export const EGGS = [
 		"releaseDate": "2021-10-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0024_1.png",
 			"icons/eggs/Scottie_0024_1.png"
@@ -352,6 +361,7 @@ export const EGGS = [
 		"releaseDate": "2021-01-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0026_1.png",
 			"icons/eggs/Scottie_0026_1.png"
@@ -388,6 +398,7 @@ export const EGGS = [
 		"releaseDate": "2021-07-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0028_1.png",
 			"icons/eggs/Scottie_0028_1.png"
@@ -425,6 +436,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0031_1.png",
 			"icons/eggs/Scottie_0031_1.png"
@@ -462,6 +474,7 @@ export const EGGS = [
 		"releaseDate": "2023-04-08",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0034_1.png",
 			"icons/eggs/Scottie_0034_1.png"
@@ -499,6 +512,7 @@ export const EGGS = [
 		"releaseDate": "2021-04-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0036_1.png",
 			"icons/eggs/Scottie_0036_1.png"
@@ -535,6 +549,7 @@ export const EGGS = [
 		"releaseDate": "2021-05-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0038_1.png",
 			"icons/eggs/Scottie_0038_1.png"
@@ -573,6 +588,7 @@ export const EGGS = [
 		"releaseDate": "2021-03-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0040_1.png",
 			"icons/eggs/Scottie_0040_1.png"
@@ -609,6 +625,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0042_1.png",
 			"icons/eggs/Scottie_0042_1.png"
@@ -646,6 +663,7 @@ export const EGGS = [
 		"releaseDate": "2023-01-06",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0045_1.png",
 			"icons/eggs/Scottie_0045_1.png"
@@ -682,6 +700,7 @@ export const EGGS = [
 		"releaseDate": "2021-11-15",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0047_1.png",
 			"icons/eggs/Scottie_0047_1.png"
@@ -718,6 +737,7 @@ export const EGGS = [
 		"releaseDate": "2020-07-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0049_1.png",
 			"icons/eggs/Scottie_0049_1.png"
@@ -754,6 +774,7 @@ export const EGGS = [
 		"releaseDate": "2023-10-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0051_1.png",
 			"icons/eggs/Scottie_0051_1.png"
@@ -790,6 +811,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0053_1.png",
 			"icons/eggs/Scottie_0053_1.png"
@@ -827,6 +849,7 @@ export const EGGS = [
 		"releaseDate": "2023-02-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0053_2_1.png",
 			"icons/eggs/Scottie_0053_2_1.png"
@@ -863,6 +886,7 @@ export const EGGS = [
 		"releaseDate": "2024-03-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0055_1.png",
 			"icons/eggs/Scottie_0055_1.png"
@@ -899,6 +923,7 @@ export const EGGS = [
 		"releaseDate": "2020-10-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0057_1.png",
 			"icons/eggs/Scottie_0057_1.png"
@@ -935,6 +960,7 @@ export const EGGS = [
 		"releaseDate": "2020-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0059_1.png",
 			"icons/eggs/Scottie_0059_1.png"
@@ -972,6 +998,7 @@ export const EGGS = [
 		"releaseDate": "2020-11-05",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0065_1.png",
 			"icons/eggs/Scottie_0065_1.png"
@@ -1009,6 +1036,7 @@ export const EGGS = [
 		"releaseDate": "2020-10-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0068_1.png",
 			"icons/eggs/Scottie_0068_1.png"
@@ -1046,6 +1074,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0071_1.png",
 			"icons/eggs/Scottie_0071_1.png"
@@ -1082,6 +1111,7 @@ export const EGGS = [
 		"releaseDate": "2025-01-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0073_1.png",
 			"icons/eggs/Scottie_0073_1.png"
@@ -1119,6 +1149,7 @@ export const EGGS = [
 		"releaseDate": "2020-08-11",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0076_1.png",
 			"icons/eggs/Scottie_0076_1.png"
@@ -1155,6 +1186,7 @@ export const EGGS = [
 		"releaseDate": "2021-03-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0078_1.png",
 			"icons/eggs/Scottie_0078_1.png"
@@ -1191,6 +1223,7 @@ export const EGGS = [
 		"releaseDate": "2023-08-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0080_1.png",
 			"icons/eggs/Scottie_0080_1.png"
@@ -1227,6 +1260,7 @@ export const EGGS = [
 		"releaseDate": "2021-01-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0082_1.png",
 			"icons/eggs/Scottie_0082_1.png"
@@ -1261,6 +1295,7 @@ export const EGGS = [
 		"releaseDate": "2021-08-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0083_1.png",
 			"icons/eggs/Scottie_0083_1.png"
@@ -1297,6 +1332,7 @@ export const EGGS = [
 		"releaseDate": "2020-10-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0087_1.png",
 			"icons/eggs/Scottie_0087_1.png"
@@ -1333,6 +1369,7 @@ export const EGGS = [
 		"releaseDate": "2020-11-05",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0089_1.png",
 			"icons/eggs/Scottie_0089_1.png"
@@ -1369,6 +1406,7 @@ export const EGGS = [
 		"releaseDate": "2022-02-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0091_1.png",
 			"icons/eggs/Scottie_0091_1.png"
@@ -1406,6 +1444,7 @@ export const EGGS = [
 		"releaseDate": "2021-10-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0094_1.png",
 			"icons/eggs/Scottie_0094_1.png"
@@ -1440,6 +1479,7 @@ export const EGGS = [
 		"releaseDate": "2020-08-11",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0095_1.png",
 			"icons/eggs/Scottie_0095_1.png"
@@ -1476,6 +1516,7 @@ export const EGGS = [
 		"releaseDate": "2024-03-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0097_1.png",
 			"icons/eggs/Scottie_0097_1.png"
@@ -1512,6 +1553,7 @@ export const EGGS = [
 		"releaseDate": "2021-01-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0101_1.png",
 			"icons/eggs/Scottie_0101_1.png"
@@ -1548,6 +1590,7 @@ export const EGGS = [
 		"releaseDate": "2020-11-05",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0103_1.png",
 			"icons/eggs/Scottie_0103_1.png"
@@ -1584,6 +1627,7 @@ export const EGGS = [
 		"releaseDate": "2021-07-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0105_1.png",
 			"icons/eggs/Scottie_0105_1.png"
@@ -1620,6 +1664,7 @@ export const EGGS = [
 		"releaseDate": "2022-07-16",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0106_1.png",
 			"icons/eggs/Scottie_0106_1.png"
@@ -1656,6 +1701,7 @@ export const EGGS = [
 		"releaseDate": "2022-07-16",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0107_1.png",
 			"icons/eggs/Scottie_0107_1.png"
@@ -1690,6 +1736,7 @@ export const EGGS = [
 		"releaseDate": "2020-12-02",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0108_1.png",
 			"icons/eggs/Scottie_0108_1.png"
@@ -1726,6 +1773,7 @@ export const EGGS = [
 		"releaseDate": "2021-10-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0110_1.png",
 			"icons/eggs/Scottie_0110_1.png"
@@ -1762,6 +1810,7 @@ export const EGGS = [
 		"releaseDate": "2024-07-26",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0112_1.png",
 			"icons/eggs/Scottie_0112_1.png"
@@ -1798,6 +1847,7 @@ export const EGGS = [
 		"releaseDate": "2022-03-10",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0113_1.png",
 			"icons/eggs/Scottie_0113_1.png"
@@ -1832,6 +1882,7 @@ export const EGGS = [
 		"releaseDate": "2021-06-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0114_1.png",
 			"icons/eggs/Scottie_0114_1.png"
@@ -1866,6 +1917,7 @@ export const EGGS = [
 		"releaseDate": "2020-10-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0115_1.png",
 			"icons/eggs/Scottie_0115_1.png"
@@ -1902,6 +1954,7 @@ export const EGGS = [
 		"releaseDate": "2022-02-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0117_1.png",
 			"icons/eggs/Scottie_0117_1.png"
@@ -1938,6 +1991,7 @@ export const EGGS = [
 		"releaseDate": "2020-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0119_1.png",
 			"icons/eggs/Scottie_0119_1.png"
@@ -1974,6 +2028,7 @@ export const EGGS = [
 		"releaseDate": "2021-09-03",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0121_1.png",
 			"icons/eggs/Scottie_0121_1.png"
@@ -2008,6 +2063,7 @@ export const EGGS = [
 		"releaseDate": "2020-07-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0123_1.png",
 			"icons/eggs/Scottie_0123_1.png"
@@ -2044,6 +2100,7 @@ export const EGGS = [
 		"releaseDate": "2022-10-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0124_1.png",
 			"icons/eggs/Scottie_0124_1.png"
@@ -2080,6 +2137,7 @@ export const EGGS = [
 		"releaseDate": "2021-01-07",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0125_1.png",
 			"icons/eggs/Scottie_0125_1.png"
@@ -2116,6 +2174,7 @@ export const EGGS = [
 		"releaseDate": "2021-05-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0126_1.png",
 			"icons/eggs/Scottie_0126_1.png"
@@ -2150,6 +2209,7 @@ export const EGGS = [
 		"releaseDate": "2020-07-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0127_1.png",
 			"icons/eggs/Scottie_0127_1.png"
@@ -2184,6 +2244,7 @@ export const EGGS = [
 		"releaseDate": "2020-04-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0128_1.png",
 			"icons/eggs/Scottie_0128_1.png"
@@ -2220,6 +2281,7 @@ export const EGGS = [
 		"releaseDate": "2022-05-05",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0130_1.png",
 			"icons/eggs/Scottie_0130_1.png"
@@ -2255,6 +2317,7 @@ export const EGGS = [
 		"releaseDate": "2020-10-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0131_1.png",
 			"icons/eggs/Scottie_0131_1.png"
@@ -2290,6 +2353,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0134_1.png",
 			"icons/eggs/Scottie_0134_1.png"
@@ -2324,6 +2388,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0135_1.png",
 			"icons/eggs/Scottie_0135_1.png"
@@ -2358,6 +2423,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0136_1.png",
 			"icons/eggs/Scottie_0136_1.png"
@@ -2392,6 +2458,7 @@ export const EGGS = [
 		"releaseDate": "2021-03-25",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0137_1.png",
 			"icons/eggs/Scottie_0137_1.png"
@@ -2428,6 +2495,7 @@ export const EGGS = [
 		"releaseDate": "2021-07-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0139_1.png",
 			"icons/eggs/Scottie_0139_1.png"
@@ -2464,6 +2532,7 @@ export const EGGS = [
 		"releaseDate": "2020-08-11",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0141_1.png",
 			"icons/eggs/Scottie_0141_1.png"
@@ -2499,6 +2568,7 @@ export const EGGS = [
 		"releaseDate": "2020-08-11",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0142_1.png",
 			"icons/eggs/Scottie_0142_1.png"
@@ -2535,6 +2605,7 @@ export const EGGS = [
 		"releaseDate": "2022-03-10",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0143_1.png",
 			"icons/eggs/Scottie_0143_1.png"
@@ -2572,6 +2643,7 @@ export const EGGS = [
 		"releaseDate": "2021-09-09",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0149_1.png",
 			"icons/eggs/Scottie_0149_1.png"
@@ -2606,6 +2678,7 @@ export const EGGS = [
 		"releaseDate": "2025-04-20",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0175_1.png",
 			"icons/eggs/Scottie_0175_1.png"
@@ -2619,7 +2692,7 @@ export const EGGS = [
 			"Pokémon Egg"
 		],
 		"internalTrainerName": "",
-		"internalPokemonName": "pm0175_00_togepy"
+		"internalPokemonName": "pm0175_00_togepy.ktx.png"
 	},
 	{
 		"dexNumber": "001",
@@ -2640,6 +2713,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0196_1.png",
 			"icons/eggs/Scottie_0196_1.png"
@@ -2674,6 +2748,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0197_1.png",
 			"icons/eggs/Scottie_0197_1.png"
@@ -2710,6 +2785,7 @@ export const EGGS = [
 		"releaseDate": "2022-07-16",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0237_1.png",
 			"icons/eggs/Scottie_0237_1.png"
@@ -2744,6 +2820,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0470_1.png",
 			"icons/eggs/Scottie_0470_1.png"
@@ -2778,6 +2855,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0471_1.png",
 			"icons/eggs/Scottie_0471_1.png"
@@ -2812,6 +2890,7 @@ export const EGGS = [
 		"releaseDate": "2023-11-21",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0700_1.png",
 			"icons/eggs/Scottie_0700_1.png"
@@ -2846,6 +2925,7 @@ export const EGGS = [
 		"releaseDate": "2023-12-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0810_1.png",
 			"icons/eggs/Scottie_0810_1.png"
@@ -2880,6 +2960,7 @@ export const EGGS = [
 		"releaseDate": "2023-12-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0813_1.png",
 			"icons/eggs/Scottie_0813_1.png"
@@ -2914,6 +2995,7 @@ export const EGGS = [
 		"releaseDate": "2023-12-27",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0816_1.png",
 			"icons/eggs/Scottie_0816_1.png"
@@ -2950,6 +3032,7 @@ export const EGGS = [
 		"releaseDate": "2023-02-22",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0863_1.png",
 			"icons/eggs/Scottie_0863_1.png"
@@ -2984,6 +3067,7 @@ export const EGGS = [
 		"releaseDate": "2023-09-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0906_1.png",
 			"icons/eggs/Scottie_0906_1.png"
@@ -3018,6 +3102,7 @@ export const EGGS = [
 		"releaseDate": "2023-09-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0909_1.png",
 			"icons/eggs/Scottie_0909_1.png"
@@ -3052,6 +3137,7 @@ export const EGGS = [
 		"releaseDate": "2023-09-12",
 		"syncPairAcquisition": "Pokémon Egg",
 		"syncPairRegion": "Pasio",
+		"syncPairIcon": "none",
 		"images": [
 			"icons/eggs/Bettie_0912_1.png",
 			"icons/eggs/Scottie_0912_1.png"

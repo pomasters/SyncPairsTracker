@@ -19414,7 +19414,7 @@ export const SYNCPAIRS = [
 			"Pasio"
 		],
 		"tags": [
-			"Limited PML Arc Conclusion Special Missions",
+			"Limited",
 			"isMan",
 			"Multiple Units",
 			"First Unit",
