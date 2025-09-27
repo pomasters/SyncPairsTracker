@@ -44,7 +44,7 @@
 </head>
 
 <body>
-	<input type="text" id="searchBar" placeholder="Search a trainer, Pokémon, type, role, region, rarity (3star, ..., EXstar)...">
+	<input type="text" id="searchBar" placeholder='Trainer, Pokémon, type, role, region, rarity (3star, ..., EXstar), date (yyyy-mm-dd), acquisition&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;"fire tech" = fireANDtech&nbsp;&nbsp;"fire,tech" = fireORtech&nbsp;&nbsp;"-fire" = NOTfire'>
 
 	<div id="syncpairs"></div>
 
@@ -72,6 +72,14 @@
 				icon.dataset.role = entry.syncPairRole;
 				icon.dataset.region = entry.syncPairRegion;
 				icon.dataset.rarity = rarity + "star";
+				icon.dataset.releasedate = entry.releaseDate;
+				icon.dataset.acquisition = entry.syncPairAcquisition.toLowerCase()
+							.replace(" / general pool", "")
+							.replace(" scout", "")
+							.replace(" exchange", "")
+							.replace(": pml arc", "")
+							.replace("é", "e")
+							.replace(" ", "") || "";
 
 				icon.innerHTML = `<img src="${imgPath.replace("icons/","")}" alt="${entry.trainerName} ${entry.pokemonName}">`;
 
@@ -100,8 +108,10 @@
 				const region = icon.dataset.region.toLowerCase();
 				const role = icon.dataset.role.toLowerCase();
 				const rarity = icon.dataset.rarity.toLowerCase();
+				const releasedate = icon.dataset.releasedate.toLowerCase();
+				const acquisition = icon.dataset.acquisition.toLowerCase();
 
-				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity}`;
+				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${releasedate} ${acquisition}`;
 
 				const matchesGroup = groups.some(group => {
 					const words = group.split(/\s+/);
