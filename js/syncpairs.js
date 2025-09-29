@@ -1100,7 +1100,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
-			"MoveTypeGrass"
+			"MoveTypeGrass",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0008_41_erika",
 		"internalPokemonName": "pm0869_00_hanakamakiri2"
@@ -17250,7 +17251,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
-			"MoveTypeDragon"
+			"MoveTypeDragon",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0245_42_mary",
 		"internalPokemonName": "pm0967_00_00_mototokage"
@@ -21173,7 +21175,8 @@ export const SYNCPAIRS = [
 			"AttackMovePhysical",
 			"AttackMoveSpecial",
 			"MoveTypeNormal",
-			"MoveTypePoison"
+			"MoveTypePoison",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0242_40_masaru",
 		"internalPokemonName": "pm0820_00_00_yokubarisu"
@@ -24155,7 +24158,8 @@ export const SYNCPAIRS = [
 			"First Unit",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
-			"MoveTypePsychic"
+			"MoveTypePsychic",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0298_00_zinnia",
 		"internalPokemonName": "pm0981_00_00_rikikirin"
@@ -24435,7 +24439,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
-			"MoveTypeSteel"
+			"MoveTypeSteel",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0303_40_poppy",
 		"internalPokemonName": "pm0208_01_haganeil_rare"
@@ -24914,7 +24919,8 @@ export const SYNCPAIRS = [
 			"First Unit",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
-			"MoveTypeDark"
+			"MoveTypeDark",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0317_00_pepper",
 		"internalPokemonName": "pm0943_00_00_mafitiff"
@@ -25365,7 +25371,8 @@ export const SYNCPAIRS = [
 			"First Unit",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
-			"MoveTypeIce"
+			"MoveTypeIce",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0187_00_sina",
 		"internalPokemonName": "pm0471_00_glacia"
@@ -25412,7 +25419,8 @@ export const SYNCPAIRS = [
 			"First Unit",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
-			"MoveTypePsychic"
+			"MoveTypePsychic",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0188_00_dexio",
 		"internalPokemonName": "pm0196_00_eifie"
@@ -26262,7 +26270,8 @@ export const SYNCPAIRS = [
 			"SyncMovePhysical",
 			"AttackMovePhysical",
 			"MoveTypeGrass",
-			"MoveTypeDragon"
+			"MoveTypeDragon",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0138_00_orchid2",
 		"internalPokemonName": "pm0103_61_00_anassy"
@@ -26454,7 +26463,7 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Hisui",
 			"First Unit",
-			"SyncMovePhysical",
+			"SyncMoveSpecial",
 			"AttackMovePhysical",
 			"AttackMoveSpecial",
 			"AttackMoveStatus",
@@ -26595,7 +26604,8 @@ export const SYNCPAIRS = [
 			"SyncMovePhysical",
 			"AttackMovePhysical",
 			"AttackMoveStatus",
-			"MoveTypeGrass"
+			"MoveTypeGrass",
+			"ItemBerry"
 		],
 		"internalTrainerName": "ch0107_00_dent",
 		"internalPokemonName": "pm0512_00_yanakkie"
@@ -26774,7 +26784,8 @@ const P = {
 		"SyncMoveStatus",
 		"AttackMovePhysical",
 		"AttackMoveSpecial",
-		"AttackMoveStatus"
+		"AttackMoveStatus",
+		"ItemBerry"
 	],
 	"internalTrainerName": "",
 	"internalPokemonName": ""

@@ -610,6 +610,8 @@ input:focus { outline: 0; }
 .btn:has(.tooltiptext) { overflow:visible !important; }
 .btn:hover .tooltiptext { visibility: visible; }
 
+.btn[value*="Superawakening"] { font-size: 11px; }
+
 
 #userBtns {
 	display: flex;
