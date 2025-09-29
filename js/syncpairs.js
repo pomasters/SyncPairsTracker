@@ -21734,7 +21734,8 @@ export const SYNCPAIRS = [
 			"Grass",
 			"Sinnoh",
 			"Nature Lover",
-			"Knowledgeable"
+			"Knowledgeable",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Buddy Move",
@@ -21785,7 +21786,8 @@ export const SYNCPAIRS = [
 			"Water",
 			"Sinnoh",
 			"Nature Lover",
-			"Knowledgeable"
+			"Knowledgeable",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Limited",
@@ -21876,7 +21878,8 @@ export const SYNCPAIRS = [
 			"Ice",
 			"Sinnoh",
 			"Nature Lover",
-			"Artistic"
+			"Artistic",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Buddy Move",
@@ -21926,7 +21929,8 @@ export const SYNCPAIRS = [
 			"Fire",
 			"Sinnoh",
 			"Nature Lover",
-			"Artistic"
+			"Artistic",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Eeveelution",
@@ -22950,7 +22954,8 @@ export const SYNCPAIRS = [
 			"Dark",
 			"Sinnoh",
 			"Main Character",
-			"Scarf"
+			"Scarf",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Starter",
@@ -22999,7 +23004,8 @@ export const SYNCPAIRS = [
 			"Fighting",
 			"Sinnoh",
 			"Main Character",
-			"Scarf"
+			"Scarf",
+			"Hisui Adventurer"
 		],
 		"tags": [
 			"Starter",
