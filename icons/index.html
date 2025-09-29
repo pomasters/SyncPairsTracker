@@ -57,35 +57,36 @@
 		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
 
 
-		SYNCPAIRS.forEach(entry => {
-			entry.images.forEach(imgPath => {
-				const filename = imgPath.split("/").pop();
-				const rarity = filename.split("_").pop().replace(".png","star");
+		let iconhtml = "";
+		for(const entry of SYNCPAIRS) {
+			if (entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") {	continue; }
 
-				const icon = document.createElement('div');
-				icon.className = 'icon';
+			const trainerName = entry.trainerName === "N" ? "Natural" : entry.trainerName;
+			const acquisition = entry.syncPairAcquisition
+			.toLowerCase()
+			.replaceAll(/ \/ general pool| scout| exchange|: pml arc/g, "")
+			.replaceAll("é", "e")
+			.replaceAll(" ", "") || "";
 
-				const trainerName = (entry.trainerName === "N") ? "Natural" : entry.trainerName;
-				icon.dataset.name = trainerName + ' ' + (entry.trainerAlt || '');
-				icon.dataset.pokemon = entry.pokemonName;
-				icon.dataset.type = entry.pokemonType;
-				icon.dataset.role = entry.syncPairRole;
-				icon.dataset.region = entry.syncPairRegion;
-				icon.dataset.rarity = rarity + "star";
-				icon.dataset.releasedate = entry.releaseDate;
-				icon.dataset.acquisition = entry.syncPairAcquisition.toLowerCase()
-							.replace(" / general pool", "")
-							.replace(" scout", "")
-							.replace(" exchange", "")
-							.replace(": pml arc", "")
-							.replace("é", "e")
-							.replace(" ", "") || "";
+			for(const imgPath of entry.images) {
+				const filename = imgPath.split("/").at(-1);
+				const rarity = filename.split("_").at(-1).replace(".png", "star");
 
-				icon.innerHTML = `<img src="${imgPath.replace("icons/","")}" alt="${entry.trainerName} ${entry.pokemonName}">`;
-
-				syncpairs.appendChild(icon);
-			});
-		});
+					iconhtml += `
+						<div class="icon"
+							data-name="${trainerName} ${entry.trainerAlt || ""}"
+							data-pokemon="${entry.pokemonName}"
+							data-type="${entry.pokemonType}"
+							data-role="${entry.syncPairRole}"
+							data-region="${entry.syncPairRegion}"
+							data-rarity="${rarity}"
+							data-releasedate="${entry.releaseDate}"
+							data-acquisition="${acquisition}">
+							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
+						</div>`;
+			}
+		}
+		syncpairs.innerHTML = iconhtml;
 
 
 		const searchBar = document.getElementById('searchBar');
