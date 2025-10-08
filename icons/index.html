@@ -44,7 +44,7 @@
 </head>
 
 <body>
-	<input type="text" id="searchBar" placeholder='Trainer, Pokémon, type, role, region, rarity (3star, ..., EXstar), date (yyyy-mm-dd), acquisition&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;"fire tech" = fireANDtech&nbsp;&nbsp;"fire,tech" = fireORtech&nbsp;&nbsp;"-fire" = NOTfire'>
+	<input type="text" id="searchBar" placeholder='Search : trainer / Pokémon / type / role / region / basestar...3star...EXstar / yyyy-mm-dd / acquisition    |    fire tech = fireANDtech / fire,tech = fireORtech / -fire = NOTfire'>
 
 	<div id="syncpairs"></div>
 
@@ -59,7 +59,7 @@
 
 		let iconhtml = "";
 		for(const entry of SYNCPAIRS) {
-			if (entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") {	continue; }
+			if(entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") { continue; }
 
 			const trainerName = entry.trainerName === "N" ? "Natural" : entry.trainerName;
 			const acquisition = entry.syncPairAcquisition
@@ -68,23 +68,25 @@
 			.replaceAll("é", "e")
 			.replaceAll(" ", "") || "";
 
-			for(const imgPath of entry.images) {
+			entry.images.forEach((imgPath, index) => {
 				const filename = imgPath.split("/").at(-1);
 				const rarity = filename.split("_").at(-1).replace(".png", "star");
+				const baseStar = index === 0 ? "basestar" : "";
 
-					iconhtml += `
-						<div class="icon"
-							data-name="${trainerName} ${entry.trainerAlt || ""}"
-							data-pokemon="${entry.pokemonName}"
-							data-type="${entry.pokemonType}"
-							data-role="${entry.syncPairRole}"
-							data-region="${entry.syncPairRegion}"
-							data-rarity="${rarity}"
-							data-releasedate="${entry.releaseDate}"
-							data-acquisition="${acquisition}">
-							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
-						</div>`;
-			}
+				iconhtml += `
+					<div class="icon"
+						data-name="${trainerName} ${entry.trainerAlt || ""}"
+						data-pokemon="${entry.pokemonName}"
+						data-type="${entry.pokemonType}"
+						data-role="${entry.syncPairRole}"
+						data-region="${entry.syncPairRegion}"
+						data-rarity="${rarity}"
+						data-basestar="${baseStar}"
+						data-releasedate="${entry.releaseDate}"
+						data-acquisition="${acquisition}">
+						<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
+					</div>`;
+			})
 		}
 		syncpairs.innerHTML = iconhtml;
 
@@ -95,7 +97,7 @@
 		searchBar.addEventListener('input', () => {
 			const query = searchBar.value.toLowerCase().trim();
 
-			if (query === "") {
+			if(query === "") {
 				icons.forEach(icon => icon.style.display = '');
 				return;
 			}
@@ -109,10 +111,11 @@
 				const region = icon.dataset.region.toLowerCase();
 				const role = icon.dataset.role.toLowerCase();
 				const rarity = icon.dataset.rarity.toLowerCase();
+				const baseStar = icon.dataset.basestar.toLowerCase();
 				const releasedate = icon.dataset.releasedate.toLowerCase();
 				const acquisition = icon.dataset.acquisition.toLowerCase();
 
-				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${releasedate} ${acquisition}`;
+				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${baseStar} ${releasedate} ${acquisition}`;
 
 				const matchesGroup = groups.some(group => {
 					const words = group.split(/\s+/);
