@@ -1234,7 +1234,17 @@ function showSeparator(dataToSeparate) {
 	if(!syncPairs.length) return;
 
 	const handlers = {
-		".syncStar": el => `<img src="${SYNCSTARIMGS2[Math.max(parseInt(el.dataset.currentstar)-1,0)]}">`,
+		".syncStar": el => {
+			const parent = el.parentElement;
+			const trainer = parent.querySelector(".infoTrainerName").textContent;
+			const pokemon = parent.querySelector(".infoPokemonName").textContent;
+
+			let idx = Math.max(parseInt(el.dataset.currentstar)-1,0);
+			if(trainer.includes("Player") && pokemon.includes("Alcremie")) {
+				idx = parent.querySelector(".syncImages .currentImage").src.includes("_5.png") ? 4 : 3;
+			}
+			return `<img src="${SYNCSTARIMGS2[idx]}">`
+		},
 
 		".syncLevel": el => {
 			const idx = Math.min(parseInt(el.dataset.currentimage), 4);
@@ -1712,17 +1722,26 @@ sortTypes.forEach(btn => document.getElementById(btn[0]).addEventListener("click
 }))
 
 document.getElementById("sortByStar").addEventListener("click", function() {
-	tinysort('.syncPair',{sortFunction:function(a,b){
-		var lenA = parseInt(a.elm.querySelector(".syncStar").dataset.currentstar);
-		var lenB = parseInt(b.elm.querySelector(".syncStar").dataset.currentstar);
 
-		if(document.getElementById("sortingOrder").dataset.asc === "true") {
-			return lenA===lenB?0:(lenA<lenB?1:-1);
-		} else {
-			return lenA===lenB?0:(lenA>lenB?1:-1);
+	function getStars(elm) {
+		const trainer = elm.querySelector(".infoTrainerName").textContent;
+		const pokemon = elm.querySelector(".infoPokemonName").textContent;
+
+		if(trainer.includes("Player") && pokemon.includes("Alcremie")) {
+			return elm.querySelector(".syncImages .currentImage").src.includes("_5.png") ? 5 : 4;
 		}
-	}});
+		return parseInt(elm.querySelector(".syncStar").dataset.currentstar);
+	};
 
+	const asc = document.getElementById("sortingOrder").dataset.asc === "true";
+	tinysort(".syncPair", {
+		sortFunction: (a, b) => {
+			const lenA = getStars(a.elm);
+			const lenB = getStars(b.elm);
+			if(lenA === lenB) return 0;
+			return asc ? (lenA < lenB ? 1 : -1) : (lenA > lenB ? 1 : -1);
+		}
+	});
 
 	if(document.getElementById("showSeparator").checked) { showSeparator(".syncStar"); }
 })
