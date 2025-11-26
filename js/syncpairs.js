@@ -2338,7 +2338,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "018",
 		"trainerName": "Brendan",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0277",
 		"pokemonName": "Swellow",
 		"pokemonGender": "♂",
@@ -7904,6 +7904,61 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0642_11_00_voltolos"
 	},
 	{
+		"dexNumber": "067",
+		"trainerName": "Hilbert",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0646",
+		"pokemonName": "Kyurem",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Other Form"
+		],
+		"pokemonType": "Ice",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-11-28",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Hilbert_0646_5.png",
+			"icons/Hilbert_0646_EX.png"
+		],
+		"themes": [
+			"Ice",
+			"Unova",
+			"Main Character",
+			"Champion",
+			"Cape"
+		],
+		"tags": [
+			"Legendary",
+			"Shiny",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Wish ZoneEX",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Neo Champion",
+			"Master Passive",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeIce"
+		],
+		"internalTrainerName": "ch0020_90_toya",
+		"internalPokemonName": "pm0646_12_kyurem_rare"
+	},
+	{
 		"dexNumber": "068",
 		"trainerName": "Hilda",
 		"trainerAlt": "",
@@ -8186,6 +8241,98 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0004_00_toko",
 		"internalPokemonName": "pm0641_11_tornelos"
+	},
+	{
+		"dexNumber": "068",
+		"trainerName": "Hilda",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "1010",
+		"pokemonName": "Iron Leaves",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Bug",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-11-30",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Hilda_1010_5.png",
+			"icons/Hilda_1010_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Unova",
+			"Main Character",
+			"Champion",
+			"Cape"
+		],
+		"tags": [
+			"Paradox",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Neo Champion",
+			"Master Passive",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypePsychic"
+		],
+		"internalTrainerName": "ch0004_90_toko",
+		"internalPokemonName": "pm1010_00_00_tetsunoisaha"
+	},
+	{
+		"dexNumber": "068",
+		"trainerName": "Hilda",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0619",
+		"pokemonName": "Mienfoo",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Flying",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2025-12-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Hilda_0619_4.png",
+			"icons/Hilda_0619_5.png",
+			"icons/Hilda_0619_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Unova",
+			"Main Character",
+			"Unova Adventurer",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"isWoman",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeFighting"
+		],
+		"internalTrainerName": "ch0004_00_toko",
+		"internalPokemonName": "pm0619_00_kojofu"
 	},
 	{
 		"dexNumber": "069",
@@ -9164,7 +9311,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "074",
 		"trainerName": "Giovanni",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0033",
 		"pokemonName": "Nidorino",
 		"pokemonGender": "♂",
@@ -9918,6 +10065,55 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0111_90_wataru",
 		"internalPokemonName": "pm0149_00_kairyu"
+	},
+	{
+		"dexNumber": "077",
+		"trainerName": "Lance",
+		"trainerAlt": "",
+		"pokemonNumber": "0006",
+		"pokemonName": "Charizard",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Mega Evolution"
+		],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-12-09",
+		"syncPairAcquisition": "Variety Scout",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Lance_0006_5.png",
+			"icons/Lance_0006_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Kanto",
+			"Champion",
+			"Cape"
+		],
+		"tags": [
+			"Starter",
+			"GridMega",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeFlying"
+		],
+		"internalTrainerName": "ch0111_00_wataru",
+		"internalPokemonName": "pm0006_00_lizardon"
 	},
 	{
 		"dexNumber": "078",
@@ -12373,7 +12569,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "092",
 		"trainerName": "Wally",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0301",
 		"pokemonName": "Delcatty",
 		"pokemonGender": "♀",
@@ -12601,7 +12797,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "093",
 		"trainerName": "Jasmine",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0081",
 		"pokemonName": "Magnemite",
 		"pokemonGender": "",
@@ -13990,7 +14186,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "102",
 		"trainerName": "Gladion",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0042",
 		"pokemonName": "Golbat",
 		"pokemonGender": "♂",
@@ -17511,7 +17707,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "120",
 		"trainerName": "Diantha",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0697",
 		"pokemonName": "Tyrantrum",
 		"pokemonGender": "♂",
@@ -18917,6 +19113,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isMan",
+			"Grid3",
+			"GridExpansion",
 			"Starter",
 			"ZMove",
 			"Song Key",
@@ -23369,7 +23567,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "187",
 		"trainerName": "Penny",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0133",
 		"pokemonName": "Eevee",
 		"pokemonGender": "♀",
@@ -24751,7 +24949,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "205",
 		"trainerName": "Larry",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0916",
 		"pokemonName": "Oinkologne",
 		"pokemonGender": "♀",
@@ -25269,6 +25467,53 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0317_00_pepper",
 		"internalPokemonName": "pm0932_00_00_kojio"
+	},
+	{
+		"dexNumber": "210",
+		"trainerName": "Arven",
+		"trainerAlt": "Holiday 2025",
+		"pokemonNumber": "0952",
+		"pokemonName": "Scovillain",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-12-15",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Arven_0952_5.png",
+			"icons/Arven_0952_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Paldea",
+			"Rival",
+			"Seasonal Outfit",
+			"Cook"
+		],
+		"tags": [
+			"Holiday",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypeFire",
+			"ItemBerry"
+		],
+		"internalTrainerName": "ch0317_40_pepper",
+		"internalPokemonName": "pm0952_00_00_scovillain"
 	},
 	{
 		"dexNumber": "211",
@@ -26633,7 +26878,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "233",
 		"trainerName": "Carmine",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0541",
 		"pokemonName": "Swadloon",
 		"pokemonGender": "♀",
@@ -26673,6 +26918,55 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0356_00_zeiyu",
 		"internalPokemonName": "pm0541_00_kurumayu"
+	},
+	{
+		"dexNumber": "233",
+		"trainerName": "Carmine",
+		"trainerAlt": "Sygna Suit",
+		"pokemonNumber": "1025",
+		"pokemonName": "Pecharunt",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Poison",
+		"pokemonWeak": "Psychic",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2025-12-27",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Carmine_1025_5.png",
+			"icons/Carmine_1025_EX.png"
+		],
+		"themes": [
+			"Poison",
+			"Paldea",
+			"Rival",
+			"Sygna Suit"
+		],
+		"tags": [
+			"Mythical",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Song Key",
+			"Master Passive",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypePoison"
+		],
+		"internalTrainerName": "ch0356_10_zeiyu",
+		"internalPokemonName": "pm1025_00_00_momowarou"
 	},
 	{
 		"dexNumber": "234",
@@ -27001,7 +27295,7 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0516_00_hiyakkie"
 	},
 	{
-		"dexNumber": "0241",
+		"dexNumber": "241",
 		"trainerName": "Miriam",
 		"trainerAlt": "",
 		"pokemonNumber": "0748",
@@ -27141,4 +27435,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.62.0";
+export const VERSION = "v2.63.0";
