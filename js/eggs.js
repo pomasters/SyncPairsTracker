@@ -2692,7 +2692,7 @@ export const EGGS = [
 			"Pokémon Egg"
 		],
 		"internalTrainerName": "",
-		"internalPokemonName": "pm0175_00_togepy.ktx.png"
+		"internalPokemonName": "pm0175_00_togepy"
 	},
 	{
 		"dexNumber": "001",
