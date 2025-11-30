@@ -16,17 +16,45 @@
 			margin: 0;
 			padding: 0;
 		}
+
+		#controls {
+			position: sticky;
+			padding: 0 10px;
+			top: 0;
+		}
 		#searchBar {
-			width: 98%;
+			width: 100%;
 			padding: 10px;
 			font-size: 1.2em;
 			box-sizing: border-box;
 			border: none;
 			outline: none;
-			border-bottom: 2px solid #ccc;
-			position: sticky;
-			top: 0;
+			border-bottom: 2px solid #64a4b7;
 		}
+		#quicksearch {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 4px;
+			gap: 5px;
+		}
+
+		.quickbtn {
+			border: 2px solid #64a4b7;
+			background-color: #ffffff;
+			color: #64a4b7;
+			outline: none;
+			border-radius: 5px;
+		}
+		.quickbtn:hover {
+			background-color: #64a4b7;
+			color: white;
+			cursor: pointer;
+		}
+
+		.quickbtn:active {
+			scale: 0.9;
+		}
+
 		#syncpairs {
 			display: flex;
 			flex-flow: wrap;
@@ -40,11 +68,40 @@
 			width: 128px;
 			height: 128px;
 		}
+
+		@media only screen and (max-width: 1024px) {
+			#searchBar {
+				font-size: 1em;
+			}
+			#syncpairs {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.icon {
+				width: 25%;
+			}
+			.icon img {
+				width: 100%;
+				height: auto;
+			}
+		}
 	</style>
 </head>
 
 <body>
-	<input type="text" id="searchBar" placeholder='Search : trainer / Pokémon / type / role / region / basestar...3star...EXstar / yyyy-mm-dd / acquisition    |    fire tech = fireANDtech / fire,tech = fireORtech / -fire = NOTfire'>
+	<div id="controls">
+		<input type="text" id="searchBar" placeholder='Search : trainer / Pokémon / type / role / region / basestar...3star...EXstar / yyyy-mm-dd / acquisition    |    fire tech = fireANDtech / fire,tech = fireORtech / -fire = NOTfire'>
+
+		<div id="quicksearch">
+			<button class="quickbtn bi bi-x" value="clearsearch">❌</button>
+			<button class="quickbtn" value="basestar">Default star</button>
+			<button class="quickbtn" value="exstar">6★</button>
+			<button class="quickbtn" value="-player">No MC</button>
+			<button class="quickbtn" value="masterfair">Master Fair</button>
+			<button class="quickbtn" value="pokefair">Poké Fair</button>
+			<button class="quickbtn" value="thismonth">This month</button>
+		</div>
+	</div>
 
 	<div id="syncpairs"></div>
 
@@ -91,11 +148,11 @@
 		syncpairs.innerHTML = iconhtml;
 
 
-		const searchBar = document.getElementById('searchBar');
 		const icons = document.querySelectorAll('.icon');
+		function search() {
+			const query = document.getElementById('searchBar').value.replace(/  +/g,' ').toLowerCase();
 
-		searchBar.addEventListener('input', () => {
-			const query = searchBar.value.toLowerCase().trim();
+			document.getElementById("searchBar").value = query;
 
 			if(query === "") {
 				icons.forEach(icon => icon.style.display = '');
@@ -131,6 +188,31 @@
 				});
 
 				icon.style.display = matchesGroup ? '' : 'none';
+			});	
+		}
+
+
+		document.getElementById('searchBar').addEventListener('input', search);
+
+		document.querySelectorAll('.quickbtn').forEach(button => {
+
+			button.addEventListener('click', function() {
+				const searchbar = document.getElementById('searchBar');
+				let tosearch = this.value;
+
+				if(tosearch == "thismonth") {
+					tosearch = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`
+				}
+
+				if(searchbar.value.toLowerCase().includes(tosearch)) {
+					searchbar.value = searchbar.value.replace(tosearch, "").trim();
+				} else {
+					searchbar.value += ` ${tosearch} `;
+				}
+
+				if(tosearch == "clearsearch") { searchbar.value = ""; }
+
+				search();
 			});
 		});
 	</script>
