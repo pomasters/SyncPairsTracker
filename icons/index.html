@@ -109,47 +109,47 @@
 		import { SYNCPAIRS } from '../js/syncpairs.js';
 		import { EGGS } from '../js/eggs.js';
 
-		const syncpairs = document.getElementById('syncpairs');
-
 		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
 
 
-		let iconhtml = "";
-		for(const entry of SYNCPAIRS) {
-			if(entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") { continue; }
+		function generateIcons(syncpairs) {
+			let iconhtml = "";
+			for(const entry of syncpairs ?? []) {
+				if(entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") { continue; }
 
-			const trainerName = entry.trainerName === "N" ? "Natural" : entry.trainerName;
-			const acquisition = entry.syncPairAcquisition
-			.toLowerCase()
-			.replaceAll(/ \/ general pool| scout| exchange|: pml arc/g, "")
-			.replaceAll("é", "e")
-			.replaceAll(" ", "") || "";
+				const trainerName = entry.trainerName === "N" ? "Natural" : entry.trainerName;
+				const acquisition = entry.syncPairAcquisition
+				.toLowerCase()
+				.replaceAll(/ \/ general pool| scout| exchange|: pml arc/g, "")
+				.replaceAll("é", "e")
+				.replaceAll(" ", "") || "";
 
-			entry.images.forEach((imgPath, index) => {
-				const filename = imgPath.split("/").at(-1);
-				const rarity = filename.split("_").at(-1).replace(".png", "star");
-				const baseStar = index === 0 ? "basestar" : "";
+				entry.images.forEach((imgPath, index) => {
+					const filename = imgPath.split("/").at(-1);
+					const rarity = filename.split("_").at(-1).replace(".png", "star");
+					const baseStar = index === 0 ? "basestar" : "";
 
-				iconhtml += `
-					<div class="icon"
-						data-name="${trainerName} ${entry.trainerAlt || ""}"
-						data-pokemon="${entry.pokemonName}"
-						data-type="${entry.pokemonType}"
-						data-role="${entry.syncPairRole}"
-						data-region="${entry.syncPairRegion}"
-						data-rarity="${rarity}"
-						data-basestar="${baseStar}"
-						data-releasedate="${entry.releaseDate}"
-						data-acquisition="${acquisition}">
-						<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
-					</div>`;
-			})
+					iconhtml += `
+						<div class="icon"
+							data-name="${trainerName} ${entry.trainerAlt || ""}"
+							data-pokemon="${entry.pokemonName}"
+							data-type="${entry.pokemonType}"
+							data-role="${entry.syncPairRole}"
+							data-region="${entry.syncPairRegion}"
+							data-rarity="${rarity}"
+							data-basestar="${baseStar}"
+							data-releasedate="${entry.releaseDate}"
+							data-acquisition="${acquisition}">
+							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
+						</div>`;
+				})
+			}
+			document.getElementById('syncpairs').innerHTML = iconhtml;
 		}
-		syncpairs.innerHTML = iconhtml;
 
 
-		const icons = document.querySelectorAll('.icon');
-		function search() {
+		function searchIcons() {
+			const icons = document.querySelectorAll('.icon');
 			const query = document.getElementById('searchBar').value.replace(/  +/g,' ').toLowerCase();
 
 			document.getElementById("searchBar").value = query;
@@ -192,7 +192,7 @@
 		}
 
 
-		document.getElementById('searchBar').addEventListener('input', search);
+		document.getElementById('searchBar').addEventListener('input', searchIcons);
 
 		document.querySelectorAll('.quickbtn').forEach(button => {
 
@@ -212,9 +212,12 @@
 
 				if(tosearch == "clearsearch") { searchbar.value = ""; }
 
-				search();
+				searchIcons();
 			});
 		});
+
+
+		generateIcons(SYNCPAIRS);
 	</script>
 </body>
 
