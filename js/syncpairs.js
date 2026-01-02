@@ -19066,7 +19066,7 @@ export const SYNCPAIRS = [
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
 		"syncPairRarity": "5",
-		"releaseDate": "2026-01-01",
+		"releaseDate": "2026-01-03",
 		"syncPairAcquisition": "Seasonal Scout",
 		"syncPairRegion": "Alola",
 		"syncPairIcon": "none",
