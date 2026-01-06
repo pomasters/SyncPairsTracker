@@ -5209,7 +5209,8 @@ export const SYNCPAIRS = [
 			"Ice",
 			"Unova",
 			"Special Costume",
-			"Undella Town"
+			"Undella Town",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
@@ -12919,7 +12920,8 @@ export const SYNCPAIRS = [
 			"Bug",
 			"Johto",
 			"Gym Leader",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
@@ -13890,7 +13892,8 @@ export const SYNCPAIRS = [
 			"Ghost",
 			"Johto",
 			"Gym Leader",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Starter",
@@ -14402,7 +14405,8 @@ export const SYNCPAIRS = [
 			"Normal",
 			"Alola",
 			"Rival",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
@@ -17594,7 +17598,8 @@ export const SYNCPAIRS = [
 			"Dragon",
 			"Galar",
 			"Rival",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
@@ -23661,7 +23666,8 @@ export const SYNCPAIRS = [
 			"Psychic",
 			"Sinnoh",
 			"Main Character",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
@@ -25455,7 +25461,8 @@ export const SYNCPAIRS = [
 			"Ground",
 			"Galar",
 			"Gym Leader",
-			"Special Costume"
+			"Special Costume",
+			"Pasio Academy"
 		],
 		"tags": [
 			"Buddy Move",
