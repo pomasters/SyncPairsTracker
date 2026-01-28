@@ -557,7 +557,9 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isMan",
+			"Multiple Units",
 			"Multiple Pokemon",
+			"Multiple Pairs",
 			"First Unit",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -656,6 +658,56 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0141_00_kabutops"
 	},
 	{
+		"dexNumber": "002",
+		"trainerName": "Brock",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0095|2",
+		"pokemonName": "Onix",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-02-19",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "Arc",
+		"images": [
+			"icons/Brock_0095_2_5.png",
+			"icons/Brock_0095_2_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Kanto",
+			"Gym Leader",
+			"Arc Suit",
+			"Body Builder"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Rebuff",
+			"Song Key",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeRock"
+		],
+		"internalTrainerName": "ch0015_90_takeshi",
+		"internalPokemonName": "pm0095_00_iwark"
+	},
+	{
 		"dexNumber": "003",
 		"trainerName": "Misty",
 		"trainerAlt": "",
@@ -689,6 +741,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
 			"isWoman",
 			"First Unit",
 			"SyncMoveSpecial",
@@ -786,6 +840,57 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0110_10_kasumi",
 		"internalPokemonName": "pm0134_00_showers"
+	},
+	{
+		"dexNumber": "003",
+		"trainerName": "Misty",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0121|2",
+		"pokemonName": "Starmie",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Strike (Special)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-02-17",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "Arc",
+		"images": [
+			"icons/Misty_0121_2_5.png",
+			"icons/Misty_0121_2_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Kanto",
+			"Gym Leader",
+			"Arc Suit",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isWoman",
+			"Rebuff",
+			"Song Key",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypeWater"
+		],
+		"internalTrainerName": "ch0110_90_kasumi",
+		"internalPokemonName": "pm0121_00_starmie"
 	},
 	{
 		"dexNumber": "004",
@@ -7765,6 +7870,8 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Starter",
+			"Grid3",
+			"GridExpansion",
 			"First Unit",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -9171,6 +9278,48 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0048_80_gima",
 		"internalPokemonName": "pm0359_00_absol"
+	},
+	{
+		"dexNumber": "073",
+		"trainerName": "Grimsley",
+		"trainerAlt": "lodge",
+		"pokemonNumber": "0430",
+		"pokemonName": "Honchkrow",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2026-02-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Grimsley_0430_4.png",
+			"icons/Grimsley_0430_5.png",
+			"icons/Grimsley_0430_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Unova",
+			"Elite Four",
+			"Scarf"
+		],
+		"tags": [
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeFlying"
+		],
+		"internalTrainerName": "ch0048_00_gima",
+		"internalPokemonName": "pm0430_00_dongkarasu"
 	},
 	{
 		"dexNumber": "074",
@@ -19091,7 +19240,6 @@ export const SYNCPAIRS = [
 			"New Year",
 			"Buddy Move",
 			"Limited",
-			"Weather",
 			"Wish Zone",
 			"Unique Costume",
 			"Multiple Units",
@@ -19876,6 +20024,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"isMan",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"First Unit",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -22460,6 +22609,58 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0901_00_00_gachiguma"
 	},
 	{
+		"dexNumber": "166",
+		"trainerName": "Adaman",
+		"trainerAlt": "Palentine's 2026",
+		"pokemonNumber": "0700",
+		"pokemonName": "Sylveon",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-02-01",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Sinnoh",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Adaman_0700_5.png",
+			"icons/Adaman_0700_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Sinnoh",
+			"Seasonal Outfit",
+			"Hisui Adventurer",
+			"Cook"
+		],
+		"tags": [
+			"Shiny",
+			"Eeveelution",
+			"Palentine",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Hisui",
+			"ItemBerry",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeFairy"
+		],
+		"internalTrainerName": "ch0284_41_seki",
+		"internalPokemonName": "pm0767_00_ninnfi_rare"
+	},
+	{
 		"dexNumber": "167",
 		"trainerName": "Irida",
 		"trainerAlt": "",
@@ -24959,6 +25160,54 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0302_00_chiri",
 		"internalPokemonName": "pm0340_00_namazun"
+	},
+	{
+		"dexNumber": "201",
+		"trainerName": "Rika",
+		"trainerAlt": "Palentine's 2026",
+		"pokemonNumber": "0195",
+		"pokemonName": "Quagsire",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-01-30",
+		"syncPairAcquisition": "Seasonal Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Rika_0195_5.png",
+			"icons/Rika_0195_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Paldea",
+			"Elite Four",
+			"Seasonal Outfit",
+			"Grown Woman"
+		],
+		"tags": [
+			"Shiny",
+			"Palentine",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeGround"
+		],
+		"internalTrainerName": "ch0302_40_chiri",
+		"internalPokemonName": "pm0195_01_nuoh_rare"
 	},
 	{
 		"dexNumber": "202",
@@ -27831,4 +28080,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.64.0";
+export const VERSION = "v2.65.0";
