@@ -22646,7 +22646,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
-			"Circle",
+			"Region Circle",
 			"Unique Costume",
 			"Multiple Units",
 			"Multiple Pokemon",

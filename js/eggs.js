@@ -831,7 +831,7 @@ export const EGGS = [
 		"dexNumber": "001",
 		"trainerName": "Player",
 		"trainerAlt": "",
-		"pokemonNumber": "0053",
+		"pokemonNumber": "0053|2",
 		"pokemonName": "Persian",
 		"pokemonGender": "",
 		"pokemonForm": [
