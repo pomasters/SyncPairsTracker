@@ -260,31 +260,18 @@
 	}
 
 	#syncPairs {
-		padding: 5px;
-		margin: -5px;
-		border-radius: 10px;
-		max-height: calc(100% - 40px);
-		overflow-y: scroll;
-		align-content: baseline;
+		padding: 4px;
+		gap: 4px;
 	}
-
 	.syncPair {
-		width: 24%;
-		max-width: 100px;
+		max-width: 24%;
 		height: auto;
-		margin: 3px 1px;
-	}
-
-	.syncStar {
-		width: calc(100% * 85/135);
-		height: calc(80% * 55/135);
+		aspect-ratio: 1;
 	}
 
 	.selected .syncFav {
 		background-image: url("../images/favorite1.png");
 		background-size: contain;
-		width: 22%;
-		height: 20%;
 	}
 
 	.syncFav img {
@@ -296,26 +283,11 @@
 		display: block;
 	}
 
-	.syncRoles {
-		top: 35%;
-	}
-
 	.syncLevel {
-		width: 28%;
-		height: auto;
-		z-index: 2;
-		left: 3%;
-		bottom: 13%;
+		width: 25%;
+		aspect-ratio: 1;
 	}
 
-	.syncGrid {
-		bottom: -1%;
-		z-index: 1;
-		left: -13px;
-		width: 33%;
-		height: 22px;
-		margin: auto;
-	}
 
 	.selected:hover > .syncInfos {
 		display: none;

@@ -21,6 +21,8 @@
 			position: sticky;
 			padding: 0 10px;
 			top: 0;
+			display: flex;
+			flex-wrap: wrap;
 		}
 		#searchBar {
 			width: 100%;
@@ -31,27 +33,46 @@
 			outline: none;
 			border-bottom: 2px solid #64a4b7;
 		}
-		#quicksearch {
+		#quicksearch, #iconsversion {
 			display: flex;
 			flex-wrap: wrap;
+			align-items: center;
 			margin-top: 4px;
 			gap: 5px;
 		}
+		#iconsversion {
+			margin-left: 8px;
+		}
+		#iconsversion p {
+			margin: 0px;
+		}
 
-		.quickbtn {
+		.quickbtn, .optbtn {
 			border: 2px solid #64a4b7;
 			background-color: #ffffff;
 			color: #64a4b7;
 			outline: none;
 			border-radius: 5px;
+			padding: 4px;
+			font-size: 14px;
+			line-height: 14px;
 		}
-		.quickbtn:hover {
+		.optbtn {
+			border: 2px solid #eb7474;
+			color: #eb7474;
+			text-decoration: none;
+		}
+
+		.quickbtn:hover, .optbtn:hover {
 			background-color: #64a4b7;
 			color: white;
 			cursor: pointer;
 		}
+		.optbtn:hover {
+			background-color: #eb7474;
+		}
 
-		.quickbtn:active {
+		.quickbtn:active, .optbtn:active {
 			scale: 0.9;
 		}
 
@@ -97,9 +118,10 @@
 			<button class="quickbtn" value="basestar">Default star</button>
 			<button class="quickbtn" value="exstar">6★</button>
 			<button class="quickbtn" value="-player">No MC</button>
-			<button class="quickbtn" value="masterfair">Master Fair</button>
-			<button class="quickbtn" value="pokefair">Poké Fair</button>
 			<button class="quickbtn" value="thismonth">This month</button>
+		</div>
+		<div id="iconsversion">
+			<a class="optbtn" target="_blank" href="sages/">Icons (Sages)</a>
 		</div>
 	</div>
 
@@ -140,7 +162,7 @@
 							data-basestar="${baseStar}"
 							data-releasedate="${entry.releaseDate}"
 							data-acquisition="${acquisition}">
-							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}">
+							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}" loading="lazy">
 						</div>`;
 				})
 			}

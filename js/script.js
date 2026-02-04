@@ -135,7 +135,6 @@ function getImagesDataFromLocalStorage(pair) {
 			"syncStar-currentstar": currentStar,
 			"syncFav-currentValues": currentSyncFav,
 			"syncLevel-currentImage": currentSyncLevel,
-			"syncRole-currentImage": "",
 			"syncRoleEX-currentImage": currentSyncRoleEX,
 			"syncImages-currentImage": currentSyncImage,
 			"syncGrid-currentImage": currentSyncGrid
@@ -148,7 +147,6 @@ function getImagesDataFromLocalStorage(pair) {
 		"syncStar-currentstar": pair.syncPairRarity,
 		"syncFav-currentValues": DEFAULT_FAVS_VALUES,
 		"syncLevel-currentImage": 0,
-		"syncRole-currentImage": "",
 		"syncRoleEX-currentImage": 0,
 		"syncImages-currentImage": 0,
 		"syncGrid-currentImage": 0
@@ -202,7 +200,6 @@ function generateImagesPairHTML(pair, imagesData) {
 		</div>
 
 		<div class="syncRoles">
-			<div class="syncRole">${genImages([SYNCROLEIMGS[pair.syncPairRole.toLowerCase()][0]], 0)}</div>
 			<div class="syncRoleEX" data-currentImage="${imagesData["syncRoleEX-currentImage"]}">${genImages(SYNCROLEIMGS[pair.syncPairRoleEX.toLowerCase()], imagesData["syncRoleEX-currentImage"])}</div>
 		</div>
 
@@ -1017,7 +1014,6 @@ const CSS_RULES = {
 	pairsCounterPercentageVisible: `.pairsCounterPercentage { display: none; }`,
 	syncInfosVisible: `.syncPair:hover > .syncInfos { display: none !important; }`,
 	syncFavsVisible: `.syncFav { display: none !important; }`,
-	syncRoleVisible: `.syncRole { display: none !important; }`,
 	syncRoleEXVisible: `.syncRoleEX { display: none !important; }`,
 	syncGridVisible: `.syncGrid { display: none !important; }`,
 	fullWidthVisible: `
@@ -1045,7 +1041,7 @@ function setVisibility(choices) {
 }
 
 function loadVisibilityFromLocalStorage() {
-	const defaultOptions = ["allVisible", "syncRoleVisible", "syncInfosVisible"];
+	const defaultOptions = ["allVisible", "syncFavsVisible", "syncInfosVisible"];
 	const options = localStorage.getItem("visibilityOptions")
 		? JSON.parse(localStorage.getItem("visibilityOptions"))
 		: defaultOptions;
@@ -1593,7 +1589,6 @@ document.getElementById("datamineVisible").addEventListener("click", function() 
 document.getElementById("pairsCounterPercentageVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncFavsVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncInfosVisible").addEventListener("click", function() { elementVisible(this.id); });
-document.getElementById("syncRoleVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncRoleEXVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("syncGridVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("fullWidthVisible").addEventListener("click", function() { elementVisible(this.id); });

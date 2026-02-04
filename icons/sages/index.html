@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Sync Pairs Icons</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Index of Pokémon Masters EX icons">
+	<link rel="icon" type="image/png" href="../../favicon.ico">
+	<style>
+		body {
+			background-image: url('../../images/bg.png');
+			background-attachment: fixed;
+			font-family: sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+
+		#controls {
+			position: sticky;
+			padding: 0 10px;
+			top: 0;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		#searchBar {
+			width: 100%;
+			padding: 10px;
+			font-size: 1.2em;
+			box-sizing: border-box;
+			border: none;
+			outline: none;
+			border-bottom: 2px solid #64a4b7;
+		}
+		#quicksearch, #iconsversion {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-top: 4px;
+			gap: 5px;
+		}
+		#iconsversion {
+			margin-left: 8px;
+		}
+		#iconsversion p {
+			margin: 0px;
+		}
+
+		.quickbtn, .optbtn {
+			border: 2px solid #64a4b7;
+			background-color: #ffffff;
+			color: #64a4b7;
+			outline: none;
+			border-radius: 5px;
+			padding: 4px;
+			font-size: 14px;
+			line-height: 14px;
+		}
+		.optbtn {
+			border: 2px solid #eb7474;
+			color: #eb7474;
+			text-decoration: none;
+		}
+
+		.quickbtn:hover, .optbtn:hover {
+			background-color: #64a4b7;
+			color: white;
+			cursor: pointer;
+		}
+		.optbtn:hover {
+			background-color: #eb7474;
+		}
+
+		.quickbtn:active, .optbtn:active {
+			scale: 0.9;
+		}
+
+		#syncpairs {
+			display: flex;
+			flex-flow: wrap;
+			padding: 10px;
+			justify-content: center;
+		}
+		.icon div {
+			display: none;
+		}
+		.icon img {
+			width: 128px;
+			height: 128px;
+		}
+
+		@media only screen and (max-width: 1024px) {
+			#searchBar {
+				font-size: 1em;
+			}
+			#syncpairs {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.icon {
+				width: 25%;
+			}
+			.icon img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="controls">
+		<input type="text" id="searchBar" placeholder='Search : trainer / Pokémon / type / role / region / basestar...3star...EXstar / yyyy-mm-dd / acquisition    |    fire tech = fireANDtech / fire,tech = fireORtech / -fire = NOTfire'>
+
+		<div id="quicksearch">
+			<button class="quickbtn bi bi-x" value="clearsearch">❌</button>
+			<button class="quickbtn" value="basestar">Default star</button>
+			<button class="quickbtn" value="exstar">6★</button>
+			<button class="quickbtn" value="-player">No MC</button>
+			<button class="quickbtn" value="thismonth">This month</button>
+		</div>
+		<div id="iconsversion">
+			<p>Icons initially created by <a href="https://www.reddit.com/user/Sages/" target="_blank">u/Sages</a></p>
+		</div>
+	</div>
+
+	<div id="syncpairs"></div>
+
+	<script type="module">
+		import { SYNCPAIRS } from '../../js/syncpairs.js';
+		import { EGGS } from '../../js/eggs.js';
+
+		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
+
+
+		function generateIcons(syncpairs) {
+			let iconhtml = "";
+			for(const entry of syncpairs ?? []) {
+				if(entry.trainerName === "Player" && entry.pokemonName === "Alcremie" && entry.releaseDate === "2025-02-11") { continue; }
+
+				const trainerName = entry.trainerName === "N" ? "Natural" : entry.trainerName;
+				const acquisition = entry.syncPairAcquisition
+				.toLowerCase()
+				.replaceAll(/ \/ general pool| scout| exchange|: pml arc/g, "")
+				.replaceAll("é", "e")
+				.replaceAll(" ", "") || "";
+
+				entry.images.forEach((imgPath, index) => {
+					const filename = imgPath.split("/").at(-1);
+					const rarity = filename.split("_").at(-1).replace(".png", "star");
+					const baseStar = index === 0 ? "basestar" : "";
+
+					iconhtml += `
+						<div class="icon"
+							data-name="${trainerName} ${entry.trainerAlt || ""}"
+							data-pokemon="${entry.pokemonName}"
+							data-type="${entry.pokemonType}"
+							data-role="${entry.syncPairRole}"
+							data-region="${entry.syncPairRegion}"
+							data-rarity="${rarity}"
+							data-basestar="${baseStar}"
+							data-releasedate="${entry.releaseDate}"
+							data-acquisition="${acquisition}">
+							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}" loading="lazy">
+						</div>`;
+				})
+			}
+			document.getElementById('syncpairs').innerHTML = iconhtml;
+		}
+
+
+		function searchIcons() {
+			const icons = document.querySelectorAll('.icon');
+			const query = document.getElementById('searchBar').value.replace(/  +/g,' ').toLowerCase();
+
+			document.getElementById("searchBar").value = query;
+
+			if(query === "") {
+				icons.forEach(icon => icon.style.display = '');
+				return;
+			}
+
+			const groups = query.split(/\s*,\s*/).filter(g => g.length > 0);
+
+			icons.forEach(icon => {
+				const name = icon.dataset.name.toLowerCase();
+				const pokemon = icon.dataset.pokemon.toLowerCase();
+				const type = icon.dataset.type.toLowerCase();
+				const region = icon.dataset.region.toLowerCase();
+				const role = icon.dataset.role.toLowerCase();
+				const rarity = icon.dataset.rarity.toLowerCase();
+				const baseStar = icon.dataset.basestar.toLowerCase();
+				const releasedate = icon.dataset.releasedate.toLowerCase();
+				const acquisition = icon.dataset.acquisition.toLowerCase();
+
+				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${baseStar} ${releasedate} ${acquisition}`;
+
+				const matchesGroup = groups.some(group => {
+					const words = group.split(/\s+/);
+
+					return words.every(word => {
+						if(word.startsWith("-")) {
+							const negWord = word.slice(1);
+							return !fullText.includes(negWord);
+						} else {
+							return fullText.includes(word);
+						}
+					});
+				});
+
+				icon.style.display = matchesGroup ? '' : 'none';
+			});	
+		}
+
+
+		document.getElementById('searchBar').addEventListener('input', searchIcons);
+
+		document.querySelectorAll('.quickbtn').forEach(button => {
+
+			button.addEventListener('click', function() {
+				const searchbar = document.getElementById('searchBar');
+				let tosearch = this.value;
+
+				if(tosearch == "thismonth") {
+					tosearch = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`
+				}
+
+				if(searchbar.value.toLowerCase().includes(tosearch)) {
+					searchbar.value = searchbar.value.replace(tosearch, "").trim();
+				} else {
+					searchbar.value += ` ${tosearch} `;
+				}
+
+				if(tosearch == "clearsearch") { searchbar.value = ""; }
+
+				searchIcons();
+			});
+		});
+
+
+		generateIcons(SYNCPAIRS);
+	</script>
+</body>
+
+</html>

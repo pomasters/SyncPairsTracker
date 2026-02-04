@@ -891,7 +891,7 @@ input:focus { outline: 0; }
 	text-align: center;
 }
 
-#credits a {
+#leftSide a {
 	color: #103742;
 	text-decoration: none;
 }
@@ -1027,6 +1027,7 @@ input:focus { outline: 0; }
 	padding: 20px;
 	border-radius: 20px;
 	color: var(--blue1);
+	gap: 8px;
 }
 
 #syncPairs *::selection { background: transparent; }
@@ -1034,10 +1035,9 @@ input:focus { outline: 0; }
 .syncPair {
 	width: 100px;
 	height: 100px;
+	aspect-ratio: 1;
 	opacity: 0.2;
 	position: relative;
-	margin: 3px;
-	transition-duration: 100ms;
 }
 
 .selected {
@@ -1046,11 +1046,11 @@ input:focus { outline: 0; }
 
 .syncStar {
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	z-index: 1;
-	width: calc(85px * 100/135);
-	height: calc(55px * 100/135);
+	width: calc(75% * 100 / 128);
+	height: calc(50% * 100 / 128);
 	display: none;
 }
 
@@ -1067,11 +1067,11 @@ input:focus { outline: 0; }
 
 .syncFav {
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 0;
+	top: 0;
 	z-index: 3;
-	width: 22px;
-	height: 22px;
+	width: 22%;
+	height: 22%;
 	display: none;
 }
 
@@ -1141,21 +1141,21 @@ input:focus { outline: 0; }
 
 .syncLevel {
 	position: absolute;
-	left: 4px;
-	bottom: 4px;
+	left: 0%;
+	bottom: 4%;
 	z-index: 1;
-	width: 25px;
-	height: 25px;
+	width: 26%;
+	aspect-ratio: 1;
 	display: none;
 }
 
 .syncGrid {
 	position: absolute;
-	left: -15px;
+	left: -16%;
 	right: 0;
-	bottom: -2px;
+	bottom: -4%;
 	z-index: 1;
-	width: 34px;
+	width: 34%;
 	margin: auto;
 }
 
@@ -1179,30 +1179,21 @@ input:focus { outline: 0; }
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 35px;
-	left: 2px;
-	width: auto !important;
+	bottom: 32%;
+	left: 5%;
+	width: 18%;
+	aspect-ratio: 1;
 	height: auto !important;
 	margin: 0;
 }
 
-.syncRole,
 .syncRoleEX {
 	left: 0;
 	z-index: 1;
-	width: 17px;
-	height: 17px;
-	filter: drop-shadow(0px 0px 2px rgb(25 61 88 / 40%));
+	width: 100%;
+	aspect-ratio: 1;
 }
 
-.syncRole {
-	pointer-events: none !important;
-	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	user-select: none !important;
-}
-.syncRoleEX {
-}
 
 .syncRoleEX:empty {
 	display:none;
@@ -1215,7 +1206,6 @@ input:focus { outline: 0; }
 	display: flex;
 }
 
-.syncRole img,
 .syncRoleEX img {
 	position: absolute;
 	width: 100%;
@@ -1246,6 +1236,7 @@ input:focus { outline: 0; }
 
 .syncImages img {
 	width: 100%;
+	aspect-ratio: 1;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;

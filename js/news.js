@@ -1,5 +1,9 @@
 export const NEWS = [
 	{
+		"date": "2026-02-04",
+		"info" : "Updated sync pairs icons to align with <a href='https://pomasters.github.io/ScoutSimulator/'>Scout Simulator</a>'s icons"
+	},
+	{
 		"date": "2026-01-28",
 		"info" : "Add v2.65.0"
 	},
