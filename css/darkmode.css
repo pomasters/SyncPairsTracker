@@ -20,16 +20,20 @@ body {
 	background-image: url(../images/bg4.png);
 }
 
-#leftSide::-webkit-scrollbar-track {
-  background: var(--mostDark);
+#leftSide a {
+	color: var(--blue2);
 }
- 
+
+#leftSide::-webkit-scrollbar-track {
+	background: var(--mostDark);
+}
+
 #leftSide::-webkit-scrollbar-thumb {
-  background: var(--bgDark);
+	background: var(--bgDark);
 }
 
 #leftSide::-webkit-scrollbar-thumb:hover {
-  background: #808080;
+	background: #808080;
 }
 
 #exportImportZone {
@@ -38,6 +42,9 @@ body {
 }
 
 
+#news ul li {
+	color: var(--text);
+}
 #news ul li:first-child {
 	color : var(--textDark);
 }
@@ -179,7 +186,7 @@ body {
 	opacity: 0.2;
 }
 .selected {
-    opacity: 1;
+	opacity: 1;
 }
 
 .selected .syncFav:hover {
