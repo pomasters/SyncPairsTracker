@@ -12,7 +12,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -23,8 +23,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0003_1.png",
-			"icons/eggs/Scottie_0003_1.png"
+			"icons/eggs/Bettie_0003_A_1.png",
+			"icons/eggs/Scottie_0003_A_1.png",
+			"icons/eggs/Bettie_0003_B_1.png",
+			"icons/eggs/Scottie_0003_B_1.png",
+			"icons/eggs/Bettie_0003_C_1.png",
+			"icons/eggs/Scottie_0003_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -32,7 +36,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass",
+			"MoveTypeEggRoleB-Grass",
+			"MoveTypeEggRoleC-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0003_00_fushigibana"
@@ -50,7 +57,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -61,8 +68,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0006_1.png",
-			"icons/eggs/Scottie_0006_1.png"
+			"icons/eggs/Bettie_0006_A_1.png",
+			"icons/eggs/Scottie_0006_A_1.png",
+			"icons/eggs/Bettie_0006_B_1.png",
+			"icons/eggs/Scottie_0006_B_1.png",
+			"icons/eggs/Bettie_0006_C_1.png",
+			"icons/eggs/Scottie_0006_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -70,7 +81,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0006_00_lizardon"
@@ -88,7 +102,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -99,8 +113,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0009_1.png",
-			"icons/eggs/Scottie_0009_1.png"
+			"icons/eggs/Bettie_0009_A_1.png",
+			"icons/eggs/Scottie_0009_A_1.png",
+			"icons/eggs/Bettie_0009_B_1.png",
+			"icons/eggs/Scottie_0009_B_1.png",
+			"icons/eggs/Bettie_0009_C_1.png",
+			"icons/eggs/Scottie_0009_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -109,7 +127,10 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Weather"
+			"Weather",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0009_00_kamex"
@@ -127,7 +148,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -138,8 +159,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0012_1.png",
-			"icons/eggs/Scottie_0012_1.png"
+			"icons/eggs/Bettie_0012_A_1.png",
+			"icons/eggs/Scottie_0012_A_1.png",
+			"icons/eggs/Bettie_0012_B_1.png",
+			"icons/eggs/Scottie_0012_B_1.png",
+			"icons/eggs/Bettie_0012_C_1.png",
+			"icons/eggs/Scottie_0012_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -147,7 +172,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Bug",
+			"MoveTypeEggRoleB-Bug",
+			"MoveTypeEggRoleC-Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0012_00_butterfree"
@@ -165,7 +193,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -176,8 +204,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0015_1.png",
-			"icons/eggs/Scottie_0015_1.png"
+			"icons/eggs/Bettie_0015_A_1.png",
+			"icons/eggs/Scottie_0015_A_1.png",
+			"icons/eggs/Bettie_0015_B_1.png",
+			"icons/eggs/Scottie_0015_B_1.png",
+			"icons/eggs/Bettie_0015_C_1.png",
+			"icons/eggs/Scottie_0015_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -185,7 +217,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison,Bug",
+			"MoveTypeEggRoleB-Bug",
+			"MoveTypeEggRoleC-Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0015_00_spear"
@@ -203,7 +238,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Flying",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -214,8 +249,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0018_1.png",
-			"icons/eggs/Scottie_0018_1.png"
+			"icons/eggs/Bettie_0018_A_1.png",
+			"icons/eggs/Scottie_0018_A_1.png",
+			"icons/eggs/Bettie_0018_B_1.png",
+			"icons/eggs/Scottie_0018_B_1.png",
+			"icons/eggs/Bettie_0018_C_1.png",
+			"icons/eggs/Scottie_0018_C_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -223,7 +262,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Flying",
+			"MoveTypeEggRoleB-Flying",
+			"MoveTypeEggRoleC-Flying"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0018_00_pigeot"
@@ -240,7 +282,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -251,8 +293,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0020_1.png",
-			"icons/eggs/Scottie_0020_1.png"
+			"icons/eggs/Bettie_0020_A_1.png",
+			"icons/eggs/Scottie_0020_A_1.png",
+			"icons/eggs/Bettie_0020_B_1.png",
+			"icons/eggs/Scottie_0020_B_1.png",
+			"icons/eggs/Bettie_0020_C_1.png",
+			"icons/eggs/Scottie_0020_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -260,7 +306,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0020_00_ratta"
@@ -277,7 +326,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Flying",
 		"pokemonWeak": "Rock",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -288,8 +337,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0022_1.png",
-			"icons/eggs/Scottie_0022_1.png"
+			"icons/eggs/Bettie_0022_A_1.png",
+			"icons/eggs/Scottie_0022_A_1.png",
+			"icons/eggs/Bettie_0022_B_1.png",
+			"icons/eggs/Scottie_0022_B_1.png",
+			"icons/eggs/Bettie_0022_C_1.png",
+			"icons/eggs/Scottie_0022_C_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -297,7 +350,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Flying",
+			"MoveTypeEggRoleB-Flying",
+			"MoveTypeEggRoleC-Flying"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0022_00_onidrill"
@@ -314,7 +370,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -325,8 +381,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0024_1.png",
-			"icons/eggs/Scottie_0024_1.png"
+			"icons/eggs/Bettie_0024_A_1.png",
+			"icons/eggs/Scottie_0024_A_1.png",
+			"icons/eggs/Bettie_0024_B_1.png",
+			"icons/eggs/Scottie_0024_B_1.png",
+			"icons/eggs/Bettie_0024_C_1.png",
+			"icons/eggs/Scottie_0024_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -334,7 +394,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0024_00_arbok"
@@ -352,7 +415,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -363,8 +426,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0026_1.png",
-			"icons/eggs/Scottie_0026_1.png"
+			"icons/eggs/Bettie_0026_A_1.png",
+			"icons/eggs/Scottie_0026_A_1.png",
+			"icons/eggs/Bettie_0026_B_1.png",
+			"icons/eggs/Scottie_0026_B_1.png",
+			"icons/eggs/Bettie_0026_C_1.png",
+			"icons/eggs/Scottie_0026_C_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -372,7 +439,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Electric",
+			"MoveTypeEggRoleB-Electric",
+			"MoveTypeEggRoleC-Normal,Electric"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0026_00_raichu"
@@ -389,7 +459,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -400,8 +470,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0028_1.png",
-			"icons/eggs/Scottie_0028_1.png"
+			"icons/eggs/Bettie_0028_A_1.png",
+			"icons/eggs/Scottie_0028_A_1.png",
+			"icons/eggs/Bettie_0028_B_1.png",
+			"icons/eggs/Scottie_0028_B_1.png",
+			"icons/eggs/Bettie_0028_C_1.png",
+			"icons/eggs/Scottie_0028_C_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -409,7 +483,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ground",
+			"MoveTypeEggRoleB-Ground",
+			"MoveTypeEggRoleC-Ground"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0028_00_sandpan"
@@ -427,7 +504,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -438,8 +515,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0031_1.png",
-			"icons/eggs/Scottie_0031_1.png"
+			"icons/eggs/Bettie_0031_A_1.png",
+			"icons/eggs/Scottie_0031_A_1.png",
+			"icons/eggs/Bettie_0031_B_1.png",
+			"icons/eggs/Scottie_0031_B_1.png",
+			"icons/eggs/Bettie_0031_C_1.png",
+			"icons/eggs/Scottie_0031_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -447,7 +528,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0031_00_nidoqueen"
@@ -465,7 +549,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -476,8 +560,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0034_1.png",
-			"icons/eggs/Scottie_0034_1.png"
+			"icons/eggs/Bettie_0034_A_1.png",
+			"icons/eggs/Scottie_0034_A_1.png",
+			"icons/eggs/Bettie_0034_B_1.png",
+			"icons/eggs/Scottie_0034_B_1.png",
+			"icons/eggs/Bettie_0034_C_1.png",
+			"icons/eggs/Scottie_0034_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -485,7 +573,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0034_00_00_nidoking"
@@ -503,7 +594,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Steel",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -514,8 +605,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0036_1.png",
-			"icons/eggs/Scottie_0036_1.png"
+			"icons/eggs/Bettie_0036_A_1.png",
+			"icons/eggs/Scottie_0036_A_1.png",
+			"icons/eggs/Bettie_0036_B_1.png",
+			"icons/eggs/Scottie_0036_B_1.png",
+			"icons/eggs/Bettie_0036_C_1.png",
+			"icons/eggs/Scottie_0036_C_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -523,7 +618,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fairy",
+			"MoveTypeEggRoleB-Fairy",
+			"MoveTypeEggRoleC-Fairy"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0036_00_pixy"
@@ -540,7 +638,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -551,8 +649,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0038_1.png",
-			"icons/eggs/Scottie_0038_1.png"
+			"icons/eggs/Bettie_0038_A_1.png",
+			"icons/eggs/Scottie_0038_A_1.png",
+			"icons/eggs/Bettie_0038_B_1.png",
+			"icons/eggs/Scottie_0038_B_1.png",
+			"icons/eggs/Bettie_0038_C_1.png",
+			"icons/eggs/Scottie_0038_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -561,7 +663,10 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Weather"
+			"Weather",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0038_00_kyukon"
@@ -579,7 +684,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Poison",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -590,8 +695,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0040_1.png",
-			"icons/eggs/Scottie_0040_1.png"
+			"icons/eggs/Bettie_0040_A_1.png",
+			"icons/eggs/Scottie_0040_A_1.png",
+			"icons/eggs/Bettie_0040_B_1.png",
+			"icons/eggs/Scottie_0040_B_1.png",
+			"icons/eggs/Bettie_0040_C_1.png",
+			"icons/eggs/Scottie_0040_C_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -599,7 +708,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fairy",
+			"MoveTypeEggRoleB-Fairy",
+			"MoveTypeEggRoleC-Fairy"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0040_00_pukurin"
@@ -616,7 +728,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ice",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -627,8 +739,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0042_1.png",
-			"icons/eggs/Scottie_0042_1.png"
+			"icons/eggs/Bettie_0042_A_1.png",
+			"icons/eggs/Scottie_0042_A_1.png",
+			"icons/eggs/Bettie_0042_B_1.png",
+			"icons/eggs/Scottie_0042_B_1.png",
+			"icons/eggs/Bettie_0042_C_1.png",
+			"icons/eggs/Scottie_0042_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -636,7 +752,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison,Flying",
+			"MoveTypeEggRoleB-Poison,Flying",
+			"MoveTypeEggRoleC-Poison,Flying"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0042_00_golbat"
@@ -654,7 +773,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -665,8 +784,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0045_1.png",
-			"icons/eggs/Scottie_0045_1.png"
+			"icons/eggs/Bettie_0045_A_1.png",
+			"icons/eggs/Scottie_0045_A_1.png",
+			"icons/eggs/Bettie_0045_B_1.png",
+			"icons/eggs/Scottie_0045_B_1.png",
+			"icons/eggs/Bettie_0045_C_1.png",
+			"icons/eggs/Scottie_0045_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -674,7 +797,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass,Poison",
+			"MoveTypeEggRoleB-Grass",
+			"MoveTypeEggRoleC-Grass,Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0045_00_ruffresia"
@@ -691,7 +817,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -702,8 +828,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0047_1.png",
-			"icons/eggs/Scottie_0047_1.png"
+			"icons/eggs/Bettie_0047_A_1.png",
+			"icons/eggs/Scottie_0047_A_1.png",
+			"icons/eggs/Bettie_0047_B_1.png",
+			"icons/eggs/Scottie_0047_B_1.png",
+			"icons/eggs/Bettie_0047_C_1.png",
+			"icons/eggs/Scottie_0047_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -711,7 +841,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Bug",
+			"MoveTypeEggRoleB-Bug",
+			"MoveTypeEggRoleC-Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0047_00_parasect"
@@ -728,7 +861,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Flying",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -739,8 +872,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0049_1.png",
-			"icons/eggs/Scottie_0049_1.png"
+			"icons/eggs/Bettie_0049_A_1.png",
+			"icons/eggs/Scottie_0049_A_1.png",
+			"icons/eggs/Bettie_0049_B_1.png",
+			"icons/eggs/Scottie_0049_B_1.png",
+			"icons/eggs/Bettie_0049_C_1.png",
+			"icons/eggs/Scottie_0049_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -748,7 +885,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Psychic,Bug",
+			"MoveTypeEggRoleB-Bug",
+			"MoveTypeEggRoleC-Psychic,Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0049_00_morphon"
@@ -765,7 +905,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -776,8 +916,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0051_1.png",
-			"icons/eggs/Scottie_0051_1.png"
+			"icons/eggs/Bettie_0051_A_1.png",
+			"icons/eggs/Scottie_0051_A_1.png",
+			"icons/eggs/Bettie_0051_B_1.png",
+			"icons/eggs/Scottie_0051_B_1.png",
+			"icons/eggs/Bettie_0051_C_1.png",
+			"icons/eggs/Scottie_0051_C_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -785,7 +929,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ground",
+			"MoveTypeEggRoleB-Ground",
+			"MoveTypeEggRoleC-Ground"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0051_00_dugtrio"
@@ -802,7 +949,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -813,8 +960,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0053_1.png",
-			"icons/eggs/Scottie_0053_1.png"
+			"icons/eggs/Bettie_0053_A_1.png",
+			"icons/eggs/Scottie_0053_A_1.png",
+			"icons/eggs/Bettie_0053_B_1.png",
+			"icons/eggs/Scottie_0053_B_1.png",
+			"icons/eggs/Bettie_0053_C_1.png",
+			"icons/eggs/Scottie_0053_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -822,7 +973,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0053_00_persian"
@@ -840,7 +994,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Dark",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -851,8 +1005,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0053_2_1.png",
-			"icons/eggs/Scottie_0053_2_1.png"
+			"icons/eggs/Bettie_0053_2_A_1.png",
+			"icons/eggs/Scottie_0053_2_A_1.png",
+			"icons/eggs/Bettie_0053_2_B_1.png",
+			"icons/eggs/Scottie_0053_2_B_1.png",
+			"icons/eggs/Bettie_0053_2_C_1.png",
+			"icons/eggs/Scottie_0053_2_C_1.png"
 		],
 		"themes": [
 			"Dark",
@@ -860,7 +1018,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal,Dark",
+			"MoveTypeEggRoleB-Dark",
+			"MoveTypeEggRoleC-Normal,Dark"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0053_61_apersian"
@@ -877,7 +1038,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -888,8 +1049,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0055_1.png",
-			"icons/eggs/Scottie_0055_1.png"
+			"icons/eggs/Bettie_0055_A_1.png",
+			"icons/eggs/Scottie_0055_A_1.png",
+			"icons/eggs/Bettie_0055_B_1.png",
+			"icons/eggs/Scottie_0055_B_1.png",
+			"icons/eggs/Bettie_0055_C_1.png",
+			"icons/eggs/Scottie_0055_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -897,7 +1062,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0055_00_golduck"
@@ -914,7 +1082,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Fairy",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -925,8 +1093,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0057_1.png",
-			"icons/eggs/Scottie_0057_1.png"
+			"icons/eggs/Bettie_0057_A_1.png",
+			"icons/eggs/Scottie_0057_A_1.png",
+			"icons/eggs/Bettie_0057_B_1.png",
+			"icons/eggs/Scottie_0057_B_1.png",
+			"icons/eggs/Bettie_0057_C_1.png",
+			"icons/eggs/Scottie_0057_C_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -934,7 +1106,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fighting",
+			"MoveTypeEggRoleB-Fighting",
+			"MoveTypeEggRoleC-Fighting"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0057_00_okorizaru"
@@ -951,7 +1126,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -962,8 +1137,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0059_1.png",
-			"icons/eggs/Scottie_0059_1.png"
+			"icons/eggs/Bettie_0059_A_1.png",
+			"icons/eggs/Scottie_0059_A_1.png",
+			"icons/eggs/Bettie_0059_B_1.png",
+			"icons/eggs/Scottie_0059_B_1.png",
+			"icons/eggs/Bettie_0059_C_1.png",
+			"icons/eggs/Scottie_0059_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -971,7 +1150,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0059_00_windie"
@@ -989,7 +1171,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Bug",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1000,8 +1182,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0065_1.png",
-			"icons/eggs/Scottie_0065_1.png"
+			"icons/eggs/Bettie_0065_A_1.png",
+			"icons/eggs/Scottie_0065_A_1.png",
+			"icons/eggs/Bettie_0065_B_1.png",
+			"icons/eggs/Scottie_0065_B_1.png",
+			"icons/eggs/Bettie_0065_C_1.png",
+			"icons/eggs/Scottie_0065_C_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1009,7 +1195,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Psychic",
+			"MoveTypeEggRoleB-Psychic",
+			"MoveTypeEggRoleC-Psychic"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0065_00_foodin"
@@ -1027,7 +1216,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fighting",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1038,8 +1227,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0068_1.png",
-			"icons/eggs/Scottie_0068_1.png"
+			"icons/eggs/Bettie_0068_A_1.png",
+			"icons/eggs/Scottie_0068_A_1.png",
+			"icons/eggs/Bettie_0068_B_1.png",
+			"icons/eggs/Scottie_0068_B_1.png",
+			"icons/eggs/Bettie_0068_C_1.png",
+			"icons/eggs/Scottie_0068_C_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1047,7 +1240,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fighting",
+			"MoveTypeEggRoleB-Fighting",
+			"MoveTypeEggRoleC-Fighting"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0068_00_kairiky"
@@ -1065,7 +1261,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1076,8 +1272,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0071_1.png",
-			"icons/eggs/Scottie_0071_1.png"
+			"icons/eggs/Bettie_0071_A_1.png",
+			"icons/eggs/Scottie_0071_A_1.png",
+			"icons/eggs/Bettie_0071_B_1.png",
+			"icons/eggs/Scottie_0071_B_1.png",
+			"icons/eggs/Bettie_0071_C_1.png",
+			"icons/eggs/Scottie_0071_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -1085,7 +1285,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass",
+			"MoveTypeEggRoleB-Grass",
+			"MoveTypeEggRoleC-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0071_00_utsubot"
@@ -1102,7 +1305,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1113,8 +1316,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0073_1.png",
-			"icons/eggs/Scottie_0073_1.png"
+			"icons/eggs/Bettie_0073_A_1.png",
+			"icons/eggs/Scottie_0073_A_1.png",
+			"icons/eggs/Bettie_0073_B_1.png",
+			"icons/eggs/Scottie_0073_B_1.png",
+			"icons/eggs/Bettie_0073_C_1.png",
+			"icons/eggs/Scottie_0073_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1122,7 +1329,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0073_00_dokukurage"
@@ -1140,7 +1350,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1151,8 +1361,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0076_1.png",
-			"icons/eggs/Scottie_0076_1.png"
+			"icons/eggs/Bettie_0076_A_1.png",
+			"icons/eggs/Scottie_0076_A_1.png",
+			"icons/eggs/Bettie_0076_B_1.png",
+			"icons/eggs/Scottie_0076_B_1.png",
+			"icons/eggs/Bettie_0076_C_1.png",
+			"icons/eggs/Scottie_0076_C_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -1160,7 +1374,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Rock",
+			"MoveTypeEggRoleB-Rock",
+			"MoveTypeEggRoleC-Rock"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0076_00_golonya"
@@ -1177,7 +1394,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1188,8 +1405,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0078_1.png",
-			"icons/eggs/Scottie_0078_1.png"
+			"icons/eggs/Bettie_0078_A_1.png",
+			"icons/eggs/Scottie_0078_A_1.png",
+			"icons/eggs/Bettie_0078_B_1.png",
+			"icons/eggs/Scottie_0078_B_1.png",
+			"icons/eggs/Bettie_0078_C_1.png",
+			"icons/eggs/Scottie_0078_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -1197,7 +1418,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0078_00_gallop"
@@ -1214,7 +1438,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Ghost",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1225,8 +1449,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0080_1.png",
-			"icons/eggs/Scottie_0080_1.png"
+			"icons/eggs/Bettie_0080_A_1.png",
+			"icons/eggs/Scottie_0080_A_1.png",
+			"icons/eggs/Bettie_0080_B_1.png",
+			"icons/eggs/Scottie_0080_B_1.png",
+			"icons/eggs/Bettie_0080_C_1.png",
+			"icons/eggs/Scottie_0080_C_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1234,7 +1462,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Psychic",
+			"MoveTypeEggRoleB-Psychic",
+			"MoveTypeEggRoleC-Psychic"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0080_00_yadoran"
@@ -1251,7 +1482,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1262,8 +1493,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0082_1.png",
-			"icons/eggs/Scottie_0082_1.png"
+			"icons/eggs/Bettie_0082_A_1.png",
+			"icons/eggs/Scottie_0082_A_1.png",
+			"icons/eggs/Bettie_0082_B_1.png",
+			"icons/eggs/Scottie_0082_B_1.png",
+			"icons/eggs/Bettie_0082_C_1.png",
+			"icons/eggs/Scottie_0082_C_1.png"
 		],
 		"themes": [
 			"Steel",
@@ -1271,7 +1506,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Steel",
+			"MoveTypeEggRoleB-Steel",
+			"MoveTypeEggRoleC-Steel"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0082_00_rarecoil"
@@ -1286,7 +1524,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Flying",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1297,8 +1535,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0083_1.png",
-			"icons/eggs/Scottie_0083_1.png"
+			"icons/eggs/Bettie_0083_A_1.png",
+			"icons/eggs/Scottie_0083_A_1.png",
+			"icons/eggs/Bettie_0083_B_1.png",
+			"icons/eggs/Scottie_0083_B_1.png",
+			"icons/eggs/Bettie_0083_C_1.png",
+			"icons/eggs/Scottie_0083_C_1.png"
 		],
 		"themes": [
 			"Flying",
@@ -1306,7 +1548,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Flying",
+			"MoveTypeEggRoleB-Flying",
+			"MoveTypeEggRoleC-Flying"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0083_00_kamonegi"
@@ -1323,7 +1568,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1334,8 +1579,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0087_1.png",
-			"icons/eggs/Scottie_0087_1.png"
+			"icons/eggs/Bettie_0087_A_1.png",
+			"icons/eggs/Scottie_0087_A_1.png",
+			"icons/eggs/Bettie_0087_B_1.png",
+			"icons/eggs/Scottie_0087_B_1.png",
+			"icons/eggs/Bettie_0087_C_1.png",
+			"icons/eggs/Scottie_0087_C_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -1343,7 +1592,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ice",
+			"MoveTypeEggRoleB-Ice",
+			"MoveTypeEggRoleC-Ice"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0087_00_jugon"
@@ -1360,7 +1612,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1371,8 +1623,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0089_1.png",
-			"icons/eggs/Scottie_0089_1.png"
+			"icons/eggs/Bettie_0089_A_1.png",
+			"icons/eggs/Scottie_0089_A_1.png",
+			"icons/eggs/Bettie_0089_B_1.png",
+			"icons/eggs/Scottie_0089_B_1.png",
+			"icons/eggs/Bettie_0089_C_1.png",
+			"icons/eggs/Scottie_0089_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1380,7 +1636,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Normal,Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0089_00_betbeton"
@@ -1397,7 +1656,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1408,8 +1667,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0091_1.png",
-			"icons/eggs/Scottie_0091_1.png"
+			"icons/eggs/Bettie_0091_A_1.png",
+			"icons/eggs/Scottie_0091_A_1.png",
+			"icons/eggs/Bettie_0091_B_1.png",
+			"icons/eggs/Scottie_0091_B_1.png",
+			"icons/eggs/Bettie_0091_C_1.png",
+			"icons/eggs/Scottie_0091_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -1417,7 +1680,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water,Ice",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0091_00_parshen"
@@ -1435,7 +1701,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ghost",
 		"pokemonWeak": "Dark",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1446,8 +1712,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0094_1.png",
-			"icons/eggs/Scottie_0094_1.png"
+			"icons/eggs/Bettie_0094_A_1.png",
+			"icons/eggs/Scottie_0094_A_1.png",
+			"icons/eggs/Bettie_0094_B_1.png",
+			"icons/eggs/Scottie_0094_B_1.png",
+			"icons/eggs/Bettie_0094_C_1.png",
+			"icons/eggs/Scottie_0094_C_1.png"
 		],
 		"themes": [
 			"Ghost",
@@ -1455,7 +1725,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ghost",
+			"MoveTypeEggRoleB-Ghost",
+			"MoveTypeEggRoleC-Ghost"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0094_00_gangar"
@@ -1470,7 +1743,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1481,8 +1754,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0095_1.png",
-			"icons/eggs/Scottie_0095_1.png"
+			"icons/eggs/Bettie_0095_A_1.png",
+			"icons/eggs/Scottie_0095_A_1.png",
+			"icons/eggs/Bettie_0095_B_1.png",
+			"icons/eggs/Scottie_0095_B_1.png",
+			"icons/eggs/Bettie_0095_C_1.png",
+			"icons/eggs/Scottie_0095_C_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -1490,7 +1767,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Rock",
+			"MoveTypeEggRoleB-Rock",
+			"MoveTypeEggRoleC-Rock"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0095_00_iwark"
@@ -1507,7 +1787,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Dark",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1518,8 +1798,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0097_1.png",
-			"icons/eggs/Scottie_0097_1.png"
+			"icons/eggs/Bettie_0097_A_1.png",
+			"icons/eggs/Scottie_0097_A_1.png",
+			"icons/eggs/Bettie_0097_B_1.png",
+			"icons/eggs/Scottie_0097_B_1.png",
+			"icons/eggs/Bettie_0097_C_1.png",
+			"icons/eggs/Scottie_0097_C_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1527,7 +1811,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Psychic",
+			"MoveTypeEggRoleB-Psychic",
+			"MoveTypeEggRoleC-Psychic"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0097_00_sleeper"
@@ -1544,7 +1831,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1555,8 +1842,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0101_1.png",
-			"icons/eggs/Scottie_0101_1.png"
+			"icons/eggs/Bettie_0101_A_1.png",
+			"icons/eggs/Scottie_0101_A_1.png",
+			"icons/eggs/Bettie_0101_B_1.png",
+			"icons/eggs/Scottie_0101_B_1.png",
+			"icons/eggs/Bettie_0101_C_1.png",
+			"icons/eggs/Scottie_0101_C_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -1564,7 +1855,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Electric",
+			"MoveTypeEggRoleB-Electric",
+			"MoveTypeEggRoleC-Electric"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0101_00_marumine"
@@ -1581,7 +1875,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Psychic",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1592,8 +1886,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0103_1.png",
-			"icons/eggs/Scottie_0103_1.png"
+			"icons/eggs/Bettie_0103_A_1.png",
+			"icons/eggs/Scottie_0103_A_1.png",
+			"icons/eggs/Bettie_0103_B_1.png",
+			"icons/eggs/Scottie_0103_B_1.png",
+			"icons/eggs/Bettie_0103_C_1.png",
+			"icons/eggs/Scottie_0103_C_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -1601,7 +1899,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass,Psychic",
+			"MoveTypeEggRoleB-Psychic",
+			"MoveTypeEggRoleC-Grass,Psychic"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0103_00_nassy"
@@ -1618,7 +1919,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1629,8 +1930,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0105_1.png",
-			"icons/eggs/Scottie_0105_1.png"
+			"icons/eggs/Bettie_0105_A_1.png",
+			"icons/eggs/Scottie_0105_A_1.png",
+			"icons/eggs/Bettie_0105_B_1.png",
+			"icons/eggs/Scottie_0105_B_1.png",
+			"icons/eggs/Bettie_0105_C_1.png",
+			"icons/eggs/Scottie_0105_C_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -1638,7 +1943,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ground",
+			"MoveTypeEggRoleB-Ground",
+			"MoveTypeEggRoleC-Ground"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0105_00_garagara"
@@ -1666,8 +1974,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0106_1.png",
-			"icons/eggs/Scottie_0106_1.png"
+			"icons/eggs/Bettie_0106_A_1.png",
+			"icons/eggs/Scottie_0106_A_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1675,7 +1983,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fighting"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0106_00_sawamular"
@@ -1703,8 +2012,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0107_1.png",
-			"icons/eggs/Scottie_0107_1.png"
+			"icons/eggs/Bettie_0107_C_1.png",
+			"icons/eggs/Scottie_0107_C_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -1712,7 +2021,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleC-Fighting"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0107_00_ebiwalar"
@@ -1727,7 +2037,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1738,8 +2048,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0108_1.png",
-			"icons/eggs/Scottie_0108_1.png"
+			"icons/eggs/Bettie_0108_A_1.png",
+			"icons/eggs/Scottie_0108_A_1.png",
+			"icons/eggs/Bettie_0108_B_1.png",
+			"icons/eggs/Scottie_0108_B_1.png",
+			"icons/eggs/Bettie_0108_C_1.png",
+			"icons/eggs/Scottie_0108_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1747,7 +2061,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0108_00_beroringa"
@@ -1764,7 +2081,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Poison",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1775,8 +2092,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0110_1.png",
-			"icons/eggs/Scottie_0110_1.png"
+			"icons/eggs/Bettie_0110_A_1.png",
+			"icons/eggs/Scottie_0110_A_1.png",
+			"icons/eggs/Bettie_0110_B_1.png",
+			"icons/eggs/Scottie_0110_B_1.png",
+			"icons/eggs/Bettie_0110_C_1.png",
+			"icons/eggs/Scottie_0110_C_1.png"
 		],
 		"themes": [
 			"Poison",
@@ -1784,7 +2105,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Poison",
+			"MoveTypeEggRoleB-Poison",
+			"MoveTypeEggRoleC-Poison"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0110_00_matadogas"
@@ -1801,7 +2125,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ground",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1812,8 +2136,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0112_1.png",
-			"icons/eggs/Scottie_0112_1.png"
+			"icons/eggs/Bettie_0112_A_1.png",
+			"icons/eggs/Scottie_0112_A_1.png",
+			"icons/eggs/Bettie_0112_B_1.png",
+			"icons/eggs/Scottie_0112_B_1.png",
+			"icons/eggs/Bettie_0112_C_1.png",
+			"icons/eggs/Scottie_0112_C_1.png"
 		],
 		"themes": [
 			"Ground",
@@ -1821,7 +2149,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ground",
+			"MoveTypeEggRoleB-Ground",
+			"MoveTypeEggRoleC-Ground"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0112_00_sidon"
@@ -1838,7 +2169,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1849,8 +2180,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0113_1.png",
-			"icons/eggs/Scottie_0113_1.png"
+			"icons/eggs/Bettie_0113_A_1.png",
+			"icons/eggs/Scottie_0113_A_1.png",
+			"icons/eggs/Bettie_0113_B_1.png",
+			"icons/eggs/Scottie_0113_B_1.png",
+			"icons/eggs/Bettie_0113_C_1.png",
+			"icons/eggs/Scottie_0113_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1858,7 +2193,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0113_00_lucky"
@@ -1873,7 +2211,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Bug",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1884,8 +2222,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0114_1.png",
-			"icons/eggs/Scottie_0114_1.png"
+			"icons/eggs/Bettie_0114_A_1.png",
+			"icons/eggs/Scottie_0114_A_1.png",
+			"icons/eggs/Bettie_0114_B_1.png",
+			"icons/eggs/Scottie_0114_B_1.png",
+			"icons/eggs/Bettie_0114_C_1.png",
+			"icons/eggs/Scottie_0114_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -1893,7 +2235,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass",
+			"MoveTypeEggRoleB-Grass",
+			"MoveTypeEggRoleC-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0114_00_monjara"
@@ -1908,7 +2253,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1919,8 +2264,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0115_1.png",
-			"icons/eggs/Scottie_0115_1.png"
+			"icons/eggs/Bettie_0115_A_1.png",
+			"icons/eggs/Scottie_0115_A_1.png",
+			"icons/eggs/Bettie_0115_B_1.png",
+			"icons/eggs/Scottie_0115_B_1.png",
+			"icons/eggs/Bettie_0115_C_1.png",
+			"icons/eggs/Scottie_0115_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -1928,7 +2277,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0115_00_garura"
@@ -1945,7 +2297,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1956,8 +2308,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0117_1.png",
-			"icons/eggs/Scottie_0117_1.png"
+			"icons/eggs/Bettie_0117_A_1.png",
+			"icons/eggs/Scottie_0117_A_1.png",
+			"icons/eggs/Bettie_0117_B_1.png",
+			"icons/eggs/Scottie_0117_B_1.png",
+			"icons/eggs/Bettie_0117_C_1.png",
+			"icons/eggs/Scottie_0117_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -1965,7 +2321,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0117_00_seadra"
@@ -1982,7 +2341,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -1993,8 +2352,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0119_1.png",
-			"icons/eggs/Scottie_0119_1.png"
+			"icons/eggs/Bettie_0119_A_1.png",
+			"icons/eggs/Scottie_0119_A_1.png",
+			"icons/eggs/Bettie_0119_B_1.png",
+			"icons/eggs/Scottie_0119_B_1.png",
+			"icons/eggs/Bettie_0119_C_1.png",
+			"icons/eggs/Scottie_0119_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2002,7 +2365,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0119_00_azumao"
@@ -2019,7 +2385,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2030,8 +2396,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0121_1.png",
-			"icons/eggs/Scottie_0121_1.png"
+			"icons/eggs/Bettie_0121_A_1.png",
+			"icons/eggs/Scottie_0121_A_1.png",
+			"icons/eggs/Bettie_0121_B_1.png",
+			"icons/eggs/Scottie_0121_B_1.png",
+			"icons/eggs/Bettie_0121_C_1.png",
+			"icons/eggs/Scottie_0121_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2039,7 +2409,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0121_00_starmie"
@@ -2054,7 +2427,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Rock",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2065,8 +2438,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0123_1.png",
-			"icons/eggs/Scottie_0123_1.png"
+			"icons/eggs/Bettie_0123_A_1.png",
+			"icons/eggs/Scottie_0123_A_1.png",
+			"icons/eggs/Bettie_0123_B_1.png",
+			"icons/eggs/Scottie_0123_B_1.png",
+			"icons/eggs/Bettie_0123_C_1.png",
+			"icons/eggs/Scottie_0123_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -2074,7 +2451,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Bug",
+			"MoveTypeEggRoleB-Bug",
+			"MoveTypeEggRoleC-Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0123_00_strike"
@@ -2091,7 +2471,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2102,8 +2482,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0124_1.png",
-			"icons/eggs/Scottie_0124_1.png"
+			"icons/eggs/Bettie_0124_A_1.png",
+			"icons/eggs/Scottie_0124_A_1.png",
+			"icons/eggs/Bettie_0124_B_1.png",
+			"icons/eggs/Scottie_0124_B_1.png",
+			"icons/eggs/Bettie_0124_C_1.png",
+			"icons/eggs/Scottie_0124_C_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2111,7 +2495,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Ice",
+			"MoveTypeEggRoleB-Ice",
+			"MoveTypeEggRoleC-Ice"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0124_00_rougela"
@@ -2128,7 +2515,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Electric",
 		"pokemonWeak": "Ground",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2139,8 +2526,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0125_1.png",
-			"icons/eggs/Scottie_0125_1.png"
+			"icons/eggs/Bettie_0125_A_1.png",
+			"icons/eggs/Scottie_0125_A_1.png",
+			"icons/eggs/Bettie_0125_B_1.png",
+			"icons/eggs/Scottie_0125_B_1.png",
+			"icons/eggs/Bettie_0125_C_1.png",
+			"icons/eggs/Scottie_0125_C_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -2148,7 +2539,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Electric",
+			"MoveTypeEggRoleB-Electric,Fighting",
+			"MoveTypeEggRoleC-Electric"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0125_00_eleboo"
@@ -2165,7 +2559,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2176,8 +2570,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0126_1.png",
-			"icons/eggs/Scottie_0126_1.png"
+			"icons/eggs/Bettie_0126_A_1.png",
+			"icons/eggs/Scottie_0126_A_1.png",
+			"icons/eggs/Bettie_0126_B_1.png",
+			"icons/eggs/Scottie_0126_B_1.png",
+			"icons/eggs/Bettie_0126_C_1.png",
+			"icons/eggs/Scottie_0126_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2185,7 +2583,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0126_00_boober"
@@ -2200,7 +2601,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Bug",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2211,8 +2612,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0127_1.png",
-			"icons/eggs/Scottie_0127_1.png"
+			"icons/eggs/Bettie_0127_A_1.png",
+			"icons/eggs/Scottie_0127_A_1.png",
+			"icons/eggs/Bettie_0127_B_1.png",
+			"icons/eggs/Scottie_0127_B_1.png",
+			"icons/eggs/Bettie_0127_C_1.png",
+			"icons/eggs/Scottie_0127_C_1.png"
 		],
 		"themes": [
 			"Bug",
@@ -2220,7 +2625,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fighting,Bug",
+			"MoveTypeEggRoleB-Normal,Bug",
+			"MoveTypeEggRoleC-Fighting,Bug"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0127_00_kailios"
@@ -2235,7 +2643,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2246,8 +2654,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0128_1.png",
-			"icons/eggs/Scottie_0128_1.png"
+			"icons/eggs/Bettie_0128_A_1.png",
+			"icons/eggs/Scottie_0128_A_1.png",
+			"icons/eggs/Bettie_0128_B_1.png",
+			"icons/eggs/Scottie_0128_B_1.png",
+			"icons/eggs/Bettie_0128_C_1.png",
+			"icons/eggs/Scottie_0128_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2255,7 +2667,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal,Ice",
+			"MoveTypeEggRoleC-Normal,Electric"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0128_00_kentauros"
@@ -2272,7 +2687,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2283,8 +2698,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0130_1.png",
-			"icons/eggs/Scottie_0130_1.png"
+			"icons/eggs/Bettie_0130_A_1.png",
+			"icons/eggs/Scottie_0130_A_1.png",
+			"icons/eggs/Bettie_0130_B_1.png",
+			"icons/eggs/Scottie_0130_B_1.png",
+			"icons/eggs/Bettie_0130_C_1.png",
+			"icons/eggs/Scottie_0130_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2293,7 +2712,10 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Weather"
+			"Weather",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0130_00_gyarados"
@@ -2308,7 +2730,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Ice",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2319,8 +2741,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0131_1.png",
-			"icons/eggs/Scottie_0131_1.png"
+			"icons/eggs/Bettie_0131_A_1.png",
+			"icons/eggs/Scottie_0131_A_1.png",
+			"icons/eggs/Bettie_0131_B_1.png",
+			"icons/eggs/Scottie_0131_B_1.png",
+			"icons/eggs/Bettie_0131_C_1.png",
+			"icons/eggs/Scottie_0131_C_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2329,7 +2755,10 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Weather"
+			"Weather",
+			"MoveTypeEggRoleA-Ice",
+			"MoveTypeEggRoleB-Ice",
+			"MoveTypeEggRoleC-Ice"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0131_00_laplace"
@@ -2355,8 +2784,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0134_1.png",
-			"icons/eggs/Scottie_0134_1.png"
+			"icons/eggs/Bettie_0134_B_1.png",
+			"icons/eggs/Scottie_0134_B_1.png"
 		],
 		"themes": [
 			"Water",
@@ -2364,7 +2793,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0134_00_showers"
@@ -2390,8 +2820,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0135_1.png",
-			"icons/eggs/Scottie_0135_1.png"
+			"icons/eggs/Bettie_0135_B_1.png",
+			"icons/eggs/Scottie_0135_B_1.png"
 		],
 		"themes": [
 			"Electric",
@@ -2399,7 +2829,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Electric"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0135_00_thunders"
@@ -2425,8 +2856,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0136_1.png",
-			"icons/eggs/Scottie_0136_1.png"
+			"icons/eggs/Bettie_0136_B_1.png",
+			"icons/eggs/Scottie_0136_B_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2434,7 +2865,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0136_00_booster"
@@ -2449,7 +2881,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2460,8 +2892,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0137_1.png",
-			"icons/eggs/Scottie_0137_1.png"
+			"icons/eggs/Bettie_0137_A_1.png",
+			"icons/eggs/Scottie_0137_A_1.png",
+			"icons/eggs/Bettie_0137_B_1.png",
+			"icons/eggs/Scottie_0137_B_1.png",
+			"icons/eggs/Bettie_0137_C_1.png",
+			"icons/eggs/Scottie_0137_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2469,7 +2905,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0137_00_porygon"
@@ -2486,7 +2925,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2497,8 +2936,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0139_1.png",
-			"icons/eggs/Scottie_0139_1.png"
+			"icons/eggs/Bettie_0139_A_1.png",
+			"icons/eggs/Scottie_0139_A_1.png",
+			"icons/eggs/Bettie_0139_B_1.png",
+			"icons/eggs/Scottie_0139_B_1.png",
+			"icons/eggs/Bettie_0139_C_1.png",
+			"icons/eggs/Scottie_0139_C_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2506,7 +2949,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water,Rock",
+			"MoveTypeEggRoleB-Rock",
+			"MoveTypeEggRoleC-Rock"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0139_00_omstar"
@@ -2523,7 +2969,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2534,8 +2980,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0141_1.png",
-			"icons/eggs/Scottie_0141_1.png"
+			"icons/eggs/Bettie_0141_A_1.png",
+			"icons/eggs/Scottie_0141_A_1.png",
+			"icons/eggs/Bettie_0141_B_1.png",
+			"icons/eggs/Scottie_0141_B_1.png",
+			"icons/eggs/Bettie_0141_C_1.png",
+			"icons/eggs/Scottie_0141_C_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2544,7 +2994,10 @@ export const EGGS = [
 		],
 		"tags": [
 			"Pokémon Egg",
-			"Weather"
+			"Weather",
+			"MoveTypeEggRoleA-Rock",
+			"MoveTypeEggRoleB-Rock",
+			"MoveTypeEggRoleC-Rock"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0141_00_kabutops"
@@ -2559,7 +3012,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Rock",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2570,8 +3023,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0142_1.png",
-			"icons/eggs/Scottie_0142_1.png"
+			"icons/eggs/Bettie_0142_A_1.png",
+			"icons/eggs/Scottie_0142_A_1.png",
+			"icons/eggs/Bettie_0142_B_1.png",
+			"icons/eggs/Scottie_0142_B_1.png",
+			"icons/eggs/Bettie_0142_C_1.png",
+			"icons/eggs/Scottie_0142_C_1.png"
 		],
 		"themes": [
 			"Rock",
@@ -2579,7 +3036,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Rock",
+			"MoveTypeEggRoleB-Rock",
+			"MoveTypeEggRoleC-Rock"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0142_00_ptera"
@@ -2596,7 +3056,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Normal",
 		"pokemonWeak": "Fighting",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2607,8 +3067,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0143_1.png",
-			"icons/eggs/Scottie_0143_1.png"
+			"icons/eggs/Bettie_0143_A_1.png",
+			"icons/eggs/Scottie_0143_A_1.png",
+			"icons/eggs/Bettie_0143_B_1.png",
+			"icons/eggs/Scottie_0143_B_1.png",
+			"icons/eggs/Bettie_0143_C_1.png",
+			"icons/eggs/Scottie_0143_C_1.png"
 		],
 		"themes": [
 			"Normal",
@@ -2616,7 +3080,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal",
+			"MoveTypeEggRoleB-Normal",
+			"MoveTypeEggRoleC-Normal"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0143_00_kabigon"
@@ -2634,7 +3101,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Dragon",
 		"pokemonWeak": "Ice",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2645,8 +3112,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0149_1.png",
-			"icons/eggs/Scottie_0149_1.png"
+			"icons/eggs/Bettie_0149_A_1.png",
+			"icons/eggs/Scottie_0149_A_1.png",
+			"icons/eggs/Bettie_0149_B_1.png",
+			"icons/eggs/Scottie_0149_B_1.png",
+			"icons/eggs/Bettie_0149_C_1.png",
+			"icons/eggs/Scottie_0149_C_1.png"
 		],
 		"themes": [
 			"Dragon",
@@ -2654,7 +3125,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Normal,Dragon",
+			"MoveTypeEggRoleB-Dragon",
+			"MoveTypeEggRoleC-Dragon"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0149_00_kairyu"
@@ -2669,7 +3143,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Poison",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2680,8 +3154,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0175_1.png",
-			"icons/eggs/Scottie_0175_1.png"
+			"icons/eggs/Bettie_0175_A_1.png",
+			"icons/eggs/Scottie_0175_A_1.png",
+			"icons/eggs/Bettie_0175_B_1.png",
+			"icons/eggs/Scottie_0175_B_1.png",
+			"icons/eggs/Bettie_0175_C_1.png",
+			"icons/eggs/Scottie_0175_C_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -2689,7 +3167,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fairy",
+			"MoveTypeEggRoleB-Fairy",
+			"MoveTypeEggRoleC-Fairy"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0175_00_togepy"
@@ -2715,8 +3196,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0196_1.png",
-			"icons/eggs/Scottie_0196_1.png"
+			"icons/eggs/Bettie_0196_B_1.png",
+			"icons/eggs/Scottie_0196_B_1.png"
 		],
 		"themes": [
 			"Psychic",
@@ -2724,7 +3205,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Psychic",
+			"MoveTypeEggRoleB-Psychic",
+			"MoveTypeEggRoleC-Psychic"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0196_00_eifie"
@@ -2750,8 +3234,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0197_1.png",
-			"icons/eggs/Scottie_0197_1.png"
+			"icons/eggs/Bettie_0197_B_1.png",
+			"icons/eggs/Scottie_0197_B_1.png"
 		],
 		"themes": [
 			"Dark",
@@ -2759,7 +3243,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Dark",
+			"MoveTypeEggRoleB-Dark",
+			"MoveTypeEggRoleC-Dark"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0197_00_blacky"
@@ -2787,8 +3274,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0237_1.png",
-			"icons/eggs/Scottie_0237_1.png"
+			"icons/eggs/Bettie_0237_B_1.png",
+			"icons/eggs/Scottie_0237_B_1.png"
 		],
 		"themes": [
 			"Fighting",
@@ -2796,7 +3283,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Fighting"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0237_00_kapoerer"
@@ -2822,8 +3310,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0470_1.png",
-			"icons/eggs/Scottie_0470_1.png"
+			"icons/eggs/Bettie_0470_B_1.png",
+			"icons/eggs/Scottie_0470_B_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -2831,7 +3319,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0470_00_leafia"
@@ -2857,8 +3346,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0471_1.png",
-			"icons/eggs/Scottie_0471_1.png"
+			"icons/eggs/Bettie_0471_B_1.png",
+			"icons/eggs/Scottie_0471_B_1.png"
 		],
 		"themes": [
 			"Ice",
@@ -2866,7 +3355,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Ice"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0471_00_glacia"
@@ -2892,8 +3382,8 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0700_1.png",
-			"icons/eggs/Scottie_0700_1.png"
+			"icons/eggs/Bettie_0700_B_1.png",
+			"icons/eggs/Scottie_0700_B_1.png"
 		],
 		"themes": [
 			"Fairy",
@@ -2901,7 +3391,8 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleB-Fairy"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0767_00_ninnfi"
@@ -2916,7 +3407,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Flying",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Physical),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2927,8 +3418,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0810_1.png",
-			"icons/eggs/Scottie_0810_1.png"
+			"icons/eggs/Bettie_0810_A_1.png",
+			"icons/eggs/Scottie_0810_A_1.png",
+			"icons/eggs/Bettie_0810_B_1.png",
+			"icons/eggs/Scottie_0810_B_1.png",
+			"icons/eggs/Bettie_0810_C_1.png",
+			"icons/eggs/Scottie_0810_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -2936,7 +3431,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass",
+			"MoveTypeEggRoleB-Grass",
+			"MoveTypeEggRoleC-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0810_00_00_sarunori"
@@ -2951,7 +3449,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Rock",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2962,8 +3460,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0813_1.png",
-			"icons/eggs/Scottie_0813_1.png"
+			"icons/eggs/Bettie_0813_A_1.png",
+			"icons/eggs/Scottie_0813_A_1.png",
+			"icons/eggs/Bettie_0813_B_1.png",
+			"icons/eggs/Scottie_0813_B_1.png",
+			"icons/eggs/Bettie_0813_C_1.png",
+			"icons/eggs/Scottie_0813_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -2971,7 +3473,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0813_00_00_hibanny"
@@ -2986,7 +3491,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Water",
 		"pokemonWeak": "Electric",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -2997,8 +3502,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0816_1.png",
-			"icons/eggs/Scottie_0816_1.png"
+			"icons/eggs/Bettie_0816_A_1.png",
+			"icons/eggs/Scottie_0816_A_1.png",
+			"icons/eggs/Bettie_0816_B_1.png",
+			"icons/eggs/Scottie_0816_B_1.png",
+			"icons/eggs/Bettie_0816_C_1.png",
+			"icons/eggs/Scottie_0816_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -3006,7 +3515,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0816_00_00_messon"
@@ -3023,7 +3535,7 @@ export const EGGS = [
 		],
 		"pokemonType": "Steel",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -3034,8 +3546,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0863_1.png",
-			"icons/eggs/Scottie_0863_1.png"
+			"icons/eggs/Bettie_0863_A_1.png",
+			"icons/eggs/Scottie_0863_A_1.png",
+			"icons/eggs/Bettie_0863_B_1.png",
+			"icons/eggs/Scottie_0863_B_1.png",
+			"icons/eggs/Bettie_0863_C_1.png",
+			"icons/eggs/Scottie_0863_C_1.png"
 		],
 		"themes": [
 			"Steel",
@@ -3043,7 +3559,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Steel",
+			"MoveTypeEggRoleB-Steel",
+			"MoveTypeEggRoleC-Steel"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0863_00_31_nyaiking"
@@ -3058,7 +3577,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Fire",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -3069,8 +3588,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0906_1.png",
-			"icons/eggs/Scottie_0906_1.png"
+			"icons/eggs/Bettie_0906_A_1.png",
+			"icons/eggs/Scottie_0906_A_1.png",
+			"icons/eggs/Bettie_0906_B_1.png",
+			"icons/eggs/Scottie_0906_B_1.png",
+			"icons/eggs/Bettie_0906_C_1.png",
+			"icons/eggs/Scottie_0906_C_1.png"
 		],
 		"themes": [
 			"Grass",
@@ -3078,7 +3601,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Grass",
+			"MoveTypeEggRoleB-Grass,Dark",
+			"MoveTypeEggRoleC-Grass"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0906_00_00_nyahoja"
@@ -3093,7 +3619,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Fire",
 		"pokemonWeak": "Water",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -3104,8 +3630,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0909_1.png",
-			"icons/eggs/Scottie_0909_1.png"
+			"icons/eggs/Bettie_0909_A_1.png",
+			"icons/eggs/Scottie_0909_A_1.png",
+			"icons/eggs/Bettie_0909_B_1.png",
+			"icons/eggs/Scottie_0909_B_1.png",
+			"icons/eggs/Bettie_0909_C_1.png",
+			"icons/eggs/Scottie_0909_C_1.png"
 		],
 		"themes": [
 			"Fire",
@@ -3113,7 +3643,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Fire",
+			"MoveTypeEggRoleB-Fire",
+			"MoveTypeEggRoleC-Fire"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0909_00_00_hogator"
@@ -3128,7 +3661,7 @@ export const EGGS = [
 		"pokemonForm": [],
 		"pokemonType": "Water",
 		"pokemonWeak": "Grass",
-		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRole": "Strike (Special),Tech,Support",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": false,
 		"syncPairEXColor": false,
@@ -3139,8 +3672,12 @@ export const EGGS = [
 		"syncPairRegion": "Pasio",
 		"syncPairIcon": "none",
 		"images": [
-			"icons/eggs/Bettie_0912_1.png",
-			"icons/eggs/Scottie_0912_1.png"
+			"icons/eggs/Bettie_0912_A_1.png",
+			"icons/eggs/Scottie_0912_A_1.png",
+			"icons/eggs/Bettie_0912_B_1.png",
+			"icons/eggs/Scottie_0912_B_1.png",
+			"icons/eggs/Bettie_0912_C_1.png",
+			"icons/eggs/Scottie_0912_C_1.png"
 		],
 		"themes": [
 			"Water",
@@ -3148,7 +3685,10 @@ export const EGGS = [
 			"Pasio"
 		],
 		"tags": [
-			"Pokémon Egg"
+			"Pokémon Egg",
+			"MoveTypeEggRoleA-Water",
+			"MoveTypeEggRoleB-Water",
+			"MoveTypeEggRoleC-Water"
 		],
 		"internalTrainerName": "",
 		"internalPokemonName": "pm0912_00_00_kuwassu"

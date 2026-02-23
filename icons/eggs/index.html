@@ -6,11 +6,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Index of Pokémon Masters EX icons">
-	<link rel="icon" type="image/png" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../../favicon.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
 	<style>
 		body {
-			background-image: url('../images/bg.png');
+			background-image: url('../../images/bg.png');
 			background-attachment: fixed;
 			font-family: sans-serif;
 			text-align: center;
@@ -118,23 +118,23 @@
 
 		<div id="quicksearch">
 			<button class="quickbtn" value="clearsearch">❌</button>
-			<button class="quickbtn" value="basestar">Default star</button>
-			<button class="quickbtn" value="exstar">6★</button>
-			<button class="quickbtn" value="-player">No MC</button>
-			<button class="quickbtn" value="thismonth">This month</button>
+			<button class="quickbtn" value="bettie">Bettie</button>
+			<button class="quickbtn" value="scottie">Scottie</button>
+			<button class="quickbtn" value="strike">Strike</button>
+			<button class="quickbtn" value="tech">Tech</button>
+			<button class="quickbtn" value="support">Support</button>
 		</div>
 		<div id="iconsversion">
-			<a class="optbtn" target="_blank" href="./eggs">Eggs icons <i class="bi bi-box-arrow-up-right"></i></a> / Icons used in <a class="optbtn" target="_blank" href="https://pomasters.github.io/SyncPairsTracker/">Sync Pairs Tracker <i class="bi bi-box-arrow-up-right"></i></a> and <a class="optbtn" target="_blank" href="https://pomasters.github.io/Tierlist/">Tier List maker <i class="bi bi-box-arrow-up-right"></i></a>
-			/ Other version of the icons in <a class="optbtn" target="_blank" href="https://pomasters.github.io/ScoutSimulator/icons/">Scout Simulator <i class="bi bi-box-arrow-up-right"></i></a>
-			/ <a class="optbtn" target="_blank" href="sages/">Icons (Sages) <i class="bi bi-box-arrow-up-right"></i></a>
+			Icons used in <a class="optbtn" target="_blank" href="https://pomasters.github.io/SyncPairsTracker/">Sync Pairs Tracker <i class="bi bi-box-arrow-up-right"></i></a> and <a class="optbtn" target="_blank" href="https://pomasters.github.io/Tierlist/">Tier List maker <i class="bi bi-box-arrow-up-right"></i></a>
+			/ Other version of the icons in <a class="optbtn" target="_blank" href="https://pomasters.github.io/ScoutSimulator/icons/eggs">Scout Simulator <i class="bi bi-box-arrow-up-right"></i></a>
 		</div>
 	</div>
 
 	<div id="syncpairs"></div>
 
 	<script type="module">
-		import { SYNCPAIRS } from '../js/syncpairs.js';
-		import { EGGS } from '../js/eggs.js';
+		import { SYNCPAIRS } from '../../js/syncpairs.js';
+		import { EGGS } from '../../js/eggs.js';
 
 		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
 
@@ -156,18 +156,21 @@
 					const rarity = filename.split("_").at(-1).replace(".png", "star");
 					const baseStar = index === 0 ? "basestar" : "";
 
+					let playerName = filename.includes("Bettie_") ? "Bettie" : "Scottie";
+					let imageRole = filename.includes("_A_") ? "strike" : filename.includes("_B_") ? "tech" : "support";
+
 					iconhtml += `
 						<div class="icon"
-							data-name="${trainerName} ${entry.trainerAlt || ""}"
+							data-name="${playerName} ${entry.trainerAlt || ""}"
 							data-pokemon="${entry.pokemonName}"
 							data-type="${entry.pokemonType}"
-							data-role="${entry.syncPairRole}"
+							data-role="${imageRole}"
 							data-region="${entry.syncPairRegion}"
 							data-rarity="${rarity}"
 							data-basestar="${baseStar}"
 							data-releasedate="${entry.releaseDate}"
 							data-acquisition="${acquisition}">
-							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}" loading="lazy">
+							<img src="${imgPath.replace("icons/eggs/", "")}" alt="${entry.trainerName} ${entry.pokemonName}" loading="lazy">
 						</div>`;
 				})
 			}
@@ -244,7 +247,7 @@
 		});
 
 
-		generateIcons(SYNCPAIRS);
+		generateIcons(EGGS);
 	</script>
 </body>
 
