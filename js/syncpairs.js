@@ -893,6 +893,48 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0121_00_starmie"
 	},
 	{
+		"dexNumber": "003",
+		"trainerName": "Misty",
+		"trainerAlt": "",
+		"pokemonNumber": "0055",
+		"pokemonName": "Golduck",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2026-03-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Misty_0055_4.png",
+			"icons/Misty_0055_5.png",
+			"icons/Misty_0055_EX.png"
+		],
+		"themes": [
+			"Water",
+			"Kanto",
+			"Gym Leader",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Multiple Units",
+			"isWoman",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeWater"
+		],
+		"internalTrainerName": "ch0110_01_kasumi",
+		"internalPokemonName": "pm0055_00_golduck"
+	},
+	{
 		"dexNumber": "004",
 		"trainerName": "Lt. Surge",
 		"trainerAlt": "",
@@ -7436,6 +7478,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
+			"Grid5",
+			"GridExpansion",
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
@@ -9932,6 +9976,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
+			"Grid5",
+			"GridExpansion",
 			"Buddy Move",
 			"Limited",
 			"Weather",
@@ -11621,6 +11667,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Terrain",
 			"Multiple Pokemon",
+			"Multiple Pairs",
 			"Unique Costume",
 			"Master Passive Flag Bearer",
 			"SyncMovePhysical",
@@ -11666,6 +11713,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Legendary",
 			"Buddy Move",
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"Weather",
 			"Multiple Units",
@@ -11786,6 +11835,58 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0000_40_red",
 		"internalPokemonName": "pm0006_00_lizardon"
+	},
+	{
+		"dexNumber": "084",
+		"trainerName": "Red",
+		"trainerAlt": "1996",
+		"pokemonNumber": "0025|2",
+		"pokemonName": "Pikachu",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-02-27",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Red_0025_2_5.png",
+			"icons/Red_0025_2_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Kanto",
+			"Main Character",
+			"Pallet Town",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Region Circle",
+			"Song Key",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isMan",
+			"Anniversary",
+			"Master Passive",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypeElectric"
+		],
+		"internalTrainerName": "ch0365_00_red2",
+		"internalPokemonName": "pm0025_03_pikachu"
 	},
 	{
 		"dexNumber": "085",
@@ -13581,6 +13682,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
@@ -17426,6 +17529,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
 			"isWoman",
 			"Unique Costume",
 			"SyncMovePhysical",
@@ -17565,6 +17670,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
+			"Grid5",
+			"GridExpansion",
 			"isWoman",
 			"Limited",
 			"Multiple Units",
@@ -17763,6 +17870,58 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0245_42_mary",
 		"internalPokemonName": "pm0967_00_00_mototokage"
+	},
+	{
+		"dexNumber": "119",
+		"trainerName": "Marnie",
+		"trainerAlt": "Alt.",
+		"pokemonNumber": "0861|2",
+		"pokemonName": "Grimmsnarl",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Dynamax",
+			"Gigantamax"
+		],
+		"pokemonType": "Dark",
+		"pokemonWeak": "Fairy",
+		"syncPairRole": "Field",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-03-14",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Galar",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Marnie_0861_2_5.png",
+			"icons/Marnie_0861_2_EX.png"
+		],
+		"themes": [
+			"Dark",
+			"Galar",
+			"Rival",
+			"Pigtails",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Wish ZoneEX",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isWoman",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeDark"
+		],
+		"internalTrainerName": "ch0245_80_mary",
+		"internalPokemonName": "pm0861_00_00_ohlonge"
 	},
 	{
 		"dexNumber": "120",
@@ -18730,6 +18889,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Multiple Units",
 			"isWoman",
+			"Grid3",
+			"GridExpansion",
 			"First Unit",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -21242,6 +21403,57 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0246_00_beet",
 		"internalPokemonName": "pm0303_00_kucheat"
+	},
+	{
+		"dexNumber": "149",
+		"trainerName": "Bede",
+		"trainerAlt": "Alt.",
+		"pokemonNumber": "0078",
+		"pokemonName": "Rapidash",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Regional Form",
+			"Dynamax"
+		],
+		"pokemonType": "Fairy",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-03-16",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Galar",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Bede_0078_5.png",
+			"icons/Bede_0078_EX.png"
+		],
+		"themes": [
+			"Fairy",
+			"Galar",
+			"Rival",
+			"Galar Adventurer",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeFairy"
+		],
+		"internalTrainerName": "ch0246_80_beet",
+		"internalPokemonName": "pm0078_00_31_dgallop"
 	},
 	{
 		"dexNumber": "150",
@@ -26758,6 +26970,60 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0906_00_00_nyahoja"
 	},
 	{
+		"dexNumber": "224",
+		"trainerName": "Juliana",
+		"trainerAlt": "Anniversary 2026",
+		"pokemonNumber": "1024",
+		"pokemonName": "Terapagos",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Other Form",
+			"Terastallization"
+		],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike (Special)",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-03-02",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Juliana_1024_5.png",
+			"icons/Juliana_1024_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Paldea",
+			"Main Character",
+			"Seasonal Outfit",
+			"Free Spirit"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"Anniversary",
+			"Rebuff",
+			"Song Key",
+			"Master Passive",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypeNormal"
+		],
+		"internalTrainerName": "ch0287_40_svgirl",
+		"internalPokemonName": "pm1024_11_00_terapagos"
+	},
+	{
 		"dexNumber": "225",
 		"trainerName": "Florian",
 		"trainerAlt": "",
@@ -26899,6 +27165,61 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0286_00_svboy",
 		"internalPokemonName": "pm0909_00_00_hogator"
+	},
+	{
+		"dexNumber": "225",
+		"trainerName": "Florian",
+		"trainerAlt": "Anniversary 2026",
+		"pokemonNumber": "1017",
+		"pokemonName": "Ogerpon",
+		"pokemonGender": "♀",
+		"pokemonForm": [
+			"Other Form",
+			"Terastallization"
+		],
+		"pokemonType": "Grass",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-02-28",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Florian_1017_5.png",
+			"icons/Florian_1017_EX.png"
+		],
+		"themes": [
+			"Grass",
+			"Paldea",
+			"Main Character",
+			"Seasonal Outfit",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Unique Costume",
+			"Multiple Units",
+			"isMan",
+			"Anniversary",
+			"Rebuff",
+			"Song Key",
+			"Master Passive",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeGrass"
+		],
+		"internalTrainerName": "ch0286_40_svboy",
+		"internalPokemonName": "pm1017_11_00_ogerpon"
 	},
 	{
 		"dexNumber": "226",
@@ -28080,4 +28401,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.65.0";
+export const VERSION = "v2.66.0";
