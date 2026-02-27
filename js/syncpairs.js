@@ -11717,6 +11717,7 @@ export const SYNCPAIRS = [
 			"GridExpansion",
 			"Limited",
 			"Weather",
+			"Wish Zone",
 			"Multiple Units",
 			"isMan",
 			"Rebuff",
@@ -17670,6 +17671,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Buddy Move",
+			"Wish Zone",
 			"Grid5",
 			"GridExpansion",
 			"isWoman",
