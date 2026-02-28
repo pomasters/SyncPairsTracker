@@ -27020,7 +27020,8 @@ export const SYNCPAIRS = [
 			"Master Passive",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
-			"MoveTypeNormal"
+			"MoveTypeNormal",
+			"MoveTypeStellar"
 		],
 		"internalTrainerName": "ch0287_40_svgirl",
 		"internalPokemonName": "pm1024_11_00_terapagos"
