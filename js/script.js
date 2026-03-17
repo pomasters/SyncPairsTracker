@@ -679,8 +679,22 @@ function exportSelection() {
 	if(pairs.length == 0 && localStorage.getItem("syncPairsTrackerBackup") !== null) {
 		document.getElementById("exportImportZone").value = localStorage.getItem("syncPairsTrackerBackup");
 	} else {
-		localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
-		document.getElementById("exportImportZone").value = JSON.stringify(exported);
+		let exportedString = JSON.stringify(exported);
+
+		localStorage.setItem("syncPairsTrackerBackup", exportedString);
+		document.getElementById("exportImportZone").value = exportedString;
+
+		navigator.clipboard.writeText(exportedString).then(() => {
+			const exportLog = document.getElementById("exportImportLog");
+
+			exportLog.innerHTML = "Copied in clipboard!";
+
+			setTimeout(() => { exportLog.innerHTML = ""; }, 1000);
+
+		}).catch(err => {
+			console.error(err);
+		});
+		document.getElementById("exportImportZone").select()
 	}
 
 }
@@ -699,90 +713,97 @@ function importSelection() {
 		} else {
 			imported = JSON.parse(importedTextAreaValue);
 		}
+	} catch(e) { console.log(e); return; }
 
-		var isOldFormat = false;
-		if(importedTextAreaValue.indexOf("a") > -1 || importedTextAreaValue.indexOf("i") > -1 || 
-			 importedTextAreaValue.indexOf("u") > -1 || importedTextAreaValue.indexOf("e") > -1 || 
-			 importedTextAreaValue.indexOf("o") > -1) {
-			isOldFormat = true;
-		}
 
-		Array.from(document.getElementsByClassName("syncPair")).forEach(function(s) {
-			var key = s.querySelector(".syncInfos .infoDexNum").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
+	let invalidKeys = [];
 
-			if(isOldFormat) {
-				var key = s.querySelector(".syncInfos .infoTrainerName").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
-			}
+	Array.from(document.getElementsByClassName("syncPair")).forEach(function(s) {
+		let trainerNum = s.querySelector(".syncInfos .infoDexNum").textContent;
+		let trainerName = s.querySelector(".syncInfos .infoTrainerName").textContent;
+		let pokemonNum = s.querySelector(".syncInfos .infoPokemonNum").textContent;
+		let pokemonName = s.querySelector(".syncInfos .infoPokemonName").textContent;
 
-			unselect(s);
+		let key = `${trainerNum}|${pokemonNum}`;
 
-			if(key in imported) {
-				var currentSyncData = imported[key].split("|");
-				var importedSyncLevel = currentSyncData[0];
-				var importedSyncImage = currentSyncData[1];
-				var importedSyncStar = currentSyncData[2];
-				var importedSyncFav = convertFav(parseInt(currentSyncData[3], 16).toString(2).padStart(12, "0"));
-				var importedSyncRoleEX = currentSyncData[4];
-				var importedSyncGrid = currentSyncData[5];
+		unselect(s);
 
-				if(isNaN(importedSyncLevel)) { importedSyncLevel = "0" }
-				if(isNaN(importedSyncImage)) { importedSyncImage = "0" }
-				if(isNaN(importedSyncStar)) { importedSyncStar = "0" }
-				if("" == importedSyncFav) { importedSyncFav = DEFAULT_FAVS_VALUES }
-				if(isNaN(importedSyncRoleEX)) { importedSyncRoleEX = "0" }
-				if(isNaN(importedSyncGrid)) { importedSyncGrid = "0" }
+		if(key in imported) {
+			try {
+				const [rawLevel, rawImage, rawStar, rawFav, rawRoleEX, rawGrid] = imported[key].split("|");
 
-				var syncLevelDIV = s.querySelector(".syncLevel");
-				var syncImagesDIV = s.querySelector(".syncImages");
-				var syncStarDIV = s.querySelector(".syncStar");
-				var syncFavDIV = s.querySelector(".syncFav");
-				var syncRoleEXDIV = s.querySelector(".syncRoleEX");
-				var syncGridDIV = s.querySelector(".syncGrid");
-
-				syncLevelDIV.dataset.currentimage = parseInt(importedSyncLevel);
-				syncLevelDIV.dataset.currentlevel = MAPPINGLEVELS[parseInt(importedSyncLevel)];
-				syncLevelDIV.dataset.superawakening = (parseInt(importedSyncLevel) >= 5);
-				syncImagesDIV.dataset.currentimage = parseInt(importedSyncImage);
-				syncStarDIV.dataset.currentimage = parseInt(importedSyncStar);
-				syncFavDIV.dataset.currentvalues = importedSyncFav;
-				syncRoleEXDIV.dataset.currentimage = parseInt(importedSyncRoleEX);
-				syncGridDIV.dataset.currentimage = parseInt(importedSyncGrid);
-
-				var currentStar;
-				var basestar = parseInt(s.querySelector(".infoSyncPairRarity").textContent);
-				if(! EGGMONMODE) {
-					if(s.querySelector(".infoTrainerName").textContent == "Player") {
-						currentStar = Math.floor(importedSyncImage/2) + parseInt(basestar);
-					} else {
-						currentStar = parseInt(basestar) + parseInt(importedSyncImage);
-					}
-				} else { currentStar = parseInt(basestar) + parseInt(importedSyncStar); }
-				syncStarDIV.dataset.currentstar = currentStar;
-
-				Array.from(syncLevelDIV.children).forEach(c => c.classList.remove("currentImage"))
-				Array.from(syncImagesDIV.children).forEach(c => c.classList.remove("currentImage"))
-				Array.from(syncStarDIV.children).forEach(c => c.classList.remove("currentImage"))
-				Array.from(syncGridDIV.children).forEach(c => c.classList.remove("currentImage"))
-
-				syncLevelDIV.children[importedSyncLevel].classList.add("currentImage");
-				syncImagesDIV.children[importedSyncImage].classList.add("currentImage");
-				syncStarDIV.children[importedSyncStar].classList.add("currentImage");
-				syncGridDIV.children[importedSyncGrid].classList.add("currentImage");
-
-				var syncRoleEXDIVchildren = Array.from(syncRoleEXDIV.children);
-				if(syncRoleEXDIVchildren.length > 0) {
-					syncRoleEXDIVchildren.forEach(c => c.classList.remove("currentImage"));
-					syncRoleEXDIV.children[importedSyncRoleEX].classList.add("currentImage");
+				if([rawLevel, rawImage, rawStar, rawRoleEX, rawGrid].some(isNaN)) {
+					throw new Error(key);
 				}
 
-				chooseImages(syncFavDIV, importedSyncFav);
+				const importedSync = {
+					level:  parseInt(rawLevel),
+					image:  parseInt(rawImage),
+					star:   parseInt(rawStar),
+					fav:    convertFav(parseInt(rawFav, 16).toString(2).padStart(12, "0")) || DEFAULT_FAVS_VALUES,
+					roleEX: parseInt(rawRoleEX),
+					grid:   parseInt(rawGrid),
+				};
 
+				const divs = {
+					level:  s.querySelector(".syncLevel"),
+					images: s.querySelector(".syncImages"),
+					star:   s.querySelector(".syncStar"),
+					fav:    s.querySelector(".syncFav"),
+					roleEX: s.querySelector(".syncRoleEX"),
+					grid:   s.querySelector(".syncGrid"),
+				};
+
+				Object.assign(divs.level.dataset, {
+					currentimage:    importedSync.level,
+					currentlevel:    MAPPINGLEVELS[importedSync.level],
+					superawakening:  importedSync.level >= 5,
+				});
+				divs.images.dataset.currentimage = importedSync.image;
+				divs.star.dataset.currentimage   = importedSync.star;
+				divs.fav.dataset.currentvalues   = importedSync.fav;
+				divs.roleEX.dataset.currentimage = importedSync.roleEX;
+				divs.grid.dataset.currentimage   = importedSync.grid;
+
+				const basestar = parseInt(s.querySelector(".infoSyncPairRarity").textContent);
+				let currentStar;
+				if(!EGGMONMODE) {
+					const isPlayer = s.querySelector(".infoTrainerName").textContent === "Player";
+					currentStar = basestar + (isPlayer ? Math.floor(importedSync.image / 2) : importedSync.image);
+				} else {
+					currentStar = basestar + importedSync.star;
+				}
+				divs.star.dataset.currentstar = currentStar;
+
+				function setCurrentImage(div, index) {
+					Array.from(div.children).forEach(c => c.classList.remove("currentImage"));
+					div.children[index].classList.add("currentImage");
+				};
+
+				setCurrentImage(divs.level,  importedSync.level);
+				setCurrentImage(divs.images, importedSync.image);
+				setCurrentImage(divs.star,   importedSync.star);
+				setCurrentImage(divs.grid,   importedSync.grid);
+
+				const roleEXChildren = Array.from(divs.roleEX.children);
+				if(roleEXChildren.length > 0) {
+					roleEXChildren.forEach(c => c.classList.remove("currentImage"));
+					divs.roleEX.children[importedSync.roleEX].classList.add("currentImage");
+				}
+
+				chooseImages(divs.fav, importedSync.fav);
 				select(s);
-			}
-		});
-		countSelection();
 
-	} catch(e) { console.log(e); return; }
+			} catch(e) {
+				invalidKeys.push(`<li>${key} (${trainerName} & ${pokemonName.trim()})</li>`)
+			}
+		}
+	})
+
+	const logMessage = invalidKeys.length > 0 ? `Import completed with ${invalidKeys.length} errors:` : "Import completed with no errors!"
+	document.getElementById("exportImportLog").innerHTML = logMessage + `<ul>${invalidKeys.join("")}</ul>`;
+
+	countSelection();
 }
 
 

@@ -274,7 +274,17 @@ input:focus { outline: 0; }
 	outline: none;
 	margin: 2%;
 }
- 
+
+#exportImportLog {
+	font-size: 13px;
+	color: var(--blue1);
+	text-align: initial;
+	margin: 0 2%;
+}
+
+#exportImportLog ul {
+	margin: 0;
+}
 
 #showSorting, #takeScreenshot {
 	width: calc(calc(100% / 3)* 0.75 - 6px) !important;
