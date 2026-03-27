@@ -895,7 +895,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "003",
 		"trainerName": "Misty",
-		"trainerAlt": "",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0055",
 		"pokemonName": "Golduck",
 		"pokemonGender": "♀",
@@ -5781,6 +5781,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"GridMega",
 			"Multiple Units",
+			"Multiple Pairs",
 			"isWoman",
 			"Multiple Pokemon",
 			"First Unit",
@@ -5878,6 +5879,61 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0012_00_corni",
 		"internalPokemonName": "pm0761_00_rutya"
+	},
+	{
+		"dexNumber": "049",
+		"trainerName": "Korrina",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0448|2",
+		"pokemonName": "Lucario",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Mega Evolution"
+		],
+		"pokemonType": "Fighting",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-04-01",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Kalos",
+		"syncPairIcon": "Arc",
+		"images": [
+			"icons/Korrina_0448_2_5.png",
+			"icons/Korrina_0448_2_EX.png"
+		],
+		"themes": [
+			"Fighting",
+			"Kalos",
+			"Gym Leader",
+			"Arc Suit",
+			"Passionate Spirit"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Wish ZoneEX",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isWoman",
+			"Rebuff",
+			"Song Key",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveSpecial",
+			"MoveTypeFighting"
+		],
+		"internalTrainerName": "ch0012_90_corni",
+		"internalPokemonName": "pm0448_00_lucario"
 	},
 	{
 		"dexNumber": "050",
@@ -9326,7 +9382,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "073",
 		"trainerName": "Grimsley",
-		"trainerAlt": "lodge",
+		"trainerAlt": "Lodge",
 		"pokemonNumber": "0430",
 		"pokemonName": "Honchkrow",
 		"pokemonGender": "♀",
@@ -11923,6 +11979,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
+			"Multiple Pairs",
 			"Grid3",
 			"GridExpansion",
 			"GridMega",
@@ -11978,6 +12035,60 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0114_40_natsume",
 		"internalPokemonName": "pm0433_00_lisyan"
+	},
+	{
+		"dexNumber": "085",
+		"trainerName": "Sabrina",
+		"trainerAlt": "Arc Suit",
+		"pokemonNumber": "0065|2",
+		"pokemonName": "Alakazam",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Mega Evolution"
+		],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Ghost",
+		"syncPairRole": "Multi",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-04-03",
+		"syncPairAcquisition": "Arc Suit Fair Scout",
+		"syncPairRegion": "Kanto",
+		"syncPairIcon": "Arc",
+		"images": [
+			"icons/Sabrina_0065_2_5.png",
+			"icons/Sabrina_0065_2_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Kanto",
+			"Gym Leader",
+			"Arc Suit",
+			"Supernatural"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"TerrainEX",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"Multiple Pairs",
+			"isWoman",
+			"Rebuff",
+			"Song Key",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"MoveTypePsychic"
+		],
+		"internalTrainerName": "ch0114_90_natsume",
+		"internalPokemonName": "pm0065_00_foodin"
 	},
 	{
 		"dexNumber": "086",
@@ -19737,6 +19848,49 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0609_00_chandela"
 	},
 	{
+		"dexNumber": "133",
+		"trainerName": "Ingo",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0525",
+		"pokemonName": "Boldore",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Rock",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2026-04-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Unova",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Ingo_0525_4.png",
+			"icons/Ingo_0525_5.png",
+			"icons/Ingo_0525_EX.png"
+		],
+		"themes": [
+			"Rock",
+			"Unova",
+			"Battle Facility Foe",
+			"Battle Partner"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isMan",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveStatus",
+			"MoveTypeRock"
+		],
+		"internalTrainerName": "ch0108_00_nobori",
+		"internalPokemonName": "pm0525_00_gantle"
+	},
+	{
 		"dexNumber": "134",
 		"trainerName": "Emmet",
 		"trainerAlt": "",
@@ -20366,6 +20520,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Multiple Units",
+			"Multiple Pokemon",
 			"isMan",
 			"SyncMoveSpecial",
 			"AttackMoveSpecial",
@@ -20892,6 +21047,52 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0259_40_sania",
 		"internalPokemonName": "pm0814_00_mangosteen3_rare"
+	},
+	{
+		"dexNumber": "144",
+		"trainerName": "Sonia",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0823",
+		"pokemonName": "Corviknight",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Steel",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-04-14",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Galar",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Sonia_0823_5.png",
+			"icons/Sonia_0823_EX.png"
+		],
+		"themes": [
+			"Steel",
+			"Galar",
+			"Special Costume",
+			"Sunglasses",
+			"Pasio Academy"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"isWoman",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeSteel"
+		],
+		"internalTrainerName": "ch0259_41_sania",
+		"internalPokemonName": "pm0823_00_00_armorga"
 	},
 	{
 		"dexNumber": "145",
@@ -21531,6 +21732,8 @@ export const SYNCPAIRS = [
 			"Battle Partner"
 		],
 		"tags": [
+			"Grid3",
+			"GridExpansion",
 			"GridMega",
 			"Multiple Pokemon",
 			"isWoman",
@@ -26233,6 +26436,52 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0952_00_00_scovillain"
 	},
 	{
+		"dexNumber": "210",
+		"trainerName": "Arven",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0819",
+		"pokemonName": "Skwovet",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Normal",
+		"pokemonWeak": "Fighting",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Tech",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-04-14",
+		"syncPairAcquisition": "Event Reward",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "Academy",
+		"images": [
+			"icons/Arven_0819_5.png",
+			"icons/Arven_0819_EX.png"
+		],
+		"themes": [
+			"Normal",
+			"Paldea",
+			"Rival",
+			"Cook",
+			"Knowledgeable"
+		],
+		"tags": [
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Multiple Units",
+			"isMan",
+			"Academy Sync Pair",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"AttackMoveSpecial",
+			"MoveTypeNormal"
+		],
+		"internalTrainerName": "ch0317_00_pepper",
+		"internalPokemonName": "pm0819_00_00_hoshigarisu"
+	},
+	{
 		"dexNumber": "211",
 		"trainerName": "Morgan",
 		"trainerAlt": "",
@@ -27976,6 +28225,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Grid5",
 			"Buddy Move",
+			"Multiple Units",
 			"Limited",
 			"Wish ZoneEX",
 			"Region Circle",
@@ -27988,6 +28238,54 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0338_00_sazare",
 		"internalPokemonName": "pm0058_00_41_gardie"
+	},
+	{
+		"dexNumber": "237",
+		"trainerName": "Perrin",
+		"trainerAlt": "Academy",
+		"pokemonNumber": "0164",
+		"pokemonName": "Noctowl",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Flying",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Sprint",
+		"syncPairRoleEX": "Support",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-04-14",
+		"syncPairAcquisition": "Special Costume Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Perrin_0164_5.png",
+			"icons/Perrin_0164_EX.png"
+		],
+		"themes": [
+			"Flying",
+			"Paldea",
+			"Special Costume",
+			"Artistic",
+			"Pasio Academy"
+		],
+		"tags": [
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeFlying",
+			"MoveTypePsychic"
+		],
+		"internalTrainerName": "ch0338_40_sazare",
+		"internalPokemonName": "pm0164_00_yorunozuku"
 	},
 	{
 		"dexNumber": "238",
@@ -28404,4 +28702,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.66.0";
+export const VERSION = "v2.67.0";
