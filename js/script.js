@@ -2,7 +2,6 @@ import {SYNCPAIRS, VERSION} from "./syncpairs.js";
 import {EGGS} from "./eggs.js";
 import {NEWS} from "./news.js";
 import {ITEMS} from "./items.js";
-import * as AFD from './afd.js';
 
 const SYNCLEVELIMGS = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const SYNCSTARIMGS = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];
@@ -47,13 +46,6 @@ function generatePairsHTML(pairs) {
 	pairs.forEach((pair, index) => { result += generatePairHTML(pair, index) });
 
 	document.getElementById("syncPairs").innerHTML = result;
-
-
-	try {
-		document.head.appendChild(AFD.createStyleAFD());
-		AFD.addNewSyncPairs(document.getElementById("syncPairs"));
-		AFD.addPauseButton(document.getElementById("syncPairs"));
-	} catch(e) {}
 }
 
 
@@ -67,14 +59,6 @@ function generatePairHTML(pair, i) {
 
 	var imagesData = getImagesDataFromLocalStorage(pair);
 	var innerHtmlImages = generateImagesPairHTML(pair, imagesData);
-
-
-	try {
-		if(AFD.hasCustomIcon(pair)) {
-			innerHtmlImages = AFD.replaceSyncPairImages(innerHtmlImages)
-		}
-	} catch(e) {}
-
 
 	function tags(tags, tag_type) { return tags.map((t) => tag_type + t).join(", "); }
 
