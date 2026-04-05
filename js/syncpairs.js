@@ -7825,6 +7825,8 @@ export const SYNCPAIRS = [
 			"Pigtails"
 		],
 		"tags": [
+			"Grid5",
+			"GridExpansion",
 			"Limited",
 			"Multiple Units",
 			"isWoman",
@@ -15708,6 +15710,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Buddy Move",
 			"Limited",
+			"Grid5",
+			"GridExpansion",
 			"Region Circle",
 			"Unique Costume",
 			"Multiple Pokemon",
