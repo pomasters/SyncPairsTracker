@@ -28085,6 +28085,7 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Weather",
 			"Wish Zone",
+			"Buddy Move",	
 			"isMan",
 			"Song Key",
 			"Master Passive Flag Bearer",
