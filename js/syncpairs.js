@@ -17725,7 +17725,7 @@ export const SYNCPAIRS = [
 		"pokemonType": "Fairy",
 		"pokemonWeak": "Fairy",
 		"syncPairRole": "Tech",
-		"syncPairRoleEX": "",
+		"syncPairRoleEX": "Strike (Physical)",
 		"syncPairEXPose": true,
 		"syncPairEXColor": true,
 		"syncPairSuperawakening": false,
