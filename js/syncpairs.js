@@ -471,6 +471,7 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
+			"Multiple Pokemon",
 			"Multiple Units",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
@@ -1653,6 +1654,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"Limited",
 			"Multiple Units",
+			"Grid5",
+			"GridExpansion",
 			"isWoman",
 			"Weather",
 			"Legendary",
@@ -8033,6 +8036,57 @@ export const SYNCPAIRS = [
 		"internalPokemonName": "pm0231_00_gomazou"
 	},
 	{
+		"dexNumber": "066",
+		"trainerName": "Lyra",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0244",
+		"pokemonName": "Entei",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Fire",
+		"pokemonWeak": "Rock",
+		"syncPairRole": "Strike (Physical)",
+		"syncPairRoleEX": "Sprint",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-06-02",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Johto",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Lyra_0244_5.png",
+			"icons/Lyra_0244_EX.png"
+		],
+		"themes": [
+			"Fire",
+			"Johto",
+			"Main Character",
+			"Champion",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Weather",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isWoman",
+			"Song Key",
+			"Neo Champion",
+			"Master Passive",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeFire"
+		],
+		"internalTrainerName": "ch0002_90_kotone",
+		"internalPokemonName": "pm0244_00_entei"
+	},
+	{
 		"dexNumber": "067",
 		"trainerName": "Hilbert",
 		"trainerAlt": "",
@@ -9145,6 +9199,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Limited",
 			"Multiple Units",
+			"Grid5",
+			"GridExpansion",
 			"Weather",
 			"Wish Zone",
 			"Shiny",
@@ -9888,6 +9944,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Multiple Pokemon",
 			"Multiple Pairs",
+			"Grid5",
+			"GridExpansion",
 			"isMan",
 			"Legendary",
 			"Villain Arc",
@@ -10001,6 +10059,58 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0112_90_hibiki",
 		"internalPokemonName": "pm0249_00_lugia"
+	},
+	{
+		"dexNumber": "075",
+		"trainerName": "Ethan",
+		"trainerAlt": "Champion",
+		"pokemonNumber": "0243",
+		"pokemonName": "Raikou",
+		"pokemonGender": "",
+		"pokemonForm": [],
+		"pokemonType": "Electric",
+		"pokemonWeak": "Ground",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-05-31",
+		"syncPairAcquisition": "EX Master Fair Scout",
+		"syncPairRegion": "Johto",
+		"syncPairIcon": "MasterEX",
+		"images": [
+			"icons/Ethan_0243_5.png",
+			"icons/Ethan_0243_EX.png"
+		],
+		"themes": [
+			"Electric",
+			"Johto",
+			"Main Character",
+			"Champion",
+			"Pokéathlete"
+		],
+		"tags": [
+			"Legendary",
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Terrain",
+			"Region Circle",
+			"Unique Costume",
+			"Multiple Units",
+			"Multiple Pokemon",
+			"isMan",
+			"Song Key",
+			"Neo Champion",
+			"Master Passive",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeElectric"
+		],
+		"internalTrainerName": "ch0112_91_hibiki",
+		"internalPokemonName": "pm0243_00_raikou"
 	},
 	{
 		"dexNumber": "076",
@@ -16599,6 +16709,8 @@ export const SYNCPAIRS = [
 		"tags": [
 			"GridMega",
 			"Multiple Units",
+			"Grid3",
+			"GridExpansion",
 			"isWoman",
 			"Weather",
 			"Starter",
@@ -20217,6 +20329,7 @@ export const SYNCPAIRS = [
 		"tags": [
 			"isWoman",
 			"Legendary",
+			"Multiple Pokemon",
 			"Master Passive Teamwork",
 			"First Unit",
 			"SyncMovePhysical",
@@ -24344,6 +24457,7 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Limited",
 			"Wish Zone",
+			"Multiple Units",
 			"Multiple Pokemon",
 			"isWoman",
 			"Hisui",
@@ -24354,6 +24468,51 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0291_00_sho",
 		"internalPokemonName": "pm0503_00_41_daikenki"
+	},
+	{
+		"dexNumber": "183",
+		"trainerName": "Akari",
+		"trainerAlt": "Lodge",
+		"pokemonNumber": "0439",
+		"pokemonName": "Mime Jr",
+		"pokemonGender": "♂",
+		"pokemonForm": [],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Steel",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "",
+		"syncPairEXPose": true,
+		"syncPairEXColor": false,
+		"syncPairSuperawakening": false,
+		"syncPairRarity": "4",
+		"releaseDate": "2026-06-01",
+		"syncPairAcquisition": "Trainer Lodge Exchange",
+		"syncPairRegion": "Sinnoh",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Akari_0439_4.png",
+			"icons/Akari_0439_5.png",
+			"icons/Akari_0439_EX.png"
+		],
+		"themes": [
+			"Psychic",
+			"Sinnoh",
+			"Main Character",
+			"Scarf",
+			"Hisui Adventurer"
+		],
+		"tags": [
+			"Limited",
+			"Multiple Units",
+			"isWoman",
+			"Hisui",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypePsychic"
+		],
+		"internalTrainerName": "ch0291_00_sho",
+		"internalPokemonName": "pm0439_00_manene"
 	},
 	{
 		"dexNumber": "184",
@@ -25815,7 +25974,6 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Wish Zone",
 			"Wish ZoneEX",
-			"Unique Costume",
 			"Multiple Units",
 			"isWoman",
 			"SyncMovePhysical",
@@ -29009,6 +29167,101 @@ export const SYNCPAIRS = [
 		],
 		"internalTrainerName": "ch0360_00_kakitsubata",
 		"internalPokemonName": "pm1018_00_00_briduras"
+	},
+	{
+		"dexNumber": "246",
+		"trainerName": "Raifort",
+		"trainerAlt": "",
+		"pokemonNumber": "0094",
+		"pokemonName": "Gengar",
+		"pokemonGender": "♂",
+		"pokemonForm": [
+			"Terastallization"
+		],
+		"pokemonType": "Ghost",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Support",
+		"syncPairRoleEX": "Field",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-06-14",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Paldea",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Raifort_0094_5.png",
+			"icons/Raifort_0094_EX.png"
+		],
+		"themes": [
+			"Ghost",
+			"Paldea",
+			"Glasses",
+			"Knowledgeable",
+			"Researcher"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Multiple Pokemon",
+			"isWoman",
+			"First Unit",
+			"SyncMoveSpecial",
+			"AttackMoveSpecial",
+			"AttackMoveStatus",
+			"MoveTypeGhost"
+		],
+		"internalTrainerName": "ch0348_00_raifort",
+		"internalPokemonName": "pm0094_00_gangar"
+	},
+	{
+		"dexNumber": "247",
+		"trainerName": "Sabi",
+		"trainerAlt": "",
+		"pokemonNumber": "0464",
+		"pokemonName": "Rhyperior",
+		"pokemonGender": "♀",
+		"pokemonForm": [],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Water",
+		"syncPairRole": "Tech",
+		"syncPairRoleEX": "Strike (Physical)",
+		"syncPairEXPose": true,
+		"syncPairEXColor": true,
+		"syncPairSuperawakening": true,
+		"syncPairRarity": "5",
+		"releaseDate": "2026-06-16",
+		"syncPairAcquisition": "EX Fair Scout",
+		"syncPairRegion": "Sinnoh",
+		"syncPairIcon": "none",
+		"images": [
+			"icons/Sabi_0464_5.png",
+			"icons/Sabi_0464_EX.png"
+		],
+		"themes": [
+			"Ground",
+			"Sinnoh",
+			"Pigtails",
+			"Supernatural"
+		],
+		"tags": [
+			"Grid5",
+			"Buddy Move",
+			"Limited",
+			"Wish Zone",
+			"Region Circle",
+			"isWoman",
+			"Hisui",
+			"First Unit",
+			"SyncMovePhysical",
+			"AttackMovePhysical",
+			"MoveTypeGround"
+		],
+		"internalTrainerName": "ch0315_00_wasabi",
+		"internalPokemonName": "pm0464_01_dosidon"
 	}
 ]
 
@@ -29037,7 +29290,7 @@ const P = {
 	"syncPairEXColor": true,
 	"syncPairSuperawakening": false,
 	"syncPairRarity": "5",
-	"releaseDate": "2025-00-00",
+	"releaseDate": "2026-00-00",
 	"syncPairAcquisition": "Main Story: PML Arc / Legendary Adventures / Spotlight Scout / General Pool / Poké Fair Scout / EX Fair Scout / Seasonal Scout / Special Costume Scout / Master Fair Scout / EX Master Fair Scout / Arc Suit Fair Scout / Variety Scout / Battle Points Exchange / Trainer Lodge Exchange / Event Reward / Training Ticket Exchange / Gym Scout",
 	"syncPairRegion": "Pasio / Kanto / Johto / Hoenn / Sinnoh / Unova / Kalos / Alola / Galar / Paldea",
 	"syncPairIcon": "none",
@@ -29104,4 +29357,4 @@ const P = {
 }
 
 
-export const VERSION = "v2.68.0";
+export const VERSION = "v2.69.0";
