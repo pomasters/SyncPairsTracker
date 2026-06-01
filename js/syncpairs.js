@@ -473,6 +473,7 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Multiple Pokemon",
 			"Multiple Units",
+			"Master Passive Teamwork",
 			"SyncMovePhysical",
 			"AttackMovePhysical",
 			"AttackMoveSpecial",
