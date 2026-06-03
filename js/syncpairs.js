@@ -140,7 +140,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0638",
 		"pokemonName": "Cobalion",
 		"pokemonGender": "",
@@ -180,7 +180,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0377",
 		"pokemonName": "Regirock",
 		"pokemonGender": "",
@@ -220,7 +220,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0481",
 		"pokemonName": "Mesprit",
 		"pokemonGender": "",
@@ -261,7 +261,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0379",
 		"pokemonName": "Registeel",
 		"pokemonGender": "",
@@ -443,7 +443,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0243",
 		"pokemonName": "Raikou",
 		"pokemonGender": "",
@@ -485,7 +485,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "001",
 		"trainerName": "Player",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0794",
 		"pokemonName": "Buzzwole",
 		"pokemonGender": "",
@@ -618,7 +618,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "002",
 		"trainerName": "Brock",
-		"trainerAlt": "Gym",
+		"trainerAlt": "",
 		"pokemonNumber": "0141",
 		"pokemonName": "Kabutops",
 		"pokemonGender": "♂",
@@ -897,7 +897,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "003",
 		"trainerName": "Misty",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0055",
 		"pokemonName": "Golduck",
 		"pokemonGender": "♀",
@@ -1351,7 +1351,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "007",
 		"trainerName": "Lorelei",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0091",
 		"pokemonName": "Cloyster",
 		"pokemonGender": "♀",
@@ -1438,7 +1438,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "008",
 		"trainerName": "Bruno",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0095",
 		"pokemonName": "Onix",
 		"pokemonGender": "♂",
@@ -1531,7 +1531,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "009",
 		"trainerName": "Agatha",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0024",
 		"pokemonName": "Arbok",
 		"pokemonGender": "♀",
@@ -1675,7 +1675,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "010",
 		"trainerName": "Kris",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0135",
 		"pokemonName": "Jolteon",
 		"pokemonGender": "♀",
@@ -1720,7 +1720,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "010",
 		"trainerName": "Kris",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0174",
 		"pokemonName": "Igglybuff",
 		"pokemonGender": "♀",
@@ -2306,7 +2306,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "016",
 		"trainerName": "Will",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0080",
 		"pokemonName": "Slowbro",
 		"pokemonGender": "♀",
@@ -2538,7 +2538,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "018",
 		"trainerName": "Brendan",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0277",
 		"pokemonName": "Swellow",
 		"pokemonGender": "♂",
@@ -2638,7 +2638,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "018",
 		"trainerName": "Brendan",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0259",
 		"pokemonName": "Marshtomp",
 		"pokemonGender": "♂",
@@ -3549,7 +3549,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "029",
 		"trainerName": "Barry",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0407",
 		"pokemonName": "Roserade",
 		"pokemonGender": "♂",
@@ -3641,7 +3641,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "029",
 		"trainerName": "Barry",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0419",
 		"pokemonName": "Floatzel",
 		"pokemonGender": "♂",
@@ -4365,7 +4365,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "037",
 		"trainerName": "Cheryl",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0321",
 		"pokemonName": "Wailord",
 		"pokemonGender": "♀",
@@ -4592,7 +4592,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "039",
 		"trainerName": "Rosa",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0502",
 		"pokemonName": "Dewott",
 		"pokemonGender": "♂",
@@ -4737,7 +4737,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "039",
 		"trainerName": "Rosa",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0585",
 		"pokemonName": "Deerling",
 		"pokemonGender": "♂",
@@ -4790,7 +4790,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "039",
 		"trainerName": "Rosa",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0585|2",
 		"pokemonName": "Deerling",
 		"pokemonGender": "♂",
@@ -5026,7 +5026,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "041",
 		"trainerName": "Skyla",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0521",
 		"pokemonName": "Unfezant",
 		"pokemonGender": "♀",
@@ -5342,7 +5342,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "043",
 		"trainerName": "Iris",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0621",
 		"pokemonName": "Druddigon",
 		"pokemonGender": "♀",
@@ -6630,7 +6630,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "057",
 		"trainerName": "Olivia",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0703",
 		"pokemonName": "Carbink",
 		"pokemonGender": "",
@@ -7034,7 +7034,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "063",
 		"trainerName": "Acerola",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0354",
 		"pokemonName": "Banette",
 		"pokemonGender": "♂",
@@ -7277,7 +7277,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "064",
 		"trainerName": "Cheren",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0509",
 		"pokemonName": "Purrloin",
 		"pokemonGender": "♂",
@@ -7320,7 +7320,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "064",
 		"trainerName": "Cheren",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0510",
 		"pokemonName": "Liepard",
 		"pokemonGender": "♂",
@@ -7560,7 +7560,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "065",
 		"trainerName": "Blue",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0103",
 		"pokemonName": "Exeggutor",
 		"pokemonGender": "♂",
@@ -7705,7 +7705,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "065",
 		"trainerName": "Blue",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0065",
 		"pokemonName": "Alakazam",
 		"pokemonGender": "♂",
@@ -7948,7 +7948,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "066",
 		"trainerName": "Lyra",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0134",
 		"pokemonName": "Vaporeon",
 		"pokemonGender": "♀",
@@ -8709,7 +8709,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "068",
 		"trainerName": "Hilda",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0619",
 		"pokemonName": "Mienfoo",
 		"pokemonGender": "♀",
@@ -8888,7 +8888,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "069",
 		"trainerName": "Elesa",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0595",
 		"pokemonName": "Joltik",
 		"pokemonGender": "♀",
@@ -9224,7 +9224,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "071",
 		"trainerName": "Calem",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0653",
 		"pokemonName": "Fennekin",
 		"pokemonGender": "♂",
@@ -9541,7 +9541,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "073",
 		"trainerName": "Grimsley",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0430",
 		"pokemonName": "Honchkrow",
 		"pokemonGender": "♀",
@@ -9726,7 +9726,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "074",
 		"trainerName": "Giovanni",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0112",
 		"pokemonName": "Rhydon",
 		"pokemonGender": "♂",
@@ -9772,7 +9772,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "074",
 		"trainerName": "Giovanni",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0033",
 		"pokemonName": "Nidorino",
 		"pokemonGender": "♂",
@@ -10268,7 +10268,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "076",
 		"trainerName": "Leaf",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0036",
 		"pokemonName": "Clefable",
 		"pokemonGender": "♀",
@@ -10450,7 +10450,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "077",
 		"trainerName": "Lance",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0148",
 		"pokemonName": "Dragonair",
 		"pokemonGender": "♂",
@@ -10493,7 +10493,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "077",
 		"trainerName": "Lance",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0230",
 		"pokemonName": "Kingdra",
 		"pokemonGender": "♂",
@@ -10789,7 +10789,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "078",
 		"trainerName": "Cynthia",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0423",
 		"pokemonName": "Gastrodon",
 		"pokemonGender": "♀",
@@ -11472,7 +11472,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "081",
 		"trainerName": "Steven",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0346",
 		"pokemonName": "Cradily",
 		"pokemonGender": "♀",
@@ -11747,7 +11747,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "083",
 		"trainerName": "Valerie",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0303",
 		"pokemonName": "Mawile",
 		"pokemonGender": "♀",
@@ -12859,7 +12859,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "091",
 		"trainerName": "Silver",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0160",
 		"pokemonName": "Feraligatr",
 		"pokemonGender": "♂",
@@ -13004,7 +13004,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "091",
 		"trainerName": "Silver",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0169",
 		"pokemonName": "Crobat",
 		"pokemonGender": "♂",
@@ -13199,7 +13199,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "092",
 		"trainerName": "Wally",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0301",
 		"pokemonName": "Delcatty",
 		"pokemonGender": "♀",
@@ -13243,7 +13243,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "092",
 		"trainerName": "Wally",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0334",
 		"pokemonName": "Altaria",
 		"pokemonGender": "♂",
@@ -13427,7 +13427,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "093",
 		"trainerName": "Jasmine",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0081",
 		"pokemonName": "Magnemite",
 		"pokemonGender": "",
@@ -13707,7 +13707,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "094",
 		"trainerName": "Dawn",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0413",
 		"pokemonName": "Wormadam",
 		"pokemonGender": "♀",
@@ -14084,7 +14084,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "096",
 		"trainerName": "Serena",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0661",
 		"pokemonName": "Fletchling",
 		"pokemonGender": "♀",
@@ -14402,7 +14402,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "099",
 		"trainerName": "Morty",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0092",
 		"pokemonName": "Gastly",
 		"pokemonGender": "♂",
@@ -14691,7 +14691,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "101",
 		"trainerName": "Lusamine",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0549",
 		"pokemonName": "Lilligant",
 		"pokemonGender": "♀",
@@ -14736,7 +14736,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "101",
 		"trainerName": "Lusamine",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0350",
 		"pokemonName": "Milotic",
 		"pokemonGender": "♀",
@@ -14826,7 +14826,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "102",
 		"trainerName": "Gladion",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0042",
 		"pokemonName": "Golbat",
 		"pokemonGender": "♂",
@@ -14918,7 +14918,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "102",
 		"trainerName": "Gladion",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0461",
 		"pokemonName": "Weavile",
 		"pokemonGender": "♂",
@@ -15188,7 +15188,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "103",
 		"trainerName": "Lillie",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0764",
 		"pokemonName": "Comfey",
 		"pokemonGender": "♀",
@@ -15466,7 +15466,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "105",
 		"trainerName": "Volkner",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0026",
 		"pokemonName": "Raichu",
 		"pokemonGender": "♂",
@@ -16138,7 +16138,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "111",
 		"trainerName": "Gloria",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0811",
 		"pokemonName": "Thwackey",
 		"pokemonGender": "♂",
@@ -16436,7 +16436,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "112",
 		"trainerName": "N",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0561",
 		"pokemonName": "Sigilyph",
 		"pokemonGender": "♂",
@@ -16876,7 +16876,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "113",
 		"trainerName": "May",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0320",
 		"pokemonName": "Wailmer",
 		"pokemonGender": "♀",
@@ -17065,7 +17065,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "114",
 		"trainerName": "Mallow",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0756",
 		"pokemonName": "Shiinotic",
 		"pokemonGender": "♀",
@@ -17255,7 +17255,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "116",
 		"trainerName": "Professor Sycamore",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0001",
 		"pokemonName": "Bulbasaur",
 		"pokemonGender": "♂",
@@ -17439,7 +17439,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "117",
 		"trainerName": "Piers",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0435",
 		"pokemonName": "Skuntank",
 		"pokemonGender": "♂",
@@ -17735,7 +17735,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "118",
 		"trainerName": "Leon",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0537",
 		"pokemonName": "Seismitoad",
 		"pokemonGender": "♀",
@@ -17927,7 +17927,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "119",
 		"trainerName": "Marnie",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0454",
 		"pokemonName": "Toxicroak",
 		"pokemonGender": "♀",
@@ -18025,7 +18025,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "119",
 		"trainerName": "Marnie",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0560",
 		"pokemonName": "Scrafty",
 		"pokemonGender": "♀",
@@ -18410,7 +18410,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "120",
 		"trainerName": "Diantha",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0697",
 		"pokemonName": "Tyrantrum",
 		"pokemonGender": "♂",
@@ -19049,7 +19049,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "123",
 		"trainerName": "Raihan",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0526",
 		"pokemonName": "Gigalith",
 		"pokemonGender": "♂",
@@ -19614,7 +19614,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "129",
 		"trainerName": "Lana",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0171",
 		"pokemonName": "Lanturn",
 		"pokemonGender": "♀",
@@ -19796,7 +19796,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "130",
 		"trainerName": "Kiawe",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0059",
 		"pokemonName": "Arcanine",
 		"pokemonGender": "♂",
@@ -20072,7 +20072,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "133",
 		"trainerName": "Ingo",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0525",
 		"pokemonName": "Boldore",
 		"pokemonGender": "♂",
@@ -20441,7 +20441,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "136",
 		"trainerName": "Lear",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0553",
 		"pokemonName": "Krookodile",
 		"pokemonGender": "♂",
@@ -20711,7 +20711,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "139",
 		"trainerName": "Falkner",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0018",
 		"pokemonName": "Pidgeot",
 		"pokemonGender": "♂",
@@ -20994,7 +20994,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "141",
 		"trainerName": "Hop",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0871",
 		"pokemonName": "Pincurchin",
 		"pokemonGender": "♀",
@@ -21411,7 +21411,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "145",
 		"trainerName": "Lucas",
-		"trainerAlt": "Variety",
+		"trainerAlt": "",
 		"pokemonNumber": "0136",
 		"pokemonName": "Flareon",
 		"pokemonGender": "♂",
@@ -22566,7 +22566,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "159",
 		"trainerName": "Hugh",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0521",
 		"pokemonName": "Unfezant",
 		"pokemonGender": "♂",
@@ -22611,7 +22611,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "159",
 		"trainerName": "Hugh",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0499",
 		"pokemonName": "Pignite",
 		"pokemonGender": "♂",
@@ -22835,7 +22835,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "162",
 		"trainerName": "Shauna",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0301",
 		"pokemonName": "Delcatty",
 		"pokemonGender": "♀",
@@ -23106,7 +23106,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "165",
 		"trainerName": "Ball Guy",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0100",
 		"pokemonName": "Voltorb",
 		"pokemonGender": "",
@@ -23201,7 +23201,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "166",
 		"trainerName": "Adaman",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0134",
 		"pokemonName": "Vaporeon",
 		"pokemonGender": "♂",
@@ -23398,7 +23398,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "167",
 		"trainerName": "Irida",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0136",
 		"pokemonName": "Flareon",
 		"pokemonGender": "♂",
@@ -23648,7 +23648,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "169",
 		"trainerName": "Rose",
-		"trainerAlt": "BP",
+		"trainerAlt": "",
 		"pokemonNumber": "0863",
 		"pokemonName": "Perrserker",
 		"pokemonGender": "♀",
@@ -23874,7 +23874,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "173",
 		"trainerName": "Nemona",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0745",
 		"pokemonName": "Lycanroc",
 		"pokemonGender": "♀",
@@ -24473,7 +24473,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "183",
 		"trainerName": "Akari",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0439",
 		"pokemonName": "Mime Jr",
 		"pokemonGender": "♂",
@@ -24750,7 +24750,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "187",
 		"trainerName": "Penny",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0133",
 		"pokemonName": "Eevee",
 		"pokemonGender": "♀",
@@ -24974,7 +24974,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "191",
 		"trainerName": "Iono",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0940",
 		"pokemonName": "Wattrel",
 		"pokemonGender": "♂",
@@ -25514,7 +25514,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "197",
 		"trainerName": "Tierno",
-		"trainerAlt": "Training Ticket",
+		"trainerAlt": "",
 		"pokemonNumber": "0663",
 		"pokemonName": "Talonflame",
 		"pokemonGender": "♂",
@@ -25657,7 +25657,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "199",
 		"trainerName": "Volo",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0443",
 		"pokemonName": "Gible",
 		"pokemonGender": "♂",
@@ -25850,7 +25850,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "201",
 		"trainerName": "Rika",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0340",
 		"pokemonName": "Whiscash",
 		"pokemonGender": "♂",
@@ -26274,7 +26274,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "205",
 		"trainerName": "Larry",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0916",
 		"pokemonName": "Oinkologne",
 		"pokemonGender": "♀",
@@ -26471,7 +26471,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "206",
 		"trainerName": "Kabu",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0324",
 		"pokemonName": "Torkoal",
 		"pokemonGender": "♂",
@@ -26806,7 +26806,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "210",
 		"trainerName": "Arven",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0932",
 		"pokemonName": "Nacli",
 		"pokemonGender": "♂",
@@ -26896,7 +26896,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "210",
 		"trainerName": "Arven",
-		"trainerAlt": "Academy",
+		"trainerAlt": "",
 		"pokemonNumber": "0819",
 		"pokemonName": "Skwovet",
 		"pokemonGender": "♂",
@@ -28031,7 +28031,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "227",
 		"trainerName": "Lacey",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0869",
 		"pokemonName": "Alcremie",
 		"pokemonGender": "♀",
@@ -28412,7 +28412,7 @@ export const SYNCPAIRS = [
 	{
 		"dexNumber": "233",
 		"trainerName": "Carmine",
-		"trainerAlt": "Lodge",
+		"trainerAlt": "",
 		"pokemonNumber": "0541",
 		"pokemonName": "Swadloon",
 		"pokemonGender": "♀",
