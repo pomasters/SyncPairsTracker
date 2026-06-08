@@ -17262,7 +17262,7 @@ export const SYNCPAIRS = [
 		"pokemonForm": [],
 		"pokemonType": "Grass",
 		"pokemonWeak": "Psychic",
-		"syncPairRole": "Strike (Physical)",
+		"syncPairRole": "Strike (Special)",
 		"syncPairRoleEX": "",
 		"syncPairEXPose": true,
 		"syncPairEXColor": false,
