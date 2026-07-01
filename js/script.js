@@ -1,7 +1,9 @@
-import {SYNCPAIRS, VERSION} from "./syncpairs.js";
-import {EGGS} from "./eggs.js";
-import {NEWS} from "./news.js";
-import {ITEMS} from "./items.js";
+import MASTER from "./syncpairs.json" with { type: "json" };
+import EGGS from "./eggs.json" with { type: "json" };
+import NEWS from "./news.json" with { type: "json" };
+import ITEMS from "./items.json" with { type: "json" };
+
+const { VERSION, SYNCPAIRS } = MASTER;
 
 const SYNCLEVELIMGS = ["images/1.png","images/2.png","images/3.png","images/4.png","images/5.png"];
 const SYNCSTARIMGS = ["images/star/1.png","images/star/2.png","images/star/3.png","images/star/4.png","images/star/5.png"];

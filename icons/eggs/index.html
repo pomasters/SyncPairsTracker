@@ -133,8 +133,10 @@
 	<div id="syncpairs"></div>
 
 	<script type="module">
-		import { SYNCPAIRS } from '../../js/syncpairs.js';
-		import { EGGS } from '../../js/eggs.js';
+		import MASTER from "../../js/syncpairs.json" with { type: "json" };
+		import EGGS from "../../js/eggs.json" with { type: "json" };
+
+		const { VERSION, SYNCPAIRS } = MASTER;
 
 		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
 
