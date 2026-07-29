@@ -1,5 +1,5 @@
 {
-	"VERSION": "v2.70.0",
+	"VERSION": "v2.71.0",
 	"SYNCPAIRS": [
 		{
 			"dexNumber": "001",
@@ -2039,6 +2039,49 @@
 			],
 			"internalTrainerName": "ch0026_00_akane",
 			"internalPokemonName": "pm0040_00_pukurin"
+		},
+		{
+			"dexNumber": "012",
+			"trainerName": "Whitney",
+			"trainerAlt": "",
+			"pokemonNumber": "0203",
+			"pokemonName": "Girafarig",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Normal",
+			"pokemonWeak": "Bug",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-08-01",
+			"syncPairAcquisition": "Trainer Lodge Exchange",
+			"syncPairRegion": "Johto",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Whitney_0203_4.png",
+				"icons/Whitney_0203_5.png",
+				"icons/Whitney_0203_EX.png"
+			],
+			"themes": [
+				"Normal",
+				"Johto",
+				"Gym Leader",
+				"Pigtails",
+				"Pokéathlete"
+			],
+			"tags": [
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeNormal"
+			],
+			"internalTrainerName": "ch0026_00_akane",
+			"internalPokemonName": "pm0203_01_kirinriki"
 		},
 		{
 			"dexNumber": "013",
@@ -7880,6 +7923,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isWoman",
 				"Weather",
 				"Starter",
@@ -8213,6 +8257,7 @@
 			"tags": [
 				"Limited",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -18807,6 +18852,52 @@
 			"internalPokemonName": "pm0865_13_prismmoon_rare"
 		},
 		{
+			"dexNumber": "121",
+			"trainerName": "Selene",
+			"trainerAlt": "",
+			"pokemonNumber": "0730",
+			"pokemonName": "Primarina",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Fairy",
+			"pokemonWeak": "Grass",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-01",
+			"syncPairAcquisition": "Mix Scout",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Selene_0730_5.png",
+				"icons/Selene_0730_EX.png"
+			],
+			"themes": [
+				"Fairy",
+				"Alola",
+				"Main Character",
+				"Nature Lover",
+				"Alola Adventurer"
+			],
+			"tags": [
+				"Starter",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeFairy"
+			],
+			"internalTrainerName": "ch0123_00_mizuki",
+			"internalPokemonName": "pm0849_00_ashika3"
+		},
+		{
 			"dexNumber": "122",
 			"trainerName": "Elio",
 			"trainerAlt": "",
@@ -20936,6 +21027,8 @@
 			],
 			"tags": [
 				"GridMega",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Pokemon",
 				"isMan",
 				"First Unit",
@@ -21727,6 +21820,7 @@
 			"tags": [
 				"isMan",
 				"First Unit",
+				"Multiple Pokemon",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
 				"AttackMoveStatus",
@@ -27945,6 +28039,53 @@
 			"internalPokemonName": "pm1024_11_00_terapagos"
 		},
 		{
+			"dexNumber": "224",
+			"trainerName": "Juliana",
+			"trainerAlt": "",
+			"pokemonNumber": "0358",
+			"pokemonName": "Chimecho",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Psychic",
+			"pokemonWeak": "Ghost",
+			"syncPairRole": "Tech",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-07-31",
+			"syncPairAcquisition": "Event Reward",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "Academy",
+			"images": [
+				"icons/Juliana_0358_5.png",
+				"icons/Juliana_0358_EX.png"
+			],
+			"themes": [
+				"Psychic",
+				"Paldea",
+				"Main Character",
+				"Cook",
+				"Free Spirit"
+			],
+			"tags": [
+				"Limited",
+				"Terrain",
+				"Region Circle",
+				"Multiple Units",
+				"isWoman",
+				"Academy Sync Pair",
+				"SyncMoveSpecial",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypePsychic"
+			],
+			"internalTrainerName": "ch0287_00_svgirl",
+			"internalPokemonName": "pm0358_00_chirean"
+		},
+		{
 			"dexNumber": "225",
 			"trainerName": "Florian",
 			"trainerAlt": "",
@@ -28141,6 +28282,55 @@
 			],
 			"internalTrainerName": "ch0286_40_svboy",
 			"internalPokemonName": "pm1017_11_00_ogerpon"
+		},
+		{
+			"dexNumber": "225",
+			"trainerName": "Florian",
+			"trainerAlt": "Alt.",
+			"pokemonNumber": "0469",
+			"pokemonName": "Yanmega",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Bug",
+			"pokemonWeak": "Rock",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-07-31",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Florian_0469_5.png",
+				"icons/Florian_0469_EX.png"
+			],
+			"themes": [
+				"Bug",
+				"Paldea",
+				"Main Character",
+				"Cook",
+				"Knowledgeable"
+			],
+			"tags": [
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Unique Costume",
+				"Multiple Units",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeBug"
+			],
+			"internalTrainerName": "ch0286_80_svboy",
+			"internalPokemonName": "pm0469_00_00_megayanma"
 		},
 		{
 			"dexNumber": "226",
@@ -28712,6 +28902,54 @@
 			],
 			"internalTrainerName": "ch0356_10_zeiyu",
 			"internalPokemonName": "pm1025_00_00_momowarou"
+		},
+		{
+			"dexNumber": "233",
+			"trainerName": "Carmine",
+			"trainerAlt": "Alt.",
+			"pokemonNumber": "0262",
+			"pokemonName": "Mightyena",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Dark",
+			"pokemonWeak": "Fairy",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-07-31",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Carmine_0262_5.png",
+				"icons/Carmine_0262_EX.png"
+			],
+			"themes": [
+				"Dark",
+				"Paldea",
+				"Rival",
+				"Battle Partner",
+				"Blueberry Academy"
+			],
+			"tags": [
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeDark"
+			],
+			"internalTrainerName": "ch0356_80_zeiyu",
+			"internalPokemonName": "pm0262_00_graena"
 		},
 		{
 			"dexNumber": "234",
@@ -29525,6 +29763,109 @@
 			],
 			"internalTrainerName": "ch0315_00_wasabi",
 			"internalPokemonName": "pm0464_01_dosidon"
+		},
+		{
+			"dexNumber": "248",
+			"trainerName": "Harmony",
+			"trainerAlt": "",
+			"pokemonNumber": "0160",
+			"pokemonName": "Feraligatr",
+			"pokemonGender": "♀",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Water",
+			"pokemonWeak": "Electric",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Strike (Physical)",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-14",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Harmony_0160_5.png",
+				"icons/Harmony_0160_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Kalos",
+				"Main Character",
+				"Sweet Tooth"
+			],
+			"tags": [
+				"Starter",
+				"Grid5",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Region Circle",
+				"Multiple Pokemon",
+				"isWoman",
+				"Lumiose City",
+				"Song Key",
+				"First Unit",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0366_00_zagirl",
+			"internalPokemonName": "pm0160_00_ordile"
+		},
+		{
+			"dexNumber": "249",
+			"trainerName": "Urbain",
+			"trainerAlt": "",
+			"pokemonNumber": "0154",
+			"pokemonName": "Meganium",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Grass",
+			"pokemonWeak": "Poison",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-16",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Urbain_0154_5.png",
+				"icons/Urbain_0154_EX.png"
+			],
+			"themes": [
+				"Grass",
+				"Kalos",
+				"Rival",
+				"Passionate Spirit"
+			],
+			"tags": [
+				"Starter",
+				"Grid5",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Terrain",
+				"Region Circle",
+				"Multiple Pokemon",
+				"isMan",
+				"Lumiose City",
+				"Song Key",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeGrass"
+			],
+			"internalTrainerName": "ch0367_00_gai",
+			"internalPokemonName": "pm0154_00_meganium"
 		}
 	]
 }
