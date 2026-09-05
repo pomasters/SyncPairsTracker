@@ -1,5 +1,5 @@
 {
-	"VERSION": "v2.71.0",
+	"VERSION": "v2.72.0",
 	"SYNCPAIRS": [
 		{
 			"dexNumber": "001",
@@ -524,6 +524,47 @@
 			],
 			"internalTrainerName": "",
 			"internalPokemonName": "pm0877_00_beastyellow"
+		},
+		{
+			"dexNumber": "001",
+			"trainerName": "Player",
+			"trainerAlt": "",
+			"pokemonNumber": "0803",
+			"pokemonName": "Poipole",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Poison",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": false,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Pasio",
+			"syncPairIcon": "Master",
+			"images": [
+				"icons/Scottie_0803_5.png",
+				"icons/Bettie_0803_5.png"
+			],
+			"themes": [
+				"Poison",
+				"Pasio",
+				"Main Character"
+			],
+			"tags": [
+				"Ultra Beast",
+				"Multiple Units",
+				"Master Passive Teamwork",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypePoison"
+			],
+			"internalTrainerName": "hero",
+			"internalPokemonName": "pm0886_00_beastdoku1"
 		},
 		{
 			"dexNumber": "002",
@@ -1805,6 +1846,7 @@
 			"tags": [
 				"GridMega",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"First Unit",
 				"SyncMovePhysical",
@@ -2728,6 +2770,55 @@
 			],
 			"internalTrainerName": "ch0019_40_yuki",
 			"internalPokemonName": "pm0259_00_numacraw"
+		},
+		{
+			"dexNumber": "018",
+			"trainerName": "Brendan",
+			"trainerAlt": "",
+			"pokemonNumber": "0373",
+			"pokemonName": "Salamence",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Flying",
+			"pokemonWeak": "Ice",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-01",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Brendan_0373_5.png",
+				"icons/Brendan_0373_EX.png"
+			],
+			"themes": [
+				"Flying",
+				"Hoenn",
+				"Main Character",
+				"Space Cadet"
+			],
+			"tags": [
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"Rebuff",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeFlying"
+			],
+			"internalTrainerName": "ch0019_00_yuki",
+			"internalPokemonName": "pm0373_00_bohmander"
 		},
 		{
 			"dexNumber": "019",
@@ -6114,6 +6205,7 @@
 				"Passionate Spirit"
 			],
 			"tags": [
+				"Multiple Pokemon",
 				"isMan",
 				"First Unit",
 				"SyncMovePhysical",
@@ -6792,6 +6884,7 @@
 				"Nature Lover"
 			],
 			"tags": [
+				"Multiple Pokemon",
 				"isWoman",
 				"ZMove",
 				"First Unit",
@@ -6836,6 +6929,7 @@
 				"Grown Woman"
 			],
 			"tags": [
+				"Multiple Units",
 				"isWoman",
 				"ZMove",
 				"First Unit",
@@ -6845,6 +6939,49 @@
 			],
 			"internalTrainerName": "ch0058_00_kahiri",
 			"internalPokemonName": "pm0809_00_kuchibashi3"
+		},
+		{
+			"dexNumber": "059",
+			"trainerName": "Kahili",
+			"trainerAlt": "",
+			"pokemonNumber": "0630",
+			"pokemonName": "Mandibuzz",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Flying",
+			"pokemonWeak": "Electric",
+			"syncPairRole": "Tech",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Kahili_0630_4.png",
+				"icons/Kahili_0630_5.png",
+				"icons/Kahili_0630_EX.png"
+			],
+			"themes": [
+				"Flying",
+				"Alola",
+				"Elite Four",
+				"Fancy Lady",
+				"Grown Woman"
+			],
+			"tags": [
+				"Multiple Units",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeFlying"
+			],
+			"internalTrainerName": "ch0058_00_kahiri",
+			"internalPokemonName": "pm0630_00_vulgina"
 		},
 		{
 			"dexNumber": "060",
@@ -7886,6 +8023,59 @@
 			],
 			"internalTrainerName": "ch0021_91_green",
 			"internalPokemonName": "pm0018_00_pigeot"
+		},
+		{
+			"dexNumber": "065",
+			"trainerName": "Blue",
+			"trainerAlt": "Anniversary 2026",
+			"pokemonNumber": "0149",
+			"pokemonName": "Dragonite",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Flying",
+			"pokemonWeak": "Ice",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Kanto",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Blue_0149_5.png",
+				"icons/Blue_0149_EX.png"
+			],
+			"themes": [
+				"Flying",
+				"Kanto",
+				"Rival",
+				"Seasonal Outfit",
+				"Cape"
+			],
+			"tags": [
+				"Grid5",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Wish ZoneEX",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"Anniversary",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeFlying"
+			],
+			"internalTrainerName": "ch0021_40_green",
+			"internalPokemonName": "pm0149_00_kairyu"
 		},
 		{
 			"dexNumber": "066",
@@ -10205,6 +10395,56 @@
 			"internalPokemonName": "pm0243_00_raikou"
 		},
 		{
+			"dexNumber": "075",
+			"trainerName": "Ethan",
+			"trainerAlt": "",
+			"pokemonNumber": "0130",
+			"pokemonName": "Gyarados",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Water",
+			"pokemonWeak": "Electric",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-01",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Johto",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Ethan_0130_5.png",
+				"icons/Ethan_0130_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Johto",
+				"Main Character",
+				"Pokéathlete"
+			],
+			"tags": [
+				"Shiny",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Weather",
+				"WeatherEX",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0112_00_hibiki",
+			"internalPokemonName": "pm0130_00_gyarados_rare"
+		},
+		{
 			"dexNumber": "076",
 			"trainerName": "Leaf",
 			"trainerAlt": "",
@@ -10446,6 +10686,54 @@
 			"internalPokemonName": "pm0009_00_kamex"
 		},
 		{
+			"dexNumber": "076",
+			"trainerName": "Leaf",
+			"trainerAlt": "",
+			"pokemonNumber": "0015",
+			"pokemonName": "Beedrill",
+			"pokemonGender": "♀",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Bug",
+			"pokemonWeak": "Fire",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-01",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Kanto",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Leaf_0015_5.png",
+				"icons/Leaf_0015_EX.png"
+			],
+			"themes": [
+				"Bug",
+				"Kanto",
+				"Main Character",
+				"Pallet Town"
+			],
+			"tags": [
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Wish ZoneEX",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeBug"
+			],
+			"internalTrainerName": "ch0017_00_leaf",
+			"internalPokemonName": "pm0015_00_spear"
+		},
+		{
 			"dexNumber": "077",
 			"trainerName": "Lance",
 			"trainerAlt": "",
@@ -10528,6 +10816,7 @@
 			"tags": [
 				"Limited",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -11120,6 +11409,52 @@
 			],
 			"internalTrainerName": "ch0091_40_shirona",
 			"internalPokemonName": "pm0350_01_milokaross"
+		},
+		{
+			"dexNumber": "078",
+			"trainerName": "Cynthia",
+			"trainerAlt": "",
+			"pokemonNumber": "0471",
+			"pokemonName": "Glaceon",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Ice",
+			"pokemonWeak": "Fire",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-12",
+			"syncPairAcquisition": "Event Reward",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Cynthia_0471_5.png",
+				"icons/Cynthia_0471_EX.png"
+			],
+			"themes": [
+				"Ice",
+				"Sinnoh",
+				"Champion",
+				"Undella Town",
+				"Researcher"
+			],
+			"tags": [
+				"Eeveelution",
+				"Limited",
+				"Weather",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeIce"
+			],
+			"internalTrainerName": "ch0091_00_shirona",
+			"internalPokemonName": "pm0471_00_glacia"
 		},
 		{
 			"dexNumber": "079",
@@ -13889,6 +14224,59 @@
 			"internalPokemonName": "pm0395_00_emperte"
 		},
 		{
+			"dexNumber": "094",
+			"trainerName": "Dawn",
+			"trainerAlt": "Champion",
+			"pokemonNumber": "0484",
+			"pokemonName": "Palkia",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Other Form"
+			],
+			"pokemonType": "Dragon",
+			"pokemonWeak": "Fairy",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-12",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Dawn_0484_5.png",
+				"icons/Dawn_0484_EX.png"
+			],
+			"themes": [
+				"Dragon",
+				"Sinnoh",
+				"Main Character",
+				"Champion",
+				"Contest Lover"
+			],
+			"tags": [
+				"Legendary",
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"Neo Champion",
+				"ItemBerry",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeDragon"
+			],
+			"internalTrainerName": "ch0116_90_hikari",
+			"internalPokemonName": "pm0484_12_00_palkia"
+		},
+		{
 			"dexNumber": "095",
 			"trainerName": "Burgh",
 			"trainerAlt": "",
@@ -14160,6 +14548,7 @@
 				"Grid5",
 				"GridExpansion",
 				"Multiple Pokemon",
+				"Multiple Pairs",
 				"Unique Costume",
 				"Neo Champion",
 				"Master Passive Spirit",
@@ -14215,6 +14604,63 @@
 			],
 			"internalTrainerName": "ch0130_00_serena",
 			"internalPokemonName": "pm0753_00_robin1"
+		},
+		{
+			"dexNumber": "096",
+			"trainerName": "Serena",
+			"trainerAlt": "Anniversary 2026",
+			"pokemonNumber": "0658|2",
+			"pokemonName": "Greninja",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Dark",
+			"pokemonWeak": "Bug",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Serena_0658_2_5.png",
+				"icons/Serena_0658_2_EX.png"
+			],
+			"themes": [
+				"Dark",
+				"Kalos",
+				"Main Character",
+				"Seasonal Outfit",
+				"Passionate Spirit"
+			],
+			"tags": [
+				"Starter",
+				"Grid5",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isWoman",
+				"Anniversary",
+				"Rebuff",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"MoveTypeWater",
+				"MoveTypeDark"
+			],
+			"internalTrainerName": "ch0130_41_serena",
+			"internalPokemonName": "pm0725_00_frog3"
 		},
 		{
 			"dexNumber": "097",
@@ -14617,6 +15063,7 @@
 			"tags": [
 				"Legendary Adventures",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"Legendary",
 				"Grid3",
@@ -14679,6 +15126,51 @@
 			],
 			"internalTrainerName": "ch0194_10_akagi",
 			"internalPokemonName": "pm0491_00_darkrai"
+		},
+		{
+			"dexNumber": "100",
+			"trainerName": "Cyrus",
+			"trainerAlt": "",
+			"pokemonNumber": "0461",
+			"pokemonName": "Weavile",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Ice",
+			"pokemonWeak": "Fighting",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-16",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Cyrus_0461_5.png",
+				"icons/Cyrus_0461_EX.png"
+			],
+			"themes": [
+				"Ice",
+				"Sinnoh",
+				"Villain.",
+				"Gadgeteer"
+			],
+			"tags": [
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeIce"
+			],
+			"internalTrainerName": "ch0194_00_akagi",
+			"internalPokemonName": "pm0461_00_manyula"
 		},
 		{
 			"dexNumber": "101",
@@ -15042,6 +15534,7 @@
 			"tags": [
 				"Wish Zone",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -17566,6 +18059,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -18055,6 +18549,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"Limited",
 				"isWoman",
 				"SyncMoveSpecial",
@@ -19479,6 +19974,49 @@
 			],
 			"internalTrainerName": "ch0249_40_rulina",
 			"internalPokemonName": "pm0875_11_00_korippo"
+		},
+		{
+			"dexNumber": "125",
+			"trainerName": "Nessa",
+			"trainerAlt": "",
+			"pokemonNumber": "0847",
+			"pokemonName": "Barraskewda",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Water",
+			"pokemonWeak": "Grass",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Galar",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Nessa_0847_4.png",
+				"icons/Nessa_0847_5.png",
+				"icons/Nessa_0847_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Galar",
+				"Gym Leader",
+				"Artistic"
+			],
+			"tags": [
+				"Weather",
+				"Multiple Units",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0249_00_rulina",
+			"internalPokemonName": "pm0847_00_00_kamasujaw"
 		},
 		{
 			"dexNumber": "126",
@@ -21599,6 +22137,8 @@
 				"Grid5",
 				"GridExpansion",
 				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
 				"Villain Arc",
 				"First Unit",
 				"SyncMoveSpecial",
@@ -21701,6 +22241,60 @@
 			"internalPokemonName": "pm0389_00_dodaitose"
 		},
 		{
+			"dexNumber": "145",
+			"trainerName": "Lucas",
+			"trainerAlt": "Champion",
+			"pokemonNumber": "0483|2",
+			"pokemonName": "Dialga",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Other Form"
+			],
+			"pokemonType": "Dragon",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-14",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Lucas_0483_2_5.png",
+				"icons/Lucas_0483_2_EX.png"
+			],
+			"themes": [
+				"Dragon",
+				"Sinnoh",
+				"Main Character",
+				"Champion",
+				"Knowledgeable"
+			],
+			"tags": [
+				"Legendary",
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Wish ZoneEX",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isMan",
+				"Neo Champion",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeDragon"
+			],
+			"internalTrainerName": "ch0162_90_koki",
+			"internalPokemonName": "pm0483_12_00_dialga"
+		},
+		{
 			"dexNumber": "146",
 			"trainerName": "Aaron",
 			"trainerAlt": "",
@@ -21731,6 +22325,7 @@
 				"Nature Lover"
 			],
 			"tags": [
+				"Multiple Units",
 				"isMan",
 				"First Unit",
 				"SyncMovePhysical",
@@ -21740,6 +22335,48 @@
 			],
 			"internalTrainerName": "ch0152_00_ryo",
 			"internalPokemonName": "pm0416_00_beequen"
+		},
+		{
+			"dexNumber": "146",
+			"trainerName": "Aaron",
+			"trainerAlt": "",
+			"pokemonNumber": "0269",
+			"pokemonName": "Dustox",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Bug",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Tech",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Aaron_0269_4.png",
+				"icons/Aaron_0269_5.png",
+				"icons/Aaron_0269_EX.png"
+			],
+			"themes": [
+				"Bug",
+				"Sinnoh",
+				"Elite Four",
+				"Nature Lover"
+			],
+			"tags": [
+				"Multiple Units",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeBug"
+			],
+			"internalTrainerName": "ch0152_00_ryo",
+			"internalPokemonName": "pm0269_00_dokucale"
 		},
 		{
 			"dexNumber": "147",
@@ -22892,6 +23529,8 @@
 			],
 			"tags": [
 				"isMan",
+				"GridExpansion",
+				"Grid3",
 				"Song Key",
 				"Villain Arc",
 				"First Unit",
@@ -26090,6 +26729,7 @@
 				"Free Spirit"
 			],
 			"tags": [
+				"Multiple Units",
 				"Grid5",
 				"Buddy Move",
 				"Limited",
@@ -26102,6 +26742,51 @@
 			],
 			"internalTrainerName": "ch0298_00_zinnia",
 			"internalPokemonName": "pm0981_00_00_rikikirin"
+		},
+		{
+			"dexNumber": "200",
+			"trainerName": "Jacq",
+			"trainerAlt": "",
+			"pokemonNumber": "0750",
+			"pokemonName": "Mudsdale",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Ground",
+			"pokemonWeak": "Water",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Jacq_0750_4.png",
+				"icons/Jacq_0750_5.png",
+				"icons/Jacq_0750_EX.png"
+			],
+			"themes": [
+				"Ground",
+				"Paldea",
+				"Knowledgeable",
+				"Gadgeteer",
+				"Free Spirit"
+			],
+			"tags": [
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"MoveTypeGround",
+				"MoveTypeRock"
+			],
+			"internalTrainerName": "ch0298_00_zinnia",
+			"internalPokemonName": "pm0840_00_roba2"
 		},
 		{
 			"dexNumber": "201",
@@ -29855,6 +30540,7 @@
 				"Limited",
 				"Terrain",
 				"Region Circle",
+				"Multiple Units",
 				"Multiple Pokemon",
 				"isMan",
 				"Lumiose City",
@@ -29866,6 +30552,225 @@
 			],
 			"internalTrainerName": "ch0367_00_gai",
 			"internalPokemonName": "pm0154_00_meganium"
+		},
+		{
+			"dexNumber": "249",
+			"trainerName": "Urbain",
+			"trainerAlt": "",
+			"pokemonNumber": "0713",
+			"pokemonName": "Avalugg",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Ice",
+			"pokemonWeak": "Fire",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-09-01",
+			"syncPairAcquisition": "Trainer Lodge Exchange",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Urbain_0713_4.png",
+				"icons/Urbain_0713_5.png",
+				"icons/Urbain_0713_EX.png"
+			],
+			"themes": [
+				"Ice",
+				"Kalos",
+				"Rival",
+				"Passionate Spirit"
+			],
+			"tags": [
+				"Limited",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"Lumiose City",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeIce"
+			],
+			"internalTrainerName": "ch0367_00_gai",
+			"internalPokemonName": "pm0751_00_ice3"
+		},
+		{
+			"dexNumber": "250",
+			"trainerName": "Brandon",
+			"trainerAlt": "",
+			"pokemonNumber": "0144",
+			"pokemonName": "Articuno",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Flying",
+			"pokemonWeak": "Rock",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-08-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "Master",
+			"images": [
+				"icons/Brandon_0144_5.png",
+				"icons/Brandon_0144_EX.png"
+			],
+			"themes": [
+				"Flying",
+				"Hoenn",
+				"Battle Facility Foe",
+				"Passionate Spirit",
+				"Knowledgeable"
+			],
+			"tags": [
+				"Legendary",
+				"Multiple Pokemon",
+				"isMan",
+				"Master Passive Teamwork",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeFlying"
+			],
+			"internalTrainerName": "ch0201_00_jindai",
+			"internalPokemonName": "pm0144_00_freezer"
+		},
+		{
+			"dexNumber": "251",
+			"trainerName": "Mars",
+			"trainerAlt": "",
+			"pokemonNumber": "0432",
+			"pokemonName": "Purugly",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Normal",
+			"pokemonWeak": "Fighting",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-16",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Mars_0432_5.png",
+				"icons/Mars_0432_EX.png"
+			],
+			"themes": [
+				"Normal",
+				"Sinnoh",
+				"Villain.",
+				"Battle Partner"
+			],
+			"tags": [
+				"Limited",
+				"isWoman",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeNormal"
+			],
+			"internalTrainerName": "ch0225_00_mars",
+			"internalPokemonName": "pm0432_00_bunyatto"
+		},
+		{
+			"dexNumber": "252",
+			"trainerName": "Jupiter",
+			"trainerAlt": "",
+			"pokemonNumber": "0435",
+			"pokemonName": "Skuntank",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Poison",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-16",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Jupiter_0435_5.png",
+				"icons/Jupiter_0435_EX.png"
+			],
+			"themes": [
+				"Poison",
+				"Sinnoh",
+				"Villain.",
+				"Battle Partner"
+			],
+			"tags": [
+				"Limited",
+				"Wish Zone",
+				"Multiple Pokemon",
+				"isWoman",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypePoison"
+			],
+			"internalTrainerName": "ch0226_00_jupiter",
+			"internalPokemonName": "pm0435_00_skutank"
+		},
+		{
+			"dexNumber": "253",
+			"trainerName": "Saturn",
+			"trainerAlt": "",
+			"pokemonNumber": "0454",
+			"pokemonName": "Toxicroak",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Fighting",
+			"pokemonWeak": "Psychic",
+			"syncPairRole": "Tech",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-16",
+			"syncPairAcquisition": "Variety Scout",
+			"syncPairRegion": "Sinnoh",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Saturn_0454_5.png",
+				"icons/Saturn_0454_EX.png"
+			],
+			"themes": [
+				"Fighting",
+				"Sinnoh",
+				"Villain.",
+				"Knowledgeable"
+			],
+			"tags": [
+				"Limited",
+				"Multiple Pokemon",
+				"isMan",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeFighting"
+			],
+			"internalTrainerName": "ch0227_00_saturn",
+			"internalPokemonName": "pm0454_01_dokurog"
 		}
 	]
 }
