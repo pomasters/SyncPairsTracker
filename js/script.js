@@ -30,7 +30,7 @@ var EGGMONMODE = document.getElementById("btnEggs").classList.contains("btnEggsO
 
 var CURRENT_NEW = 0;
 
-var FILTER_MODE = "&";
+var FILTER_MODE = "|";
 
 var DEFAULT_FAVS_VALUES = Array(syncFavImgs.length).fill("0").join(""); // 00000000
 
@@ -1139,15 +1139,19 @@ function updateNews() {
 input format : "search1,,search2,,search3"
 for each syncpair outerHTML, search all filters */
 function search(input) {
-	const rawFilters = input.split(",,").map(s => s.trim()).filter(Boolean);
-
-	const tokens = rawFilters.map(f => {
-		const neg = f.startsWith("!");
-		const val = (neg ? f.slice(1) : f).trim().toLowerCase();
-		return val ? { neg, val } : null;
+	const tokens = input.map(f => {
+		const val = f.val.trim().toLowerCase();
+		return val ? { category: f.category, neg: f.neg, val } : null;
 	}).filter(Boolean);
 
 	const hasTokens = tokens.length > 0;
+
+	const byCategory = new Map();
+	tokens.forEach(t => {
+		if(!byCategory.has(t.category)) byCategory.set(t.category, []);
+		byCategory.get(t.category).push(t);
+	});
+	const categorizedTokens = Array.from(byCategory.values());
 
 	Array.from(document.getElementsByClassName("syncPair")).forEach(syncPair => {
 		syncPair.classList.remove("found", "notFound");
@@ -1156,9 +1160,14 @@ function search(input) {
 
 		if(!hasTokens) return;
 
-		const matches = tokens.map(t => t.neg ? !text.includes(t.val) : text.includes(t.val));
+		/* within a category, filters are combined following the global AND/OR mode */
+		const categoryMatches = categorizedTokens.map(catTokens => {
+			const results = catTokens.map(t => t.neg ? !text.includes(t.val) : text.includes(t.val));
+			return FILTER_MODE === "&" ? results.every(Boolean) : results.some(Boolean);
+		});
 
-		const overallMatch = FILTER_MODE === "&" ? matches.every(Boolean) : matches.some(Boolean);
+		/* categories are always combined together with AND */
+		const overallMatch = categoryMatches.every(Boolean);
 
 		if(overallMatch) syncPair.classList.add("found");
 		else syncPair.classList.add("notFound");
@@ -1168,20 +1177,40 @@ function search(input) {
 }
 
 
+function getFilterCategory(f) {
+	const group = f.closest(".buttonGroup");
+	if(group) {
+		const title = group.querySelector(".buttonGroupTitle");
+		if(title) return title.textContent.trim();
+	}
+
+	const tab = f.closest(".tabContent");
+	if(tab) return tab.id;
+
+	return "misc";
+}
+
 
 /* get the string of all selectedFilter btn and search them
 also show all filters within a span on the right place */
 function searchFilters() {
 	var filters = [];
-	var filtersSPAN = [];
+	var filterGroups = new Map();
+
+	const pushToGroup = (category, spanHTML) => {
+		if(!filterGroups.has(category)) filterGroups.set(category, []);
+		filterGroups.get(category).push(spanHTML);
+	};
 
 	Array.from(document.getElementsByClassName("selectedFilter")).forEach(function(f) {
+		const category = getFilterCategory(f);
+
 		if(f.classList.contains("filterToHide")) {
-			filters.push("!" + f.value);
-			filtersSPAN.push(`<span class="filterHidden">${f.innerHTML}</span>`);
+			filters.push({ category, neg: true, val: f.value });
+			pushToGroup(category, `<span class="filterHidden">${f.innerHTML}</span>`);
 		} else {
-			filters.push(f.value);
-			filtersSPAN.push(`<span>${f.innerHTML}</span>`);
+			filters.push({ category, neg: false, val: f.value });
+			pushToGroup(category, `<span>${f.innerHTML}</span>`);
 		}
 
 	});
@@ -1194,14 +1223,22 @@ function searchFilters() {
 			.filter(Boolean);
 
 		toSearch.forEach(el => {
-			filters.push('Name">' + el);
-			filtersSPAN.push(`<span>${el}</span>`);
+			filters.push({ category: "__searchBox__", neg: false, val: 'Name">' + el });
+			pushToGroup("__searchBox__", `<span>${el}</span>`);
 		});
 	}
 
-	document.getElementById("filtersUsed").innerHTML = filtersSPAN.join(` ${FILTER_MODE} `);
+	const groupsArr = Array.from(filterGroups.values());
+	const hasMultipleCategories = groupsArr.length > 1;
 
-	search(filters.join(",,"));
+	const groupsHTML = groupsArr.map(spans => {
+		const joined = spans.join(` ${FILTER_MODE} `);
+		return (hasMultipleCategories && spans.length > 1) ? `(${joined})` : joined;
+	});
+
+	document.getElementById("filtersUsed").innerHTML = groupsHTML.join(" & ");
+
+	search(filters);
 
 	const removeBtn = document.getElementById("removeFilters");
 	const mobileMenu = document.getElementById("mobileMenuFilters");
@@ -1221,11 +1258,11 @@ function searchFilters() {
 function filterMode() {
 	if(FILTER_MODE == "&") {
 		FILTER_MODE = "|";
-		document.getElementById("filterMode").innerHTML = `Search : OR<span class="tooltiptext">Search has to match at least one filter</span>`;
+		document.getElementById("filterMode").innerHTML = `Search : OR<span class="tooltiptext">Match at least one selected filter within a category</span>`;
 	}
 	else if(FILTER_MODE == "|") {
 		FILTER_MODE = "&";
-		document.getElementById("filterMode").innerHTML = `Search : AND<span class="tooltiptext">Search has to match all filters</span>`;
+		document.getElementById("filterMode").innerHTML = `Search : AND<span class="tooltiptext">Match all selected filters within a category</span>`;
 	}
 
 	searchFiltersORdateInterval();
