@@ -1404,9 +1404,10 @@ function lockMode() {
 	localStorage.setItem("lockMode", isDisabled);
 
 	document.getElementById("selectionBtns").classList.remove("btnBlue");
+	document.getElementById("selectionOptions").classList.add("hide");
+
 	document.getElementById("increaseBtns").classList.remove("btnBlue");
 	document.getElementById("increaseOptions").classList.add("hide");
-	document.getElementById("selectionOptions").classList.add("hide");
 }
 
 function viewMode() {
@@ -1416,37 +1417,47 @@ function viewMode() {
 	localStorage.setItem("viewMode", isDisabled);
 
 	document.getElementById("selectionBtns").classList.remove("btnBlue");
-	document.getElementById("increaseBtns").classList.remove("btnBlue");
-	document.getElementById("exportImportBtns").classList.remove("btnBlue");
-	document.getElementById("increaseOptions").classList.add("hide");
 	document.getElementById("selectionOptions").classList.add("hide");
+
+	document.getElementById("increaseBtns").classList.remove("btnBlue");
+	document.getElementById("increaseOptions").classList.add("hide");
+
+	document.getElementById("exportImportBtns").classList.remove("btnBlue");
 	document.getElementById("exportImportDiv").classList.add("hide");
 }
 
 
-function exportImportOptions() {
-	document.getElementById("exportImportBtns").classList.toggle("btnBlue");
-	document.getElementById("exportImportDiv").classList.toggle("hide");
+const panels = {
+	selection:    { btn: "selectionBtns",    content: "selectionOptions" },
+	increase:     { btn: "increaseBtns",     content: "increaseOptions" },
+	visibility:   { btn: "visibilityBtns",   content: "visibilityOptions" },
+	exportImport: { btn: "exportImportBtns", content: "exportImportDiv" },
+	sorting:      { btn: "showSorting",      content: "sorting", visibleClass: "sortingVisible" },
+};
 
-	document.getElementById("selectionBtns").classList.remove("btnBlue");
-	document.getElementById("increaseBtns").classList.remove("btnBlue");
-	document.getElementById("visibilityBtns").classList.remove("btnBlue");
-	document.getElementById("increaseOptions").classList.add("hide");
-	document.getElementById("selectionOptions").classList.add("hide");
-	document.getElementById("visibilityOptions").classList.add("hide");
-}
+function togglePanel(name) {
+	const active = panels[name];
 
+	Object.entries(panels).forEach(([key, panel]) => {
+		const btnEl = document.getElementById(panel.btn);
+		const contentEl = document.getElementById(panel.content);
 
-function showSorting() {
-	document.getElementById("showSorting").classList.toggle("btnBlue");
-	document.getElementById("sorting").classList.toggle("sortingVisible");
-
-	document.getElementById("selectionBtns").classList.remove("btnBlue");
-	document.getElementById("increaseBtns").classList.remove("btnBlue");
-	document.getElementById("visibilityBtns").classList.remove("btnBlue");
-	document.getElementById("increaseOptions").classList.add("hide");
-	document.getElementById("selectionOptions").classList.add("hide");
-	document.getElementById("visibilityOptions").classList.add("hide");
+		if (key === name) {
+			btnEl.classList.toggle("btnBlue");
+			if (panel.visibleClass) {
+				contentEl.classList.toggle(panel.visibleClass);
+			} else {
+				contentEl.classList.toggle("hide");
+			}
+		} else {
+			btnEl.classList.remove("btnBlue");
+			if (panel.visibleClass) {
+				contentEl.classList.remove(panel.visibleClass);
+			} else {
+				contentEl.classList.add("hide");
+			}
+		}
+	});
 }
 
 
@@ -1555,38 +1566,6 @@ function addEventBaseImages() {
 	}));
 }
 
-function selectionBtns() {
-	document.getElementById("selectionBtns").classList.toggle("btnBlue");
-	document.getElementById("selectionOptions").classList.toggle("hide");
-
-	document.getElementById("exportImportBtns").classList.remove("btnBlue");
-	document.getElementById("exportImportDiv").classList.add("hide");
-
-	document.getElementById("showSorting").classList.remove("btnBlue");
-	document.getElementById("sorting").classList.remove("sortingVisible");
-}
-
-function increaseOptions() {
-	document.getElementById("increaseBtns").classList.toggle("btnBlue");
-	document.getElementById("increaseOptions").classList.toggle("hide");
-
-	document.getElementById("exportImportBtns").classList.remove("btnBlue");
-	document.getElementById("exportImportDiv").classList.add("hide");
-
-	document.getElementById("showSorting").classList.remove("btnBlue");
-	document.getElementById("sorting").classList.remove("sortingVisible");
-}
-
-function visibilityOptions() {
-	document.getElementById("visibilityBtns").classList.toggle("btnBlue");
-	document.getElementById("visibilityOptions").classList.toggle("hide");
-
-	document.getElementById("exportImportBtns").classList.remove("btnBlue");
-	document.getElementById("exportImportDiv").classList.add("hide");
-
-	document.getElementById("showSorting").classList.remove("btnBlue");
-	document.getElementById("sorting").classList.remove("sortingVisible");
-}
 
 
 /* Egg Mode */
@@ -1608,13 +1587,13 @@ document.getElementById("btnItems").addEventListener("click", showCandy);
 document.getElementById("previousNews").addEventListener("click", function() { CURRENT_NEW++; updateNews(); });
 document.getElementById("nextNews").addEventListener("click", function() { CURRENT_NEW--; updateNews(); });
 
-document.getElementById("selectionBtns").addEventListener("click", selectionBtns);
+document.getElementById("selectionBtns").addEventListener("click", () => togglePanel("selection"));
 
 document.getElementById("fullSelection").addEventListener("click", fullSelection);
 document.getElementById("resetSelection").addEventListener("click", resetSelection)
 document.getElementById("invertSelection").addEventListener("click", invertSelection);
 
-document.getElementById("increaseBtns").addEventListener("click", increaseOptions);
+document.getElementById("increaseBtns").addEventListener("click", () => togglePanel("increase"));
 
 document.getElementById("increaseSyncStar").addEventListener("click", increaseSyncStar);
 document.getElementById("increaseSyncLevel").addEventListener("click", increaseSyncLevel);
@@ -1638,7 +1617,7 @@ document.getElementById("resetEXRole").addEventListener("click", resetEXRole);
 Array.from(document.getElementById("selectionHearts2").getElementsByClassName("btn")).forEach(b => 
 	b.addEventListener("click", function() { selectHeart(this.value); }))
 
-document.getElementById("visibilityBtns").addEventListener("click", visibilityOptions);
+document.getElementById("visibilityBtns").addEventListener("click", () => togglePanel("visibility"));
 
 document.getElementById("allVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("selectedVisible").addEventListener("click", function() { elementVisible(this.id); });
@@ -1653,7 +1632,7 @@ document.getElementById("syncRoleEXVisible").addEventListener("click", function(
 document.getElementById("syncGridVisible").addEventListener("click", function() { elementVisible(this.id); });
 document.getElementById("fullWidthVisible").addEventListener("click", function() { elementVisible(this.id); });
 
-document.getElementById("exportImportBtns").addEventListener("click", exportImportOptions);
+document.getElementById("exportImportBtns").addEventListener("click", () => togglePanel("exportImport"));
 
 document.getElementById("exportSelection").addEventListener("click", exportSelection);
 
@@ -1665,7 +1644,7 @@ document.getElementById("takeScreenshot2").addEventListener("click", function() 
 document.getElementById("lockMode").addEventListener("click", lockMode);
 document.getElementById("viewMode").addEventListener("click", viewMode);
 
-document.getElementById("showSorting").addEventListener("click", showSorting);
+document.getElementById("showSorting").addEventListener("click", () => togglePanel("sorting"));
 
 document.getElementById("filterMode").addEventListener("click", filterMode);
 
