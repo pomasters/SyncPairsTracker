@@ -875,7 +875,6 @@
 				"Multiple Units",
 				"isWoman",
 				"Eeveelution",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"SyncMoveSpecial",
@@ -1242,7 +1241,6 @@
 				"isWoman",
 				"Weather",
 				"Eeveelution",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -1703,7 +1701,6 @@
 				"isWoman",
 				"Weather",
 				"Legendary",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"Master Passive Flag Bearer",
@@ -2609,7 +2606,6 @@
 				"Multiple Units",
 				"isMan",
 				"Legendary",
-				"Villain Arc",
 				"Grid5",
 				"GridExpansion",
 				"GridMega",
@@ -6478,7 +6474,6 @@
 				"Multiple Units",
 				"isMan",
 				"ZMove",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -6793,7 +6788,6 @@
 				"Multiple Units",
 				"isWoman",
 				"ZMove",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -7383,7 +7377,6 @@
 				"Multiple Units",
 				"isWoman",
 				"ZMove",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -7771,7 +7764,6 @@
 				"GridMega",
 				"Multiple Units",
 				"isMan",
-				"Villain Arc",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
 				"AttackMoveSpecial",
@@ -8255,7 +8247,6 @@
 				"isWoman",
 				"Terrain",
 				"Mythical",
-				"Villain Arc",
 				"Unique Costume",
 				"Master Passive Pride",
 				"SyncMoveSpecial",
@@ -8581,7 +8572,6 @@
 				"Mythical",
 				"Rebuff",
 				"Grid5",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -8918,7 +8908,6 @@
 				"Weather",
 				"Mythical",
 				"Grid5",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -9976,7 +9965,7 @@
 			"themes": [
 				"Psychic",
 				"Kanto",
-				"Villain.",
+				"Villain",
 				"Complicated Family"
 			],
 			"tags": [
@@ -10024,7 +10013,7 @@
 			"themes": [
 				"Ground",
 				"Johto",
-				"Villain.",
+				"Villain",
 				"Sygna Suit"
 			],
 			"tags": [
@@ -10035,7 +10024,6 @@
 				"Multiple Units",
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -10074,7 +10062,7 @@
 			"themes": [
 				"Normal",
 				"Kanto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -10117,7 +10105,7 @@
 			"themes": [
 				"Ground",
 				"Kanto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Buddy Move",
@@ -10164,7 +10152,7 @@
 			"themes": [
 				"Poison",
 				"Kanto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Multiple Units",
@@ -10205,7 +10193,7 @@
 			"themes": [
 				"Dark",
 				"Johto",
-				"Villain.",
+				"Villain",
 				"Sygna Suit",
 				"Sunglasses"
 			],
@@ -10316,7 +10304,6 @@
 				"GridExpansion",
 				"isMan",
 				"Legendary",
-				"Villain Arc",
 				"Unique Costume",
 				"Master Passive Spirit",
 				"Wish Zone",
@@ -11240,7 +11227,6 @@
 				"Wish Zone",
 				"Legendary",
 				"Song Key",
-				"Villain Arc",
 				"Unique Costume",
 				"Master Passive Flag Bearer",
 				"SyncMovePhysical",
@@ -11919,7 +11905,6 @@
 				"Terrain",
 				"Mythical",
 				"Song Key",
-				"Villain Arc",
 				"Grid5",
 				"GridExpansion",
 				"Unique Costume",
@@ -12394,7 +12379,6 @@
 				"Limited",
 				"Multiple Units",
 				"isMan",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Grid5",
 				"GridExpansion",
@@ -12933,7 +12917,7 @@
 			"themes": [
 				"Poison",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Grown Woman"
 			],
 			"tags": [
@@ -12978,7 +12962,7 @@
 			"themes": [
 				"Poison",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Beauty"
 			],
 			"tags": [
@@ -13023,7 +13007,7 @@
 			"themes": [
 				"Bug",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Sunglasses"
 			],
 			"tags": [
@@ -13067,7 +13051,7 @@
 			"themes": [
 				"Fighting",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Passionate Spirit",
 				"Special Costume"
 			],
@@ -13112,7 +13096,7 @@
 			"themes": [
 				"Bug",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Sunglasses"
 			],
 			"tags": [
@@ -14158,7 +14142,6 @@
 				"Multiple Units",
 				"isWoman",
 				"Legendary",
-				"Villain Arc",
 				"Unique Costume",
 				"Grid5",
 				"GridExpansion",
@@ -14775,7 +14758,7 @@
 			"themes": [
 				"Poison",
 				"Kanto",
-				"Villain.",
+				"Villain",
 				"Team Rocket Forever"
 			],
 			"tags": [
@@ -15012,7 +14995,6 @@
 				"Shiny",
 				"Grid5",
 				"GridExpansion",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -15142,7 +15124,7 @@
 			"themes": [
 				"Dragon",
 				"Sinnoh",
-				"Villain.",
+				"Villain",
 				"Gadgeteer"
 			],
 			"tags": [
@@ -15192,7 +15174,7 @@
 				"Sinnoh",
 				"Sygna Suit",
 				"Scarf",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -15200,7 +15182,6 @@
 				"isMan",
 				"Wish Zone",
 				"Mythical",
-				"Villain Arc",
 				"Unique Costume",
 				"Grid5",
 				"GridExpansion",
@@ -15239,7 +15220,7 @@
 			"themes": [
 				"Ice",
 				"Sinnoh",
-				"Villain.",
+				"Villain",
 				"Gadgeteer"
 			],
 			"tags": [
@@ -15284,7 +15265,7 @@
 			"themes": [
 				"Bug",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Grown Woman",
 				"Alola Adventurer"
 			],
@@ -15335,7 +15316,7 @@
 			"themes": [
 				"Psychic",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Sygna Suit",
 				"Grown Woman"
 			],
@@ -15386,7 +15367,7 @@
 			"themes": [
 				"Grass",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Grown Woman",
 				"Alola Adventurer"
 			],
@@ -15431,7 +15412,7 @@
 			"themes": [
 				"Water",
 				"Alola",
-				"Villain.",
+				"Villain",
 				"Grown Woman",
 				"Alola Adventurer"
 			],
@@ -15475,7 +15456,7 @@
 				"Normal",
 				"Alola",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Alola Adventurer"
 			],
 			"tags": [
@@ -15522,7 +15503,7 @@
 				"Poison",
 				"Alola",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Alola Adventurer"
 			],
 			"tags": [
@@ -15566,7 +15547,7 @@
 				"Alola",
 				"Rival",
 				"Sygna Suit",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Mythical",
@@ -15613,7 +15594,7 @@
 				"Ice",
 				"Alola",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Alola Adventurer"
 			],
 			"tags": [
@@ -16029,7 +16010,7 @@
 			"themes": [
 				"Poison",
 				"Kanto",
-				"Villain.",
+				"Villain",
 				"Team Rocket Forever"
 			],
 			"tags": [
@@ -16899,7 +16880,6 @@
 				"Wish Zone",
 				"isWoman",
 				"Rebuff",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -16994,7 +16974,7 @@
 				"Electric",
 				"Unova",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Unova Adventurer"
 			],
 			"tags": [
@@ -17137,7 +17117,7 @@
 				"Psychic",
 				"Unova",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Unova Adventurer"
 			],
 			"tags": [
@@ -17194,7 +17174,6 @@
 				"Legendary",
 				"Grid5",
 				"Song Key",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -17283,7 +17262,7 @@
 				"Rock",
 				"Unova",
 				"Rival",
-				"Villain.",
+				"Villain",
 				"Unova Adventurer"
 			],
 			"tags": [
@@ -17538,7 +17517,6 @@
 				"Starter",
 				"Grid5",
 				"GridExpansion",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -17807,7 +17785,7 @@
 			"themes": [
 				"Flying",
 				"Kalos",
-				"Villain.",
+				"Villain",
 				"Gadgeteer",
 				"Old Colleagues"
 			],
@@ -17855,7 +17833,7 @@
 			"themes": [
 				"Water",
 				"Kalos",
-				"Villain.",
+				"Villain",
 				"Sygna Suit",
 				"Researcher"
 			],
@@ -17868,7 +17846,6 @@
 				"Weather",
 				"Grid5",
 				"Song Key",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -17907,7 +17884,7 @@
 			"themes": [
 				"Fire",
 				"Kalos",
-				"Villain.",
+				"Villain",
 				"Sygna Suit",
 				"Sunglasses"
 			],
@@ -18396,7 +18373,6 @@
 				"Multiple Units",
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -19126,7 +19102,6 @@
 				"Shiny",
 				"Grid5",
 				"Song Key",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"Unique Costume",
 				"SyncMovePhysical",
@@ -19997,7 +19972,7 @@
 			"themes": [
 				"Ice",
 				"Unova",
-				"Villain.",
+				"Villain",
 				"Cape"
 			],
 			"tags": [
@@ -20048,7 +20023,7 @@
 			"themes": [
 				"Ice",
 				"Unova",
-				"Villain.",
+				"Villain",
 				"Sygna Suit",
 				"Cape"
 			],
@@ -20361,7 +20336,7 @@
 			"themes": [
 				"Ground",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Glasses",
 				"Researcher"
 			],
@@ -20415,7 +20390,7 @@
 			"themes": [
 				"Ground",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Seasonal Outfit",
 				"Glasses"
 			],
@@ -20463,7 +20438,7 @@
 			"themes": [
 				"Water",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Body Builder",
 				"Nature Lover"
 			],
@@ -20516,7 +20491,7 @@
 			"themes": [
 				"Grass",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Seasonal Outfit",
 				"Body Builder"
 			],
@@ -20625,7 +20600,6 @@
 				"Multiple Units",
 				"isWoman",
 				"ZMove",
-				"Villain Arc",
 				"Unique Costume",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -22430,7 +22404,6 @@
 				"Multiple Units",
 				"Multiple Pokemon",
 				"Multiple Pairs",
-				"Villain Arc",
 				"First Unit",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -23087,7 +23060,6 @@
 			"tags": [
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -23125,7 +23097,7 @@
 			"themes": [
 				"Ground",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
@@ -23135,7 +23107,6 @@
 				"Multiple Pokemon",
 				"isWoman",
 				"Wish Zone",
-				"Villain Arc",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -23682,7 +23653,6 @@
 			"tags": [
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"First Unit",
 				"Grid3",
 				"GridExpansion",
@@ -23816,7 +23786,7 @@
 			"themes": [
 				"Steel",
 				"Unova",
-				"Villain.",
+				"Villain",
 				"Glasses",
 				"Researcher"
 			],
@@ -23825,7 +23795,6 @@
 				"GridExpansion",
 				"Grid3",
 				"Song Key",
-				"Villain Arc",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMoveSpecial",
@@ -23911,7 +23880,6 @@
 				"isWoman",
 				"Starter",
 				"Multiple Units",
-				"Villain Arc",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -24087,7 +24055,6 @@
 				"isWoman",
 				"Limited",
 				"Grid5",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"First Unit",
 				"Wish Zone",
@@ -24135,7 +24102,6 @@
 				"Rebuff",
 				"Grid5",
 				"Song Key",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"First Unit",
 				"SyncMovePhysical",
@@ -24757,7 +24723,7 @@
 			"themes": [
 				"Steel",
 				"Galar",
-				"Villain.",
+				"Villain",
 				"Passionate Spirit"
 			],
 			"tags": [
@@ -24766,7 +24732,6 @@
 				"Weather",
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"Multiple Units",
 				"First Unit",
 				"SyncMovePhysical",
@@ -24806,7 +24771,7 @@
 			"themes": [
 				"Steel",
 				"Galar",
-				"Villain.",
+				"Villain",
 				"Passionate Spirit"
 			],
 			"tags": [
@@ -24850,7 +24815,7 @@
 			"themes": [
 				"Poison",
 				"Galar",
-				"Villain.",
+				"Villain",
 				"Researcher",
 				"Grown Woman"
 			],
@@ -24861,7 +24826,6 @@
 				"Rebuff",
 				"Song Key",
 				"Multiple Pokemon",
-				"Villain Arc",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -25231,7 +25195,6 @@
 				"Wish Zone",
 				"isMan",
 				"Song Key",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"First Unit",
 				"SyncMovePhysical",
@@ -25277,7 +25240,6 @@
 				"Eeveelution",
 				"Limited",
 				"isWoman",
-				"Villain Arc",
 				"Multiple Pokemon",
 				"First Unit",
 				"SyncMovePhysical",
@@ -25315,7 +25277,7 @@
 			"themes": [
 				"Dark",
 				"Johto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -25357,7 +25319,7 @@
 			"themes": [
 				"Poison",
 				"Johto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -25400,7 +25362,7 @@
 			"themes": [
 				"Poison",
 				"Johto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -25441,7 +25403,7 @@
 			"themes": [
 				"Flying",
 				"Johto",
-				"Villain."
+				"Villain"
 			],
 			"tags": [
 				"Limited",
@@ -30962,7 +30924,7 @@
 			"themes": [
 				"Normal",
 				"Sinnoh",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
@@ -31004,7 +30966,7 @@
 			"themes": [
 				"Poison",
 				"Sinnoh",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
@@ -31048,7 +31010,7 @@
 			"themes": [
 				"Fighting",
 				"Sinnoh",
-				"Villain.",
+				"Villain",
 				"Knowledgeable"
 			],
 			"tags": [
@@ -31091,7 +31053,7 @@
 			"themes": [
 				"Ground",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
@@ -31134,7 +31096,7 @@
 			"themes": [
 				"Water",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
@@ -31180,7 +31142,7 @@
 			"themes": [
 				"Water",
 				"Hoenn",
-				"Villain.",
+				"Villain",
 				"Battle Partner"
 			],
 			"tags": [
