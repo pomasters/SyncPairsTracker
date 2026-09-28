@@ -1,5 +1,5 @@
 {
-	"VERSION": "v2.72.0",
+	"VERSION": "v2.73.0",
 	"SYNCPAIRS": [
 		{
 			"dexNumber": "001",
@@ -6126,6 +6126,48 @@
 			"internalPokemonName": "pm0448_00_lucario"
 		},
 		{
+			"dexNumber": "049",
+			"trainerName": "Korrina",
+			"trainerAlt": "",
+			"pokemonNumber": "0067",
+			"pokemonName": "Machoke",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Fighting",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Tech",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-10-01",
+			"syncPairAcquisition": "Trainer Lodge Exchange",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Korrina_0067_4.png",
+				"icons/Korrina_0067_5.png",
+				"icons/Korrina_0067_EX.png"
+			],
+			"themes": [
+				"Fighting",
+				"Kalos",
+				"Gym Leader",
+				"Passionate Spirit"
+			],
+			"tags": [
+				"Multiple Units",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeElectric",
+				"MoveTypeFighting"
+			],
+			"internalTrainerName": "ch0012_00_corni",
+			"internalPokemonName": "pm0067_00_goriky"
+		},
+		{
 			"dexNumber": "050",
 			"trainerName": "Ramos",
 			"trainerAlt": "",
@@ -8367,6 +8409,50 @@
 			"internalPokemonName": "pm0244_00_entei"
 		},
 		{
+			"dexNumber": "066",
+			"trainerName": "Lyra",
+			"trainerAlt": "Special Costume",
+			"pokemonNumber": "0183",
+			"pokemonName": "Marill",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Water",
+			"pokemonWeak": "Poison",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-28",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Johto",
+			"syncPairIcon": "Master",
+			"images": [
+				"icons/Lyra_0183_5.png",
+				"icons/Lyra_0183_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Johto",
+				"Special Costume",
+				"Pigtails",
+				"Pokéathlete"
+			],
+			"tags": [
+				"Unique Costume",
+				"Multiple Units",
+				"isWoman",
+				"Master Passive Teamwork",
+				"SyncMovePhysical",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0002_41_kotone",
+			"internalPokemonName": "pm0183_00_maril"
+		},
+		{
 			"dexNumber": "067",
 			"trainerName": "Hilbert",
 			"trainerAlt": "",
@@ -10384,7 +10470,6 @@
 				"Multiple Units",
 				"Multiple Pokemon",
 				"isMan",
-				"Song Key",
 				"Neo Champion",
 				"Master Passive",
 				"SyncMovePhysical",
@@ -17794,6 +17879,57 @@
 			"internalPokemonName": "pm0773_00_steam"
 		},
 		{
+			"dexNumber": "115",
+			"trainerName": "Lysandre",
+			"trainerAlt": "Sygna Suit (Alt.)",
+			"pokemonNumber": "1004",
+			"pokemonName": "Chi-Yu",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Fire",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-02",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Lysandre_1004_5.png",
+				"icons/Lysandre_1004_EX.png"
+			],
+			"themes": [
+				"Fire",
+				"Kalos",
+				"Villain.",
+				"Sygna Suit",
+				"Sunglasses"
+			],
+			"tags": [
+				"Legendary",
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Weather",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeFire"
+			],
+			"internalTrainerName": "ch0196_11_fleurdelis",
+			"internalPokemonName": "pm1004_00_00_yiyui"
+		},
+		{
 			"dexNumber": "116",
 			"trainerName": "Professor Sycamore",
 			"trainerAlt": "",
@@ -19871,6 +20007,7 @@
 				"Grid3",
 				"GridExpansion",
 				"Song Key",
+				"Multiple Units",
 				"Multiple Pokemon",
 				"First Unit",
 				"SyncMoveSpecial",
@@ -19881,6 +20018,56 @@
 			],
 			"internalTrainerName": "ch0195_00_ghetsis",
 			"internalPokemonName": "pm0646_11_kyurem"
+		},
+		{
+			"dexNumber": "124",
+			"trainerName": "Ghetsis",
+			"trainerAlt": "Sygna Suit",
+			"pokemonNumber": "1002",
+			"pokemonName": "Chien-Pao",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Ice",
+			"pokemonWeak": "Fighting",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-09-30",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Unova",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Ghetsis_1002_5.png",
+				"icons/Ghetsis_1002_EX.png"
+			],
+			"themes": [
+				"Ice",
+				"Unova",
+				"Villain.",
+				"Sygna Suit",
+				"Cape"
+			],
+			"tags": [
+				"Legendary",
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Unique Costume",
+				"Multiple Units",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeIce"
+			],
+			"internalTrainerName": "ch0195_10_ghetsis",
+			"internalPokemonName": "pm1002_00_00_paojian"
 		},
 		{
 			"dexNumber": "125",
@@ -20185,6 +20372,7 @@
 				"isMan",
 				"Weather",
 				"Legendary",
+				"Multiple Units",
 				"Multiple Pokemon",
 				"Song Key",
 				"Master Passive Pride",
@@ -20197,6 +20385,56 @@
 			],
 			"internalTrainerName": "ch0192_00_matsubusa",
 			"internalPokemonName": "pm0383_00_groudon"
+		},
+		{
+			"dexNumber": "127",
+			"trainerName": "Maxie",
+			"trainerAlt": "Fall 2026",
+			"pokemonNumber": "1003",
+			"pokemonName": "Ting-Lu",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Ground",
+			"pokemonWeak": "Water",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-16",
+			"syncPairAcquisition": "Seasonal Scout",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Maxie_1003_5.png",
+				"icons/Maxie_1003_EX.png"
+			],
+			"themes": [
+				"Ground",
+				"Hoenn",
+				"Villain.",
+				"Seasonal Outfit",
+				"Glasses"
+			],
+			"tags": [
+				"Legendary",
+				"Fall",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Unique Costume",
+				"Multiple Units",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"MoveTypeGround"
+			],
+			"internalTrainerName": "ch0192_40_matsubusa",
+			"internalPokemonName": "pm1003_00_00_dinlu"
 		},
 		{
 			"dexNumber": "128",
@@ -20236,6 +20474,7 @@
 				"isMan",
 				"Weather",
 				"Legendary",
+				"Multiple Units",
 				"Multiple Pokemon",
 				"Song Key",
 				"Master Passive Spirit",
@@ -20247,6 +20486,58 @@
 			],
 			"internalTrainerName": "ch0193_00_aogiri",
 			"internalPokemonName": "pm0382_00_kyogre"
+		},
+		{
+			"dexNumber": "128",
+			"trainerName": "Archie",
+			"trainerAlt": "Fall 2026",
+			"pokemonNumber": "1001",
+			"pokemonName": "Wo-Chien",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Grass",
+			"pokemonWeak": "Bug",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-14",
+			"syncPairAcquisition": "Seasonal Scout",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Archie_1001_5.png",
+				"icons/Archie_1001_EX.png"
+			],
+			"themes": [
+				"Grass",
+				"Hoenn",
+				"Villain.",
+				"Seasonal Outfit",
+				"Body Builder"
+			],
+			"tags": [
+				"Legendary",
+				"Fall",
+				"Buddy Move",
+				"Limited",
+				"Terrain",
+				"TerrainEX",
+				"Unique Costume",
+				"Multiple Units",
+				"isMan",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"MoveTypeGrass",
+				"MoveTypeGround"
+			],
+			"internalTrainerName": "ch0193_40_aogiri",
+			"internalPokemonName": "pm1001_00_00_chionjen"
 		},
 		{
 			"dexNumber": "129",
@@ -22414,6 +22705,8 @@
 			"tags": [
 				"isWoman",
 				"Weather",
+				"Grid3",
+				"GridExpansion",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -30544,7 +30837,6 @@
 				"Multiple Pokemon",
 				"isMan",
 				"Lumiose City",
-				"Song Key",
 				"First Unit",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -30771,6 +31063,139 @@
 			],
 			"internalTrainerName": "ch0227_00_saturn",
 			"internalPokemonName": "pm0454_01_dokurog"
+		},
+		{
+			"dexNumber": "254",
+			"trainerName": "Tabitha",
+			"trainerAlt": "",
+			"pokemonNumber": "0323",
+			"pokemonName": "Camerupt",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Ground",
+			"pokemonWeak": "Water",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-21",
+			"syncPairAcquisition": "Spotlight Scout / General Pool",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Tabitha_0323_5.png",
+				"icons/Tabitha_0323_EX.png"
+			],
+			"themes": [
+				"Ground",
+				"Hoenn",
+				"Villain.",
+				"Battle Partner"
+			],
+			"tags": [
+				"Region Circle",
+				"Multiple Pokemon",
+				"isMan",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeGround"
+			],
+			"internalTrainerName": "ch0221_00_homura",
+			"internalPokemonName": "pm0323_00_bakuuda"
+		},
+		{
+			"dexNumber": "255",
+			"trainerName": "Shelly",
+			"trainerAlt": "",
+			"pokemonNumber": "0319",
+			"pokemonName": "Sharpedo",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Water",
+			"pokemonWeak": "Bug",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-21",
+			"syncPairAcquisition": "Spotlight Scout / General Pool",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Shelly_0319_5.png",
+				"icons/Shelly_0319_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Hoenn",
+				"Villain.",
+				"Battle Partner"
+			],
+			"tags": [
+				"Weather",
+				"Multiple Pokemon",
+				"isWoman",
+				"First Unit",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0224_00_izumi",
+			"internalPokemonName": "pm0319_00_samehader"
+		},
+		{
+			"dexNumber": "256",
+			"trainerName": "Matt",
+			"trainerAlt": "",
+			"pokemonNumber": "0319",
+			"pokemonName": "Sharpedo",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Water",
+			"pokemonWeak": "Grass",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Sprint",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-21",
+			"syncPairAcquisition": "Spotlight Scout / General Pool",
+			"syncPairRegion": "Hoenn",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Matt_0319_5.png",
+				"icons/Matt_0319_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Hoenn",
+				"Villain.",
+				"Battle Partner"
+			],
+			"tags": [
+				"Region Circle",
+				"Multiple Pokemon",
+				"GridMega",
+				"isMan",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeWater",
+				"MoveTypeDark"
+			],
+			"internalTrainerName": "ch0223_00_ushio",
+			"internalPokemonName": "pm0319_00_samehader"
 		}
 	]
 }
