@@ -649,22 +649,33 @@ function invertSelection() {
 }
 
 
+function getSelectedPairs() {
+	const hasFilter = document.getElementById("search").value !== "" || document.querySelector(".selectedFilter") !== null;
+	return document.querySelectorAll(hasFilter ? ".syncPair.selected.found" : ".syncPair.selected");
+}
+
+function exportToTextAreaAndClipboard(text) {
+	const exportTextArea = document.getElementById("exportImportZone");
+
+	exportTextArea.value = text;
+	exportTextArea.select()
+
+	navigator.clipboard.writeText(text).then(() => {
+
+		const exportLog = document.getElementById("exportImportLog");
+		exportLog.innerHTML = "Copied in clipboard!";
+		setTimeout(() => { exportLog.innerHTML = ""; }, 1000);
+
+	}).catch(err => {
+		console.error(err);
+	});
+}
+
 /* go through all selected elements, extract the needed informations and output them */
 function exportSelection() {
 	var exported = {};
 
-	var filters = Array.from(document.getElementsByClassName("selectedFilter"));
-
-	var searchValue = document.getElementById("search").value;
-	if(searchValue !== "") { filters.push(searchValue); }
-
-	var pairs = [];
-	if(parseInt(filters.length) > 0) {
-		pairs = Array.from(document.getElementsByClassName("syncPair selected found"));
-	} else {
-		pairs = Array.from(document.getElementsByClassName("syncPair selected"));
-	}
-	pairs.forEach(function(s) {
+	getSelectedPairs().forEach(function(s) {
 		var key = s.querySelector(".syncInfos .infoDexNum").innerHTML + "|" + s.querySelector(".syncInfos .infoPokemonNum").innerHTML;
 		var synLevel = s.querySelector(".syncLevel").dataset.currentimage;
 		var synImage = s.querySelector(".syncImages").dataset.currentimage;
@@ -678,27 +689,42 @@ function exportSelection() {
 		exported[key] = value;
 	})
 
-	if(pairs.length == 0 && localStorage.getItem("syncPairsTrackerBackup") !== null) {
-		document.getElementById("exportImportZone").value = localStorage.getItem("syncPairsTrackerBackup");
-	} else {
-		let exportedString = JSON.stringify(exported);
+	exportToTextAreaAndClipboard(JSON.stringify(exported));
+}
 
-		localStorage.setItem("syncPairsTrackerBackup", exportedString);
-		document.getElementById("exportImportZone").value = exportedString;
+function exportSelectionAsText() {
+	var exported = [];
 
-		navigator.clipboard.writeText(exportedString).then(() => {
-			const exportLog = document.getElementById("exportImportLog");
+	getSelectedPairs().forEach(function(s) {
+		const synTrainer = s.querySelector(".infoTrainerName")?.textContent.trim() || "";
 
-			exportLog.innerHTML = "Copied in clipboard!";
+		const altName = s.querySelector(".infoTrainerAltName")?.textContent.trim() || "";
+		const synTrainerAlt = altName ? ` (${altName})` : "";
 
-			setTimeout(() => { exportLog.innerHTML = ""; }, 1000);
+		const synPokemon = s.querySelector(".infoPokemonName");
+		const clone = synPokemon?.cloneNode(true);
+		clone?.querySelector('.infoPokemonGender')?.remove();
+		const synPokemonName = clone ? clone.textContent.trim() : "";
 
-		}).catch(err => {
-			console.error(err);
-		});
-		document.getElementById("exportImportZone").select()
-	}
+		const synLevel = parseInt(s.querySelector(".syncLevel")?.dataset.currentimage || "0") + 1;
 
+		const starValue = s.querySelector(".syncStar")?.dataset.currentstar;
+		let synStar = starValue === "6" ? " EX" : starValue != "5" ? ` ${starValue}★` : "";
+		if(synTrainer.includes("Player") && synPokemonName.includes("Alcremie")) {
+			synStar = s.querySelector(".syncImages .currentImage").src.includes("_5.png") ? "" : " 4★";
+		}
+
+		const synRoleEX = s.querySelector(".syncRoleEX")?.dataset.currentimage !== "0" ? " R" : "";
+
+		const gridValue = parseInt(s.querySelector(".syncGrid")?.dataset.currentimage || "0");
+		const synGrid = gridValue > 0 ? ` +${gridValue * 2}E` : "";
+
+		const value = `${synTrainer}${synTrainerAlt} & ${synPokemonName} [${synLevel}/5${synStar}${synRoleEX}${synGrid}]`;
+
+		exported.push(value.trim());
+	});
+
+	exportToTextAreaAndClipboard(exported.join("\n"));
 }
 
 
@@ -707,16 +733,16 @@ go through all syncpairs and apply the need change to the elements */
 function importSelection() {
 
 	var imported;
-	var importedTextAreaValue = document.getElementById("exportImportZone").value;
 
 	try {
-		if(importedTextAreaValue == "") {
-			imported = JSON.parse(localStorage.getItem("syncPairsTrackerBackup"));
-		} else {
-			imported = JSON.parse(importedTextAreaValue);
-		}
-	} catch(e) { console.log(e); return; }
-
+		imported = JSON.parse(document.getElementById("exportImportZone").value);
+	} catch(e) {
+		const exportLog = document.getElementById("exportImportLog");
+		exportLog.innerHTML = "Invalid code";
+		setTimeout(() => { exportLog.innerHTML = ""; }, 1000);
+		console.log(e);
+		return;
+	}
 
 	let invalidKeys = [];
 
@@ -1635,6 +1661,8 @@ document.getElementById("fullWidthVisible").addEventListener("click", function()
 document.getElementById("exportImportBtns").addEventListener("click", () => togglePanel("exportImport"));
 
 document.getElementById("exportSelection").addEventListener("click", exportSelection);
+
+document.getElementById("exportSelectionAsText").addEventListener("click", exportSelectionAsText);
 
 document.getElementById("importSelection").addEventListener("click", importSelection);
 
