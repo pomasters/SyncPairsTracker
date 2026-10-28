@@ -1,5 +1,5 @@
 {
-	"VERSION": "v2.73.0",
+	"VERSION": "v2.74.0",
 	"SYNCPAIRS": [
 		{
 			"dexNumber": "001",
@@ -1468,6 +1468,7 @@
 			"tags": [
 				"isMan",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -1746,6 +1747,8 @@
 			"tags": [
 				"isWoman",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Units",
 				"Terrain",
 				"Eeveelution",
@@ -4034,6 +4037,7 @@
 			],
 			"tags": [
 				"isWoman",
+				"Multiple Pokemon",
 				"First Unit",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -6422,9 +6426,10 @@
 			"tags": [
 				"isMan",
 				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
 				"ZMove",
 				"Song Key",
-				"Multiple Pokemon",
 				"First Unit",
 				"SyncMoveSpecial",
 				"AttackMoveSpecial",
@@ -6610,6 +6615,60 @@
 			],
 			"internalTrainerName": "ch0098_00_hau",
 			"internalPokemonName": "pm0128_00_kentauros"
+		},
+		{
+			"dexNumber": "054",
+			"trainerName": "Hau",
+			"trainerAlt": "Arc Suit",
+			"pokemonNumber": "0026|2",
+			"pokemonName": "Raichu",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Regional Form"
+			],
+			"pokemonType": "Electric",
+			"pokemonWeak": "Ghost",
+			"syncPairRole": "Multi",
+			"syncPairRoleEX": "Strike (Physical)",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-01",
+			"syncPairAcquisition": "Arc Suit Fair Scout",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "Arc",
+			"images": [
+				"icons/Hau_0026_2_5.png",
+				"icons/Hau_0026_2_EX.png"
+			],
+			"themes": [
+				"Electric",
+				"Alola",
+				"Rival",
+				"Arc Suit",
+				"Free Spirit"
+			],
+			"tags": [
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Terrain",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isMan",
+				"Rebuff",
+				"ZMove",
+				"Song Key",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeElectric"
+			],
+			"internalTrainerName": "ch0098_90_hau",
+			"internalPokemonName": "pm0026_61_araichu"
 		},
 		{
 			"dexNumber": "055",
@@ -7763,6 +7822,7 @@
 				"GridExpansion",
 				"GridMega",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -8291,6 +8351,8 @@
 			"tags": [
 				"isWoman",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Units",
 				"Weather",
 				"Eeveelution",
@@ -8615,6 +8677,8 @@
 				"Eeveelution",
 				"Limited",
 				"Wish Zone",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Units",
 				"Multiple Pokemon",
 				"isMan",
@@ -8951,6 +9015,8 @@
 			],
 			"tags": [
 				"Eeveelution",
+				"Grid3",
+				"GridExpansion",
 				"Limited",
 				"Terrain",
 				"Multiple Units",
@@ -9653,6 +9719,8 @@
 			"tags": [
 				"Eeveelution",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Wish Zone",
 				"Multiple Units",
 				"Multiple Pokemon",
@@ -11083,6 +11151,52 @@
 			],
 			"internalTrainerName": "ch0111_00_wataru",
 			"internalPokemonName": "pm0006_00_lizardon"
+		},
+		{
+			"dexNumber": "077",
+			"trainerName": "Lance",
+			"trainerAlt": "",
+			"pokemonNumber": "0142",
+			"pokemonName": "Aerodactyl",
+			"pokemonGender": "♂",
+			"pokemonForm": [],
+			"pokemonType": "Rock",
+			"pokemonWeak": "Electric",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-01",
+			"syncPairAcquisition": "Mix Scout",
+			"syncPairRegion": "Kanto",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Lance_0142_5.png",
+				"icons/Lance_0142_EX.png"
+			],
+			"themes": [
+				"Rock",
+				"Kanto",
+				"Champion",
+				"Cape"
+			],
+			"tags": [
+				"Fossil",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeRock"
+			],
+			"internalTrainerName": "ch0111_00_wataru",
+			"internalPokemonName": "pm0142_00_ptera"
 		},
 		{
 			"dexNumber": "078",
@@ -15465,6 +15579,8 @@
 				"Grid3",
 				"GridExpansion",
 				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
 				"Song Key",
 				"First Unit",
 				"SyncMovePhysical",
@@ -15655,6 +15771,58 @@
 			],
 			"internalTrainerName": "ch0119_40_gladion",
 			"internalPokemonName": "pm0474_00_porygon-z"
+		},
+		{
+			"dexNumber": "102",
+			"trainerName": "Gladion",
+			"trainerAlt": "Arc Suit",
+			"pokemonNumber": "0773|2",
+			"pokemonName": "Silvally",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Normal",
+			"pokemonWeak": "Fighting",
+			"syncPairRole": "Multi",
+			"syncPairRoleEX": "Strike (Physical)",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-10-30",
+			"syncPairAcquisition": "Arc Suit Fair Scout",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "Arc",
+			"images": [
+				"icons/Gladion_0773_2_5.png",
+				"icons/Gladion_0773_2_EX.png"
+			],
+			"themes": [
+				"Normal",
+				"Alola",
+				"Rival",
+				"Arc Suit",
+				"Villain"
+			],
+			"tags": [
+				"Legendary",
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isMan",
+				"Rebuff",
+				"Song Key",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeNormal"
+			],
+			"internalTrainerName": "ch0119_90_gladion",
+			"internalPokemonName": "pm0862_11_gryps2"
 		},
 		{
 			"dexNumber": "103",
@@ -16776,6 +16944,7 @@
 			"tags": [
 				"Limited",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"Rebuff",
 				"isWoman",
 				"Legendary",
@@ -19292,6 +19461,8 @@
 			"tags": [
 				"Eeveelution",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Wish Zone",
 				"Multiple Units",
 				"Multiple Pokemon",
@@ -19504,6 +19675,55 @@
 			"internalPokemonName": "pm0849_00_ashika3"
 		},
 		{
+			"dexNumber": "121",
+			"trainerName": "Selene",
+			"trainerAlt": "",
+			"pokemonNumber": "0745",
+			"pokemonName": "Lycanroc",
+			"pokemonGender": "♀",
+			"pokemonForm": [
+				"Other Form"
+			],
+			"pokemonType": "Rock",
+			"pokemonWeak": "Steel",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-01",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "Master",
+			"images": [
+				"icons/Selene_0745_5.png",
+				"icons/Selene_0745_EX.png"
+			],
+			"themes": [
+				"Rock",
+				"Alola",
+				"Main Character",
+				"Nature Lover",
+				"Alola Adventurer"
+			],
+			"tags": [
+				"Weather",
+				"Wish Zone",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"ZMove",
+				"Master Passive Teamwork",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeRock"
+			],
+			"internalTrainerName": "ch0123_00_mizuki",
+			"internalPokemonName": "pm0829_12_okami2night"
+		},
+		{
 			"dexNumber": "122",
 			"trainerName": "Elio",
 			"trainerAlt": "",
@@ -19588,6 +19808,8 @@
 			"tags": [
 				"Eeveelution",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Terrain",
 				"Multiple Units",
 				"Multiple Pokemon",
@@ -20308,6 +20530,57 @@
 			],
 			"internalTrainerName": "ch0250_00_saida",
 			"internalPokemonName": "pm0237_00_kapoerer"
+		},
+		{
+			"dexNumber": "126",
+			"trainerName": "Bea",
+			"trainerAlt": "Alt.",
+			"pokemonNumber": "0068",
+			"pokemonName": "Machamp",
+			"pokemonGender": "♀",
+			"pokemonForm": [
+				"Dynamax",
+				"Gigantamax"
+			],
+			"pokemonType": "Fighting",
+			"pokemonWeak": "Fairy",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-12",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Galar",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Bea_0068_5.png",
+				"icons/Bea_0068_EX.png"
+			],
+			"themes": [
+				"Fighting",
+				"Galar",
+				"Gym Leader",
+				"Body Builder",
+				"Sweet Tooth"
+			],
+			"tags": [
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeFighting"
+			],
+			"internalTrainerName": "ch0250_80_saida",
+			"internalPokemonName": "pm0068_00_kairiky"
 		},
 		{
 			"dexNumber": "127",
@@ -22446,6 +22719,8 @@
 			"tags": [
 				"isMan",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Units",
 				"Weather",
 				"Eeveelution",
@@ -23029,6 +23304,49 @@
 			"internalPokemonName": "pm0078_00_31_dgallop"
 		},
 		{
+			"dexNumber": "149",
+			"trainerName": "Bede",
+			"trainerAlt": "",
+			"pokemonNumber": "0857",
+			"pokemonName": "Hattrem",
+			"pokemonGender": "♀",
+			"pokemonForm": [],
+			"pokemonType": "Psychic",
+			"pokemonWeak": "Dark",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": "2026-11-01",
+			"syncPairAcquisition": "Trainer Lodge Exchange",
+			"syncPairRegion": "Galar",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Bede_0857_4.png",
+				"icons/Bede_0857_5.png",
+				"icons/Bede_0857_EX.png"
+			],
+			"themes": [
+				"Psychic",
+				"Galar",
+				"Rival",
+				"Galar Adventurer"
+			],
+			"tags": [
+				"Limited",
+				"Terrain",
+				"Multiple Units",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypePsychic"
+			],
+			"internalTrainerName": "ch0246_00_beet",
+			"internalPokemonName": "pm0857_00_00_tebrim"
+		},
+		{
 			"dexNumber": "150",
 			"trainerName": "Looker",
 			"trainerAlt": "",
@@ -23285,6 +23603,8 @@
 			],
 			"tags": [
 				"isMan",
+				"Grid3",
+				"GridExpansion",
 				"Multiple Units",
 				"Weather",
 				"Rebuff",
@@ -23576,6 +23896,114 @@
 			],
 			"internalTrainerName": "ch0242_40_masaru",
 			"internalPokemonName": "pm0820_00_00_yokubarisu"
+		},
+		{
+			"dexNumber": "157",
+			"trainerName": "Victor",
+			"trainerAlt": "Academy",
+			"pokemonNumber": "0892",
+			"pokemonName": "Urshifu",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Other Form"
+			],
+			"pokemonType": "Dark",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-12",
+			"syncPairAcquisition": "Event Reward",
+			"syncPairRegion": "Galar",
+			"syncPairIcon": "Academy",
+			"images": [
+				"icons/Victor_0892_5.png",
+				"icons/Victor_0892_EX.png"
+			],
+			"themes": [
+				"Dark",
+				"Galar",
+				"Main Character",
+				"Galar Adventurer",
+				"Pasio Academy"
+			],
+			"tags": [
+				"Legendary",
+				"Limited",
+				"Wish Zone",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isMan",
+				"Rebuff",
+				"Academy Sync Pair",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeDark"
+			],
+			"internalTrainerName": "ch0242_41_masaru",
+			"internalPokemonName": "pm0892_11_00_wulaosu"
+		},
+		{
+			"dexNumber": "157",
+			"trainerName": "Victor",
+			"trainerAlt": "Academy",
+			"pokemonNumber": "0892|2",
+			"pokemonName": "Urshifu",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Other Form"
+			],
+			"pokemonType": "Water",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Strike (Physical)",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-12",
+			"syncPairAcquisition": "Event Reward",
+			"syncPairRegion": "Galar",
+			"syncPairIcon": "Academy",
+			"images": [
+				"icons/Victor_0892_2_5.png",
+				"icons/Victor_0892_2_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Galar",
+				"Main Character",
+				"Galar Adventurer",
+				"Pasio Academy"
+			],
+			"tags": [
+				"Legendary",
+				"Limited",
+				"Weather",
+				"Region Circle",
+				"Unique Costume",
+				"Multiple Units",
+				"Multiple Pokemon",
+				"Multiple Pairs",
+				"isMan",
+				"Rebuff",
+				"Academy Sync Pair",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveSpecial",
+				"AttackMoveStatus",
+				"MoveTypeWater"
+			],
+			"internalTrainerName": "ch0242_41_masaru",
+			"internalPokemonName": "pm0892_12_00_wulaosu"
 		},
 		{
 			"dexNumber": "158",
@@ -26464,6 +26892,8 @@
 			"tags": [
 				"Eeveelution",
 				"Limited",
+				"Grid3",
+				"GridExpansion",
 				"Wish Zone",
 				"Multiple Units",
 				"Multiple Pokemon",
@@ -31158,6 +31588,54 @@
 			],
 			"internalTrainerName": "ch0223_00_ushio",
 			"internalPokemonName": "pm0319_00_samehader"
+		},
+		{
+			"dexNumber": "257",
+			"trainerName": "Dendra",
+			"trainerAlt": "",
+			"pokemonNumber": "0308",
+			"pokemonName": "Medicham",
+			"pokemonGender": "♀",
+			"pokemonForm": [
+				"Terastallization"
+			],
+			"pokemonType": "Fighting",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": "2026-11-12",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Dendra_0308_5.png",
+				"icons/Dendra_0308_EX.png"
+			],
+			"themes": [
+				"Fighting",
+				"Paldea",
+				"Body Builder",
+				"Passionate Spirit"
+			],
+			"tags": [
+				"Grid5",
+				"Buddy Move",
+				"Limited",
+				"Wish Zone",
+				"Multiple Pokemon",
+				"isWoman",
+				"First Unit",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeFighting",
+				"MoveTypePsychic"
+			],
+			"internalTrainerName": "ch0346_00_kihada",
+			"internalPokemonName": "pm0308_01_charem"
 		}
 	]
 }
