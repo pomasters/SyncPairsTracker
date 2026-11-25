@@ -54,8 +54,7 @@ function generatePairsHTML(pairs) {
 function generatePairHTML(pair, i) {
 
 	var datamine = "";
-	var dateRelease = new Date(pair.releaseDate + "T23:00:00-07:00"); //add 23:00:00 PDT
-	if(dateRelease.getTime()-86400000 > DATENOW.getTime()) { datamine = " datamine"; } // -86400000 => the previous day
+	if(pair.releaseDate*1000 > DATENOW.getTime()) { datamine = " datamine"; } // -86400000 => the previous day
 
 	var roleCombi = "roleCombi" + ROLECOMBIS[pair.syncPairRole.toLowerCase().split(" ")[0]+","+pair.syncPairRoleEX.toLowerCase().split(" ")[0]];
 
@@ -86,7 +85,7 @@ function generatePairHTML(pair, i) {
 				<p class="infoSyncPairEXPose">${pair.syncPairEXPose}</p>
 				<p class="infoSyncPairEXColor">${pair.syncPairEXColor}</p>
 				<p class="infoSyncPairSuperawakening">${pair.syncPairSuperawakening}</p>
-				<p class="infoReleaseDate">${pair.releaseDate}</p>
+				<p class="infoReleaseDate">${new Date(pair.releaseDate*1000).toLocaleDateString("sv-SE")} ${pair.version}</p>
 				<p data-order="${ACQUISITIONORDER[pair.syncPairAcquisition.toLowerCase()]}" class="infoSyncPairAcquisition">${pair.syncPairAcquisition}</p>
 				<p data-order="${REGIONSORDER[pair.syncPairRegion.toLowerCase()]}" class="infoSyncPairRegion">${pair.syncPairRegion}</p>
 				<p class="infoSyncPairThemes">${tags(pair.themes, "theme_")}</p>
@@ -1350,7 +1349,9 @@ function showSeparator(dataToSeparate) {
 		".infoReleaseDate": el => {
 			let val = el.textContent;
 			if(document.getElementById("separateByYear").checked) val = val.substring(0,4);
-			else if(document.getElementById("separateByMonth").checked) val = val.substring(0,7);
+			else if(document.getElementById("separateByMonth").checked) val = val.substring(0,7)
+			else if(document.getElementById("separateByDay").checked) val = val.substring(0,10);
+			else if(document.getElementById("separateByVersion").checked) val = val.split(" ")[1];
 			return val;
 		},
 
@@ -1703,6 +1704,7 @@ document.getElementById("showSeparator").addEventListener("change", function() {
 document.getElementById("separateByYear").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
 document.getElementById("separateByMonth").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
 document.getElementById("separateByDay").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
+document.getElementById("separateByVersion").addEventListener("click", function() { showSeparator(".infoReleaseDate"); removeEmptySeparators(); });
 
 
 
