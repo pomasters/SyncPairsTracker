@@ -121,7 +121,7 @@
 			<button class="quickbtn" value="basestar">Default star</button>
 			<button class="quickbtn" value="exstar">6★</button>
 			<button class="quickbtn" value="-player">No MC</button>
-			<button class="quickbtn" value="thismonth">This month</button>
+			<button class="quickbtn" value="lastupdate">Last Update</button>
 		</div>
 		<div id="iconsversion">
 			<a class="optbtn" target="_blank" href="./eggs">Eggs icons <i class="bi bi-box-arrow-up-right"></i></a> / Icons used in <a class="optbtn" target="_blank" href="https://pomasters.github.io/SyncPairsTracker/">Sync Pairs Tracker <i class="bi bi-box-arrow-up-right"></i></a> and <a class="optbtn" target="_blank" href="https://pomasters.github.io/Tierlist/">Tier List maker <i class="bi bi-box-arrow-up-right"></i></a>
@@ -168,6 +168,7 @@
 							data-rarity="${rarity}"
 							data-basestar="${baseStar}"
 							data-releasedate="${entry.releaseDate}"
+							data-releaseversion="v${entry.version}"
 							data-acquisition="${acquisition}">
 							<img src="${imgPath.replace("icons/", "")}" alt="${entry.trainerName} ${entry.pokemonName}" loading="lazy">
 						</div>`;
@@ -199,9 +200,10 @@
 				const rarity = icon.dataset.rarity.toLowerCase();
 				const baseStar = icon.dataset.basestar.toLowerCase();
 				const releasedate = icon.dataset.releasedate.toLowerCase();
+				const releaseversion = icon.dataset.releaseversion.toLowerCase();
 				const acquisition = icon.dataset.acquisition.toLowerCase();
 
-				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${baseStar} ${releasedate} ${acquisition}`;
+				const fullText = `${name} ${pokemon} ${type} ${region} ${role} ${rarity} ${baseStar} ${releasedate} ${releaseversion} ${acquisition}`;
 
 				const matchesGroup = groups.some(group => {
 					const words = group.split(/\s+/);
@@ -229,8 +231,8 @@
 				const searchbar = document.getElementById('searchBar');
 				let tosearch = this.value;
 
-				if(tosearch == "thismonth") {
-					tosearch = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`
+				if(tosearch == "lastupdate") {
+					tosearch = `${VERSION}`
 				}
 
 				if(searchbar.value.toLowerCase().includes(tosearch)) {
