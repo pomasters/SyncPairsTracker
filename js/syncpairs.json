@@ -1,5 +1,5 @@
 {
-	"VERSION": "v2.74.0",
+	"VERSION": "v2.75.0",
 	"SYNCPAIRS": [
 		{
 			"trainerId": "18000000000",
@@ -922,6 +922,8 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Grid3",
+				"GridExpansion",
 				"isWoman",
 				"Eeveelution",
 				"Multiple Pokemon",
@@ -9421,6 +9423,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isWoman",
 				"Starter",
 				"Grid3",
@@ -10381,6 +10384,63 @@
 			],
 			"trainerActorId": "ch0003_00_calme",
 			"pokemonActorId": "pm0767_00_ninnfi"
+		},
+		{
+			"trainerId": "10003100000",
+			"dexNumber": "071",
+			"trainerName": "Calem",
+			"trainerAlt": "Sygna Suit",
+			"pokemonNumber": "0655",
+			"pokemonName": "Delphox",
+			"pokemonGender": "",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Psychic",
+			"pokemonWeak": "Water",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": 1796018400,
+			"version": "2.75.0",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Calem_0655_5.png",
+				"icons/Calem_0655_EX.png"
+			],
+			"themes": [
+				"Psychic",
+				"Kalos",
+				"Main Character",
+				"Sygna Suit",
+				"Cape"
+			],
+			"tags": [
+				"Multiple Units",
+				"isMan",
+				"Grid5",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypePsychic",
+				"Terrain: Psychic",
+				"Move Break: Special",
+				"Status: Burn",
+				"Interference: Confusion",
+				"Starter",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Unique Costume",
+				"Multiple Pokemon",
+				"AttackMoveStatus"
+			],
+			"trainerActorId": "ch0003_10_calme",
+			"pokemonActorId": "pm0719_00_fox3"
 		},
 		{
 			"trainerId": "10153000000",
@@ -15547,6 +15607,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isWoman",
 				"Starter",
 				"First Unit",
@@ -16575,6 +16636,59 @@
 			],
 			"trainerActorId": "ch0120_00_lusamine",
 			"pokemonActorId": "pm0350_01_milokaross"
+		},
+		{
+			"trainerId": "10120110000",
+			"dexNumber": "101",
+			"trainerName": "Lusamine",
+			"trainerAlt": "Sygna Suit (Alt.)",
+			"pokemonNumber": "0793",
+			"pokemonName": "Nihilego",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Rock",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Strike (Special)",
+			"syncPairRoleEX": "Field",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": 1797573600,
+			"version": "2.75.0",
+			"syncPairAcquisition": "EX Master Fair Scout",
+			"syncPairRegion": "Alola",
+			"syncPairIcon": "MasterEX",
+			"images": [
+				"icons/Lusamine_0793_5.png",
+				"icons/Lusamine_0793_EX.png"
+			],
+			"themes": [
+				"Rock",
+				"Alola",
+				"Villain",
+				"Sygna Suit",
+				"Grown Woman"
+			],
+			"tags": [
+				"Multiple Units",
+				"isWoman",
+				"Grid5",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeRock",
+				"Zone: Rock",
+				"Rebuff: Rock",
+				"Interference: Confusion",
+				"Ultra Beast",
+				"Shiny",
+				"Buddy Move",
+				"Limited",
+				"Unique Costume",
+				"Multiple Pokemon"
+			],
+			"trainerActorId": "ch0120_11_lusamine",
+			"pokemonActorId": "pm0875_00_beastred_rare"
 		},
 		{
 			"trainerId": "10119000000",
@@ -19421,6 +19535,53 @@
 			"pokemonActorId": "pm0729_00_goat2"
 		},
 		{
+			"trainerId": "10136000003",
+			"dexNumber": "116",
+			"trainerName": "Professor Sycamore",
+			"trainerAlt": "",
+			"pokemonNumber": "0004",
+			"pokemonName": "Charmander",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Fire",
+			"pokemonWeak": "Rock",
+			"syncPairRole": "Field",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": 1796104800,
+			"version": "2.75.0",
+			"syncPairAcquisition": "Battle Points Exchange",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "Master",
+			"images": [
+				"icons/Professor Sycamore_0004_5.png",
+				"icons/Professor Sycamore_0004_EX.png"
+			],
+			"themes": [
+				"Fire",
+				"Kalos",
+				"Knowledgeable",
+				"Researcher"
+			],
+			"tags": [
+				"Multiple Units",
+				"isMan",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeFire",
+				"Weather: Sunny",
+				"Interference: Trap",
+				"Starter",
+				"AttackMoveStatus",
+				"Master Passive Teamwork"
+			],
+			"trainerActorId": "ch0136_00_platane",
+			"pokemonActorId": "pm0004_00_hitokage"
+		},
+		{
 			"trainerId": "10256000000",
 			"dexNumber": "117",
 			"trainerName": "Piers",
@@ -20855,6 +21016,7 @@
 				"Limited",
 				"Unique Costume",
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isWoman",
 				"ZMove",
 				"SyncMoveSpecial",
@@ -23762,6 +23924,7 @@
 			],
 			"tags": [
 				"Multiple Units",
+				"Multiple Pokemon",
 				"isMan",
 				"SyncMovePhysical",
 				"AttackMovePhysical",
@@ -28107,6 +28270,58 @@
 			],
 			"trainerActorId": "ch0293_00_button",
 			"pokemonActorId": "pm0133_01_00_eievui"
+		},
+		{
+			"trainerId": "10293400000",
+			"dexNumber": "187",
+			"trainerName": "Penny",
+			"trainerAlt": "Holiday 2026",
+			"pokemonNumber": "0991",
+			"pokemonName": "Iron Bundle",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Water",
+			"pokemonWeak": "Rock",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Tech",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "5",
+			"releaseDate": 1796968800,
+			"version": "2.75.0",
+			"syncPairAcquisition": "Seasonal Scout",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Penny_0991_5.png",
+				"icons/Penny_0991_EX.png"
+			],
+			"themes": [
+				"Water",
+				"Paldea",
+				"Team Star",
+				"Seasonal Outfit",
+				"Glasses"
+			],
+			"tags": [
+				"Multiple Units",
+				"isWoman",
+				"SyncMoveSpecial",
+				"AttackMoveSpecial",
+				"MoveTypeWater",
+				"Weather: Rainy",
+				"Terrain: Electric",
+				"Interference: Confusion",
+				"Paradox",
+				"Holiday",
+				"Buddy Move",
+				"Limited",
+				"Unique Costume",
+				"AttackMoveStatus"
+			],
+			"trainerActorId": "ch0293_40_button",
+			"pokemonActorId": "pm0991_00_00_tetsunotsutsumi"
 		},
 		{
 			"trainerId": "10269000000",
@@ -32901,6 +33116,7 @@
 				"Grown Woman"
 			],
 			"tags": [
+				"Multiple Units",
 				"Grid5",
 				"Buddy Move",
 				"Limited",
@@ -32915,6 +33131,54 @@
 			],
 			"trainerActorId": "ch0336_00_mimoza",
 			"pokemonActorId": "pm0748_00_00_dohidoide"
+		},
+		{
+			"trainerId": "10336000001",
+			"dexNumber": "241",
+			"trainerName": "Miriam",
+			"trainerAlt": "",
+			"pokemonNumber": "0871",
+			"pokemonName": "Pincurchin",
+			"pokemonGender": "",
+			"pokemonForm": [],
+			"pokemonType": "Electric",
+			"pokemonWeak": "Ground",
+			"syncPairRole": "Support",
+			"syncPairRoleEX": "",
+			"syncPairEXPose": true,
+			"syncPairEXColor": false,
+			"syncPairSuperawakening": false,
+			"syncPairRarity": "4",
+			"releaseDate": 1796104800,
+			"version": "2.75.0",
+			"syncPairAcquisition": "Trainer Lodge Exchange",
+			"syncPairRegion": "Paldea",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Miriam_0871_4.png",
+				"icons/Miriam_0871_5.png",
+				"icons/Miriam_0871_EX.png"
+			],
+			"themes": [
+				"Electric",
+				"Paldea",
+				"Sweet Tooth",
+				"Grown Woman"
+			],
+			"tags": [
+				"Multiple Units",
+				"isWoman",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"MoveTypeElectric",
+				"Terrain: Electric",
+				"Status: Paralysis",
+				"AttackMoveStatus",
+				"Multiple Pokemon",
+				"Limited"
+			],
+			"trainerActorId": "ch0336_00_mimoza",
+			"pokemonActorId": "pm0871_00_00_bachinuni"
 		},
 		{
 			"trainerId": "10363000000",
@@ -33767,6 +34031,64 @@
 			],
 			"trainerActorId": "ch0346_00_kihada",
 			"pokemonActorId": "pm0308_01_charem"
+		},
+		{
+			"trainerId": "10368000000",
+			"dexNumber": "258",
+			"trainerName": "Paxton",
+			"trainerAlt": "",
+			"pokemonNumber": "0500",
+			"pokemonName": "Emboar",
+			"pokemonGender": "♂",
+			"pokemonForm": [
+				"Mega Evolution"
+			],
+			"pokemonType": "Fire",
+			"pokemonWeak": "Flying",
+			"syncPairRole": "Sprint",
+			"syncPairRoleEX": "Support",
+			"syncPairEXPose": true,
+			"syncPairEXColor": true,
+			"syncPairSuperawakening": true,
+			"syncPairRarity": "5",
+			"releaseDate": 1795845600,
+			"version": "2.75.0",
+			"syncPairAcquisition": "EX Fair Scout",
+			"syncPairRegion": "Kalos",
+			"syncPairIcon": "none",
+			"images": [
+				"icons/Paxton_0500_5.png",
+				"icons/Paxton_0500_EX.png"
+			],
+			"themes": [
+				"Fire",
+				"Kalos",
+				"Main Character",
+				"Knowledgeable"
+			],
+			"tags": [
+				"isMan",
+				"Grid5",
+				"SyncMovePhysical",
+				"AttackMovePhysical",
+				"AttackMoveStatus",
+				"MoveTypeFire",
+				"Weather: Sunny",
+				"Circle: Physical",
+				"Move Break: Physical",
+				"Status: Burn",
+				"Interference: Trap",
+				"Starter",
+				"GridMega",
+				"Buddy Move",
+				"Limited",
+				"Multiple Pokemon",
+				"Lumiose City",
+				"Song Key",
+				"First Unit"
+			],
+			"trainerActorId": "ch0368_00_kyoya",
+			"pokemonActorId": "pm0500_00_enbuoh"
 		}
 	]
 }
