@@ -54,7 +54,7 @@ function generatePairsHTML(pairs) {
 function generatePairHTML(pair, i) {
 
 	var datamine = "";
-	if(pair.releaseDate*1000 > DATENOW.getTime()) { datamine = " datamine"; } // -86400000 => the previous day
+	if(pair.releaseDate*1000 > DATENOW.getTime()) { datamine = " datamine"; }
 
 	var roleCombi = "roleCombi" + ROLECOMBIS[pair.syncPairRole.toLowerCase().split(" ")[0]+","+pair.syncPairRoleEX.toLowerCase().split(" ")[0]];
 
